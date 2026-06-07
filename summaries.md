@@ -1,5 +1,6 @@
 ## 2026-06-06 11:56
 
+<!-- EN -->
 Excellent! I now have a comprehensive set of results. Let me compile everything into a well-structured summary.
 
 ---
@@ -49,6 +50,57 @@ Excellent! I now have a comprehensive set of results. Let me compile everything 
 - **Google Blog – 2025 Research Breakthroughs:** https://blog.google/innovation-and-ai/products/2025-research-breakthroughs
 - **Crescendo AI – Latest AI News & Updates (Safety):** https://www.crescendo.ai/news/latest-ai-news-and-updates
 - **Artificial Intelligence News:** https://www.artificialintelligence-news.com
+
+<!-- ZH -->
+很好！我現在已有一套完整的結果。以下將所有內容整理成結構清晰的摘要。
+
+---
+
+### 頭條新聞
+
+- **OpenAI 發布 GPT-5 及 Codex 整合功能：** OpenAI 於 2025 年 OpenAI DevDay 大會上發布了其迄今最強大的模型 GPT-5，以及由 GPT-5-Codex 驅動、支援直接整合 Slack 的 AI 程式碼工具。
+- **SpaceX 收購 xAI，完成歷史性合併：** 伊隆·馬斯克完成了 SpaceX 與其 AI 新創公司 xAI（Grok 的開發商）的大規模合併，合併後實體估值約達 1.25 兆美元，成為全球市值最高的私人企業。
+- **xAI 人才流失——逾 50 名研究人員離職：** SpaceX 與 xAI 合併後，超過 50 名參與 Grok 模型研發的研究人員與工程師相繼離職，其中許多人已被 Meta 及 Thinking Machines 延攬。
+- **Google 深化 Gemini 於 Workspace 的整合：** Google 在 Docs、Sheets、Slides 及 Drive 等產品中全面推出重大 Gemini AI 更新，將 Gemini 定位為嵌入其整個產品系列的通用 AI 助理。
+- **高盛預測 SpaceXAI 營收於 2030 年將達 3,220 億美元：** 高盛預測，SpaceX 的 AI 部門營收將從 2025 年的 32 億美元，大幅攀升至 2030 年的 3,220 億美元。
+- **川普簽署行政命令規範 AI 監管：** 川普總統於 2025 年 12 月簽署行政命令，試圖限制各州對 AI 的監管權力，建立「最低限度負擔的全國性框架」，此舉與加州及科羅拉多州的相關法律直接衝突。
+- **歐盟《AI 法案》條款生效，美國各州加速立法：** 歐盟《AI 法案》關鍵條款正式生效，與此同時，美國各州——尤其是加州——正積極執行涉及資料隱私、醫療保健及消費者保護等領域的新 AI 法規。
+- **代理式 AI 主導企業應用趨勢：** 2025 年被業界廣泛譽為「AI 代理元年」，多代理生態系統正在客戶服務、電子商務及企業工作流程中全面取代單一功能的聊天機器人。
+- **Google 發布 2025 年研究突破報告：** Google 重點介紹了八大研究進展領域，涵蓋 Gemini 3 與 Gemma 3 模型，並在推理能力、多模態應用及 AI 科學研究方面取得重大進展。
+- **AI 生成兒童性剝削素材舉報數量突破百萬：** 向美國失蹤與受剝削兒童救援中心舉報的 AI 生成兒童性剝削素材案例，已從 2023 年的數千件激增至 2025 年的逾百萬件，引發迫切的安全警示。
+
+---
+
+### 分析
+
+**AI 軍備競賽正將權力集中於頂端。** SpaceX 與 xAI 的重磅合併，標誌著 AI 競賽進入新階段——運算基礎設施與 AI 能力正被垂直整合於同一旗下。高盛預測 SpaceXAI 營收將於 2030 年突破 3,220 億美元，財務上的賭注之高前所未有。與此同時，OpenAI 發布 GPT-5，以及 Google 在 Workspace 全面推進 Gemini 整合，均清楚表明前沿模型競賽非但未曾放緩，反而正在加速。「AI 史上最重要的一週」這一說法反覆出現，折射出重大公告的發布節奏之快——如今重要的產品發布幾乎每週都在上演。
+
+**代理式 AI 是 2025 年最具決定性的架構轉變。** 業界已明確從單一功能聊天機器人，轉向能夠自主執行多步驟推理與行動的多代理系統——涵蓋訂購商品、管理工作流程，乃至跨企業工具協作等應用場景。IBM、OpenAI 及數十家新創公司都在競相定義「代理式」的實際意涵。然而，炒作與現實之間的落差仍相當顯著：客戶服務與程式碼生成是明確的成功案例，但完全自主的企業代理在可靠性與信任度方面仍面臨重重障礙。
+
+**監管環境正在分裂，且形勢日趨緊迫。** 美國聯邦政府與各州之間，在 AI 治理議題上已出現重大裂痕。川普政府的解除管制行政命令，正與加州及科羅拉多州的全面 AI 法規迎頭相撞，可能引發潛在的憲法爭議。與此同時，歐盟《AI 法案》已正式具有約束力，迫使全球企業遵守透明度與安全規範。或許最令人警惕的是，AI 生成有害內容的爆炸式增長——兒童性剝削素材舉報案例已超過百萬件——正在加速各方呼籲建立更強有力的安全防護機制，無論政治立場為何。*誰*來治理 AI、*如何*治理，如今已與 AI 技術本身同樣迫在眉睫。
+
+---
+
+### 來源
+
+- **路透社——AI 新聞中心：** https://www.reuters.com/technology/artificial-intelligence
+- **Crescendo AI——最新 AI 新聞與動態（2025 年 9 月至 12 月）：** https://www.crescendo.ai/news/latest-ai-news-and-developments-sept-to-dec-2025
+- **世界經濟論壇——2025 年 AI 重要事件：** https://www.weforum.org/stories/2025/12/the-top-ai-stories-from-2025
+- **The Verge——OpenAI DevDay 2025 最新動態：** https://www.theverge.com/news/640086/openai-chat-gpt-news-updates
+- **Axios——OpenAI GPT-5 發布：** https://www.axios.com/2025/07/24/openai-gpt-5-august-2025
+- **OpenAI 新聞室：** https://openai.com/news
+- **Google 部落格——Gemini 新聞與更新：** https://blog.google/products-and-platforms/products/gemini
+- **ITPro——Google Workspace Gemini 重大更新：** https://www.itpro.com/technology/artificial-intelligence/google-workspace-just-got-a-huge-gemini-update
+- **BBC 新聞——SpaceX 收購 xAI：** https://www.bbc.com/news/articles/cq6vnrye06po
+- **The Information——xAI 研究人員出走潮：** https://www.theinformation.com/articles/spacexai-exodus-50-recent-exits-meta-thinking-machines-hire-staff
+- **維基百科——SpaceXAI：** https://en.wikipedia.org/wiki/SpaceXAI
+- **Cooley Law——川普 AI 監管行政命令：** https://www.cooley.com/news/insight/2025/2025-12-12-showdown-new-executive-order-puts-federal-government-and-states-on-a-collision-course-over-ai-regulation
+- **Credo AI——2025 年 AI 關鍵法規：** https://www.credo.ai/blog/key-ai-regulations-in-2025-what-enterprises-need-to-know
+- **Luminance——2025 年 AI 突破（代理式 AI）：** https://www.luminance.com/resources/insights/a-deep-dive-into-the-ai-breakthroughs-of-2025
+- **IBM——2025 年 AI 代理：** https://www.ibm.com/think/insights/ai-agents-2025-expectations-vs-reality
+- **Google 部落格——2025 年研究突破：** https://blog.google/innovation-and-ai/products/2025-research-breakthroughs
+- **Crescendo AI——最新 AI 新聞與更新（安全議題）：** https://www.crescendo.ai/news/latest-ai-news-and-updates
+- **人工智慧新聞網：** https://www.artificialintelligence-news.com
 
 ## 2026-06-07 09:52
 
