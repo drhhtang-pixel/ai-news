@@ -304,40 +304,208 @@ def generate_index_page(entries: list[tuple[str, str, str]]) -> str:
 def generate_about_page() -> str:
     body = """
     <div class="lang-en">
-      <h2>About This Project</h2>
-      <h3>What it does</h3>
-      <p>AI News Monitor is an autonomous agent that searches the web for the latest AI news every day and publishes a structured bilingual summary.</p>
-      <h3>How it works</h3>
+
+      <h2>Part 1 — How the Agent Works</h2>
+
+      <h3>Architecture</h3>
+      <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
+Every day at 08:00
+       │
+       ▼
+  cron / run.sh
+       │
+       ▼
+  agent.py ◄──────────────────────────────────────────────────────┐
+       │                                                           │
+       │  "Search for AI news"                                     │
+       ▼                                                           │
+  Claude (claude-sonnet-4-6)                                       │
+       │  decides what to search, runs tool calls autonomously     │
+       ▼                                                           │
+  Tavily Search API  ──── results ────────────────────────────────►│
+       (3–10 queries)           Claude synthesises &amp; writes bilingual summary
+       │
+       ▼
+  summaries.md  (append-only, bilingual Markdown)
+       │
+       ▼
+  publish.py  →  docs/YYYY-MM-DD/index.html
+             →  docs/index.html  (archive)
+             →  docs/about.html
+       │
+       ▼
+  git push  →  GitHub Pages  (public website, zero server cost)
+      </pre>
+
+      <h3>What each component does</h3>
       <ul>
-        <li><strong>Schedule</strong>: A cron job runs <code>run.sh</code> every day at 08:00.</li>
-        <li><strong>Search</strong>: Claude (claude-sonnet-4-6) uses the Tavily search API to find current AI news, running 3–10 targeted queries autonomously.</li>
-        <li><strong>Summarise</strong>: Claude synthesises results into a structured Markdown summary with Headlines, Analysis, and Sources — in both English and Traditional Chinese.</li>
-        <li><strong>Publish</strong>: <code>publish.py</code> converts the summaries into static HTML pages and <code>git push</code> deploys them to GitHub Pages automatically.</li>
+        <li><strong>cron + run.sh</strong>: Triggers the entire pipeline daily at 08:00. No human intervention required after setup.</li>
+        <li><strong>Claude (claude-sonnet-4-6)</strong>: The "brain" of the agent. It autonomously decides which queries to run, calls the search tool multiple times, then synthesises all results into a structured bilingual summary.</li>
+        <li><strong>Tavily Search API</strong>: An AI-optimised search API that returns clean, structured results suitable for LLM consumption — no HTML scraping needed.</li>
+        <li><strong>publish.py</strong>: Converts the append-only <code>summaries.md</code> into a static website. Parses dates, splits bilingual content, renders HTML with EN/ZH toggle.</li>
+        <li><strong>GitHub Pages</strong>: Serves the static site for free. Each daily page gets a permanent URL (<code>/YYYY-MM-DD/</code>).</li>
       </ul>
+
+      <h3>Why this design?</h3>
+      <ul>
+        <li><strong>Zero server cost</strong>: Static HTML on GitHub Pages — no cloud compute, no database, no maintenance.</li>
+        <li><strong>Fully autonomous</strong>: Once the cron job is set, human involvement is zero. The agent decides its own search strategy each day.</li>
+        <li><strong>Permanent archive</strong>: Every daily summary lives at its own URL forever. Nothing is overwritten.</li>
+        <li><strong>Single source of truth</strong>: <code>summaries.md</code> is the canonical data store. The website is always regenerable from it.</li>
+      </ul>
+
+      <hr>
+
+      <h2>Part 2 — How This Project Was Built (Agentic Coding)</h2>
+
+      <h3>What is Agentic Coding?</h3>
+      <p>Agentic coding is not "AI autocomplete." It is a development method where an AI participates in the <em>entire</em> software development lifecycle — understanding requirements, designing architecture, implementing features, and verifying results — while the human makes the high-level decisions and judgment calls.</p>
+      <p>The difference: a copilot suggests the next line of code. An agent takes a task description and delivers a working implementation, asking for clarification only when genuinely needed.</p>
+
+      <h3>The development flow used here</h3>
+      <p>This project was built using <strong>Spectra</strong>, a spec-driven change management workflow for agentic development:</p>
+      <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
+Human describes requirement
+       │
+       ▼
+/spectra-propose  →  AI writes: proposal.md + design.md + specs + tasks.md
+       │              (human reviews &amp; approves before any code is written)
+       ▼
+/spectra-apply    →  AI implements each task in tasks.md, one by one
+       │              (human can inspect, redirect, or veto at any point)
+       ▼
+/spectra-archive  →  change is archived; specs merged into the main spec index
+      </pre>
+      <p>This project was delivered in two changes:</p>
+      <ul>
+        <li><strong>ai-news-monitor-agent</strong>: The core agent — <code>agent.py</code>, <code>tools.py</code>, <code>writer.py</code>, <code>run.sh</code>, cron setup.</li>
+        <li><strong>github-pages-website</strong>: The static site generator — <code>publish.py</code>, bilingual HTML templates, GitHub Pages deployment.</li>
+      </ul>
+
+      <h3>What AI did vs. what the human did</h3>
+      <ul>
+        <li><strong>Human</strong>: Described the goal ("I want an AI agent that monitors AI news and publishes it online"), made architectural choices (GitHub Pages over a server, bilingual EN/ZH, cron over cloud scheduling), reviewed specs before implementation.</li>
+        <li><strong>AI</strong>: Wrote every proposal, design doc, spec, and task list. Implemented all code. Fixed bugs when they appeared. Translated the first summary retroactively into Chinese.</li>
+      </ul>
+
+      <h3>The key insight</h3>
+      <p>This project is a double demonstration of agentic AI:</p>
+      <ul>
+        <li>The <strong>product</strong> (the news monitor) is an AI agent that acts autonomously every day.</li>
+        <li>The <strong>process</strong> (how it was built) was itself agentic — AI drove implementation from spec to deployed code.</li>
+      </ul>
+      <p>The same reasoning that makes an AI agent useful for searching the web also makes it useful for writing software: give it a clear goal, the right tools, and the autonomy to decide how to proceed.</p>
+
       <h3>Tech stack</h3>
       <ul>
         <li>Python 3.12 · Anthropic SDK · Tavily API</li>
         <li>GitHub Pages (static hosting, zero cost)</li>
         <li>Vanilla HTML/CSS/JS (no frameworks)</li>
+        <li>Spectra (agentic change management) · Claude Code (AI development environment)</li>
       </ul>
+
     </div>
     <div class="lang-zh">
-      <h2>關於本專案</h2>
-      <h3>功能說明</h3>
-      <p>AI 新聞監控器是一個自主運行的 Agent，每天自動搜尋最新 AI 資訊，並發布中英雙語結構化摘要。</p>
-      <h3>運作原理</h3>
+
+      <h2>第一部分 — 這個 Agent 怎麼運作？</h2>
+
+      <h3>系統架構</h3>
+      <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
+每天早上 08:00
+       │
+       ▼
+  cron / run.sh
+       │
+       ▼
+  agent.py ◄──────────────────────────────────────────────────────┐
+       │                                                           │
+       │  「搜尋 AI 新聞」                                          │
+       ▼                                                           │
+  Claude（claude-sonnet-4-6）                                       │
+       │  自主決定搜尋策略，執行工具呼叫                             │
+       ▼                                                           │
+  Tavily Search API  ──── 搜尋結果 ──────────────────────────────►│
+       （執行 3–10 次查詢）     Claude 整合結果，生成中英雙語摘要
+       │
+       ▼
+  summaries.md（只增不改，雙語 Markdown）
+       │
+       ▼
+  publish.py  →  docs/YYYY-MM-DD/index.html（每日頁面）
+             →  docs/index.html（過往摘要索引）
+             →  docs/about.html（本頁）
+       │
+       ▼
+  git push  →  GitHub Pages（公開網站，零伺服器成本）
+      </pre>
+
+      <h3>各元件功能說明</h3>
       <ul>
-        <li><strong>排程</strong>：每天早上 08:00，cron 自動執行 <code>run.sh</code>。</li>
-        <li><strong>搜尋</strong>：Claude（claude-sonnet-4-6）透過 Tavily 搜尋 API 自主決定搜尋策略，執行 3–10 次針對性查詢。</li>
-        <li><strong>摘要</strong>：Claude 將搜尋結果整理為包含頭條新聞、分析與來源的結構化 Markdown，同時提供中英兩個版本。</li>
-        <li><strong>發布</strong>：<code>publish.py</code> 將摘要轉換為靜態 HTML 頁面，並透過 <code>git push</code> 自動部署至 GitHub Pages。</li>
+        <li><strong>cron + run.sh</strong>：每天早上 08:00 自動觸發整條流程，設定完成後不需要任何人工操作。</li>
+        <li><strong>Claude（claude-sonnet-4-6）</strong>：Agent 的「大腦」。自主決定要搜尋什麼、多次呼叫搜尋工具，最後將所有結果整合為結構化的中英雙語摘要。</li>
+        <li><strong>Tavily Search API</strong>：專為 AI 應用優化的搜尋 API，回傳乾淨的結構化結果，不需要解析 HTML。</li>
+        <li><strong>publish.py</strong>：將只增不改的 <code>summaries.md</code> 轉換為靜態網站。解析日期、拆分雙語內容、生成含語言切換功能的 HTML 頁面。</li>
+        <li><strong>GitHub Pages</strong>：免費提供靜態網站服務。每個每日頁面都有永久的 URL（<code>/YYYY-MM-DD/</code>）。</li>
       </ul>
+
+      <h3>為什麼這樣設計？</h3>
+      <ul>
+        <li><strong>零伺服器成本</strong>：GitHub Pages 提供靜態 HTML 托管，不需要雲端運算、資料庫或維運。</li>
+        <li><strong>全自動運行</strong>：cron job 設定完成後，人工介入次數為零。Agent 每天自行決定搜尋策略。</li>
+        <li><strong>永久保存</strong>：每天的摘要都有自己的 URL，永遠不會被覆蓋。</li>
+        <li><strong>單一資料來源</strong>：<code>summaries.md</code> 是唯一的資料儲存。網站隨時可以從它重新生成。</li>
+      </ul>
+
+      <hr>
+
+      <h2>第二部分 — 這個專案怎麼被做出來的（Agentic Coding）</h2>
+
+      <h3>什麼是 Agentic Coding？</h3>
+      <p>Agentic Coding 不是「AI 幫你補全程式碼」。它是一種開發方法，讓 AI 參與完整的軟體開發流程——理解需求、設計架構、實作功能、驗收結果——而人負責做高層次的判斷與決策。</p>
+      <p>差別在這裡：Copilot 建議下一行程式碼；Agent 接收任務描述，交付可運行的實作，只在真正不確定時才提問。</p>
+
+      <h3>本專案使用的開發流程</h3>
+      <p>本專案使用 <strong>Spectra</strong>——一套以 spec 為核心的 agentic 開發變更管理流程：</p>
+      <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
+人描述需求
+       │
+       ▼
+/spectra-propose  →  AI 撰寫：proposal.md + design.md + specs + tasks.md
+       │              （人在任何程式碼撰寫前先審閱並確認）
+       ▼
+/spectra-apply    →  AI 逐一實作 tasks.md 中的每個任務
+       │              （人可以隨時查看、調整方向或否決）
+       ▼
+/spectra-archive  →  變更歸檔，spec 合併進主 spec 索引
+      </pre>
+      <p>本專案分兩個 change 完成：</p>
+      <ul>
+        <li><strong>ai-news-monitor-agent</strong>：核心 Agent——<code>agent.py</code>、<code>tools.py</code>、<code>writer.py</code>、<code>run.sh</code>、cron 設定。</li>
+        <li><strong>github-pages-website</strong>：靜態網站生成器——<code>publish.py</code>、雙語 HTML 模板、GitHub Pages 部署。</li>
+      </ul>
+
+      <h3>AI 做了什麼，人做了什麼</h3>
+      <ul>
+        <li><strong>人</strong>：描述目標（「我要一個 AI Agent 監控 AI 新聞並發布上網」）、做架構決策（GitHub Pages 而非伺服器、中英雙語、cron 而非雲端排程）、在實作前審閱 spec。</li>
+        <li><strong>AI</strong>：撰寫所有 proposal、設計文件、spec 和任務清單。實作所有程式碼。發現 bug 時自行修復。將舊版摘要補譯為中文。</li>
+      </ul>
+
+      <h3>核心洞察</h3>
+      <p>這個專案是 agentic AI 的雙重示範：</p>
+      <ul>
+        <li><strong>產品</strong>（新聞監控器）是一個每天自主運行的 AI Agent。</li>
+        <li><strong>過程</strong>（開發本身）也是 agentic 的——AI 從 spec 到部署，驅動了整個實作流程。</li>
+      </ul>
+      <p>讓 AI Agent 能有效搜尋網路的同樣邏輯，也讓它能有效撰寫軟體：給它明確的目標、適當的工具，以及自主決定執行方式的空間。</p>
+
       <h3>技術架構</h3>
       <ul>
         <li>Python 3.12 · Anthropic SDK · Tavily API</li>
         <li>GitHub Pages（靜態托管，完全免費）</li>
         <li>純 HTML/CSS/JS（無前端框架）</li>
+        <li>Spectra（Agentic 變更管理）· Claude Code（AI 開發環境）</li>
       </ul>
+
     </div>
     """
     return _index_page("AI News Monitor — About", body)
