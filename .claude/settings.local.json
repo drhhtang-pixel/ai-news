@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(spectra status *)",
+      "Bash(spectra list *)",
+      "Bash(spectra task *)"
+    ]
+  }
+}

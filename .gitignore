@@ -1,0 +1,11 @@
+# Secret keys — never commit
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
