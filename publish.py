@@ -641,6 +641,12 @@ def main() -> None:
         with open(about_path, "w", encoding="utf-8") as f:
             f.write(generate_about_page())
 
+    # Preserve CNAME for custom domain
+    cname_path = os.path.join(DOCS_DIR, "CNAME")
+    if not os.path.exists(cname_path):
+        with open(cname_path, "w", encoding="utf-8") as f:
+            f.write("ainews.ditldesign.com")
+
     print(f"Published {len(entries)} pages to {DOCS_DIR}/")
 
 
