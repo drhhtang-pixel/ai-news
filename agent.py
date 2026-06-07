@@ -93,6 +93,10 @@ def run_agent(search_topic: str) -> str:
                     "content": result,
                 })
 
+        if not tool_results:
+            # stop_reason was tool_use but no tool_use blocks found — exit safely
+            break
+
         messages.append({"role": "user", "content": tool_results})
 
         if tool_call_count >= MAX_TOOL_CALLS:

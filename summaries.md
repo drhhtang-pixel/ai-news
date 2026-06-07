@@ -95,3 +95,77 @@ Excellent! I now have comprehensive coverage. Let me compile everything into the
 - **Google Blog** — The latest AI news we announced in June: https://blog.google/innovation-and-ai/products/google-ai-updates-june-2025
 - **Launch Consulting** — AI in August 2025: Breakthroughs across industries (battery materials): https://www.launchconsulting.com/posts/ai-in-august-2025-the-breakthroughs-driving-action-across-industries
 - **Crescendo AI** — Latest AI News and Developments: https://www.crescendo.ai/news/latest-ai-news-and-updates
+
+## 2026-06-07 19:07
+
+Now I have comprehensive information to write a well-structured bilingual summary. Let me compile the findings.
+
+<!-- EN -->
+### Headlines
+- **OpenAI GPT-5 Imminent Launch:** OpenAI is expected to release GPT-5 in August 2025, combining traditional and reasoning model capabilities with improved coding, multimodality, and longer context windows; mini and nano versions will also launch via API.
+- **Meta Invests $14.3 Billion in Scale AI:** Meta made a landmark $14.3B investment for a 49% stake in data startup Scale AI, valuing it at $29 billion, with Scale AI founder Alexandr Wang becoming Meta's Chief AI Officer heading its new Superintelligence Labs.
+- **FDA Launches Agency-Wide AI Tool "Elsa":** The U.S. Food and Drug Administration deployed a generative AI tool called Elsa in June 2025 to speed up scientific drug review and evaluation processes across the entire agency.
+- **Goldman Sachs Projects SpaceX AI Revenue at $322B by 2030:** As SpaceX pursues the largest-ever IPO (targeting $75B raise at a $1.77T valuation), Goldman Sachs forecasts its AI division revenue will surge 100-fold — from $3.2B in 2025 to $322B by 2030.
+- **Google's June AI Blitz:** Google rolled out major updates including faster and cheaper Gemini models, expanded AI Mode for Search with voice capabilities, new NotebookLM sharing features, and the Android-based AI Edge Gallery app for running local AI models.
+- **Humanoid Robots Complete Beijing Half-Marathon:** 21 humanoid robots competed alongside 12,000 human runners in the Beijing E-Town Half-Marathon in April/June 2025, marking a milestone in physical AI and robotics, with robot "Tiangong Ultra" winning its category.
+- **Google Gemini Robotics & Veo 3.1:** Google DeepMind launched Gemini Robotics 1.5, enabling AI agents to operate in the physical world, while also releasing generative media models Veo 3.1 and Imagen 4 for creative industries.
+
+---
+
+### Analysis
+
+The most defining trend this period is the **massive financial escalation in AI investment**. Meta's $14.3 billion bet on Scale AI — one of the largest private investment deals in history — signals that tech giants are racing to secure proprietary, high-quality training data as a strategic moat. However, this consolidation is already creating unintended consequences: competitors like Google, OpenAI, and xAI have reportedly pulled back from Scale AI engagements due to data confidentiality fears. Meanwhile, Goldman Sachs' projection that SpaceX's AI division could reach $322 billion in revenue by 2030 — a 100x jump in five years — reflects frothy investor sentiment and the enormous expectations surrounding AI-integrated businesses, even when those divisions currently operate at a loss.
+
+On the product and capability front, **AI is rapidly permeating institutional and everyday life**. The FDA's launch of Elsa marks a significant government adoption milestone, accelerating how regulatory bodies use AI to streamline complex scientific workflows. OpenAI's GPT-5 — described as a unified multimodal reasoning model — is poised to reset industry benchmarks upon its imminent August release. Google, meanwhile, is executing a broad product integration strategy, embedding AI across Search, NotebookLM, Android, and creative tools like Veo and Flow, lowering barriers for both consumers and developers. The Beijing humanoid robot marathon further demonstrates that physical AI and robotics are transitioning from lab demonstrations to real-world performance tests, signaling China's ambitions in the embodied AI race.
+
+---
+
+### Sources
+- Reuters – AI News Hub: https://www.reuters.com/technology/artificial-intelligence
+- Axios – OpenAI GPT-5 August Launch: https://www.axios.com/2025/07/24/openai-gpt-5-august-2025
+- Resolve247 – GPT-5 Everything We Know (June 2025): https://resolve247.ai/blog/gpt-5-everything-we-know-so-far-june-2025
+- New York Times – Meta Invests $14.3B in Scale AI: https://www.nytimes.com/2025/06/12/technology/meta-scale-ai.html
+- Forbes – Meta & Scale AI Investment: https://www.forbes.com/sites/janakirammsv/2025/06/23/meta-invests-14-billion-in-scale-ai-to-strengthen-model-training
+- FDA.gov – FDA Launches Agency-Wide AI Tool (Elsa): https://www.fda.gov/news-events/press-announcements/fda-launches-agency-wide-ai-tool-optimize-performance-american-people
+- Reuters – FDA Launches Elsa AI Tool: https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-launches-ai-tool-reduce-time-taken-scientific-reviews-2025-06-02
+- Yahoo Finance / Goldman Sachs – SpaceX AI Revenue Forecast: https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-predicts-spacex-revenue-163126173.html
+- Google Blog – June 2025 AI Updates: https://blog.google/innovation-and-ai/products/google-ai-updates-june-2025
+- Launch Consulting – Five AI Breakthroughs June 2025: https://www.launchconsulting.com/posts/five-ai-breakthroughs-shaping-the-future-june-2025-ai-news
+- Business Insider – Beijing Humanoid Robot Half-Marathon: https://www.businessinsider.com/photos-humanoid-robots-half-marathon-beijing-china-2025-4
+- The Diplomat – China's Humanoid Marathon: https://thediplomat.com/2025/04/chinas-humanoid-marathon-signals-a-new-kind-of-ai-race
+- LinkedIn – AI Advantage Mid-June 2025 Roundup: https://www.linkedin.com/pulse/ai-advantage-mid-june-2025-roundup-gaurav-verma-d8yfc
+
+<!-- ZH -->
+### 頭條新聞
+- **OpenAI GPT-5 即將發布：** OpenAI 預計於 2025 年 8 月推出 GPT-5，整合傳統模型與推理模型功能，具備更強的程式撰寫能力、多模態處理及更長的上下文視窗，同時推出 mini 與 nano 版本供 API 使用。
+- **Meta 以 143 億美元投資 Scale AI：** Meta 以 143 億美元取得資料新創公司 Scale AI 49% 股份，估值達 290 億美元，Scale AI 創辦人王仲陽（Alexandr Wang）轉任 Meta 首席人工智慧長，主導新成立的「超智能實驗室」。
+- **美國 FDA 全機構部署 AI 工具「Elsa」：** 美國食品藥物管理局於 2025 年 6 月推出生成式 AI 工具 Elsa，以加速全機構範圍內的科學審查與藥品評估流程。
+- **高盛預測 SpaceX AI 部門 2030 年營收將達 3,220 億美元：** 隨著 SpaceX 籌備史上最大 IPO（目標募資 750 億美元，估值達 1.77 兆美元），高盛預測其 AI 部門營收將在五年內從 32 億美元暴增 100 倍至 3,220 億美元。
+- **Google 六月 AI 全面大更新：** Google 推出更快、更低成本的 Gemini 模型、擴展搜尋 AI 模式（含語音功能）、NotebookLM 新分享功能，以及可在 Android 裝置本地運行 AI 模型的 AI Edge Gallery 應用程式。
+- **人形機器人完成北京半程馬拉松：** 21 台人形機器人與 1.2 萬名人類選手同場競技，完成北京亦莊半程馬拉松，機器人「天工 Ultra」奪得組別冠軍，標誌具身 AI 發展的重要里程碑。
+- **Google Gemini Robotics 與 Veo 3.1 發布：** Google DeepMind 推出 Gemini Robotics 1.5，使 AI 智能體能在物理世界中運作，同時發布生成式媒體模型 Veo 3.1 與 Imagen 4，賦能創意產業。
+
+---
+
+### 分析
+
+本期最顯著的趨勢是 **AI 投資規模的急劇擴大**。Meta 對 Scale AI 高達 143 億美元的投資創下私人投資紀錄，顯示科技巨頭正競相掌控高品質訓練資料作為核心競爭壁壘。然而，這場資本集中化已帶來意外效應——Google、OpenAI 與 xAI 等競爭對手因擔憂資料保密問題，已陸續縮減與 Scale AI 的合作。另一方面，高盛預測 SpaceX AI 部門 2030 年營收將達 3,220 億美元（較 2025 年成長 100 倍），反映出市場對 AI 整合型企業的高度樂觀預期，即使這些部門目前仍處於虧損狀態。
+
+在產品與應用普及層面，**AI 正快速滲透各類機構與日常生活**。FDA 部署 Elsa 是政府機構大規模採用 AI 的重要里程碑，展示了 AI 如何加速複雜的法規科學工作流程。OpenAI 即將推出的 GPT-5 被定位為首個完全整合推理能力的多模態模型，預計將重塑行業標竿。Google 則持續執行全面整合策略，將 AI 嵌入 Search、NotebookLM、Android 及 Veo、Flow 等創作工具，大幅降低使用門檻。北京人形機器人半程馬拉松更說明中國的具身 AI 與機器人技術正從實驗室走向真實世界，彰顯其在全球 AI 競賽中的雄心壯志。
+
+---
+
+### 來源
+- 路透社 – AI 新聞中心：https://www.reuters.com/technology/artificial-intelligence
+- Axios – OpenAI GPT-5 八月發布：https://www.axios.com/2025/07/24/openai-gpt-5-august-2025
+- Resolve247 – GPT-5 最新資訊（2025 年 6 月）：https://resolve247.ai/blog/gpt-5-everything-we-know-so-far-june-2025
+- 紐約時報 – Meta 投資 Scale AI：https://www.nytimes.com/2025/06/12/technology/meta-scale-ai.html
+- Forbes – Meta 與 Scale AI 投資報導：https://www.forbes.com/sites/janakirammsv/2025/06/23/meta-invests-14-billion-in-scale-ai-to-strengthen-model-training
+- FDA 官網 – FDA 全機構 AI 工具發布：https://www.fda.gov/news-events/press-announcements/fda-launches-agency-wide-ai-tool-optimize-performance-american-people
+- 路透社 – FDA 推出 Elsa：https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-launches-ai-tool-reduce-time-taken-scientific-reviews-2025-06-02
+- Yahoo Finance – 高盛 SpaceX AI 營收預測：https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-predicts-spacex-revenue-163126173.html
+- Google 官方部落格 – 2025 年 6 月 AI 更新：https://blog.google/innovation-and-ai/products/google-ai-updates-june-2025
+- Launch Consulting – 2025 年 6 月五大 AI 突破：https://www.launchconsulting.com/posts/five-ai-breakthroughs-shaping-the-future-june-2025-ai-news
+- Business Insider – 北京人形機器人半程馬拉松：https://www.businessinsider.com/photos-humanoid-robots-half-marathon-beijing-china-2025-4
+- The Diplomat – 中國人形機器人馬拉松分析：https://thediplomat.com/2025/04/chinas-humanoid-marathon-signals-a-new-kind-of-ai-race
+- LinkedIn – 2025 年 6 月中旬 AI 動態彙整：https://www.linkedin.com/pulse/ai-advantage-mid-june-2025-roundup-gaurav-verma-d8yfc
