@@ -213,7 +213,7 @@ def _page(title: str, body: str, back_link: str = "") -> str:
 <body>
 <div class="container">
   <header>
-    <h1><a href="/" style="text-decoration:none;color:inherit;">AI News Monitor</a></h1>
+    <h1><a href="../" style="text-decoration:none;color:inherit;">AI News Monitor</a></h1>
     <nav>
       {nav_back}
       <a href="../">Archive</a>
@@ -244,7 +244,7 @@ def _index_page(title: str, body: str) -> str:
 <body>
 <div class="container">
   <header>
-    <h1>AI News Monitor</h1>
+    <h1><a href="index.html" style="text-decoration:none;color:inherit;">AI News Monitor</a></h1>
     <nav>
       <a href="about.html">About</a>
     </nav>
