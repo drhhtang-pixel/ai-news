@@ -35,3 +35,5 @@
 - [x] 5.3 更新 `openspec/specs/scheduler-entrypoint/spec.md`，將 7 處 cron 相關描述改為 launchd：overview 描述、退出碼 requirement、環境變數 requirement、wrapper requirement 標題、invocation scenario、scheduling comment scenario，以及 Implementation Notes（新增 plist 路徑與補跑說明，保留原 cron 注釋供非 macOS 環境參考）。
 
 - [x] 5.4 在 `docs/about.html` 中英文版 Part 2 新增「完整紀錄是公開的 / The full record is public」段落：說明 `openspec/` 目錄結構、附上 GitHub 公開連結，並說明每個決策的脈絡都記錄於人類可讀的文件中。
+
+- [x] 5.5 在 `docs/about.html` 中英文版 Part 1 新增「Running cost / 每月運行成本」費用表：列出 Anthropic API（~$0.09/天）、Tavily Search API（免費方案）、GitHub Pages（免費），合計每月約 $3。
