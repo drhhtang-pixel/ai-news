@@ -27,6 +27,11 @@ Example:
 A list of all sources with their direct article URLs (NOT homepage URLs). Each entry MUST follow this format:
 - [Publication Name]: https://specific-article-url (published YYYY-MM-DD)
 
+STRICT RULES for Sources:
+- Only include articles published on TODAY'S DATE. Do NOT list background articles, primary documents, or prior coverage from earlier dates.
+- If the only source you found for a story is older than today, find a today's article that covers the same story instead.
+- URLs must point to specific articles, not homepages.
+
 Example:
 - TechCrunch: https://techcrunch.com/2026/06/08/openai-gpt5 (published 2026-06-08)
 
@@ -44,6 +49,8 @@ Example:
 ### 來源
 列出所有來源的直接文章網址（非首頁網址）。每條格式：
 - [媒體名稱]: https://specific-article-url (published YYYY-MM-DD)
+
+來源嚴格規定：只列今天發布的文章。不得列出背景資料、原始文件或早於今天的報導。
 
 IMPORTANT: You MUST include both <!-- EN --> and <!-- ZH --> blocks in your response, in that order. Do not omit either block. Every headline MUST include an inline source citation."""
 
