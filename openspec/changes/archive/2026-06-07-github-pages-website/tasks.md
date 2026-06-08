@@ -37,3 +37,5 @@
 - [x] 5.4 在 `docs/about.html` 中英文版 Part 2 新增「完整紀錄是公開的 / The full record is public」段落：說明 `openspec/` 目錄結構、附上 GitHub 公開連結，並說明每個決策的脈絡都記錄於人類可讀的文件中。
 
 - [x] 5.5 在 `docs/about.html` 中英文版 Part 1 新增「Running cost / 每月運行成本」費用表：列出 Anthropic API（~$0.09/天）、Tavily Search API（免費方案）、GitHub Pages（免費），合計每月約 $3。
+
+- [x] 5.6 費用表合計欄位加上幣別說明：EN 改為 `~USD $3 / month`，ZH 改為 `~USD $3 / 月（約新台幣 100 元）`。
