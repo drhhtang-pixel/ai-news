@@ -25,3 +25,9 @@
 ## 4. 初始化 GitHub 部署
 
 - [x] 4.1 初始化 git repo 並設定 remote，實作「GitHub Pages 從 docs/ 目錄提供服務」部署設計：在專案目錄執行 `git init`（若尚未初始化）、建立 `.gitignore`（排除 `.env`、`__pycache__/`、`*.pyc`、`summaries.md` 不排除），執行首次 `git add . && git commit -m "Initial commit" && git push -u origin main`，並在 GitHub repo Settings → Pages → Source 設定 main branch / docs 資料夾。驗證方式：`git remote -v` 顯示正確的 origin URL；GitHub Pages 顯示網站 URL。
+
+## 5. 歸檔後補充：改用 launchd 排程
+
+- [x] 5.1 以 macOS launchd 取代 cron：建立 `~/Library/LaunchAgents/com.drhhtang.ainews.plist`，設定每天 08:00 執行 `run.sh`，並以 `launchctl load` 載入；移除原 crontab 條目。原因：cron 在電腦睡眠時直接跳過排程，launchd 醒機後會補跑，確保每日摘要不漏跑。
+
+- [x] 5.2 更新 `docs/about.html` 中英文版本，將所有 `cron` 相關描述改為 `launchd`，包含架構圖、元件說明、「為什麼這樣設計」及開發歷程段落（共 9 處）。
