@@ -403,3 +403,87 @@ Excellent! I now have comprehensive coverage. Let me compile the final bilingual
 ### 來源
 
 - **Build Fast With AI – 2026
+
+## 2026-06-08 21:35
+
+<!-- EN -->
+### Headlines
+- **Apple confirms AI model choice in iOS 27, iPadOS 27, and macOS 27:** At WWDC on June 8, Apple announced that users will be able to select ChatGPT, Google Gemini, or Anthropic's Claude as the engine powering Apple Intelligence features like Siri, Writing Tools, and Image Playground — ending ChatGPT's exclusivity.
+- **Microsoft Azure AI Foundry reaches 11,000+ models:** Microsoft finalized its Foundry model catalog, adding Claude Opus 4.8 alongside GPT-5.5, Gemini, DeepSeek, and its own MAI family, all accessible through a single Azure endpoint and billing relationship.
+- **Anthropic's Claude Opus 4.8 officially launches:** Anthropic released Claude Opus 4.8, its most capable Opus model to date, with dramatically improved coding reliability (4x less likely to let code flaws pass unremarked) and deeper reasoning for agentic enterprise workflows.
+- **Pentagon confirms testing OpenAI and Google models to replace Anthropic:** The U.S. Department of Defense confirmed it is evaluating OpenAI and Google models for deployment on classified networks, following its earlier fallout with Anthropic over restrictions on autonomous weapons and mass surveillance use.
+- **EU AI Act high-risk enforcement deadline now 55 days away:** With the binding August 2, 2026 deadline for high-risk AI systems under Annex III rapidly approaching, organizations face a narrow and compressing compliance window, with security and privacy cited as the top barriers.
+- **BMI/Fitch Solutions declares AI the #1 most disruptive megatrend to 2050:** In a June 8 press release, BMI (a Fitch Solutions company) published findings from its 5th-edition "Towards 2050" report, ranking AI as the single most disruptive force across all global industries through mid-century.
+- **Linux Foundation report: AI driving +27% net tech hiring in Europe:** The Linux Foundation's first-ever "2026 State of Tech Talent Europe" report, released June 8, found that AI deployment is generating a net +27% hiring effect in 2026, but security/privacy concerns (51% and 44% respectively) remain the top barrier to realizing full AI value.
+- **Cognizant targets trillion-dollar Physical AI market with new sovereign PaaS:** Cognizant launched its "Intelligence Spine" — a sovereign Physical AI Platform-as-a-Service — designed to move autonomous systems from experimentation into core enterprise infrastructure.
+- **Instacart and Weis Markets roll out AI-powered Caper Carts:** The AI-driven smart shopping carts are now live at select Pennsylvania locations, with Instacart's Connected Stores technology delivering real-time spend tracking, personalized coupons, and nearly a 1 percentage point lift in basket size; Caper Carts are now in 100+ cities across 15 U.S. states.
+- **AI stock trades unwind, sparking Asia market selloff:** Bloomberg's "The Asia Trade" and "The China Show" on June 8 covered a notable unwinding of AI-related equity positions, sending Asian markets lower amid geopolitical tensions and profit-taking.
+- **AI model release wave opens for June:** Gemini 3.5 Pro and Claude Sonnet 4.8 are both expected to launch before the end of June 2026, marking one of the busiest model-release months on record.
+- **LinkedIn AI Daily Digest highlights enterprise decision automation expansion:** Enterprises are actively extending AI-powered decision support into budgeting, forecasting, and workforce planning functions, per the June 8 LinkedIn AI Digest by Safwan Alsebaei.
+
+### Analysis
+June 8, 2026 marks a pivotal moment in the democratization of frontier AI at the consumer and enterprise level. Apple's WWDC announcement that iOS 27, iPadOS 27, and macOS 27 will let users freely choose between ChatGPT, Gemini, and Claude is arguably the day's most consequential story: it signals a fundamental shift away from exclusive model partnerships toward an open, competitive AI ecosystem embedded directly in the world's most widely-used consumer operating systems. Simultaneously, Microsoft's 11,000+ model Foundry catalog and Anthropic's launch of Claude Opus 4.8 underscore an accelerating race to offer enterprises the broadest possible palette of frontier models through unified, low-friction infrastructure. The convergence of these platform moves — Apple opening at the OS layer, Microsoft unifying at the cloud layer — suggests the AI industry is rapidly transitioning from individual model competition to platform and ecosystem competition.
+
+Regulatory and geopolitical pressures are intensifying in parallel. The EU AI Act's August 2 high-risk enforcement deadline is now under two months away, and a Linux Foundation survey confirms that security and privacy concerns have overtaken even cost and skills gaps as the primary barriers to enterprise AI adoption in Europe. Meanwhile, the Pentagon's ongoing effort to replace Anthropic with OpenAI and Google on classified networks reflects how AI policy disputes are reshaping defense procurement in real time. These developments collectively point to a world where AI governance — both corporate and governmental — is becoming as strategically important as the technology itself.
+
+Physical AI and agentic automation are emerging as the next major commercial frontier. Cognizant's launch of a sovereign Physical AI Platform-as-a-Service, Instacart's expanding Caper Cart rollout across U.S. grocery stores, and BMI/Fitch's finding that AI is the #1 disruptive megatrend to 2050 all point toward AI moving decisively beyond digital software into the physical world. The Linux Foundation's finding of a net +27% tech hiring effect in Europe from AI deployment further challenges the narrative of pure job displacement, suggesting instead that organizations investing in AI are also expanding their technical headcounts — particularly for AI-specific and security roles.
+
+### Sources
+- Build Fast With AI – AI News Today June 8, 2026: https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026
+- Apple Gadget Hacks – iOS 27 Apple Intelligence AI Model Choice: https://apple.gadgethacks.com/news/ios-27-apple-intelligence-claude-vs-gemini-ai-options
+- Trending Topics EU – Apple Lets Gemini and Claude into iOS 27: https://www.trendingtopics.eu/apple-lets-gemini-and-claude-in-ios-27-will-end-chatgpt-exclusivity
+- Microsoft Tech Community – Claude Opus 4.8 in Microsoft Foundry: https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-4-8-is-now-available-in-microsoft-foundry/4523367
+- Anthropic – Introducing Claude Opus 4.8: https://www.anthropic.com/news/claude-opus-4-8
+- Microsoft Azure – Foundry Models Catalog: https://azure.microsoft.com/en-us/products/ai-foundry/models
+- Federal News Network – DoD AI deals on classified networks: https://federalnewsnetwork.com/defense-news/2026/05/dod-strikes-deals-with-major-tech-firms-to-deploy-ai-on-classified-networks
+- PR Newswire – Linux Foundation 2026 State of Tech Talent Europe: https://www.prnewswire.com/news-releases/new-linux-foundation-report-finds-ai-is-driving-positive-tech-hiring-trends-in-europe-amid-growing-security-and-skills-gaps-302793382.html
+- Yahoo Finance / Linux Foundation Report: https://finance.yahoo.com/sectors/technology/articles/linux-foundation-report-finds-ai-060000668.html
+- BMI / Fitch Solutions – AI Most Disruptive Megatrend to 2050: https://www.fitchsolutions.com/bmi/press-releases/ai-emerges-as-most-disruptive-megatrend-for-industries-through-2050-says-bmi-in-new-report-08-06-2026
+- Market Chameleon – Cognizant Physical AI PaaS: https://marketchameleon.com/articles/b/2026/6/8/cognizant-targets-trillion-dollar-physical-ai-market-with-launch-of-sovereign-platform-as-a-service
+- PR Newswire – Cognizant Sovereign Physical AI Platform: https://www.prnewswire.com/news-releases/cognizant-launches-sovereign-physical-ai-platform-as-a-service-302793025.html
+- PR Newswire – Instacart & Weis Markets Caper Carts: https://www.prnewswire.com/news-releases/instacart-and-weis-markets-launch-ai-powered-caper-carts-to-transform-in-store-shopping-302790778.html
+- Artificial Intelligence News – Weis Markets Instacart AI Carts: https://www.artificialintelligence-news.com
+- LinkedIn AI Daily Digest June 8: https://www.linkedin.com/pulse/ai-daily-digest-june-8-2026-safwan-alsebaei-mqhjf
+- Global Policy Watch – EU AI Act Update June 2026: https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions-2
+- Bloomberg YouTube – Stocks Tumble as AI Trades Unwind (Asia Trade 6/8/2026): https://www.youtube.com/watch?v=BjnpateIvUs
+
+<!-- ZH -->
+### 頭條新聞
+- **蘋果確認 iOS 27 支援多家 AI 模型選擇：** 蘋果在 6 月 8 日 WWDC 上宣布，iOS 27、iPadOS 27 及 macOS 27 將允許使用者自行選擇 ChatGPT、Google Gemini 或 Anthropic Claude，作為驅動 Apple Intelligence 功能（包括 Siri、寫作工具及 Image Playground）的 AI 引擎，終結 ChatGPT 的獨家地位。
+- **微軟 Azure AI Foundry 模型目錄突破 11,000 個：** 微軟完成 Foundry 模型目錄建置，新增 Claude Opus 4.8、GPT-5.5、Gemini、DeepSeek 及自家 MAI 系列，可透過單一 Azure 端點與統一帳單關係存取。
+- **Anthropic 正式發布 Claude Opus 4.8：** Anthropic 推出其迄今最強大的 Opus 模型，程式碼可靠性大幅提升（放過程式缺陷的機率降低四倍），並具備更深層的推理能力，適用於企業自主工作流程。
+- **五角大廈確認測試 OpenAI 與 Google 模型以替代 Anthropic：** 美國國防部確認正在評估 OpenAI 及 Google 模型，計劃部署於機密網路，此舉源於先前與 Anthropic 就自主武器及大規模監控使用限制產生的爭議。
+- **歐盟 AI 法案高風險執法期限僅剩 55 天：** 附件三所列高風險 AI 系統的強制合規期限為 2026 年 8 月 2 日，各組織面臨緊迫的合規壓力，資安與隱私問題被列為最大障礙。
+- **BMI/Fitch Solutions 將 AI 評為 2050 年前最具顛覆性的大趨勢：** BMI（Fitch Solutions 旗下公司）於 6 月 8 日發布第五版《邁向 2050》報告，將 AI 列為對全球所有產業影響最深遠的單一顛覆力量。
+- **Linux 基金會報告：AI 帶動歐洲科技淨招聘增加 27%：** Linux 基金會於 6 月 8 日發布首份《2026 歐洲科技人才現況》報告，發現 AI 部署在 2026 年帶來淨 +27% 的招聘效應，但資安（51%）與隱私（44%）問題仍是實現 AI 全面價值的首要障礙。
+- **Cognizant 瞄準兆元實體 AI 市場，推出主權 PaaS 平台：** Cognizant 發布「Intelligence Spine」主權實體 AI 平台即服務，旨在將自主系統從實驗階段推進至核心企業基礎架構。
+- **Instacart 與 Weis Markets 推出 AI 驅動的智慧購物車：** AI 智慧購物車（Caper Carts）已在賓州部分門市上線，提供即時消費追蹤、個人化優惠券及近 1 個百分點的平均購物籃提升效果；目前已在全美 15 個州超過 100 個城市部署。
+- **AI 相關股票遭拋售，引發亞洲市場下跌：** 彭博電視 6 月 8 日的《亞洲交易》與《中國秀》節目報導，AI 相關股票倉位遭大規模平倉，在地緣政治緊張局勢下引發亞洲市場走低。
+- **六月 AI 模型密集發布期正式開啟：** Gemini 3.5 Pro 與 Claude Sonnet 4.8 預計將在 2026 年 6 月底前相繼亮相，創下模型發布最密集月份紀錄之一。
+- **LinkedIn AI 日報強調企業決策自動化持續擴展：** 據 6 月 8 日 LinkedIn AI 日報報導，企業正積極將 AI 決策支援延伸至預算編製、預測與人力規劃等核心業務功能。
+
+### 分析
+2026 年 6 月 8 日標誌著前沿 AI 在消費者與企業層面民主化的關鍵轉折點。蘋果在 WWDC 宣布 iOS 27 允許使用者自由選擇 ChatGPT、Gemini 或 Claude，無疑是當日最具影響力的消息：這意味著 AI 產業正從獨家模型合作關係，轉向直接嵌入全球最廣泛使用的消費者作業系統的開放競爭生態。與此同時，微軟超過 11,000 個模型的 Foundry 目錄，以及 Anthropic 發布 Claude Opus 4.8，共同彰顯一場透過統一、低門檻基礎架構為企業提供最廣泛前沿模型選擇的競速賽。蘋果在作業系統層面的開放，以及微軟在雲端層面的整合，預示 AI 產業正從個別模型競爭迅速演進為平台與生態系之爭。
+
+監管與地緣政治壓力同步升溫。歐盟 AI 法案的高風險執法期限距今不足兩個月，Linux 基金會調查亦確認，資安與隱私疑慮已超越成本與技能缺口，成為歐洲企業 AI 採用的首要障礙。與此同時，五角大廈以 OpenAI 和 Google 替代 Anthropic 的進程，反映出 AI 政策爭議正以即時方式重塑國防採購格局。這些發展共同指向一個現實：AI 治理——無論是企業層面還是政府層面——正成為與技術本身同等重要的戰略核心議題。
+
+實體 AI 與自主代理自動化正成為下一個重大商業前沿。Cognizant 推出主權實體 AI 平台即服務、Instacart 在美國零售通路加速部署 Caper Carts，以及 BMI/Fitch 將 AI 評選為 2050 年前首要顛覆性大趨勢，均預示 AI 正從純數位軟體領域決定性地延伸至實體世界。Linux 基金會發現歐洲因 AI 部署產生淨 +27% 的科技招聘效應，進一步挑戰「AI 純粹取代就業」的敘事，顯示積極投資 AI 的組織同時也在擴充技術人才規模，尤其是 AI 專屬與資安職位。
+
+### 來源
+- Build Fast With AI – 2026 年 6 月 8 日 AI 新聞：https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026
+- Apple Gadget Hacks – iOS 27 Apple Intelligence AI 模型選擇：https://apple.gadgethacks.com/news/ios-27-apple-intelligence-claude-vs-gemini-ai-options
+- Trending Topics EU – 蘋果 iOS 27 開放 Gemini 與 Claude：https://www.trendingtopics.eu/apple-lets-gemini-and-claude-in-ios-27-will-end-chatgpt-exclusivity
+- 微軟技術社群 – Claude Opus 4.8 登陸 Microsoft Foundry：https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-4-8-is-now-available-in-microsoft-foundry/4523367
+- Anthropic – Claude Opus 4.8 發布公告：https://www.anthropic.com/news/claude-opus-4-8
+- 微軟 Azure – Foundry 模型目錄：https://azure.microsoft.com/en-us/products/ai-foundry/models
+- Federal News Network – 國防部與科技公司簽署機密網路 AI 協議：https://federalnewsnetwork.com/defense-news/2026/05/dod-strikes-deals-with-major-tech-firms-to-deploy-ai-on-classified-networks
+- PR Newswire – Linux 基金會 2026 歐洲科技人才現況報告：https://www.prnewswire.com/news-releases/new-linux-foundation-report-finds-ai-is-driving-positive-tech-hiring-trends-in-europe-amid-growing-security-and-skills-gaps-302793382.html
+- Yahoo Finance / Linux 基金會報告：https://finance.yahoo.com/sectors/technology/articles/linux-foundation-report-finds-ai-060000668.html
+- BMI / Fitch Solutions – AI 為 2050 年前最具顛覆性大趨勢：https://www.fitchsolutions.com/bmi/press-releases/ai-emerges-as-most-disruptive-megatrend-for-industries-through-2050-says-bmi-in-new-report-08-06-2026
+- Market Chameleon – Cognizant 實體 AI PaaS 平台：https://marketchameleon.com/articles/b/2026/6/8/cognizant-targets-trillion-dollar-physical-ai-market-with-launch-of-sovereign-platform-as-a-service
+- PR Newswire – Cognizant 主權實體 AI 平台：https://www.prnewswire.com/news-releases/cognizant-launches-sovereign-physical-ai-platform-as-a-service-302793025.html
+- PR Newswire – Instacart 與 Weis Markets 推出 Caper Carts：https://www.prnewswire.com/news-releases/instacart-and-weis-markets-launch-ai-powered-caper-carts-to-transform-in-store-shopping-302790778.html
+- Artificial Intelligence News – Weis Markets Instacart AI 購物車：https://www.artificialintelligence-news.com
+- LinkedIn AI 日報 6 月 8 日：https://www.linkedin.com/pulse/ai-daily-digest-june-8-2026-safwan-alsebaei-mqhjf
+- Global Policy Watch – 歐盟 AI 法案 2026 年 6 月最新動態：https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions-2
+- 彭博 YouTube – AI 交易倉位平倉引發亞洲股市下跌（6/8/2026）：https://www.youtube.com/watch?v=BjnpateIvUs
