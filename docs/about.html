@@ -87,7 +87,7 @@
 Every day at 08:00
        │
        ▼
-  cron / run.sh
+  launchd / run.sh
        │
        ▼
   agent.py ◄──────────────────────────────────────────────────────┐
@@ -114,7 +114,7 @@ Every day at 08:00
 
       <h3>What each component does</h3>
       <ul>
-        <li><strong>cron + run.sh</strong>: Triggers the entire pipeline daily at 08:00. No human intervention required after setup.</li>
+        <li><strong>launchd + run.sh</strong>: Triggers the entire pipeline daily at 08:00. Uses macOS launchd (rather than cron) so that missed runs while the machine is sleeping are executed immediately on wake-up. No human intervention required after setup.</li>
         <li><strong>Claude (claude-sonnet-4-6)</strong>: The "brain" of the agent. It autonomously decides which queries to run, calls the search tool multiple times, then synthesises all results into a structured bilingual summary.</li>
         <li><strong>Tavily Search API</strong>: An AI-optimised search API that returns clean, structured results suitable for LLM consumption — no HTML scraping needed.</li>
         <li><strong>publish.py</strong>: Converts the append-only <code>summaries.md</code> into a static website. Parses dates, splits bilingual content, renders HTML with EN/ZH toggle.</li>
@@ -124,7 +124,7 @@ Every day at 08:00
       <h3>Why this design?</h3>
       <ul>
         <li><strong>Zero server cost</strong>: Static HTML on GitHub Pages — no cloud compute, no database, no maintenance.</li>
-        <li><strong>Fully autonomous</strong>: Once the cron job is set, human involvement is zero. The agent decides its own search strategy each day.</li>
+        <li><strong>Fully autonomous</strong>: Once the launchd agent is configured, human involvement is zero. The agent decides its own search strategy each day. Unlike cron, launchd catches up on any runs missed while the machine was sleeping.</li>
         <li><strong>Permanent archive</strong>: Every daily summary lives at its own URL forever. Nothing is overwritten.</li>
         <li><strong>Single source of truth</strong>: <code>summaries.md</code> is the canonical data store. The website is always regenerable from it.</li>
       </ul>
@@ -153,13 +153,13 @@ Human describes requirement
       </pre>
       <p>This project was delivered in two changes:</p>
       <ul>
-        <li><strong>ai-news-monitor-agent</strong>: The core agent — <code>agent.py</code>, <code>tools.py</code>, <code>writer.py</code>, <code>run.sh</code>, cron setup.</li>
+        <li><strong>ai-news-monitor-agent</strong>: The core agent — <code>agent.py</code>, <code>tools.py</code>, <code>writer.py</code>, <code>run.sh</code>, launchd scheduling.</li>
         <li><strong>github-pages-website</strong>: The static site generator — <code>publish.py</code>, bilingual HTML templates, GitHub Pages deployment.</li>
       </ul>
 
       <h3>What AI did vs. what the human did</h3>
       <ul>
-        <li><strong>Human</strong>: Described the goal ("I want an AI agent that monitors AI news and publishes it online"), made architectural choices (GitHub Pages over a server, bilingual EN/ZH, cron over cloud scheduling), reviewed specs before implementation.</li>
+        <li><strong>Human</strong>: Described the goal ("I want an AI agent that monitors AI news and publishes it online"), made architectural choices (GitHub Pages over a server, bilingual EN/ZH, launchd over cron/cloud scheduling), reviewed specs before implementation.</li>
         <li><strong>AI</strong>: Wrote every proposal, design doc, spec, and task list. Implemented all code. Fixed bugs when they appeared. Translated the first summary retroactively into Chinese.</li>
       </ul>
 
@@ -218,7 +218,7 @@ Human describes requirement
 每天早上 08:00
        │
        ▼
-  cron / run.sh
+  launchd / run.sh
        │
        ▼
   agent.py ◄──────────────────────────────────────────────────────┐
@@ -245,7 +245,7 @@ Human describes requirement
 
       <h3>各元件功能說明</h3>
       <ul>
-        <li><strong>cron + run.sh</strong>：每天早上 08:00 自動觸發整條流程，設定完成後不需要任何人工操作。</li>
+        <li><strong>launchd + run.sh</strong>：每天早上 08:00 自動觸發整條流程。使用 macOS launchd（而非 cron），電腦睡眠錯過排程時，醒機後會立即補跑。設定完成後不需要任何人工操作。</li>
         <li><strong>Claude（claude-sonnet-4-6）</strong>：Agent 的「大腦」。自主決定要搜尋什麼、多次呼叫搜尋工具，最後將所有結果整合為結構化的中英雙語摘要。</li>
         <li><strong>Tavily Search API</strong>：專為 AI 應用優化的搜尋 API，回傳乾淨的結構化結果，不需要解析 HTML。</li>
         <li><strong>publish.py</strong>：將只增不改的 <code>summaries.md</code> 轉換為靜態網站。解析日期、拆分雙語內容、生成含語言切換功能的 HTML 頁面。</li>
@@ -255,7 +255,7 @@ Human describes requirement
       <h3>為什麼這樣設計？</h3>
       <ul>
         <li><strong>零伺服器成本</strong>：GitHub Pages 提供靜態 HTML 托管，不需要雲端運算、資料庫或維運。</li>
-        <li><strong>全自動運行</strong>：cron job 設定完成後，人工介入次數為零。Agent 每天自行決定搜尋策略。</li>
+        <li><strong>全自動運行</strong>：launchd 排程設定完成後，人工介入次數為零。Agent 每天自行決定搜尋策略。與 cron 不同，launchd 在電腦睡眠錯過排程時會補跑，確保不漏任何一天。</li>
         <li><strong>永久保存</strong>：每天的摘要都有自己的 URL，永遠不會被覆蓋。</li>
         <li><strong>單一資料來源</strong>：<code>summaries.md</code> 是唯一的資料儲存。網站隨時可以從它重新生成。</li>
       </ul>
@@ -284,13 +284,13 @@ Human describes requirement
       </pre>
       <p>本專案分兩個 change 完成：</p>
       <ul>
-        <li><strong>ai-news-monitor-agent</strong>：核心 Agent——<code>agent.py</code>、<code>tools.py</code>、<code>writer.py</code>、<code>run.sh</code>、cron 設定。</li>
+        <li><strong>ai-news-monitor-agent</strong>：核心 Agent——<code>agent.py</code>、<code>tools.py</code>、<code>writer.py</code>、<code>run.sh</code>、launchd 排程設定。</li>
         <li><strong>github-pages-website</strong>：靜態網站生成器——<code>publish.py</code>、雙語 HTML 模板、GitHub Pages 部署。</li>
       </ul>
 
       <h3>AI 做了什麼，人做了什麼</h3>
       <ul>
-        <li><strong>人</strong>：描述目標（「我要一個 AI Agent 監控 AI 新聞並發布上網」）、做架構決策（GitHub Pages 而非伺服器、中英雙語、cron 而非雲端排程）、在實作前審閱 spec。</li>
+        <li><strong>人</strong>：描述目標（「我要一個 AI Agent 監控 AI 新聞並發布上網」）、做架構決策（GitHub Pages 而非伺服器、中英雙語、launchd 而非 cron 或雲端排程）、在實作前審閱 spec。</li>
         <li><strong>AI</strong>：撰寫所有 proposal、設計文件、spec 和任務清單。實作所有程式碼。發現 bug 時自行修復。將舊版摘要補譯為中文。</li>
       </ul>
 
