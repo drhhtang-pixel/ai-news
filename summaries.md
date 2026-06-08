@@ -824,3 +824,73 @@ At the infrastructure and policy level, the day's news underscores how rapidly A
 - 路透社: https://www.reuters.com/world/trump-signed-order-promote-advanced-ai-innovation-security-white-house-says-2026-06-02 (published 2026-06-02)
 - 微軟 Azure Foundry: https://azure.microsoft.com/en-us/products/ai-foundry/models (published 2026-06-08)
 - 彭博電視 (YouTube): https://www.youtube.com/watch?v=XiICiACP25M (published 2026-06-08)
+
+## 2026-06-08 23:27
+
+<!-- EN -->
+### Headlines
+
+- **Apple Unveils Siri 2.0, iOS 27, and Multi-AI Model Choice at WWDC 2026:** At its June 8 Worldwide Developers Conference keynote, Apple confirmed that iOS 27, iPadOS 27, and macOS 27 will let users choose which AI model powers Apple Intelligence features — ChatGPT, Google Gemini, or Anthropic's Claude — while debuting a dramatically overhauled Siri 2.0 with a standalone app and LLM-powered capabilities. *(Source: BuildFastWithAI, June 8)*
+
+- **Microsoft Azure Foundry Catalog Surpasses 11,000 Models, Adds Claude Opus 4.8:** Microsoft finalized its Azure Foundry model catalog at 11,000+ models — including OpenAI GPT-5.5, Anthropic Claude Opus 4.8, Google Gemini, and open-source models via Fireworks AI — all accessible through a single Azure endpoint and billing relationship. *(Source: BuildFastWithAI, June 8)*
+
+- **Pentagon Confirmed Testing OpenAI and Google Models to Replace Anthropic's Claude in Classified Systems:** The U.S. Department of Defense is actively evaluating OpenAI and Google Gemini models for deployment on classified networks, continuing the fallout from its earlier designation of Anthropic as a "supply chain risk." *(Source: BuildFastWithAI, June 8)*
+
+- **EU AI Act Full Enforcement Deadline Now 55 Days Away:** With the August 2, 2026 general applicability deadline for high-risk AI systems fast approaching, businesses face a roughly 55-day countdown to comply with the EU AI Act's broad requirements covering risk management, human oversight, data governance, and cybersecurity. *(Source: BuildFastWithAI, June 8)*
+
+- **Trump's AI Innovation & Security Executive Order Implementation Underway:** President Trump's June 2 Executive Order, "Promoting Advanced Artificial Intelligence Innovation and Security," is entering its implementation phase, directing Treasury, NSA, and CISA to develop a classified benchmarking process within 60 days for designating "covered frontier models" and establishing a voluntary government-industry pre-release review framework. *(Source: BuildFastWithAI, June 8)*
+
+- **June AI Model Release Window Opens: Gemini 3.5 Pro and Claude Sonnet 4.8 Expected Before Month's End:** The industry's June model release window has officially opened, with both Google's Gemini 3.5 Pro and Anthropic's Claude Sonnet 4.8 widely anticipated to ship before the end of the month. *(Source: BuildFastWithAI, June 8)*
+
+- **Apple's "Liquid Glass" Design Language Debuts Across All Platforms at WWDC 2026:** Apple introduced a new visual design language called "Liquid Glass" across iOS 27, macOS 27, and its other operating systems, marking the company's most significant UI overhaul in years alongside its AI push. *(Source: TechRadar, June 8)*
+
+---
+
+### Analysis
+
+Today's AI landscape is defined by a battle for platform dominance at the consumer, enterprise, and government levels simultaneously. Apple's WWDC 2026 keynote may prove to be a turning point: by opening Apple Intelligence to third-party models — ChatGPT, Gemini, and Claude — Apple is effectively transforming its 2.5-billion-device ecosystem into a neutral AI distribution layer. This is a remarkable strategic concession that signals Apple no longer believes it can win on model quality alone, but can instead win by controlling the user experience and the hardware-software integration layer. The move elevates all three major AI labs while ensuring Apple remains the indispensable hardware and OS platform that connects users to them.
+
+At the government and enterprise tier, the U.S. AI policy environment is entering a decisive phase. The Trump administration's executive order on frontier model security is moving into the 60-day implementation window for classified benchmarking, while the Pentagon's ongoing transition away from Anthropic toward OpenAI and Google continues to reshape the national security AI supply chain. Microsoft's milestone of 11,000+ models in its Azure Foundry catalog illustrates just how aggressively cloud providers are racing to become the one-stop infrastructure layer for AI, making model diversity and vendor lock-in avoidance a central selling point for enterprises. Together, these developments suggest that the competitive advantage in AI is rapidly shifting from "who has the best model" toward "who controls the access, distribution, and deployment infrastructure."
+
+The looming EU AI Act deadline — just 55 days away — adds a significant regulatory dimension to this week's developments. European businesses and global companies operating in the EU must now urgently finalize compliance for high-risk AI systems, just as the market is flooding with new and more powerful models from every direction. The convergence of an aggressive U.S. innovation push, a maturing EU regulatory framework, and a furious pace of model releases creates a uniquely complex environment for enterprises and developers navigating AI adoption in the second half of 2026.
+
+---
+
+### Sources
+- BuildFastWithAI: https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026 (published 2026-06-08)
+- TechRadar: https://www.techradar.com/news/live/apple-wwdc-2026-live (published 2026-06-08)
+- Lifehacker: https://lifehacker.com/tech/wwdc-2026-live-blog (published 2026-06-08)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **蘋果在 WWDC 2026 發布 Siri 2.0、iOS 27，並開放多 AI 模型選擇：** 蘋果於 6 月 8 日年度全球開發者大會主題演講中確認，iOS 27、iPadOS 27 及 macOS 27 將允許使用者自由選擇驅動 Apple Intelligence 功能的 AI 模型——包括 ChatGPT、Google Gemini 或 Anthropic Claude——同時推出擁有獨立應用程式與大型語言模型能力的全新 Siri 2.0。*(來源：BuildFastWithAI，6 月 8 日)*
+
+- **微軟 Azure Foundry 模型目錄突破 11,000 個，新增 Claude Opus 4.8：** 微軟完成 Azure Foundry 模型目錄建置，收錄逾 11,000 個模型，涵蓋 OpenAI GPT-5.5、Anthropic Claude Opus 4.8、Google Gemini 及 Fireworks AI 開源模型，全部透過單一 Azure 端點與帳單關係存取。*(來源：BuildFastWithAI，6 月 8 日)*
+
+- **五角大廈確認測試 OpenAI 與 Google 模型以取代 Anthropic Claude 機密系統：** 美國國防部正積極評估在機密網路上部署 OpenAI 與 Google Gemini 模型，持續處理早前將 Anthropic 列為「供應鏈風險」後的連鎖效應。*(來源：BuildFastWithAI，6 月 8 日)*
+
+- **歐盟 AI 法案全面執行期限僅剩 55 天：** 2026 年 8 月 2 日高風險 AI 系統全面適用截止日即將到來，企業面臨約 55 天的倒數計時，須完成風險管理、人工監督、資料治理及網路安全等廣泛合規要求。*(來源：BuildFastWithAI，6 月 8 日)*
+
+- **川普 AI 創新與安全行政命令進入執行階段：** 川普總統於 6 月 2 日簽署的行政命令《促進先進人工智慧創新與安全》進入落實期，指示財政部、NSA 及 CISA 在 60 天內建立機密基準測試流程，針對「受涵蓋前沿模型」制定政府與業界的自願性預發布審查框架。*(來源：BuildFastWithAI，6 月 8 日)*
+
+- **六月 AI 模型發布窗口正式開啟：Gemini 3.5 Pro 與 Claude Sonnet 4.8 預計月底前上線：** 業界六月模型發布窗口已正式啟動，Google Gemini 3.5 Pro 與 Anthropic Claude Sonnet 4.8 均預計在本月底前推出。*(來源：BuildFastWithAI，6 月 8 日)*
+
+- **蘋果全新「液態玻璃」設計語言在 WWDC 2026 跨平台亮相：** 蘋果在 iOS 27、macOS 27 及旗下各作業系統中引入全新視覺設計語言「液態玻璃」（Liquid Glass），標誌著公司多年來最重大的介面革新，並與 AI 戰略同步推進。*(來源：TechRadar，6 月 8 日)*
+
+---
+
+### 分析
+
+今日的 AI 格局由消費者、企業及政府三個層面同步展開的平台主導權爭奪戰所定義。蘋果 WWDC 2026 主題演講或將成為一個轉折點：透過向第三方模型（ChatGPT、Gemini 和 Claude）開放 Apple Intelligence，蘋果實際上將其擁有 25 億台活躍裝置的生態系統轉型為中性的 AI 分發層。這是一項意義重大的策略讓步，表明蘋果不再相信自己能單憑模型品質取勝，而是選擇以掌控使用者體驗及硬體與軟體整合層作為核心競爭優勢。此舉同時提升了三大 AI 實驗室的地位，也確保蘋果繼續扮演連接使用者與 AI 服務的不可或缺的硬體和作業系統平台角色。
+
+在政府與企業端，美國 AI 政策環境正進入決定性的執行階段。川普政府的前沿模型安全行政命令進入 60 天機密基準測試窗口，五角大廈持續推進從 Anthropic 轉向 OpenAI 和 Google 的過渡，重塑國家安全 AI 供應鏈格局。微軟 Azure Foundry 突破 11,000 個模型的里程碑，清楚說明雲端服務商正積極競逐成為 AI 的一站式基礎架構層，以模型多元化和避免廠商鎖定作為企業客戶的核心賣點。這些發展共同表明，AI 競爭優勢正從「誰擁有最佳模型」快速轉向「誰掌控存取、分發與部署基礎設施」。
+
+即將到來的歐盟 AI 法案截止日期——僅剩 55 天——為本週的發展增添了重要的法規維度。在市場不斷湧現更強大新模型的同時，在歐盟運營的歐洲企業及跨國公司必須緊急完成高風險 AI 系統的合規工作。美國積極進取的創新政策、日趨成熟的歐盟監管框架，以及模型發布的瘋狂節奏三者交匯，為在 2026 年下半年推進 AI 應用的企業和開發者創造了一個前所未有的複雜環境。
+
+---
+
+### 來源
+- BuildFastWithAI: https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026 (published 2026-06-08)
+- TechRadar: https://www.techradar.com/news/live/apple-wwdc-2026-live (published 2026-06-08)
+- Lifehacker: https://lifehacker.com/tech/wwdc-2026-live-blog (published 2026-06-08)
