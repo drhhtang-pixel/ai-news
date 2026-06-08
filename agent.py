@@ -1,8 +1,10 @@
 import os
 import sys
+from datetime import datetime
 import anthropic
 from tools import TOOLS, execute_tool
 from writer import append_summary
+from verifier import verify_summary
 
 SYSTEM_PROMPT = """You are an AI news monitor. Your job is to search the web for the latest AI news and produce a bilingual structured summary in both English and Traditional Chinese.
 
@@ -12,25 +14,38 @@ When you have gathered enough information, write your final answer using EXACTLY
 
 <!-- EN -->
 ### Headlines
-A bullet list of the most important news items with one-sentence descriptions.
+A bullet list of the most important news items. Each item MUST follow this exact format:
+- **[Headline]:** [One-sentence description]. *(Source: [Publication Name], [Month Day])*
+
+Example:
+- **OpenAI releases new model:** The company launched GPT-5 with improved reasoning capabilities. *(Source: TechCrunch, June 8)*
 
 ### Analysis
 2-3 paragraphs analyzing key trends and implications.
 
 ### Sources
-A list of sources you found, with URLs.
+A list of all sources with their direct article URLs (NOT homepage URLs). Each entry MUST follow this format:
+- [Publication Name]: https://specific-article-url (published YYYY-MM-DD)
+
+Example:
+- TechCrunch: https://techcrunch.com/2026/06/08/openai-gpt5 (published 2026-06-08)
 
 <!-- ZH -->
 ### 頭條新聞
-以繁體中文列出最重要的新聞，每條一句話說明。
+以繁體中文列出最重要的新聞。每條必須遵循以下格式：
+- **[標題]：** [一句話說明]。*(來源：[媒體名稱]，[月 日])*
+
+範例：
+- **OpenAI 發布新模型：** 該公司推出具備更強推理能力的 GPT-5。*(來源：TechCrunch，6 月 8 日)*
 
 ### 分析
 2-3段繁體中文分析，說明主要趨勢與影響。
 
 ### 來源
-列出所有來源網站及其網址。
+列出所有來源的直接文章網址（非首頁網址）。每條格式：
+- [媒體名稱]: https://specific-article-url (published YYYY-MM-DD)
 
-IMPORTANT: You MUST include both <!-- EN --> and <!-- ZH --> blocks in your response, in that order. Do not omit either block."""
+IMPORTANT: You MUST include both <!-- EN --> and <!-- ZH --> blocks in your response, in that order. Do not omit either block. Every headline MUST include an inline source citation."""
 
 MAX_TOOL_CALLS = 10
 
@@ -52,8 +67,14 @@ def validate_env() -> tuple[str, str, str, str]:
     return anthropic_key, tavily_key, search_topic, output_file
 
 
-def run_agent(search_topic: str) -> str:
+def run_agent(search_topic: str, today_date: str) -> str:
     client = anthropic.Anthropic()
+
+    dated_system_prompt = (
+        SYSTEM_PROMPT
+        + f"\n\nToday's date is {today_date}. Only report news published on {today_date}. "
+        "Exclude year-in-review articles, historical summaries, and any content not published on this date."
+    )
 
     messages = [
         {
@@ -67,8 +88,8 @@ def run_agent(search_topic: str) -> str:
     while True:
         response = client.messages.create(
             model="claude-sonnet-4-6",
-            max_tokens=4096,
-            system=SYSTEM_PROMPT,
+            max_tokens=8192,
+            system=dated_system_prompt,
             tools=TOOLS,
             messages=messages,
         )
@@ -94,8 +115,11 @@ def run_agent(search_topic: str) -> str:
                 })
 
         if not tool_results:
-            # stop_reason was tool_use but no tool_use blocks found — exit safely
-            break
+            # stop_reason was tool_use but no tool_use blocks found — return any text present
+            for block in response.content:
+                if hasattr(block, "text"):
+                    return block.text
+            return ""
 
         messages.append({"role": "user", "content": tool_results})
 
@@ -110,8 +134,8 @@ def run_agent(search_topic: str) -> str:
             })
             final = client.messages.create(
                 model="claude-sonnet-4-6",
-                max_tokens=4096,
-                system=SYSTEM_PROMPT,
+                max_tokens=8192,
+                system=dated_system_prompt,
                 messages=messages,
             )
             for block in final.content:
@@ -122,8 +146,11 @@ def run_agent(search_topic: str) -> str:
 
 def main() -> None:
     _, _, search_topic, output_file = validate_env()
+    today_date = datetime.now().strftime("%Y-%m-%d")
+    search_topic = os.environ.get("SEARCH_TOPIC", f"AI news {today_date}")
     print(f"Searching for: {search_topic}")
-    summary = run_agent(search_topic)
+    summary = run_agent(search_topic, today_date)
+    summary = verify_summary(summary, today_date)
     append_summary(summary, output_file)
 
 

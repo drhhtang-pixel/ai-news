@@ -124,8 +124,9 @@ def _inline(text: str) -> str:
         r'<a href="\2" target="_blank">\1</a>',
         text,
     )
-    # Bold: **text**
+    # Bold: **text** (closed) or **text (unclosed, end of line)
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    text = re.sub(r"\*\*(.+)$", r"<strong>\1</strong>", text)
     # Bare URLs
     text = re.sub(
         r"(?<![\"'=])(https?://\S+)",
