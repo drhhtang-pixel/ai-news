@@ -321,3 +321,85 @@ None
 ## 2026-06-08 18:37
 
 None
+
+## 2026-06-08 21:16
+
+Excellent! I now have comprehensive coverage. Let me compile the final bilingual summary.
+
+---
+
+<!-- EN -->
+### Headlines
+
+- **🍎 Apple WWDC 2026 Kicks Off (June 8):** Apple's Worldwide Developers Conference opens today, unveiling iOS 27, iPadOS 27, and macOS 27 — all featuring a dramatically rebuilt Siri with a custom 1.2-trillion-parameter model, plus a new "Liquid Glass" design language and a health-focused AI agent tied to a Health+ subscription.
+- **🤖 Apple Intelligence Goes Open:** Apple confirmed that iOS 27, iPadOS 27, and macOS 27 will allow users to choose which AI model powers Apple Intelligence features — ChatGPT, Google Gemini, or Anthropic's Claude — marking a major shift toward user-controlled AI ecosystems.
+- **🔵 AMD Pledges £2 Billion (~$2.67B) to UK AI:** At London Tech Week today, AMD CEO Dr. Lisa Su announced a £2 billion, five-year UK investment in AI research and compute infrastructure, including partnerships with the University of Cambridge (Zenith AI supercomputer & Sunrise fusion AI), Imperial College London, and Oriole Networks.
+- **🔍 Google Upgrades Search with Gemini 3.5 Flash:** Google announced at I/O 2026 that it is upgrading AI Mode in Search globally with Gemini 3.5 Flash as its new default model, adding agentic booking, expanded Personal Intelligence in nearly 200 countries, and new coding capabilities via its Antigravity platform.
+- **🏗️ Microsoft Azure Foundry Hits 11,000+ Models:** Microsoft finalized its Foundry model catalog, now containing over 11,000 models — including GPT-5.5, Claude Opus 4.8, Haiku 4.5, Gemini, and specialized vision/time-series models — all accessible through a single Azure endpoint.
+- **🪖 Pentagon Tests OpenAI & Google to Replace Anthropic:** The U.S. Department of Defense confirmed it is actively testing OpenAI and Google models on its classified networks as potential replacements for Anthropic's Claude, following Anthropic's earlier designation as a "supply chain risk" over AI safety guardrails disputes.
+- **📅 EU AI Act Full Enforcement Is 55 Days Away:** The major EU AI Act compliance deadline for high-risk AI systems (originally August 2, 2026) is now approximately 55 days out, with many companies still scrambling to classify systems and implement required risk management, data governance, and human oversight measures.
+- **📦 June's Model Release Window Opens:** Gemini 3.5 Pro and Claude Sonnet 4.8 are both expected before the end of June, officially opening what analysts are calling a dense "June model release window" for frontier AI systems.
+- **📉 AI Trade Stocks Sell Off in Asia:** Asian markets saw a significant sell-off as AI-related trades unwound, with Bloomberg reporting the "AI Mania Shows Cracks" amid broader market volatility tied to geopolitical tensions and concerns about AI investment ROI.
+- **🏛️ White House Issues New AI Executive Order:** The Trump White House published a new presidential action titled "Promoting Advanced Artificial Intelligence Innovation and Security," aimed at accelerating U.S. AI leadership and addressing national security dimensions of advanced AI models.
+
+---
+
+### Analysis
+
+**Platform Wars and Open AI Ecosystems:** The biggest story of June 8 is unquestionably Apple's WWDC 2026 keynote, which signals a dramatic philosophical shift for Apple. By allowing users to swap between ChatGPT, Gemini, and Claude as the AI engine behind Apple Intelligence, Apple is essentially acknowledging that no single model can dominate all use cases — and is betting on interoperability over exclusivity. This "AI model marketplace" approach could set a new precedent for how consumer devices integrate AI, forcing competitors like Google and Samsung to respond in kind. Combined with Google's own expansion of Gemini 3.5 Flash into nearly 200 countries via Search AI Mode, today marks a pivotal moment in the race to make AI assistants globally ubiquitous.
+
+**Infrastructure and Geopolitics Drive Investment:** AMD's £2 billion UK commitment, announced at London Tech Week, underscores the growing trend of "sovereign AI" — nations and regions demanding that AI compute and R&D be locally grounded. The AMD-Cambridge-Imperial College partnership mirrors similar moves by NVIDIA and other chipmakers in the EU and Asia. Meanwhile, the Pentagon's ongoing reshuffling of AI vendors — testing OpenAI and Google in classified systems while sidelining Anthropic — highlights how national security considerations are rapidly reshaping the competitive dynamics of the frontier AI market. The White House's new executive order on AI innovation and security further cements AI as a core pillar of U.S. national strategy.
+
+**Regulatory Pressure Mounts as Markets Wobble:** With the EU AI Act's full enforcement deadline just 55 days away (August 2, 2026), the compliance clock is ticking loudly for enterprises deploying high-risk AI systems. The regulatory crunch coincides with a jittery market moment: Asian stocks sold off sharply today as AI investment trades unwound, reflecting growing skepticism about whether AI spending will generate returns fast enough to justify trillion-dollar valuations for companies like OpenAI and Anthropic. The combination of regulatory tightening in Europe, security-driven vendor consolidation in the U.S., and financial market volatility suggests AI is entering a more mature — and more contested — phase of its development cycle.
+
+---
+
+### Sources
+
+- **Build Fast With AI – AI News Today, June 8, 2026:** https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026
+- **AMD Investor Relations Press Release (June 8, 2026):** https://ir.amd.com/news-events/press-releases/detail/1288/amd-commits-up-to-2-billion-to-accelerate-ai-innovation-and-research-in-the-united-kingdom
+- **Stock Titan – AMD UK Investment:** https://www.stocktitan.net/news/AMD/amd-commits-up-to-2-billion-to-accelerate-ai-innovation-and-research-f0q78lpc3phv.html
+- **Morningstar – AMD UK Pledge:** https://www.morningstar.com/news/dow-jones/202606081771/amd-pledges-up-to-267-billion-for-ai-computing-research-in-uk
+- **Google Blog – Search I/O 2026 Updates:** https://blog.google/products-and-platforms/products/search/search-io-2026
+- **White House – Promoting Advanced AI Innovation and Security:** https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security
+- **Dallas Express – WWDC26 Keynote June 8:** https://dallasexpress.com/business-markets/wwdc26-keynote-on-june-8-whats-new-for-iphones-siri-and-ai-features
+- **Mashable – What to Expect at Apple WWDC 2026:** https://mashable.com/tech/apple-wwdc-2026-everything-we-expect
+- **Bloomberg – WWDC 2026 Preview:** https://www.bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce
+- **The Hill – Pentagon AI Classified Work Deals:** https://thehill.com/policy/technology/5858995-pentagon-ai-companies-classified-work-deal
+- **Federal News Network – DoD AI Classified Networks:** https://federalnewsnetwork.com/defense-news/2026/05/dod-strikes-deals-with-major-tech-firms-to-deploy-ai-on-classified-networks
+- **EU AI Act Service Desk – Timeline:** https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act
+- **Artificial Intelligence News:** https://www.artificialintelligence-news.com
+- **The Guardian – AI Section (June 8, 2026):** https://www.theguardian.com/technology/artificialintelligenceai
+- **Bloomberg Television – Stocks Tumble as AI Trades Unwind (June 8, 2026):** https://www.youtube.com/watch?v=BjnpateIvUs
+
+---
+
+<!-- ZH -->
+### 頭條新聞
+
+- **🍎 蘋果 WWDC 2026 正式開幕（6月8日）：** 蘋果全球開發者大會今日登場，正式發表 iOS 27、iPadOS 27 及 macOS 27，搭載以自研 1.2 兆參數模型為核心的全新 Siri，並推出全新「液態玻璃（Liquid Glass）」設計語言及健康導向的 AI 助理服務（綁定 Health+ 訂閱）。
+- **🤖 蘋果 Intelligence 開放多模型選擇：** 蘋果確認 iOS 27、iPadOS 27 及 macOS 27 將允許用戶自由選擇驅動 Apple Intelligence 功能的 AI 模型——ChatGPT、Google Gemini 或 Anthropic Claude，標誌著消費級 AI 生態系統走向用戶自主選擇的新時代。
+- **🔵 AMD 宣布向英國 AI 投資 20 億英鎊（約 26.7 億美元）：** AMD 執行長蘇姿丰於倫敦科技周今日宣布，未來五年將向英國 AI 研究與算力基礎設施投入高達 20 億英鎊，合作夥伴涵蓋劍橋大學（Zenith AI 超級電腦及 Sunrise 核融合 AI 系統）、帝國理工學院及 Oriole Networks。
+- **🔍 Google 以 Gemini 3.5 Flash 升級搜尋 AI 模式：** Google 於 I/O 2026 宣布，將以最新的 Gemini 3.5 Flash 作為全球 Search AI Mode 的預設模型，新增代理式預訂功能，並將 Personal Intelligence 擴展至近 200 個國家，同時整合 Antigravity 平台的程式碼能力。
+- **🏗️ 微軟 Azure Foundry 模型目錄突破 1.1 萬個：** 微軟完成 Foundry 模型目錄更新，現已收錄超過 11,000 個模型——包含 GPT-5.5、Claude Opus 4.8、Haiku 4.5、Gemini 及各類視覺與時間序列專業模型——全部可透過單一 Azure 端點存取。
+- **🪖 五角大廈測試 OpenAI 與 Google 以取代 Anthropic：** 美國國防部確認正在機密網路系統中積極測試 OpenAI 與 Google 的模型，以作為 Anthropic Claude 的潛在替代方案，起因於早前 Anthropic 因 AI 安全護欄爭議被列為「供應鏈風險」。
+- **📅 歐盟 AI 法案全面執行倒數 55 天：** 歐盟 AI 法案對高風險 AI 系統的主要合規截止日（原訂 2026 年 8 月 2 日）距今僅約 55 天，許多企業仍在趕緊進行系統分類，並建立風險管理、資料治理及人類監督機制。
+- **📦 六月模型發布窗口正式開啟：** Gemini 3.5 Pro 及 Claude Sonnet 4.8 預計在本月底前相繼發布，分析師將六月稱為前沿 AI 系統密集發布的「黃金視窗期」。
+- **📉 亞洲股市 AI 交易大幅回調：** 亞洲股市今日出現明顯拋售，AI 相關交易大量平倉，彭博報導「AI 狂熱出現裂痕」，背景是地緣政治緊張局勢加劇及市場對 AI 投資回報率的疑慮升溫。
+- **🏛️ 白宮發布新 AI 行政命令：** 川普政府發布題為《促進先進人工智慧創新與安全》的新總統令，旨在強化美國 AI 領導地位並應對先進 AI 模型的國家安全挑戰。
+
+---
+
+### 分析
+
+**平台戰爭與開放 AI 生態系統的崛起：** 6 月 8 日最引人注目的新聞，無疑是蘋果 WWDC 2026 的主題演講。蘋果允許用戶在 ChatGPT、Gemini 與 Claude 之間自由切換，作為 Apple Intelligence 的底層引擎，這標誌著蘋果在 AI 哲學上的重大轉變——從封閉式獨家整合，走向互通互操作的「AI 模型市場」模式。這種策略承認沒有任何單一模型能在所有場景中稱霸，並可能迫使 Google、三星等競爭對手跟進。與此同時，Google 將 Gemini 3.5 Flash 擴展至近 200 個國家的搜尋 AI 模式，進一步加速了 AI 助理全球普及的進程，今日堪稱 AI 消費化進程的關鍵節點。
+
+**算力基礎設施與地緣政治驅動投資熱潮：** AMD 於倫敦科技周宣布的 20 億英鎊英國承諾，凸顯了「主權 AI」趨勢的持續升溫——各國和地區要求 AI 算力與研發根植本土。AMD 與劍橋大學、帝國理工的合作，與輝達等晶片製造商在歐洲及亞洲的類似佈局一脈相承。與此同時，五角大廈正在機密系統中重新洗牌 AI 供應商，在邊緣化 Anthropic 的同時積極引入 OpenAI 與 Google，這清楚說明國家安全考量正在深刻改變前沿 AI 市場的競爭格局。白宮的新行政命令更將 AI 牢固確立為美國國家戰略的核心支柱。
+
+**監管壓力加劇，市場情緒搖擺：** 歐盟 AI 法案全面執行倒數 55 天，合規壓力對部署高風險 AI 系統的企業而言已是迫在眉睫。此次監管衝刺恰逢市場動盪：亞洲股市今日大幅下跌，AI 投資交易大量平倉，反映出市場對 OpenAI、Anthropic 等公司萬億美元估值能否快速兌現 AI 回報的日益懷疑。歐洲監管收緊、美國安全驅動下的供應商整合，以及金融市場的波動，共同預示著 AI 正進入更為成熟、也更為激烈競爭的發展新階段。
+
+---
+
+### 來源
+
+- **Build Fast With AI – 2026
