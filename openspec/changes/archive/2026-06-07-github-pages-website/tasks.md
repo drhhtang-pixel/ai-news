@@ -31,3 +31,5 @@
 - [x] 5.1 以 macOS launchd 取代 cron：建立 `~/Library/LaunchAgents/com.drhhtang.ainews.plist`，設定每天 08:00 執行 `run.sh`，並以 `launchctl load` 載入；移除原 crontab 條目。原因：cron 在電腦睡眠時直接跳過排程，launchd 醒機後會補跑，確保每日摘要不漏跑。
 
 - [x] 5.2 更新 `docs/about.html` 中英文版本，將所有 `cron` 相關描述改為 `launchd`，包含架構圖、元件說明、「為什麼這樣設計」及開發歷程段落（共 9 處）。
+
+- [x] 5.3 更新 `openspec/specs/scheduler-entrypoint/spec.md`，將 7 處 cron 相關描述改為 launchd：overview 描述、退出碼 requirement、環境變數 requirement、wrapper requirement 標題、invocation scenario、scheduling comment scenario，以及 Implementation Notes（新增 plist 路徑與補跑說明，保留原 cron 注釋供非 macOS 環境參考）。
