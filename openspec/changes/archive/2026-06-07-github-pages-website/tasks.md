@@ -24,4 +24,4 @@
 
 ## 4. 初始化 GitHub 部署
 
-- [ ] 4.1 初始化 git repo 並設定 remote，實作「GitHub Pages 從 docs/ 目錄提供服務」部署設計：在專案目錄執行 `git init`（若尚未初始化）、建立 `.gitignore`（排除 `.env`、`__pycache__/`、`*.pyc`、`summaries.md` 不排除），執行首次 `git add . && git commit -m "Initial commit" && git push -u origin main`，並在 GitHub repo Settings → Pages → Source 設定 main branch / docs 資料夾。驗證方式：`git remote -v` 顯示正確的 origin URL；GitHub Pages 顯示網站 URL。
+- [x] 4.1 初始化 git repo 並設定 remote，實作「GitHub Pages 從 docs/ 目錄提供服務」部署設計：在專案目錄執行 `git init`（若尚未初始化）、建立 `.gitignore`（排除 `.env`、`__pycache__/`、`*.pyc`、`summaries.md` 不排除），執行首次 `git add . && git commit -m "Initial commit" && git push -u origin main`，並在 GitHub repo Settings → Pages → Source 設定 main branch / docs 資料夾。驗證方式：`git remote -v` 顯示正確的 origin URL；GitHub Pages 顯示網站 URL。

@@ -33,12 +33,37 @@ The writer SHALL prepend a `## YYYY-MM-DD HH:MM` header to each summary and appe
 ---
 ### Requirement: Summary is structured Markdown
 
-The summary text produced by Claude SHALL be structured Markdown containing at minimum: a headlines section, a brief analysis paragraph, and a sources section.
+The summary text produced by Claude SHALL be structured Markdown containing both an English block and a Chinese block, each with headlines, analysis, and sources sections.
 
-#### Scenario: Summary contains required sections
+#### Scenario: Summary contains required bilingual sections
 
 - **WHEN** the agent completes a run
-- **THEN** the written summary SHALL contain the headings `### Headlines`, `### Analysis`, and `### Sources`
+- **THEN** the written summary SHALL contain the marker `<!-- EN -->` followed by `### Headlines`, `### Analysis`, and `### Sources`
+- **THEN** the written summary SHALL contain the marker `<!-- ZH -->` followed by `### 頭條新聞`, `### 分析`, and `### 來源`
+- **THEN** `<!-- EN -->` SHALL appear before `<!-- ZH -->` in the output
+
+##### Example: bilingual section structure
+
+- **GIVEN** the agent has completed its search loop
+- **WHEN** the final summary is written to summaries.md
+- **THEN** the section content SHALL match this structure:
+  ```
+  <!-- EN -->
+  ### Headlines
+  ...
+  ### Analysis
+  ...
+  ### Sources
+  ...
+
+  <!-- ZH -->
+  ### 頭條新聞
+  ...
+  ### 分析
+  ...
+  ### 來源
+  ...
+  ```
 
 ---
 ### Requirement: Successful write is reported to stdout
@@ -54,5 +79,5 @@ The writer SHALL print `Summary written to <output_file>` to stdout after a succ
 
 - `append_summary` opens the file in `"a"` mode with `encoding="utf-8"`, creating it if absent
 - When the file already exists, a leading `"\n"` is written before the header to separate sections
-- The system prompt in `agent.py` explicitly instructs Claude to use exactly the headings `### Headlines`, `### Analysis`, and `### Sources`
+- The system prompt in `agent.py` explicitly instructs Claude to output both an `<!-- EN -->` block (with `### Headlines`, `### Analysis`, `### Sources`) and a `<!-- ZH -->` block (with `### 頭條新聞`, `### 分析`, `### 來源`), EN before ZH
 - Timestamp is generated with `datetime.now().strftime("%Y-%m-%d %H:%M")` at write time
