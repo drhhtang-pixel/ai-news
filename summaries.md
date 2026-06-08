@@ -221,3 +221,95 @@ On the product and capability front, **AI is rapidly permeating institutional an
 - Business Insider – 北京人形機器人半程馬拉松：https://www.businessinsider.com/photos-humanoid-robots-half-marathon-beijing-china-2025-4
 - The Diplomat – 中國人形機器人馬拉松分析：https://thediplomat.com/2025/04/chinas-humanoid-marathon-signals-a-new-kind-of-ai-race
 - LinkedIn – 2025 年 6 月中旬 AI 動態彙整：https://www.linkedin.com/pulse/ai-advantage-mid-june-2025-roundup-gaurav-verma-d8yfc
+
+## 2026-06-08 11:39
+
+Here is your comprehensive bilingual AI news summary, based on the latest information gathered from multiple sources:
+
+---
+
+<!-- EN -->
+### Headlines
+
+- **🇨🇳 DeepSeek R1 Shakes Global AI Markets:** Chinese startup DeepSeek released its open-source R1 reasoning model at a fraction of the cost of Western rivals, briefly overtaking ChatGPT on the US App Store and triggering a major Nasdaq sell-off, with Nvidia hit especially hard.
+- **🤖 Google Releases Gemini 2.0 Flash & Major AI Overhaul:** Google launched Gemini 2.0 Flash with faster responses and expanded multimodal capabilities (images, files, YouTube), while also rolling out AI Mode in Search and over 60 major AI announcements throughout 2025.
+- **🚀 OpenAI Launches GPT-5:** OpenAI released GPT-5, described as its most powerful AI model yet, with significant upgrades in reasoning and general capabilities, now being integrated across its product suite.
+- **📱 Meta Launches Standalone AI App:** Meta debuted a dedicated Meta AI app to compete directly with ChatGPT and Google Gemini, also testing a premium subscription tier.
+- **🏥 AI Transforms Healthcare:** AI breakthroughs in 2025 are reshaping medicine — from AI-powered diagnostic imaging and drug discovery to clinical workflow automation, with about two-thirds of healthcare companies actively adopting AI tools.
+- **🦾 Humanoid Robots Advance:** Major investment is flowing into AI-powered humanoid robotics, with companies combining generative AI with physical capabilities; the Trump administration launched the "Genesis Mission" to coordinate federal AI-robotics research.
+- **⚖️ U.S. Federal vs. State AI Regulation Battle:** President Trump signed Executive Order 14365 in December 2025, establishing a federal AI policy framework aimed at curbing the proliferation of conflicting state-level AI regulations, prioritizing U.S. global AI dominance with minimal regulatory burden.
+- **💰 SpaceX AI Division Revenue Projected at $322B by 2030:** Goldman Sachs forecasts SpaceX's AI division revenue could surge from $3.2 billion in 2025 to $322 billion by 2030.
+- **🌍 WEF Warns of AI Risks:** The 2025 World Economic Forum Global Risks Report flagged AI's societal risks — including job displacement and ethical concerns — calling for stronger international regulatory frameworks.
+- **🧪 AI Fuels Scientific Breakthroughs Across All Sectors:** From protein structure prediction and Alzheimer's research to weather forecasting and robotics, AI-driven scientific innovation accelerated dramatically in 2025, touching virtually every field of research.
+
+---
+
+### Analysis
+
+**2025 marked a pivotal inflection point in the AI race, defined by fierce geopolitical competition and rapid democratization of powerful models.** The rise of China's DeepSeek — delivering frontier AI performance at a dramatically lower cost — sent shockwaves through Wall Street and forced US tech giants to rethink their cost structures. This development underscored that AI dominance is no longer the exclusive domain of well-funded American labs, raising urgent questions about export controls, open-source strategy, and long-term competitiveness. Meanwhile, leading US companies doubled down: Google's Gemini ecosystem expanded aggressively, OpenAI launched GPT-5, and Meta entered the consumer AI app market directly.
+
+**The regulatory landscape is rapidly evolving, with a clear tension between innovation and governance.** The Trump administration's approach — rolling back Biden-era oversight and challenging state-level AI laws through federal executive orders — signals a deliberate bet on deregulation to fuel US AI supremacy. However, the EU AI Act continues to take effect, and state legislatures in California and beyond are pushing their own frameworks, creating a fragmented compliance environment for global enterprises. The WEF's warnings about job displacement and ethical risks remain unresolved, suggesting that as AI capabilities surge, societies will face mounting pressure to establish guardrails.
+
+**AI's integration into healthcare, science, and physical robotics represents perhaps the most consequential long-term trend.** The convergence of generative AI with drug discovery, medical diagnostics, and humanoid robotics is moving from research labs to real-world deployment. Goldman Sachs' projection of SpaceX's AI division alone reaching $322 billion by 2030 hints at the sheer economic scale at stake. As AI touches every sector simultaneously — finance, healthcare, defense, education, and manufacturing — 2025 stands as the year AI firmly transitioned from a technology trend to a foundational layer of the global economy.
+
+---
+
+### Sources
+- **CRN** – The 10 Biggest AI News Stories of 2025: https://www.crn.com/news/ai/2025/the-10-biggest-ai-news-stories-of-2025
+- **Google Blog** – 60 Biggest AI Announcements in 2025: https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025
+- **Google Blog** – January 2025 AI Updates: https://blog.google/innovation-and-ai/products/google-ai-updates-january-2025
+- **Reuters** – AI News Hub: https://www.reuters.com/technology/artificial-intelligence
+- **CNBC** – How DeepSeek is Threatening US Dominance: https://www.cnbc.com/2025/01/24/how-chinas-new-ai-model-deepseek-is-threatening-us-dominance.html
+- **World Economic Forum** – Top AI Stories of 2025: https://www.weforum.org/stories/2025/12/the-top-ai-stories-from-2025
+- **World Economic Forum** – DeepSeek Shakes Up AI Sector: https://www.weforum.org/stories/2025/02/china-deepseek-shakes-up-ai-tech-stories
+- **Axios** – 2025's AI-Fueled Scientific Breakthroughs: https://www.axios.com/2025/12/31/2025-ai-scientific-breakthroughs
+- **White & Case** – State AI Laws Under Federal Scrutiny (EO 14365): https://www.whitecase.com/insight-alert/state-ai-laws-under-federal-scrutiny-key-takeaways-executive-order-establishing
+- **Intellizence** – Generative AI Major Product Launches: https://intellizence.com/insights/generative-ai/major-product-launches-and-partnerships
+- **NVIDIA Blog** – AI Reshaping Healthcare Survey: https://blogs.nvidia.com/blog/ai-healthcare-life-sciences-survey-2025
+- **Harvard Gazette** – How AI is Transforming Medicine: https://news.harvard.edu/gazette/story/2025/03/how-ai-is-transforming-medicine-healthcare
+- **Artificial Intelligence News** – Latest AI News: https://www.artificialintelligence-news.com
+- **Intuition Labs** – Latest AI Research Dec 2025: https://intuitionlabs.ai/articles/latest-ai-research-trends-2025
+
+---
+
+<!-- ZH -->
+### 頭條新聞
+
+- **🇨🇳 DeepSeek R1 撼動全球 AI 市場：** 中國新創公司 DeepSeek 以遠低於西方競爭對手的成本，發布開源推理模型 R1，一度超越 ChatGPT 成為美國 App Store 排名第一，並引發那斯達克大規模拋售，輝達（Nvidia）股價受創最重。
+- **🤖 Google 推出 Gemini 2.0 Flash 並大規模革新 AI 產品：** Google 發布回應速度更快、支援圖片、檔案及 YouTube 影片的 Gemini 2.0 Flash，並在搜尋引擎中推出 AI 模式，整年共發布逾 60 項重大 AI 公告。
+- **🚀 OpenAI 正式推出 GPT-5：** OpenAI 發布迄今最強大的模型 GPT-5，在推理能力與通用能力上均有顯著提升，並整合至旗下各項產品。
+- **📱 Meta 推出獨立 AI 應用程式：** Meta 正式上線專屬的 Meta AI App，直接挑戰 ChatGPT 與 Google Gemini，並測試付費訂閱方案。
+- **🏥 AI 改變醫療體系：** 2025 年 AI 在醫療領域取得重大突破，涵蓋 AI 影像診斷、新藥研發及臨床工作流程自動化，全球約三分之二的醫療機構已積極採用 AI 技術。
+- **🦾 人形機器人快速發展：** AI 驅動的人形機器人吸引大量投資，各企業積極整合生成式 AI 與實體行動能力；川普政府啟動「創世紀任務（Genesis Mission）」，協調聯邦機構的 AI 機器人研究。
+- **⚖️ 美國聯邦與州政府 AI 法規角力：** 川普總統於 2025 年 12 月簽署第 14365 號行政命令，建立聯邦 AI 政策框架，旨在壓制各州分歧的 AI 法規，以最低監管負擔確保美國 AI 全球主導地位。
+- **💰 SpaceX AI 部門營收預估 2030 年達 3220 億美元：** 高盛預測，SpaceX AI 部門營收將從 2025 年的 32 億美元，大幅成長至 2030 年的 3220 億美元。
+- **🌍 世界經濟論壇警告 AI 風險：** 2025 年 WEF 全球風險報告指出，AI 帶來失業及倫理問題等社會風險，呼籲建立更強而有力的國際監管框架。
+- **🧪 AI 推動各領域科學突破：** 從蛋白質結構預測、阿茲海默症研究，到天氣預報與機器人技術，AI 驅動的科學創新在 2025 年全面加速，幾乎觸及所有研究領域。
+
+---
+
+### 分析
+
+**2025 年是全球 AI 競賽的關鍵轉折點，地緣政治角力激烈，強大模型快速普及。** 中國 DeepSeek 以極低成本實現前沿 AI 性能，震撼華爾街，迫使美國科技巨頭重新審視成本結構。這一發展清楚說明，AI 霸主地位不再是資金雄厚的美國實驗室的專利，同時引發外界對出口管制、開源策略及長期競爭力的迫切討論。與此同時，美國各大企業持續加大投入：Google Gemini 生態系大舉擴張，OpenAI 發布 GPT-5，Meta 直接進軍消費者 AI 應用市場。
+
+**AI 監管格局快速演變，創新與治理之間的張力日益明顯。** 川普政府透過行政命令鬆綁拜登時代的監管措施，並挑戰各州 AI 法規，顯示出以去監管化推動美國 AI 霸權的明確戰略意圖。然而，歐盟《AI 法案》仍持續生效，加州等州議會也在積極推動自身的監管框架，為跨國企業創造出複雜的合規環境。WEF 對失業與倫理風險的警示尚未得到解答，顯示隨著 AI 能力持續躍升，各社會將面臨愈來愈強烈的建立防護機制的壓力。
+
+**AI 深度融入醫療、科學與實體機器人，或許是影響最為深遠的長期趨勢。** 生成式 AI 與新藥研發、醫療診斷及人形機器人的結合，正從研究實驗室走向真實世界的大規模應用。高盛對 SpaceX AI 部門 2030 年達 3220 億美元的預測，折射出其背後龐大的經濟規模。當 AI 同時觸及金融、醫療、國防、教育與製造業等每一個領域，2025 年將成為 AI 從技術趨勢正式演變為全球經濟基礎架構的歷史性一年。
+
+---
+
+### 來源
+- **CRN** – 2025 年十大 AI 新聞：https://www.crn.com/news/ai/2025/the-10-biggest-ai-news-stories-of-2025
+- **Google 官方部落格** – 2025 年 60 大 AI 公告：https://blog.google/innovation-and-ai/products/google-ai-news-recap-2025
+- **Google 官方部落格** – 2025 年 1 月 AI 更新：https://blog.google/innovation-and-ai/products/google-ai-updates-january-2025
+- **路透社** – AI 新聞中心：https://www.reuters.com/technology/artificial-intelligence
+- **CNBC** – DeepSeek 如何威脅美國 AI 主導地位：https://www.cnbc.com/2025/01/24/how-chinas-new-ai-model-deepseek-is-threatening-us-dominance.html
+- **世界經濟論壇** – 2025 年度頂尖 AI 報導：https://www.weforum.org/stories/2025/12/the-top-ai-stories-from-2025
+- **世界經濟論壇** – DeepSeek 撼動 AI 產業：https://www.weforum.org/stories/2025/02/china-deepseek-shakes-up-ai-tech-stories
+- **Axios** – 2025 年 AI 驅動的科學突破：https://www.axios.com/2025/12/31/2025-ai-scientific-breakthroughs
+- **White & Case** – 州 AI 法規面臨聯邦審查（EO 14365）：https://www.whitecase.com/insight-alert/state-ai-laws-under-federal-scrutiny-key-takeaways-executive-order-establishing
+- **Intellizence** – 生成式 AI 重大產品發布：https://intellizence.com/insights/generative-ai/major-product-launches-and-partnerships
+- **NVIDIA 官方部落格** – AI 重塑醫療產業調查：https://blogs.nvidia.com/blog/ai-healthcare-life-sciences-survey-2025
+- **哈佛公報** – AI 如何改變醫學：https://news.harvard.edu/gazette/story/2025/03/how-ai-is-transforming-medicine-healthcare
+- **Artificial Intelligence News** – 最新 AI 新聞：https://www.artificialintelligence-news.com
+- **Intuition Labs** – 2025 年 12 月最新 AI 研究：https://intuitionlabs.ai/articles/latest-ai-research-trends-2025
