@@ -894,3 +894,79 @@ The looming EU AI Act deadline — just 55 days away — adds a significant regu
 - BuildFastWithAI: https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026 (published 2026-06-08)
 - TechRadar: https://www.techradar.com/news/live/apple-wwdc-2026-live (published 2026-06-08)
 - Lifehacker: https://lifehacker.com/tech/wwdc-2026-live-blog (published 2026-06-08)
+
+## 2026-06-09 11:52
+
+<!-- EN -->
+### Headlines
+
+- **OpenAI Confidentially Files for IPO at Up to $850B Valuation:** ChatGPT maker OpenAI submitted a confidential S-1 filing to the SEC, targeting a potential September 2026 market debut at a valuation of $730B–$850B, with Goldman Sachs and Morgan Stanley as underwriters. *(Source: Fortune, June 9)*
+
+- **Anthropic's Claude "Mythos Preview" Can Turn Software Patches into Exploits in Hours:** Anthropic published alarming research showing its Mythos Preview model autonomously weaponized N-day vulnerabilities in Mozilla Firefox and the Windows kernel — one proof-of-concept exploit was produced in just 31 minutes — dramatically shrinking the patch-to-exploit window. *(Source: Help Net Security, June 9)*
+
+- **Apple Overhauls Siri at WWDC 2026, Rebrands It "Siri AI":** In Tim Cook's final WWDC keynote as CEO, Apple unveiled a deeply rebuilt Siri powered by Google Gemini-based Apple Foundation Models, featuring a new standalone app, conversation history, enhanced personal context, and deep system-wide integration across iPhone, iPad, and Vision Pro. *(Source: CNBC, June 9)*
+
+- **AI Chip Stocks Stage Broad Rebound After Selloff:** Asian and global markets saw a significant recovery in semiconductor and AI-related equities, with analysts citing renewed confidence in AI infrastructure spending and positive signals from Nvidia and its supply chain partners. *(Source: Bloomberg/YouTube, June 9)*
+
+- **Sen. Adam Schiff Introduces Bill to Restrict Pentagon's Wartime AI Use:** The California Democrat proposed new legislation requiring human oversight of AI used in military and defense settings, amid broader Democratic efforts to regulate AI — partly triggered by the Pentagon's reported ultimatum to Anthropic demanding "unrestricted" military access to its Claude models. *(Source: KERN Radio, June 9)*
+
+- **OpenAI and Anthropic Race to Wall Street in Simultaneous IPO Window:** With Anthropic having filed its own confidential S-1 on June 1 at a near-$1 trillion valuation, the two leading AI labs are now set for overlapping public listings in the second half of 2026, a historic moment that will for the first time expose their full revenue and cost structures to public scrutiny. *(Source: AI Weekly, June 9)*
+
+---
+
+### Analysis
+
+The most consequential theme emerging on June 9, 2026 is the rapid financialization of the frontier AI industry. OpenAI's confidential IPO filing — coming just one week after Anthropic's own S-1 submission — marks a decisive turning point: the era of AI companies operating as opaque, private ventures flush with venture capital is drawing to a close. Both companies are racing to Wall Street in a compressed window, and the simultaneous listings carry real risk of dividing institutional demand and applying downward pressure on valuations that have been set entirely in private markets. For the first time, investors and the public will gain hard data on whether the AI boom's financial promises hold up under rigorous public accounting.
+
+The Anthropic Mythos Preview cybersecurity research stands out as one of the most significant — and sobering — disclosures of the day. By demonstrating that an AI model can independently reverse-engineer software patches and produce functional exploits in under an hour, Anthropic has quantified a threat that the security community had long theorized but rarely seen benchmarked so concretely. This finding has direct implications for enterprise patch management timelines, which have historically assumed weeks or months before a disclosed vulnerability could be weaponized. The research also deepens the political tension between AI labs and government, fueling calls like Sen. Schiff's new Pentagon oversight bill.
+
+On the consumer side, Apple's "Siri AI" reveal at WWDC 2026 — the last keynote under Tim Cook before John Ternus takes the CEO role in September — represents the company's high-stakes attempt to recover AI credibility. The rebranding and deep Google Gemini integration signal that Apple has effectively conceded that building a competitive large language model in-house was not feasible on its timeline. Whether this partnership-driven approach can close the gap with ChatGPT and Google's own Gemini assistant remains the central question as Apple prepares to ship the new features alongside fall hardware.
+
+---
+
+### Sources
+- Fortune: https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo (published 2026-06-09)
+- Help Net Security: https://www.helpnetsecurity.com/2026/06/09/anthropic-mythos-preview-n-day-exploits-firefox-windows (published 2026-06-09)
+- AI Weekly: https://aiweekly.co/alerts/openai-files-confidential-ipo-targeting-850b-valuation (published 2026-06-09)
+- CNBC: https://www.cnbc.com/2026/06/09/cnbc-daily-open-tim-cook-apple-wwdc-openai-ipo-iran-israel.html (published 2026-06-09)
+- KERN Radio: https://www.kernradio.com/2026/06/09/sen-adam-schiff-proposes-legislation-to-limit-pentagon-use-of-ai-without-human-oversight (published 2026-06-09)
+- Bloomberg (YouTube): https://www.youtube.com/watch?v=ZCvt4To_3dw (published 2026-06-09)
+- Developer Tech: https://www.developer-tech.com/news/anthropic-ai-software-patch-exploits (published 2026-06-09)
+
+---
+
+<!-- ZH -->
+### 頭條新聞
+
+- **OpenAI 秘密提交 IPO 申請，估值最高達 8500 億美元：** ChatGPT 開發商 OpenAI 向美國證管會（SEC）提交機密 S-1 文件，目標在 2026 年 9 月掛牌，估值介於 7300 億至 8500 億美元之間，高盛與摩根士丹利擔任承銷商。*(來源：Fortune，6 月 9 日)*
+
+- **Anthropic「Mythos Preview」模型可在數小時內將軟體補丁轉為漏洞攻擊工具：** Anthropic 發布震撼業界的研究，顯示其 Mythos Preview 模型能自主利用 Mozilla Firefox 及 Windows 核心的 N-day 漏洞，其中一個概念性漏洞僅花 31 分鐘即告完成，大幅壓縮了「補丁公布到遭利用」的時間窗口。*(來源：Help Net Security，6 月 9 日)*
+
+- **蘋果 WWDC 2026 大改 Siri，更名為「Siri AI」：** 在 Tim Cook 擔任執行長的最後一次 WWDC 主題演講中，蘋果發布全面升級的 Siri，以 Google Gemini 為基礎打造「Apple Foundation Models」，新增獨立應用程式、對話記錄、強化個人化情境，並深度整合至 iPhone、iPad 和 Vision Pro。*(來源：CNBC，6 月 9 日)*
+
+- **AI 晶片股大幅反彈，從拋售潮中回升：** 亞洲及全球市場的半導體與 AI 相關股票顯著回升，分析師指出，市場對 AI 基礎建設支出重拾信心，加上輝達（Nvidia）及其供應鏈傳出正面消息，帶動資金回流。*(來源：Bloomberg/YouTube，6 月 9 日)*
+
+- **美國參議員 Adam Schiff 提案限制五角大廈在軍事場景中使用 AI：** 這位加州民主黨人提出新法案，要求軍事及國防場景中使用 AI 時必須有人類監督，此舉部分源於五角大廈被指向 Anthropic 發出「無限制軍事存取」最後通牒的爭議。*(來源：KERN Radio，6 月 9 日)*
+
+- **OpenAI 與 Anthropic 競相在同一時窗上市：** Anthropic 於 6 月 1 日以接近 1 兆美元估值提交機密 S-1 後，兩大 AI 巨頭將在 2026 年下半年幾乎同步公開上市，這是 AI 產業史上首次將兩家頂尖實驗室的完整財務數據曝光於公眾與投資者面前。*(來源：AI Weekly，6 月 9 日)*
+
+---
+
+### 分析
+
+2026 年 6 月 9 日最具意義的主題，是前沿 AI 產業的快速金融化。OpenAI 的機密 IPO 申請繼 Anthropic S-1 文件提交僅一週後出現，標誌著 AI 公司依賴不透明私募融資的時代即將落幕。兩家公司在高度壓縮的時間窗口內競相上市，同步掛牌有可能瓜分機構投資者的需求，並對長期只在私募市場定價的估值造成下行壓力。這也將是首次讓外界看清 AI 熱潮的財務承諾是否經得起公開審計的考驗。
+
+Anthropic Mythos Preview 的網路安全研究，是當日最重要也最令人警惕的披露之一。研究明確量化了一個安全界長期擔憂卻難以具體驗證的威脅：AI 模型可在不到一小時內自主逆向解析補丁並產出可用漏洞。這直接衝擊企業的補丁管理策略——過去業界普遍假設漏洞被公開後，仍有數週乃至數月才會遭到武器化利用。這一發現同時加深了 AI 實驗室與政府之間的政治張力，進一步推動了如 Schiff 參議員提出的五角大廈 AI 監管立法。
+
+消費端方面，蘋果在 WWDC 2026 發布的「Siri AI」，是公司在 Tim Cook 九月卸任前奮力挽回 AI 公信力的關鍵一搏。引入 Google Gemini 並深度整合，實際上是蘋果承認在規定時程內自研具競爭力的大型語言模型並不可行。這種以合作取代自研的策略，能否在秋季新硬體發布後真正縮短與 ChatGPT 和 Google Gemini 的差距，仍是業界最關注的問題。
+
+---
+
+### 來源
+- Fortune: https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo (published 2026-06-09)
+- Help Net Security: https://www.helpnetsecurity.com/2026/06/09/anthropic-mythos-preview-n-day-exploits-firefox-windows (published 2026-06-09)
+- AI Weekly: https://aiweekly.co/alerts/openai-files-confidential-ipo-targeting-850b-valuation (published 2026-06-09)
+- CNBC: https://www.cnbc.com/2026/06/09/cnbc-daily-open-tim-cook-apple-wwdc-openai-ipo-iran-israel.html (published 2026-06-09)
+- KERN Radio: https://www.kernradio.com/2026/06/09/sen-adam-schiff-proposes-legislation-to-limit-pentagon-use-of-ai-without-human-oversight (published 2026-06-09)
+- Bloomberg (YouTube): https://www.youtube.com/watch?v=ZCvt4To_3dw (published 2026-06-09)
+- Developer Tech: https://www.developer-tech.com/news/anthropic-ai-software-patch-exploits (published 2026-06-09)
