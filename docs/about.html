@@ -252,6 +252,52 @@ GitHub Pages  →  ainews.ditldesign.com
       </ul>
       <p>API keys (<code>ANTHROPIC_API_KEY</code> and <code>TAVILY_API_KEY</code>) are stored as GitHub Repository Secrets and injected into the workflow environment at runtime — they are never committed to the repository.</p>
 
+      <h3>What does it actually cost?</h3>
+      <p>The project was designed to run at near-zero infrastructure cost. Here is the real breakdown per daily run:</p>
+      <table style="border-collapse:collapse;width:100%;font-size:0.9rem;margin:1rem 0;">
+        <thead>
+          <tr style="background:#f0f0f0;">
+            <th style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:left;">Service</th>
+            <th style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:left;">Usage</th>
+            <th style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">Per day</th>
+            <th style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">Per month</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;"><strong>Claude API</strong> (Sonnet 4.6)</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;">~75K input + ~5K output tokens (writer + verifier agents)</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">~$0.30</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">~$9.00</td>
+          </tr>
+          <tr>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;"><strong>Tavily Search API</strong></td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;">~20 API calls/day → ~600/month (free tier: 1,000/month)</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+          </tr>
+          <tr>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;"><strong>GitHub Actions</strong></td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;">Public repository — unlimited free minutes</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+          </tr>
+          <tr>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;"><strong>GitHub Pages</strong></td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;">Public repository — free static hosting</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+          </tr>
+          <tr style="background:#f9f9f9;font-weight:bold;">
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;" colspan="2">Total</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">~$0.30</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">~$9.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>The only real cost is the Claude API. Each daily run invokes two agentic loops — the writer agent and the verifier agent. Because the full conversation history is sent to the API on every turn, token counts accumulate with each tool call: the writer agent uses roughly 35K input tokens across ~8 search rounds, and the verifier agent uses roughly 40K input tokens verifying and replacing headlines. Sonnet 4.6 is priced at $3 / MTok input and $15 / MTok output.</p>
+      <p>Tavily's free tier (1,000 calls/month) comfortably covers the ~600 calls this project makes monthly — up to 10 searches per writer run plus ~10 URL verifications per verifier run. GitHub Actions and GitHub Pages are free for public repositories.</p>
+
     </div>
     <div class="lang-zh">
 
@@ -426,6 +472,52 @@ GitHub Pages  →  ainews.ditldesign.com
         <li><strong>沒有改變的</strong>：所有應用程式碼（<code>agent.py</code>、<code>verifier.py</code>、<code>publish.py</code>）、輸出格式，以及 GitHub Pages 托管。這次遷移只新增了一個檔案：<code>.github/workflows/daily-summary.yml</code>。</li>
       </ul>
       <p>API 金鑰（<code>ANTHROPIC_API_KEY</code> 與 <code>TAVILY_API_KEY</code>）儲存為 GitHub Repository Secrets，在 workflow 執行時注入環境變數——永遠不會提交到 repo 裡。</p>
+
+      <h3>實際花多少錢？</h3>
+      <p>這個專案設計目標是讓基礎設施成本接近零。以下是每次每日執行的真實費用明細：</p>
+      <table style="border-collapse:collapse;width:100%;font-size:0.9rem;margin:1rem 0;">
+        <thead>
+          <tr style="background:#f0f0f0;">
+            <th style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:left;">服務</th>
+            <th style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:left;">用量</th>
+            <th style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">每天</th>
+            <th style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">每月</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;"><strong>Claude API</strong>（Sonnet 4.6）</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;">約 75K 輸入 + 5K 輸出 token（撰寫 + 驗證 Agent 合計）</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">約 $0.30</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">約 $9.00</td>
+          </tr>
+          <tr>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;"><strong>Tavily Search API</strong></td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;">每天約 20 次呼叫 → 每月約 600 次（免費額度：1,000 次/月）</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+          </tr>
+          <tr>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;"><strong>GitHub Actions</strong></td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;">公開 repo——執行分鐘數無限免費</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+          </tr>
+          <tr>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;"><strong>GitHub Pages</strong></td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;">公開 repo——靜態網站托管免費</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">$0</td>
+          </tr>
+          <tr style="background:#f9f9f9;font-weight:bold;">
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;" colspan="2">合計</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">約 $0.30</td>
+            <td style="border:1px solid #ddd;padding:0.5rem 0.75rem;text-align:right;">約 $9.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>唯一的實際費用是 Claude API。每次每日執行會跑兩條 agentic loop——撰寫 Agent 與驗證 Agent。由於每次呼叫 API 都會傳送完整的對話歷史，token 數量隨每次工具呼叫累積：撰寫 Agent 在約 8 輪搜尋中消耗約 35K 輸入 token，驗證 Agent 在驗證與替換頭條的過程中消耗約 40K 輸入 token。Sonnet 4.6 的定價為輸入 $3 / MTok、輸出 $15 / MTok。</p>
+      <p>Tavily 免費額度每月 1,000 次呼叫，足以涵蓋這個專案每月約 600 次的用量（撰寫 Agent 每次執行最多 10 次搜尋，驗證 Agent 每次約 10 次 URL 驗證）。GitHub Actions 與 GitHub Pages 對公開 repo 完全免費。</p>
 
     </div>
     
