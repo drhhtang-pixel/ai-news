@@ -3,7 +3,12 @@
     "allow": [
       "Bash(spectra status *)",
       "Bash(spectra list *)",
-      "Bash(spectra task *)"
+      "Bash(spectra task *)",
+      "Bash(spectra instructions *)",
+      "Bash(spectra new *)",
+      "Skill(spectra-apply)",
+      "Bash(spectra unpark *)",
+      "Bash(spectra in-progress *)"
     ]
   }
 }
