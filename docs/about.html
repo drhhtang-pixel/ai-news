@@ -84,10 +84,10 @@
 
       <h3>Architecture</h3>
       <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
-Every day at 08:00
+Every day at 08:00 (Taiwan time)
        │
        ▼
-  launchd / run.sh
+  GitHub Actions  (scheduled cron, cloud — no local machine needed)
        │
        ▼
   agent.py ◄──────────────────────────────────────────────────────┐
@@ -101,12 +101,15 @@ Every day at 08:00
        (3–10 queries)           Claude synthesises &amp; writes bilingual summary
        │
        ▼
+  verifier.py  (second Claude agent — validates each headline's source URL)
+       │         replaces bad sources or removes unverifiable headlines
+       ▼
   summaries.md  (append-only, bilingual Markdown)
        │
        ▼
   publish.py  →  docs/YYYY-MM-DD/index.html
-             →  docs/index.html  (archive)
-             →  docs/about.html
+             →  docs/index.html  (home)
+             →  docs/archive.html
        │
        ▼
   git push  →  GitHub Pages  (public website, zero server cost)
@@ -114,8 +117,9 @@ Every day at 08:00
 
       <h3>What each component does</h3>
       <ul>
-        <li><strong>launchd + run.sh</strong>: Triggers the entire pipeline daily at 08:00. Uses macOS launchd (rather than cron) so that missed runs while the machine is sleeping are executed immediately on wake-up. No human intervention required after setup.</li>
-        <li><strong>Claude (claude-sonnet-4-6)</strong>: The "brain" of the agent. It autonomously decides which queries to run, calls the search tool multiple times, then synthesises all results into a structured bilingual summary.</li>
+        <li><strong>GitHub Actions</strong>: Triggers the pipeline daily at 08:00 Taiwan time (00:00 UTC) via a scheduled cron workflow. Runs entirely in the cloud — no local machine required. Also pushes the generated HTML back to the repo so GitHub Pages deploys automatically.</li>
+        <li><strong>Claude (claude-sonnet-4-6) — writer agent</strong>: The "brain" of the agent. It autonomously decides which queries to run, calls the search tool multiple times, then synthesises all results into a structured bilingual summary with inline source citations.</li>
+        <li><strong>Claude (claude-sonnet-4-6) — verifier agent</strong>: A second independent Claude agent that runs after the writer. It checks every headline's cited URL using Tavily Extract — verifying the article exists and was published today. Bad sources are replaced via web search; unverifiable headlines are removed entirely.</li>
         <li><strong>Tavily Search API</strong>: An AI-optimised search API that returns clean, structured results suitable for LLM consumption — no HTML scraping needed.</li>
         <li><strong>publish.py</strong>: Converts the append-only <code>summaries.md</code> into a static website. Parses dates, splits bilingual content, renders HTML with EN/ZH toggle.</li>
         <li><strong>GitHub Pages</strong>: Serves the static site for free. Each daily page gets a permanent URL (<code>/YYYY-MM-DD/</code>).</li>
@@ -124,43 +128,11 @@ Every day at 08:00
       <h3>Why this design?</h3>
       <ul>
         <li><strong>Zero server cost</strong>: Static HTML on GitHub Pages — no cloud compute, no database, no maintenance.</li>
-        <li><strong>Fully autonomous</strong>: Once the launchd agent is configured, human involvement is zero. The agent decides its own search strategy each day. Unlike cron, launchd catches up on any runs missed while the machine was sleeping.</li>
+        <li><strong>Fully autonomous</strong>: Once GitHub Actions is configured, human involvement is zero. The agent decides its own search strategy each day and runs even when the local machine is off.</li>
+        <li><strong>Two-agent accuracy</strong>: The writer and verifier are separate agents with independent context. The verifier cannot be biased by the writer's reasoning — it only sees URLs and checks facts.</li>
         <li><strong>Permanent archive</strong>: Every daily summary lives at its own URL forever. Nothing is overwritten.</li>
         <li><strong>Single source of truth</strong>: <code>summaries.md</code> is the canonical data store. The website is always regenerable from it.</li>
       </ul>
-
-      <h3>Running cost</h3>
-      <table style="border-collapse:collapse;width:100%;font-size:0.9rem;margin:0.5rem 0;">
-        <thead>
-          <tr style="background:#f4f4f4;">
-            <th style="text-align:left;padding:0.5rem 0.8rem;border:1px solid #ddd;">Component</th>
-            <th style="text-align:left;padding:0.5rem 0.8rem;border:1px solid #ddd;">Usage per day</th>
-            <th style="text-align:left;padding:0.5rem 0.8rem;border:1px solid #ddd;">Cost</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">Anthropic API (claude-sonnet-4-6)</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">~20k input tokens, ~2k output tokens</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">~$0.09 / day</td>
-          </tr>
-          <tr style="background:#fafafa;">
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">Tavily Search API</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">3–10 searches (free tier: 1,000/month)</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">$0</td>
-          </tr>
-          <tr>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">GitHub Pages</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">Static hosting</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">$0</td>
-          </tr>
-          <tr style="background:#fafafa;font-weight:600;">
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">Total</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;"></td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">~USD $3 / month</td>
-          </tr>
-        </tbody>
-      </table>
 
       <hr>
 
@@ -184,36 +156,17 @@ Human describes requirement
        ▼
 /spectra-archive  →  change is archived; specs merged into the main spec index
       </pre>
-      <p>This project was delivered in two changes:</p>
+      <p>This project was delivered in four changes:</p>
       <ul>
-        <li><strong>ai-news-monitor-agent</strong>: The core agent — <code>agent.py</code>, <code>tools.py</code>, <code>writer.py</code>, <code>run.sh</code>, launchd scheduling.</li>
+        <li><strong>ai-news-monitor-agent</strong>: The core agent — <code>agent.py</code>, <code>tools.py</code>, <code>writer.py</code>, daily scheduling.</li>
         <li><strong>github-pages-website</strong>: The static site generator — <code>publish.py</code>, bilingual HTML templates, GitHub Pages deployment.</li>
+        <li><strong>strengthen-summary-accuracy</strong>: Inline source citations on every headline and an independent verifier agent (<code>verifier.py</code>) that validates URLs and publication dates.</li>
+        <li><strong>github-actions-scheduling</strong>: Migrated the daily trigger from local macOS launchd to GitHub Actions — the pipeline now runs in the cloud regardless of whether the local machine is on.</li>
       </ul>
-
-      <h3>The full record is public</h3>
-      <p>All Spectra artifacts live in the <code>openspec/</code> directory at the root of this repo — committed alongside the code and <a href="https://github.com/drhhtang-pixel/ai-news/tree/main/openspec" target="_blank">publicly visible on GitHub</a>:</p>
-      <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
-openspec/
-├── specs/                        ← live specs (continuously updated)
-│   ├── scheduler-entrypoint/
-│   ├── summary-writer/
-│   ├── bilingual-website/
-│   └── static-site-generator/
-└── changes/archive/
-    ├── 2026-06-07-ai-news-monitor-agent/     ← change 1
-    │   ├── proposal.md
-    │   ├── design.md
-    │   └── tasks.md
-    └── 2026-06-07-github-pages-website/      ← change 2
-        ├── proposal.md
-        ├── design.md
-        └── tasks.md
-      </pre>
-      <p>Every decision — why each feature was built, what alternatives were considered, which tasks the AI executed — is recorded there. The development history is not just in git commits; it is in human-readable documents that explain the reasoning behind the code.</p>
 
       <h3>What AI did vs. what the human did</h3>
       <ul>
-        <li><strong>Human</strong>: Described the goal ("I want an AI agent that monitors AI news and publishes it online"), made architectural choices (GitHub Pages over a server, bilingual EN/ZH, launchd over cron/cloud scheduling), reviewed specs before implementation.</li>
+        <li><strong>Human</strong>: Described the goal ("I want an AI agent that monitors AI news and publishes it online"), made architectural choices (GitHub Pages over a server, bilingual EN/ZH, cron over cloud scheduling), reviewed specs before implementation.</li>
         <li><strong>AI</strong>: Wrote every proposal, design doc, spec, and task list. Implemented all code. Fixed bugs when they appeared. Translated the first summary retroactively into Chinese.</li>
       </ul>
 
@@ -228,7 +181,7 @@ openspec/
       <h3>Tech stack</h3>
       <ul>
         <li>Python 3.12 · Anthropic SDK · Tavily API</li>
-        <li>GitHub Pages (static hosting, zero cost)</li>
+        <li>GitHub Actions (cloud scheduling) · GitHub Pages (static hosting, zero cost)</li>
         <li>Vanilla HTML/CSS/JS (no frameworks)</li>
         <li>Spectra (agentic change management) · Claude Code (AI development environment)</li>
       </ul>
@@ -269,10 +222,10 @@ openspec/
 
       <h3>系統架構</h3>
       <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
-每天早上 08:00
+每天早上 08:00（台灣時間）
        │
        ▼
-  launchd / run.sh
+  GitHub Actions（排程 cron，雲端執行——不依賴本機）
        │
        ▼
   agent.py ◄──────────────────────────────────────────────────────┐
@@ -286,12 +239,15 @@ openspec/
        （執行 3–10 次查詢）     Claude 整合結果，生成中英雙語摘要
        │
        ▼
+  verifier.py（第二個 Claude Agent——驗證每條新聞的來源 URL）
+       │        取代無效來源，或移除無法驗證的頭條
+       ▼
   summaries.md（只增不改，雙語 Markdown）
        │
        ▼
   publish.py  →  docs/YYYY-MM-DD/index.html（每日頁面）
-             →  docs/index.html（過往摘要索引）
-             →  docs/about.html（本頁）
+             →  docs/index.html（首頁）
+             →  docs/archive.html（彙整）
        │
        ▼
   git push  →  GitHub Pages（公開網站，零伺服器成本）
@@ -299,8 +255,9 @@ openspec/
 
       <h3>各元件功能說明</h3>
       <ul>
-        <li><strong>launchd + run.sh</strong>：每天早上 08:00 自動觸發整條流程。使用 macOS launchd（而非 cron），電腦睡眠錯過排程時，醒機後會立即補跑。設定完成後不需要任何人工操作。</li>
-        <li><strong>Claude（claude-sonnet-4-6）</strong>：Agent 的「大腦」。自主決定要搜尋什麼、多次呼叫搜尋工具，最後將所有結果整合為結構化的中英雙語摘要。</li>
+        <li><strong>GitHub Actions</strong>：每天台灣時間早上 08:00（UTC 00:00）透過排程 cron workflow 觸發流程，完全在雲端執行——就算本機關機也照常運作。流程跑完後也負責將生成的 HTML push 回 repo，自動觸發 GitHub Pages 部署。</li>
+        <li><strong>Claude（claude-sonnet-4-6）——撰寫 Agent</strong>：Agent 的「大腦」。自主決定要搜尋什麼、多次呼叫搜尋工具，最後將所有結果整合為帶有 inline 來源引用的結構化中英雙語摘要。</li>
+        <li><strong>Claude（claude-sonnet-4-6）——驗證 Agent</strong>：撰寫後執行的第二個獨立 Claude Agent。使用 Tavily Extract 驗證每條頭條引用的來源 URL——確認文章存在且為今日發布。無效來源透過網路搜尋替換，無法驗證的頭條直接移除。</li>
         <li><strong>Tavily Search API</strong>：專為 AI 應用優化的搜尋 API，回傳乾淨的結構化結果，不需要解析 HTML。</li>
         <li><strong>publish.py</strong>：將只增不改的 <code>summaries.md</code> 轉換為靜態網站。解析日期、拆分雙語內容、生成含語言切換功能的 HTML 頁面。</li>
         <li><strong>GitHub Pages</strong>：免費提供靜態網站服務。每個每日頁面都有永久的 URL（<code>/YYYY-MM-DD/</code>）。</li>
@@ -309,43 +266,11 @@ openspec/
       <h3>為什麼這樣設計？</h3>
       <ul>
         <li><strong>零伺服器成本</strong>：GitHub Pages 提供靜態 HTML 托管，不需要雲端運算、資料庫或維運。</li>
-        <li><strong>全自動運行</strong>：launchd 排程設定完成後，人工介入次數為零。Agent 每天自行決定搜尋策略。與 cron 不同，launchd 在電腦睡眠錯過排程時會補跑，確保不漏任何一天。</li>
+        <li><strong>全自動運行</strong>：GitHub Actions 設定完成後，人工介入次數為零。Agent 每天自行決定搜尋策略，不依賴本機是否開機。</li>
+        <li><strong>雙 Agent 準確性</strong>：撰寫與驗證為兩個獨立 Agent，各自擁有獨立的 context。驗證 Agent 不會受到撰寫 Agent 推理過程的影響——只看 URL、只查事實。</li>
         <li><strong>永久保存</strong>：每天的摘要都有自己的 URL，永遠不會被覆蓋。</li>
         <li><strong>單一資料來源</strong>：<code>summaries.md</code> 是唯一的資料儲存。網站隨時可以從它重新生成。</li>
       </ul>
-
-      <h3>每月運行成本</h3>
-      <table style="border-collapse:collapse;width:100%;font-size:0.9rem;margin:0.5rem 0;">
-        <thead>
-          <tr style="background:#f4f4f4;">
-            <th style="text-align:left;padding:0.5rem 0.8rem;border:1px solid #ddd;">元件</th>
-            <th style="text-align:left;padding:0.5rem 0.8rem;border:1px solid #ddd;">每日用量</th>
-            <th style="text-align:left;padding:0.5rem 0.8rem;border:1px solid #ddd;">費用</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">Anthropic API（claude-sonnet-4-6）</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">~2 萬 input tokens、~2k output tokens</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">~$0.09 / 天</td>
-          </tr>
-          <tr style="background:#fafafa;">
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">Tavily Search API</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">3–10 次搜尋（免費方案：1,000 次/月）</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">$0</td>
-          </tr>
-          <tr>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">GitHub Pages</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">靜態網站托管</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">$0</td>
-          </tr>
-          <tr style="background:#fafafa;font-weight:600;">
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">合計</td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;"></td>
-            <td style="padding:0.5rem 0.8rem;border:1px solid #ddd;">~USD $3 / 月（約新台幣 100 元）</td>
-          </tr>
-        </tbody>
-      </table>
 
       <hr>
 
@@ -369,36 +294,17 @@ openspec/
        ▼
 /spectra-archive  →  變更歸檔，spec 合併進主 spec 索引
       </pre>
-      <p>本專案分兩個 change 完成：</p>
+      <p>本專案分四個 change 完成：</p>
       <ul>
-        <li><strong>ai-news-monitor-agent</strong>：核心 Agent——<code>agent.py</code>、<code>tools.py</code>、<code>writer.py</code>、<code>run.sh</code>、launchd 排程設定。</li>
+        <li><strong>ai-news-monitor-agent</strong>：核心 Agent——<code>agent.py</code>、<code>tools.py</code>、<code>writer.py</code>、每日排程。</li>
         <li><strong>github-pages-website</strong>：靜態網站生成器——<code>publish.py</code>、雙語 HTML 模板、GitHub Pages 部署。</li>
+        <li><strong>strengthen-summary-accuracy</strong>：每條頭條加入 inline 來源引用，以及獨立驗證 Agent（<code>verifier.py</code>）驗證 URL 與發布日期。</li>
+        <li><strong>github-actions-scheduling</strong>：將每日觸發從本機 macOS launchd 遷移至 GitHub Actions——流程現在在雲端執行，不依賴本機是否開機。</li>
       </ul>
-
-      <h3>完整紀錄是公開的</h3>
-      <p>所有 Spectra 文件都存放在 repo 根目錄的 <code>openspec/</code> 資料夾——與程式碼一起 commit，<a href="https://github.com/drhhtang-pixel/ai-news/tree/main/openspec" target="_blank">在 GitHub 上公開可見</a>：</p>
-      <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
-openspec/
-├── specs/                        ← 現行規格（持續更新）
-│   ├── scheduler-entrypoint/
-│   ├── summary-writer/
-│   ├── bilingual-website/
-│   └── static-site-generator/
-└── changes/archive/
-    ├── 2026-06-07-ai-news-monitor-agent/     ← change 1
-    │   ├── proposal.md
-    │   ├── design.md
-    │   └── tasks.md
-    └── 2026-06-07-github-pages-website/      ← change 2
-        ├── proposal.md
-        ├── design.md
-        └── tasks.md
-      </pre>
-      <p>每一個決策——為什麼做這個功能、考慮過哪些替代方案、AI 執行了哪些任務——都記錄在這裡。開發歷程不只存在於 git commit，而是有人類可讀的文件，說明每段程式碼背後的思考脈絡。</p>
 
       <h3>AI 做了什麼，人做了什麼</h3>
       <ul>
-        <li><strong>人</strong>：描述目標（「我要一個 AI Agent 監控 AI 新聞並發布上網」）、做架構決策（GitHub Pages 而非伺服器、中英雙語、launchd 而非 cron 或雲端排程）、在實作前審閱 spec。</li>
+        <li><strong>人</strong>：描述目標（「我要一個 AI Agent 監控 AI 新聞並發布上網」）、做架構決策（GitHub Pages 而非伺服器、中英雙語、cron 而非雲端排程）、在實作前審閱 spec。</li>
         <li><strong>AI</strong>：撰寫所有 proposal、設計文件、spec 和任務清單。實作所有程式碼。發現 bug 時自行修復。將舊版摘要補譯為中文。</li>
       </ul>
 
@@ -413,7 +319,7 @@ openspec/
       <h3>技術架構</h3>
       <ul>
         <li>Python 3.12 · Anthropic SDK · Tavily API</li>
-        <li>GitHub Pages（靜態托管，完全免費）</li>
+        <li>GitHub Actions（雲端排程）· GitHub Pages（靜態托管，完全免費）</li>
         <li>純 HTML/CSS/JS（無前端框架）</li>
         <li>Spectra（Agentic 變更管理）· Claude Code（AI 開發環境）</li>
       </ul>

@@ -342,10 +342,10 @@ def generate_about_page() -> str:
 
       <h3>Architecture</h3>
       <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
-Every day at 08:00
+Every day at 08:00 (Taiwan time)
        │
        ▼
-  cron / run.sh
+  GitHub Actions  (scheduled cron, cloud — no local machine needed)
        │
        ▼
   agent.py ◄──────────────────────────────────────────────────────┐
@@ -359,12 +359,15 @@ Every day at 08:00
        (3–10 queries)           Claude synthesises &amp; writes bilingual summary
        │
        ▼
+  verifier.py  (second Claude agent — validates each headline's source URL)
+       │         replaces bad sources or removes unverifiable headlines
+       ▼
   summaries.md  (append-only, bilingual Markdown)
        │
        ▼
   publish.py  →  docs/YYYY-MM-DD/index.html
-             →  docs/index.html  (archive)
-             →  docs/about.html
+             →  docs/index.html  (home)
+             →  docs/archive.html
        │
        ▼
   git push  →  GitHub Pages  (public website, zero server cost)
@@ -372,8 +375,9 @@ Every day at 08:00
 
       <h3>What each component does</h3>
       <ul>
-        <li><strong>cron + run.sh</strong>: Triggers the entire pipeline daily at 08:00. No human intervention required after setup.</li>
-        <li><strong>Claude (claude-sonnet-4-6)</strong>: The "brain" of the agent. It autonomously decides which queries to run, calls the search tool multiple times, then synthesises all results into a structured bilingual summary.</li>
+        <li><strong>GitHub Actions</strong>: Triggers the pipeline daily at 08:00 Taiwan time (00:00 UTC) via a scheduled cron workflow. Runs entirely in the cloud — no local machine required. Also pushes the generated HTML back to the repo so GitHub Pages deploys automatically.</li>
+        <li><strong>Claude (claude-sonnet-4-6) — writer agent</strong>: The "brain" of the agent. It autonomously decides which queries to run, calls the search tool multiple times, then synthesises all results into a structured bilingual summary with inline source citations.</li>
+        <li><strong>Claude (claude-sonnet-4-6) — verifier agent</strong>: A second independent Claude agent that runs after the writer. It checks every headline's cited URL using Tavily Extract — verifying the article exists and was published today. Bad sources are replaced via web search; unverifiable headlines are removed entirely.</li>
         <li><strong>Tavily Search API</strong>: An AI-optimised search API that returns clean, structured results suitable for LLM consumption — no HTML scraping needed.</li>
         <li><strong>publish.py</strong>: Converts the append-only <code>summaries.md</code> into a static website. Parses dates, splits bilingual content, renders HTML with EN/ZH toggle.</li>
         <li><strong>GitHub Pages</strong>: Serves the static site for free. Each daily page gets a permanent URL (<code>/YYYY-MM-DD/</code>).</li>
@@ -382,7 +386,8 @@ Every day at 08:00
       <h3>Why this design?</h3>
       <ul>
         <li><strong>Zero server cost</strong>: Static HTML on GitHub Pages — no cloud compute, no database, no maintenance.</li>
-        <li><strong>Fully autonomous</strong>: Once the cron job is set, human involvement is zero. The agent decides its own search strategy each day.</li>
+        <li><strong>Fully autonomous</strong>: Once GitHub Actions is configured, human involvement is zero. The agent decides its own search strategy each day and runs even when the local machine is off.</li>
+        <li><strong>Two-agent accuracy</strong>: The writer and verifier are separate agents with independent context. The verifier cannot be biased by the writer's reasoning — it only sees URLs and checks facts.</li>
         <li><strong>Permanent archive</strong>: Every daily summary lives at its own URL forever. Nothing is overwritten.</li>
         <li><strong>Single source of truth</strong>: <code>summaries.md</code> is the canonical data store. The website is always regenerable from it.</li>
       </ul>
@@ -409,10 +414,12 @@ Human describes requirement
        ▼
 /spectra-archive  →  change is archived; specs merged into the main spec index
       </pre>
-      <p>This project was delivered in two changes:</p>
+      <p>This project was delivered in four changes:</p>
       <ul>
-        <li><strong>ai-news-monitor-agent</strong>: The core agent — <code>agent.py</code>, <code>tools.py</code>, <code>writer.py</code>, <code>run.sh</code>, cron setup.</li>
+        <li><strong>ai-news-monitor-agent</strong>: The core agent — <code>agent.py</code>, <code>tools.py</code>, <code>writer.py</code>, daily scheduling.</li>
         <li><strong>github-pages-website</strong>: The static site generator — <code>publish.py</code>, bilingual HTML templates, GitHub Pages deployment.</li>
+        <li><strong>strengthen-summary-accuracy</strong>: Inline source citations on every headline and an independent verifier agent (<code>verifier.py</code>) that validates URLs and publication dates.</li>
+        <li><strong>github-actions-scheduling</strong>: Migrated the daily trigger from local macOS launchd to GitHub Actions — the pipeline now runs in the cloud regardless of whether the local machine is on.</li>
       </ul>
 
       <h3>What AI did vs. what the human did</h3>
@@ -432,7 +439,7 @@ Human describes requirement
       <h3>Tech stack</h3>
       <ul>
         <li>Python 3.12 · Anthropic SDK · Tavily API</li>
-        <li>GitHub Pages (static hosting, zero cost)</li>
+        <li>GitHub Actions (cloud scheduling) · GitHub Pages (static hosting, zero cost)</li>
         <li>Vanilla HTML/CSS/JS (no frameworks)</li>
         <li>Spectra (agentic change management) · Claude Code (AI development environment)</li>
       </ul>
@@ -473,10 +480,10 @@ Human describes requirement
 
       <h3>系統架構</h3>
       <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
-每天早上 08:00
+每天早上 08:00（台灣時間）
        │
        ▼
-  cron / run.sh
+  GitHub Actions（排程 cron，雲端執行——不依賴本機）
        │
        ▼
   agent.py ◄──────────────────────────────────────────────────────┐
@@ -490,12 +497,15 @@ Human describes requirement
        （執行 3–10 次查詢）     Claude 整合結果，生成中英雙語摘要
        │
        ▼
+  verifier.py（第二個 Claude Agent——驗證每條新聞的來源 URL）
+       │        取代無效來源，或移除無法驗證的頭條
+       ▼
   summaries.md（只增不改，雙語 Markdown）
        │
        ▼
   publish.py  →  docs/YYYY-MM-DD/index.html（每日頁面）
-             →  docs/index.html（過往摘要索引）
-             →  docs/about.html（本頁）
+             →  docs/index.html（首頁）
+             →  docs/archive.html（彙整）
        │
        ▼
   git push  →  GitHub Pages（公開網站，零伺服器成本）
@@ -503,8 +513,9 @@ Human describes requirement
 
       <h3>各元件功能說明</h3>
       <ul>
-        <li><strong>cron + run.sh</strong>：每天早上 08:00 自動觸發整條流程，設定完成後不需要任何人工操作。</li>
-        <li><strong>Claude（claude-sonnet-4-6）</strong>：Agent 的「大腦」。自主決定要搜尋什麼、多次呼叫搜尋工具，最後將所有結果整合為結構化的中英雙語摘要。</li>
+        <li><strong>GitHub Actions</strong>：每天台灣時間早上 08:00（UTC 00:00）透過排程 cron workflow 觸發流程，完全在雲端執行——就算本機關機也照常運作。流程跑完後也負責將生成的 HTML push 回 repo，自動觸發 GitHub Pages 部署。</li>
+        <li><strong>Claude（claude-sonnet-4-6）——撰寫 Agent</strong>：Agent 的「大腦」。自主決定要搜尋什麼、多次呼叫搜尋工具，最後將所有結果整合為帶有 inline 來源引用的結構化中英雙語摘要。</li>
+        <li><strong>Claude（claude-sonnet-4-6）——驗證 Agent</strong>：撰寫後執行的第二個獨立 Claude Agent。使用 Tavily Extract 驗證每條頭條引用的來源 URL——確認文章存在且為今日發布。無效來源透過網路搜尋替換，無法驗證的頭條直接移除。</li>
         <li><strong>Tavily Search API</strong>：專為 AI 應用優化的搜尋 API，回傳乾淨的結構化結果，不需要解析 HTML。</li>
         <li><strong>publish.py</strong>：將只增不改的 <code>summaries.md</code> 轉換為靜態網站。解析日期、拆分雙語內容、生成含語言切換功能的 HTML 頁面。</li>
         <li><strong>GitHub Pages</strong>：免費提供靜態網站服務。每個每日頁面都有永久的 URL（<code>/YYYY-MM-DD/</code>）。</li>
@@ -513,7 +524,8 @@ Human describes requirement
       <h3>為什麼這樣設計？</h3>
       <ul>
         <li><strong>零伺服器成本</strong>：GitHub Pages 提供靜態 HTML 托管，不需要雲端運算、資料庫或維運。</li>
-        <li><strong>全自動運行</strong>：cron job 設定完成後，人工介入次數為零。Agent 每天自行決定搜尋策略。</li>
+        <li><strong>全自動運行</strong>：GitHub Actions 設定完成後，人工介入次數為零。Agent 每天自行決定搜尋策略，不依賴本機是否開機。</li>
+        <li><strong>雙 Agent 準確性</strong>：撰寫與驗證為兩個獨立 Agent，各自擁有獨立的 context。驗證 Agent 不會受到撰寫 Agent 推理過程的影響——只看 URL、只查事實。</li>
         <li><strong>永久保存</strong>：每天的摘要都有自己的 URL，永遠不會被覆蓋。</li>
         <li><strong>單一資料來源</strong>：<code>summaries.md</code> 是唯一的資料儲存。網站隨時可以從它重新生成。</li>
       </ul>
@@ -540,10 +552,12 @@ Human describes requirement
        ▼
 /spectra-archive  →  變更歸檔，spec 合併進主 spec 索引
       </pre>
-      <p>本專案分兩個 change 完成：</p>
+      <p>本專案分四個 change 完成：</p>
       <ul>
-        <li><strong>ai-news-monitor-agent</strong>：核心 Agent——<code>agent.py</code>、<code>tools.py</code>、<code>writer.py</code>、<code>run.sh</code>、cron 設定。</li>
+        <li><strong>ai-news-monitor-agent</strong>：核心 Agent——<code>agent.py</code>、<code>tools.py</code>、<code>writer.py</code>、每日排程。</li>
         <li><strong>github-pages-website</strong>：靜態網站生成器——<code>publish.py</code>、雙語 HTML 模板、GitHub Pages 部署。</li>
+        <li><strong>strengthen-summary-accuracy</strong>：每條頭條加入 inline 來源引用，以及獨立驗證 Agent（<code>verifier.py</code>）驗證 URL 與發布日期。</li>
+        <li><strong>github-actions-scheduling</strong>：將每日觸發從本機 macOS launchd 遷移至 GitHub Actions——流程現在在雲端執行，不依賴本機是否開機。</li>
       </ul>
 
       <h3>AI 做了什麼，人做了什麼</h3>
@@ -563,7 +577,7 @@ Human describes requirement
       <h3>技術架構</h3>
       <ul>
         <li>Python 3.12 · Anthropic SDK · Tavily API</li>
-        <li>GitHub Pages（靜態托管，完全免費）</li>
+        <li>GitHub Actions（雲端排程）· GitHub Pages（靜態托管，完全免費）</li>
         <li>純 HTML/CSS/JS（無前端框架）</li>
         <li>Spectra（Agentic 變更管理）· Claude Code（AI 開發環境）</li>
       </ul>
@@ -636,11 +650,9 @@ def main() -> None:
     with open(os.path.join(DOCS_DIR, "archive.html"), "w", encoding="utf-8") as f:
         f.write(archive_html)
 
-    # Create about.html only if absent
     about_path = os.path.join(DOCS_DIR, "about.html")
-    if not os.path.exists(about_path):
-        with open(about_path, "w", encoding="utf-8") as f:
-            f.write(generate_about_page())
+    with open(about_path, "w", encoding="utf-8") as f:
+        f.write(generate_about_page())
 
     # Preserve CNAME for custom domain
     cname_path = os.path.join(DOCS_DIR, "CNAME")
