@@ -473,6 +473,43 @@ Human describes requirement
 
       <p style="margin-top:1.5rem;font-style:italic;color:#555;">Both agents make valid points. This project demonstrates the core traits of agentic AI — autonomous tool use and goal-directed behaviour — while being honest about its current limits. Agentic AI is a spectrum, not a binary label.</p>
 
+      <hr>
+
+      <h2>Part 4 — Automating the Pipeline with GitHub Actions</h2>
+
+      <h3>The problem with local scheduling</h3>
+      <p>The pipeline originally ran via a macOS launchd agent — a local cron job that triggered <code>run.sh</code> every morning at 08:00. This worked, but had a silent failure mode: if the Mac was asleep or off when the job fired, the summary for that day was simply missing. There was no retry, no alert, and no way to know it had happened until you noticed a gap in the archive.</p>
+
+      <h3>The fix: move the trigger to the cloud</h3>
+      <p>GitHub Actions provides a <code>schedule</code> trigger that runs workflows on a cron expression in GitHub's cloud infrastructure — completely independent of any local machine. The workflow fires at 00:00 UTC (08:00 Taiwan time) every day, whether or not any computer is on.</p>
+
+      <h3>How the workflow runs</h3>
+      <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
+00:00 UTC — GitHub Actions scheduler fires
+       │
+       ▼
+daily-summary.yml
+  1. Checkout repo
+  2. Set up Python 3.12
+  3. pip install -r requirements.txt
+  4. python3 agent.py      ← fetch + summarise + verify
+  5. python3 publish.py    ← regenerate static HTML
+  6. git commit + push     ← "Daily summary YYYY-MM-DD"
+       │
+       ▼
+pages.yml  (triggered automatically by the push to main)
+       │
+       ▼
+GitHub Pages  →  ainews.ditldesign.com
+      </pre>
+
+      <h3>What changed and what stayed the same</h3>
+      <ul>
+        <li><strong>Changed</strong>: The trigger — from local launchd to GitHub Actions cron.</li>
+        <li><strong>Unchanged</strong>: All application code (<code>agent.py</code>, <code>verifier.py</code>, <code>publish.py</code>), the output format, and the GitHub Pages hosting. The migration touched exactly one new file: <code>.github/workflows/daily-summary.yml</code>.</li>
+      </ul>
+      <p>API keys (<code>ANTHROPIC_API_KEY</code> and <code>TAVILY_API_KEY</code>) are stored as GitHub Repository Secrets and injected into the workflow environment at runtime — they are never committed to the repository.</p>
+
     </div>
     <div class="lang-zh">
 
@@ -610,6 +647,43 @@ Human describes requirement
       </div>
 
       <p style="margin-top:1.5rem;font-style:italic;color:#555;">兩個 Agent 都有道理。這個專案示範了 agentic AI 的核心特徵——自主工具使用與目標導向行為——同時也誠實地呈現了現階段的限制。Agentic AI 是一個光譜，不是二元標籤。</p>
+
+      <hr>
+
+      <h2>第四部分 — 用 GitHub Actions 自動化整條流程</h2>
+
+      <h3>本機排程的問題</h3>
+      <p>這條流程最初透過 macOS launchd agent 執行——一個本機 cron job，每天早上 08:00 觸發 <code>run.sh</code>。這樣可以運作，但有一個無聲的失敗模式：如果 Mac 在排程觸發時處於睡眠或關機狀態，當天的摘要就直接消失，不會有重試、不會有通知，直到你發現彙整頁面出現空缺才會察覺。</p>
+
+      <h3>解法：把觸發移到雲端</h3>
+      <p>GitHub Actions 提供 <code>schedule</code> 觸發器，讓 workflow 依照 cron 表達式在 GitHub 的雲端基礎設施上執行——完全不依賴任何本機設備。無論有沒有電腦開機，每天 UTC 00:00（台灣時間 08:00）workflow 都會準時觸發。</p>
+
+      <h3>Workflow 執行流程</h3>
+      <pre style="background:#f4f4f4;padding:1rem;border-radius:6px;font-size:0.85rem;line-height:1.6;overflow-x:auto;">
+UTC 00:00 — GitHub Actions 排程器觸發
+       │
+       ▼
+daily-summary.yml
+  1. Checkout repo
+  2. 安裝 Python 3.12
+  3. pip install -r requirements.txt
+  4. python3 agent.py      ← 搜尋 + 摘要 + 驗證
+  5. python3 publish.py    ← 重新生成靜態 HTML
+  6. git commit + push     ← "Daily summary YYYY-MM-DD"
+       │
+       ▼
+pages.yml（由 push to main 自動觸發）
+       │
+       ▼
+GitHub Pages  →  ainews.ditldesign.com
+      </pre>
+
+      <h3>改了什麼，沒改什麼</h3>
+      <ul>
+        <li><strong>改變的</strong>：觸發機制——從本機 launchd 換成 GitHub Actions cron。</li>
+        <li><strong>沒有改變的</strong>：所有應用程式碼（<code>agent.py</code>、<code>verifier.py</code>、<code>publish.py</code>）、輸出格式，以及 GitHub Pages 托管。這次遷移只新增了一個檔案：<code>.github/workflows/daily-summary.yml</code>。</li>
+      </ul>
+      <p>API 金鑰（<code>ANTHROPIC_API_KEY</code> 與 <code>TAVILY_API_KEY</code>）儲存為 GitHub Repository Secrets，在 workflow 執行時注入環境變數——永遠不會提交到 repo 裡。</p>
 
     </div>
     """
