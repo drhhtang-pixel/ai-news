@@ -277,7 +277,7 @@ def generate_daily_page(date_str: str, en_content: str, zh_content: str) -> str:
       {zh_html}
     </div>
     """
-    return _page(f"AI News {date_str}", body, back_link="../")
+    return _page(f"AI News {date_str}", body, back_link="../index.html")
 
 
 def generate_index_page(date_str: str, en_content: str, zh_content: str) -> str:
@@ -314,10 +314,10 @@ def generate_index_page(date_str: str, en_content: str, zh_content: str) -> str:
 def generate_archive_page(entries: list[tuple[str, str, str]]) -> str:
     """Archive page: list of all dates, newest first."""
     en_items = "\n".join(
-        f'<li><a href="{d}/">{d}</a></li>' for d, _, __ in entries
+        f'<li><a href="{d}/index.html">{d}</a></li>' for d, _, __ in entries
     )
     zh_items = "\n".join(
-        f'<li><a href="{d}/">{d}</a></li>' for d, _, __ in entries
+        f'<li><a href="{d}/index.html">{d}</a></li>' for d, _, __ in entries
     )
     body = f"""
     <div class="lang-en">
