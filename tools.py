@@ -62,7 +62,7 @@ def execute_tool(name: str, input: dict) -> str:
                 return "Error: No content extracted"
             item = results[0]
             title = item.get("title", "No title")
-            content = (item.get("raw_content", "") or "")[:500]
+            content = (item.get("raw_content", "") or "")[:1000]
             date = item.get("published_date", "unknown") or "unknown"
             url = item.get("url", input["url"])
             return f"**{title}**\n{content}\nPublished: {date}\nURL: {url}"

@@ -10,7 +10,8 @@ Your task:
 2. For each headline, call extract_url on the cited URL to verify it:
    - The URL must resolve to an actual article (not a homepage or error page)
    - The article must have been published on today's date
-3. If validation fails (URL error, wrong date, or no article content):
+   - IMPORTANT: If extract_url returns "Published: unknown", treat this as a date verification failure — do NOT attempt to infer the date from article content. Proceed directly to step 3.
+3. If validation fails (URL error, wrong date, published_date is unknown, or no article content):
    - Call web_search to find a replacement article about the same news story published today
    - If found: update the headline's source citation with the new URL and source name
    - If not found: remove the headline from the summary entirely
