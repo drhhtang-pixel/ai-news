@@ -47,4 +47,11 @@ jobs:
             exit 0
           fi
           git commit -m "Daily summary $(date -u +%Y-%m-%d)"
-          git push
+          # Rebase onto latest main in case another push landed during the run
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $i failed, retrying..."
+            sleep 5
+          done
+          echo "Failed to push after 3 attempts"
+          exit 1
