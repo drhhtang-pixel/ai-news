@@ -11,3 +11,6 @@ __pycache__/
 .DS_Store
 .spectra/
 openspec/.vector-search.db*
+
+# Local launchd/cron output (no longer used after migrating to GitHub Actions)
+cron.log
