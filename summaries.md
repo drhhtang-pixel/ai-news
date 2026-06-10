@@ -1034,3 +1034,67 @@ The intensifying competition between frontier labs is also visible in the enterp
 - Microsoft AI: https://microsoft.ai/news/introducing-mai-thinking-1 (published 2026-06-02)
 - Business Times: https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/spacex-ipo-well-oversubscribed-us10-billion-orders (published 2026-06-09)
 - BuildFastWithAI: https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026 (published 2026-06-08)
+
+## 2026-06-10 02:54
+
+<!-- EN -->
+### Headlines
+
+- **OpenAI Confidentially Files for IPO as SpaceX Debut Is Oversubscribed:** OpenAI has submitted a confidential IPO filing with the SEC, following SpaceX's own debut which attracted over $10 billion in orders, intensifying what analysts call a once-in-a-generation AI public-markets moment. *(Source: CNBC, June 8)*
+- **Apple Unveils "Siri AI" Overhaul and Next-Gen Apple Intelligence at WWDC 2026:** In what was Tim Cook's final WWDC keynote before stepping down, Apple rebranded its AI assistant as "Siri AI," announced iOS 27 and macOS "Golden Gate," and debuted deep cross-app context awareness and AI-powered Shortcuts workflows. *(Source: TechCrunch, June 8)*
+- **Trump Signs AI Executive Order on Cybersecurity and Frontier Model Oversight:** President Trump signed the "Promoting Advanced Artificial Intelligence Innovation and Security" executive order, establishing a voluntary 30-day pre-release access window for federal agencies to review frontier AI models and creating a government-industry cybersecurity clearinghouse. *(Source: Nextgov/FCW, June 2)*
+- **Anthropic Files Confidentially for IPO at ~$47B Annual Revenue Run Rate:** Anthropic submitted a confidential S-1 filing to the SEC for a potential IPO, disclosing it crossed a $47 billion annualized revenue run rate in May 2026, as rivals OpenAI and SpaceX also race to public markets. *(Source: The New York Times, June 1)*
+- **SpaceX Lands $920M/Month Google AI Compute Deal Ahead of IPO:** SpaceX secured a landmark agreement under which Google will pay $920 million per month from October 2026 through June 2029 for GPU compute capacity, disclosed in an SEC filing tied to SpaceX's IPO preparations. *(Source: TechCrunch, June 5)*
+- **White House AI Advisor Sriram Krishnan Departs to Launch New AI Policy Institution:** Sriram Krishnan, a senior White House official who shaped the Trump administration's AI strategy, announced he is leaving his role to found a new institution focused on continuing to influence U.S. AI policy. *(Source: TechCrunch, June 6)*
+- **Databricks Data + AI Summit 2026 Kicks Off in San Francisco:** The major annual enterprise AI and data conference opened at San Francisco's Moscone Center (June 15–18), featuring keynotes from Greg Brockman of OpenAI, Satya Nadella of Microsoft, and Mukesh Ambani, with sessions covering agentic AI, LakeFlow, and AgentBricks. *(Source: Databricks, June 2026)*
+- **AI Coding Agents Dominate Enterprise Adoption in Mid-2026:** Anthropic's new "2026 Agentic Coding Trends Report" finds that engineering teams are now using AI agents to handle full implementation workflows — writing tests, debugging, and generating code — marking a shift from pair-programming to autonomous AI teams. *(Source: Anthropic, June 2026)*
+
+### Analysis
+
+The week of June 10, 2026 marks a watershed moment for the AI industry's maturation into the public financial markets. The near-simultaneous IPO filings from Anthropic, OpenAI, and SpaceX — each valued in the hundreds of billions to over a trillion dollars — signal that the AI boom is moving from venture-backed experimentation to large-scale public accountability. Anthropic's disclosed $47 billion annualized revenue run rate, while remarkable, also raises pointed questions about profitability that investors will scrutinize. The SpaceX-Google GPU deal, worth over $11 billion over three years, further illustrates how infrastructure and compute have become critical strategic chokepoints in the AI race, with companies willing to pay extraordinary sums to secure capacity.
+
+On the product and policy fronts, Apple's WWDC "Siri AI" reveal — delivered in Tim Cook's final keynote — represents the company's most significant AI pivot since introducing Apple Intelligence, acknowledging that prior efforts fell short. Meanwhile, the Trump administration's cybersecurity-focused AI Executive Order attempts a delicate balancing act: encouraging a voluntary framework for frontier model oversight without imposing the regulatory mandates that the industry feared. The departure of White House AI advisor Sriram Krishnan, however, creates uncertainty about who will own AI policy execution within the administration going forward. Together, these developments paint a picture of an industry rapidly scaling commercially while governance frameworks struggle to keep pace.
+
+### Sources
+- Nextgov/FCW: https://www.nextgov.com/artificial-intelligence/2026/06/trump-signs-ai-executive-order-after-postponement-last-month/413912 (published 2026-06-02)
+- TechCrunch (WWDC): https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more (published 2026-06-08)
+- CNBC (WWDC live): https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html (published 2026-06-08)
+- Apple Newsroom: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more (published 2026-06-08)
+- NPR (Siri AI): https://www.npr.org/2026/06/08/nx-s1-5847937/apple-wwdc-2026-siri-ai-tim-cook (published 2026-06-08)
+- The New York Times (Anthropic IPO): https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html (published 2026-06-01)
+- CNBC (OpenAI IPO): https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html (published 2026-06-08)
+- TechCrunch (Krishnan): https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor (published 2026-06-06)
+- TechCrunch (SpaceX-Google): https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/ (published 2026-06-05)
+- Databricks (Summit): https://www.databricks.com/dataaisummit (published 2026-06)
+- Anthropic (Coding Report): https://resources.anthropic.com/2026-agentic-coding-trends-report (published 2026-06)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **OpenAI 秘密提交 IPO 申請，SpaceX 上市認購超額：** OpenAI 已向美國證券交易委員會提交機密 IPO 文件，而 SpaceX 的上市認購額已超過 100 億美元，分析人士稱此為 AI 產業進入公開市場的歷史性時刻。*(來源：CNBC，6 月 8 日)*
+- **蘋果在 WWDC 2026 發布「Siri AI」全面升級與新一代 Apple Intelligence：** 在 Tim Cook 卸任前的最後一場 WWDC 主題演講中，蘋果將 AI 助理更名為「Siri AI」，並發布 iOS 27、macOS「Golden Gate」，以及跨應用情境感知和 AI 驅動的 Shortcuts 工作流程。*(來源：TechCrunch，6 月 8 日)*
+- **川普簽署 AI 行政命令，聚焦網路安全與前沿模型監管：** 川普總統簽署「促進先進人工智慧創新與安全」行政命令，建立自願性框架，要求 AI 公司在公開發布前 30 天提供聯邦機構預覽，並設立政府與產業間的網路安全資訊共享機制。*(來源：Nextgov/FCW，6 月 2 日)*
+- **Anthropic 秘密提交 IPO 文件，年化營收達 470 億美元：** Anthropic 向美國證交會提交機密 S-1 申請，披露其 2026 年 5 月年化營收突破 470 億美元，OpenAI 和 SpaceX 亦競相搶進公開市場。*(來源：紐約時報，6 月 1 日)*
+- **SpaceX 與 Google 簽訂每月 9.2 億美元 AI 算力大單：** SpaceX 在 IPO 前夕揭露一項 Google 協議，Google 將從今年 10 月起至 2029 年 6 月，每月支付 9.2 億美元租用 GPU 算力。*(來源：TechCrunch，6 月 5 日)*
+- **白宮 AI 顧問 Sriram Krishnan 離職，擬成立新政策機構：** 負責主導川普政府 AI 政策的資深白宮官員 Sriram Krishnan 宣布離職，並計劃創立一家新機構，繼續推動美國 AI 政策制定。*(來源：TechCrunch，6 月 6 日)*
+- **Databricks 數據與 AI 峰會 2026 於舊金山登場：** 一年一度的企業 AI 大型會議在舊金山 Moscone Center 開幕（6 月 15–18 日），OpenAI 的 Greg Brockman、微軟的 Satya Nadella 及 Mukesh Ambani 等人出席主題演講，議題涵蓋代理式 AI、LakeFlow 與 AgentBricks 等。*(來源：Databricks，6 月 2026 日)*
+- **AI 編程代理主導 2026 年中期企業採用趨勢：** Anthropic 發布的「2026 年代理式編程趨勢報告」顯示，工程團隊已開始使用 AI 代理完整執行實作流程，包括編寫測試、除錯及生成程式碼，標誌著從輔助編程轉向自主 AI 開發團隊的重大轉變。*(來源：Anthropic，6 月 2026 日)*
+
+### 分析
+
+2026 年 6 月 10 日這一週，標誌著 AI 產業走向公開金融市場的關鍵轉折點。Anthropic、OpenAI 與 SpaceX 幾乎同步提交 IPO 申請，各自估值達數千億乃至逾兆美元，顯示 AI 熱潮正從風險投資驅動的實驗階段，邁向大規模公開市場問責的新時代。Anthropic 披露的 470 億美元年化營收固然驚人，但能否獲利仍是投資者將嚴格審視的核心問題。SpaceX 與 Google 的 GPU 大單，總值逾百億美元，更進一步說明算力基礎設施已成為 AI 競賽中的關鍵戰略咽喉，各大企業不惜付出鉅資以確保算力供應。
+
+在產品與政策層面，蘋果在 Tim Cook 最後一場主題演講中發布「Siri AI」，是該公司自推出 Apple Intelligence 以來最重大的 AI 策略轉型，也隱含對過去表現未能達標的間接承認。與此同時，川普政府以網路安全為核心的 AI 行政命令，試圖在鼓勵自願性前沿模型監管框架與避免加諸業界監管負擔之間取得平衡。然而，白宮 AI 顧問 Krishnan 的離職，令外界對行政部門未來由誰主導 AI 政策執行產生疑慮。整體而言，這些發展共同描繪出一幅 AI 產業商業化快速擴張、而治理框架卻疲於應對的時代圖景。
+
+### 來源
+- Nextgov/FCW: https://www.nextgov.com/artificial-intelligence/2026/06/trump-signs-ai-executive-order-after-postponement-last-month/413912 (published 2026-06-02)
+- TechCrunch（WWDC）: https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more (published 2026-06-08)
+- CNBC（WWDC 直播）: https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html (published 2026-06-08)
+- Apple Newsroom: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more (published 2026-06-08)
+- NPR（Siri AI）: https://www.npr.org/2026/06/08/nx-s1-5847937/apple-wwdc-2026-siri-ai-tim-cook (published 2026-06-08)
+- 紐約時報（Anthropic IPO）: https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html (published 2026-06-01)
+- CNBC（OpenAI IPO）: https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html (published 2026-06-08)
+- TechCrunch（Krishnan 離職）: https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor (published 2026-06-06)
+- TechCrunch（SpaceX-Google）: https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/ (published 2026-06-05)
+- Databricks（峰會）: https://www.databricks.com/dataaisummit (published 2026-06)
+- Anthropic（編程趨勢報告）: https://resources.anthropic.com/2026-agentic-coding-trends-report (published 2026-06)
