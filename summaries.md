@@ -1098,3 +1098,85 @@ On the product and policy fronts, Apple's WWDC "Siri AI" reveal — delivered in
 - TechCrunch（SpaceX-Google）: https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/ (published 2026-06-05)
 - Databricks（峰會）: https://www.databricks.com/dataaisummit (published 2026-06)
 - Anthropic（編程趨勢報告）: https://resources.anthropic.com/2026-agentic-coding-trends-report (published 2026-06)
+
+## 2026-06-11 03:25
+
+<!-- EN -->
+### Headlines
+
+- **OpenAI Files Confidential IPO Targeting Up to $850B Valuation:** OpenAI has submitted a confidential S-1 filing to the SEC, targeting a September 2026 public debut at a valuation of $730–$850 billion, with Goldman Sachs and Morgan Stanley as lead underwriters. *(Source: Fortune, June 9)*
+
+- **Anthropic Releases "Fable" Model Ahead of IPO, Faces User Backlash:** Anthropic released its new "Mythos-class" Fable AI model to the general public with significant guardrails, drawing criticism from developers who say the restrictions make it less useful for research; queries on sensitive topics are redirected to older Opus models. *(Source: Fortune, June 10)*
+
+- **Anthropic Warns AI May Soon Achieve Recursive Self-Improvement:** Anthropic co-founder Jack Clark and research head Marina Favaro published a widely circulated post warning that AI could soon improve itself without meaningful human oversight, with over 80% of Anthropic's own codebase already written by Claude, and urging a coordinated industry pause option. *(Source: CNN, June 5)*
+
+- **Apple Unveils Revamped Siri AI and Apple Intelligence at WWDC 2026:** Apple launched a fully overhauled Siri powered by Google Gemini at WWDC 2026, featuring a dedicated Siri app, deep cross-app context awareness, conversational memory, and AI photo-editing tools in iOS 27, with users able to choose between ChatGPT, Gemini, or Claude as their AI backbone. *(Source: TechCrunch, June 8)*
+
+- **White House Issues NSPM-11: New AI National Security Memorandum:** President Trump signed National Security Presidential Memorandum 11, directing closer collaboration between the U.S. government and compliant AI companies on defense applications while ordering revision of Biden-era military AI guardrails and effectively signaling pressure on Anthropic over its Pentagon contracts. *(Source: Breaking Defense / White House, June 5)*
+
+- **OpenAI Mulls Drastic Price Cuts Ahead of Intensifying Competition with Anthropic:** OpenAI is reportedly considering sharp reductions in token pricing in anticipation of a fierce post-IPO user battle with Anthropic, though internal discussions remain unresolved. *(Source: The Wall Street Journal, June 8)*
+
+- **Majority of New U.S. AI Data Centers to Be Built on Drought-Affected Land:** A new report warns that most planned AI data center expansion in the United States is concentrated in water-stressed regions, raising significant concerns about long-term sustainability and environmental impact. *(Source: The Guardian, June 8)*
+
+---
+
+### Analysis
+
+The week leading into June 11, 2026 has been defined above all by the simultaneous race to public markets among the world's most prominent AI companies. OpenAI's confidential S-1 filing follows Anthropic's own IPO filing by just days, and with SpaceX also preparing to debut, investors are facing an unprecedented concentration of mega-cap tech listings. The dual filings force a rare moment of transparency: for the first time, the actual revenue structures, compute costs, and burn rates of these AI giants will be disclosed to public market scrutiny — a reckoning that could reset how the entire sector is valued. OpenAI's reported consideration of drastic price cuts further signals that the competitive dynamics are shifting from a race to build the best model to a race to dominate user distribution at scale.
+
+At the same time, the AI safety conversation has reached a new level of urgency and complexity. Anthropic's warning about recursive self-improvement — published just before its own IPO — sits uneasily at the intersection of genuine technical concern and savvy market positioning. Critics note that a company simultaneously warning about runaway AI and rushing to go public at a near-trillion-dollar valuation faces an inherent credibility tension. Meanwhile, the Trump White House's NSPM-11 reframes AI governance around national security competitiveness, effectively sidelining broader safety concerns in favor of ensuring American AI companies dominate defense applications — even as it complicates Anthropic's existing government contracts. Apple's WWDC Siri overhaul, powered by Google Gemini, underscores how platform companies are now choosing sides among frontier AI providers, accelerating the industry's consolidation into a small number of dominant model ecosystems.
+
+---
+
+### Sources
+
+- Fortune (OpenAI IPO): https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo (published 2026-06-09)
+- TechCrunch (OpenAI IPO): https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo (published 2026-06-08)
+- TechCrunch (WWDC): https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more (published 2026-06-08)
+- Fortune (Anthropic Fable): https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers (published 2026-06-10)
+- The Wall Street Journal (OpenAI Price Cuts): https://www.wsj.com/tech/ai/openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-9b8c178e (published 2026-06-08)
+- CNN (Anthropic Self-Improvement): https://www.cnn.com/2026/06/05/business/anthropic-calls-for-ai-brake-pedal (published 2026-06-05)
+- Breaking Defense (NSPM-11): https://breakingdefense.com/2026/06/trump-memo-on-ai-aims-to-avoid-repeat-of-anthropic-debacle (published 2026-06-08)
+- White House (NSPM-11): https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11 (published 2026-06-05)
+- The Guardian (AI Data Centers): https://www.theguardian.com/us-news/2026/jun/08/datacenter-ai-drought-water (published 2026-06-08)
+- Apple Newsroom (WWDC): https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more (published 2026-06-08)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **OpenAI 機密申請 IPO，估值目標最高達 8,500 億美元：** OpenAI 已向美國證券交易委員會提交機密 S-1 文件，目標於 2026 年 9 月以 7,300 至 8,500 億美元估值上市，高盛與摩根士丹利擔任主承銷商。*(來源：Fortune，6 月 9 日)*
+
+- **Anthropic 搶先 IPO 前推出「Fable」模型，遭開發者批評限制過多：** Anthropic 發布其新「Mythos 級別」的 Fable AI 模型，但附加了嚴格的安全護欄，開發者批評相關限制令研究工作受阻；涉及敏感主題的查詢將被重新導向至較舊的 Opus 模型。*(來源：Fortune，6 月 10 日)*
+
+- **Anthropic 警告 AI 可能即將實現「遞歸自我改進」：** Anthropic 聯合創始人 Jack Clark 與研究負責人 Marina Favaro 發表廣受關注的文章，警告 AI 可能很快在無需人類介入的情況下自我升級；目前 Anthropic 代碼庫中已逾 80% 由 Claude 撰寫，並呼籲業界保留協調「暫停」的選項。*(來源：CNN，6 月 5 日)*
+
+- **蘋果 WWDC 2026 發布全面翻新 Siri AI 與 Apple Intelligence：** 蘋果在 WWDC 2026 大會上推出由 Google Gemini 驅動的全新 Siri，具備專屬應用程式、跨應用情境感知、對話記憶及 AI 相片編輯功能，並將隨 iOS 27 一同推出，用戶可自行選擇 ChatGPT、Gemini 或 Claude 作為底層 AI 引擎。*(來源：TechCrunch，6 月 8 日)*
+
+- **白宮發布 NSPM-11：新 AI 國家安全備忘錄：** 特朗普總統簽署第 11 號國家安全總統備忘錄，要求政府與符合要求的 AI 企業在國防應用上加強合作，同時下令修訂拜登時代的軍事 AI 護欄，並向 Anthropic 的五角大樓合約發出壓力信號。*(來源：Breaking Defense／白宮，6 月 5 日)*
+
+- **OpenAI 考慮大幅降價，應對與 Anthropic 的 IPO 後用戶競爭：** 據報道，OpenAI 正考慮大幅削減每 token 定價，以迎接上市後與 Anthropic 爭奪用戶的激烈競爭，惟內部討論尚未定案。*(來源：華爾街日報，6 月 8 日)*
+
+- **美國多數新建 AI 數據中心將落址缺水地區：** 一份新報告警告，美國計劃中的 AI 數據中心擴張大多集中在水資源緊張地帶，引發外界對長期可持續性與環境影響的嚴重憂慮。*(來源：衛報，6 月 8 日)*
+
+---
+
+### 分析
+
+進入 2026 年 6 月 11 日前後的這一周，AI 產業最矚目的主題無疑是頂級 AI 公司的集體衝刺上市。OpenAI 緊隨 Anthropic 遞交機密 S-1 文件，加之 SpaceX 亦準備登陸公開市場，投資者正面臨前所未見的科技巨頭密集上市潮。這些 IPO 首度要求各公司公開披露真實的營收結構、算力成本與資金消耗速度，為整個 AI 行業的估值提供了難得的「硬數據」參照。與此同時，OpenAI 考慮大幅降價的消息表明，業界競爭的焦點正從「誰的模型最強」轉向「誰能以最低成本獲取最多用戶」，定價戰一觸即發。
+
+在 AI 安全層面，Anthropic 關於「遞歸自我改進」的警告在引發廣泛關注的同時，也遭受外界對其動機的質疑——一家同時宣揚 AI 風險與千億美元上市計劃的公司，其公信力本身已構成矛盾。另一方面，白宮 NSPM-11 備忘錄從國家安全競爭角度重新框架 AI 治理，將「美國 AI 主導地位」置於安全議題之上，並對 Anthropic 與五角大樓的合作關係形成間接壓力。蘋果 WWDC 大會上，全新 Siri 採用 Google Gemini 驅動，折射出平臺企業正在主動選擇站隊某一前沿 AI 供應商，推動行業加速向少數主流模型生態系統整合。
+
+---
+
+### 來源
+
+- Fortune（OpenAI IPO）: https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo (published 2026-06-09)
+- TechCrunch（OpenAI IPO）: https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo (published 2026-06-08)
+- TechCrunch（WWDC）: https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more (published 2026-06-08)
+- Fortune（Anthropic Fable）: https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers (published 2026-06-10)
+- 華爾街日報（OpenAI 降價）: https://www.wsj.com/tech/ai/openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-9b8c178e (published 2026-06-08)
+- CNN（Anthropic 自我改進）: https://www.cnn.com/2026/06/05/business/anthropic-calls-for-ai-brake-pedal (published 2026-06-05)
+- Breaking Defense（NSPM-11）: https://breakingdefense.com/2026/06/trump-memo-on-ai-aims-to-avoid-repeat-of-anthropic-debacle (published 2026-06-08)
+- 白宮（NSPM-11）: https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11 (published 2026-06-05)
+- 衛報（AI 數據中心）: https://www.theguardian.com/us-news/2026/jun/08/datacenter-ai-drought-water (published 2026-06-08)
+- 蘋果新聞室（WWDC）: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more (published 2026-06-08)
