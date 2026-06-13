@@ -1258,3 +1258,85 @@ On the technical frontier, the week also laid bare an intensifying competition i
 - Reuters (Oracle): https://www.reuters.com/technology/oracle-beats-fourth-quarter-revenue-estimates-2026-06-10 (published 2026-06-10)
 - Digital Applied: https://www.digitalapplied.com/blog/openai-oracle-universal-credits-2026-enterprise-readout (published 2026-06-10)
 - GAI Insights (YouTube): https://www.youtube.com/watch?v=iXwxZFA-ebA (published 2026-06-12)
+
+## 2026-06-13 02:53
+
+<!-- EN -->
+### Headlines
+
+- **SpaceX IPO Surges 25% on Nasdaq Debut, Validating AI Infrastructure Valuations:** SpaceX closed its historic first trading day at $168.70, up roughly 25% from its $135 IPO price after raising a record $75 billion, with the AI-heavy infrastructure thesis now directly underpinning pending IPO plans at both Anthropic and OpenAI. *(Source: Fortune, June 12)*
+
+- **Anthropic Overtakes OpenAI in U.S. Business Adoption for First Time:** The June 2026 Ramp AI Index shows Anthropic reaching 41% of U.S. firms — surpassing OpenAI — driven by Claude Code adoption, even as concerns mount over its rising token costs and capacity constraints. *(Source: VentureBeat, May 13)*
+
+- **Meta Moves to Curb Employee AI Usage as Internal Costs Reach Billions:** The Information reported that Meta is now actively restricting how much employees use AI tools internally, as the company's AI-related compute and API spending has ballooned to billions of dollars annually. *(Source: Digg / The Information, June 13)*
+
+- **Anthropic Blindsides Its Business Partners:** A report revealed that Anthropic has been making unilateral product and pricing changes without adequate notice to enterprise partners, prompting public criticism — including a pointed joke from Figma CEO Dylan Field about Anthropic being "not consistently candid in their communications." *(Source: The Information, June 11)*
+
+- **AI Race Upends Big Tech Balance Sheets:** Surging AI capital expenditure is materially straining the financial results of major technology companies, with infrastructure buildout costs now reshaping earnings, debt issuance strategies, and workforce decisions across the sector. *(Source: CNBC, April 30)*
+
+- **Trump Administration Weighs U.S. Government Equity Stakes in AI Labs:** Following a June 2 executive order on "Promoting Advanced Artificial Intelligence Innovation and Security" — which grants federal agencies 30-day early access to frontier AI models — the administration is actively exploring taking financial ownership stakes in leading AI companies including OpenAI and Anthropic. *(Source: TechCrunch, June 6)*
+
+- **Apple Unveils Next-Generation Apple Intelligence and Siri AI at WWDC 2026:** Apple announced sweeping AI upgrades at its annual developer conference on June 8, including a deeply revamped Siri powered by Apple Intelligence, new iOS 27 features, and expanded on-device AI capabilities across the iPhone 17 Pro lineup. *(Source: Apple Newsroom, June 8)*
+
+- **Snowflake Mounts Full-Court Press to Drive Employee AI Adoption:** According to The Information's Applied AI newsletter, Snowflake is aggressively pushing internal AI tool usage among its workforce as part of a broader productivity and competitive strategy amid intensifying cloud-AI competition. *(Source: SiliconAngle, June 11)*
+
+---
+
+### Analysis
+
+The most defining story reverberating through AI circles on June 13 is the dual validation of AI infrastructure economics: SpaceX's record-breaking IPO debut — closing at a market cap well above $2 trillion — has effectively green-lit the bullish financial assumptions that Anthropic (valued at ~$965 billion) and OpenAI are counting on for their own pending listings. Simultaneously, the first-ever toppling of OpenAI from the top spot in U.S. business AI adoption by Anthropic, as measured by the Ramp AI Index, marks a genuine competitive inflection point. Anthropic's rise has been fueled almost entirely by developer-centric tools like Claude Code, which have achieved near-viral adoption in enterprise engineering teams — but the same data reveals a structural cost problem: rising token prices risk alienating the very customers driving that growth.
+
+The second major theme is the growing tension between AI ambition and fiscal reality inside Big Tech. Meta's move to restrict employee AI usage — despite making "AI-driven impact" a core performance metric — illustrates a contradiction playing out across the industry: companies are simultaneously mandating AI adoption and panicking over what that adoption actually costs at scale. The Anthropic partner-relations controversy deepens this picture, suggesting that as AI labs race toward IPOs, their relationships with the enterprise partners who helped build their revenue bases are becoming strained. Anthropic's unilateral changes, combined with Meta's reported billions in internal AI spend and the broader theme of AI upending Big Tech balance sheets, point to a sector approaching a critical moment of reckoning between growth narratives and sustainable economics.
+
+---
+
+### Sources
+
+- Fortune (SpaceX IPO live updates): https://fortune.com/2026/06/12/spacex-ipo-trading-first-day-live-updates-elon-musk (published 2026-06-12)
+- VentureBeat (Anthropic vs OpenAI adoption): https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead (published 2026-05-13)
+- Digg / The Information (Meta AI costs): https://digg.com/tech/2pxk2bay (published 2026-06-13)
+- The Information – Anthropic Partners: https://www.theinformation.com/articles/anthropic-blindsides-business-partners (published 2026-06-11)
+- CNBC (AI capex Big Tech): https://www.cnbc.com/2026/04/30/ai-boom-big-tech-capital-expenditures-now-seen-topping-1-trillion-in-2027-.html (published 2026-04-30)
+- TechCrunch (Trump AI equity stakes): https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai (published 2026-06-06)
+- Apple Newsroom (WWDC 2026): https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more (published 2026-06-08)
+- SiliconAngle (Snowflake enterprise AI): https://siliconangle.com/2026/06/11/snowflake-enterprise-ai-production-snowflakesummit (published 2026-06-11)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **SpaceX 上市首日大漲 25%，確立 AI 基礎設施估值論：** SpaceX 在那斯達克的歷史性首個交易日以 168.70 美元收盤，較 135 美元的 IPO 定價大漲約 25%，此前已透過創紀錄的 750 億美元募資，其以 AI 為核心的基礎設施敘事直接支撐了 Anthropic 與 OpenAI 即將進行的 IPO 計畫。*(來源：Fortune，6 月 12 日)*
+
+- **Anthropic 首次超越 OpenAI，成為美國企業採用率最高的 AI 服務商：** 根據 2026 年 6 月 Ramp AI 指數，Anthropic 已達到 41% 的美國企業採用率，憑藉 Claude Code 的普及超越 OpenAI，但 Token 成本上漲與產能不足的隱憂也隨之浮現。*(來源：VentureBeat，5 月 13 日)*
+
+- **Meta 因 AI 內部成本飆升至數十億美元而限制員工使用 AI：** 據《The Information》報導，Meta 正積極限制員工對 AI 工具的內部使用量，因該公司 AI 相關的算力與 API 年度支出已暴增至數十億美元。*(來源：Digg / The Information，6 月 13 日)*
+
+- **Anthropic 讓企業合作夥伴措手不及：** 有報導揭示 Anthropic 在未充分告知的情況下，單方面更改產品與定價政策，引發企業合作夥伴公開批評，Figma 執行長 Dylan Field 更諷刺 Anthropic「溝通上缺乏一貫的坦誠」。*(來源：The Information，6 月 11 日)*
+
+- **AI 軍備競賽重創科技巨頭財務：** AI 資本支出的急速攀升已對各大科技公司的財務業績造成實質衝擊，基礎設施建設成本正重塑整個行業的獲利能力、債務發行策略與人力配置決策。*(來源：CNBC，4 月 30 日)*
+
+- **川普政府擬取得 AI 公司政府股權：** 繼 6 月 2 日簽署「促進先進人工智慧創新與安全」行政命令（授予聯邦機構在前沿 AI 模型公開發布前 30 天的早期訪問權）後，川普政府正積極研議直接持有 OpenAI、Anthropic 等領先 AI 公司的財務股份。*(來源：TechCrunch，6 月 6 日)*
+
+- **蘋果於 WWDC 2026 發布新世代 Apple Intelligence 與 Siri AI：** 蘋果於 6 月 8 日年度開發者大會宣布全面升級 AI 功能，包括由 Apple Intelligence 驅動的全新 Siri、iOS 27 新功能，以及 iPhone 17 Pro 系列更強大的裝置端 AI 能力。*(來源：Apple Newsroom，6 月 8 日)*
+
+- **Snowflake 全力推動員工 AI 工具採用：** 據《The Information》應用 AI 電子報報導，Snowflake 正積極在內部大力推廣 AI 工具使用，作為其在激烈的雲端 AI 競爭中提升生產力與競爭力的核心戰略。*(來源：SiliconAngle，6 月 11 日)*
+
+---
+
+### 分析
+
+6 月 13 日 AI 圈最具決定性的事件，是 AI 基礎設施經濟學的雙重驗證：SpaceX 創紀錄的 IPO 首日表現——收盤市值遠超 2 兆美元——有效為 Anthropic（估值約 9650 億美元）與 OpenAI 即將進行的 IPO 所依賴的樂觀財務假設背書。與此同時，Anthropic 根據 Ramp AI 指數首次在美國企業採用率上超越 OpenAI，標誌著一個真正的競爭轉折點。Anthropic 的崛起幾乎完全由 Claude Code 等開發者工具驅動，這些工具在企業工程團隊中實現了近乎病毒式的普及——但同樣的數據也揭示了結構性成本問題：Token 價格上漲可能讓推動其成長的核心客戶望而卻步。
+
+第二個主要主題是科技巨頭 AI 雄心與財務現實之間日益加深的矛盾。Meta 一方面將「AI 驅動影響力」列為員工績效核心指標，另一方面卻限制員工使用 AI 工具——這一矛盾正在整個行業上演：企業既強制推動 AI 採用，又對實際規模化後的巨額成本感到惶恐。Anthropic 合作夥伴關係的風波進一步深化了這幅圖景，暗示 AI 實驗室在衝刺 IPO 之際，與幫助其建立收入基礎的企業合作夥伴關係正趨於緊張。Anthropic 的單方面更改、Meta 報告的數十億美元內部 AI 支出，以及 AI 顛覆科技巨頭財務的廣泛趨勢，共同指向一個行業即將面臨增長敘事與可持續經濟之間嚴峻考驗的關鍵時刻。
+
+---
+
+### 來源
+
+- Fortune（SpaceX IPO 即時動態）: https://fortune.com/2026/06/12/spacex-ipo-trading-first-day-live-updates-elon-musk (published 2026-06-12)
+- VentureBeat（Anthropic vs OpenAI 採用率）: https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead (published 2026-05-13)
+- Digg / The Information（Meta AI 成本報導）: https://digg.com/tech/2pxk2bay (published 2026-06-13)
+- The Information（Anthropic 合作夥伴）: https://www.theinformation.com/articles/anthropic-blindsides-business-partners (published 2026-06-11)
+- CNBC（AI 資本支出科技巨頭）: https://www.cnbc.com/2026/04/30/ai-boom-big-tech-capital-expenditures-now-seen-topping-1-trillion-in-2027-.html (published 2026-04-30)
+- TechCrunch（川普 AI 股權）: https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai (published 2026-06-06)
+- Apple Newsroom（WWDC 2026）: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more (published 2026-06-08)
+- SiliconAngle（Snowflake 企業 AI）: https://siliconangle.com/2026/06/11/snowflake-enterprise-ai-production-snowflakesummit (published 2026-06-11)
