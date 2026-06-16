@@ -1433,3 +1433,57 @@ It appears a previous AI assistant was unable to generate the summary and return
 2. Then, **paste that generated summary here** for me to verify and correct
 
 I'm ready to verify as soon as you provide a properly structured bilingual summary to check. 🙏
+
+## 2026-06-16 03:35
+
+<!-- EN -->
+### Headlines
+
+---
+
+### Analysis
+
+The dominant story reverberating through today's AI landscape is the collision between national security imperatives and the commercial ambitions of frontier AI labs. The U.S. government's unprecedented export control action against Anthropic's Fable 5 and Mythos models — citing jailbreak vulnerabilities and foreign access risks — signals a new phase in AI governance where the most capable models are being treated as sensitive national security assets, akin to dual-use hardware exports. This development puts a spotlight on the Trump administration's broader AI strategy: a June 2 executive order mandated a voluntary 30-day pre-release government review window for new AI models, while new national security memoranda (NSPM-11, NSPM-12) are directing federal cybersecurity agencies to rapidly tighten oversight. The friction between innovation-friendly rhetoric and security-driven restrictions is now very real, with Anthropic caught directly in the crossfire.
+
+The opening of Databricks' Data + AI Summit on June 16 offers a counterpoint narrative of industry momentum: 30,000+ professionals gathering in San Francisco with top speakers including Greg Brockman of OpenAI and Satya Nadella of Microsoft underscores that enterprise AI adoption and data infrastructure investment remain at full speed. Meanwhile, the AI IPO wave — featuring SpaceX's landmark $2.1 trillion public debut and Anthropic's now-complicated pre-IPO journey — reflects how AI has become a defining force in capital markets. The broader week is shaping up as a pivotal inflection point in how governments, corporations, and investors simultaneously race to harness and constrain artificial intelligence at the frontier.
+
+---
+
+### Sources
+
+- Databricks (Data + AI Summit Virtual Experience): https://www.databricks.com/dataaisummit/virtual-experience (published 2026-06-16)
+- Databricks (Summit Keynote & Programming Announcement): https://www.databricks.com/company/newsroom/press-releases/databricks-announces-2026-data-ai-summit-keynote-lineup-and (published 2026-06-16)
+- The White House (NSPM-11): https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11 (published 2026-06-16)
+- The White House (NSPM-12): https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-12 (published 2026-06-16)
+- The White House (Promoting Advanced AI Innovation and Security): https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security (published 2026-06-16)
+- Bloomberg (Anthropic Restricts Mythos After US Order — ongoing coverage): https://www.bloomberg.com/news/videos/2026-06-15/anthropic-restricts-mythos-after-us-order-video (published 2026-06-16)
+- GAI Insights / YouTube (Daily AI News 6/16/2026): https://www.youtube.com/watch?v=Rccr3Yplh3U (published 2026-06-16)
+- TechCrunch (AI Companies Race to Go Public): https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride (published 2026-06-16)
+- SDU / SCAI 2026: https://www.sdu.dk/en/forskning/sdu_applied_ai_and_data_science/scai (published 2026-06-16)
+- NIST (AIMS 2026 Workshop): https://www.nist.gov/news-events/events/2026/06/artificial-intelligence-materials-science-aims-2026 (published 2026-06-16)
+
+<!-- ZH -->
+### 頭條新聞
+
+---
+
+### 分析
+
+當前 AI 領域最核心的矛盾，正是國家安全考量與前沿 AI 實驗室商業雄心之間的激烈衝突。美國政府對 Anthropic Fable 5 與 Mythos 模型採取史無前例的出口管制行動，理由是模型存在「越獄」（jailbreak）漏洞並擔憂外國存取風險，標誌著 AI 治理進入新階段——最強大的 AI 模型開始被視同敏感國家安全資產，比照雙重用途硬體出口管制處理。這也呼應了特朗普政府的整體 AI 戰略：6 月 2 日行政令要求科技公司自願在新模型發布前提供 30 天政府審查窗口，加上 NSPM-11、NSPM-12 兩份國家安全備忘錄責成聯邦網路安全機構迅速強化監管，創新友善的政策論調與安全驅動的限制措施之間的張力，已從抽象爭論化為現實衝突，Anthropic 首當其衝。
+
+相較之下，Databricks 資料與 AI 峰會 6 月 16 日正式開幕，則呈現出截然不同的產業蓬勃景象：逾 3 萬名專業人士齊聚舊金山，OpenAI 的 Greg Brockman 與微軟的 Satya Nadella親臨演講，彰顯企業級 AI 部署與資料基礎設施投資仍勢頭強勁。與此同時，AI 上市潮持續湧現——SpaceX 以 2.1 兆美元市值完成歷史性上市，而 Anthropic 因政府突發管制行動令 IPO 之路陷入複雜局面——深刻反映出 AI 已成為資本市場的核心驅動力。整體而言，本週堪稱 AI 發展史上的關鍵轉折點：政府、企業與投資人正同時以前所未有的力度，既在加速搶佔前沿 AI 的先機，也在設法約束其潛在風險。
+
+---
+
+### 來源
+
+- Databricks（資料與 AI 峰會虛擬體驗）: https://www.databricks.com/dataaisummit/virtual-experience (published 2026-06-16)
+- Databricks（峰會主題演講及議程發布）: https://www.databricks.com/company/newsroom/press-releases/databricks-announces-2026-data-ai-summit-keynote-lineup-and (published 2026-06-16)
+- 白宮（NSPM-11）: https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11 (published 2026-06-16)
+- 白宮（NSPM-12）: https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-12 (published 2026-06-16)
+- 白宮（推動先進 AI 創新與安全行動）: https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security (published 2026-06-16)
+- Bloomberg（Anthropic Mythos 模型限制後續報導）: https://www.bloomberg.com/news/videos/2026-06-15/anthropic-restricts-mythos-after-us-order-video (published 2026-06-16)
+- GAI Insights / YouTube（6/16/2026 每日 AI 新聞）: https://www.youtube.com/watch?v=Rccr3Yplh3U (published 2026-06-16)
+- TechCrunch（AI 公司上市競賽）: https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride (published 2026-06-16)
+- SDU / SCAI 2026: https://www.sdu.dk/en/forskning/sdu_applied_ai_and_data_science/scai (published 2026-06-16)
+- NIST（AIMS 2026 工作坊）: https://www.nist.gov/news-events/events/2026/06/artificial-intelligence-materials-science-aims-2026 (published 2026-06-16)
