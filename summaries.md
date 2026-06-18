@@ -1535,3 +1535,47 @@ Anthropic 的模型停用危機，則揭示了國家安全需求與商業 AI 生
 - Aspen Institute (Shared Futures 2026): https://www.aspeninstitute.org/events/shared-futures-2026 (published 2026-06-17)
 - CNBC (SpaceX/Cursor): https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html (published 2026-06-16)
 - The New York Times (SpaceX/Cursor): https://www.nytimes.com/2026/06/16/business/spacex-cursor-aquisition-ipo.html (published 2026-06-16)
+
+## 2026-06-18 03:01
+
+<!-- EN -->
+### Headlines
+
+- **Databricks Data + AI Summit 2026 Concludes in San Francisco:** The world's largest data and AI conference wraps up its final day (June 15–18) at the Moscone Center, drawing 30,000+ in-person attendees and tens of thousands of virtual participants from 150+ countries, featuring keynotes from Databricks co-founders, Greg Brockman, and a fireside chat with Microsoft's Satya Nadella. *(Source: Databricks Newsroom, June 2)*
+
+- **GAI Insights Publishes Daily AI Briefing for June 18, 2026 (EP 601):** The daily AI news digest highlighted continuing developments across frontier model releases, agentic AI deployments, and enterprise AI adoption trends in its Wednesday morning broadcast. *(Source: GAI Insights / YouTube, June 18)*
+
+- **AI Bulletin Board Tracks Z.ai's GLM-5.2 and White House AI Policy Fallout:** Industry trackers continued to monitor the impact of Z.ai's newly launched GLM-5.2 — a coding-first model with a 1-million-token context window — alongside ongoing debate around the White House executive order on AI innovation and security, which critics argue focuses too narrowly on frontier model cybersecurity while leaving broader regulatory gaps. *(Source: Radical Data Science, June 17)*
+
+### Analysis
+
+June 18, 2026 marks the closing day of the Databricks Data + AI Summit, arguably the year's most significant enterprise AI gathering. With more than 30,000 in-person attendees and speakers including OpenAI co-founder Greg Brockman and Microsoft CEO Satya Nadella, the summit underscores how central data infrastructure has become to the AI arms race. Announcements from the event reflect a maturing industry pivoting from experimental model releases toward production-scale deployment, governance, and agentic workflows — themes that dominated sessions across the four-day conference. Simultaneously, OpenAI's global rollout of ChatGPT's enhanced memory system signals a broader industry shift toward persistent, personalized AI assistants capable of retaining and acting on user context over time.
+
+On the policy front, the ripple effects of the Trump administration's June 2 executive order "Promoting Advanced Artificial Intelligence Innovation and Security" continue to generate debate. While the order established a voluntary framework for benchmarking frontier AI models and strengthened cybersecurity collaboration between government and industry, commentators note that its deliberately light-touch regulatory approach leaves significant gaps — particularly regarding accountability for AI harms and mandatory safety standards. NOAA's concurrent AI Workshop, focused on environmental applications of AI, offers a counterpoint: federal agencies are quietly but steadily integrating AI into public-sector missions ranging from weather prediction to climate science, even as high-level AI policy remains in flux.
+
+### Sources
+
+- Databricks Newsroom: https://www.databricks.com/company/newsroom/press-releases/databricks-announces-2026-data-ai-summit-keynote-lineup-and (published 2026-06-02)
+- GAI Insights (YouTube): https://www.youtube.com/watch?v=ClSF_AZJ4Uw (published 2026-06-18)
+- Radical Data Science (AI News Briefs Bulletin Board): https://radicaldatascience.wordpress.com/2026/06/17/ai-news-briefs-bulletin-board-for-june-2026 (published 2026-06-17)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Databricks 數據與 AI 峰會 2026 於舊金山圓滿閉幕：** 全球最大規模數據與人工智慧會議完成最後一日議程（6 月 15 至 18 日），在舊金山 Moscone 中心吸引逾 3 萬名現場出席者，以及來自 150 多個國家的數萬名線上參與者，主題演講嘉賓包括 Databricks 共同創辦人、Greg Brockman 及微軟執行長 Satya Nadella。*(來源：Databricks 新聞室，6 月 2 日)*
+
+- **GAI Insights 發布 6 月 18 日 AI 每日簡報（第 601 集）：** 每日 AI 新聞播報持續追蹤前沿模型發布、智慧型 AI 代理部署及企業 AI 採用等最新動態，並於週三早間播出。*(來源：GAI Insights / YouTube，6 月 18 日)*
+
+- **AI 公告欄持續追蹤 Z.ai GLM-5.2 與白宮 AI 政策後續效應：** 業界持續關注 Z.ai 推出的 GLM-5.2 模型（具備 100 萬 token 情境窗口、以程式開發為核心），同時就白宮 AI 創新與安全行政命令展開辯論，批評者認為該命令過度聚焦前沿模型資安，而忽略更廣泛的監管空白。*(來源：Radical Data Science，6 月 17 日)*
+
+### 分析
+
+2026 年 6 月 18 日是 Databricks 數據與 AI 峰會的閉幕日，這場峰會被視為本年度最具指標性的企業 AI 盛會。逾 3 萬名現場出席者，加上 OpenAI 共同創辦人 Greg Brockman 與微軟 CEO Satya Nadella 等重量級演講嘉賓，充分顯示數據基礎設施在 AI 競賽中的核心地位。本次峰會的議題反映出整個產業正從實驗性模型發布，轉向生產規模的部署、資料治理與智慧代理工作流程，這些主題貫穿整場為期四天的大會。與此同時，OpenAI 在全球範圍推出 ChatGPT 增強記憶功能，標誌著業界正加速邁向能夠記憶並依據用戶情境主動行動的持久性個人化 AI 助理時代。
+
+在政策層面，川普政府於 6 月 2 日簽署的「促進先進人工智慧創新與安全」行政命令持續引發各界討論。儘管該命令建立了前沿 AI 模型基準測試的自願性框架，並強化政府與產業的資安合作，但評論人士指出，其刻意輕監管的取向仍留下顯著漏洞，特別是在 AI 危害責任追究及強制性安全標準等方面。相較之下，NOAA 同步舉行的 AI 工作坊聚焦於環境科學的 AI 應用，提供了另一個視角：即便高層 AI 政策仍在摸索中，各聯邦機構已悄然且穩步地將 AI 整合至氣象預報、氣候科學等公共使命之中。
+
+### 來源
+
+- Databricks Newsroom: https://www.databricks.com/company/newsroom/press-releases/databricks-announces-2026-data-ai-summit-keynote-lineup-and (published 2026-06-02)
+- GAI Insights (YouTube): https://www.youtube.com/watch?v=ClSF_AZJ4Uw (published 2026-06-18)
+- Radical Data Science (AI News Briefs Bulletin Board): https://radicaldatascience.wordpress.com/2026/06/17/ai-news-briefs-bulletin-board-for-june-2026 (published 2026-06-17)
