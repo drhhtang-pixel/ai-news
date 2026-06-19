@@ -1579,3 +1579,81 @@ On the policy front, the ripple effects of the Trump administration's June 2 exe
 - Databricks Newsroom: https://www.databricks.com/company/newsroom/press-releases/databricks-announces-2026-data-ai-summit-keynote-lineup-and (published 2026-06-02)
 - GAI Insights (YouTube): https://www.youtube.com/watch?v=ClSF_AZJ4Uw (published 2026-06-18)
 - Radical Data Science (AI News Briefs Bulletin Board): https://radicaldatascience.wordpress.com/2026/06/17/ai-news-briefs-bulletin-board-for-june-2026 (published 2026-06-17)
+
+## 2026-06-19 03:48
+
+<!-- EN -->
+### Headlines
+
+- **SK Telecom Revealed as the Real Trigger Behind Anthropic's Fable 5 & Mythos 5 Global Ban:** The White House ordered Anthropic to revoke SK Telecom's access to Claude Mythos over alleged ties to China, and after Anthropic complied, a separate Amazon-flagged jailbreak vulnerability led to a full export-control letter revoking all foreign nationals' access to Fable 5 and Mythos 5 — with the White House concluding it "could not trust Anthropic to safeguard its most advanced AI technology." *(Source: WIRED, June 19)*
+
+- **Anthropic Opens Seoul Office, Chris Ciauri Says Models Will Return "Within Days":** Anthropic officially opened its Seoul office amid the ongoing U.S. export control controversy, signing an MOU with South Korea's Ministry of Science and ICT, and its international managing director expressed confidence that suspended model access would be restored very soon. *(Source: UPI, June 19)*
+
+- **Korean Enterprise AI Wave: NAVER, Samsung SDS, LG CNS, Nexon, and Hanwha All Deploy Claude:** As Anthropic's Seoul office opened, a wave of major South Korean conglomerates and tech firms announced enterprise Claude deployments, underscoring Korea's position as one of the most active Claude markets globally ahead of Anthropic's anticipated IPO. *(Source: AI Tools Recap, June 19)*
+
+- **Adobe Launches AI Assistants Across Photoshop, Premiere, Illustrator, InDesign, and Frame.io in Public Beta:** Adobe rolled out bespoke AI chatbot assistants to its biggest Creative Cloud apps, powered by its "conversational creative agent," allowing users to describe desired edits in natural language while the assistant orchestrates multi-step workflows — Photoshop's assistant handles photo-editing tools and Premiere's focuses on timeline reorganization. *(Source: The Verge, June 19)*
+
+- **David Sacks Issued Ultimatum to Anthropic — "Fix the Jailbreak or De-Deploy" — and Dario Said No to Both:** The Trump administration's AI and crypto czar reportedly issued a stark directive to Anthropic regarding guardrail vulnerabilities in Fable 5, and Anthropic CEO Dario Amodei's refusal to either patch on the administration's timeline or pull the model contributed to the escalating standoff with the White House. *(Source: AI Tools Recap, June 19)*
+
+- **White House Demands Zero Foreign Access to Top Frontier AI Models, Setting New Precedent:** The Trump administration's export control action against Anthropic's Fable 5 and Mythos 5 marks the first time the U.S. government has used national-security authority to shut off foreign nationals' access to a private AI company's frontier models, raising sweeping questions about AI sovereignty and international access. *(Source: WIRED, June 19)*
+
+- **Waymo Recalls Nearly 4,000 Robotaxis After Vehicles Entered Freeway Construction Zones:** In a significant autonomous vehicle safety event, Waymo issued a voluntary recall of approximately 3,900 robotaxis after software caused the vehicles to enter active, closed freeway construction zones at speed, marking one of the company's largest-ever safety-related software recalls. *(Source: CNBC, June 19)*
+
+- **Apple-Intel U.S. Chip Manufacturing Deal Confirmed by Trump, Intel Stock Surges ~9%:** President Trump confirmed that Apple has agreed to work with Intel to design and manufacture chips domestically, sending Intel shares sharply higher — a development with significant implications for the U.S. AI and semiconductor supply chain. *(Source: CNBC, June 19)*
+
+---
+
+### Analysis
+
+The defining story of June 19, 2026 is the escalating geopolitical standoff between the Trump White House and Anthropic over its Fable 5 and Mythos 5 models. What began as a dispute over SK Telecom's access — the Korean telecom giant is both an Anthropic investor and a suspected link to Chinese interests in Washington's eyes — quickly snowballed into an unprecedented export-control order that stripped all foreign nationals of access to Anthropic's most powerful models. The simultaneous opening of Anthropic's Seoul office, complete with a wave of major Korean enterprise partnerships and a bullish prediction of imminent model restoration, signals that Anthropic is aggressively trying to maintain its international commercial momentum even as it navigates a deeply fraught relationship with its own government. The episode marks a new, more interventionist era in U.S. AI policy — one where national-security authorities are being used not just to control hardware exports, but to dictate who can access powerful AI software in real time.
+
+The Adobe AI assistant rollout across Photoshop, Premiere, Illustrator, and other Creative Cloud apps represents the maturation of a different, quieter trend: the deep embedding of generative AI into professional creative workflows. Unlike headline-grabbing frontier model launches, Adobe's move is about making AI a persistent, task-aware collaborator inside the tools millions of creative professionals already use daily. Meanwhile, the Waymo recall of nearly 4,000 robotaxis over construction-zone incursions is a reminder that even the most advanced deployed AI systems remain brittle at edge cases — and that as autonomous systems scale, their failure modes attract regulatory scrutiny and public distrust at scale. Taken together, today's news reflects an AI landscape simultaneously racing forward on capability deployment and running into hard walls — regulatory, geopolitical, and technical — that are reshaping who controls AI, who can access it, and under what conditions it is trusted to operate.
+
+---
+
+### Sources
+
+- AI Tools Recap: https://aitoolsrecap.com/Blog/ai-news-june-19-2026 (published 2026-06-19)
+- UPI: https://www.upi.com/Top_News/World-News/2026/06/18/korea-Anthropic-Seoul-office-Korea-partnerships-Washington-AI-export-controls/4641781769900 (published 2026-06-19)
+- The Verge (Adobe AI Assistants): https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch (published 2026-06-19)
+- WIRED (SK Telecom/Anthropic): https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls (published 2026-06-19)
+- CNBC (Waymo Recall): https://www.cnbc.com/amp/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html (published 2026-06-19)
+- CNBC (Apple-Intel): https://www.cnbc.com/2026/06/18/trump-intel-apple-chip-design-deal.html (published 2026-06-19)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **SK 電信被揭是 Anthropic Fable 5 與 Mythos 5 全球封禁的真正導火線：** 白宮以涉嫌與中國存在關聯為由，命令 Anthropic 撤銷 SK 電信對 Claude Mythos 模型的訪問權限；此後亞馬遜又標記出 Fable 5 的護欄漏洞，最終導致美國政府發出出口管制令，全面禁止所有外國人使用這兩款最先進模型，白宮表示「無法信任 Anthropic 保護其最尖端的 AI 技術」。*(來源：WIRED，6 月 19 日)*
+
+- **Anthropic 首爾辦事處正式開張，國際負責人稱模型「數日內」有望恢復：** Anthropic 在美國出口管制爭議持續之際，正式開設首爾辦事處，並與韓國科學技術信息通信部簽署合作備忘錄，其國際董事總經理對外表示，對被暫停訪問的模型將很快恢復充滿信心。*(來源：UPI，6 月 19 日)*
+
+- **韓國企業 AI 浪潮：NAVER、三星 SDS、LG CNS、Nexon 及韓華相繼部署 Claude：** 隨著 Anthropic 首爾辦事處開張，多家韓國大型集團與科技公司宣布企業級 Claude 部署，彰顯韓國在 Anthropic 擬 IPO 前夕已成全球最活躍的 Claude 市場之一。*(來源：AI Tools Recap，6 月 19 日)*
+
+- **Adobe 在 Photoshop、Premiere、Illustrator、InDesign 及 Frame.io 正式推出 AI 助理公開測試版：** Adobe 為其最主要的 Creative Cloud 應用程式推出各具特色的 AI 聊天助理，由其「對話式創意代理」驅動，用戶只需以自然語言描述需求，助理便可自動協調多步驟工作流程，其中 Photoshop 版本可操作主流修圖工具，Premiere 版本則專注於時間軸的重組與管理。*(來源：The Verge，6 月 19 日)*
+
+- **David Sacks 向 Anthropic 發出最後通牒——「修復越獄漏洞或撤除部署」——Dario 兩者皆拒：** 據報，川普政府 AI 與加密貨幣顧問 David Sacks 就 Fable 5 的護欄漏洞向 Anthropic 發出強硬指令，Anthropic 執行長 Dario Amodei 拒絕在政府規定時限內修補或下架模型，進一步激化了雙方的對立。*(來源：AI Tools Recap，6 月 19 日)*
+
+- **白宮要求頂級前沿 AI 模型「零外國訪問」，開創全球先例：** 川普政府針對 Anthropic Fable 5 及 Mythos 5 的出口管制行動，是美國政府首次以國家安全為由，全面切斷外國人對私人 AI 公司前沿模型的訪問，在全球範圍內引發對 AI 主權與技術訪問權的深刻討論。*(來源：WIRED，6 月 19 日)*
+
+- **Waymo 召回近 4,000 輛自動駕駛計程車，起因為車輛駛入高速公路施工區：** 在一起重大自動駕駛安全事件中，Waymo 對約 3,900 輛機器人計程車發出自願召回，原因是軟體導致車輛高速駛入已封閉的高速公路施工作業區，這是該公司史上涉及規模最大的安全相關軟體召回之一。*(來源：CNBC，6 月 19 日)*
+
+- **川普確認蘋果與英特爾達成美國本土晶片製造協議，英特爾股價暴漲約 9%：** 川普總統確認蘋果已同意與英特爾合作，在美國境內設計和製造晶片，消息帶動英特爾股價急升，對美國 AI 與半導體供應鏈具有深遠影響。*(來源：CNBC，6 月 19 日)*
+
+---
+
+### 分析
+
+2026 年 6 月 19 日最具決定性的新聞，是川普白宮與 Anthropic 圍繞 Fable 5 及 Mythos 5 模型的地緣政治對峙持續升溫。事件起源於 SK 電信的訪問權限爭議——這家韓國電信巨頭既是 Anthropic 的投資者，在華盛頓眼中又被懷疑與中國存在聯繫——最終演變為一紙史無前例的出口管制令，剝奪了所有外國人訪問 Anthropic 最強大模型的權利。與此同時，Anthropic 首爾辦事處的如期開張，加上韓國大型企業的集體部署聲明，以及公司高層對模型訪問即將恢復的樂觀表態，顯示 Anthropic 正竭力在應對政府高壓的同時，維護其國際商業版圖。這一事件標誌著美國 AI 政策步入更具干預主義色彩的新時代——國家安全授權不再局限於硬體出口管制，而是被直接用於實時管控哪些人可以訪問哪些 AI 軟體。
+
+Adobe 在 Photoshop、Premiere 等 Creative Cloud 核心應用中全面推出 AI 助理，則代表著另一股更為深沉的趨勢趨於成熟：生成式 AI 正深度嵌入數以百萬計專業創作者的日常工作流程。與前沿大模型的發布不同，Adobe 此舉著眼於讓 AI 成為創作者在熟悉工具中持續可用、能感知任務的智能協作者。另一方面，Waymo 因機器人計程車駛入施工區而召回近 4,000 輛車，再次提醒世人：即便是已大規模部署的最先進 AI 系統，在邊緣情境下仍顯脆弱——而隨著自動駕駛系統的規模化，其失效模式正引發監管機構與公眾的大規模警覺。綜觀今日新聞，AI 領域正同時在能力部署上高速推進，又在監管、地緣政治與技術層面相繼碰壁，深刻重塑著誰掌控 AI、誰能訪問 AI、以及在何種條件下 AI 才被信任運作的全球格局。
+
+---
+
+### 來源
+
+- AI Tools Recap: https://aitoolsrecap.com/Blog/ai-news-june-19-2026 (published 2026-06-19)
+- UPI: https://www.upi.com/Top_News/World-News/2026/06/18/korea-Anthropic-Seoul-office-Korea-partnerships-Washington-AI-export-controls/4641781769900 (published 2026-06-19)
+- The Verge（Adobe AI 助理）: https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch (published 2026-06-19)
+- WIRED（SK 電信 / Anthropic）: https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls (published 2026-06-19)
+- CNBC（Waymo 召回）: https://www.cnbc.com/amp/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html (published 2026-06-19)
+- CNBC（蘋果-英特爾）: https://www.cnbc.com/2026/06/18/trump-intel-apple-chip-design-deal.html (published 2026-06-19)
