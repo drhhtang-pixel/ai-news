@@ -1657,3 +1657,67 @@ Adobe 在 Photoshop、Premiere 等 Creative Cloud 核心應用中全面推出 AI
 - WIRED（SK 電信 / Anthropic）: https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls (published 2026-06-19)
 - CNBC（Waymo 召回）: https://www.cnbc.com/amp/2026/06/18/waymo-nhtsa-voluntary-recall-robotaxis-entered-freeway-construction-zones.html (published 2026-06-19)
 - CNBC（蘋果-英特爾）: https://www.cnbc.com/2026/06/18/trump-intel-apple-chip-design-deal.html (published 2026-06-19)
+
+## 2026-06-20 02:52
+
+<!-- EN -->
+### Headlines
+
+- **Nobel Laureate John Jumper Leaves Google DeepMind for Anthropic:** AlphaFold creator and 2024 Nobel Prize in Chemistry winner John Jumper announced his departure from Google DeepMind after nearly nine years to join AI startup Anthropic, dealing a major talent blow to Google. *(Source: Business Standard, June 20)*
+
+- **Gemini Co-Lead Noam Shazeer Departs Google for OpenAI:** In a stunning 48-hour double exit, Google VP of Engineering and Gemini co-lead Noam Shazeer announced he is leaving Google to join OpenAI, marking two landmark talent losses for Google's AI operation in quick succession. *(Source: CNBC, June 18)*
+
+- **Google Faces Mounting AI Talent Drain:** The simultaneous departures of Jumper and Shazeer highlight deepening struggles at Google DeepMind, with reports that Google has faced difficulty selling AI coding tools to businesses and retaining frontier researchers against competition from Anthropic and OpenAI. *(Source: Business Standard, June 20)*
+
+- **Trump Eyes U.S. Government Equity Stakes in AI Giants:** President Trump has been actively exploring the idea of the U.S. government taking ownership stakes in leading AI companies such as OpenAI and Anthropic, framing it as a way for "the American people to benefit" from the AI boom. *(Source: BBC News, June 20)*
+
+---
+
+### Analysis
+
+The most striking development of the day is the unprecedented talent exodus from Google's AI operation. Within 48 hours, two of the company's most consequential AI researchers — Nobel Prize winner John Jumper and Gemini co-lead Noam Shazeer — announced departures to rival firms Anthropic and OpenAI respectively. This is not merely a human resources story: Jumper's AlphaFold work fundamentally changed the trajectory of protein science and drug discovery, and Shazeer was instrumental in building Gemini, Google's flagship frontier model. Their departures signal that both Anthropic and OpenAI — buoyed by massive valuations and IPO momentum — are now able to attract talent that was once unquestionably anchored at Alphabet, potentially reshaping the frontier AI competitive landscape.
+
+On the policy front, the dual track of U.S. AI governance continues to dominate the background of every industry story. The Trump administration's recently signed executive order (June 2) established a voluntary 30-day pre-deployment review framework for frontier models, and Trump's public musings about the U.S. government taking equity stakes in AI giants add a new economic dimension to AI governance discussions. At the same time, the upcoming UN Global Dialogue on AI Governance in Geneva represents the international counterpart to these U.S.-centric moves, underscoring the growing urgency of multilateral frameworks. Together, these developments suggest that 2026 is emerging as a pivotal year where both national and supranational regulatory structures for advanced AI are actively being constructed — even as the technology races ahead.
+
+---
+
+### Sources
+
+- The Next Web: https://thenextweb.com/news/john-jumper-nobel-deepmind-leaves-anthropic-alphafold (published 2026-06-20)
+- Bloomberg: https://www.bloomberg.com/news/articles/2026-06-19/nobel-winner-john-jumper-to-leave-google-deepmind-for-anthropic (published 2026-06-20)
+- Investing.com (Reuters): https://za.investing.com/news/company-news/google-deepminds-john-jumper-to-join-anthropic-4336691 (published 2026-06-20)
+- BBC News: https://www.bbc.com/news/articles/c98r8r7dz5no (published 2026-06-20)
+- Google Blog: https://blog.google/products-and-platforms/products/search/search-io-2026 (published 2026-06-20)
+- UNESCO: https://www.unesco.org/en/artificial-intelligence (published 2026-06-20)
+- Federal News Network: https://federalnewsnetwork.com/cybersecurity/2026/06/ai-executive-order-sets-stage-for-new-cybersecurity-directives (published 2026-06-20)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **諾貝爾獎得主 John Jumper 離開 Google DeepMind 加入 Anthropic：** AlphaFold 創造者、2024 年諾貝爾化學獎得主 John Jumper 宣布在 Google DeepMind 工作近九年後離職，加入 AI 新創公司 Anthropic，對 Google 造成重大人才打擊。*(來源：Business Standard，6 月 20 日)*
+
+- **Gemini 共同負責人 Noam Shazeer 離開 Google 加入 OpenAI：** 在令人震驚的 48 小時內連續兩次人才出走，Google 工程副總裁兼 Gemini 共同負責人 Noam Shazeer 宣布離開 Google 加入 OpenAI，創下 Google AI 部門短時間內兩次重大人才流失的紀錄。*(來源：CNBC，6 月 18 日)*
+
+- **Google 面臨嚴峻的 AI 人才流失危機：** Jumper 與 Shazeer 的同步離職凸顯了 Google DeepMind 面臨的深層困境，報告指出 Google 在向企業銷售 AI 編程工具方面遭遇挫折，同時難以留住頂尖研究人員以對抗 Anthropic 和 OpenAI 的競爭。*(來源：Business Standard，6 月 20 日)*
+
+- **川普考慮讓美國政府持有 AI 巨頭股份：** 美國總統川普積極研究讓美國政府在 OpenAI、Anthropic 等頂尖 AI 公司持股的可能性，稱此舉可讓「美國人民從 AI 繁榮中受益」。*(來源：BBC News，6 月 20 日)*
+
+---
+
+### 分析
+
+今日最引人矚目的發展，是 Google AI 部門前所未有的人才大出走。僅在 48 小時之內，Google 旗下兩位最舉足輕重的 AI 研究人員——諾貝爾獎得主 John Jumper 與 Gemini 共同負責人 Noam Shazeer——相繼宣布分別跳槽至競爭對手 Anthropic 和 OpenAI。這不僅僅是一場人力資源危機：Jumper 的 AlphaFold 工作從根本上改變了蛋白質科學與新藥研發的走向，而 Shazeer 則是 Google 旗艦前沿模型 Gemini 的核心推手。兩人的出走清楚表明，在龐大估值與 IPO 熱潮的加持下，Anthropic 和 OpenAI 如今已有能力挖角過去穩固紮根於 Alphabet 的頂尖人才，這可能從根本上重塑前沿 AI 的競爭格局。
+
+在政策層面，美國 AI 治理的雙軌並行持續主導產業背景。川普政府於 6 月 2 日簽署的行政命令，為前沿模型建立了自願性的 30 天部署前審查框架；川普公開探討政府入股 AI 巨頭，更為 AI 治理討論增添了新的經濟維度。與此同時，即將於日內瓦召開的聯合國 AI 治理全球對話，則代表了上述美國中心政策的國際對應，彰顯了多邊框架日益增長的迫切性。綜合來看，這些發展表明，2026 年正逐漸成為關鍵轉折年——無論是國家層面還是超國家層面的先進 AI 監管架構，都在技術加速前行的同時積極建構之中。
+
+---
+
+### 來源
+
+- The Next Web: https://thenextweb.com/news/john-jumper-nobel-deepmind-leaves-anthropic-alphafold (published 2026-06-20)
+- Bloomberg: https://www.bloomberg.com/news/articles/2026-06-19/nobel-winner-john-jumper-to-leave-google-deepmind-for-anthropic (published 2026-06-20)
+- Investing.com (Reuters): https://za.investing.com/news/company-news/google-deepminds-john-jumper-to-join-anthropic-4336691 (published 2026-06-20)
+- BBC News: https://www.bbc.com/news/articles/c98r8r7dz5no (published 2026-06-20)
+- Google Blog: https://blog.google/products-and-platforms/products/search/search-io-2026 (published 2026-06-20)
+- UNESCO: https://www.unesco.org/en/artificial-intelligence (published 2026-06-20)
+- Federal News Network: https://federalnewsnetwork.com/cybersecurity/2026/06/ai-executive-order-sets-stage-for-new-cybersecurity-directives (published 2026-06-20)
