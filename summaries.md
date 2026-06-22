@@ -1767,3 +1767,43 @@ Meanwhile, the broader AI competitive landscape is shifting at historic speed. T
 - Wired: https://www.wired.com/story/the-white-house-wants-anthropic-to-block-all-jailbreaks-that-may-not-be-possible (published 2026-06-21)
 - Federal News Network: https://federalnewsnetwork.com/technology-main/2026/06/as-the-pentagon-pushes-for-battlefield-ai-some-military-leaders-urge-caution (published 2026-06-21)
 - Yahoo News: https://www.yahoo.com/news/politics/articles/pentagon-pushes-battlefield-ai-military-125636427.html (published 2026-06-21)
+
+## 2026-06-22 03:39
+
+<!-- EN -->
+### Headlines
+
+### Analysis
+
+The defining theme of the week ending June 22 is the convergence of **U.S. federal AI governance and national security**. The closing of the DARPA-NSF AI Forge RFI today signals a structurally new model for government-funded AI research: instead of a traditional multi-year grant program, AI Forge is designed as a permanent, fast-cycle forum linking university researchers with frontier commercial AI labs and intelligence-community use cases. This is a notable departure from conventional DARPA program architecture, and its launch alongside Trump's AI Executive Order suggests a coordinated effort to accelerate U.S. AI capability in the national security domain while deliberately avoiding heavy regulatory constraints — the order's oversight framework is explicitly described as "voluntary."
+
+Internationally, the opening of the AAAI Summer Symposium in Seoul and Canada's national AI strategy panel reflect a broader push by allied nations to define their own AI governance postures. Canada's panel — featuring voices from DeepMind, Scale AI, and federal economic development ministries — illustrates the challenge democratic governments face in balancing innovation incentives, sovereign capability-building, and public trust. Meanwhile, the Gen Alpha beauty AI finding from MediaPost is a microcosm of a larger behavioral trend: AI-assisted commerce is becoming normalized among the youngest consumers, and the counter-intuitive finding that heavy AI users are *also* more frequent physical-store visitors challenges the assumption that AI shopping tools simply displace traditional retail engagement.
+
+### Sources
+
+- TechPolicy.Press: https://www.techpolicy.press/trump-signs-previously-shelved-ai-executive-order (published 2026-06-02)
+- White House: https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security (published 2026-06-02)
+- DARPA: https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security (published 2026-06-01, RFI deadline 2026-06-22)
+- GrantedAI (DARPA/NSF AI Forge analysis): https://grantedai.com/blog/darpa-nsf-ai-forge-june-2026-rfi-interpretability-control-adversarial-robustness-university-research-forum-strategy (published 2026-06-07)
+- AAAI: https://aaai.org/conference/summer-symposia/suss26 (event opens 2026-06-22)
+- Canadian Science Policy Centre: https://sciencepolicy.ca/event/ai-for-all-balancing-innovation-sovereignty-and-trust (event 2026-06-22)
+- MediaPost: https://www.mediapost.com/publications/article/415938/gen-alpha-insights-teen-boys-are-ais-early-beaut.html (published 2026-06-22)
+
+<!-- ZH -->
+### 頭條新聞
+
+### 分析
+
+截至 6 月 22 日當週，最核心的主題是**美國聯邦 AI 治理與國家安全的深度交匯**。DARPA-NSF「AI Forge」RFI 今日截止，標誌著聯邦資助 AI 研究模式的結構性轉變：相較於傳統的多年期補助計畫，AI Forge 被設計為一個永久性、快速循環的論壇，將大學研究人員、前沿商業 AI 公司與情報部門的實際需求串聯起來。此舉與川普行政命令同步推出，顯示出美國政府在刻意避免重監管的同時，正以協調一致的方式加速國家安全領域的 AI 能力建構——該命令的監管框架明確定性為「自願性」。
+
+在國際層面，AAAI 夏季研討會在首爾開幕，加拿大亦舉行國家 AI 策略圓桌，反映出盟友國家紛紛加緊確立自身 AI 治理立場的大趨勢。加拿大圓桌論壇匯集了 DeepMind、Scale AI 及聯邦部會的聲音，生動呈現出民主國家在創新激勵、主權能力建構與公眾信任之間尋求平衡的艱難課題。此外，MediaPost 關於 Alpha 世代美妝 AI 的研究是一個更大消費行為趨勢的縮影：AI 輔助商務正在最年輕的消費族群中逐漸普及，而「重度 AI 使用者同時也是更頻繁的實體店訪客」這一反直覺發現，也挑戰了 AI 購物工具必然取代線下零售的傳統假設。
+
+### 來源
+
+- TechPolicy.Press: https://www.techpolicy.press/trump-signs-previously-shelved-ai-executive-order (published 2026-06-02)
+- 白宮: https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security (published 2026-06-02)
+- DARPA: https://www.darpa.mil/news/2026/ai-forge-accelerating-ai-breakthroughs-national-security (published 2026-06-01，RFI 截止日 2026-06-22)
+- GrantedAI（DARPA/NSF AI Forge 分析）: https://grantedai.com/blog/darpa-nsf-ai-forge-june-2026-rfi-interpretability-control-adversarial-robustness-university-research-forum-strategy (published 2026-06-07)
+- AAAI: https://aaai.org/conference/summer-symposia/suss26 (活動開始日 2026-06-22)
+- 加拿大科學政策中心: https://sciencepolicy.ca/event/ai-for-all-balancing-innovation-sovereignty-and-trust (活動日期 2026-06-22)
+- MediaPost: https://www.mediapost.com/publications/article/415938/gen-alpha-insights-teen-boys-are-ais-early-beaut.html (published 2026-06-22)
