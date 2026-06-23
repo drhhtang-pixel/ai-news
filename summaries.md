@@ -1807,3 +1807,95 @@ Internationally, the opening of the AAAI Summer Symposium in Seoul and Canada's 
 - AAAI: https://aaai.org/conference/summer-symposia/suss26 (活動開始日 2026-06-22)
 - 加拿大科學政策中心: https://sciencepolicy.ca/event/ai-for-all-balancing-innovation-sovereignty-and-trust (活動日期 2026-06-22)
 - MediaPost: https://www.mediapost.com/publications/article/415938/gen-alpha-insights-teen-boys-are-ais-early-beaut.html (published 2026-06-22)
+
+## 2026-06-23 02:46
+
+<!-- EN -->
+### Headlines
+
+- **Responsible AI Summit North America Opens in Chicago:** The second annual enterprise-focused summit (June 23–24, 2026) kicked off at the DoubleTree by Hilton Chicago, convening senior leaders from finance, healthcare, and tech to operationalize responsible AI governance at scale. *(Source: AI Expert Magazine, June 23)*
+
+- **AAAI 2026 Summer Symposium Concludes in Seoul:** The Association for the Advancement of Artificial Intelligence wrapped up its three-day Summer Symposium Series (June 22–24) at Dongguk University in Seoul, South Korea, covering topics including human-aware AI agents for cyber defense, AI ethics, and AI in business transformation. *(Source: AAAI, June 23)*
+
+- **Chicago AI Week 2026 Launches (June 24–26):** The fourth annual gathering of global AI leaders from industry, government, and academia prepares to open in Chicago, immediately following the Responsible AI Summit, cementing Chicago as a hub for responsible and applied AI discourse in mid-2026. *(Source: Chicago AI Week, June 23)*
+
+- **Senate Advances Legislation to Protect Name, Image, Likeness & Voice from Unauthorized AI Use:** The Senate Judiciary Committee advanced the NO FAKES Act unanimously on June 18, creating federal protections against AI-generated deepfakes exploiting individuals' identities without consent, building on broad bipartisan and broadcaster support. *(Source: IPWatchdog, June 18)*
+
+- **Trump White House AI Executive Order Spurs CISA Cybersecurity Deadlines:** The June 2, 2026 Executive Order "Promoting Advanced Artificial Intelligence Innovation and Security" is now triggering 30-day binding operational directive deadlines from CISA, requiring federal agencies and critical infrastructure operators to deploy AI-enabled cyber defenses. *(Source: Federal News Network, June 23)*
+
+- **Anthropic's Claude Fable 5 & Mythos 5 Access Restrictions Persist:** Following their mid-June suspension over U.S. government export control concerns, Anthropic's newest frontier models remain under restricted access, with enterprises and developers watching closely for a resolution that could reshape the competitive model landscape. *(Source: Forbes, June 16)*
+
+- **AI Model Race Intensifies — GPT-5.5, Claude Opus 4.8, Gemini 3.1 Pro Benchmarked:** Industry trackers confirm the frontline competition among OpenAI's GPT-5.5, Anthropic's Claude Opus 4.8, and Google's Gemini 3.1 Pro continues to dominate enterprise decision-making, with Noam Shazeer's recent move to OpenAI signaling potential next-generation GPT architectural shifts. *(Source: Towards AI, June 2026)*
+
+- **SpaceX's $60B Acquisition of Cursor Maker Anysphere Nears Close:** The largest AI developer-tools acquisition in history — SpaceX's all-stock deal to acquire Anysphere (makers of the Cursor AI coding tool) — is progressing toward an expected Q3 2026 close, reshaping the competitive landscape for AI-assisted software development. *(Source: Reuters, June 16)*
+
+- **Xiaomi MiMo-V2.5-Pro Reaches 1,000 Tokens/Second Inference Speed:** China's Xiaomi and inference partner TileRT demonstrated a 1-trillion-parameter model running at 1,000 tokens per second on a standard 8-GPU commodity node, claiming speeds 15× faster than ChatGPT and Claude. *(Source: Gizmochina, June 9)*
+
+---
+
+### Analysis
+
+The week of June 23, 2026 marks a pivotal convergence of AI governance and competitive model development. On the policy front, the U.S. federal government is moving from rhetoric to enforcement: CISA is now under a 30-day countdown to issue binding cybersecurity directives stemming from President Trump's June 2 AI Executive Order, while Congress is pushing hard on identity-protection legislation (NO FAKES Act, NIL/voice bills) to address the proliferating threat of AI-generated deepfakes. Simultaneously, the Responsible AI Summit in Chicago and the closing day of the AAAI Summer Symposium in Seoul signal that the global AI community is coalescing around governance frameworks that can keep pace with rapidly accelerating capabilities — moving from "principles on paper" to enforceable enterprise practice.
+
+On the technology front, the competitive landscape is being reshaped by dramatic capability and speed milestones. Xiaomi's 1,000-token-per-second inference benchmark, Moonshot AI's leaner open-source coding models, and the ongoing GPT-5.5 vs. Claude Opus 4.8 vs. Gemini 3.1 Pro benchmarking wars reflect an industry where both frontier and open-source models are advancing at a breakneck pace. The suspension of Anthropic's Fable 5 and Mythos 5 due to U.S. government security reviews adds a new dimension of regulatory friction that could affect how the most capable models reach the market. Meanwhile, SpaceX's $60 billion acquisition of Cursor maker Anysphere underscores how AI coding tools have become critical strategic infrastructure, attracting the attention of aerospace and industrial giants far beyond traditional software companies.
+
+Taken together, today's news reflects an AI ecosystem that has definitively shifted from experimentation to high-stakes deployment — where enterprise adoption, geopolitical competition, legislative action, and billion-dollar M&A moves are all happening in parallel. The concentration of events in Chicago (Responsible AI Summit, Chicago AI Week) alongside global conferences in Seoul highlights how AI governance is rapidly becoming an international, multi-sector imperative rather than a concern limited to Silicon Valley labs.
+
+---
+
+### Sources
+
+- AI Expert Magazine: https://www.aiexpertmagazine.com/responsible-ai-summit-north-america-2026-everything-you-need-to-know (published 2026-06-23)
+- AAAI: https://aaai.org/conference/summer-symposia/suss26/ (published 2026-06-23)
+- Chicago AI Week: https://chicagoaiweek.com (published 2026-06-23)
+- IPWatchdog: https://ipwatchdog.com/2026/06/18/senate-judiciary-moves-no-fakes-act-one-step-closer-to-passage (published 2026-06-18)
+- Federal News Network: https://federalnewsnetwork.com/cybersecurity/2026/06/ai-executive-order-sets-stage-for-new-cybersecurity-directives (published 2026-06-23)
+- Forbes: https://www.forbes.com/sites/anishasircar/2026/06/16/anthropic-disabled-fable-5-and-mythos-5-after-a-us-export-control-order-heres-what-happened (published 2026-06-16)
+- Towards AI: https://pub.towardsai.net/i-tested-opus-4-8-vs-gpt-5-5-vs-gemini-3-1-pro-on-20-tasks-opus-embarrassed-both-on-long-context-00a1092ad365 (published 2026-06)
+- Reuters: https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16 (published 2026-06-16)
+- Gizmochina: https://www.gizmochina.com/2026/06/09/xiaomi-mimo-v2-5-pro-ultraspeed-mode-1000-tokens-per-second (published 2026-06-09)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **北美負責任 AI 峰會於芝加哥開幕：** 第二屆企業級峰會（6 月 23 至 24 日）在芝加哥希爾頓逸林酒店啟動，匯聚金融、醫療與科技界高層，聚焦將負責任 AI 治理從政策落實為企業日常運作。*(來源：AI Expert Magazine，6 月 23 日)*
+
+- **AAAI 2026 夏季研討會於首爾閉幕：** 美國人工智慧促進協會三天期夏季研討會系列（6 月 22 至 24 日）在韓國首爾東國大學圓滿結束，涵蓋網路戰場人機協作 AI、AI 倫理及商業智慧轉型等議題。*(來源：AAAI，6 月 23 日)*
+
+- **2026 芝加哥 AI 週即將登場（6 月 24 至 26 日）：** 第四屆全球產官學領袖峰會緊接於負責任 AI 峰會後在芝加哥展開，鞏固該市作為 2026 年負責任及應用 AI 論述重鎮的地位。*(來源：Chicago AI Week，6 月 23 日)*
+
+- **美國參議院推進保護姓名、肖像與聲音免遭 AI 濫用法案：** 參議院司法委員會於 6 月 18 日全票通過推進 NO FAKES 法案，針對未經授權的 AI 深偽（deepfake）侵害個人身份問題提供聯邦法律保護，獲兩黨及廣播業界廣泛支持。*(來源：IPWatchdog，6 月 18 日)*
+
+- **白宮 AI 行政命令驅動 CISA 網路安全強制指令倒計時：** 川普政府 6 月 2 日簽署的《促進先進 AI 創新與安全》行政命令，正式啟動 30 天期限，要求 CISA 發布約束性操作指令，督促聯邦機構及關鍵基礎設施部署 AI 強化的網路防禦工具。*(來源：Federal News Network，6 月 23 日)*
+
+- **Anthropic Claude Fable 5 與 Mythos 5 仍受存取限制：** 兩款旗艦模型因美國政府出口管制指令於 6 月中旬遭暫停，存取限制持續，企業用戶與開發者密切關注後續動向，預期此事將重塑前沿模型競爭格局。*(來源：Forbes，6 月 16 日)*
+
+- **AI 模型競賽白熱化——GPT-5.5、Claude Opus 4.8、Gemini 3.1 Pro 多方角逐：** 業界追蹤顯示三大模型持續主導企業選型決策；OpenAI 近日延攬 Noam Shazeer 的消息暗示下一代 GPT 架構可能出現重大變革。*(來源：Towards AI，2026 年 6 月)*
+
+- **SpaceX 以 600 億美元收購 Cursor 開發商 Anysphere 進程推進：** 史上最大 AI 開發工具併購案——SpaceX 全股票收購 Cursor AI 編程工具母公司 Anysphere——預計 2026 年第三季完成交割，將深刻重塑 AI 輔助軟體開發市場格局。*(來源：Reuters，6 月 16 日)*
+
+- **小米 MiMo-V2.5-Pro 推理速度達每秒 1,000 個 Token：** 中國小米與推理合作夥伴 TileRT 展示兆參數模型，在標準 8-GPU 節點上達到每秒 1,000 個 token 的推理速度，聲稱比 ChatGPT 與 Claude 快 15 倍。*(來源：Gizmochina，6 月 9 日)*
+
+---
+
+### 分析
+
+2026 年 6 月 23 日這一週，是 AI 治理與模型競爭雙軌並行、高度交匯的關鍵時刻。在政策層面，美國聯邦政府正從宣示走向執行：CISA 正在倒計時發布具約束力的網路安全指令，落實川普 6 月 2 日的 AI 行政命令要求；與此同時，國會也正積極推進身份保護立法，以應對 AI 深偽技術帶來的日益嚴峻威脅。芝加哥負責任 AI 峰會與首爾 AAAI 夏季研討會的閉幕，共同彰顯全球 AI 社群正朝著可操作的治理框架加速聚合——目標是讓制度設計真正跟上技術加速的腳步。
+
+在技術層面，競爭格局正被一系列突破性里程碑所重塑。小米每秒千個 Token 的推理速度、Moonshot AI 更精簡的開源編程模型，以及 GPT-5.5、Claude Opus 4.8 與 Gemini 3.1 Pro 之間持續演進的基準測試競賽，共同呈現出一個前沿模型與開源模型同步高速進化的行業圖景。Anthropic 兩款旗艦模型因美國政府安全審查而遭到存取限制，則為最頂尖的 AI 模型如何觸達市場增添了全新的監管摩擦面向。而 SpaceX 斥資 600 億美元收購 Cursor 開發商，更深刻揭示了 AI 編程工具已成為戰略性關鍵基礎設施，吸引航太等傳統產業巨頭爭相佈局。
+
+綜觀今日新聞，AI 生態系統已明確完成從探索實驗到高風險規模部署的轉型——企業應用普及、地緣政治競爭、立法行動與數十億美元的併購交易，正在同步展開。芝加哥（負責任 AI 峰會、芝加哥 AI 週）與首爾（AAAI 夏季研討會）的事件高度集中，有力說明 AI 治理正迅速演變為一項跨國界、跨行業的全球性命題，遠遠超越了矽谷實驗室的視野邊界。
+
+---
+
+### 來源
+
+- AI Expert Magazine: https://www.aiexpertmagazine.com/responsible-ai-summit-north-america-2026-everything-you-need-to-know (published 2026-06-23)
+- AAAI: https://aaai.org/conference/summer-symposia/suss26/ (published 2026-06-23)
+- Chicago AI Week: https://chicagoaiweek.com (published 2026-06-23)
+- IPWatchdog: https://ipwatchdog.com/2026/06/18/senate-judiciary-moves-no-fakes-act-one-step-closer-to-passage (published 2026-06-18)
+- Federal News Network: https://federalnewsnetwork.com/cybersecurity/2026/06/ai-executive-order-sets-stage-for-new-cybersecurity-directives (published 2026-06-23)
+- Forbes: https://www.forbes.com/sites/anishasircar/2026/06/16/anthropic-disabled-fable-5-and-mythos-5-after-a-us-export-control-order-heres-what-happened (published 2026-06-16)
+- Towards AI: https://pub.towardsai.net/i-tested-opus-4-8-vs-gpt-5-5-vs-gemini-3-1-pro-on-20-tasks-opus-embarrassed-both-on-long-context-00a1092ad365 (published 2026-06)
+- Reuters: https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16 (published 2026-06-16)
+- Gizmochina: https://www.gizmochina.com/2026/06/09/xiaomi-mimo-v2-5-pro-ultraspeed-mode-1000-tokens-per-second (published 2026-06-09)
