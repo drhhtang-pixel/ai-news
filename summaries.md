@@ -1899,3 +1899,55 @@ Taken together, today's news reflects an AI ecosystem that has definitively shif
 - Towards AI: https://pub.towardsai.net/i-tested-opus-4-8-vs-gpt-5-5-vs-gemini-3-1-pro-on-20-tasks-opus-embarrassed-both-on-long-context-00a1092ad365 (published 2026-06)
 - Reuters: https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16 (published 2026-06-16)
 - Gizmochina: https://www.gizmochina.com/2026/06/09/xiaomi-mimo-v2-5-pro-ultraspeed-mode-1000-tokens-per-second (published 2026-06-09)
+
+## 2026-06-24 02:46
+
+<!-- EN -->
+### Headlines
+
+---
+
+### Analysis
+
+The most consequential story of June 24 sits at the intersection of AI and geopolitics: China's sweeping retaliation against 56 U.S. firms — targeting rare-earth miners and defense contractors — directly reflects how AI hardware supply chains and military technology lists have become the new battleground in the U.S.–China tech war. The fact that rare-earth companies like MP Materials are now on China's export control list is especially significant, as these materials are essential to manufacturing the advanced chips that power frontier AI models. Meanwhile, the Getty Images–OpenAI deal represents a potential blueprint for how legacy media and content companies can pivot from adversarial copyright litigation toward structured, revenue-generating AI licensing partnerships. GETY's enormous stock surge signals that markets view this as a template others may follow.
+
+On the domestic policy front, the Trump administration's new AI Executive Order and the Senate's advancement of the NO FAKES Act together illustrate a nuanced — and sometimes contradictory — U.S. regulatory posture: the White House is pushing AI adoption within government and resisting broad regulation, while Congress is simultaneously moving to establish concrete individual rights against AI-generated synthetic media. The Qualcomm–Modular deal, if completed, would mark another major consolidation move in AI chip infrastructure, a sector seeing intense M&A activity as companies race to build differentiated silicon stacks beyond Nvidia's dominant ecosystem.
+
+---
+
+### Sources
+
+- AI Tools Recap: https://aitoolsrecap.com/Blog/ai-news-june-24-2026 (published 2026-06-24)
+- Inside Government Contracts: https://www.insidegovernmentcontracts.com/2026/06/white-house-releases-executive-order-on-advanced-ai-innovation-and-security (published 2026-06-24)
+- White House (Executive Order): https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security (published 2026-06-24)
+- Roll Call: https://rollcall.com/2026/06/18/ai-deepfakes-bill-advanced-by-senate-judiciary-committee (published 2026-06-24)
+- Reuters (AI News Hub): https://www.reuters.com/technology/artificial-intelligence (published 2026-06-24)
+- TechCrunch: https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg (published 2026-06-24)
+- Getty Images Newsroom: https://newsroom.gettyimages.com/en/getty-images/getty-images-announces-display-partnership-with-openai (published 2026-06-24)
+- Forbes: https://www.forbes.com/sites/siladityaray/2026/06/22/getty-images-shares-soar-more-than-120-after-it-announces-deal-with-openai (published 2026-06-24)
+- The Next Web (TNW): https://thenextweb.com/news/china-trade-curbs-us-firms-pentagon-list (published 2026-06-24)
+
+<!-- ZH -->
+### 頭條新聞
+
+---
+
+### 分析
+
+6 月 24 日最具戰略意涵的新聞，在於 AI 與地緣政治的深度交織：中國對 56 家美國企業的全面反制——重點打擊稀土礦企與國防承包商——清楚揭示出 AI 硬體供應鏈與軍事技術名單已成為中美科技戰的最新戰場。MP Materials 等稀土企業遭列出口管制名單尤為關鍵，因為這些礦物是製造前沿 AI 模型所需先進晶片的核心原料，對美國 AI 競爭力構成直接威脅。與此同時，Getty Images 與 OpenAI 的授權合作模式，為傳統媒體與內容企業從對抗式版權訴訟轉型為結構性 AI 授權合作提供了可複製的範本，GETY 股價的驚人漲幅顯示市場高度看好這一商業模式的推廣潛力。
+
+在國內政策層面，川普政府新發布的 AI 行政命令與參議院推進《NO FAKES 法案》，共同呈現出一種微妙甚至矛盾的美國監管姿態：白宮一方面加速推動 AI 在政府中的應用並抵制過度立法，國會卻同時積極為個人針對 AI 生成合成媒體建立具體的法律保護權利。若高通與 Modular Inc. 的收購案最終落地，將標誌著 AI 晶片基礎設施領域的又一重大整合，在英偉達主導的 AI 算力生態中，各方正持續加速推動差異化矽晶片布局，整個賽道的併購活動仍相當活躍。
+
+---
+
+### 來源
+
+- AI Tools Recap: https://aitoolsrecap.com/Blog/ai-news-june-24-2026 (published 2026-06-24)
+- Inside Government Contracts: https://www.insidegovernmentcontracts.com/2026/06/white-house-releases-executive-order-on-advanced-ai-innovation-and-security (published 2026-06-24)
+- White House (行政命令): https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security (published 2026-06-24)
+- Roll Call: https://rollcall.com/2026/06/18/ai-deepfakes-bill-advanced-by-senate-judiciary-committee (published 2026-06-24)
+- Reuters (AI 新聞): https://www.reuters.com/technology/artificial-intelligence (published 2026-06-24)
+- TechCrunch: https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg (published 2026-06-24)
+- Getty Images 新聞室: https://newsroom.gettyimages.com/en/getty-images/getty-images-announces-display-partnership-with-openai (published 2026-06-24)
+- Forbes: https://www.forbes.com/sites/siladityaray/2026/06/22/getty-images-shares-soar-more-than-120-after-it-announces-deal-with-openai (published 2026-06-24)
+- The Next Web (TNW): https://thenextweb.com/news/china-trade-curbs-us-firms-pentagon-list (published 2026-06-24)
