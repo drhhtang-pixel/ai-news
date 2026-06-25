@@ -1951,3 +1951,83 @@ On the domestic policy front, the Trump administration's new AI Executive Order 
 - Getty Images 新聞室: https://newsroom.gettyimages.com/en/getty-images/getty-images-announces-display-partnership-with-openai (published 2026-06-24)
 - Forbes: https://www.forbes.com/sites/siladityaray/2026/06/22/getty-images-shares-soar-more-than-120-after-it-announces-deal-with-openai (published 2026-06-24)
 - The Next Web (TNW): https://thenextweb.com/news/china-trade-curbs-us-firms-pentagon-list (published 2026-06-24)
+
+## 2026-06-25 02:47
+
+<!-- EN -->
+### Headlines
+
+- **HHS Hosts Major AI-in-Clinical-Care Briefing:** The U.S. Department of Health and Human Services (HHS) and the Office of the National Coordinator for Health IT (ONC) held a live public event today to share key takeaways from its landmark Request for Information on accelerating AI adoption in clinical care settings. *(Source: HealthIT.gov, June 25)*
+
+- **Senate Advances NO FAKES Act to Protect Voice and Likeness from AI:** The Senate Judiciary Committee advanced the bipartisan NO FAKES Act of 2026, which would establish federal property rights protecting individuals' name, image, and voice against unauthorized AI-generated deepfakes, with broadcaster associations rallying support. *(Source: Deadline, June 2026)*
+
+- **Databricks Data + AI Summit 2026 Underway:** The industry's flagship data and AI conference is in full swing, featuring keynotes from OpenAI's Greg Brockman, Microsoft's Satya Nadella, and other major AI leaders, spotlighting the rapid shift from AI experimentation to enterprise-scale execution. *(Source: Databricks, June 2026)*
+
+- **OpenAI and Anthropic Race Toward IPOs:** Both OpenAI and Anthropic have filed for U.S. IPOs — Anthropic confidentially on June 1 at a ~$965B valuation, and OpenAI on June 8 targeting up to $1 trillion — marking a historic moment as the two leading AI labs head to public markets simultaneously. *(Source: TechCrunch, June 8)*
+
+- **Executive Order Expands AI Cybersecurity Oversight:** A new Executive Order signed by President Trump directs federal agencies to strengthen AI-enabled cyber defenses, creates a voluntary AI cybersecurity clearinghouse, and establishes a pre-release engagement framework for frontier AI model developers. *(Source: Skadden, June 9)*
+
+- **Anthropic Expands Compute Partnership with Google and Broadcom:** Anthropic announced an expanded partnership with Google and Broadcom to secure multiple gigawatts of next-generation AI compute capacity, underlining the escalating infrastructure arms race among frontier AI labs. *(Source: TechCrunch, April 7)*
+
+- **Connecticut Enacts Comprehensive AI Legislation:** Connecticut became the latest U.S. state to pass a sweeping AI law, placing new obligations on both developers and deployers of AI systems — adding to a growing patchwork of state-level AI regulations. *(Source: Ropes & Gray, June 2026)*
+
+---
+
+### Analysis
+
+The most concrete AI event on June 25, 2026 itself is the HHS public briefing on AI in clinical care, which signals that governments are moving beyond studying AI's healthcare potential and beginning to operationalize adoption frameworks. The Office of the National Coordinator for Health IT joined HHS leadership to discuss key takeaways from a landmark Request for Information issued in December 2025, marking a tangible step toward federal policy action on AI in medicine.
+
+On the policy and regulatory front, June 2026 has been one of the most consequential months for U.S. AI governance in years. The Trump administration's June Executive Order on AI cybersecurity, combined with the Senate's progress on the NO FAKES Act, illustrates a dual-track federal strategy: deregulate AI development on one hand while erecting targeted guardrails around national security and individual rights on the other. States like Connecticut are not waiting for Washington, creating compliance complexity for enterprises deploying AI across jurisdictions.
+
+Perhaps the most dramatic macro-trend is the simultaneous race to public markets by OpenAI and Anthropic. With a combined implied valuation potentially exceeding $2 trillion, these IPOs — if successful — would represent the largest technology listings in years and signal that institutional investors have fully embraced frontier AI as a durable asset class. Meanwhile, infrastructure stories like Anthropic's expanded compute deal with Google and Broadcom, and the Databricks Data + AI Summit's enterprise focus, underscore that 2026 is decisively the year AI moves from experimentation into high-stakes, at-scale deployment.
+
+---
+
+### Sources
+
+- HealthIT.gov (HHS ONC AI Clinical Care Event): https://healthit.gov/event/adoption-of-ai-in-clinical-care-updates-from-the-hhs-rfi (published 2026-06-25)
+- Deadline (NO FAKES Act): https://deadline.com/2026/06/no-fakes-act-senate-judiciary-committee-1236959147 (published 2026-06)
+- Databricks (Data + AI Summit 2026): https://www.databricks.com/dataaisummit (published 2026-06)
+- TechCrunch (OpenAI IPO Filing): https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo (published 2026-06-08)
+- Skadden (AI Cybersecurity Executive Order): https://www.skadden.com/insights/publications/2026/06/new-ai-executive-order (published 2026-06-09)
+- TechCrunch (Anthropic Google & Broadcom Compute Partnership): https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus (published 2026-04-07)
+- Ropes & Gray (Connecticut AI Law): https://www.ropesgray.com/en/insights/alerts/2026/06/connecticut-enacts-sweeping-ai-law-covering-employment-healthcare-and-online-safety (published 2026-06)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **美國 HHS 舉辦 AI 臨床醫療應用重要說明會：** 美國衛生及公共服務部（HHS）與全國衛生資訊技術協調辦公室（ONC）今日舉辦公開活動，分享其加速 AI 在臨床照護場域應用之資訊徵求（RFI）的重要成果。*(來源：HealthIT.gov，6 月 25 日)*
+
+- **參議院推進《NO FAKES 法案》以保護個人聲音與肖像免遭 AI 濫用：** 美國參議院司法委員會推動跨黨派《2026 年 NO FAKES 法案》前進，該法案將建立聯邦層級財產權，保護個人姓名、肖像與聲音，防止未經授權的 AI 深偽內容，廣播業者聯盟亦表態支持。*(來源：Deadline，2026 年 6 月)*
+
+- **Databricks Data + AI 峰會 2026 盛大召開：** 業界旗艦數據與 AI 大會正在進行中，OpenAI 的 Greg Brockman、微軟 Satya Nadella 等 AI 領袖發表主題演講，聚焦企業 AI 從試驗走向大規模落地執行的關鍵轉型。*(來源：Databricks，2026 年 6 月)*
+
+- **OpenAI 與 Anthropic 競相 IPO 上市：** OpenAI 與 Anthropic 雙雙向美國遞交 IPO 申請——Anthropic 於 6 月 1 日以約 9,650 億美元估值秘密申請，OpenAI 則於 6 月 8 日以高達 1 兆美元為目標——兩大 AI 龍頭同步衝向公開市場，創下歷史先例。*(來源：TechCrunch，6 月 8 日)*
+
+- **行政命令擴大 AI 網路安全監管範圍：** 川普總統簽署新行政命令，要求聯邦機構強化 AI 賦能的網路防禦，並建立自願性 AI 網路安全資訊共享機制，以及針對前沿 AI 模型開發者的發布前接觸框架。*(來源：Skadden，6 月 9 日)*
+
+- **Anthropic 擴大與 Google 及 Broadcom 的算力合作：** Anthropic 宣布擴大與 Google 及 Broadcom 的合作夥伴關係，確保取得數吉瓦（GW）級別的下一代 AI 算力，凸顯頂尖 AI 實驗室之間的基礎設施軍備競賽持續升溫。*(來源：TechCrunch，4 月 7 日)*
+
+- **康乃狄克州通過全面性 AI 立法：** 康乃狄克州成為美國最新一個通過全面 AI 法規的州，對 AI 系統的開發者和部署者設定新義務，進一步加劇美國各州 AI 監管的拼湊困境。*(來源：Ropes & Gray，2026 年 6 月)*
+
+---
+
+### 分析
+
+2026 年 6 月 25 日當天最具體的 AI 事件，是 HHS 就 AI 在臨床醫療應用發布公開說明會，標誌著政府已開始從「研究潛力」轉向「操作化落地框架」的實質推進。全國衛生資訊技術協調辦公室與 HHS 領導層共同討論了 2025 年 12 月發布的重要資訊徵求（RFI）的關鍵成果，是聯邦政府在醫療 AI 政策行動上的切實進展。
+
+在政策與監管層面，2026 年 6 月可謂近年來美國 AI 治理最具決定性意義的月份之一。川普政府的 AI 網路安全行政命令，加上參議院《NO FAKES 法案》的立法推進，勾勒出聯邦層級的「雙軌策略」：一方面鬆綁 AI 研發限制、鼓勵創新，另一方面在國家安全與個人權利上設立針對性護欄。然而，康乃狄克州等地自行立法，使跨州部署 AI 的企業面臨日益複雜的合規挑戰，聯邦與州法之間的張力仍未解決。
+
+宏觀層面最引人矚目的趨勢，是 OpenAI 與 Anthropic 同步衝刺 IPO 上市。兩者合計隱含估值可能突破 2 兆美元，若成功上市，將成為近年來規模最大的科技股 IPO，也意味著機構投資者已全面認可前沿 AI 作為長期資產類別的地位。Anthropic 擴大算力採購、Databricks 峰會聚焦企業落地等基礎設施故事，無不印證一個核心判斷：2026 年是 AI 從概念驗證走向高風險、大規模實際部署的決定性年份。
+
+---
+
+### 來源
+
+- HealthIT.gov（HHS ONC AI 臨床照護活動）: https://healthit.gov/event/adoption-of-ai-in-clinical-care-updates-from-the-hhs-rfi (published 2026-06-25)
+- Deadline（NO FAKES 法案）: https://deadline.com/2026/06/no-fakes-act-senate-judiciary-committee-1236959147 (published 2026-06)
+- Databricks（Data + AI 峰會 2026）: https://www.databricks.com/dataaisummit (published 2026-06)
+- TechCrunch（OpenAI IPO 申請）: https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo (published 2026-06-08)
+- Skadden（AI 網路安全行政命令）: https://www.skadden.com/insights/publications/2026/06/new-ai-executive-order (published 2026-06-09)
+- TechCrunch（Anthropic Google 與 Broadcom 算力合作）: https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus (published 2026-04-07)
+- Ropes & Gray（康乃狄克州 AI 立法）: https://www.ropesgray.com/en/insights/alerts/2026/06/connecticut-enacts-sweeping-ai-law-covering-employment-healthcare-and-online-safety (published 2026-06)
