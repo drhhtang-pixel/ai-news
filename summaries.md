@@ -2031,3 +2031,43 @@ Perhaps the most dramatic macro-trend is the simultaneous race to public markets
 - Skadden（AI 網路安全行政命令）: https://www.skadden.com/insights/publications/2026/06/new-ai-executive-order (published 2026-06-09)
 - TechCrunch（Anthropic Google 與 Broadcom 算力合作）: https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus (published 2026-04-07)
 - Ropes & Gray（康乃狄克州 AI 立法）: https://www.ropesgray.com/en/insights/alerts/2026/06/connecticut-enacts-sweeping-ai-law-covering-employment-healthcare-and-online-safety (published 2026-06)
+
+## 2026-06-26 02:50
+
+<!-- EN -->
+### Headlines
+
+### Analysis
+
+The defining story of this week — crystallizing on June 26 — is the unprecedented acceleration of AI talent wars, with Google DeepMind losing four senior researchers in a single week. The departures of Nobel laureate John Jumper and Transformer co-author Noam Shazeer represent far more than individual career moves: they signal a profound reordering of the AI power hierarchy. Anthropic's rise to a $965 billion private valuation, now eclipsing OpenAI, has given it the resources and cachet to lure the most elite researchers on the planet. The motivation is clear — with many insiders believing artificial general intelligence is within reach, researchers are choosing to be at the frontier organizations best positioned to achieve that milestone, and are willing to trade the stability of a public-company employer like Google for potentially life-changing equity at a pre-IPO lab.
+
+On the policy and infrastructure front, two other critical themes are converging. The Trump administration's executive order on AI innovation and security is being closely parsed by legal and industry observers for its practical implications: it favors a voluntary compliance framework on cybersecurity while explicitly avoiding heavy federal regulation, a posture that pleases the industry but leaves key national-security implementation details uncertain. Meanwhile, the energy demands of AI are emerging as a systemic constraint — illustrated vividly by the Databricks spin-off's bold claim to cut AI power consumption by 1,000x. As AI compute scales toward AGI-level ambitions, energy efficiency is rapidly becoming as strategically important as model performance itself, setting the stage for a new wave of hardware and infrastructure innovation.
+
+### Sources
+
+- AI Tools Recap: https://aitoolsrecap.com/Blog/ai-news-june-26-2026 (published 2026-06-26)
+- Community Days (AI Community Conference – New York): https://www.communitydays.org/event/2026-06-26/ai-community-conference-new-york (published 2026-06-26)
+- AI Funding Tracker: https://aifundingtracker.com/top-50-ai-startups (published 2026-06-26)
+- NeurIPS Blog: https://blog.neurips.cc/2026/06/02/ai-generated-papers-in-the-neurips-2026-position-paper-track (published 2026-06-26)
+- TechCrunch (Databricks power story): https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x (published 2026-06-26)
+- Axios (AI talent wars): https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures (published 2026-06-26)
+- Global Policy Watch (White House AI EO): https://www.globalpolicywatch.com/2026/06/white-house-releases-executive-order-on-advanced-ai-innovation-and-security (published 2026-06-26)
+
+<!-- ZH -->
+### 頭條新聞
+
+### 分析
+
+本週最核心的議題——在 6 月 26 日達到高峰——是 AI 人才大戰的急劇升溫。Google DeepMind 單週痛失 4 名資深研究員，諾貝爾獎得主 John Jumper 與 Transformer 奠基人 Noam Shazeer的出走，絕不只是個人職涯選擇，而是預示著 AI 產業格局的深度重組。Anthropic 估值衝破 9,650 億美元、超越 OpenAI，使其具備足夠的資本與吸引力，得以招募全球最頂尖的研究人才。研究員們之所以選擇離開 Google 這樣的上市大公司，投奔尚未上市的 AI 實驗室，背後的動力清晰可見——AGI 的實現窗口被認為已近在眼前，人才都想在最有機會站在歷史轉折點的地方。
+
+在政策與基礎設施層面，兩條重要脈絡正在交匯。川普政府的 AI 行政命令傾向於自願性合規框架，雖有利於產業發展，但國家安全相關細節的落實方式仍不明朗，需持續觀察。另一方面，AI 的能源消耗問題日益成為整體產業的瓶頸——Databricks 前 AI 長聲稱可將耗電降低 1,000 倍的消息，正是這一趨勢的縮影。隨著 AI 算力朝 AGI 規模急速擴張，能源效率已與模型性能同等重要，預計將引發新一波硬體與基礎設施創新浪潮。
+
+### 來源
+
+- AI Tools Recap: https://aitoolsrecap.com/Blog/ai-news-june-26-2026 (published 2026-06-26)
+- Community Days（AI 社群大會 — 紐約）: https://www.communitydays.org/event/2026-06-26/ai-community-conference-new-york (published 2026-06-26)
+- AI Funding Tracker: https://aifundingtracker.com/top-50-ai-startups (published 2026-06-26)
+- NeurIPS Blog: https://blog.neurips.cc/2026/06/02/ai-generated-papers-in-the-neurips-2026-position-paper-track (published 2026-06-26)
+- TechCrunch（Databricks 能耗報導）: https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x (published 2026-06-26)
+- Axios（AI 人才戰）: https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures (published 2026-06-26)
+- Global Policy Watch（白宮 AI 行政命令）: https://www.globalpolicywatch.com/2026/06/white-house-releases-executive-order-on-advanced-ai-innovation-and-security (published 2026-06-26)
