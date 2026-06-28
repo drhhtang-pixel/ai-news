@@ -2131,3 +2131,53 @@ On the industry side, the market is experiencing a twin squeeze: insatiable AI c
 - OpenAI 部署安全（GPT-5.6 預覽系統卡）: https://deploymentsafety.openai.com/gpt-5-6-preview (published 2026-06-27)
 - TechieNews/YouTube（6 月 27 日十大科技新聞）: https://www.youtube.com/watch?v=IwOxID8x7Wg (published 2026-06-27)
 - Global Policy Watch: https://www.globalpolicywatch.com/2026/06/white-house-releases-executive-order-on-advanced-ai-innovation-and-security (published 2026-06-27)
+
+## 2026-06-28 02:56
+
+<!-- EN -->
+### Headlines
+
+---
+
+### Analysis
+
+The most consequential theme emerging from this week's AI news is the rapid entanglement of frontier AI development with US national security policy. The Trump administration's request that OpenAI delay the public rollout of GPT-5.6 — framing it as comparable in capability to Anthropic's already-restricted Mythos model — signals that export-control-style oversight of powerful AI models is quickly becoming the new norm. Sam Altman himself acknowledged in an internal memo that this "staged release" approach is "not our preferred long-term model," yet OpenAI complied, illustrating how even the most powerful AI labs are now operating under significant government influence. The Anthropic situation, where its own employees were reportedly barred from using its most advanced models, underscores just how disruptive this new governance posture can be.
+
+Meanwhile, the Anthropic-Alibaba distillation scandal throws the US–China AI rivalry into sharp relief. If Anthropic's allegations are accurate, Alibaba's Qwen lab effectively used 28.8 million interactions with Claude to train cheaper, competing models — exploiting American AI investment without bearing the R&D costs. This "model theft by imitation" framing is likely to accelerate calls in Congress for stricter access controls on frontier AI systems for entities linked to countries of concern, and could reshape how AI companies structure their API access policies globally. The episode also reinforces a key asymmetry: open API access, which has driven rapid AI adoption, simultaneously creates a significant competitive and security vulnerability.
+
+On the hardware front, OpenAI's unveiling of its "Jalapeño" inference chip — developed with Broadcom in just nine months — marks a milestone in the industry's push to reduce dependence on Nvidia. With OpenAI planning deployments at a scale requiring 10 gigawatts of power, the chip race is becoming as strategically important as the model race itself. Together, these three storylines — government model restrictions, AI model theft at scale, and the custom silicon arms race — define a pivotal moment where AI is transitioning from a largely unregulated technology frontier into a closely contested geopolitical and industrial battleground.
+
+---
+
+### Sources
+
+- Wired: https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval (published 2026-06-28)
+- InfoWorld: https://www.infoworld.com/article/4189342/anthropic-accuses-alibaba-of-using-25000-fake-accounts-to-scrape-claude-ai.html (published 2026-06-28)
+- CNBC: https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html (published 2026-06-28)
+- AI Weekly (Politico): https://aiweekly.co/ai-news-today/regulation-ai-news (published 2026-06-28)
+- TechCrunch: https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai (published 2026-06-28)
+- Medium (David Akpovi): https://medium.com/@davidakpovi/ai-news-week-of-june-22-to-june-28-2026-ed7b09829a67 (published 2026-06-28)
+
+<!-- ZH -->
+### 頭條新聞
+
+---
+
+### 分析
+
+本週 AI 新聞最核心的主題，是前沿 AI 開發與美國國家安全政策之間的深度交織。川普政府要求 OpenAI 推遲 GPT-5.6 公開發布——將其定性為與 Anthropic 已受限制的 Mythos 模型能力相當——標誌著對強大 AI 模型實施類出口管制式監管正迅速成為新常態。OpenAI 執行長山姆·奧特曼在內部備忘錄中坦言，這種「分階段發布」方式「並非我們長期偏好的模式」，但 OpenAI 仍選擇配合，這說明即便是最強大的 AI 實驗室，如今也在政府的重大影響下運作。Anthropic 旗下員工一度被禁止使用其最先進模型的事件，更進一步揭示了這種新型治理姿態可能帶來的深遠衝擊。
+
+與此同時，Anthropic 與阿里巴巴的「蒸餾醜聞」將美中 AI 競爭的緊張態勢推向台前。若 Anthropic 的指控屬實，阿里巴巴 Qwen 實驗室實際上是利用與 Claude 的 2,880 萬次互動來訓練成本更低的競爭模型——在未承擔研發成本的情況下從美國 AI 投入中獲益。這種「模仿式模型竊取」的定性，可能加速國會對限制具有國家安全隱患主體訪問前沿 AI 系統的立法討論，並深刻影響 AI 公司未來在全球範圍內構建 API 訪問政策的方式。這一事件同樣印證了一個關鍵的不對稱性：開放的 API 訪問在驅動 AI 快速普及的同時，也為競爭者和國家安全帶來了重大漏洞。
+
+在硬體競賽層面，OpenAI 與博通僅用九個月研發出「Jalapeño」推理晶片，標誌著業界減少對英偉達依賴的努力邁出重要一步。隨著 OpenAI 計劃部署消耗高達 100 億瓦電力的晶片規模，晶片競賽在戰略重要性上正迅速逼近模型競賽本身。政府模型限制、大規模 AI 模型竊取與自研晶片軍備競賽——這三條交匯的敘事主線，共同勾勒出 AI 從幾乎不受監管的技術前沿，轉型為地緣政治與產業競爭核心戰場的歷史性轉折點。
+
+---
+
+### 來源
+
+- Wired: https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval (published 2026-06-28)
+- InfoWorld: https://www.infoworld.com/article/4189342/anthropic-accuses-alibaba-of-using-25000-fake-accounts-to-scrape-claude-ai.html (published 2026-06-28)
+- CNBC: https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html (published 2026-06-28)
+- AI Weekly (Politico): https://aiweekly.co/ai-news-today/regulation-ai-news (published 2026-06-28)
+- TechCrunch: https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai (published 2026-06-28)
+- Medium (David Akpovi): https://medium.com/@davidakpovi/ai-news-week-of-june-22-to-june-28-2026-ed7b09829a67 (published 2026-06-28)
