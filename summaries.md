@@ -2181,3 +2181,81 @@ On the hardware front, OpenAI's unveiling of its "Jalapeño" inference chip — 
 - AI Weekly (Politico): https://aiweekly.co/ai-news-today/regulation-ai-news (published 2026-06-28)
 - TechCrunch: https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai (published 2026-06-28)
 - Medium (David Akpovi): https://medium.com/@davidakpovi/ai-news-week-of-june-22-to-june-28-2026-ed7b09829a67 (published 2026-06-28)
+
+## 2026-06-29 02:56
+
+<!-- EN -->
+### Headlines
+
+- **WIRobotics Launches ALLEX Humanoid Simulation Model for Open Physical AI Ecosystem:** South Korean robotics firm WIRobotics unveiled the simulation model of its ALLEX humanoid robot along with Sim-to-Real validation results, kicking off an open Physical AI development roadmap for researchers and robotics developers worldwide. *(Source: PR Newswire, June 29)*
+
+- **Trump White House Promotes Advanced AI Innovation and Security via Executive Action:** The White House published a new presidential action titled "Promoting Advanced Artificial Intelligence Innovation and Security," closely paired with NSPM-11, directing U.S. military and intelligence agencies to accelerate AI adoption, streamline multi-vendor procurement, and establish governance guardrails — replacing Biden-era National Security Memorandum-25. *(Source: The White House, June 29)*
+
+- **Benton Foundation Analysis: NSPM-11 Reshapes How the Military and Intelligence Community Use AI:** A detailed policy analysis confirmed that Trump's NSPM-11 (signed June 5) mandates agencies to close the capability gap between publicly available AI and national security AI tools within 120 days, while preventing single-vendor lock-in and ensuring AI systems cannot be disabled without federal approval. *(Source: Benton.org, June 29)*
+
+- **Meta Launches Cheaper In-House AI Smart Glasses Starting at $299:** Meta unveiled a new line of AI-powered smart glasses designed in-house — dropping the Ray-Ban co-branding — starting at $299, at least $80 less than prior entry-level models, as part of CEO Mark Zuckerberg's aggressive push to dominate AI wearables hardware. *(Source: CNBC, June 23 / CNN, June 23)*
+
+- **OpenAI Under White House Pressure to Delay New Model Release Over Safety Concerns:** The Trump administration asked OpenAI to slow-roll the public release of its next frontier model for voluntary government safety evaluation, following a June 2 executive order encouraging AI companies to submit cutting-edge models for testing before launch. *(Source: TechCrunch, June 25)*
+
+- **GAI Insights Daily AI Briefing Covers June 29 Developments:** The daily AI news show by GAI Insights broadcast its June 29 edition, curating top stories including agentic AI production readiness, the Amazon vs. Perplexity browser dispute, and Alibaba's Qwen-AgentWorld model that simulates AI agent environments at scale. *(Source: GAI Insights / YouTube, June 29)*
+
+- **OECD Hosts Webinar on AI and Skills Gap:** The OECD held a June 29 webinar examining the current state of AI adoption and its implications for workforce skills, contributing to growing international dialogue on AI's labor market impact. *(Source: OECD, June 29)*
+
+---
+
+### Analysis
+
+The most consequential AI story threading through the week of June 29, 2026, is the U.S. federal government's accelerating use of executive power to shape both the domestic and national security AI landscape. The White House's "Promoting Advanced AI Innovation and Security" action — combined with NSPM-11 — represents a decisive pivot away from the Biden administration's more cautious, governance-heavy approach. The new framework pushes military and intelligence agencies to rapidly onboard AI tools from multiple vendors, explicitly aiming to close the gap between commercial frontier AI and what government workers can access. At the same time, the administration's request that OpenAI delay a major model release for voluntary safety review signals an emerging tension: the government simultaneously wants AI to move faster in national security contexts while exercising new informal oversight over commercial releases.
+
+On the hardware and robotics front, two significant product moments illustrate that AI is rapidly moving off the screen and into the physical world. WIRobotics' ALLEX simulation model launch — focused on minimizing the gap between simulation and real-world deployment — reflects the maturation of Physical AI, the discipline of training robots in synthetic environments before deploying them in reality. Meanwhile, Meta's decision to manufacture its own cheaper AI smart glasses (dropping the Ray-Ban branding for a $299 entry point) signals that the company is committed to owning an AI-native wearable platform at scale, not just a premium niche. Together, these moves suggest 2026 is shaping up as the year AI leaves the data center and becomes an ambient, embodied presence — in soldiers' decision-support tools, on consumers' faces, and in humanoid robots on factory floors.
+
+---
+
+### Sources
+
+- PR Newswire: https://www.prnewswire.com/news-releases/wirobotics-begins-building-a-physical-ai-development-ecosystem-the-first-technology-release-features-the-allex-simulation-model-302812541.html (published 2026-06-29)
+- The White House: https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security (published 2026-06-29)
+- Benton.org: https://www.benton.org/blog/president-trump-signs-directive-reshaping-how-military-and-intelligence-community-use-ai (published 2026-06-29)
+- CNBC: https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html (published 2026-06-23)
+- CNN: https://www.cnn.com/2026/06/23/tech/meta-glasses-price (published 2026-06-23)
+- TechCrunch: https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns (published 2026-06-25)
+- GAI Insights (YouTube): https://www.youtube.com/watch?v=uWmYb2I_km0 (published 2026-06-29)
+- OECD: https://www.oecd.org/en/events/2026/06/artificial-intelligence-and-skills-what-we-know-so-far.html (published 2026-06-29)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **WIRobotics 發布 ALLEX 人形機器人仿真模型，打造開放物理 AI 生態系統：** 韓國機器人公司 WIRobotics 發布了其人形機器人 ALLEX 的仿真模型，並公布了「仿真到現實（Sim-to-Real）」驗證結果，正式啟動面向全球研究人員與機器人開發者的開放式物理 AI 開發路線圖。*(來源：PR Newswire，6 月 29 日)*
+
+- **白宮發布行政指令推動先進 AI 創新與安全：** 白宮發布題為「促進先進人工智慧創新與安全」的總統行動，配合 NSPM-11 備忘錄，指示美國軍事與情報機構加速採用 AI，推動多供應商採購，並建立治理機制，取代拜登時代的 NSM-25。*(來源：The White House，6 月 29 日)*
+
+- **NSPM-11 重塑美國軍事與情報界的 AI 應用：** 政策分析確認，特朗普的 NSPM-11（6 月 5 日簽署）要求各機構在 120 天內縮小公開 AI 與國家安全 AI 工具之間的能力差距，同時防止單一供應商壟斷，並確保 AI 系統未經聯邦政府授權不得被停用。*(來源：Benton.org，6 月 29 日)*
+
+- **Meta 推出更廉價的自有品牌 AI 智能眼鏡，起售價 299 美元：** Meta 宣布推出一款由內部設計、不再使用 Ray-Ban 品牌的 AI 智能眼鏡，起售價僅 299 美元，比上一代入門款至少便宜 80 美元，顯示 CEO 馬克·祖克伯格大力拓展 AI 可穿戴硬體市場的決心。*(來源：CNBC，6 月 23 日／CNN，6 月 23 日)*
+
+- **白宮施壓 OpenAI 暫緩新模型發布以進行安全評估：** 特朗普政府要求 OpenAI 推遲其最新前沿模型的公開發布，以配合政府自願性安全測試，此舉延續了 6 月 2 日行政令的精神，即鼓勵 AI 企業在發布前提交尖端模型接受評估。*(來源：TechCrunch，6 月 25 日)*
+
+- **GAI Insights 播出 6 月 29 日每日 AI 簡報：** GAI Insights 旗艦 AI 新聞節目播出 6 月 29 日版本，重點涵蓋 AI 代理生產落地、亞馬遜與 Perplexity 之間的瀏覽器之爭，以及阿里巴巴 Qwen-AgentWorld 模型——該模型能以百萬級交互軌跡模擬 AI 代理運行環境。*(來源：GAI Insights / YouTube，6 月 29 日)*
+
+- **OECD 舉辦 AI 與技能差距網路研討會：** OECD 於 6 月 29 日舉辦網路研討會，探討 AI 應用現狀及其對勞動力技能的影響，為國際社會就 AI 勞動市場衝擊展開的對話注入新動力。*(來源：OECD，6 月 29 日)*
+
+---
+
+### 分析
+
+2026 年 6 月 29 日當週最具影響力的 AI 議題，是美國聯邦政府持續以行政手段塑造本土及國家安全 AI 格局。白宮「促進先進 AI 創新與安全」行動結合 NSPM-11，標誌著美國政策從拜登時代偏重謹慎治理的路線，明確轉向加速部署。新框架要求軍事與情報機構迅速引入多家供應商的 AI 工具，目標是縮小商業前沿 AI 與政府工作人員可用工具之間的能力落差。與此同時，政府要求 OpenAI 自願暫緩重大模型發布以供安全審查，揭示一種新興張力：政府一方面希望 AI 在國家安全領域快速推進，另一方面又對商業模型的公開發布施加新的非正式管控。
+
+在硬體與機器人領域，兩項重要產品動態印證了 AI 正在迅速走出螢幕、融入物理世界。WIRobotics 的 ALLEX 仿真模型發布——聚焦於縮小仿真與真實部署之間的差距——折射出「物理 AI」學科的日趨成熟：先在虛擬環境中訓練機器人，再將其部署於現實世界。另一方面，Meta 決定自製更廉價的 AI 智能眼鏡（以 299 美元的入門價格捨棄 Ray-Ban 品牌授權），表明該公司致力於在規模化層面，而非僅在高端市場，掌控 AI 原生可穿戴平台。綜合來看，這些動向預示著 2026 年將成為 AI 走出數據中心、成為無處不在的具身存在的轉折之年——無論是士兵的決策輔助工具、消費者臉上的眼鏡，還是工廠車間裡的人形機器人。
+
+---
+
+### 來源
+
+- PR Newswire: https://www.prnewswire.com/news-releases/wirobotics-begins-building-a-physical-ai-development-ecosystem-the-first-technology-release-features-the-allex-simulation-model-302812541.html (published 2026-06-29)
+- The White House: https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security (published 2026-06-29)
+- Benton.org: https://www.benton.org/blog/president-trump-signs-directive-reshaping-how-military-and-intelligence-community-use-ai (published 2026-06-29)
+- CNBC: https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html (published 2026-06-23)
+- CNN: https://www.cnn.com/2026/06/23/tech/meta-glasses-price (published 2026-06-23)
+- TechCrunch: https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns (published 2026-06-25)
+- GAI Insights (YouTube): https://www.youtube.com/watch?v=uWmYb2I_km0 (published 2026-06-29)
+- OECD: https://www.oecd.org/en/events/2026/06/artificial-intelligence-and-skills-what-we-know-so-far.html (published 2026-06-29)
