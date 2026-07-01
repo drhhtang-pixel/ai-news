@@ -2301,3 +2301,59 @@ Alphabet 創紀錄的 847.5 億美元股權募資正式完成——其中波克�
 - Holland & Knight (via HKLaw): https://www.hklaw.com/en/insights/publications/2026/06/gsa-proposes-sweeping-ai-data-safeguarding-rules-for-llm-contractors (published 2026-06-30)
 - JDSupra (Venable LLP): https://www.jdsupra.com/legalnews/gsa-proposes-revisions-to-clause-on-5923681 (published 2026-06-30)
 - Global Policy Watch: https://www.globalpolicywatch.com/2026/06/white-house-releases-executive-order-on-advanced-ai-innovation-and-security (published 2026-06-30)
+
+## 2026-07-01 02:56
+
+<!-- EN -->
+### Headlines
+
+- **Fear and Anger Brew Inside Meta Amid AI Frenzy:** Internal tensions are mounting at Meta as employees express frustration and anxiety over the company's all-consuming AI push, with Meta planning to spend up to $145 billion on AI infrastructure in 2026 — nearly double its prior year spend — driving sweeping layoffs and cultural upheaval across its 78,000-person workforce. *(Source: France24 / AFP, July 1)*
+
+- **White House Advances New AI Action Plan and R&D Strategy:** The White House moved forward with the development of a comprehensive national AI Action Plan and a new research-and-development strategy, signaling continued federal ambition to shape U.S. AI leadership going into the second half of 2026. *(Source: Jenner & Block / White House, June 30)*
+
+- **Anthropic Launches Claude Science AI Workbench for Scientific Research:** Anthropic unveiled a specialized AI workbench built on Claude, targeting scientific researchers with tools designed to accelerate hypothesis generation, literature review, and experimental design workflows. *(Source: TechCrunch, June 30)*
+
+---
+
+### Analysis
+
+The dominant story on July 1, 2026 is the human and organizational cost of Big Tech's AI arms race. Meta's situation is emblematic: the company has committed to spending up to $145 billion on AI capital expenditure this year — implying as much as $370 million per day on data centers, GPUs, and custom silicon — while simultaneously laying off 8,000 employees and overhauling performance reviews to reward AI usage. The internal anger and anxiety reported by France24 and AFP reflects a broader reckoning across the tech industry: the shift to AI-first operations is happening at a speed and scale that employees, organizational structures, and even supply chains (as shown by Google capping Meta's Gemini access) struggle to absorb. The compute scarcity issue, in particular, is a new and significant structural constraint: even the largest AI-consuming companies cannot get unlimited access to frontier AI infrastructure.
+
+On the policy and geopolitical front, the U.S. federal government is accelerating its AI strategy development, with the White House pushing forward a new AI Action Plan just as state-level regulation is proliferating rapidly. Meanwhile, U.S. export controls continue to reshape the competitive landscape: restrictions on Anthropic's most advanced models are spurring Asian AI startups to fill the vacuum with their own competitive offerings, fragmenting what was once a largely U.S.-dominated frontier AI market. The result is a more multipolar AI world than existed even six months ago, with labs in China, South Korea, and Southeast Asia increasingly capable of matching Western models on key benchmarks.
+
+Zooming out, mid-2026 is shaping up as an inflection point where the gap between AI investment and demonstrated economic return is forcing difficult prioritization decisions across the industry. The Fortune report that AI is "minting billion-dollar companies faster than ever" coexists with mass layoffs, compute shortages, and employee unrest — a paradox that suggests the AI boom is creating enormous value at the frontier while simultaneously disrupting the incumbent workforces and business models of established players. The second half of 2026 will likely be defined by whether AI agents and automation tools begin delivering the productivity gains that justify the historic capital expenditure underway.
+
+---
+
+### Sources
+
+- France24 (AFP): https://www.france24.com/en/live-news/20260701-fear-and-anger-brew-inside-meta-amid-ai-frenzy (published 2026-07-01)
+- Jenner & Block: https://www.jenner.com/en/news-insights/client-alerts/white-house-advances-development-of-new-artificial-intelligence-action-plan (published 2026-06-30)
+- TechCrunch: https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists (published 2026-06-30)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Meta內部因AI狂熱引發恐懼與憤怒：** Meta員工對公司全力押注AI的策略感到沮喪與焦慮，Meta計劃在2026年花費高達1450億美元於AI基礎建設，幾乎是前一年的兩倍，同時大規模裁員並劇烈重塑企業文化。*(來源：France24 / AFP，7月1日)*
+
+- **白宮推進新版AI行動計畫與研發策略：** 白宮持續推動全面的國家AI行動計畫及新研發策略，彰顯美國聯邦政府在2026年下半年仍致力於鞏固AI領導地位的雄心。*(來源：Jenner & Block / 白宮，6月30日)*
+
+- **Anthropic推出Claude科學AI工作台：** Anthropic發布以Claude為核心的專業AI工作台，專為科研人員打造，提供加速假說生成、文獻回顧與實驗設計等工作流程的工具。*(來源：TechCrunch，6月30日)*
+
+---
+
+### 分析
+
+2026年7月1日最引人關注的故事，是科技巨頭AI軍備競賽所帶來的人力與組織代價。Meta的處境最具代表性：該公司今年承諾在AI資本支出上花費高達1450億美元（相當於每天約3.7億美元用於資料中心、GPU及自研晶片），卻同時裁員8000人，並大幅改革績效考核制度，強制員工使用AI工具。France24與AFP所報導的內部憤怒與焦慮情緒，折射出整個科技行業的深層矛盾：AI優先的轉型正以讓員工、組織架構乃至供應鏈都難以消化的速度推進。算力短缺問題尤為突出——就連最大的AI消費者也無法獲得無限量的前沿AI基礎設施，Google限制Meta訪問Gemini一事便是明證。
+
+在政策與地緣政治層面，美國聯邦政府正加快制定AI戰略，白宮在各州監管法規迅速增加之際積極推進新版AI行動計畫。與此同時，美國的出口管制持續重塑競爭格局：對Anthropic先進模型的限制正刺激亞洲AI新創公司迅速推出各自的競爭產品，使得原本由美國主導的前沿AI市場逐漸走向碎片化。由此帶來的是一個比六個月前更加多極化的AI世界，中國、韓國及東南亞的實驗室在核心評測指標上越來越能與西方模型一較高下。
+
+從更宏觀的視角來看，2026年中期正成為一個重要轉折點：AI投資與實際經濟回報之間的落差，迫使業界各方做出艱難的優先取捨。Fortune報告指出AI正「以前所未有的速度催生獨角獸」，這一現象卻與大規模裁員、算力短缺和員工不滿並存——這一悖論表明，AI浪潮正在前沿領域創造巨大價值，同時也深刻衝擊著傳統玩家的現有員工隊伍與商業模式。2026年下半年的走向，很可能取決於AI智能體與自動化工具能否開始兌現足以支撐歷史性資本支出的生產力紅利。
+
+---
+
+### 來源
+
+- France24 (AFP): https://www.france24.com/en/live-news/20260701-fear-and-anger-brew-inside-meta-amid-ai-frenzy (published 2026-07-01)
+- Jenner & Block: https://www.jenner.com/en/news-insights/client-alerts/white-house-advances-development-of-new-artificial-intelligence-action-plan (published 2026-06-30)
+- TechCrunch: https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists (published 2026-06-30)
