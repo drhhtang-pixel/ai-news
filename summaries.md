@@ -2485,3 +2485,67 @@ The economic and infrastructure dimensions of AI are equally striking. Menlo Ven
 - TechCrunch（Cloudflare）: https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content (published 2026-07-01)
 - 路透社（聯合國 AI 風險報告）: https://www.reuters.com/business/unchecked-ai-progress-may-pose-catastrophic-risks-un-panel-warns-2026-07-01 (published 2026-07-01)
 - GIGAZINE（Google Nano Banana 2 Lite／Gemini Omni Flash）: https://gigazine.net/gsc_news/en/20260701-google-nano-banana-2-lite-gemini-omni-flash (published 2026-07-01)
+
+## 2026-07-04 02:26
+
+<!-- EN -->
+### Headlines
+
+- **Sam Altman Proposes US-Led Global AI Safety Forum:** OpenAI CEO Sam Altman published an op-ed in the *Financial Times* calling for a US-led international body — modeled on the International Atomic Energy Agency — to set global AI safety standards, following the G7 summit where AI executives met world leaders. *(Source: SiliconAngle, July 2)*
+
+- **Zuckerberg Admits Meta's AI Agent Progress Is Slower Than Expected:** In an internal company meeting, Meta CEO Mark Zuckerberg told staff that AI agent development over the past four months had not "accelerated in the way we expected," prompting a strategic reassessment — this despite the company having conducted roughly 8,000 layoffs tied to its AI restructuring. *(Source: Reuters, July 2)*
+
+- **Microsoft Launches AI Deployment Company with $2.5 Billion Commitment:** Microsoft announced a dedicated AI deployment subsidiary with a $2.5 billion internal commitment, joining Amazon Web Services (which pledged $1 billion days earlier) in embracing a "Frontier Deployment Entity" (FDE) model to accelerate enterprise AI rollouts. *(Source: CNBC, July 2)*
+
+- **Fortune Reports OpenAI Losing Revenue Ground to Anthropic and Google:** A Fortune analysis noted that Anthropic is now on track to generate $47 billion in annualized revenue — well ahead of OpenAI's $25–33 billion projection — and expects to reach profitability in 2029, a year earlier than OpenAI's own forecast. *(Source: Fortune, July 2)*
+
+- **World Cup 2026 Teams Race to Deploy AI Tools:** With the FIFA World Cup 2026 underway in North America, WIRED reported that FIFA is providing an official AI agent platform available to all competing teams, sparking a new competitive dimension around data analytics and match-preparation AI tools. *(Source: WIRED, July 4)*
+
+---
+
+### Analysis
+
+The week of July 4, 2026 crystallized a pivotal tension at the heart of the AI industry: the gap between AI ambition and AI reality. Mark Zuckerberg's candid admission that Meta's AI agent development has stalled — despite massive investment and thousands of layoffs framed as AI-driven restructuring — is a striking signal. It suggests that the "agentic AI" wave, long hyped as the next frontier beyond chatbots, is proving technically and operationally harder to deliver than leading labs anticipated. This is not an isolated data point; earlier in the week, Reuters cited Zuckerberg directly on the slower-than-expected pace, and financial analysts are now questioning whether Big Tech's combined ~$650 billion in projected 2026 AI capex will yield proportionate returns on the agent-driven automation thesis.
+
+Meanwhile, the governance and competitive landscapes are shifting in parallel. Sam Altman's IAEA-style proposal for a US-led global AI safety forum — floated just days before Independence Day — reflects OpenAI's dual challenge: defending its geopolitical relevance as a safety leader while Anthropic and Google rapidly outpace it on revenue and model capability. Anthropic's annualized revenue trajectory now significantly exceeds OpenAI's, a reversal that would have seemed implausible eighteen months ago. At the same time, Microsoft's $2.5 billion AI deployment company and AWS's $1 billion FDE commitment signal that cloud hyperscalers are no longer content to be mere infrastructure providers; they want direct equity in AI deployment outcomes, reshaping the commercial AI stack from top to bottom.
+
+---
+
+### Sources
+
+- SiliconAngle: https://siliconangle.com/2026/07/02/sam-altman-calls-us-led-international-forum-set-global-ai-standards (published 2026-07-02)
+- Reuters (Zuckerberg/Meta): https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02 (published 2026-07-02)
+- CNBC (Microsoft): https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html (published 2026-07-02)
+- Fortune: https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic (published 2026-07-02)
+- WIRED: https://www.wired.com/story/fifa-world-cup-2026-artificial-intelligence-tools/ (published 2026-07-04)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Sam Altman 提議建立美國主導的全球 AI 安全論壇：** OpenAI 執行長 Sam Altman 在《金融時報》發表評論文章，呼籲成立一個以美國為首的國際機構——以國際原子能機構為範本——制定全球 AI 安全標準，此舉發生在 G7 峰會 AI 高管與各國領導人會面之後。*(來源：SiliconAngle，7 月 2 日)*
+
+- **祖克柏承認 Meta AI 代理進展慢於預期：** Meta 執行長馬克·祖克柏在一次內部會議上告訴員工，過去四個月的 AI 代理開發「未能以我們預期的方式加速」，促使公司進行戰略重新評估——此前 Meta 已裁員約 8,000 人，號稱是 AI 重組的一部分。*(來源：路透社，7 月 2 日)*
+
+- **微軟以 25 億美元承諾成立 AI 部署公司：** 微軟宣布成立一家專屬 AI 部署子公司，內部承諾投入 25 億美元，緊隨亞馬遜雲端服務（AWS 幾天前承諾 10 億美元）之後，採用「前沿部署實體」（FDE）模式加速企業 AI 落地。*(來源：CNBC，7 月 2 日)*
+
+- **《財富》報導 OpenAI 在營收上落後於 Anthropic 和 Google：** 《財富》雜誌分析指出，Anthropic 的年化營收已預計達 470 億美元，遠超 OpenAI 的 250 至 330 億美元，且預計提前一年於 2029 年實現盈利。*(來源：Fortune，7 月 2 日)*
+
+- **2026 年世界盃各隊競相部署 AI 工具：** 隨著 2026 FIFA 世界盃在北美如火如荼進行，《WIRED》報導國際足聯向所有參賽隊提供官方 AI 代理平台，在數據分析與賽前準備上掀起全新競爭維度。*(來源：WIRED，7 月 4 日)*
+
+---
+
+### 分析
+
+2026 年 7 月 4 日當周，AI 行業的核心張力愈加清晰：雄心壯志與現實落地之間的鴻溝。祖克柏坦承 Meta AI 代理開發停滯——儘管公司投入了鉅額資金並以「AI 重組」為名裁員數千人——這是一個引人警醒的訊號。這表明，長期被視為超越聊天機器人的下一個前沿「代理 AI」，在技術與運營層面遠比各大實驗室預期的更難實現。這並非孤立現象：路透社直接引用了祖克柏的話，金融分析師也開始質疑科技巨頭 2026 年合計約 6,500 億美元的 AI 資本支出，能否帶來對等回報。
+
+與此同時，治理格局與競爭格局也在同步演變。Sam Altman 在獨立紀念日前夕提出類 IAEA 的全球 AI 安全論壇構想，折射出 OpenAI 面臨的雙重挑戰：一方面要維護其作為「安全引領者」的地位，另一方面 Anthropic 和 Google 在營收與模型能力上已快速超越。Anthropic 的年化營收軌跡已大幅領先 OpenAI，這在十八個月前幾乎難以想象。與此同時，微軟 25 億美元 AI 部署公司和 AWS 10 億美元 FDE 承諾表明，雲端超大規模服務商已不再滿足於單純提供基礎設施，而是謀求直接參與 AI 部署成果的商業分成，從而重塑整個商業 AI 技術棧。
+
+---
+
+### 來源
+
+- SiliconAngle: https://siliconangle.com/2026/07/02/sam-altman-calls-us-led-international-forum-set-global-ai-standards (published 2026-07-02)
+- 路透社（祖克柏／Meta）: https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02 (published 2026-07-02)
+- CNBC（微軟）: https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html (published 2026-07-02)
+- Fortune: https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic (published 2026-07-02)
+- WIRED: https://www.wired.com/story/fifa-world-cup-2026-artificial-intelligence-tools/ (published 2026-07-04)
