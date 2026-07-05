@@ -2549,3 +2549,97 @@ Meanwhile, the governance and competitive landscapes are shifting in parallel. S
 - CNBC（微軟）: https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html (published 2026-07-02)
 - Fortune: https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic (published 2026-07-02)
 - WIRED: https://www.wired.com/story/fifa-world-cup-2026-artificial-intelligence-tools/ (published 2026-07-04)
+
+## 2026-07-05 02:36
+
+<!-- EN -->
+### Headlines
+
+- **Five Eyes Agencies Warn of Imminent AI-Enabled Cyberattacks:** Intelligence agencies from the US, UK, Canada, Australia, and New Zealand issued a joint advisory warning that AI-powered cyberattacks on critical infrastructure are assessed to be "months away," raising the urgency of AI security governance frameworks. *(Source: CNN, June 23)*
+
+- **Anthropic's Fable 5 Fully Restored After 19-Day Government-Ordered Suspension:** Claude Fable 5 returned to global access on July 1 after the US government lifted export controls, with Anthropic deploying a new cybersecurity safety classifier as part of its compliance agreement with the Trump administration. *(Source: Build Fast with AI, July 3)*
+
+- **Claude Sonnet 5 Named Default Model for All Free and Pro Users:** Anthropic's newly launched Claude Sonnet 5 — offering near-flagship performance at Sonnet pricing — became the default model for all free and Pro Claude users globally, intensifying competition at the mid-tier model tier. *(Source: Build Fast with AI, July 1)*
+
+- **GPT-5.6 (Sol, Terra, Luna) Rolls Out in Government-Gated Launch:** OpenAI's three-variant GPT-5.6 release was limited to "a small group of trusted partners" following a request from the Trump administration, marking an unprecedented instance of US government-gated frontier model deployment. *(Source: MLQ.ai, June 26)*
+
+- **June US Jobs Report Shows Only 57K New Jobs Amid AI Disruption Debate:** The June 2026 US jobs report came in sharply below expectations at just 57,000 new positions, reigniting debate over AI's role in labor market displacement — though separate Ramp/Revelio Labs data showed heavy AI spenders actually grew headcount 10.2% over two years. *(Source: Washington Post, July 2)*
+
+- **Tesla Caps Employee AI Tool Spending at $200 Per Week:** Tesla introduced a $200 per week cap on employee AI tool spending, effective July 6, a notable infrastructure rationing move as in-vehicle and engineering AI agent demand strains compute allocation. *(Source: Seeking Alpha, July 4)*
+
+- **UN AI Independent Scientific Panel Launches Preliminary Report:** The United Nations launched the preliminary report of its Independent International Scientific Panel on Artificial Intelligence, warning that capability gains are widening harm pathways faster than real-world misuse can be detected. *(Source: Reuters, July 1)*
+
+- **Sam Altman Pushes "New World Order" Vision for AI Governance:** OpenAI CEO Sam Altman publicly advocated for a US-led international AI governance framework, framing it as essential to preventing fragmentation of the global AI economy as frontier labs scale. *(Source: Fortune, July 2)*
+
+- **Meta Quietly Building Cloud Business to Sell AI Compute:** Bloomberg reported that Meta is developing plans to sell surplus AI computing capacity and hosted models to outside developers, positioning the company as a new entrant in the cloud AI infrastructure market alongside AWS, Azure, and Google Cloud. *(Source: Reuters, July 1)*
+
+- **ChatGPT Falls Below 50% Global AI Chatbot Market Share for First Time:** Amid rising competition from Claude, Gemini, and open-weight models, ChatGPT's share of the global AI assistant market dropped below the 50% threshold for the first time since its launch. *(Source: TechCrunch, June 16)*
+
+---
+
+### Analysis
+
+The first week of July 2026 marks a decisive inflection point in AI governance: the US government's unprecedented intervention in frontier model deployment — suspending Anthropic's Fable 5 for 19 days and gating OpenAI's GPT-5.6 rollout — signals that Washington now views itself as a direct actor in determining which AI capabilities reach the public and when. This is a structural shift from the hands-off stance of prior years. The resolution of the Fable 5 crisis, in which Anthropic negotiated its way back to global deployment by agreeing to implement new safety classifiers and sharing model capabilities in advance with the government, sets a template: labs must now operate in a quasi-regulatory partnership with the executive branch, even absent formal legislation. The approaching August 1 deadline for voluntary AI model standards adds further pressure on the industry to self-regulate or face more coercive frameworks.
+
+On the competitive landscape, the mid-tier model wars are intensifying. Anthropic's decision to deploy Claude Sonnet 5 as the default model for all free and Pro users — at introductory pricing undercutting prior Sonnet versions — is a direct attempt to capture market share as ChatGPT slips below 50% global share for the first time. Meanwhile, Meta's reported move into cloud AI compute sales and OpenAI's custom "Jalapeño" inference chip development (reported the prior week) reflect a broader pattern: every major AI lab is racing to control its own infrastructure stack, reduce dependence on third-party compute providers, and build moats beyond the model layer itself. The labor market data adds a further complexity — the sharp June jobs miss and the Stanford/ADP finding of 3.8% annual shrinkage in entry-level roles sit in uncomfortable tension with counter-data showing AI-heavy companies actually hiring faster, suggesting the disruption is highly uneven across sectors and skill levels.
+
+---
+
+### Sources
+
+- CNN: https://www.cnn.com/2026/06/23/world/ai-five-eyes-warning-cyber-threat-intl-hnk (published 2026-06-23)
+- Build Fast with AI: https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026 (published 2026-07-03)
+- Build Fast with AI: https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026 (published 2026-07-01)
+- MLQ.ai: https://mlq.ai/news/openai-launches-gpt-56-sol-under-first-ever-us-government-gated-ai-rollout (published 2026-06-26)
+- Washington Post: https://www.washingtonpost.com/business/2026/07/02/labor-market-picked-up-jobs-57000-jobs-june-less-than-expected (published 2026-07-02)
+- Seeking Alpha: https://seekingalpha.com/news/4611500-tesla-limits-employee-ai-spending (published 2026-07-04)
+- Reuters: https://www.reuters.com/business/unchecked-ai-progress-may-pose-catastrophic-risks-un-panel-warns-2026-07-01 (published 2026-07-01)
+- Fortune: https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic (published 2026-07-02)
+- Reuters: https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01 (published 2026-07-01)
+- TechCrunch: https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time (published 2026-06-16)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **五眼聯盟警告 AI 網路攻擊即將來臨：** 美、英、加、澳、紐五國情報機構聯合發出警告，指出以 AI 驅動的關鍵基礎設施網路攻擊「數月內」即將發生，要求各國加速建立 AI 安全治理框架。*(來源：CNN，6 月 23 日)*
+
+- **Anthropic 的 Fable 5 在遭政府命令停用 19 天後全面恢復：** 美國政府解除出口管制後，Claude Fable 5 於 7 月 1 日恢復全球使用，Anthropic 作為合規協議的一部分，部署了全新的網路安全安全分類器。*(來源：Build Fast with AI，7 月 3 日)*
+
+- **Claude Sonnet 5 成為所有免費與付費用戶的預設模型：** Anthropic 推出的 Claude Sonnet 5 以接近旗艦級的效能搭配 Sonnet 定價，成為全球所有免費及 Pro 版 Claude 用戶的預設模型，加劇了中階模型市場的競爭。*(來源：Build Fast with AI，7 月 1 日)*
+
+- **GPT-5.6（Sol、Terra、Luna）以政府管控方式推出：** OpenAI 的三版本 GPT-5.6 發布因應川普政府要求，僅限「少數受信任合作夥伴」使用，創下美國政府直接管控前沿模型部署的先例。*(來源：MLQ.ai，6 月 26 日)*
+
+- **6 月美國就業報告僅新增 5.7 萬個職位，AI 衝擊勞動市場爭議再起：** 2026 年 6 月美國就業報告遠低於預期，僅新增 57,000 個職位，再度引發 AI 取代就業的辯論；但另有數據顯示重度使用 AI 的企業過去兩年反而增聘了 10.2% 的員工。*(來源：華盛頓郵報，7 月 2 日)*
+
+- **特斯拉對員工 AI 工具使用設置每週 200 美元上限：** 特斯拉針對員工 AI 工具消費設立每週 200 美元上限，自 7 月 6 日起生效，此舉被視為 AI 運算資源配給的重要訊號，反映車載 AI 代理需求正急速消耗算力。*(來源：Seeking Alpha，7 月 4 日)*
+
+- **聯合國 AI 科學獨立小組發布初步報告：** 聯合國獨立國際 AI 科學小組正式發布初步報告，警告 AI 能力的快速提升正以遠超人類可偵測的速度擴大潛在危害途徑。*(來源：路透社，7 月 1 日)*
+
+- **Sam Altman 推動「AI 新世界秩序」治理願景：** OpenAI 執行長 Sam Altman 公開倡導以美國為主導的國際 AI 治理框架，強調這對防止全球 AI 經濟碎裂化至關重要。*(來源：Fortune，7 月 2 日)*
+
+- **Meta 悄悄建立雲端業務以出售 AI 算力：** 據 Bloomberg 報導，Meta 正研擬將多餘的 AI 運算能力及託管模型出售給外部開發者，意圖成為繼 AWS、Azure、Google Cloud 之後的新雲端 AI 基礎設施供應商。*(來源：路透社，7 月 1 日)*
+
+- **ChatGPT 全球 AI 聊天市占率首次跌破 50%：** 在 Claude、Gemini 及開源模型的激烈競爭下，ChatGPT 的全球 AI 助理市場占有率自推出以來首次跌破 50% 關卡。*(來源：TechCrunch，6 月 16 日)*
+
+---
+
+### 分析
+
+2026 年 7 月第一週是 AI 治理的關鍵轉折點。美國政府史無前例地直接介入前沿模型部署——停用 Anthropic 的 Fable 5 長達 19 天，並管控 OpenAI GPT-5.6 的發布範圍——標誌著華盛頓已將自己定位為決定哪些 AI 能力能夠公開、何時公開的直接行為者。Fable 5 危機的解決方式確立了新的產業規則：AI 實驗室必須在與政府的「準監管夥伴關係」下運作，即便正式法規尚未到位。8 月 1 日自願 AI 模型標準的截止期限，進一步向業界施壓，要求自律，否則將面對更具強制性的監管框架。
+
+在競爭格局方面，中階模型市場的爭奪日趨激烈。Anthropic 以低於前代 Sonnet 版本的優惠定價，將 Claude Sonnet 5 設定為所有免費與付費用戶的預設模型，明顯針對 ChatGPT 全球市占率首次跌破 50% 的機遇進行搶攻。與此同時，Meta 傳出進軍雲端 AI 算力銷售市場，OpenAI 也在開發自研「Jalapeño」推理晶片，這些動向反映出一個共同趨勢：各大 AI 實驗室正競相掌控自身的基礎設施，降低對第三方算力的依賴，並在模型層之外建立更深的競爭護城河。勞動市場數據則增添了另一層複雜性——6 月就業數據大幅低於預期，以及史丹佛/ADP 研究顯示入門級職位每年縮減 3.8%，與 AI 重度使用企業反而加速招聘的反例形成矛盾對比，顯示 AI 對就業的衝擊在不同產業與技能層次之間呈現高度不均衡的態勢。
+
+---
+
+### 來源
+
+- CNN: https://www.cnn.com/2026/06/23/world/ai-five-eyes-warning-cyber-threat-intl-hnk (published 2026-06-23)
+- Build Fast with AI: https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026 (published 2026-07-03)
+- Build Fast with AI: https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026 (published 2026-07-01)
+- MLQ.ai: https://mlq.ai/news/openai-launches-gpt-56-sol-under-first-ever-us-government-gated-ai-rollout (published 2026-06-26)
+- Washington Post: https://www.washingtonpost.com/business/2026/07/02/labor-market-picked-up-jobs-57000-jobs-june-less-than-expected (published 2026-07-02)
+- Seeking Alpha: https://seekingalpha.com/news/4611500-tesla-limits-employee-ai-spending (published 2026-07-04)
+- Reuters: https://www.reuters.com/business/unchecked-ai-progress-may-pose-catastrophic-risks-un-panel-warns-2026-07-01 (published 2026-07-01)
+- Fortune: https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic (published 2026-07-02)
+- Reuters: https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01 (published 2026-07-01)
+- TechCrunch: https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time (published 2026-06-16)
