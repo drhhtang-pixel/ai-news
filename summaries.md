@@ -2643,3 +2643,85 @@ On the competitive landscape, the mid-tier model wars are intensifying. Anthropi
 - Fortune: https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic (published 2026-07-02)
 - Reuters: https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01 (published 2026-07-01)
 - TechCrunch: https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time (published 2026-06-16)
+
+## 2026-07-06 02:40
+
+<!-- EN -->
+### Headlines
+
+- **Amazon Mechanical Turk Enters End-of-Life Phase Amid AI Rise:** Amazon announced it will stop accepting new customers to its Mechanical Turk crowdsourcing platform effective July 30, 2026, signaling that human data-labeling marketplaces have been made largely redundant by modern AI pipelines. *(Source: TechCrunch, July 5)*
+
+- **OpenAI Proposes Granting U.S. Government a 5% Equity Stake:** OpenAI floated a proposal to hand the Trump administration a 5% stake as part of its ongoing restructuring to a for-profit model, a move intended to win regulatory goodwill and deepen the federal AI partnership. *(Source: CNBC, July 2)*
+
+- **Microsoft Commits $2.5 Billion and 6,000 Employees to New AI Deployment Unit:** Microsoft launched a dedicated AI implementation organization staffed by 6,000 engineers, trainers, and industry specialists to help enterprise clients deploy AI at scale, signaling a shift from model-building to real-world adoption. *(Source: CNBC, July 2)*
+
+- **Mark Zuckerberg Privately Tells Meta Staff AI Agents Are Behind Schedule:** In an internal communication, Meta CEO Mark Zuckerberg acknowledged that autonomous AI agents have not progressed as quickly as the company had hoped, tempering expectations for Meta's agentic AI roadmap. *(Source: Reuters, July 2)*
+
+- **SpaceX Signs Major Compute Deal With Open-Source AI Startup Reflection AI:** SpaceX agreed to supply significant compute capacity from its Colossus data center to Reflection AI, extending its growing portfolio of AI infrastructure deals alongside Anthropic, Google, and Cursor. *(Source: CNBC, June 22)*
+
+- **Bipartisan "Great American AI Act of 2026" Discussion Draft Released:** U.S. Representatives Jay Obernolte (R-CA) and Lori Trahan (D-MA) unveiled a sweeping 269-page federal AI governance bill covering frontier model oversight, workforce, cybersecurity, and international cooperation — the most comprehensive federal AI legislation proposed to date. *(Source: TechPolicy.Press, June 2026)*
+
+- **Together AI Raises $800 Million at $8.3 Billion Valuation:** Open-source inference startup Together AI closed an $800 million funding round, bringing total funding to $1.3 billion, as enterprises seek cheaper and more flexible alternatives to proprietary frontier model APIs. *(Source: BusinessWire, July 1)*
+
+- **OpenAI Codex Now Handling Multi-Hour Agentic Tasks at Scale:** A new OpenAI research report revealed that nearly a quarter of all Codex requests are for tasks that would take a human more than one hour to complete, marking a significant milestone in the shift toward long-horizon agentic AI coding work. *(Source: OpenAI, June 25)*
+
+---
+
+### Analysis
+
+The week of July 6, 2026 finds the AI industry at a pivotal inflection point between model capability and real-world deployment. Microsoft's $2.5 billion AI implementation unit and OpenAI's Codex usage data both underscore the same theme: the frontier model race is maturing into an enterprise adoption race. Companies are no longer competing purely on benchmark scores — they are competing on who can translate AI capability into measurable business outcomes. The simultaneous rise of open-source compute infrastructure deals (SpaceX/Reflection AI, Together AI's $800M raise) suggests the market is bifurcating between closed frontier models and an increasingly well-funded open-source tier that promises cost and flexibility advantages.
+
+On the governance front, the AI regulatory landscape in the U.S. is crystallizing around a national-security-first framework. The bipartisan "Great American AI Act of 2026" and the Trump White House's executive order on AI innovation both converge on a model that prioritizes U.S. global dominance over broad consumer protection — a sharp contrast to the EU's rights-centric approach. OpenAI's proposed 5% government stake is emblematic of this blurring line between Silicon Valley and Washington, with major labs increasingly operating as quasi-strategic national assets. The Amazon Mechanical Turk wind-down is a symbolic bookend to this era: human-in-the-loop data annotation, once the invisible backbone of AI training, is rapidly being displaced by the very systems it helped create.
+
+---
+
+### Sources
+
+- TechCrunch: https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk (published 2026-07-05)
+- CNBC: https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html (published 2026-07-02)
+- CNBC: https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html (published 2026-07-02)
+- Reuters: https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02 (published 2026-07-02)
+- CNBC: https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html (published 2026-06-22)
+- TechPolicy.Press: https://techpolicy.press/unpacking-the-great-american-artificial-intelligence-act-of-2026 (published 2026-06)
+- BusinessWire: https://www.businesswire.com/news/home/20260701243402/en/Together-AI-Raises-%24800-Million-at-%248.3-Billion-Valuation-to-Make-Frontier-AI-Accessible-to-All (published 2026-07-01)
+- OpenAI: https://openai.com/index/how-agents-are-transforming-work (published 2026-06-25)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **亞馬遜 Mechanical Turk 進入停服倒計時：** 亞馬遜宣布自 2026 年 7 月 30 日起停止接受新用戶，這一開創性的眾包標注平台因 AI 自動化崛起而逐漸走向終結。*(來源：TechCrunch，7 月 5 日)*
+
+- **OpenAI 提議向美國政府讓渡 5% 股權：** OpenAI 提出向特朗普政府提供 5% 股份，作為其轉型為營利性公司的一部分，旨在換取聯邦監管支持，深化政府合作關係。*(來源：CNBC，7 月 2 日)*
+
+- **微軟投入 25 億美元與 6,000 名員工成立 AI 落地部門：** 微軟宣布成立一個由 6,000 名工程師、培訓師與行業專家組成的 AI 實施部門，協助企業客戶大規模部署 AI，標誌著行業重心從模型研發轉向實際應用。*(來源：CNBC，7 月 2 日)*
+
+- **祖克柏私下承認 Meta AI 代理進展不如預期：** Meta 執行長馬克·祖克柏在內部溝通中坦承，自主 AI 代理的發展速度未能達到公司預期，為其 Agentic AI 藍圖降溫。*(來源：Reuters，7 月 2 日)*
+
+- **SpaceX 與開源 AI 新創 Reflection AI 簽署算力協議：** SpaceX 同意向 Reflection AI 提供 Colossus 數據中心的大量算力，繼 Anthropic、Google 和 Cursor 之後，進一步擴大其 AI 基礎設施業務版圖。*(來源：CNBC，6 月 22 日)*
+
+- **美國兩黨提出《2026 年美國 AI 法案》草案：** 共和黨眾議員 Jay Obernolte 與民主黨眾議員 Lori Trahan 聯合發布長達 269 頁的聯邦 AI 治理法案草案，涵蓋前沿模型監管、勞動力、網路安全及國際合作，是迄今美國最全面的 AI 立法提案。*(來源：TechPolicy.Press，2026 年 6 月)*
+
+- **Together AI 以 83 億美元估值完成 8 億美元融資：** 開源推理新創公司 Together AI 完成新一輪 8 億美元融資，累計融資總額達 13 億美元，反映市場對低成本、高靈活度 AI 替代方案的強烈需求。*(來源：BusinessWire，7 月 1 日)*
+
+- **OpenAI Codex 正承擔大量需數小時完成的 Agentic 任務：** OpenAI 最新研究報告顯示，Codex 所接受的請求中，近四分之一是人類需花費超過一小時才能完成的工作，標誌著 AI 代理在長程任務上取得重要進展。*(來源：OpenAI，6 月 25 日)*
+
+---
+
+### 分析
+
+2026 年 7 月初，AI 行業正處於從模型能力競賽轉向實際落地競賽的關鍵節點。微軟成立的 AI 實施部門和 OpenAI Codex 的使用數據，都指向同一個核心趨勢：前沿模型的軍備競賽已趨於成熟，企業比拼的焦點正在轉向誰能將 AI 能力真正轉化為可量化的商業成果。與此同時，SpaceX、Together AI 等開源算力基礎設施的快速崛起，預示著市場正在分化——在閉源前沿模型之外，資金充裕、兼顧成本與靈活性的開源生態正形成強大的競爭力量。
+
+在治理層面，美國的 AI 監管框架正圍繞「國家安全優先」的邏輯逐步成形。兩黨《2026 年美國 AI 法案》與特朗普政府的行政令，共同構築出一種以美國全球主導為核心的監管路徑，與歐盟以權利保障為中心的監管模式形成鮮明對比。OpenAI 提議向政府讓渡股權，更是矽谷與華盛頓深度綁定的最新縮影——主要 AI 實驗室正日益演變為準國家戰略資產。亞馬遜 Mechanical Turk 的落幕則具有深刻的象徵意義：曾作為 AI 訓練核心支柱的人工數據標注，正在被其所催生的 AI 系統迅速取代，一個時代就此終結。
+
+---
+
+### 來源
+
+- TechCrunch: https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk (published 2026-07-05)
+- CNBC: https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html (published 2026-07-02)
+- CNBC: https://www.cnbc.com/2026/07/02/microsoft-commits-2point5-billion-6000-employees-ai-implementation-unit.html (published 2026-07-02)
+- Reuters: https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02 (published 2026-07-02)
+- CNBC: https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html (published 2026-06-22)
+- TechPolicy.Press: https://techpolicy.press/unpacking-the-great-american-artificial-intelligence-act-of-2026 (published 2026-06)
+- BusinessWire: https://www.businesswire.com/news/home/20260701243402/en/Together-AI-Raises-%24800-Million-at-%248.3-Billion-Valuation-to-Make-Frontier-AI-Accessible-to-All (published 2026-07-01)
+- OpenAI: https://openai.com/index/how-agents-are-transforming-work (published 2026-06-25)
