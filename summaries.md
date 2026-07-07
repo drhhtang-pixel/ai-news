@@ -2725,3 +2725,75 @@ On the governance front, the AI regulatory landscape in the U.S. is crystallizin
 - TechPolicy.Press: https://techpolicy.press/unpacking-the-great-american-artificial-intelligence-act-of-2026 (published 2026-06)
 - BusinessWire: https://www.businesswire.com/news/home/20260701243402/en/Together-AI-Raises-%24800-Million-at-%248.3-Billion-Valuation-to-Make-Frontier-AI-Accessible-to-All (published 2026-07-01)
 - OpenAI: https://openai.com/index/how-agents-are-transforming-work (published 2026-06-25)
+
+## 2026-07-07 02:36
+
+<!-- EN -->
+### Headlines
+
+- **White House Voluntary AI Model Standards Deadline Approaches:** Federal agencies are finalizing a voluntary framework by August 1, 2026, requiring frontier AI developers to engage with the government prior to model release, stemming from Trump's June 2 executive order. *(Source: WilmerHale, June 2)*
+- **Anthropic's Fable 5 Rate Limit Window Closes:** Anthropic's July 7 deadline marks the end of the transitional period in which Fable 5 API usage counted against only half of weekly rate limits, following the model's reinstatement after a 19-day government-ordered suspension. *(Source: TechTimes, July 6)*
+- **Claude Sonnet 5 Released by Anthropic:** Anthropic launched Claude Sonnet 5, the latest addition to its Claude model family, as the company continues rapid deployment following the resolution of the Fable 5 governance standoff. *(Source: Global Tech Council, June 30)*
+- **Custom AI Chips Break NVIDIA's GPU Monopoly:** OpenAI, Etched, Amazon, and SambaNova each moved custom AI chips from concept to shipping product in late June 2026, signaling the end of the GPU-only compute era. *(Source: AI Insiders, July 5)*
+- **Meta Quietly Building Cloud Business to Sell AI Compute:** Meta is developing plans to sell surplus AI computing power and hosted models to outside developers, according to Bloomberg reporting. *(Source: Reuters, July 1)*
+- **Anthropic in Talks with Samsung to Build Custom AI Chip:** Anthropic is reportedly in discussions with Samsung to manufacture a custom AI chip, according to The Information, as the lab seeks to reduce dependence on third-party compute. *(Source: TechCrunch, July 2)*
+- **Cloudflare Moves to Block AI Crawlers Unless Training Bots Are Separated:** Cloudflare announced a new policy pushing AI companies to pay for publishers' content, requiring separation of training crawlers from other bots. *(Source: TechCrunch, July 1)*
+- **New Data Undercuts AI Jobs Apocalypse Narrative:** Research from Ramp and Revelio Labs finds that companies with heavy AI spending actually grew headcount by 10.2%, with entry-level roles up 12% over two years. *(Source: Ramp, June 2026)*
+- **Anthropic Adds Cost Dashboards to Claude Enterprise:** New admin analytics, model entitlements, and spend alerts give Claude Enterprise admins granular control as agentic workloads push usage costs higher. *(Source: byteiota, July 2)*
+- **Woodside Energy Deploys ~50 AI Agents Across LNG Operations:** The Australian energy producer is running approximately 50 AI agents across its operations, built to support panel operators rather than replace them. *(Source: MIT Technology Review, July 2)*
+
+### Analysis
+
+The most dominant theme in AI news entering the week of July 7, 2026 is the intensifying intersection of government oversight and frontier model deployment. The U.S. Trump administration's June 2 executive order set an August 1 deadline for a voluntary pre-release review framework — and the chaotic back-and-forth over Anthropic's Fable 5 model (a 19-day suspension followed by a partial lifting of export bans) has made clear that AI governance is no longer theoretical. Anthropic's July 7 rate-limit deadline is itself a direct artifact of this political turbulence, illustrating how regulatory decisions are now shaping even the technical details of how AI products reach end users.
+
+At the same time, the AI infrastructure landscape is undergoing a fundamental shift. The arrival of custom silicon from OpenAI, Amazon, Etched, and SambaNova represents a credible challenge to NVIDIA's near-monopoly on AI compute — a development with enormous long-term implications for pricing, access, and the competitive dynamics among AI labs. Meanwhile, Meta's reported move to monetize surplus compute by building a cloud business signals that the hyperscalers are evolving from AI consumers into AI infrastructure vendors, compressing the space available for pure-play cloud providers. The combination of diversifying chip supply and expanding compute marketplaces suggests that the cost of running AI workloads is set to fall significantly over the coming year.
+
+Finally, the human-impact debate is showing nuance. Data from Ramp and Revelio Labs challenging the "AI jobs apocalypse" narrative — showing that heavy AI spenders actually grew headcount — adds an important counterpoint to widespread fears of displacement. Yet the rapid rollout of agentic AI in enterprise settings (as seen with Woodside Energy's 50-agent LNG deployment and Anthropic's new enterprise cost dashboards) suggests that the relationship between AI adoption and workforce change is still actively playing out, with the full picture far from settled.
+
+### Sources
+- WilmerHale (Trump AI Executive Order): https://www.wilmerhale.com/en/insights/client-alerts/20260602-new-executive-order-addressing-early-government-access-to-frontier-ai-models (published 2026-06-02)
+- TechTimes (Fable 5 billing transition): https://www.techtimes.com/articles/319767/20260706/fable-5-subscription-ends-tomorrow-per-token-costs-who-gets-hit-hardest.htm (published 2026-07-06)
+- Global Tech Council (Claude Sonnet 5): https://www.globaltechcouncil.org/ai/introducing-claude-sonnet-5 (published 2026-06-30)
+- AI Insiders (Custom AI chips): https://aiinsiders.net/article/the-gpu-monopoly-cracks-as-custom-ai-chips-start-shipping (published 2026-07-05)
+- Reuters (Meta cloud compute): https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01 (published 2026-07-01)
+- TechCrunch (Anthropic/Samsung chip): https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung (published 2026-07-02)
+- TechCrunch (Cloudflare AI crawlers): https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content (published 2026-07-01)
+- Ramp (AI jobs impact study): https://ramp.com/data/ai-jobs-impact (published 2026-06)
+- byteiota (Claude Enterprise spend controls): https://byteiota.com/claude-enterprise-spend-controls (published 2026-07-02)
+- MIT Technology Review (Woodside Energy AI): https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines (published 2026-07-02)
+
+---
+
+<!-- ZH -->
+### 頭條新聞
+
+- **白宮自願性AI模型標準截止日期臨近：** 根據川普6月2日簽署的行政命令，聯邦機構正在制定一項自願框架，要求前沿AI開發商在模型發布前與政府進行溝通，截止日期為2026年8月1日。*(來源：WilmerHale，6 月 2 日)*
+- **Anthropic的Fable 5使用限制過渡期結束：** Anthropic設定7月7日為過渡期截止日，此前Fable 5的API使用量僅計入每週限額的一半，此安排是在該模型於19天政府強制暫停後恢復後實施的。*(來源：TechTimes，7 月 6 日)*
+- **Anthropic發布Claude Sonnet 5：** Anthropic推出Claude系列最新成員Claude Sonnet 5，公司持續在Fable 5治理風波解決後加速部署。*(來源：Global Tech Council，6 月 30 日)*
+- **自製AI晶片打破NVIDIA GPU壟斷：** OpenAI、Etched、亞馬遜及SambaNova均於2026年6月底將自製AI晶片從概念推進至出貨階段，標誌著GPU獨佔算力時代的終結。*(來源：AI Insiders，7 月 5 日)*
+- **Meta悄悄打造雲端業務以出售AI算力：** 根據彭博社報導，Meta正在制定計劃，向外部開發者出售多餘的AI算力及託管模型。*(來源：Reuters，7 月 1 日)*
+- **Anthropic傳與三星洽談合製自製AI晶片：** 據The Information報導，Anthropic正與三星討論製造自製AI晶片事宜，旨在降低對第三方算力的依賴。*(來源：TechCrunch，7 月 2 日)*
+- **Cloudflare宣布封鎖AI爬蟲，除非分離訓練機器人：** Cloudflare推出新政策，要求AI公司為出版商內容付費，並需將訓練爬蟲與其他機器人分離。*(來源：TechCrunch，7 月 1 日)*
+- **新數據反駁「AI導致大規模失業」論述：** Ramp與Revelio Labs的研究顯示，重度使用AI的企業兩年間人員編制增加10.2%，初級職位增加12%。*(來源：Ramp，2026 年 6 月)*
+- **Anthropic為Claude企業版新增費用儀表板：** 新的管理分析工具、模型權限及費用警報，讓Claude企業版管理員能更精細地掌控隨代理工作負載增長的使用成本。*(來源：byteiota，7 月 2 日)*
+- **Woodside Energy在LNG業務中部署約50個AI代理：** 澳洲能源商在其運營中運行約50個AI代理，旨在支援操作員而非取代他們。*(來源：MIT Technology Review，7 月 2 日)*
+
+### 分析
+
+進入2026年7月7日當週，AI新聞的最主要主題是政府監管與前沿模型部署之間日益激烈的交鋒。川普政府6月2日頒布的行政命令設定了8月1日的自願性模型預發布審查框架截止日期，而圍繞Anthropic Fable 5模型的混亂事件（19天暫停後部分解除出口限制）已清楚表明，AI治理不再停留於紙面。Anthropic的7月7日使用限制截止日本身就是這一政治動盪的直接產物，說明監管決策如今已深入影響AI產品觸達用戶的技術細節。
+
+與此同時，AI基礎設施格局正在經歷根本性轉變。OpenAI、亞馬遜、Etched和SambaNova各自推出自製晶片，對NVIDIA幾乎壟斷AI算力的局面構成實質挑戰，這對算力定價、可及性及AI實驗室間的競爭態勢具有深遠的長期影響。Meta傳出計劃通過出售多餘算力來打造雲端業務，則顯示超大規模科技公司正從AI消費者轉型為AI基礎設施供應商，壓縮了純雲端服務商的發展空間。晶片供應多元化與算力市場擴張的疊加效應，預示著AI工作負載運行成本在未來一年將大幅下降。
+
+最後，AI對人類社會影響的討論正呈現出更多層次。Ramp與Revelio Labs的數據挑戰了「AI就業末日」的論述——顯示重度AI使用者反而擴大了人員規模——為廣泛的就業替代恐慌提供了重要的反證。然而，企業中代理AI的快速落地（如Woodside Energy部署50個代理及Anthropic推出新企業費用管理工具）表明，AI採用與勞動力變化之間的關係仍在動態演變中，完整圖景遠未成定局。
+
+### 來源
+- WilmerHale（川普AI行政命令）: https://www.wilmerhale.com/en/insights/client-alerts/20260602-new-executive-order-addressing-early-government-access-to-frontier-ai-models (published 2026-06-02)
+- TechTimes（Fable 5計費過渡）: https://www.techtimes.com/articles/319767/20260706/fable-5-subscription-ends-tomorrow-per-token-costs-who-gets-hit-hardest.htm (published 2026-07-06)
+- Global Tech Council（Claude Sonnet 5）: https://www.globaltechcouncil.org/ai/introducing-claude-sonnet-5 (published 2026-06-30)
+- AI Insiders（自製AI晶片）: https://aiinsiders.net/article/the-gpu-monopoly-cracks-as-custom-ai-chips-start-shipping (published 2026-07-05)
+- Reuters（Meta雲端算力）: https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01 (published 2026-07-01)
+- TechCrunch（Anthropic/三星晶片）: https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung (published 2026-07-02)
+- TechCrunch（Cloudflare AI爬蟲）: https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content (published 2026-07-01)
+- Ramp（AI就業影響研究）: https://ramp.com/data/ai-jobs-impact (published 2026-06)
+- byteiota（Claude企業版費用控制）: https://byteiota.com/claude-enterprise-spend-controls (published 2026-07-02)
+- MIT Technology Review（Woodside Energy AI）: https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines (published 2026-07-02)
