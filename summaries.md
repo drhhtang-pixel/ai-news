@@ -2797,3 +2797,65 @@ Finally, the human-impact debate is showing nuance. Data from Ramp and Revelio L
 - Ramp（AI就業影響研究）: https://ramp.com/data/ai-jobs-impact (published 2026-06)
 - byteiota（Claude企業版費用控制）: https://byteiota.com/claude-enterprise-spend-controls (published 2026-07-02)
 - MIT Technology Review（Woodside Energy AI）: https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines (published 2026-07-02)
+
+## 2026-07-08 02:11
+
+<!-- EN -->
+### Headlines
+
+- **Google Expands Managed Agents in Gemini API:** Google published new developer updates expanding Managed Agents capabilities in the Gemini API, adding background tasks, remote MCP support, and more — continuing its push toward an agentic AI era following I/O 2026 announcements. *(Source: Google Blog, July 7)*
+
+- **Open Source AI Rising But Not Yet Hurting Frontier Labs:** TechCrunch analysis finds that mature enterprise AI deployments are shifting to lighter open-source models, yet frontier labs like Anthropic continue to grow revenue as new use cases constantly emerge — suggesting a two-tier market rather than direct competition. *(Source: TechCrunch, July 7)*
+
+- **AI-Driven Tech Layoffs Accelerate in 2026:** A running TechCrunch tracker shows major tech companies — including Intuit (3,000 jobs), Cisco (4,000 jobs), Cloudflare (1,100 jobs), and Snap (1,000 jobs) — have explicitly cited AI automation as a primary driver of significant workforce reductions this year. *(Source: TechCrunch, July 6)*
+
+- **U.S. AI Legislative Push Intensifies Across States:** Multiple state-level AI bills are advancing, including New Jersey's FAIR Act (anti-algorithmic rent inflation), Hawaii's SB 3001 (conversational AI safety for minors), and Pennsylvania's SB 1090 (AI disclosure requirements), reflecting a fragmented but intensifying U.S. regulatory landscape. *(Source: Transparency Coalition, July 3)*
+
+---
+
+### Analysis
+
+The week of July 8, 2026 is defined by the collision of frontier model politics and global summitry. The twin events of the RAISE Summit in Paris and the AI for Good Global Summit in Geneva underscore how AI has become a matter of international statecraft as much as technology — with governments, enterprises, and researchers all vying to set the agenda. The U.S. government's unprecedented pre-release vetting of frontier AI models from OpenAI and Anthropic — enforced through Trump's June 2026 cybersecurity executive order — has introduced a new dynamic in which regulatory clearance is now a prerequisite for commercial launch, reshaping the competitive timeline for all major labs and giving Google a temporary window with Gemini 3.5 Pro.
+
+The emerging two-tier AI market is perhaps the most structurally significant trend. As TechCrunch's analysis of open-source AI reveals, mature enterprise deployments are migrating toward lighter, cheaper models, while frontier labs still capture demand from the newest, most demanding use cases. This bifurcation — commodity AI for routine tasks, frontier AI for cutting-edge work — is also visible in the wave of layoffs sweeping tech: companies like Cloudflare, Cisco, and Snap are simultaneously reporting record revenues and slashing workforces, citing AI-driven productivity gains that make human headcount harder to justify. The pattern suggests AI is delivering on efficiency promises, but with significant near-term labor market disruption.
+
+Finally, the regulatory environment is fragmenting in both directions at once. At the federal level, the U.S. is building a de facto pre-deployment review regime through voluntary-but-powerful executive frameworks, while at the state level a patchwork of disclosure bills, safety mandates, and anti-algorithmic-pricing laws is advancing with no national coordination. Internationally, summits in Paris and Geneva are attempting to forge multilateral norms, but with the world's most capable models subject to U.S. export controls and national security review, the geopolitical dimension of AI is deepening rather than resolving. The coming weeks — with the anticipated public releases of GPT-5.6, Gemini 3.5 Pro, and rival Chinese models — will be a critical stress test of these new governance structures.
+
+---
+
+### Sources
+
+- Google Blog (Expanding Managed Agents in Gemini API): https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/ (published 2026-07-07)
+- TechCrunch (Open Source AI not hurting Anthropic): https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet (published 2026-07-07)
+- TechCrunch (AI layoffs running list): https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai (published 2026-07-06)
+- Transparency Coalition (AI Legislative Update): https://www.transparencycoalition.ai/news/ai-legislative-update-july3-2026 (published 2026-07-03)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Google 擴展 Gemini API 受管代理人功能：** Google 發布開發者更新，為 Gemini API 的受管代理人（Managed Agents）新增背景任務、遠端 MCP 支援等功能，延續其於 I/O 2026 宣示的代理 AI 時代戰略。*(來源：Google Blog，7 月 7 日)*
+
+- **開源 AI 崛起但暫未衝擊前沿實驗室：** TechCrunch 分析指出，成熟企業 AI 部署正轉向更輕量的開源模型，然而 Anthropic 等前沿實驗室的營收仍持續增長，顯示 AI 市場正走向「前沿模型」與「商品模型」並存的雙層結構。*(來源：TechCrunch，7 月 7 日)*
+
+- **AI 驅動科技業裁員潮加速：** TechCrunch 追蹤報告顯示，Intuit（裁3,000人）、Cisco（裁4,000人）、Cloudflare（裁1,100人）、Snap（裁1,000人）等科技公司均明確將 AI 自動化列為大規模裁員的主因，反映 AI 生產力替代正加速兌現。*(來源：TechCrunch，7 月 6 日)*
+
+- **美國各州 AI 立法密集推進：** 多項州級 AI 法案正加速審議，包括紐澤西「禁止演算法哄抬租金法案（FAIR Act）」、夏威夷 SB 3001（保護未成年人免受對話式 AI 傷害）及賓州 SB 1090（AI 資訊揭露要求），反映美國監管環境持續碎片化但力道漸強。*(來源：Transparency Coalition，7 月 3 日)*
+
+---
+
+### 分析
+
+2026年7月8日這週，前沿模型政治角力與全球峰會外交雙線並進。巴黎 RAISE 峰會與日內瓦 AI for Good 全球峰會同步登場，清晰映照出人工智慧已從純粹的技術競賽演變為國際地緣政治博弈的核心戰場。川普政府透過6月簽署的 AI 資安行政命令，建立了史無前例的「上市前政府審查」機制，使 OpenAI 與 Anthropic 的旗艦模型必須取得政府放行才能公開發布；此一新常態正在重塑所有主要實驗室的競爭時間表，並為 Google 的 Gemini 3.5 Pro 製造了短暫的市場先機。
+
+AI 市場的雙層結構化是目前最具結構性意義的趨勢。TechCrunch 對開源 AI 的分析揭示：成熟企業用例正遷往更輕、更便宜的開源模型，而前沿實驗室則持續從最新、最複雜的需求中獲益，兩者並非直接競爭，而是服務不同生命週期階段。此一分層現象同樣體現於科技業裁員潮：Cloudflare、Cisco、Snap 等公司在創下營收紀錄的同時大規模縮編人力，明確援引 AI 驅動的生產力提升，預示著 AI 對勞動市場的深層衝擊正在加速到來。
+
+在監管面，美國聯邦層級正透過「自願性但具實質約束力」的行政框架建立事實上的上市前審查機制，而各州則在缺乏全國協調的情況下各自推進揭露、安全與定價規範法案。在國際層面，巴黎與日內瓦的峰會試圖凝聚多邊規範共識，但隨著最強大的 AI 模型持續受到美國出口管制與國安審查的約束，AI 的地緣政治維度非但未能緩解，反而日趨深化。未來數週，GPT-5.6、Gemini 3.5 Pro 及中國競爭模型的相繼公開發布，將成為這套新興治理架構能否承壓的關鍵考驗。
+
+---
+
+### 來源
+
+- Google Blog（Gemini API 受管代理人擴展）: https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/ (published 2026-07-07)
+- TechCrunch（開源 AI 未衝擊 Anthropic）: https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet (published 2026-07-07)
+- TechCrunch（AI 相關裁員追蹤）: https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai (published 2026-07-06)
+- Transparency Coalition（AI 立法更新）: https://www.transparencycoalition.ai/news/ai-legislative-update-july3-2026 (published 2026-07-03)
