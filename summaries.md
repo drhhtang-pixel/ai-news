@@ -2911,3 +2911,79 @@ On the technical frontier, the simultaneous maturation of agentic AI and diffusi
 - MarkTechPost（DiffusionGemma）：https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation (published 2026-06-10)
 - NVIDIA Blog（DiffusionGemma）：https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion (published 2026-06-10)
 - CRN（Anthropic 高層招募）：https://www.crn.com/news/ai/2026/anthropic-s-5-huge-hires-from-openai-google-microsoft-and-xai-in-2026 (published 2026-07-01)
+
+## 2026-07-10 02:30
+
+<!-- EN -->
+### Headlines
+
+- **OpenAI launches GPT-5.6 globally after US government clearance:** OpenAI publicly released its most advanced model series — GPT-5.6 Sol, Terra, and Luna — following a government-mandated safety evaluation period tied to President Trump's June 2026 AI Executive Order on cybersecurity and national security. *(Source: Axios, July 8)*
+
+- **OpenAI unveils GPT-Live: full-duplex voice AI for ChatGPT:** OpenAI simultaneously launched GPT-Live, a new generation of voice models built on a full-duplex architecture that allows ChatGPT to listen and speak simultaneously, making human-AI conversation feel significantly more natural. *(Source: VentureBeat, July 8)*
+
+- **SpaceX AI releases Grok 4.5, undercutting rivals on price:** SpaceX's AI division launched Grok 4.5 — its first model co-developed with Cursor — featuring advanced legal and finance capabilities, and pricing it at roughly half the cost of competing models like Claude Fable 5 and GPT-5.5, sending ripples through the frontier AI market. *(Source: Axios, July 8)*
+
+- **UN Secretary-General calls for urgent global AI governance, warns of "killer robots":** Addressing the inaugural UN Global Dialogue on AI Governance in Geneva, UN chief António Guterres warned that AI-powered autonomous weapons are "already the norm" on the battlefield and proposed an AI Child Safety Pledge requiring developers to prove their systems are safe for children. *(Source: UN News, July 6)*
+
+- **NYU hosts major AI and Workforce Conference in Washington, DC:** NYU's Stern School of Business convened academic, industry, government, and labor leaders on July 10 in Washington, DC, to examine AI's current and future impact on jobs, required interventions, evolving education, and key policy imperatives. *(Source: NYU Stern / NYU DRI, July 10)*
+
+- **Anthropic's Claude Sonnet 5 becomes default model for all users:** Following its June 30 launch, Claude Sonnet 5 — Anthropic's most capable mid-tier agentic model to date — became the default for all Free and Pro users, able to plan multi-step tasks, operate browsers and terminals, and run with minimal human supervision at significantly lower cost than Opus. *(Source: TechCrunch, June 30)*
+
+- **World Cup 2026 teams race to deploy AI analytics tools:** WIRED reported that FIFA is providing an AI agent accessible to all competing teams this tournament, marking a new era in AI-assisted sports strategy, as national squads compete not just on the pitch but in algorithmic performance analysis. *(Source: WIRED, July 10)*
+
+- **PwC study: AI linked to fourfold productivity growth and 56% wage premium:** PwC's 2026 Global AI Jobs Barometer found that AI is making workers more productive and better paid, with job numbers rising even in the most automatable roles — though 75% of AI's economic gains are captured by just 20% of companies. *(Source: PwC, 2026)*
+
+### Analysis
+
+The week of July 10, 2026 marks a watershed moment in frontier AI deployment. The public release of OpenAI's GPT-5.6 series — following a government-mandated delay rooted in Trump's June AI Executive Order — establishes a new precedent for state-supervised model releases. This precedent was itself triggered by Anthropic's powerful Mythos cybersecurity model, which sparked widespread concern over potential offensive use. The simultaneous launch of GPT-Live's full-duplex voice system and SpaceX AI's aggressively priced Grok 4.5 signals that the competitive frontier is now expanding along two axes: raw capability and cost democratization. Grok 4.5's pricing strategy in particular threatens to erode revenue margins at Anthropic and OpenAI, potentially accelerating a race to the bottom on pricing while also broadening enterprise and developer access.
+
+On the governance front, the contrast between the US and global approaches could not be sharper. While Washington pursues a voluntary, industry-friendly framework that explicitly seeks to preempt stricter state-level laws, the UN's inaugural Global Dialogue on AI Governance in Geneva is pressing for binding international rules — including bans on autonomous "killer robots" and mandatory child safety protections. The NYU AI and Workforce Conference convening in Washington DC on the same day reflects the policy urgency on the labor side: as PwC data shows AI driving productivity and wage premiums for skilled workers, the structural risk of a two-track economy — where gains accrue only to the top 20% of AI-adopting firms — is becoming a central concern for policymakers and labor leaders alike.
+
+### Sources
+
+- Axios (GPT-5.6): https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted (published 2026-07-08)
+- VentureBeat (GPT-Live): https://venturebeat.com/technology/openai-launches-gpt-live-a-full-duplex-voice-upgrade-that-lets-chatgpt-talk-more-like-a-person (published 2026-07-08)
+- Axios (Grok 4.5): https://www.axios.com/2026/07/08/spacexai-grok-new-model (published 2026-07-08)
+- UN News: https://news.un.org/en/story/2026/07/1167873 (published 2026-07-06)
+- NYU DRI / NYU Stern: https://nyudri.org/events/ai-and-the-workforce-conference (published 2026-07-10)
+- TechCrunch (Claude Sonnet 5): https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents (published 2026-06-30)
+- WIRED: https://www.wired.com/story/fifa-world-cup-2026-artificial-intelligence-tools/ (published 2026-07-10)
+- PwC: https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html (published 2026)
+
+---
+
+<!-- ZH -->
+### 頭條新聞
+
+- **OpenAI 在美國政府批准後全球發布 GPT-5.6：** OpenAI 公開推出其最先進的模型系列 GPT-5.6 Sol、Terra 與 Luna，此前因川普總統於 2026 年 6 月簽署的 AI 行政命令而接受政府安全評估，評估通過後方才正式上線。*(來源：Axios，7 月 8 日)*
+
+- **OpenAI 推出 GPT-Live 全雙工語音 AI：** OpenAI 同步發布 GPT-Live，這是一款全新的全雙工語音模型，讓 ChatGPT 能夠同時聆聽與說話，大幅提升人機對話的自然感與流暢度。*(來源：VentureBeat，7 月 8 日)*
+
+- **SpaceX AI 發布 Grok 4.5，以低價衝擊競爭對手：** SpaceX 旗下 AI 部門推出 Grok 4.5，這是首款與 Cursor 聯合開發的模型，主打法律與金融應用，定價約為 Claude Fable 5 和 GPT-5.5 的一半，對前沿 AI 市場造成顯著衝擊。*(來源：Axios，7 月 8 日)*
+
+- **聯合國秘書長緊急呼籲建立全球 AI 治理機制，警告「殺手機器人」威脅：** 聯合國秘書長安東尼歐·古特雷斯在日內瓦首屆聯合國 AI 治理全球對話大會上警告，AI 自主武器「已成為戰場常態」，並提出「AI 兒童安全承諾」，要求開發者證明其系統對兒童安全無害。*(來源：聯合國新聞，7 月 6 日)*
+
+- **紐約大學在華盛頓特區舉辦 AI 與勞動力大型研討會：** 紐約大學斯特恩商學院於 7 月 10 日在華盛頓特區召集學術界、產業界、政府及勞工領袖，共同探討 AI 對就業市場的當前與未來影響、必要的政策干預措施及教育改革方向。*(來源：NYU Stern／NYU DRI，7 月 10 日)*
+
+- **Anthropic Claude Sonnet 5 成為所有用戶的預設模型：** 繼 6 月 30 日發布後，Claude Sonnet 5 已成為 Anthropic 所有免費與付費用戶的預設模型，該模型能規劃多步驟任務、操作瀏覽器和終端機，並以遠低於 Opus 的成本實現高度自主運作。*(來源：TechCrunch，6 月 30 日)*
+
+- **2026 年世界盃球隊競相部署 AI 分析工具：** WIRED 報導，FIFA 本屆賽事向所有參賽隊伍提供 AI 智慧助理，標誌著 AI 輔助體育策略進入全新時代，各國球隊不僅在球場上競爭，更在演算法分析能力上一決高下。*(來源：WIRED，7 月 10 日)*
+
+- **普華永道研究：AI 帶動生產力提升四倍，薪資溢價達 56%：** 普華永道 2026 年全球 AI 就業晴雨表發現，AI 正在提升工作者的生產力與薪資水平，即便在最易被自動化的職位中，就業人數仍在增加；但 AI 帶來的經濟利益有 75% 集中在頂端 20% 的企業中。*(來源：普華永道，2026 年)*
+
+### 分析
+
+2026 年 7 月 10 日這週是前沿 AI 部署的里程碑時刻。OpenAI GPT-5.6 系列在政府強制審查後公開發布，為「國家監督型模型發布」樹立了新的先例。這一先例的起源，正是 Anthropic 強大的 Mythos 網路安全模型引發的廣泛擔憂——各界擔心若此類模型落入敵對勢力之手，將可能被用於攻擊數位基礎設施。GPT-Live 全雙工語音系統與 SpaceX AI 主打低價策略的 Grok 4.5 同步登場，顯示前沿 AI 競爭已沿著兩條主軸同時展開：原始性能的提升與成本民主化。Grok 4.5 的低價策略尤其對 Anthropic 和 OpenAI 的營收構成直接壓力，可能加速業界的價格競爭，但同時也將擴大企業和開發者的使用門檻。
+
+在治理層面，美國與全球的路徑對比更加鮮明。華盛頓採取對產業友好的自願性框架，並明確試圖凌駕各州更嚴格的 AI 法規；而日內瓦首屆聯合國 AI 治理全球對話則呼籲建立具有約束力的國際規則，包括禁止自主「殺手機器人」以及強制要求兒童安全保護措施。紐約大學同日在華盛頓特區舉辦的 AI 與勞動力研討會，則反映出勞動政策層面的迫切性：普華永道的數據顯示，AI 確實在提升技能工作者的生產力與薪資，但若經濟利益僅集中於頂端 20% 的企業，「雙軌經濟」的結構性風險將成為政策制定者與勞工領袖共同面臨的核心挑戰。
+
+### 來源
+
+- Axios（GPT-5.6）: https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted (published 2026-07-08)
+- VentureBeat（GPT-Live）: https://venturebeat.com/technology/openai-launches-gpt-live-a-full-duplex-voice-upgrade-that-lets-chatgpt-talk-more-like-a-person (published 2026-07-08)
+- Axios（Grok 4.5）: https://www.axios.com/2026/07/08/spacexai-grok-new-model (published 2026-07-08)
+- UN News: https://news.un.org/en/story/2026/07/1167873 (published 2026-07-06)
+- NYU DRI: https://nyudri.org/events/ai-and-the-workforce-conference (published 2026-07-10)
+- TechCrunch: https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents (published 2026-06-30)
+- WIRED: https://www.wired.com/story/fifa-world-cup-2026-artificial-intelligence-tools/ (published 2026-07-10)
+- PwC: https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html (published 2026)
