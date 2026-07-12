@@ -3071,3 +3071,95 @@ ICML 2026於7月11日在首爾落幕，為本週極為密集的AI大事件週劃
 - Transparency Coalition（AI立法更新）: https://www.transparencycoalition.ai/news/ai-legislative-update-july3-2026 (published 2026-07-03)
 - ICML 2026（大會官網）: https://icml.cc/Conferences/2026 (2026年7月6–11日)
 - Crunchbase News（2026年第一季融資）: https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026 (published 2026-Q1)
+
+## 2026-07-12 02:12
+
+<!-- EN -->
+### Headlines
+
+- **OpenAI Launches GPT-Live Voice AI:** OpenAI unveiled GPT-Live, a new generation of full-duplex voice model that can listen, speak, and reason simultaneously, rolling out GPT-Live-1 and GPT-Live-1 mini to ChatGPT users worldwide. *(Source: TechCrunch, July 8)*
+
+- **SpaceXAI Releases Grok 4.5 — Its "Strongest Model Ever":** Elon Musk's SpaceXAI launched Grok 4.5, targeting coding, agentic tasks, finance, and legal work, describing it as faster and more token-efficient than Anthropic's Opus-class models. *(Source: TechCrunch, July 8)*
+
+- **OpenAI Expands GPT-5.6 Public Rollout:** After temporary government-imposed access restrictions due to misuse risks, OpenAI officially expanded public access to its GPT-5.6 family — including Sol, Terra, and Luna models — ending national security review limits. *(Source: Bay Area Times, July 8)*
+
+- **Together AI Raises $800M at $8.3B Valuation:** AI infrastructure provider Together AI secured $800 million in Series C funding led by Aramco Ventures with participation from Nvidia and General Catalyst, more than doubling its prior $3.3B valuation. *(Source: TechCrunch, July 1)*
+
+- **Microsoft Launches $2.5B AI Deployment Arm:** Microsoft launched an internal AI deployment company backed by a $2.5 billion commitment, following a similar $1 billion move by Amazon Web Services, signaling a major push by hyperscalers into direct AI deployment. *(Source: TechCrunch, July 2)*
+
+- **Google Launches Africa Applied AI Lab in Accra:** Google established the Google Africa Applied AI Lab, based at the Accra AI Community Centre in Ghana, offering African entrepreneurs and researchers early access to Google DeepMind models and direct technical mentorship. *(Source: Medium/David Akpovi Weekly Recap, July 12)*
+
+- **UN Secretary-General Warns AI Is Outpacing Global Oversight:** At the first-ever UN Global Dialogue on AI Governance in Geneva (July 6–7), Secretary-General António Guterres warned that AI is "being deployed faster than anyone, including the people building it, can keep up," as a new independent scientific panel revealed the U.S. holds 75% of the world's top AI computing power. *(Source: UN.org, July 6)*
+
+- **AI Industry Must Earn $3 Trillion to Justify Infrastructure Spend:** Sequoia's David Cahn published analysis estimating the AI industry must generate $3 trillion in revenue to justify 2026's $1.5 trillion infrastructure spend, raising serious questions about AI's near-term economic sustainability. *(Source: TechCrunch, July 9)*
+
+- **Cloudflare Pushes AI Firms to Pay for Publisher Content:** Cloudflare issued a policy giving AI companies until September 15 to separate search crawlers from AI training crawlers, or risk being blocked by default across publisher sites, escalating the debate over AI and content licensing. *(Source: TechCrunch, July 1)*
+
+---
+
+### Analysis
+
+The week of July 6–12, 2026 was defined by an accelerating model race between the world's top AI labs. OpenAI simultaneously rolled out two major products — the conversational GPT-Live voice AI and the broader public availability of its GPT-5.6 family — while SpaceXAI fired back with Grok 4.5, its most capable model to date. The pace of these releases, coming within days of each other, underscores how frontier AI competition has shifted from quarterly milestones to near-weekly deployments. The involvement of U.S. government oversight bodies in the GPT-5.6 rollout — which required a national security review before full public release — signals that regulators are now an active gating force in how and when cutting-edge AI reaches the public.
+
+On the infrastructure and investment front, the sheer scale of capital flowing into AI computing is striking. Together AI's $800M raise and Microsoft's $2.5B deployment commitment reflect a broader industry conviction that open-source and enterprise AI infrastructure will be the backbone of the next phase of adoption. However, Sequoia's "$3 trillion question" framing is a sobering counterpoint: with $1.5 trillion projected in AI infrastructure spending in 2026 alone, the industry faces mounting pressure to demonstrate that real-world revenue can catch up to the enormous sums being invested. The AI "build it and they will come" thesis is now under serious scrutiny.
+
+Meanwhile, global governance tensions are sharpening. The UN's inaugural Global Dialogue on AI Governance in Geneva highlighted stark geopolitical divides — the U.S. openly opposed multilateral AI governance frameworks, while the independent UN scientific panel flagged dangerously concentrated computing power (75% in the U.S., 15% in China). At the same time, initiatives like Google's Africa AI Lab and Cloudflare's content-licensing policy show that AI's expansion is reshaping economic and geopolitical dynamics far beyond Silicon Valley, touching everything from African startup ecosystems to the future of web publishing.
+
+---
+
+### Sources
+
+- Medium (David Akpovi): https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55 (published 2026-07-12)
+- TechCrunch (GPT-Live): https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations (published 2026-07-08)
+- TechCrunch (Grok 4.5): https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model (published 2026-07-08)
+- Bay Area Times (GPT-5.6): https://www.bayareatimes.com/p/openai-readies-gpt-5-6-sol-terra-luna-launch-for-thu-as-trump-admin-clears-rollout (published 2026-07-08)
+- TechCrunch (Together AI): https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation (published 2026-07-01)
+- TechCrunch (Microsoft): https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment (published 2026-07-02)
+- TechCrunch (Cloudflare): https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content (published 2026-07-01)
+- TechCrunch ($3 Trillion): https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question (published 2026-07-09)
+- UN.org (UN Governance): https://www.un.org/sg/en/content/sg/statements/2026-07-06/secretary-generals-remarks-the-opening-of-the-first-global-dialogue-artificial-intelligence-governance-delivered (published 2026-07-06)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **OpenAI 推出 GPT-Live 語音 AI：** OpenAI 發布新一代全雙工語音模型 GPT-Live，可同時聆聽、說話與推理，並向全球 ChatGPT 用戶推出 GPT-Live-1 及 GPT-Live-1 mini。*(來源：TechCrunch，7 月 8 日)*
+
+- **SpaceXAI 發布「史上最強」Grok 4.5：** 馬斯克旗下的 SpaceXAI 推出 Grok 4.5，主打程式撰寫、自主代理任務、金融及法律工作，聲稱比 Anthropic 的 Opus 系列模型更快、更省 Token。*(來源：TechCrunch，7 月 8 日)*
+
+- **OpenAI 擴大 GPT-5.6 公開發布：** 在因濫用風險遭到美國政府暫時限制存取後，OpenAI 正式向公眾全面開放 GPT-5.6 系列，包含 Sol、Terra 及 Luna 三款模型。*(來源：Bay Area Times，7 月 8 日)*
+
+- **Together AI 融資 8 億美元、估值達 83 億美元：** AI 基礎設施供應商 Together AI 完成 C 輪融資，由 Aramco Ventures 領投，英偉達及 General Catalyst 等參投，估值較上輪翻倍以上。*(來源：TechCrunch，7 月 1 日)*
+
+- **微軟成立 25 億美元 AI 部署子公司：** 微軟宣布成立內部 AI 部署公司並承諾投入 25 億美元，緊隨亞馬遜 AWS 的 10 億美元類似計畫，標誌著科技巨頭直接進軍 AI 部署市場。*(來源：TechCrunch，7 月 2 日)*
+
+- **Google 在阿克拉成立非洲 AI 實驗室：** Google 於迦納阿克拉設立「Google 非洲 Applied AI 實驗室」，為非洲創業者與研究人員提供最新 Google DeepMind 模型的早期存取權及技術指導。*(來源：Medium/David Akpovi 週報，7 月 12 日)*
+
+- **聯合國秘書長警告 AI 發展速度超越全球監管能力：** 在日內瓦舉行的首屆「聯合國 AI 治理全球對話」（7 月 6–7 日），秘書長古特瑞斯警告 AI 「部署速度已超過任何人的掌控能力」，獨立科學小組亦披露美國掌握全球頂尖 AI 超算 75% 的算力。*(來源：UN.org，7 月 6 日)*
+
+- **AI 業界須創造 3 兆美元收益以回收基礎設施投資：** 紅杉資本合夥人 David Cahn 分析指出，2026 年 AI 基礎設施支出達 1.5 兆美元，業界須賺取 3 兆美元收入方能回本，引發業界對 AI 近期經濟可持續性的嚴峻拷問。*(來源：TechCrunch，7 月 9 日)*
+
+- **Cloudflare 要求 AI 公司為發布商內容付費：** Cloudflare 要求 AI 公司在 9 月 15 日前區分搜尋爬蟲與 AI 訓練爬蟲，否則將在發布商網站預設封鎖，進一步激化 AI 與內容授權之爭。*(來源：TechCrunch，7 月 1 日)*
+
+---
+
+### 分析
+
+2026 年 7 月 6 日至 12 日這一週，全球頂尖 AI 實驗室之間的模型競賽急速升溫。OpenAI 同步推出兩大產品——全雙工語音 AI GPT-Live，以及 GPT-5.6 系列的公開普及版；SpaceXAI 則以 Grok 4.5 迎頭趕上，展示其最強大的模型實力。這些發布幾乎在同一週內相繼亮相，充分說明前沿 AI 競爭已從季度里程碑演變為近乎週更的部署節奏。尤其值得關注的是，GPT-5.6 的全面開放需要事先通過美國政府的國家安全審查，顯示監管機構已成為頂尖 AI 產品能否觸達公眾的實質把關者。
+
+在基礎設施與投資方面，資本的規模令人震撼。Together AI 的 8 億美元融資與微軟的 25 億美元承諾，折射出業界對開源及企業級 AI 算力基礎設施的高度押注。然而，紅杉資本「3 兆美元之問」卻是一記清醒劑：僅 2026 年的 AI 基礎設施支出就已達 1.5 兆美元，業界正面臨「收入能否追上投資」的現實壓力，「先建好、用戶自然就來」的邏輯正受到嚴峻考驗。
+
+與此同時，全球 AI 治理的地緣政治張力也在加劇。聯合國日內瓦對話揭示了深刻的大國分歧——美國公開反對任何多邊 AI 治理框架，而獨立科學小組則警示算力高度集中（美國佔 75%、中國佔 15%）的潛在風險。與此同時，Google 非洲 AI 實驗室的成立與 Cloudflare 的內容授權新政，說明 AI 的擴張正在重塑遠超矽谷範疇的經濟與地緣格局，從非洲新創生態系統到全球網路出版業，皆受到深刻影響。
+
+---
+
+### 來源
+
+- Medium（David Akpovi）: https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55 (published 2026-07-12)
+- TechCrunch（GPT-Live）: https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations (published 2026-07-08)
+- TechCrunch（Grok 4.5）: https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model (published 2026-07-08)
+- Bay Area Times（GPT-5.6）: https://www.bayareatimes.com/p/openai-readies-gpt-5-6-sol-terra-luna-launch-for-thu-as-trump-admin-clears-rollout (published 2026-07-08)
+- TechCrunch（Together AI）: https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation (published 2026-07-01)
+- TechCrunch（微軟）: https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment (published 2026-07-02)
+- TechCrunch（Cloudflare）: https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content (published 2026-07-01)
+- TechCrunch（3 兆美元）: https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question (published 2026-07-09)
+- UN.org（聯合國治理）: https://www.un.org/sg/en/content/sg/statements/2026-07-06/secretary-generals-remarks-the-opening-of-the-first-global-dialogue-artificial-intelligence-governance-delivered (published 2026-07-06)
