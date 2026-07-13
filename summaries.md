@@ -3163,3 +3163,61 @@ Meanwhile, global governance tensions are sharpening. The UN's inaugural Global 
 - TechCrunch（Cloudflare）: https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content (published 2026-07-01)
 - TechCrunch（3 兆美元）: https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question (published 2026-07-09)
 - UN.org（聯合國治理）: https://www.un.org/sg/en/content/sg/statements/2026-07-06/secretary-generals-remarks-the-opening-of-the-first-global-dialogue-artificial-intelligence-governance-delivered (published 2026-07-06)
+
+## 2026-07-13 02:14
+
+<!-- EN -->
+### Headlines
+
+---
+
+### Analysis
+
+The dominant story of the week is the escalating entanglement between the U.S. government and frontier AI companies. The Trump administration's framework — requiring pre-release reviews of the most powerful models — has created what critics are calling an informal licensing regime for AI. OpenAI's partial rollout of GPT-5.6 "Sol" and Anthropic's 18-day forced blackout of Claude Fable 5 and Mythos 5 are the clearest examples yet of how national security concerns are reshaping the product release calendar for the world's leading AI labs. While the administration frames these interventions as cybersecurity due diligence, the companies and some policy observers warn that mandatory review timelines could slow American AI development relative to Chinese competitors like DeepSeek, ByteDance, and Meituan — all of which operate under a different regulatory calculus and are rapidly advancing their own frontier models.
+
+Meanwhile, the market is grappling with a mounting infrastructure reckoning. Sequoia's updated "$3 trillion question" crystallizes anxiety that has been building for months: the AI industry has committed staggering capital to data centers, chips, and compute, but commercially viable, high-revenue AI applications have not yet scaled proportionally to justify the bet. This tension is surfacing across the board — from Oracle's 21,000-person workforce reduction blamed partly on AI-driven efficiencies, to concerns about AI's failure to deliver the productivity gains economists had forecast. At the same time, new green shoots are visible: Ollama's $65M raise and 9M user base signal robust grassroots developer adoption, Meta's aggressive push into coding and agentic AI with Muse Spark 1.1 shows the competitive field widening, and Agility Robotics' SPAC deal suggests that physical, embodied AI is the next frontier investors are willing to fund at scale.
+
+The convergence of regulatory uncertainty, infrastructure over-investment fears, and accelerating model competition is producing a pivotal moment for the AI industry. The fracturing of the frontier model market — with some of the most powerful systems effectively gated behind government review or enterprise-only access programs — risks amplifying the "AI class divide" that analysts are warning about. If the most capable AI tools remain accessible only to a privileged tier of developers, researchers, and government-vetted enterprises, public trust in AI's democratic promise could erode. How companies, regulators, and civil society navigate the next few months — especially around the still-unresolved executive order framework that OpenAI and the Trump administration are jointly drafting — will likely define the arc of AI governance for the rest of the decade.
+
+---
+
+### Sources
+
+- TechCrunch: https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question (published 2026-07-09)
+- TechCrunch: https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/ (published 2026-07-09)
+- TechCrunch: https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/ (published 2026-07-09)
+- The Guardian: https://www.theguardian.com/technology/2026/jul/09/trump-administration-openai-chatgpt-cybersecurity (published 2026-07-09)
+- CNBC: https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html (published 2026-07-08)
+- CNBC: https://www.cnbc.com/2026/07/09/meta-jumps-into-ai-coding-market-to-chase-anthropic-and-openai.html (published 2026-07-09)
+- CNBC: https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html (published 2026-06-30)
+- Axios: https://www.axios.com/2026/07/10/ai-class-divide-fable-sol-mythos (published 2026-07-10)
+- MarketingProfs: https://www.marketingprofs.com/opinions/2026/55247/ai-update-july-10-2026-ai-news-and-views-from-the-past-week (published 2026-07-10)
+- DW: https://www.dw.com/en/anthropic-claude-fable-mythos-us-lifts-restrictions-on-ai-models/a-77779879 (published 2026-07-01)
+
+<!-- ZH -->
+### 頭條新聞
+
+---
+
+### 分析
+
+本週最核心的議題，是美國政府與前沿 AI 公司之間的監管博弈持續升溫。川普政府要求 AI 公司在發布最先進模型前最多 30 天提交政府審查，已實質上形成一套非正式的「AI 許可制度」。OpenAI 的 GPT-5.6「Sol」分階段發布，以及 Anthropic 的 Claude Fable 5 與 Mythos 5 被迫下線 18 天，是這套管制框架對業界衝擊最具體的體現。政府將此定性為網路安全盡職調查，但企業界與部分政策學者則憂慮，強制審查時程將削弱美國 AI 發展相對於中國競爭對手（如 DeepSeek、字節跳動、美團）的速度優勢，而後者在截然不同的法規環境下正快速推進。
+
+與此同時，市場正面對愈來愈明顯的基礎建設投資壓力。紅杉資本提出的「三兆美元問題」，精準點出 AI 業界長期積累的憂慮：龐大的資本投入尚未換來對等規模的商業回報。Oracle 因 AI 驅動效率提升而裁員逾 2.1 萬人，德意志銀行經濟學家亦指出 AI 的生產力紅利尚未到來，種種跡象均在考驗外界對 AI 的信心。不過，積極訊號同樣存在：Ollama 憑藉開源工具獲得 900 萬用戶支持、Meta 大舉進攻代理 AI 市場、Agility Robotics 的 SPAC 上市案則顯示，實體化的人形 AI 已成投資者追捧的下一個前沿。
+
+監管不確定性、基礎建設過度投資疑慮，以及模型競爭加速三重壓力的匯聚，標誌著 AI 產業正站在一個歷史性轉折點。前沿模型的訪問權若持續受限於政府審查或企業白名單，將進一步擴大分析人士所警告的「AI 階級鴻溝」。OpenAI 與川普政府正共同草擬的新行政命令框架，以及業界如何與監管機構重新界定模型發布的「規則」，很可能決定未來十年 AI 治理的走向。
+
+---
+
+### 來源
+
+- TechCrunch: https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question (published 2026-07-09)
+- TechCrunch: https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/ (published 2026-07-09)
+- TechCrunch: https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/ (published 2026-07-09)
+- The Guardian: https://www.theguardian.com/technology/2026/jul/09/trump-administration-openai-chatgpt-cybersecurity (published 2026-07-09)
+- CNBC: https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html (published 2026-07-08)
+- CNBC: https://www.cnbc.com/2026/07/09/meta-jumps-into-ai-coding-market-to-chase-anthropic-and-openai.html (published 2026-07-09)
+- CNBC: https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html (published 2026-06-30)
+- Axios: https://www.axios.com/2026/07/10/ai-class-divide-fable-sol-mythos (published 2026-07-10)
+- MarketingProfs: https://www.marketingprofs.com/opinions/2026/55247/ai-update-july-10-2026-ai-news-and-views-from-the-past-week (published 2026-07-10)
+- DW: https://www.dw.com/en/anthropic-claude-fable-mythos-us-lifts-restrictions-on-ai-models/a-77779879 (published 2026-07-01)
