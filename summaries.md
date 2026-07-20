@@ -3579,3 +3579,47 @@ Underneath these headline-grabbing dynamics, quieter but equally significant str
 - DC News Now / AP（OpenAI/Anthropic 模型限制）：https://www.dcnewsnow.com/news/business/ap-business/ap-openai-limits-its-newest-chatgpt-product-to-trump-approved-customers-during-cybersecurity-review/amp (published 2026-07-18)
 - StockNews YouTube（晶片股拋售深度解析，7 月 18 日）：https://www.youtube.com/watch?v=MNOgV8G9Txc (published 2026-07-18)
 - ScienceDaily（AI 標記可疑癌症論文）：https://www.sciencedaily.com/releases/2026/07/260714225538.htm (published 2026-07-14)
+
+## 2026-07-20 03:17
+
+<!-- EN -->
+### Headlines
+
+---
+
+### Analysis
+
+The most consequential story of July 20, 2026 is the European Commission's landmark Digital Markets Act ruling against Google, which compels the tech giant to open Android's ecosystem to rival AI assistants and share its prized search data with competitors by January 2027. For companies like OpenAI, Anthropic, and smaller AI startups, this ruling represents a legal pathway onto two billion phones and access to one of the world's most valuable data assets — search signal. It marks a decisive regulatory moment that could significantly reshape the competitive landscape for AI assistants in Europe, and potentially sets a template for similar actions in other jurisdictions. Google faces the uncomfortable position of being legally required to empower the very rivals threatening its core business.
+
+Simultaneously, the enterprise AI market continues its dramatic restructuring. Oracle's historic mass layoff — cutting up to 30,000 workers to fund AI infrastructure — is emblematic of a broader "SaaSpocalypse" sweeping enterprise software, where incumbents are trading human headcount for AI capex at unprecedented scale. SAP's €1 billion-plus bet on a European frontier AI lab signals that established software giants are not merely adopting AI tools but racing to become AI-native companies and geopolitical players in their own right. The contrast between these moves and the ongoing AI talent arms race — with Anthropic systematically recruiting top executives from every major lab — underscores how intense competition for both compute and human capital has become across the industry.
+
+On the model competition front, China's Kimi K3 claiming the top spot on the frontend coding leaderboard is a reminder that the frontier AI race remains genuinely global and unpredictable. The market selloff that followed Kimi K3's rise reflects investor anxiety about the durability of US AI incumbents' advantages. Meanwhile, the approaching August 1 deadline for voluntary US government AI standards adds a policy dimension to watch closely: the framework's success or failure will determine whether the industry moves toward a collaborative safety regime or continues in a fragmented, lab-by-lab negotiation environment.
+
+---
+
+### Sources
+- Build Fast with AI: https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories (published 2026-07-20)
+- The Next Web: https://thenextweb.com/news/eu-google-android-ai-search-data-digital-markets-act (published 2026-07-20)
+- Digital CXO: https://digitalcxo.com/article/eu-orders-google-to-open-android-ai-features-and-search-data-to-rivals (published 2026-07-20)
+- Fast Company: https://www.fastcompany.com/91563655/oracle-layoffs-orcl-stock-21000-jobs-cut-amid-ai-shift-saas-apocalypse (published 2026-07-20)
+
+<!-- ZH -->
+### 頭條新聞
+
+---
+
+### 分析
+
+2026 年 7 月 20 日最具影響力的事件，當屬歐洲委員會依據《數位市場法》（DMA）對 Google 祭出的里程碑裁決。這項裁決要求 Google 向競爭性 AI 助理開放 Android 生態系統，並於 2027 年 1 月前與對手共享其珍貴的搜尋資料。對 OpenAI、Anthropic 及眾多 AI 新創而言，此裁決提供了一條合法進入逾 20 億支手機的管道，以及全球最具價值資料資產之一的獲取途徑。此舉不僅可能大幅重塑歐洲 AI 助理市場的競爭格局，更可能成為其他司法管轄區效仿的範本，令 Google 面臨在法規壓力下被迫扶植競爭對手的尷尬處境。
+
+與此同時，企業 AI 市場的結構重塑持續以驚人速度推進。甲骨文（Oracle）為資助 AI 基礎設施而進行的歷史性大裁員，是席捲企業軟體業「SaaS 末日」（SaaSpocalypse）浪潮的縮影——老牌業者以前所未有的規模，以 AI 資本支出換取人力成本。SAP 逾 10 億歐元押注歐洲前沿 AI 實驗室，則顯示傳統軟體巨頭不再只是採用 AI 工具，而是競相成為 AI 原生企業，並在地緣政治層面搶占一席之地。這些動向與業界激烈的人才爭奪戰——Anthropic 系統性地從各大實驗室招攬頂尖高管——共同揭示出算力與人才競爭的白熱化程度。
+
+在模型競賽層面，中國 Kimi K3 登頂前端編程排行榜再次印證，前沿 AI 競爭從未停止成為全球性的、充滿變數的角力。市場因此出現的拋售潮，折射出投資人對美國 AI 企業護城河能否長期維持的深層焦慮。與此同時，美國政府 AI 自願性標準即將於 8 月 1 日到期，此框架的成敗將決定業界能否走向協作式安全機制，抑或繼續在各實驗室各自為政的碎片化環境中打轉，值得高度關注。
+
+---
+
+### 來源
+- Build Fast with AI: https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories (published 2026-07-20)
+- The Next Web: https://thenextweb.com/news/eu-google-android-ai-search-data-digital-markets-act (published 2026-07-20)
+- Digital CXO: https://digitalcxo.com/article/eu-orders-google-to-open-android-ai-features-and-search-data-to-rivals (published 2026-07-20)
+- Fast Company: https://www.fastcompany.com/91563655/oracle-layoffs-orcl-stock-21000-jobs-cut-amid-ai-shift-saas-apocalypse (published 2026-07-20)
