@@ -3623,3 +3623,55 @@ On the model competition front, China's Kimi K3 claiming the top spot on the fro
 - The Next Web: https://thenextweb.com/news/eu-google-android-ai-search-data-digital-markets-act (published 2026-07-20)
 - Digital CXO: https://digitalcxo.com/article/eu-orders-google-to-open-android-ai-features-and-search-data-to-rivals (published 2026-07-20)
 - Fast Company: https://www.fastcompany.com/91563655/oracle-layoffs-orcl-stock-21000-jobs-cut-amid-ai-shift-saas-apocalypse (published 2026-07-20)
+
+## 2026-07-21 02:09
+
+<!-- EN -->
+### Headlines
+
+---
+
+### Analysis
+
+The week of July 21, 2026 underscores two seismic, intertwined forces reshaping the AI landscape: the U.S.-China technological rivalry and the accelerating battle over AI governance. China's Moonshot AI and its Kimi K3 model — the world's largest open-weight system at 2.8 trillion parameters — has sent shockwaves through Silicon Valley by matching or surpassing American frontier models in coding performance at a fraction of the cost. Simultaneously, the Trump administration is actively intervening in the AI product marketplace, restricting the rollout of OpenAI's GPT-5.6 Sol on national security grounds while launching the "Genesis Mission" to redirect federal scientific infrastructure toward AI-led discovery. These moves collectively suggest that AI is now firmly in the domain of statecraft, not merely corporate competition.
+
+The talent and capital dynamics at the lab level are equally telling. Nobel Prize winner John Jumper's departure from Google DeepMind for Anthropic, coupled with Meta's proposed $10 billion computing lease to Anthropic, reflects a consolidating hierarchy among frontier AI labs — with Anthropic emerging as the leading destination for elite scientific talent and compute partnerships. Meanwhile, Google faces mounting pressure over delays to Gemini 3.5 Pro and the loss of its most celebrated researcher. On the policy front, the tension between state-level AI regulation (now exceeding 100 new laws) and the federal push for preemption, combined with the SCSP's AI+ Discovery Summit in Washington, signals that 2026 is becoming a pivotal inflection point for how democratic governments structure their relationship with AI power.
+
+---
+
+### Sources
+
+- AMD: https://www.amd.com/en/corporate/events/advancing-ai.html (published 2026-07-21)
+- PYMNTS: https://www.pymnts.com/news/artificial-intelligence/2026/googles-nobel-winning-ai-expert-departing-for-anthropic (published 2026-07-21)
+- AP News: https://apnews.com/article/trump-ai-openai-gpt56-sol-cybersecurity-mythos-065d5398baac7f16c8265c2cb8ba2baa (published 2026-07-21)
+- UCToday: https://www.uctoday.com/talent-hcm-platforms/google-talent-moves-to-anthropic-raising-prospect-of-scientific-ai-push (published 2026-07-21)
+- Tech Policy Press: https://techpolicy.press/where-state-ai-legislation-stands-half-way-into-2026 (published 2026-07-21)
+- Federal News Network: https://federalnewsnetwork.com/artificial-intelligence/2026/07/the-administrations-new-ai-framework-includes-something-the-government-hasnt-had-before (published 2026-07-21)
+- The New York Times: https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html (published 2026-07-17)
+- Axios: https://www.axios.com/2026/07/16/moonshot-kimi-ai-china-model-openai-anthropic (published 2026-07-16)
+- ExecutiveGov: https://www.executivegov.com/articles/trump-genesis-mission-ai-eo-white-house (published 2026-07-13)
+
+<!-- ZH -->
+### 頭條新聞
+
+---
+
+### 分析
+
+2026 年 7 月 21 日當週，兩股相互交織的力量正劇烈重塑全球 AI 格局：中美科技競爭的白熱化，以及 AI 治理之爭的全面加速。中國月之暗面的 Kimi K3 以 2.8 兆參數成為全球最大開源模型，在程式碼能力上與美國頂尖模型並駕齊驅，甚至局部超越，且成本遠低於美國競品，在矽谷引發強烈震動。與此同時，川普政府正主動介入 AI 產品市場，一方面以國家安全為由限制 OpenAI 新模型發布，另一方面推出「Genesis Mission」以AI驅動聯邦科學研究。這些舉措共同表明，AI 已全面進入地緣政治的核心博弈領域，而非單純的企業競爭。
+
+在頂尖 AI 實驗室層面，人才與資本的流動同樣意味深長。諾貝爾獎得主 John Jumper 從 Google DeepMind 出走加入 Anthropic，加上 Meta 擬以百億美元向 Anthropic 出租算力，折射出前沿 AI 實驗室正在形成新的競爭格局——Anthropic 已成為頂尖科研人才與算力合作的首選目的地，而 Google 則面臨 Gemini 3.5 Pro 延期、核心科學家流失的雙重壓力。在政策層面，各州 AI 立法（已逾百項）與聯邦政府的取代州法之間的角力，加上 SCSP 在華盛頓舉辦的 AI+ 科學發現峰會，預示著 2026 年將成為民主國家政府如何定義其與 AI 權力關係的關鍵歷史轉折點。
+
+---
+
+### 來源
+
+- AMD: https://www.amd.com/en/corporate/events/advancing-ai.html (published 2026-07-21)
+- PYMNTS: https://www.pymnts.com/news/artificial-intelligence/2026/googles-nobel-winning-ai-expert-departing-for-anthropic (published 2026-07-21)
+- AP News: https://apnews.com/article/trump-ai-openai-gpt56-sol-cybersecurity-mythos-065d5398baac7f16c8265c2cb8ba2baa (published 2026-07-21)
+- UCToday: https://www.uctoday.com/talent-hcm-platforms/google-talent-moves-to-anthropic-raising-prospect-of-scientific-ai-push (published 2026-07-21)
+- Tech Policy Press: https://techpolicy.press/where-state-ai-legislation-stands-half-way-into-2026 (published 2026-07-21)
+- Federal News Network: https://federalnewsnetwork.com/artificial-intelligence/2026/07/the-administrations-new-ai-framework-includes-something-the-government-hasnt-had-before (published 2026-07-21)
+- The New York Times: https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html (published 2026-07-17)
+- Axios: https://www.axios.com/2026/07/16/moonshot-kimi-ai-china-model-openai-anthropic (published 2026-07-16)
+- ExecutiveGov: https://www.executivegov.com/articles/trump-genesis-mission-ai-eo-white-house (published 2026-07-13)
