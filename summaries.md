@@ -3675,3 +3675,73 @@ The talent and capital dynamics at the lab level are equally telling. Nobel Priz
 - The New York Times: https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html (published 2026-07-17)
 - Axios: https://www.axios.com/2026/07/16/moonshot-kimi-ai-china-model-openai-anthropic (published 2026-07-16)
 - ExecutiveGov: https://www.executivegov.com/articles/trump-genesis-mission-ai-eo-white-house (published 2026-07-13)
+
+## 2026-07-22 02:06
+
+<!-- EN -->
+### Headlines
+
+- **AMD Kicks Off "Advancing AI 2026" Conference in San Francisco:** AMD's flagship annual AI event opened today at Moscone Center (July 22–23), featuring CEO Dr. Lisa Su's keynote on next-generation AI compute infrastructure, including Instinct MI450 accelerators, Zen6-powered EPYC Venice CPUs, and the Helios rack-scale AI system. *(Source: AMD, July 22)*
+
+- **AMD Helios Rack-Scale AI System Lands Microsoft Azure as Customer:** AMD's Helios — its first integrated rack-scale AI system and direct challenger to Nvidia's Grace Blackwell and Vera Rubin platforms — secured Microsoft Azure as a flagship customer, alongside Meta, OpenAI, and Oracle; delivery is expected before end of 2026. *(Source: Quartz, July 20)*
+
+- **US Presidential AI Challenge Implementation Deadline Arrives:** Today marks the firm federal deadline under Executive Order 14277 for US agencies — including the Departments of Education and Labor and the OSTP — to implement the Presidential AI Challenge, a nationwide initiative to build AI literacy and skills among K-12 youth. *(Source: Regulations.ai, July 22)*
+
+- **Tennessee AI Advisory Council Holds Public Meeting:** The Tennessee Department of Finance and Administration convened its AI Advisory Council public meeting today (July 22), focusing on advancing the state's ethical and collaborative use of AI technologies across government services. *(Source: Tennessee Government, July 22)*
+
+- **EU Finalizes AI Act Transparency Code of Practice Ahead of August Deadline:** The EU published its final General-Purpose AI (GPAI) Transparency Code of Practice, giving AI providers a compliance roadmap ahead of the August 2026 deadline for AI Act transparency obligations. *(Source: TLT AI Brief, July 2026)*
+
+- **Coalition of State Attorneys General Launches Investigation into OpenAI:** A coordinated multi-state US attorney general investigation into OpenAI has been launched, adding significant legal pressure to the AI giant as it navigates its IPO strategy and government partnerships. *(Source: TechCrunch, June 13)*
+
+---
+
+### Analysis
+
+The opening of AMD's "Advancing AI 2026" conference today in San Francisco represents a pivotal moment in the AI hardware landscape. For years, Nvidia has held near-total dominance of data center AI compute — controlling over 95% of the GPU market — but AMD's Helios rack-scale system, now backed by Microsoft Azure, Meta, OpenAI, and Oracle as customers, is mounting the most credible hardware challenge yet. The integrated design of Helios, combining AMD's own GPUs, CPUs, networking chips, and software stack, mirrors Nvidia's full-system approach and signals that the competitive battleground has shifted from individual chips to end-to-end AI infrastructure platforms. Analysts at Futurum Group now project AMD could capture 20–25% of the data center GPU market, representing hundreds of billions in potential revenue.
+
+On the policy and regulatory front, July 22 marks a confluence of governance milestones. In the US, the federal deadline for implementing the Presidential AI Challenge underscores the administration's push to build grassroots AI literacy as a national competitiveness strategy. Meanwhile, the EU's finalization of its GPAI Transparency Code of Practice ahead of the August AI Act deadline shows that Europe is moving from legislation to enforcement-readiness. The multi-state attorney general investigation into OpenAI adds a new layer of domestic legal scrutiny to an industry that has largely operated under voluntary safety frameworks. Together, these developments suggest the era of largely unregulated AI development is drawing to a close, with both federal and state governments — and international regulators — asserting more structural oversight simultaneously.
+
+---
+
+### Sources
+
+- AMD (Advancing AI Conference page): https://www.amd.com/en/corporate/events/advancing-ai.html (published 2026-07-22)
+- Quartz: https://qz.com/microsoft-amd-helios-azure-ai-system-072026 (published 2026-07-20)
+- Regulations.ai: https://regulations.ai/news/us-agencies-presidential-ai-challenge-2026-deadline (published 2026-07-22)
+- Tennessee Government: https://www.tn.gov/finance/news/2026/7/15/tennessee-ai-advisory-council-meeting-on-july-22.html (published 2026-07-22)
+- TLT AI Brief: https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-july-2026 (published 2026-07-22)
+- TechCrunch: https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general (published 2026-06-13)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **AMD 於舊金山召開「Advancing AI 2026」年度大會：** AMD 旗艦年度 AI 大會今日（7 月 22 至 23 日）在莫斯康展覽中心正式開幕，執行長蘇姿丰（Lisa Su）發表主題演講，重點介紹新一代 AI 運算基礎架構，包括 Instinct MI450 加速器、Zen6 架構 EPYC Venice CPU，以及 Helios 機架式 AI 系統。*(來源：AMD，7 月 22 日)*
+
+- **AMD Helios 機架式 AI 系統獲微軟 Azure 採用：** AMD 首款整合式機架規模 AI 系統 Helios 是 Nvidia Grace Blackwell 與 Vera Rubin 平台的直接競爭對手，已獲微軟 Azure 作為主要客戶，另包含 Meta、OpenAI 及 Oracle，預計於 2026 年底前交付。*(來源：Quartz，7 月 20 日)*
+
+- **美國總統 AI 挑戰賽實施截止日期到來：** 今日是第 14277 號行政命令規定的聯邦截止日期，教育部、勞工部及科技政策辦公室（OSTP）等機構須完成「總統 AI 挑戰賽」的落地工作，旨在為全美中小學生建立 AI 素養與技能。*(來源：Regulations.ai，7 月 22 日)*
+
+- **田納西州 AI 諮詢委員會召開公開會議：** 田納西州財政暨行政部今日（7 月 22 日）召開 AI 諮詢委員會公開會議，聚焦於推動州政府以合乎倫理、協作共贏的方式應用 AI 技術。*(來源：田納西州政府，7 月 22 日)*
+
+- **歐盟在八月截止日前敲定 AI 法案透明度行為準則：** 歐盟發布通用 AI（GPAI）透明度行為準則最終版本，為 AI 提供商提供合規指引，以符合《AI 法案》於 2026 年 8 月生效的透明度義務。*(來源：TLT AI 簡報，7 月 2026 日)*
+
+- **多州總檢察長聯合啟動對 OpenAI 的調查：** 美國多個州總檢察長組成聯盟，對 OpenAI 展開協調一致的調查行動，在該公司籌備 IPO、推進政府合作之際，帶來重大法律壓力。*(來源：TechCrunch，6 月 13 日)*
+
+---
+
+### 分析
+
+AMD「Advancing AI 2026」大會今日在舊金山的開幕，標誌著 AI 硬體競爭格局的關鍵轉折點。多年來，Nvidia 幾乎壟斷了數據中心 AI 運算市場，GPU 市占率超過 95%。然而，AMD 的 Helios 機架式系統如今已獲微軟 Azure、Meta、OpenAI 及 Oracle 等重量級客戶背書，是迄今為止最具份量的硬體挑戰。Helios 將 AMD 自家的 GPU、CPU、網路晶片與軟體整合為一體的設計理念，與 Nvidia 的全系統策略如出一轍，顯示競爭主戰場已從單一晶片升級至端到端 AI 基礎架構平台。市場分析機構 Futurum Group 預測，AMD 最終可能奪取 20 至 25% 的數據中心 GPU 市場份額，對應數千億美元的潛在營收規模。
+
+在政策與監管層面，7 月 22 日同時匯聚了多項重要的治理里程碑。在美國，總統 AI 挑戰賽的聯邦實施截止日期彰顯了政府將基層 AI 素養視為國家競爭力核心戰略的決心。與此同時，歐盟在 AI 法案八月截止日前敲定 GPAI 透明度行為準則，標誌著歐洲正從立法階段邁入合規執法就緒階段。多州總檢察長聯合調查 OpenAI，更為這個長期在自願性安全框架下運行的產業增添了嚴峻的國內法律審查壓力。這些發展共同表明，AI 行業大規模無監管發展的時代正在落幕，美國聯邦與州政府，以及國際監管機構，正同步強化對這一領域的結構性監督。
+
+---
+
+### 來源
+
+- AMD（Advancing AI 大會頁面）: https://www.amd.com/en/corporate/events/advancing-ai.html (published 2026-07-22)
+- Quartz: https://qz.com/microsoft-amd-helios-azure-ai-system-072026 (published 2026-07-20)
+- Regulations.ai: https://regulations.ai/news/us-agencies-presidential-ai-challenge-2026-deadline (published 2026-07-22)
+- 田納西州政府: https://www.tn.gov/finance/news/2026/7/15/tennessee-ai-advisory-council-meeting-on-july-22.html (published 2026-07-22)
+- TLT AI 簡報: https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-july-2026 (published 2026-07-22)
+- TechCrunch: https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general (published 2026-06-13)
