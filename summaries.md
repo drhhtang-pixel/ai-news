@@ -3745,3 +3745,61 @@ AMD「Advancing AI 2026」大會今日在舊金山的開幕，標誌著 AI 硬�
 - 田納西州政府: https://www.tn.gov/finance/news/2026/7/15/tennessee-ai-advisory-council-meeting-on-july-22.html (published 2026-07-22)
 - TLT AI 簡報: https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-july-2026 (published 2026-07-22)
 - TechCrunch: https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general (published 2026-06-13)
+
+## 2026-07-23 02:13
+
+<!-- EN -->
+### Headlines
+
+---
+
+### Analysis
+
+Today's AMD "Advancing AI 2026" event in San Francisco crystallizes a broader industry inflection point: the competition for AI infrastructure supremacy is no longer solely NVIDIA's game. With Dr. Lisa Su unveiling next-generation Instinct MI450 accelerators and the Helios rack-scale system, AMD is directly challenging NVIDIA's dominance in the data center GPU market. The event's focus on sovereign AI infrastructure and agentic AI deployment blueprints reflects how enterprise demand has shifted from experimental pilots to production-grade, at-scale deployment — a maturation signal that is reshaping capital allocation across the entire AI stack.
+
+The talent and acquisition dynamics swirling around Anthropic tell an equally important story. The reported departure of Nobel laureate John Jumper and other senior DeepMind researchers to Anthropic, combined with the Physical Intelligence acquisition rumors, suggests that Anthropic is positioning itself not merely as a large language model company, but as a broad scientific and physical AI powerhouse. This mirrors a wider 2026 trend of frontier labs racing to acquire embodied AI and robotics capabilities — with OpenAI also on an active acquisition spree — as the next competitive frontier shifts from text generation toward AI that can act in the physical world.
+
+On the regulatory and market-economics fronts, the dual pressures of a price war (driven by Grok 4.5, Kimi K3, and others compressing token costs by 80–90%) and tightening governance (EU AI Act transparency obligations, US state AG investigations into OpenAI, and federal pre-release model screening) are fundamentally reshaping how AI companies must operate. The era of unchecked model launches and premium pricing is giving way to a more commoditized, compliance-conscious environment — forcing labs to compete on implementation quality, trust, and ecosystem integration rather than raw model capability alone.
+
+---
+
+### Sources
+
+- AMD Investor Relations: https://ir.amd.com/news-events/press-releases/detail/1283/amd-announces-advancing-ai-2026 (published 2026-07-23)
+- AMD Advancing AI 2026 Event Page: https://www.amd.com/en/corporate/events/advancing-ai/keynote.html (published 2026-07-23)
+- UC Today (Google DeepMind / Anthropic talent): https://www.uctoday.com/talent-hcm-platforms/google-talent-moves-to-anthropic-raising-prospect-of-scientific-ai-push (published 2026-07-23)
+- TechCrunch (Anthropic–Physical Intelligence): https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter (published 2026-07-21)
+- TechCrunch (OpenAI Codex Micro keyboard): https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex (published 2026-07-15)
+- Ars Technica (OpenAI Codex Micro): https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard (published 2026-07-23)
+- Oracle AI & Data Science Blog: https://blogs.oracle.com/ai-and-datascience/whats-new-in-ai-july-2026 (published 2026-07-23)
+- TLT AI Brief (EU/US policy): https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-july-2026 (published 2026-07-23)
+- kersai.com (AI model price war / July 2026 breakthroughs): https://kersai.com/ai-breakthroughs-july-2026 (published 2026-07-23)
+- llm-stats.com (Grok 4.5 / Kimi K3 releases): https://llm-stats.com/llm-updates (published 2026-07-23)
+
+<!-- ZH -->
+### 頭條新聞
+
+---
+
+### 分析
+
+今日AMD在舊金山舉辦的「Advancing AI 2026」活動，清晰呈現出AI基礎設施競爭的一個關鍵轉折點：AI算力霸權之爭已不再是英偉達（NVIDIA）的一言堂。蘇姿丰發布新一代Instinct MI450加速器與Helios機架級系統，正面挑戰英偉達在資料中心GPU市場的主導地位。本次活動聚焦於主權AI基礎設施與智能代理部署藍圖，反映出企業需求已從實驗性試點轉向大規模生產部署——這一成熟化訊號正在重塑整個AI技術堆疊的資本配置方向。
+
+圍繞Anthropic的人才與收購動向同樣意義深遠。諾貝爾獎得主John Jumper等資深DeepMind研究員據報轉投Anthropic，加之收購Physical Intelligence的傳聞，顯示Anthropic正將自身定位從大型語言模型公司，擴展為涵蓋科學研究與具身AI的全方位AI強權。這與2026年的整體趨勢相符——前沿AI實驗室競相收購具身AI與機器人技術，OpenAI亦正積極擴張，因為下一個競爭前沿正從文字生成轉向能夠在物理世界中行動的AI。
+
+在監管與市場經濟層面，模型價格戰（Grok 4.5、Kimi K3等將token成本壓縮80至90%）與日益收緊的治理框架（歐盟AI法案透明度義務、美國各州檢察長對OpenAI的調查、聯邦預發布模型審查機制）正在根本性地重塑AI公司的運營方式。不受限制的模型發布與高溢價定價時代正在落幕，取而代之的是更加商品化、更注重合規的市場環境——迫使各大實驗室的競爭重心從單純的模型能力，轉向落地品質、可信度與生態系整合能力。
+
+---
+
+### 來源
+
+- AMD Investor Relations: https://ir.amd.com/news-events/press-releases/detail/1283/amd-announces-advancing-ai-2026 (published 2026-07-23)
+- AMD Advancing AI 2026 主題演講頁面: https://www.amd.com/en/corporate/events/advancing-ai/keynote.html (published 2026-07-23)
+- UC Today（DeepMind人才動向）: https://www.uctoday.com/talent-hcm-platforms/google-talent-moves-to-anthropic-raising-prospect-of-scientific-ai-push (published 2026-07-23)
+- TechCrunch（Anthropic–Physical Intelligence）: https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter (published 2026-07-21)
+- TechCrunch（OpenAI Codex Micro鍵盤）: https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex (published 2026-07-15)
+- Ars Technica（OpenAI Codex Micro）: https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard (published 2026-07-23)
+- Oracle AI & Data Science Blog: https://blogs.oracle.com/ai-and-datascience/whats-new-in-ai-july-2026 (published 2026-07-23)
+- TLT AI Brief（歐盟／美國政策）: https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-july-2026 (published 2026-07-23)
+- kersai.com（AI模型價格戰）: https://kersai.com/ai-breakthroughs-july-2026 (published 2026-07-23)
+- llm-stats.com（Grok 4.5／Kimi K3發布）: https://llm-stats.com/llm-updates (published 2026-07-23)
