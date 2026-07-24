@@ -3803,3 +3803,75 @@ On the regulatory and market-economics fronts, the dual pressures of a price war
 - TLT AI Brief（歐盟／美國政策）: https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-july-2026 (published 2026-07-23)
 - kersai.com（AI模型價格戰）: https://kersai.com/ai-breakthroughs-july-2026 (published 2026-07-23)
 - llm-stats.com（Grok 4.5／Kimi K3發布）: https://llm-stats.com/llm-updates (published 2026-07-23)
+
+## 2026-07-24 02:10
+
+<!-- EN -->
+### Headlines
+
+- **Apple Sues OpenAI for Trade Secret Theft:** Apple filed a landmark federal lawsuit in Northern California alleging that former employees systematically stole confidential hardware designs, engineering specs, and product data for OpenAI's benefit, naming over 400 former Apple staff now at the AI company; OpenAI denied the allegations. *(Source: CNBC, July 10)*
+
+- **OpenAI Power Consolidates Under Greg Brockman Ahead of IPO:** After Chief Product Officer Fidji Simo stepped down due to chronic illness, OpenAI President and co-founder Greg Brockman assumed direct oversight of all major products and business lines, further centralizing leadership as the company prepares for a prospective public offering. *(Source: CNBC, July 10)*
+
+- **GPT-5.6 & Grok 4.5 Stage Historic Simultaneous Launch:** OpenAI publicly rolled out its GPT-5.6 family (Sol, Terra, and Luna variants) alongside the launch of GPT-Live-1 voice models, while xAI simultaneously released Grok 4.5 — a 1.5-trillion-parameter model optimized for agentic coding tasks — making July 10 one of the most competitive single-day model releases in AI history. *(Source: Allied Angels / AI News This Week, July 10)*
+
+- **AMD "Advancing AI 2026" Event Showcases Next-Gen AI Infrastructure:** AMD held its flagship Advancing AI 2026 conference in San Francisco on July 22–23, with CEO Dr. Lisa Su and key partners presenting blueprints for silicon-to-software AI scaling across enterprise and cloud environments. *(Source: AMD / StockTitan, July 22–23)*
+
+- **Lexington Institute Hosts Capitol Hill AI & Cyber Policy Conference:** The Lexington Institute convened a major conference on AI, cybersecurity, and tech policy priorities on July 24 in Washington D.C., bringing together lawmakers and industry experts to address urgent governance gaps in the rapidly evolving AI landscape. *(Source: Lexington Institute, July 24)*
+
+---
+
+### Analysis
+
+The past two weeks of AI news have been dominated by a fierce and accelerating race at the frontier model tier. The near-simultaneous launches of OpenAI's GPT-5.6 family and xAI's Grok 4.5 — along with Moonshot AI's Kimi K3 ascending to the top of multiple competitive leaderboards — signal that the gap between leading proprietary models and capable open-weight alternatives is narrowing faster than most analysts predicted. The imminent release of Kimi K3's open weights by July 27 could be a watershed moment: for the first time, the #1-ranked model on major coding and agent benchmarks may be freely downloadable, fundamentally disrupting the business models of closed-source AI providers.
+
+Corporate and legal dynamics are adding another layer of complexity to the landscape. Apple's lawsuit against OpenAI over alleged trade secret theft — involving over 400 former employees and highly specific allegations around hardware designs — marks an unprecedented collision between the two companies, which simultaneously maintain a commercial partnership for ChatGPT integration into Apple products. Meanwhile, OpenAI's internal consolidation under Greg Brockman, combined with its prospective IPO preparations, suggests the company is moving aggressively to streamline governance. These developments together paint a picture of an industry that is maturing rapidly, with intellectual property conflicts, leadership restructuring, and financial market ambitions all converging at once.
+
+On the policy front, the contrast between the U.S. federal government's active embrace of AI tools (reactivating Claude for government use) and its fragmented regulatory posture remains stark. The Lexington Institute's Capitol Hill conference on July 24 underscores growing urgency around governance frameworks, as state-level AI laws from California, Texas, Colorado, and Illinois continue to proliferate while a cohesive federal AI statute remains elusive. The dramatic drop in AI inference costs is expected to further accelerate enterprise adoption — making the need for clear, unified policy guardrails more pressing than ever.
+
+---
+
+### Sources
+
+> ⚠️ **Transparency Note:** My web searches were unable to surface confirmed article URLs published specifically on **2026-07-24**. The sources below are the closest available verified articles from this week. Per my strict rules, I am listing only sources with confirmed recent publication dates and direct article URLs. Any story for which only a non-July-24 URL was found is noted with its actual publication date.
+
+- CNBC (Apple/OpenAI Lawsuit): https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html (published 2026-07-10)
+- CNBC (Greg Brockman / IPO): https://www.cnbc.com/2026/07/10/openai-power-consolidates-under-co-founder-greg-brockman-ahead-of-ipo.html (published 2026-07-10)
+- Allied Angels / YouTube (GPT-5.6 & Grok 4.5): https://www.youtube.com/watch?v=ipmcNU10L_k (published 2026-07-10)
+- StockTitan (AMD Advancing AI 2026): https://stocktitan.net/news/AMD/amd-announces-advancing-ai-oolzs0lhx11a.html (event held 2026-07-22/23)
+- Lexington Institute (Capitol Hill AI Conference July 24): https://lexingtoninstitute.org/lexingtons-july-24-capitol-hill-conference-on-ai-cyber-tech (published 2026-07-24)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **蘋果起訴 OpenAI 竊取商業機密：** 蘋果在加州北區聯邦法院提起重大訴訟，指控前員工系統性地將機密硬體設計、工程規格及產品資料竊取至 OpenAI；OpenAI 否認所有指控，但逾 400 名前蘋果員工現已任職於 OpenAI 的事實引發廣泛關注。*(來源：CNBC，7 月 10 日)*
+
+- **OpenAI 權力向 Greg Brockman 集中，為 IPO 鋪路：** 首席產品官 Fidji Simo 因慢性病辭職後，OpenAI 共同創辦人暨總裁 Greg Brockman 正式接管所有主要產品與業務線，領導層進一步集中，公司 IPO 計畫持續推進。*(來源：CNBC，7 月 10 日)*
+
+- **GPT-5.6 與 Grok 4.5 史無前例同日上線：** OpenAI 推出 GPT-5.6 系列（Sol、Terra、Luna 三款）及新一代語音模型 GPT-Live-1，xAI 同步發布擁有 1.5 兆參數、專為智慧代理編程優化的 Grok 4.5，7 月 10 日成為 AI 歷史上競爭最激烈的單日模型發布日。*(來源：Allied Angels / AI News This Week，7 月 10 日)*
+
+- **AMD「Advancing AI 2026」大會展示下世代 AI 基礎架構：** AMD 於 7 月 22 至 23 日在舊金山舉辦旗艦 AI 年度盛會，執行長 Lisa Su 博士率領合作夥伴共同發表從晶片到軟體的全棧 AI 擴展藍圖，吸引企業與雲端生態系廣泛參與。*(來源：AMD / StockTitan，7 月 22–23 日)*
+
+- **列克星敦研究所舉辦國會山 AI 與網路安全政策峰會：** 列克星敦研究所於 7 月 24 日在華盛頓特區召開 AI、網路安全與科技政策優先議題峰會，立法者與業界專家齊聚討論快速演變的 AI 治理缺口。*(來源：Lexington Institute，7 月 24 日)*
+
+---
+
+### 分析
+
+過去兩週的 AI 新聞由前沿模型競賽主導，步伐之快令人矚目。OpenAI GPT-5.6 系列與 xAI Grok 4.5 幾乎同日上線，加之 Moonshot AI 的 Kimi K3 在多項競技排行榜上登頂，顯示頂級閉源模型與高能開源替代品之間的差距正以超乎預期的速度收窄。Kimi K3 計畫於 7 月 27 日釋出開放權重，若成行，這將是首次有排名第一的模型以可自由下載形式公開，有望從根本上顛覆閉源 AI 提供商的商業模式。
+
+企業法律動態亦為市場增添另一層複雜性。蘋果起訴 OpenAI 竊取商業機密一案，涉及逾 400 名前員工及高度具體的硬體設計指控，在雙方仍維持 ChatGPT 整合至蘋果產品商業合作的背景下，衝突尤為尖銳。與此同時，OpenAI 在 Greg Brockman 麾下加速整合內部領導架構，並積極籌備 IPO，彰顯該公司在商業化道路上的急切姿態。知識產權糾紛、領導層重組與資本市場野心三者同時交匯，說明整個 AI 行業正快速走向成熟。
+
+在政策層面，美國聯邦政府積極採納 AI 工具（如重啟 Claude 政府試用）與其破碎化監管立場之間的矛盾依然顯著。列克星敦研究所於 7 月 24 日召開的國會山峰會，反映治理框架的迫切需求正在上升，而加州、德州、科羅拉多州與伊利諾伊州的州級 AI 法規持續增加，聯邦統一立法仍遙遙無期。AI 推論成本的急劇下降將進一步加速企業採用，也使建立清晰、統一政策護欄的必要性更加突出。
+
+---
+
+### 來源
+
+> ⚠️ **透明聲明：** 本次搜尋未能找到確切發布於 **2026 年 7 月 24 日** 的完整文章 URL。以下來源為本週最接近今日的已核實文章，並標注實際發布日期。
+
+- CNBC（蘋果/OpenAI 訴訟）: https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html (published 2026-07-10)
+- CNBC（Greg Brockman / IPO）: https://www.cnbc.com/2026/07/10/openai-power-consolidates-under-co-founder-greg-brockman-ahead-of-ipo.html (published 2026-07-10)
+- Allied Angels / YouTube（GPT-5.6 與 Grok 4.5）: https://www.youtube.com/watch?v=ipmcNU10L_k (published 2026-07-10)
+- StockTitan（AMD Advancing AI 2026）: https://stocktitan.net/news/AMD/amd-announces-advancing-ai-oolzs0lhx11a.html (活動舉辦於 2026-07-22/23)
+- Lexington Institute（國會山 AI 峰會 7 月 24 日）: https://lexingtoninstitute.org/lexingtons-july-24-capitol-hill-conference-on-ai-cyber-tech (published 2026-07-24)
