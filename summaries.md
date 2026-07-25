@@ -3875,3 +3875,91 @@ On the policy front, the contrast between the U.S. federal government's active e
 - Allied Angels / YouTube（GPT-5.6 與 Grok 4.5）: https://www.youtube.com/watch?v=ipmcNU10L_k (published 2026-07-10)
 - StockTitan（AMD Advancing AI 2026）: https://stocktitan.net/news/AMD/amd-announces-advancing-ai-oolzs0lhx11a.html (活動舉辦於 2026-07-22/23)
 - Lexington Institute（國會山 AI 峰會 7 月 24 日）: https://lexingtoninstitute.org/lexingtons-july-24-capitol-hill-conference-on-ai-cyber-tech (published 2026-07-24)
+
+## 2026-07-25 02:09
+
+<!-- EN -->
+### Headlines
+
+- **OpenAI & Anthropic Subject to Trump Administration AI Model Vetting Framework:** Both companies have been navigating a government review process established by President Trump's June 2026 executive order, which requires frontier AI models to undergo up to 30 days of pre-release cybersecurity vetting — a dynamic that continued to generate debate this week over who controls AI model access. *(Source: SecurityWeek, June 26)*
+
+- **Meta and Anthropic in Advanced Talks for $10 Billion AI Compute Deal:** Meta is in discussions to lease AI computing power from its data centers to Anthropic in a deal potentially worth up to $10 billion over two years, a move that could open a new cloud infrastructure revenue stream for Meta and ease Anthropic's chip capacity constraints. *(Source: CNBC, July 17)*
+
+- **Google DeepMind Talent Exodus: Nobel Laureate John Jumper Among Key Departures to Anthropic:** Senior researchers — including AlphaFold lead and 2024 Nobel Chemistry laureate John Jumper, and Gemini co-lead Noam Shazeer — have departed Google DeepMind for rivals Anthropic and OpenAI respectively, marking one of the most significant talent shifts in AI history. *(Source: TechCrunch, June 20)*
+
+- **Anthropic's $1.5 Billion Copyright Settlement Approved:** A landmark legal settlement between Anthropic and copyright holders over AI training data has received court approval, setting a precedent for how AI companies compensate rights holders for material used to train large language models. *(Source: TechCrunch, July 20)*
+
+- **AI Music Generator Suno Breach Affects 55 Million Users:** A major cybersecurity incident at AI music platform Suno has exposed data belonging to approximately 55 million users, underscoring the growing attack surface of consumer AI platforms as reported by Have I Been Pwned. *(Source: TechCrunch, July 21)*
+
+- **Google Working on Custom AI Chip to Make Gemini More Efficient:** Google is developing a new in-house AI chip specifically designed to lower the cost and improve the efficiency of running its Gemini family of models, intensifying the competition in AI hardware. *(Source: TechCrunch, July 20)*
+
+- **OpenAI's First Hardware Device Reportedly a Screenless, Mobile Speaker:** OpenAI's first consumer hardware product is reportedly a screenless speaker that can move, signaling the company's ambition to expand beyond software into the physical AI device market. *(Source: TechCrunch, July 14)*
+
+- **Anthropic & Blackstone Bet the Next Trillion-Dollar AI Business Is Implementation:** Anthropic and private equity giant Blackstone are jointly arguing that the next wave of AI value creation will come not from building frontier models, but from deploying and implementing AI across enterprise workflows. *(Source: TechCrunch, July 15)*
+
+---
+
+### Analysis
+
+The week of July 25, 2026 crystallizes several macro-level forces reshaping the AI industry simultaneously. The ongoing tension between frontier AI labs and the Trump administration's cybersecurity vetting framework — which delayed public access to models like GPT-5.6 Sol and Anthropic's Claude Fable 5/Mythos 5 — represents an unprecedented experiment in government oversight of commercial AI. While the voluntary framework has allowed some flexibility, it has also raised serious questions about regulatory capture and unequal access, with critics warning that a system of government-approved AI distribution could entrench incumbents and disadvantage challengers.
+
+The talent war at the top of the AI sector is reaching a fever pitch. The departure of John Jumper — a Nobel laureate and one of the most celebrated researchers in AI's history — from Google DeepMind to Anthropic, alongside Noam Shazeer's move to OpenAI, signals that even Google's formidable research culture is struggling to retain elite talent. Anthropic in particular appears to be emerging as a magnet for top scientific minds, potentially positioning it for breakthroughs in AI-for-science applications beyond pure language modeling. This talent mobility is one of the clearest leading indicators of where competitive momentum in AI is heading.
+
+On the infrastructure and business model front, the reported Meta–Anthropic $10 billion compute deal and Anthropic's $1.5 billion copyright settlement together reveal a maturing industry grappling with scale and legal accountability. Meta's potential pivot to monetizing its vast data center capacity as a cloud competitor to CoreWeave illustrates how AI is reshaping traditional tech business models. Meanwhile, the Suno breach affecting 55 million users and the growing scrutiny of AI cybersecurity underscore that as AI platforms scale to mass-market audiences, security infrastructure is struggling to keep pace — a challenge that will only intensify as agentic AI systems gain broader autonomy.
+
+---
+
+### Sources
+
+- SecurityWeek: https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review/amp (published 2026-06-26)
+- CNBC: https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html (published 2026-07-17)
+- TechCrunch (John Jumper / DeepMind): https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic (published 2026-06-20)
+- TechCrunch (Anthropic copyright settlement): https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved (published 2026-07-20)
+- TechCrunch (Suno breach): https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned (published 2026-07-21)
+- TechCrunch (Google AI chip): https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient (published 2026-07-20)
+- TechCrunch (OpenAI hardware): https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move (published 2026-07-14)
+- TechCrunch (Anthropic & Blackstone): https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models (published 2026-07-15)
+
+---
+
+<!-- ZH -->
+### 頭條新聞
+
+- **OpenAI 與 Anthropic 持續應對川普政府 AI 模型審查框架：** 兩家公司持續在美國政府今年六月建立的前沿 AI 模型最長 30 天預發布網路安全審查機制下運營，此框架引發外界對政府是否過度掌控 AI 存取權限的廣泛爭議。*(來源：SecurityWeek，6 月 26 日)*
+
+- **Meta 與 Anthropic 洽談高達百億美元算力租賃協議：** Meta 正與 Anthropic 商討將其 AI 資料中心算力出租的合作，協議金額可能高達兩年 100 億美元，此舉有望為 Meta 開拓雲端基礎設施新業務，同時緩解 Anthropic 的晶片資源壓力。*(來源：CNBC，7 月 17 日)*
+
+- **Google DeepMind 人才大出走：諾貝爾獎得主 John Jumper 等人轉投 Anthropic：** AlphaFold 計畫負責人、2024 年諾貝爾化學獎得主 John Jumper，以及 Gemini 共同負責人 Noam Shazeer 相繼離開 Google DeepMind，分別加入 Anthropic 與 OpenAI，成為 AI 領域史上最受矚目的人才流動事件之一。*(來源：TechCrunch，6 月 20 日)*
+
+- **Anthropic 15 億美元版權和解獲法院批准：** Anthropic 與版權持有人就 AI 訓練數據使用問題達成的 15 億美元里程碑式和解協議已獲法院批准，為 AI 公司補償訓練數據版權方樹立了重要先例。*(來源：TechCrunch，7 月 20 日)*
+
+- **AI 音樂平台 Suno 遭駭，5,500 萬用戶數據外洩：** AI 音樂生成平台 Suno 發生重大資安事件，約 5,500 萬名用戶資料遭洩露，再次凸顯消費級 AI 平台在大規模擴張過程中面臨的嚴峻資安挑戰。*(來源：TechCrunch，7 月 21 日)*
+
+- **Google 研發專屬 AI 晶片以提升 Gemini 運算效率：** Google 正開發專為降低 Gemini 系列模型運算成本、提升效率而設計的自研 AI 晶片，進一步加劇 AI 硬體領域的競爭態勢。*(來源：TechCrunch，7 月 20 日)*
+
+- **OpenAI 首款硬體產品疑為可移動無螢幕智慧音箱：** 據報導，OpenAI 首款消費級硬體產品是一款可移動的無螢幕智慧音箱，標誌著該公司有意從純軟體業務擴展至實體 AI 裝置市場。*(來源：TechCrunch，7 月 14 日)*
+
+- **Anthropic 與黑石集團押注：AI 下一個兆元商機在「落地實施」：** Anthropic 與私募巨頭黑石集團共同主張，AI 下一波價值創造的核心不在於開發前沿模型本身，而在於將 AI 真正部署並整合至企業工作流程中。*(來源：TechCrunch，7 月 15 日)*
+
+---
+
+### 分析
+
+2026 年 7 月 25 日前後，多股宏觀力量同步重塑 AI 產業格局。川普政府針對前沿 AI 模型的網路安全審查框架持續引發爭議——GPT-5.6 Sol 及 Anthropic 的 Claude Fable 5、Mythos 5 等模型均因此延遲公開發布。這一「自願性」審查機制雖保留一定彈性，卻引發外界擔憂：政府主導的 AI 發布管控機制是否會固化現有龍頭地位、壓制後進競爭者，甚至形成監管俘虜風險。
+
+AI 頂尖人才的爭奪戰已白熱化。諾貝爾化學獎得主、Google DeepMind AlphaFold 計畫負責人 John Jumper 的離職，加上 Gemini 共同負責人 Noam Shazeer 轉投 OpenAI，顯示即便是 Google 引以為傲的研究文化，也難以留住頂尖人才。Anthropic 尤其成為頂級科學家的磁吸中心，有望在純語言模型之外，在「AI for Science」（科學 AI）領域取得突破性進展。人才的流向，是研判 AI 競爭格局走向最清晰的先行指標之一。
+
+在基礎設施與商業模式層面，Meta 與 Anthropic 潛在的百億美元算力交易，以及 Anthropic 15 億美元版權和解的獲批，共同揭示出一個正走向成熟、同時承受規模與法律雙重壓力的產業。Meta 有意將龐大資料中心容量貨幣化、挑戰 CoreWeave 等新興雲端競爭者，顯示 AI 正深刻重塑傳統科技公司的商業邏輯。與此同時，Suno 5,500 萬用戶資料外洩事件，以及業界對 AI 網路安全的日益重視，警示我們：隨著 AI 平台邁向大眾市場，安全基礎設施的建設速度遠遠跟不上產品擴張的腳步——而隨著自主 AI 代理（Agentic AI）應用範圍持續擴大，這一挑戰只會更加嚴峻。
+
+---
+
+### 來源
+
+- SecurityWeek: https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review/amp (published 2026-06-26)
+- CNBC: https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html (published 2026-07-17)
+- TechCrunch（John Jumper / DeepMind）: https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic (published 2026-06-20)
+- TechCrunch（Anthropic 版權和解）: https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved (published 2026-07-20)
+- TechCrunch（Suno 資料外洩）: https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned (published 2026-07-21)
+- TechCrunch（Google AI 晶片）: https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient (published 2026-07-20)
+- TechCrunch（OpenAI 硬體）: https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move (published 2026-07-14)
+- TechCrunch（Anthropic 與黑石）: https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models (published 2026-07-15)
