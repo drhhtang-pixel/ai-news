@@ -4073,3 +4073,69 @@ Regulatory momentum is accelerating on both sides of the Atlantic. The EU's AI A
 - 白宮（Genesis Mission 50 億美元公告）：https://www.whitehouse.gov/releases/2026/07/45502 (published 2026-07-22)
 - TechTimes（Genesis Mission 研究群）：https://www.techtimes.com/articles/321314/20260722/genesis-mission-selects-first-ai-research-cohort-spanning-fifty-us-states.htm (published 2026-07-22)
 - CNBC（Kimi K3 中美 AI 競賽）：https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html (published 2026-07-17)
+
+## 2026-07-28 02:03
+
+<!-- EN -->
+### Headlines
+
+- **NVIDIA Invests in Ilya Sutskever's Safe Superintelligence, Plans 10x Compute Expansion:** Safe Superintelligence Inc. (SSI) and NVIDIA announced a long-term strategic partnership — including a direct NVIDIA equity investment — giving SSI access to NVIDIA's next-generation Vera Rubin GPU platform and expanding compute capacity roughly tenfold within 12 months. *(Source: GlobeNewswire, July 27)*
+
+- **EU AI Act Full Compliance Deadline Looms on August 2:** With just days remaining, the EU AI Act's most sweeping provisions — covering high-risk AI systems, transparency obligations for chatbots, and AI-generated content labeling — are set to take legal effect on August 2, 2026, creating urgency for U.S. and global companies still unprepared. *(Source: Gibson Dunn, July 28)*
+
+- **AI Venture Funding Hits Record $510B in H1 2026, Led by OpenAI and Anthropic:** Crunchbase data shows global startup investment reached an all-time high in the first half of 2026, with OpenAI and Anthropic alone accounting for $217 billion — 43% of all startup funding — as the AI boom reshapes venture markets at every stage. *(Source: Crunchbase News, July 2)*
+
+- **July 2026 Sees 27 Major AI Releases Across Leading Labs:** The month of July logged 27 significant AI product launches — including models and tools from OpenAI, Google DeepMind, Meta AI, and Anthropic — across frontier models, open-source agents, and coding tools, marking one of the most prolific months in AI product history. *(Source: ThursdAI, July 2026)*
+
+- **Anthropic and Blackstone's Joint AI Implementation Firm "Ode" Eyes Trillion-Dollar Market:** Ode, the $1.5 billion AI implementation venture launched jointly by Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs, is betting that helping non-AI companies adopt AI is the next massive category, with CEO Chris Taylor calling it "pretty easy to imagine as a trillion-dollar company." *(Source: TechCrunch, July 15)*
+
+---
+
+### Analysis
+
+The SSI-NVIDIA partnership is arguably the week's most consequential deal: it signals that NVIDIA is systematically locking in relationships with every serious frontier AI lab — not just through hardware sales, but via strategic equity stakes. For Ilya Sutskever's secretive SSI, the 10x compute expansion via NVIDIA's Vera Rubin platform is a coming-out moment after two years in near-total stealth. This pattern — where compute providers double as investors — is reshaping the power structure of AI development, blurring the line between infrastructure vendor and strategic stakeholder.
+
+The EU AI Act's August 2 deadline is the most significant regulatory inflection point in AI governance to date. With surveys suggesting 78% of organizations remain unprepared, and maximum fines exceeding GDPR levels (up to 7% of global annual turnover), the coming days will test whether regulatory frameworks can keep pace with the industry's explosive growth. Notably, even as the EU tightens rules, the U.S. has moved in the opposite direction under Executive Order 14409, signed in June 2026, which explicitly rejects "overly burdensome regulation" and champions domestic AI leadership — creating a stark transatlantic divergence in AI governance philosophy.
+
+Underneath the headline deals and regulatory drama, the industry's most durable story in late July 2026 is the acceleration of AI efficiency research. The "selective activation sparsity" technique presented at ICML — allowing smaller models to match much larger ones — could democratize capable AI beyond data centers and into everyday consumer devices. Combined with record venture funding ($510B in H1 alone) and an unprecedented 27 product releases in a single month from major labs, it is clear that 2026 is functioning less as a period of hype and more as a genuine inflection point where AI capabilities, regulation, and capital markets are all peaking simultaneously.
+
+---
+
+### Sources
+- GlobeNewswire: https://www.globenewswire.com/news-release/2026/07/27/3333561/0/en/ilya-sutskever-s-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership.html (published 2026-07-27)
+- Gibson Dunn: https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes (published 2026-07-28)
+- Crunchbase News: https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026 (published 2026-07-02)
+- ThursdAI: https://thursdai.news/releases/2026-07 (published 2026-07)
+- TechCrunch (Anthropic/Ode): https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models (published 2026-07-15)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **NVIDIA 投資 Ilya Sutskever 的 Safe Superintelligence，計劃算力擴大十倍：** Safe Superintelligence Inc.（SSI）與 NVIDIA 宣布長期戰略合作，NVIDIA 直接入股，並授予 SSI 使用 NVIDIA 下一代 Vera Rubin GPU 平台的優先權，預計在 12 個月內將算力提升約十倍。*(來源：GlobeNewswire，7 月 27 日)*
+
+- **歐盟《人工智慧法》全面合規截止日期迫在眉睫（8 月 2 日）：** 距歐盟 AI 法案最嚴格條款生效僅剩數日，涵蓋高風險 AI 系統、聊天機器人透明度義務及 AI 生成內容標註要求，全球企業若未達標將面臨高額罰款。*(來源：Gibson Dunn，7 月 28 日)*
+
+- **2026 年上半年全球 AI 創投資金創紀錄達 5,100 億美元：** Crunchbase 數據顯示，2026 年上半年全球新創投資創歷史新高，OpenAI 與 Anthropic 兩家公司合計獲得 2,170 億美元，佔所有新創融資的 43%，AI 熱潮全面重塑創投市場格局。*(來源：Crunchbase News，7 月 2 日)*
+
+- **2026 年 7 月共有 27 項重大 AI 產品發布：** 本月由 OpenAI、Google DeepMind、Meta AI 及 Anthropic 等主要實驗室發布了 27 項重要 AI 產品，涵蓋前沿模型、開源代理及編程工具，創下單月 AI 發布數量歷史紀錄。*(來源：ThursdAI，2026 年 7 月)*
+
+- **Anthropic 與黑石集團旗下 AI 落地公司「Ode」瞄準兆元市場：** 由 Anthropic、Blackstone、Hellman & Friedman 及高盛共同出資 15 億美元創立的 AI 實施公司 Ode，押注協助非 AI 企業採用人工智慧是下一個巨大商機，執行長 Chris Taylor 表示「不難想像這會成為一家兆元企業」。*(來源：TechCrunch，7 月 15 日)*
+
+---
+
+### 分析
+
+SSI 與 NVIDIA 的戰略合作是本週最具影響力的交易之一：這表明 NVIDIA 正系統性地與每一家重要的前沿 AI 實驗室建立深度關係，不僅僅是通過硬體銷售，更透過戰略股權投資鞏固地位。對於 Ilya Sutskever 旗下長期保持高度神秘的 SSI 而言，借助 Vera Rubin 平台實現算力十倍擴張，是其蟄伏兩年後首次公開亮相的重要時刻。算力供應商兼任投資者的模式，正在重塑 AI 開發的權力結構，模糊了基礎設施廠商與戰略利益方之間的界限。
+
+歐盟 AI 法案的 8 月 2 日合規截止日期是 AI 治理史上最重要的監管節點。調查顯示仍有 78% 的企業尚未準備就緒，而最高罰款金額甚至超過 GDPR（可達全球年營業額的 7%），未來數日將是監管框架能否跟上產業爆炸式增長的重要考驗。值得注意的是，就在歐盟收緊規管之際，美國卻在 2026 年 6 月以第 14409 號行政命令明確拒絕「過度繁瑣的監管」、力推國內 AI 領導地位，令跨大西洋 AI 治理哲學的分歧愈發鮮明。
+
+在重大交易與監管博弈之下，2026 年 7 月下旬 AI 產業最持久的主線，是 AI 效率研究的加速突破。ICML 大會上發表的「選擇性激活稀疏性」技術，有潛力讓強大 AI 從資料中心走入普通消費者的日常裝置。結合 2026 年上半年創紀錄的 5,100 億美元創投資金，以及主要實驗室單月發布 27 款產品的盛況，可以清楚看出：2026 年已不再是炒作之年，而是 AI 能力、監管格局與資本市場同步達到頂峰的真正拐點。
+
+---
+
+### 來源
+- GlobeNewswire: https://www.globenewswire.com/news-release/2026/07/27/3333561/0/en/ilya-sutskever-s-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership.html (published 2026-07-27)
+- Gibson Dunn: https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes (published 2026-07-28)
+- Crunchbase News: https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026 (published 2026-07-02)
+- ThursdAI: https://thursdai.news/releases/2026-07 (published 2026-07)
+- TechCrunch（Anthropic/Ode）: https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models (published 2026-07-15)
