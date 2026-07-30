@@ -4219,3 +4219,75 @@ The training data crisis adds another layer of urgency. The practice of physical
 - Quartz: https://qz.com/ai-generated-podcasts-podslop-spotify-apple-podcasts (published 2026-07-29)
 - Financial Times: https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db (published 2026-07-29)
 - IAPP: https://iapp.org/news/a/congressional-stalemates-take-wind-out-of-us-digital-policy-sails (published 2026-07-29)
+
+## 2026-07-30 01:56
+
+<!-- EN -->
+### Headlines
+
+- **AI Leaders Call for Industry Slowdown After Security Scare:** Sam Altman and other prominent AI executives urged a measured pace for AI development following a significant security incident, marking one of the most notable calls for caution from within the industry itself. *(Source: CNA/AFP, July 30)*
+
+- **OpenAI Codex Platform Reports Massive User and Task Growth:** OpenAI released new economic data showing dramatic growth in active Codex users, with a tenfold increase in agent tasks running longer than eight hours, and a 13–50x surge in median developer token output year-over-year. *(Source: OpenAI, June 25)*
+
+- **50 Companies Sign Open-Weight AI Letter; Anthropic Left Out:** Nvidia, Microsoft, Meta, IBM, Palantir, Hugging Face, Y Combinator and others signed the "Open Weights and American AI Leadership" letter urging Washington not to restrict open-weight AI models, while Anthropic and Amazon notably abstained. *(Source: Forbes, July 25)*
+
+- **Prentis AI Lab — Co-Founded by Reid Hoffman and Marc Pincus — in Talks to Raise $100M at $1B Valuation:** The computer-use AI startup, launched only in April 2026, is reportedly raising at unicorn prices; its Hive-32B model claims to outperform GPT-5.4 and Claude Opus 4.6 on computer-use benchmarks at one-tenth the cost. *(Source: TechCrunch, July 24)*
+
+- **Celeris Launches Celeris-1, a Diffusion-Based LLM with 15x Faster Response Times:** Coming out of stealth, Celeris introduced a novel diffusion-architecture language model delivering near-GPT-5-level intelligence at 157ms median latency and 1,280 tokens per second throughput — dramatically outpacing autoregressive models — available via an OpenAI-compatible API. *(Source: Pure AI, July 27)*
+
+- **Insilico Medicine Cuts Drug Discovery to ~1 Year Using AI in China:** Hong Kong-listed Insilico Medicine's CEO confirmed the company's record is nine months to a developmental drug candidate, with a typical AI-assisted timeline of 13 months, sharply undercutting traditional Western pharmaceutical development cycles. *(Source: Reuters, July 23)*
+
+- **OpenAI Reports Coding Agents Accelerate Scientific Software Development:** A new OpenAI field report linked the deployment of coding agents to significantly faster science software builds, underscoring the growing role of AI in research workflows. *(Source: OpenAI, July 28)*
+
+### Analysis
+
+The week ending July 30, 2026 crystallized two defining fault lines in the AI industry. The first is the open-versus-closed model debate, now elevated to a geopolitical flashpoint. The "Open Weights and American AI Leadership" letter — backed by Nvidia, Microsoft, Meta, and over 20 other signatories — reflects a growing coalition that views open-weight AI as defensive infrastructure for U.S. competitiveness, not a security liability. Anthropic's conspicuous absence, amid allegations that China's Moonshot AI distilled Kimi K3 from its proprietary Fable 5, reveals how intellectual property concerns and commercial self-interest are fracturing Silicon Valley's once-unified stance. The Trump administration's posture — with Treasury Secretary Bessent floating sanctions for AI distillation — signals that AI model provenance is rapidly becoming a trade-policy issue on par with semiconductor export controls.
+
+The second fault line is agentic AI governance and safety. Google DeepMind's publication of its "AI Control Roadmap" — framing capable agents as potential insider threats — and the separate call from AI leaders for an industry slowdown following a security scare both underscore that the rapid scaling of long-running autonomous agents (evidenced by OpenAI Codex's 10x jump in tasks exceeding eight hours) is outpacing existing safety frameworks. Simultaneously, architectural innovation is accelerating: Celeris-1's diffusion-based model, delivering frontier-level intelligence at 15x lower latency, challenges the decade-long dominance of autoregressive architectures and hints at a new speed-intelligence frontier particularly suited to real-time agentic applications.
+
+Zooming out, the convergence of agentic AI with specialized domains — from Insilico Medicine compressing drug discovery to under a year, to Prentis automating complex office workflows at unicorn valuations — confirms that the center of gravity in AI is shifting from benchmark competition to real-world economic impact. The question is no longer which model scores highest, but which AI systems are actually reshaping industries, and who governs them.
+
+### Sources
+
+- CNA (AFP): https://www.channelnewsasia.com/business/ai-industry-slowdown-may-be-needed-after-security-scare-leaders-warn-6284401 (published 2026-07-30)
+- OpenAI: https://openai.com/index/how-agents-are-transforming-work (published 2026-06-25)
+- Forbes: https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic (published 2026-07-25)
+- TechCrunch: https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m (published 2026-07-24)
+- Pure AI: https://pureai.com/blogs/the-pure-ai-blog/2026/07/celeris-introduces-diffusion-based-ai-model.aspx (published 2026-07-27)
+- Reuters: https://www.reuters.com/business/healthcare-pharmaceuticals/ai-shortens-drug-discovery-around-1-year-china-insilico-ceo-says-2026-07-23 (published 2026-07-23)
+- OpenAI: https://openai.com/index/scientific-computing-agentic-ai (published 2026-07-28)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **AI 領袖在安全事故後呼籲放慢產業步伐：** 山姆·奧特曼等多位頂尖 AI 高管在一起重大安全事件發生後，公開呼籲 AI 開發應保持審慎步調，這是業界內部迄今最具份量的自我警示之聲。*(來源：CNA/AFP，7 月 30 日)*
+
+- **OpenAI Codex 平台用戶與任務大幅成長：** OpenAI 公布最新經濟數據，顯示 Codex 活躍用戶急速增加，執行超過八小時的智能體任務增加十倍，開發者每人每年 token 使用量年增 13 至 50 倍。*(來源：OpenAI，6 月 25 日)*
+
+- **逾 50 家企業聯署支持開放權重 AI，Anthropic 缺席：** Nvidia、微軟、Meta、IBM、Palantir、Hugging Face、Y Combinator 等機構聯署「開放權重與美國 AI 領導力」公開信，敦促華盛頓勿限制開放權重 AI 模型；Anthropic 與 Amazon 則明顯缺席。*(來源：Forbes，7 月 25 日)*
+
+- **Reid Hoffman 與 Marc Pincus 共同創辦的 Prentis AI 洽談以 10 億美元估值募資 1 億美元：** 這家僅於 2026 年 4 月成立的電腦操作 AI 新創，據報已以獨角獸估值進行融資洽談；其 Hive-32B 模型聲稱在電腦使用基準上超越 GPT-5.4 與 Claude Opus 4.6，且成本僅為十分之一。*(來源：TechCrunch，7 月 24 日)*
+
+- **Celeris 推出擴散架構語言模型 Celeris-1，速度較 GPT-5 快 15 倍：** AI 新創 Celeris 以全新擴散架構語言模型公開亮相，該模型達到接近 GPT-5 等級的智能表現，中位數回應延遲僅 157 毫秒，吞吐量達每秒 1,280 個 token，已透過相容 OpenAI 的 API 開放使用。*(來源：Pure AI，7 月 27 日)*
+
+- **Insilico Medicine 藉 AI 將中國新藥開發週期壓縮至約一年：** 香港上市的英矽智能（Insilico Medicine）執行長表示，結合前沿 AI 與中國研發生態系統，公司創下九個月完成候選藥物開發的紀錄，典型週期為 13 個月，遠優於傳統西方製藥流程。*(來源：Reuters，7 月 23 日)*
+
+- **OpenAI 報告顯示程式碼智能體加速科學軟體開發：** OpenAI 最新實地報告指出，部署程式碼智能體可顯著加快科學軟體的建構速度，凸顯 AI 在研究工作流程中日益重要的角色。*(來源：OpenAI，7 月 28 日)*
+
+### 分析
+
+截至 2026 年 7 月 30 日，AI 產業呈現兩條清晰的裂痕。第一條是開放模型與閉源模型之爭，已升級為地緣政治議題。以 Nvidia、微軟、Meta 為首的「開放權重聯署」顯示，愈來愈多科技巨頭將開放權重 AI 視為美國競爭力的防禦性基礎設施，而非安全隱患。Anthropic 的缺席——疊加中國 Moonshot AI 被指竊取其技術訓練 Kimi K3 的指控——揭示了知識產權爭議與商業利益如何撕裂矽谷原本看似一致的立場。美國財政部長貝森特將 AI 模型蒸餾比作「竊盜」並暗示制裁，意味著模型來源問題正快速演變為新的貿易政策戰場，重要性不亞於半導體出口管制。
+
+第二條裂痕是智能體 AI 的治理與安全。Google DeepMind 將高能力智能體定性為「內部威脅」並發布安全路線圖，加上 AI 領袖在安全事故後呼籲放慢步調，均清楚說明：長時間自主運行智能體的快速擴張（OpenAI Codex 超過八小時的任務量暴增十倍即為佐證），已超出現有安全框架的應對能力。與此同時，架構創新也在加速——Celeris-1 以擴散模型實現前沿智能與極低延遲的結合，挑戰了自回歸架構長達十年的主導地位，為即時智能體應用開闢了新的速度-智能邊界。
+
+從更宏觀的視角來看，AI 與垂直領域的深度融合——從 Insilico Medicine 將新藥開發壓縮至一年以內，到 Prentis 以獨角獸估值自動化複雜辦公流程——印證了 AI 競爭的重心已從模型基準分數，轉移至真實世界的經濟影響。問題不再是哪個模型的評分最高，而是哪些 AI 系統正在切實重塑產業，以及誰來治理它們。
+
+### 來源
+
+- CNA (AFP): https://www.channelnewsasia.com/business/ai-industry-slowdown-may-be-needed-after-security-scare-leaders-warn-6284401 (published 2026-07-30)
+- OpenAI: https://openai.com/index/how-agents-are-transforming-work (published 2026-06-25)
+- Forbes: https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic (published 2026-07-25)
+- TechCrunch: https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m (published 2026-07-24)
+- Pure AI: https://pureai.com/blogs/the-pure-ai-blog/2026/07/celeris-introduces-diffusion-based-ai-model.aspx (published 2026-07-27)
+- Reuters: https://www.reuters.com/business/healthcare-pharmaceuticals/ai-shortens-drug-discovery-around-1-year-china-insilico-ceo-says-2026-07-23 (published 2026-07-23)
+- OpenAI: https://openai.com/index/scientific-computing-agentic-ai (published 2026-07-28)
