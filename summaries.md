@@ -4291,3 +4291,85 @@ Zooming out, the convergence of agentic AI with specialized domains — from Ins
 - Pure AI: https://pureai.com/blogs/the-pure-ai-blog/2026/07/celeris-introduces-diffusion-based-ai-model.aspx (published 2026-07-27)
 - Reuters: https://www.reuters.com/business/healthcare-pharmaceuticals/ai-shortens-drug-discovery-around-1-year-china-insilico-ceo-says-2026-07-23 (published 2026-07-23)
 - OpenAI: https://openai.com/index/scientific-computing-agentic-ai (published 2026-07-28)
+
+## 2026-07-31 02:14
+
+<!-- EN -->
+### Headlines
+
+- **FTC Public Comment Period on AI Accuracy Policy Closes Today:** The Federal Trade Commission's deadline for public input on its proposed policy statement — targeting companies that suppress or alter truthful AI model outputs — expires today, July 31, 2026, marking a significant step in U.S. AI consumer-protection regulation. *(Source: Federal Register, July 31)*
+
+- **AI Legislative Update: State Laws Pile Up Ahead of August Regulatory Crunch:** A comprehensive tracker published today documents a surge of U.S. state AI bills, including New York's FAIR News Act (AI transparency for news media), children's chatbot safety laws, and surveillance-pricing bans, all awaiting gubernatorial signatures before year's end. *(Source: Transparency Coalition, July 31)*
+
+- **OpenAI Slashes GPT-5.6 Prices — Luna Down 80%, Terra Down 20%:** One day before today, OpenAI dramatically cut prices across its GPT-5.6 model family — with the entry-tier Luna model dropping 80% — making its frontier AI significantly more accessible for developers and enterprises. *(Source: OpenAI, July 30)*
+
+- **EU AI Act High-Risk Compliance Deadline Looms on August 2:** With just two days remaining, businesses worldwide are scrambling as the EU AI Act's enforcement powers over high-risk AI systems formally activate on August 2, 2026, even as a "Digital Omnibus" political agreement has deferred some high-risk system obligations to late 2027. *(Source: Gibson Dunn, July 31)*
+
+- **U.S. Voluntary AI Standards Deadline Set for August 1:** The Trump administration's June 2026 executive order mandated that NSA, Treasury, and CISA finalize a classified AI benchmarking process and developer-interaction framework by August 1, creating an unprecedented 24-hour governance window alongside the EU's August 2 deadline. *(Source: Morrison Foerster, July 31)*
+
+- **China's Open-Weight AI Models Now Dominate Global Token Usage:** Analysis circulating this week shows Chinese open-weight models — including DeepSeek, Qwen, Kimi, and MiniMax — now account for the majority of tokens processed on OpenRouter, with Kimi K3 (a 2.8-trillion-parameter open-weight model from Moonshot AI) emerging as a direct rival to top U.S. closed models. *(Source: DataGravity / Datagravity.dev, July 31)*
+
+- **Anthropic Claude Science Grants: Award Notifications Sent Today:** Anthropic's inaugural Claude Science grant program — offering up to $30,000 in API credits to 50 scientific research projects — sends out award notifications today (July 31), after applications closed July 15, kicking off projects running September through December 2026. *(Source: Anthropic, July 31)*
+
+- **Amazon Hikes 2026 Capex to $220 Billion Amid AI Infrastructure Boom:** Amazon announced a significant raise in its 2026 capital expenditure to $220 billion, citing surging demand for AI cloud infrastructure and higher memory costs, underscoring the extraordinary scale of AI investment across big tech. *(Source: CNBC, July 30)*
+
+---
+
+### Analysis
+
+The final day of July 2026 finds AI governance at a genuine inflection point. The closing of the FTC's public comment window on AI accuracy, combined with the imminent U.S. voluntary standards deadline (August 1) and the EU AI Act's enforcement activation (August 2), creates a 48-hour regulatory pileup unlike anything the industry has seen. This convergence reflects two competing philosophies playing out in real time: the American preference for voluntary, industry-led frameworks versus the EU's binding, risk-tiered mandates. The Trump administration's last-minute deferrals and its pressure on Brussels — which helped push some EU high-risk obligations to 2027 — reveal how geopolitics is now deeply entangled with AI rule-making. For enterprises caught in the middle, compliance teams face an exhausting and ambiguous week ahead.
+
+On the technology and market front, the most striking structural shift of mid-2026 is the rise of Chinese open-weight models. With DeepSeek, Qwen, Kimi K3, and others now commanding the majority of global token consumption on open routing platforms, the assumption that U.S. labs hold an unassailable lead is under serious pressure. This is compounded by OpenAI's aggressive price cuts to GPT-5.6 (Luna down 80%), which signal that the frontier model market is commoditizing faster than expected. Meanwhile, Amazon's $220 billion capex commitment and Anthropic's 20-year Kentucky data center lease illustrate that the physical infrastructure race is accelerating — even as the software and model layer becomes cheaper and more competitive. The simultaneous approach of Anthropic's IPO window this fall adds further urgency to every strategic move these companies make.
+
+---
+
+### Sources
+
+- Federal Register: https://www.federalregister.gov/documents/2026/07/07/2026-13628/policy-statement-concerning-the-suppression-of-accuracy-in-artificial-intelligence-systems (published 2026-07-31)
+- Transparency Coalition: https://www.transparencycoalition.ai/news/ai-legislative-update-july31-2026 (published 2026-07-31)
+- OpenAI: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6 (published 2026-07-30)
+- Gibson Dunn: https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes (published 2026-07-31)
+- Morrison Foerster: https://www.mofo.com/resources/insights/260605-trump-issues-executive-order-seeking-to-promote-collaboration (published 2026-07-31)
+- DataGravity (Datagravity.dev): https://www.datagravity.dev/p/chinas-open-weight-takeover (published 2026-07-31)
+- Anthropic: https://www.anthropic.com/news/claude-science-ai-workbench (published 2026-07-31)
+- CNBC: https://www.cnbc.com/2026/07/30/amazon-soars-after-ceo-makes-the-case-for-its-massive-ai-investment.html (published 2026-07-30)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **FTC AI 準確性政策公眾意見徵集期今日截止：** 美國聯邦貿易委員會針對「壓制或篡改AI模型真實輸出」行為的政策聲明，今日（7月31日）正式關閉公眾意見徵集，標誌著美國AI消費者保護監管邁出重要一步。*(來源：Federal Register，7 月 31 日)*
+
+- **AI 立法更新：多州法案堆積，迎接八月監管大限：** 今日發布的綜合追蹤報告顯示，美國各州 AI 法案激增，包括紐約州的《FAIR 新聞法》（新聞媒體 AI 透明度要求）、兒童聊天機器人安全法及監控定價禁令等，均等待州長簽署。*(來源：Transparency Coalition，7 月 31 日)*
+
+- **OpenAI 大幅削減 GPT-5.6 定價，Luna 降價 80%：** 昨日，OpenAI 對其 GPT-5.6 系列模型進行大幅降價，入門級 Luna 模型降幅達 80%，Terra 降幅達 20%，大幅降低開發者與企業的使用門檻。*(來源：OpenAI，7 月 30 日)*
+
+- **歐盟 AI 法案高風險系統合規大限後天逼近：** 歐盟 AI 法案將於 8 月 2 日正式對高風險 AI 系統啟動執法權，全球企業正在緊急備戰，儘管「數位綜合法案」已將部分高風險義務推遲至 2027 年底。*(來源：Gibson Dunn，7 月 31 日)*
+
+- **美國自願性 AI 標準明日截止：** 特朗普政府今年 6 月的行政命令要求 NSA、財政部及 CISA 在 8 月 1 日前完成機密 AI 基準測試流程及開發者互動框架，與歐盟 8 月 2 日大限形成前所未有的「24 小時監管洪峰」。*(來源：Morrison Foerster，7 月 31 日)*
+
+- **中國開源模型已主導全球代幣使用量：** 最新分析顯示，DeepSeek、Qwen、Kimi 及 MiniMax 等中國開源模型，目前已佔 OpenRouter 平台全球代幣處理量的多數份額；月之暗面發布的 Kimi K3（2.8 兆參數開源模型）更直接媲美美國頂尖閉源模型。*(來源：DataGravity，7 月 31 日)*
+
+- **Anthropic Claude 科學補助獎項今日公布：** Anthropic 首屆 Claude Science 補助計畫（每項目最高提供 3 萬美元 API 使用額度，共 50 個科研項目）今日（7 月 31 日）寄出得獎通知，項目將於 9 月至 12 月間執行。*(來源：Anthropic，7 月 31 日)*
+
+- **亞馬遜將 2026 年資本支出提升至 2,200 億美元：** 亞馬遜宣布大幅調高今年資本支出至 2,200 億美元，理由是 AI 雲端基礎設施需求激增及記憶體成本上升，彰顯大型科技公司在 AI 基礎建設的驚人投入規模。*(來源：CNBC，7 月 30 日)*
+
+---
+
+### 分析
+
+2026 年 7 月最後一天，AI 監管正站在真正的歷史轉折點。FTC 公眾意見徵集截止、美國自願性標準大限（8 月 1 日）與歐盟 AI 法案執法啟動（8 月 2 日）在 48 小時內接踵而至，形成前所未有的監管風暴。這場巧合折射出兩種截然不同的治理哲學的正面交鋒：美國傾向自律、由行業主導的框架，歐盟則堅持具法律約束力的風險分級監管制度。特朗普政府向布魯塞爾施壓並成功推動部分高風險義務延期至 2027 年，清楚顯示地緣政治已深度介入 AI 規則制定。對夾在中間的跨國企業而言，合規團隊未來一週將面臨極度艱難且充滿不確定性的挑戰。
+
+在技術與市場層面，2026 年中最引人注目的結構性轉變，當屬中國開源模型的強勢崛起。DeepSeek、Qwen、Kimi K3 等模型已佔據全球開源路由平台的主流份額，嚴重衝擊「美國實驗室擁有不可撼動領先地位」的既有認知。與此同時，OpenAI 對 GPT-5.6 的激進降價（Luna 降幅達 80%），顯示前沿模型市場正在以超出預期的速度走向商品化。亞馬遜 2,200 億美元的資本支出承諾與 Anthropic 簽下的肯塔基州 20 年數據中心租約，則表明 AI 基礎設施競賽仍在全速加速——即便軟體與模型層已愈來愈廉價且競爭激烈。加之 Anthropic 今秋 IPO 窗口日益臨近，各家頭部企業的每一步戰略決策都承受著前所未有的壓力。
+
+---
+
+### 來源
+
+- Federal Register: https://www.federalregister.gov/documents/2026/07/07/2026-13628/policy-statement-concerning-the-suppression-of-accuracy-in-artificial-intelligence-systems (published 2026-07-31)
+- Transparency Coalition: https://www.transparencycoalition.ai/news/ai-legislative-update-july31-2026 (published 2026-07-31)
+- OpenAI: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6 (published 2026-07-30)
+- Gibson Dunn: https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes (published 2026-07-31)
+- Morrison Foerster: https://www.mofo.com/resources/insights/260605-trump-issues-executive-order-seeking-to-promote-collaboration (published 2026-07-31)
+- DataGravity: https://www.datagravity.dev/p/chinas-open-weight-takeover (published 2026-07-31)
+- Anthropic: https://www.anthropic.com/news/claude-science-ai-workbench (published 2026-07-31)
+- CNBC: https://www.cnbc.com/2026/07/30/amazon-soars-after-ceo-makes-the-case-for-its-massive-ai-investment.html (published 2026-07-30)
