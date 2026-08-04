@@ -4605,3 +4605,87 @@ The economic data reinforces the urgency. IBM's finding that AI-enabled breaches
 - Black Hat: https://blackhat.com/us-26/ai-summit.html (published 2026-08-03)
 - Fortune: https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face (published 2026-07-21)
 - 新華社: http://www.xinhuanet.com/english/europe/20260731/8a6f89bfe24e417eba9961130560dda4/c.html (published 2026-07-31)
+
+## 2026-08-04 02:01
+
+<!-- EN -->
+### Headlines
+
+- **White House Hosts Major AI Safety Summit with OpenAI, Google, Anthropic, and Meta:** The Trump administration convened top AI executives at the White House on August 4 to discuss a new voluntary framework for government safety testing of frontier AI models, including early-access review windows before deployment. *(Source: The Straits Times, August 4)*
+
+- **US Voluntary AI Safety Framework Finalized — 30-Day Pre-Release Testing Window Agreed:** The framework, rooted in Executive Order 14409 signed June 2, 2026, establishes a voluntary pre-release review period that was trimmed from 90 to 30 days after industry pushback over competitiveness concerns vis-à-vis Chinese AI labs. *(Source: Crypto Briefing, August 4)*
+
+- **EU AI Act Enters Full Enforcement Mode — Transparency Rules Now Live:** As of August 2, the European AI Office and member-state authorities began actively enforcing the EU AI Act, requiring chatbots to identify themselves as AI, mandating labels on deepfakes and AI-generated content, and subjecting general-purpose AI model providers to documentation and copyright compliance rules — with fines up to €15 million or 3% of global turnover. *(Source: European Commission, August 4)*
+
+- **Ai4 2026 — America's Largest AI Conference — Kicks Off in Las Vegas:** The flagship Ai4 conference opened its main programming on August 4 at The Venetian in Las Vegas, drawing 12,000+ attendees from 90+ countries, 1,000+ speakers, and 400+ exhibitors, with keynotes and sessions focused on agentic AI, infrastructure, and responsible enterprise deployment. *(Source: Ai4 / Cisco, August 4)*
+
+- **DeepSeek V4 Flash Ignites Global AI Price War:** DeepSeek's newest model, V4 Flash, debuted near the top of front-end coding leaderboards while undercutting rivals on price — charging as little as $0.28 per million output tokens — intensifying pressure on U.S. labs and demonstrating that frontier AI capabilities are rapidly commoditizing. *(Source: Axios, August 4)*
+
+- **Anthropic's Run-Rate Revenue Hits $30B, Tripling Since January:** Fueled by surging enterprise demand, Anthropic reported its revenue run-rate has tripled to $30B since January 2026 and its base of $1M+ enterprise customers has doubled to 1,000+, underpinning its landmark expanded compute deal with Google and Broadcom for multiple gigawatts of next-generation TPU capacity. *(Source: TechCrunch / CFA UK, August 4)*
+
+- **OpenAI Pushes GPT-5.6 Luna Pricing Down 80% to $0.20 per Million Tokens:** As part of an accelerating industry-wide price war, OpenAI slashed the cost of its GPT-5.6 Luna model, with ChatGPT now serving approximately 1 billion weekly active users, signaling that frontier AI access has entered a mass-market phase. *(Source: AIApps.com, August 4)*
+
+- **Minnesota Deepfake Law Takes Effect, Banning Nonconsensual AI-Generated Imagery:** Minnesota's first-of-its-kind legislation, now in force, prohibits apps that generate nonconsensual sexualized AI images and imposes fines of up to $500,000 per violation, setting a new state-level benchmark for AI content regulation in the United States. *(Source: AIApps.com, August 4)*
+
+---
+
+### Analysis
+
+The most consequential story of August 4, 2026 is the convergence of regulatory pressure on both sides of the Atlantic. The White House AI safety summit — bringing together OpenAI, Google, Anthropic, and Meta under one roof — marks a notable pivot for the Trump administration, which had previously taken a largely hands-off posture toward the AI industry. The voluntary framework being discussed signals that Washington is feeling urgency, particularly as a wave of capable, low-cost Chinese models like DeepSeek V4 Flash continue to close the gap with U.S. frontier labs. The fact that the originally proposed 90-day pre-release testing window was cut to just 30 days illustrates the ongoing tension between national security imperatives and the competitive pressures of a global AI race. Simultaneously, the EU AI Act's full enforcement activation underscores a diverging transatlantic approach: Europe is moving toward mandatory, binding rules while the U.S. continues to favor industry self-governance — creating a complex dual-compliance environment for global AI companies.
+
+On the market side, the economic dynamics of AI are shifting dramatically. The DeepSeek V4 Flash launch — delivering near-frontier coding performance at commodity prices — accelerated an industry-wide race to zero on inference costs, forcing OpenAI to slash GPT-5.6 Luna pricing by 80%. This deflationary pressure is reshaping competitive strategy: the battle is no longer purely about model intelligence, but about distribution scale, enterprise relationships, and infrastructure control. Anthropic's tripling of revenue to a $30B run-rate and its massive compute expansion deal with Google and Broadcom exemplifies how leading labs are responding — locking in gigawatts of dedicated TPU capacity to guarantee supply-side advantages as demand soars. With ChatGPT crossing 1 billion weekly active users and AI Mode in Google Search surpassing 1 billion monthly users, AI has unmistakably entered the era of mass-market ubiquity.
+
+The Ai4 2026 conference opening in Las Vegas on August 4 serves as a live barometer of where enterprise AI investment is flowing: agentic systems, AI infrastructure security, and responsible deployment frameworks dominated the agenda. The state-level regulatory action in Minnesota — targeting nonconsensual deepfakes — points to a fragmented U.S. regulatory landscape emerging even as federal voluntary frameworks take shape. Together, these developments paint a picture of an AI industry at a decisive inflection point: costs falling, capabilities commoditizing, regulation tightening, and the geopolitical stakes rising sharply ahead of the upcoming U.S.-China summit where AI leadership will be a central agenda item.
+
+---
+
+### Sources
+- The Straits Times: https://www.straitstimes.com/world/openai-anthropic-google-to-join-white-house-ai-safety-meeting (published 2026-08-04)
+- South China Morning Post: https://www.scmp.com/news/us/diplomacy/article/3362852/us-tech-giants-invited-discuss-ai-security-tests-white-house (published 2026-08-04)
+- Crypto Briefing: https://cryptobriefing.com/us-government-voluntary-ai-safety-tests-framework (published 2026-08-04)
+- European Commission: https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en (published 2026-08-04)
+- Axios: https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war (published 2026-08-04)
+- TechCrunch: https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus (published 2026-08-04)
+- AIApps.com: https://www.aiapps.com/blog/ai-news-august-breakthroughs-launches-trends-cant-miss (published 2026-08-04)
+- Ai4 / Cisco: https://www.cisco.com/site/us/en/learn/events/ai4.html (published 2026-08-04)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **白宮召開 AI 安全峰會，OpenAI、Google、Anthropic 及 Meta 齊聚：** 川普政府於 8 月 4 日在白宮邀集各大 AI 企業高層，討論針對前沿 AI 模型的自願性政府安全測試新框架，包括部署前的早期接入審查窗口。*(來源：The Straits Times，8 月 4 日)*
+
+- **美國自願性 AI 安全框架定案，確立 30 天部署前測試窗口：** 該框架依據 2026 年 6 月 2 日簽署的第 14409 號行政命令建立，原提案的 90 天審查期因業界擔憂在與中國 AI 競賽中落於下風而縮短至 30 天。*(來源：Crypto Briefing，8 月 4 日)*
+
+- **歐盟 AI 法案正式全面執法，透明度規定即日生效：** 自 8 月 2 日起，歐洲 AI 辦公室與各成員國主管機關開始執行 AI 法案，要求聊天機器人自我揭露 AI 身份、深度偽造與 AI 生成內容必須加標籤，違規最高可罰款 1,500 萬歐元或全球營業額的 3%。*(來源：歐盟執委會，8 月 4 日)*
+
+- **美國最大 AI 大會 Ai4 2026 於拉斯維加斯盛大開幕：** 旗艦會議 Ai4 於 8 月 4 日在拉斯維加斯威尼斯人度假村正式展開主論壇，吸引來自 90 多個國家逾 1.2 萬名與會者、1,000 多位講者及 400 多家展商，議題聚焦代理型 AI、基礎設施及企業負責任部署。*(來源：Ai4 / Cisco，8 月 4 日)*
+
+- **DeepSeek V4 Flash 引爆全球 AI 價格戰：** DeepSeek 最新模型 V4 Flash 在前端程式碼排行榜上名列前茅，每百萬輸出 Token 僅收 0.28 美元，對美國各大 AI 實驗室造成巨大壓力，顯示前沿 AI 能力正迅速商品化。*(來源：Axios，8 月 4 日)*
+
+- **Anthropic 年化營收飆升至 300 億美元，較 1 月增加兩倍：** 受企業需求暴增驅動，Anthropic 的年化營收自今年 1 月以來增至三倍達 300 億美元，百萬美元以上企業客戶數翻倍至逾 1,000 家，並進一步擴大與 Google 及博通的運算合作，取得多千兆瓦的新世代 TPU 算力。*(來源：TechCrunch，8 月 4 日)*
+
+- **OpenAI 將 GPT-5.6 Luna 定價砍低八成至每百萬 Token 0.2 美元：** 在業界全面降價競賽中，OpenAI 大幅下調 GPT-5.6 Luna 費率，目前 ChatGPT 每週活躍用戶約達 10 億人，標誌著前沿 AI 已正式進入大眾普及階段。*(來源：AIApps.com，8 月 4 日)*
+
+- **明尼蘇達州深度偽造法正式生效，禁止 AI 生成非自願性色情內容：** 明尼蘇達州創新立法禁止生成非自願性色情化 AI 圖像的應用程式，並對每次違規最高處以 50 萬美元罰款，為美國州級 AI 內容監管樹立新標竿。*(來源：AIApps.com，8 月 4 日)*
+
+---
+
+### 分析
+
+2026 年 8 月 4 日最關鍵的主軸，是大西洋兩岸監管壓力的同步收緊。白宮 AI 安全峰會將 OpenAI、Google、Anthropic 和 Meta 齊聚一堂，標誌著川普政府在 AI 政策上的重大轉向——此前以放任自由著稱的立場，如今因 DeepSeek V4 Flash 等低成本中國模型持續縮小與美國前沿實驗室的差距而出現明顯調整。原本提議的 90 天測試窗口被縮短為 30 天，清楚揭示國家安全需求與全球 AI 競爭壓力之間的持續矛盾。與此同時，歐盟 AI 法案的全面執法象徵跨大西洋監管路線的分歧：歐洲走向強制性法規，美國則堅持業界自律，令全球 AI 企業須同時因應兩套截然不同的合規體系。
+
+從市場角度看，AI 的經濟模式正在發生根本性轉變。DeepSeek V4 Flash 以近前沿性能配合超低定價震撼市場，倒逼 OpenAI 將 GPT-5.6 Luna 大砍八成，揭示推論成本正加速趨近於零。競爭焦點已不再是單純的模型智能高下，而是轉向分發規模、企業關係與基礎設施掌控力。Anthropic 年化營收三倍增長，以及與 Google 和博通攜手鎖定多千兆瓦 TPU 算力的大規模擴張，正是頭部實驗室應對這一局面的典型回應。ChatGPT 週活躍用戶突破 10 億、Google AI Mode 月活超過 10 億，更清楚表明 AI 已毫無疑問進入全民普及的新紀元。
+
+Ai4 2026 大會在拉斯維加斯的開幕，成為企業 AI 投資流向的活生生晴雨表：代理型系統、AI 基礎設施安全與負責任部署框架主導了全場議題。明尼蘇達州針對深度偽造的州級立法，則預示著即便聯邦自律框架仍在建構中，美國的監管格局已朝碎片化方向演進。綜觀這一切，AI 產業正站在決定性的歷史轉折點：成本下行、能力商品化、監管趨嚴，而隨著美中峰會臨近，AI 主導權的地緣政治博弈也將急遽升溫。
+
+---
+
+### 來源
+- The Straits Times: https://www.straitstimes.com/world/openai-anthropic-google-to-join-white-house-ai-safety-meeting (published 2026-08-04)
+- South China Morning Post: https://www.scmp.com/news/us/diplomacy/article/3362852/us-tech-giants-invited-discuss-ai-security-tests-white-house (published 2026-08-04)
+- Crypto Briefing: https://cryptobriefing.com/us-government-voluntary-ai-safety-tests-framework (published 2026-08-04)
+- 歐盟執委會: https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en (published 2026-08-04)
+- Axios: https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war (published 2026-08-04)
+- TechCrunch: https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus (published 2026-08-04)
+- AIApps.com: https://www.aiapps.com/blog/ai-news-august-breakthroughs-launches-trends-cant-miss (published 2026-08-04)
+- Ai4 / Cisco: https://www.cisco.com/site/us/en/learn/events/ai4.html (published 2026-08-04)
