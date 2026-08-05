@@ -4689,3 +4689,89 @@ Ai4 2026 大會在拉斯維加斯的開幕，成為企業 AI 投資流向的活�
 - TechCrunch: https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus (published 2026-08-04)
 - AIApps.com: https://www.aiapps.com/blog/ai-news-august-breakthroughs-launches-trends-cant-miss (published 2026-08-04)
 - Ai4 / Cisco: https://www.cisco.com/site/us/en/learn/events/ai4.html (published 2026-08-04)
+
+## 2026-08-05 02:00
+
+<!-- EN -->
+### Headlines
+
+- **AI Policy 100 Unveiled at Ai4 Policy Summit:** The third annual AI Policy Summit, held on August 5 at The Venetian in Las Vegas as part of the Ai4 2026 conference, debuted the "AI Policy 100" — a scored ranking of the individuals and organizations most influential in shaping AI legislation and governance globally. *(Source: RegulatingAI / Ai4, August 5)*
+
+- **Ai4 2026 Conference Day Two Underway in Las Vegas:** America's largest AI conference, drawing 12,000+ attendees from 90+ countries with 1,000+ speakers, continued its second full day of programming on August 5, featuring keynotes, track sessions, and policy debates headlined by AI luminaries including Geoffrey Hinton, Fei-Fei Li, and Andrew Ng. *(Source: Ai4, August 5)*
+
+- **EU AI Act Enforcement Now Active — Fines and Transparency Rules in Force:** Following the August 2 enforcement start date, the European Commission's AI Office — staffed with 38 new case officers — is now actively investigating potential violations; Article 50 transparency rules requiring chatbot disclosure and AI-content labeling carry fines of up to €15 million or 3% of global turnover, with deepfake labeling obligations also now mandatory. *(Source: Cooley / European Commission, August 3–5)*
+
+- **IBM Report: One in Four Cyberattacks Now AI-Enabled, Average Breach Cost Hits $4.99M:** IBM's 2026 Cost of a Data Breach Report, drawing on 602 organizations across 16 countries, found AI-driven attacks surged 56%, with AI-enabled breaches averaging $6 million in losses — $1 million above the global mean — while 68% of breached organizations had no AI governance policy in place. *(Source: Mexico Business News / IBM, July 29–August 5)*
+
+- **AI Model Race Intensifies: GPT-5.6, Claude Sonnet 5, DeepSeek-V4-Flash Among Latest Releases:** August 2026 continues a rapid-fire model release cadence, with OpenAI's GPT-5.6 family (Luna, Terra, Sol) in general availability, Anthropic's Claude Sonnet 5 serving as the new default model, Google's Gemini 3.6 Flash live, and DeepSeek-V4-Flash-0731 drawing attention as a cost-competitive alternative from China. *(Source: AI Tools Recap / LLM Stats, August 5)*
+
+- **AI Replacing Nurses? Healthcare AI Deployment Sparks Debate:** A growing conversation around AI systems taking on clinical nursing roles in New York City — surfaced prominently in compliance and healthcare media — is raising ethical and regulatory questions about where autonomous AI decision-making should and should not be deployed in patient care settings. *(Source: Prism Reports, August 3)*
+
+- **EU High-Risk AI Obligations Delayed; Digital Omnibus Reshapes Compliance Timeline:** As a result of the Digital Omnibus (Regulation (EU) 2026/1744), high-risk AI system obligations — including those for credit scoring and insurance pricing — have been pushed to December 2027, while product-related AI obligations extend to August 2028, giving businesses additional runway while core transparency rules remain in full force now. *(Source: AI Act Blog / ComplianceHub Wiki, August 5)*
+
+---
+
+### Analysis
+
+The week of August 5, 2026 marks a genuine inflection point for AI governance. The EU AI Act's enforcement machinery is now operational — not theoretical — with real investigators, real fines, and real transparency obligations already binding on any company whose AI outputs touch EU residents, regardless of where that company is headquartered. The simultaneous debut of the AI Policy 100 at Ai4's Policy Summit underscores that Washington, Brussels, and the broader global policy community are converging on AI regulation as an urgent priority. The question is no longer whether AI will be regulated, but who sets the terms and how quickly enforcement will escalate from transparency requirements to actions targeting high-risk systems.
+
+On the technology front, the AI model landscape has entered a new phase characterized by speed and commoditization rather than singular breakthroughs. The rapid succession of GPT-5.6 variants, Claude Sonnet 5, Gemini 3.6 Flash, and DeepSeek-V4-Flash demonstrates that frontier capability is now table stakes — the competitive battles are being fought on price, latency, and distribution. DeepSeek's continued ability to undercut Western labs on cost is keeping pressure on margins across the industry, while OpenAI's tiered GPT-5.6 lineup (Luna through Sol) signals a deliberate strategy to capture every segment of the market simultaneously.
+
+Perhaps the most alarming undercurrent this week is the cybersecurity picture painted by IBM's breach report: AI is accelerating the asymmetry between attackers and defenders. With one in four malicious breaches now AI-enabled and 68% of victim organizations lacking any AI governance policy, the same technology enabling productivity gains is being weaponized at scale. The finding that 92% of organizations suffering AI-related breaches lacked proper access controls points to a governance gap that policy summits and regulatory frameworks are only beginning to address — and that the new EU enforcement regime may soon test in a very concrete way.
+
+---
+
+### Sources
+
+- Ai4 / RegulatingAI: https://ai4.io/ai-policy-summit (published 2026-08-05)
+- Ai4 Conference Agenda: https://ai4.io/agenda-overview (published 2026-08-05)
+- European Commission Digital Strategy: https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august (published 2026-08-05)
+- Cooley Insights: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
+- Mexico Business News (IBM Breach Report): https://mexicobusiness.news/cybersecurity/news/one-four-malicious-breaches-are-now-ai-enabled-ibm (published 2026-08-05)
+- ComplexDiscovery (IBM Governance Gap): https://complexdiscovery.com/policy-without-control-the-ai-governance-gap-in-ibms-2026-cost-of-a-data-breach-report (published 2026-08-05)
+- AI Tools Recap (AI Model Tracker): https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx (published 2026-08-05)
+- LLM Stats: https://llm-stats.com/llm-updates (published 2026-08-05)
+- Prism Reports (Nurses / Healthcare AI): https://prismreports.org/2026/08/03/new-york-city-nurses-say-ai-is-replacing-them (published 2026-08-03)
+- AI Act Blog (Digital Omnibus): https://www.aiactblog.nl/en/posts/digital-omnibus-high-risk-postponement-december-2027 (published 2026-08-05)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **「AI政策百強榜」在Ai4峰會正式發布：** 第三屆AI政策峰會於8月5日在拉斯維加斯威尼斯人酒店的Ai4 2026大會上揭曉「AI Policy 100」，該榜單對全球最具影響力的AI立法與治理人物及組織進行系統性評分。*(來源：RegulatingAI / Ai4，8 月 5 日)*
+
+- **Ai4 2026大會第二日於拉斯維加斯盛大舉行：** 美國規模最大的AI會議吸引來自90多個國家逾12,000名與會者，8月5日繼續進行主題演講及分軌議程，由Geoffrey Hinton、Fei-Fei Li、Andrew Ng等AI領域泰斗壓軸登場。*(來源：Ai4，8 月 5 日)*
+
+- **歐盟《人工智慧法》正式執法，違規最高罰款1500萬歐元：** 歐盟委員會AI辦公室自8月2日起，由38名新任調查人員展開實質執法；第50條透明度義務現已生效，要求聊天機器人揭露AI身分、AI生成內容須加標記，深偽（deepfake）內容亦須清晰標示。*(來源：歐盟委員會 / Cooley，8 月 3–5 日)*
+
+- **IBM報告：四分之一網路攻擊涉及AI，平均資料外洩成本創歷史新高：** IBM《2026年資料外洩成本報告》調查全球16國602家機構，發現AI驅動攻擊年增56%，AI型外洩事件平均損失達600萬美元，高出全球均值100萬美元；68%受害機構毫無AI治理政策。*(來源：Mexico Business News / IBM，8 月 5 日)*
+
+- **AI模型競速白熱化：GPT-5.6、Claude Sonnet 5、DeepSeek-V4-Flash接連登場：** 2026年8月模型發布節奏加快，OpenAI的GPT-5.6系列（Luna、Terra、Sol）全面上市，Anthropic的Claude Sonnet 5成為新預設模型，Google Gemini 3.6 Flash上線，中國DeepSeek-V4-Flash-0731以低成本優勢持續衝擊市場。*(來源：AI Tools Recap / LLM Stats，8 月 5 日)*
+
+- **AI取代護理師？醫療AI應用引發倫理論戰：** 紐約市部分醫療機構嘗試以AI系統承擔臨床護理工作的做法，在法規遵循與醫療媒體中掀起廣泛討論，各界就自主AI決策的邊界及病人安全保障展開激烈辯論。*(來源：Prism Reports，8 月 3 日)*
+
+- **《數位綜合法》調整EU高風險AI時程，合規期限延至2027–2028年：** 歐盟《數位綜合法》（第2026/1744號法規）將信用評分、保險定價等高風險AI義務推遲至2027年12月，產品相關AI義務則延至2028年8月，但核心透明度規定即日起仍全面生效。*(來源：AI Act Blog / ComplianceHub Wiki，8 月 5 日)*
+
+---
+
+### 分析
+
+2026年8月5日這一週，是AI治理由文字邁向實際執法的真正轉折點。歐盟《人工智慧法》的執法機制已從紙面規定化為現實行動——調查人員到位、罰款機制啟動、透明度義務對所有觸及歐盟用戶的企業均具約束力，無論其總部設於何處。與此同時，Ai4政策峰會首發「AI政策百強榜」，進一步印證華盛頓、布魯塞爾與全球政策圈已將AI監管列為緊迫要務。爭論焦點已不再是「AI是否應被監管」，而是「誰來制定規則、執法力度何時升級至高風險系統」。
+
+在技術層面，AI模型市場已進入以速度與成本競爭為核心的新階段，而非以單一突破性進展見勝。GPT-5.6系列、Claude Sonnet 5、Gemini 3.6 Flash與DeepSeek-V4-Flash的快速接連發布，說明前沿能力已成基本門檻；競爭主軸轉向定價、推理速度與分發渠道。DeepSeek持續以低成本壓制西方大廠利潤，OpenAI的分層定價策略（從低端Luna到旗艦Sol）則試圖同步覆蓋每個市場區間。
+
+本週最值得警惕的訊號，來自IBM的資料外洩報告：AI正在拉大攻防兩端的不對稱性。四分之一惡意攻擊已借助AI實施，但68%的受害機構毫無AI治理政策，92%發生AI相關外洩的機構缺乏基本存取控制，顯示治理缺口遠比想像中嚴峻。現行政策峰會與監管框架尚處於追趕狀態，而新生效的歐盟執法機制，或將很快在現實案例中對這一治理真空進行首次具體檢驗。
+
+---
+
+### 來源
+
+- Ai4 / RegulatingAI: https://ai4.io/ai-policy-summit (published 2026-08-05)
+- Ai4 大會議程: https://ai4.io/agenda-overview (published 2026-08-05)
+- 歐盟委員會數位策略: https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august (published 2026-08-05)
+- Cooley 洞察: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
+- Mexico Business News（IBM外洩報告）: https://mexicobusiness.news/cybersecurity/news/one-four-malicious-breaches-are-now-ai-enabled-ibm (published 2026-08-05)
+- ComplexDiscovery（IBM治理缺口）: https://complexdiscovery.com/policy-without-control-the-ai-governance-gap-in-ibms-2026-cost-of-a-data-breach-report (published 2026-08-05)
+- AI Tools Recap（AI模型追蹤）: https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx (published 2026-08-05)
+- LLM Stats: https://llm-stats.com/llm-updates (published 2026-08-05)
+- Prism Reports（護理師 / 醫療AI）: https://prismreports.org/2026/08/03/new-york-city-nurses-say-ai-is-replacing-them (published 2026-08-03)
+- AI Act Blog（數位綜合法）: https://www.aiactblog.nl/en/posts/digital-omnibus-high-risk-postponement-december-2027 (published 2026-08-05)
