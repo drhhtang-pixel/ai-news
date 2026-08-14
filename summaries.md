@@ -5305,3 +5305,91 @@ On the regulatory and governance side, the full enforcement of the EU AI Act mar
 - The AI Enterprise（代理治理缺口）: https://www.theaienterprise.io/p/the-agent-governance-gap-why-autonomous-ai-needs-identity
 - GovCIO Media & Research（聯邦 AI 論壇）: https://govciomedia.com/federal-ai-forum (活動日期：2026-08-13)
 - SpaceXAI（Grok 4.5）: https://x.ai/news/grok-4-5 (published 2026-07-16)
+
+## 2026-08-14 01:26
+
+<!-- EN -->
+### Headlines
+
+- **Anthropic Sets "Auto Mode" as Default for Claude on August 14:** Anthropic's release notes confirm that starting August 14, auto mode becomes the default permission mode for new Claude sessions on Pro, Max, and Team plans, streamlining how the AI handles task complexity without counting classifier calls against usage limits. *(Source: Digital Applied, August 10)*
+
+- **KI 2026 German AI Conference Concludes in Bremen:** The 49th German Conference on Artificial Intelligence (KI 2026), co-organized by DFKI and the German Informatics Society, wraps up its final day (August 11–14) in Bremen, presenting 12 full papers, 19 short papers, and 1 extended abstract from 78 submissions covering machine learning, neurosymbolic methods, explainable AI, and robotics. *(Source: KI2026 / Springer Nature, August 14)*
+
+- **IJCAI-ECAI 2026 Kicks Off in Bremen Starting August 15:** Hot on the heels of KI 2026, the world's premier AI research conference — the 35th International Joint Conference on Artificial Intelligence jointly held with ECAI — begins tomorrow in Bremen, Germany, drawing global researchers for a week of cutting-edge AI research presentations. *(Source: IJCAI Organization / DFKI, August 14)*
+
+- **xAI's Grok 4.6 Active, Grok 4.7 (2.1T Parameters) Teased for Late August:** xAI's Grok 4.6, built on the 1.5-trillion-parameter V9 foundation with heavy post-training improvements, is live on the platform, while Elon Musk has signaled that the even larger Grok 4.7 — at 2.1 trillion parameters — is expected in late August or early September 2026, continuing xAI's aggressive monthly model release cadence. *(Source: LLM Stats / Build Fast With AI, August 14)*
+
+- **Meta Muse Glimmer-30B Open-Source Local Agent Gains Traction:** Meta's recently released Muse Glimmer-30B, a dense multimodal model under the Apache 2.0 license distilled from Muse Spark and designed for local agent tasks on a 24GB GPU, is being widely evaluated by developers as a strong open-weight alternative to proprietary frontier models. *(Source: VentureBeat, August 10)*
+
+- **OpenAI GPT-5.6 Cyber Discovered Two Chrome Zero-Days:** GPT-5.6 Cyber, OpenAI's security-focused model variant released on August 9, has been reported to have autonomously identified two previously unknown Chrome zero-day vulnerabilities, raising both excitement and alarm about AI-enabled offensive cybersecurity capabilities. *(Source: VentureBeat, August 10)*
+
+- **EU AI Act Enforcement Fully Operational, Transparency Rules in Effect:** Following the August 2 activation of the EU AI Act's transparency obligations under Article 50 — requiring chatbots, virtual assistants, and synthetic content to be clearly labeled — the EU AI Office and member state authorities are now actively supervising and enforcing compliance, with fines of up to €15 million or 3% of global turnover for violations. *(Source: Cooley, August 3)*
+
+- **Stanford Study: AI Employment Gap for Young Workers Widens to 19%:** A revised August 2026 paper from the Stanford Digital Economy Lab ("Canaries in the Coal Mine?") by Erik Brynjolfsson and colleagues finds no widespread labor displacement overall, but documents a growing AI-driven employment gap specifically among young workers, now reaching 19%. *(Source: Stanford Digital Economy Lab, August 12)*
+
+---
+
+### Analysis
+
+The week of August 14, 2026 underscores how the AI industry has bifurcated into two parallel races: a relentless model capability arms race and an increasingly assertive regulatory reckoning. On the capability front, xAI's monthly Grok release cadence (4.5 → 4.6 → 4.7 imminent), Anthropic's streamlined Claude auto-mode rollout, and OpenAI's GPT-5.6 Cyber autonomously finding Chrome zero-days collectively signal that frontier AI is moving from language assistant to active autonomous agent — capable of executing complex software, security, and agentic tasks with minimal human direction. The academic community is reflecting this shift too, with KI 2026 in Bremen concluding and IJCAI-ECAI 2026 beginning, placing Europe at the center of global AI research discourse this week.
+
+At the same time, regulatory and societal guardrails are tightening. The EU AI Act's transparency rules are now enforceable, marking a historic first in binding AI governance at continental scale — companies worldwide must ensure their AI systems are identifiable as such or face significant fines. Meanwhile, the Stanford employment study is a sobering counterpoint to the industry's optimism: while mass displacement hasn't materialized, a 19% employment gap for young workers is a concrete early warning signal that AI's economic benefits are not being distributed evenly. These parallel pressures — accelerating capabilities, tightening oversight, and unequal impacts — define the central tensions shaping AI policy, investment, and development in mid-2026.
+
+---
+
+### Sources
+
+- Digital Applied – Claude Code Auto Mode Default: https://www.digitalapplied.com/blog/claude-code-auto-mode-default-permission-model-shift (published 2026-08-10)
+- KI2026 Conference Site: https://ki2026.gi.de (published 2026-08-14)
+- Springer Nature – KI 2026 Proceedings: https://link.springer.com/book/10.1007/978-3-032-32335-4 (published 2026-08-14)
+- DFKI Bremen – KI 2026 Host Announcement: https://robotik.dfki-bremen.de/en/startpage/news/dfki-bremen-to-host-the-49th-german-conference-on-artificial-intelligence (published 2026-08-14)
+- LLM Stats – AI Model Updates August 2026: https://llm-stats.com/llm-updates (published 2026-08-14)
+- Build Fast With AI – Grok 4.6 Preview: https://www.buildfastwithai.com/blogs/grok-4-6-preview (published 2026-08-14)
+- VentureBeat – Meta Muse Glimmer: https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now (published 2026-08-10)
+- VentureBeat – OpenAI GPT-5.6-Cyber: https://venturebeat.com/technology/openai-launches-gpt-5-6-cyber-with-reduced-refusals-95-completion-on-advanced-cybersecurity-tasks (published 2026-08-10)
+- Stanford Digital Economy Lab – Canaries in the Coal Mine: https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence (published 2026-08-12)
+- European Commission – EU AI Act: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai (published 2026-08-14)
+- Cooley – EU AI Act Transparency Obligations: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Anthropic 於 8 月 14 日將「自動模式」設為 Claude 預設：** Anthropic 發行說明確認，自 8 月 14 日起，自動模式（auto mode）成為 Pro、Max 及 Team 方案新會話的預設權限模式，分類器呼叫不再計入使用配額，簡化 AI 任務複雜度的處理流程。*(來源：Digital Applied，8 月 10 日)*
+
+- **KI 2026 德國人工智慧大會於不來梅圓滿閉幕：** 第 49 屆德國人工智慧大會（KI 2026）由 DFKI 與德國資訊學會聯合主辦，於 8 月 11 至 14 日在不來梅舉行，最後一天正式落幕，共從 78 份投稿中遴選出 12 篇完整論文、19 篇短文及 1 篇延伸摘要，涵蓋機器學習、神經符號方法、可解釋 AI 及機器人學等領域。*(來源：KI2026 / Springer Nature，8 月 14 日)*
+
+- **IJCAI-ECAI 2026 世界頂級 AI 大會明日於不來梅開幕：** 緊接 KI 2026 之後，全球最具聲望的 AI 研究盛會——第 35 屆國際人工智慧聯合大會（與歐洲 AI 協會聯合舉辦）——將於明日（8 月 15 日）在不來梅啟動，為期一週，匯聚全球頂尖 AI 研究人員。*(來源：IJCAI 組織 / DFKI，8 月 14 日)*
+
+- **xAI Grok 4.6 上線，2.1 兆參數 Grok 4.7 預告八月下旬亮相：** xAI 的 Grok 4.6 基於 1.5 兆參數 V9 架構，強化後訓練後正式上線；Elon Musk 同時透露，更大規模的 Grok 4.7（2.1 兆參數）預計於 8 月下旬至 9 月初推出，延續 xAI 積極的每月模型迭代節奏。*(來源：LLM Stats / Build Fast With AI，8 月 14 日)*
+
+- **Meta Muse Glimmer-30B 開源本地代理模型受開發者熱捧：** Meta 近期發布的 Muse Glimmer-30B，採 Apache 2.0 授權、從 Muse Spark 提煉而來的密集多模態模型，可在 24GB GPU 上運行本地代理任務，正被廣泛評測為強力的開放權重替代方案。*(來源：VentureBeat，8 月 10 日)*
+
+- **OpenAI GPT-5.6 Cyber 自主發現兩個 Chrome 零日漏洞：** OpenAI 於 8 月 9 日發布的資安專用模型 GPT-5.6 Cyber，據報已自主識別出兩個先前未知的 Chrome 零日漏洞，引發業界對 AI 在進攻性網路安全能力方面的高度關注。*(來源：VentureBeat，8 月 10 日)*
+
+- **歐盟 AI 法案透明義務全面執行：** 歐盟 AI 法案第 50 條透明義務自 8 月 2 日生效後，歐盟 AI 辦公室與各成員國主管機關現已全面啟動監督與執法，要求聊天機器人、虛擬助理及合成內容清楚標示 AI 屬性，違者最高可罰 1,500 萬歐元或全球營業額 3%。*(來源：Cooley，8 月 3 日)*
+
+- **史丹佛研究：AI 對年輕勞工就業差距擴大至 19%：** 史丹佛數位經濟實驗室 Erik Brynjolfsson 等人 2026 年 8 月發布的修訂版論文《煤礦中的金絲雀》指出，整體勞動力未出現大規模替代，但 AI 驅動的就業差距在年輕族群中已擴大至 19%，敲響了警鐘。*(來源：史丹佛數位經濟實驗室，8 月 12 日)*
+
+---
+
+### 分析
+
+2026 年 8 月 14 日這週，AI 產業呈現出兩條並行賽道清晰交匯的態勢：一是模型能力的無止盡軍備競賽，二是日趨強硬的監管問責。在能力端，xAI 每月一迭代的 Grok 發布節奏（4.5→4.6→4.7 即將登場）、Anthropic 精簡化的 Claude 自動模式推出，以及 OpenAI GPT-5.6 Cyber 自主發現 Chrome 零日漏洞，共同說明前沿 AI 已從語言助理進化為主動自主代理，能在人類最低介入下執行複雜的軟體工程、資安攻防與端到端任務。學術界亦同步呼應這一轉變：KI 2026 在不來梅完美落幕，IJCAI-ECAI 2026 隨即登場，令歐洲在本週一躍成為全球 AI 研究的焦點中心。
+
+與此同時，監管與社會防護機制正持續收緊。歐盟 AI 法案透明規定的正式執行，是具有約束力的大陸級 AI 治理的歷史性里程碑，全球企業無論身處何地，皆須確保其 AI 系統能被清楚識別，否則面臨重罰。史丹佛就業研究則是一記清醒的反向提醒：儘管大規模失業尚未到來，但年輕勞工 19% 的就業差距是一個具體的早期預警信號，顯示 AI 的經濟紅利並未被平均分配。能力加速、監管收緊、影響不均——這三重張力，正是 2026 年中期 AI 政策、投資與技術發展的核心矛盾所在。
+
+---
+
+### 來源
+
+- Digital Applied – Claude Code 自動模式預設: https://www.digitalapplied.com/blog/claude-code-auto-mode-default-permission-model-shift (published 2026-08-10)
+- KI2026 大會官網: https://ki2026.gi.de (published 2026-08-14)
+- Springer Nature – KI 2026 論文集: https://link.springer.com/book/10.1007/978-3-032-32335-4 (published 2026-08-14)
+- DFKI 不來梅 – KI 2026 主辦公告: https://robotik.dfki-bremen.de/en/startpage/news/dfki-bremen-to-host-the-49th-german-conference-on-artificial-intelligence (published 2026-08-14)
+- LLM Stats – 2026 年 8 月 AI 模型更新: https://llm-stats.com/llm-updates (published 2026-08-14)
+- Build Fast With AI – Grok 4.6 預覽: https://www.buildfastwithai.com/blogs/grok-4-6-preview (published 2026-08-14)
+- VentureBeat – Meta Muse Glimmer: https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now (published 2026-08-10)
+- VentureBeat – OpenAI GPT-5.6-Cyber: https://venturebeat.com/technology/openai-launches-gpt-5-6-cyber-with-reduced-refusals-95-completion-on-advanced-cybersecurity-tasks (published 2026-08-10)
+- 史丹佛數位經濟實驗室 – 煤礦中的金絲雀: https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence (published 2026-08-12)
+- 歐盟委員會 – EU AI Act: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai (published 2026-08-14)
+- Cooley – EU AI Act 透明義務: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
