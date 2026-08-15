@@ -5393,3 +5393,89 @@ At the same time, regulatory and societal guardrails are tightening. The EU AI A
 - 史丹佛數位經濟實驗室 – 煤礦中的金絲雀: https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence (published 2026-08-12)
 - 歐盟委員會 – EU AI Act: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai (published 2026-08-14)
 - Cooley – EU AI Act 透明義務: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
+
+## 2026-08-15 00:57
+
+<!-- EN -->
+### Headlines
+
+- **IJCAI-ECAI 2026 Opens in Bremen, Germany:** The 35th International Joint Conference on Artificial Intelligence kicked off today, drawing approximately 3,000 researchers from more than 40 countries for a week of workshops, tutorials, and cutting-edge AI research presentations. *(Source: IJCAI 2026 Official Site, August 15)*
+
+- **OpenAI Previews "Ultrafast" Mode for GPT-5.6 Sol at 14x Speed:** Powered by a partnership with chipmaker Cerebras, OpenAI's new Ultrafast service tier delivers up to 750 output tokens per second with no quality compromise, currently available in limited preview to select API customers. *(Source: TechCrunch, August 13)*
+
+- **Anthropic Investors Eye Historic $2 Trillion IPO Valuation:** Backers of the Claude-maker are anticipating an October stock market debut at over $2 trillion — which would surpass SpaceX's record-breaking IPO — based on projected annualized revenue of $100–$120 billion by year-end. *(Source: Forbes, August 13)*
+
+- **IBM and OpenAI Form Major Enterprise AI Partnership:** IBM announced a strategic collaboration with OpenAI to integrate GPT-5.6 into IBM Consulting Advantage, launching a dedicated OpenAI Practice with thousands of trained consultants targeting financial services, government, telecom, and retail sectors. *(Source: IBM Newsroom, August 13)*
+
+- **Lovable Confirms $400M Raise at $13.3B Valuation:** The Stockholm-based "vibe-coding" startup — which hosts 60 million projects and attracts 900 million monthly visitors — more than doubled its valuation since December, with Menlo Ventures and the EU-backed Scaleup Europe Fund co-leading the round. *(Source: TechCrunch, August 12)*
+
+- **Anthropic's Claude Opus 5 Ships at ~Half the Price of Rivals:** Anthropic launched Claude Opus 5 at roughly half the cost of comparable frontier models, intensifying the ongoing AI pricing war while the company simultaneously prepares for its landmark IPO. *(Source: Anthropic, July 24)*
+
+- **Model Race Accelerates: Grok 4.6, Gemini 3.7 Flash, and More Released:** xAI shipped Grok 4.6 on August 12, Google released Gemini 3.7 Flash on August 13, and NVIDIA released Nemotron 3.5 Lightning (30B) on August 11, reflecting an era of near-continuous frontier model turnover across all major AI labs. *(Source: xAI, August 12)*
+
+- **India Celebrates Independence Day with AI Photo Tools:** On India's 80th Independence Day (August 15), AI platforms including ChatGPT, Google Gemini, Canva, and Nano Banana surged in usage as millions used AI prompts to generate patriotic imagery for social media. *(Source: NDTV, August 15)*
+
+---
+
+### Analysis
+
+The week of August 15, 2026 crystallizes two dominant forces reshaping the AI industry: a ferocious speed-and-price war among frontier model providers, and a corresponding wave of enormous capital events signaling that financial markets have fully committed to the AI supercycle. OpenAI's "Ultrafast" mode — delivering GPT-5.6 Sol at 14x normal speed via Cerebras silicon — illustrates that competition is no longer solely about benchmark scores, but about latency, throughput, and real-world enterprise utility. Meanwhile, Anthropic's Claude Opus 5 launching at roughly half the cost of comparable models, DeepSeek V4 Flash pricing at a fraction of U.S. rivals, and Meta's open-weight Muse releases are collectively collapsing the price floor for intelligence. The IBM–OpenAI enterprise partnership further signals that the AI model race is evolving into a distribution and integration race, with large systems integrators becoming critical go-to-market vectors for frontier labs.
+
+On the capital markets side, the Anthropic $2 trillion IPO expectation and Lovable's $13.3 billion valuation reflect how aggressively investors are pricing AI growth trajectories. Anthropic's reported 10x revenue growth in a single year — from ~$10 billion to a projected $100–120 billion annualized — would be historically unprecedented for a company of its age. The simultaneous opening of IJCAI-ECAI 2026 in Bremen adds an academic counterweight to the commercial frenzy, as roughly 3,000 researchers converge to present foundational work that will underpin the next generation of these very systems. Taken together, the events of this week suggest that AI has moved firmly beyond the "hype" phase into one of rapid industrialization, where infrastructure, pricing strategy, regulatory compliance (EU AI Act transparency rules now in force), and enterprise distribution matter as much as raw model capability.
+
+---
+
+### Sources
+
+- TechCrunch (OpenAI Ultrafast): https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed (published 2026-08-13)
+- OpenAI Official Blog: https://openai.com/index/previewing-ultrafast (published 2026-08-13)
+- TechCrunch (IBM–OpenAI): https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push (published 2026-08-13)
+- IBM Newsroom: https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations (published 2026-08-13)
+- TechCrunch (Lovable): https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m (published 2026-08-12)
+- Forbes (Anthropic IPO): https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex (published 2026-08-13)
+- IJCAI 2026 Official Site: https://2026.ijcai.org (published 2026-08-15)
+- NDTV (India Independence Day AI): https://www.ndtv.com/offbeat/independence-day-2026-25-best-ai-photo-editing-prompts-for-august-15-on-chatgpt-gemini-nano-banana-canva-more-11908888 (published 2026-08-15)
+- xAI (Grok 4.6): https://x.ai/news/grok-4-6 (published 2026-08-12)
+- Anthropic (Claude Opus 5): https://www.anthropic.com/news/claude-opus-5 (published 2026-07-24)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **IJCAI-ECAI 2026 於德國不萊梅正式開幕：** 第35屆國際人工智慧聯合會議今日揭幕，來自逾40個國家的約3,000名研究人員齊聚一堂，展開為期一週的工作坊、教學課程及前沿AI研究發表。*(來源：IJCAI 2026 官方網站，8 月 15 日)*
+
+- **OpenAI 發布「Ultrafast」超快模式，GPT-5.6 Sol 速度提升14倍：** 透過與晶片商 Cerebras 的合作，OpenAI 全新 Ultrafast 服務層每秒可輸出高達750個 token，且不犧牲品質，目前以有限預覽形式向特定 API 客戶開放。*(來源：TechCrunch，8 月 13 日)*
+
+- **Anthropic 投資人看好史上最大 IPO，目標估值逾2兆美元：** 據報導，Claude 開發商的投資人預期公司將於10月上市，估值突破2兆美元——超越 SpaceX 創下的歷史紀錄——其依據是今年底年化營收將達1,000億至1,200億美元的預測。*(來源：Forbes，8 月 13 日)*
+
+- **IBM 與 OpenAI 達成重大企業 AI 合作：** IBM 宣布與 OpenAI 建立戰略合作，將 GPT-5.6 整合至 IBM Consulting Advantage 平台，並成立專屬 OpenAI 實踐部門，鎖定金融服務、政府、電信及零售等行業。*(來源：IBM 新聞室，8 月 13 日)*
+
+- **Lovable 完成4億美元融資，估值達133億美元：** 這家總部位於斯德哥爾摩、主打「氛圍編程」（vibe-coding）的新創公司估值自去年12月以來翻超一倍，由 Menlo Ventures 與歐盟支持的 Scaleup Europe Fund 聯合領投，旗下平台每月吸引9億次訪問。*(來源：TechCrunch，8 月 12 日)*
+
+- **Anthropic Claude Opus 5 上線，定價約為同級對手一半：** Anthropic 推出 Claude Opus 5，定價約為可比前沿模型的一半，進一步加劇 AI 定價戰，同時公司也積極籌備具里程碑意義的 IPO。*(來源：Anthropic，7 月 24 日)*
+
+- **模型競賽持續加速：Grok 4.6、Gemini 3.7 Flash 等相繼發布：** xAI 於8月12日發布 Grok 4.6、Google 於8月13日推出 Gemini 3.7 Flash、NVIDIA 於8月11日釋出 Nemotron 3.5 Lightning（30B），各大 AI 實驗室的前沿模型進入近乎持續更替的新時代。*(來源：xAI，8 月 12 日)*
+
+- **印度獨立日掀起 AI 圖像創作熱潮：** 在印度第80個獨立日（8月15日），ChatGPT、Google Gemini、Canva、Nano Banana 等 AI 平台使用量激增，數百萬用戶藉助 AI 提示詞生成愛國主題圖像分享至社交媒體。*(來源：NDTV，8 月 15 日)*
+
+---
+
+### 分析
+
+2026年8月15日這一週，有兩股力量正在重塑 AI 產業格局：前沿模型提供商之間愈演愈烈的速度與價格戰，以及隨之而來的龐大資本事件浪潮，顯示金融市場已全面押注 AI 超級週期。OpenAI 透過 Cerebras 晶片推出的「Ultrafast」模式——使 GPT-5.6 Sol 達到正常速度的14倍——清楚說明競爭已不再僅限於基準測試分數，而是延伸至延遲、吞吐量與企業實際應用價值。與此同時，Anthropic 的 Claude Opus 5 以約一半的市場價格上線、DeepSeek V4 Flash 定價遠低於美國競爭對手、Meta 持續釋出開放權重的 Muse 系列模型，正在集體壓低「智能」的價格底線。IBM 與 OpenAI 的企業合作協議更進一步表明，AI 模型競賽正在演變為一場分銷與整合之爭，大型系統整合商正成為前沿實驗室不可或缺的商業化通路。
+
+在資本市場層面，Anthropic 2兆美元的 IPO 預期估值與 Lovable 133億美元的估值，反映出投資人對 AI 成長軌跡的激進定價。Anthropic 據報一年內營收成長10倍——從約100億美元躍升至預計1,000至1,200億美元年化營收——對於這一年齡的公司而言堪稱史無前例。與此同時，IJCAI-ECAI 2026 在不萊梅的開幕為商業狂熱提供了學術平衡，約3,000名研究人員齊聚發表奠基性研究成果，這些成果將支撐下一代系統的發展。綜觀本週各項發展，可以清楚看出：AI 已穩穩跨越「炒作」階段，進入快速產業化時代——在這個時代，基礎設施、定價策略、法規合規（歐盟《AI 法》透明度義務已正式生效）及企業端的分銷能力，其重要性已不亞於模型本身的原始能力。
+
+---
+
+### 來源
+
+- TechCrunch（OpenAI Ultrafast）: https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed (published 2026-08-13)
+- OpenAI 官方部落格: https://openai.com/index/previewing-ultrafast (published 2026-08-13)
+- TechCrunch（IBM–OpenAI）: https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push (published 2026-08-13)
+- IBM 新聞室: https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations (published 2026-08-13)
+- TechCrunch（Lovable）: https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m (published 2026-08-12)
+- Forbes（Anthropic IPO）: https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex (published 2026-08-13)
+- IJCAI 2026 官方網站: https://2026.ijcai.org (published 2026-08-15)
+- NDTV（印度獨立日 AI）: https://www.ndtv.com/offbeat/independence-day-2026-25-best-ai-photo-editing-prompts-for-august-15-on-chatgpt-gemini-nano-banana-canva-more-11908888 (published 2026-08-15)
+- xAI（Grok 4.6）: https://x.ai/news/grok-4-6 (published 2026-08-12)
+- Anthropic（Claude Opus 5）: https://www.anthropic.com/news/claude-opus-5 (published 2026-07-24)
