@@ -5479,3 +5479,89 @@ On the capital markets side, the Anthropic $2 trillion IPO expectation and Lovab
 - NDTV（印度獨立日 AI）: https://www.ndtv.com/offbeat/independence-day-2026-25-best-ai-photo-editing-prompts-for-august-15-on-chatgpt-gemini-nano-banana-canva-more-11908888 (published 2026-08-15)
 - xAI（Grok 4.6）: https://x.ai/news/grok-4-6 (published 2026-08-12)
 - Anthropic（Claude Opus 5）: https://www.anthropic.com/news/claude-opus-5 (published 2026-07-24)
+
+## 2026-08-16 01:00
+
+<!-- EN -->
+### Headlines
+
+- **Anthropic Embeds Invisible Watermarks in All Claude AI Text:** Anthropic confirmed that all Claude models released from August 2, 2026 onward now embed invisible, machine-readable watermarks into generated text and signed C2PA provenance metadata into files, a global policy driven by the EU AI Act's Article 50 transparency requirements. *(Source: TechCrunch, August 11)*
+
+- **DeepSeek V4 Pro 0813 Launches, Undercutting Rivals at $0.44/M Tokens:** DeepSeek released its high-performance V4 Pro 0813 model featuring a 1-million-token context window and agentic workflow support, outperforming Anthropic's Opus 4.8 on key benchmarks at a fraction of the cost — a major challenge to every frontier AI lab. *(Source: GMI Cloud, August 12)*
+
+- **xAI Releases Grok 4.6 with Focus on Long-Running Agents:** SpaceXAI launched Grok 4.6, an upgraded multimodal reasoning model optimized for complex, multi-step agentic tasks, coding, and interactive visual work, debuting with a 500K context window and available on Cursor with launch discounts. *(Source: MarkTechPost, August 12)*
+
+- **Ryanair Signs Five-Year AI Partnership with Google Cloud:** Europe's largest airline announced a sweeping five-year deal with Google Cloud, deploying Gemini Enterprise and Google Workspace to 35,000 employees to automate crew scheduling, flight operations, and decision-making, with Google DeepMind's AlphaEvolve and WeatherNext models also integrated. *(Source: Google Cloud Press Corner, August 12)*
+
+- **OpenAI's Astra Solves Ten Long-Unsolved Math Problems for ~$2,000:** OpenAI's unreleased next flagship model, Astra, produced machine-verified Lean 4 proofs for ten open problems across mathematics and theoretical computer science — including the first explicit construction of a non-sofic group — releasing a 249-page manuscript and proof certificates on GitHub. *(Source: Quartz, August 3; week's leading analysis topic per Medium/Akpovi, August 10–16)*
+
+- **EU AI Act Transparency Rules Now in Full Effect as of August 2:** The European Commission's AI Office began enforcing Article 50 of the EU AI Act, requiring chatbots to disclose their AI nature, deepfakes to be labelled, and AI-generated content to carry machine-readable marks — with fines up to €15 million or 3% of global turnover for non-compliance. *(Source: Cooley / European Commission, August 3)*
+
+- **Week's AI Roundup: Claude Watermarks, Agentic AI Agents, and Data Privacy Questions:** Industry analyst David Akpovi's weekly digest covering August 10–16 highlighted Claude's watermarking, the surge in AI agents autonomously operating user tools, evolving digital habits, and growing business adoption as the dominant stories of the week. *(Source: Medium/David Akpovi, August 16)*
+
+---
+
+### Analysis
+
+The week of August 10–16, 2026 was defined by two converging forces: regulatory compliance reshaping how AI companies ship products, and a fierce model-release arms race driving capability costs toward near-zero. Anthropic's rollout of invisible text watermarks across all Claude products is the most visible example of regulation directly changing product behavior — driven entirely by the EU AI Act's Article 50. The rule, which came into force on August 2, is now producing real, global consequences: Anthropic's watermarking policy applies worldwide, not just in Europe, setting a de facto global standard. This marks a meaningful inflection point where European regulation is no longer just a compliance checkbox but a genuine product design constraint for American AI firms.
+
+Simultaneously, the model-release cadence continues to accelerate at a dizzying pace. DeepSeek's V4 Pro 0813 and xAI's Grok 4.6 launched within hours of each other on August 12, intensifying price competition at the frontier. DeepSeek's pricing of $0.44 per million input tokens — compared to Claude Opus 4.8's significantly higher rates — puts extraordinary pressure on Western labs to either cut costs or demonstrate differentiated value. OpenAI's Astra announcement, with its formally verified mathematical proofs, represents a different strategic posture: publishing verifiable capability breakthroughs before a product launch as a credibility-building move with researchers, policymakers, and enterprise customers alike.
+
+Enterprise AI adoption is also accelerating in unexpected sectors. Ryanair's five-year, 35,000-employee deal with Google Cloud — incorporating Gemini Enterprise, AlphaEvolve, and WeatherNext — signals that legacy industries like aviation are moving beyond pilot projects into full-scale AI infrastructure commitments. Taken together, these developments suggest the AI landscape in mid-2026 is characterized by three simultaneous pressures: regulatory tightening (EU AI Act), commoditization of frontier capabilities (DeepSeek's pricing), and deepening enterprise integration (Ryanair-Google). The interplay of these forces will likely define competitive dynamics for the rest of the year.
+
+---
+
+### Sources
+
+- TechCrunch: https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models (published 2026-08-11)
+- Forbes: https://www.forbes.com/sites/anishasircar/2026/08/13/claude-will-now-leave-a-watermark-on-everything-it-writes-what-does-that-mean (published 2026-08-13)
+- Axios: https://www.axios.com/2026/08/12/anthropic-claude-watermarks-ai-detection (published 2026-08-12)
+- GMI Cloud: https://www.gmicloud.ai/en/blog/deepseek-v4-pro-steps-out-of-preview-the-0813-build-is-live (published 2026-08-12)
+- MarkTechPost: https://www.marktechpost.com/2026/08/12/spacexai-releases-grok-4-6 (published 2026-08-12)
+- Google Cloud Press Corner: https://www.googlecloudpresscorner.com/2026-08-12-Ryanair-and-Google-Cloud-Announce-Five-Year-Data-and-AI-Partnership (published 2026-08-12)
+- Computer Weekly: https://www.computerweekly.com/news/366649262/Ryanair-signs-five-year-Google-Cloud-AI-partnership (published 2026-08-13)
+- Quartz: https://qz.com/openai-astra-model-math-problems-lean-proofs-080326 (published 2026-08-03)
+- Medium (David Akpovi): https://medium.com/@davidakpovi/ai-news-week-of-august-10-16-2026-af52646d84d2 (published 2026-08-16)
+- Cooley: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Anthropic 為所有 Claude AI 文字嵌入隱形浮水印：** Anthropic 確認，自 2026 年 8 月 2 日起發布的所有 Claude 模型，將在生成文字中嵌入機器可讀的隱形浮水印，並在檔案中加入 C2PA 來源元資料，此全球政策主要由歐盟《人工智慧法》第 50 條透明度要求驅動。*(來源：TechCrunch，8 月 11 日)*
+
+- **DeepSeek V4 Pro 0813 正式上線，每百萬 Token 僅 $0.44 美元：** DeepSeek 發布高性能 V4 Pro 0813 模型，支援百萬 Token 上下文視窗與代理工作流，在多項基準測試上超越 Anthropic Opus 4.8，且成本遠低於競爭對手，對各大 AI 實驗室構成嚴峻挑戰。*(來源：GMI Cloud，8 月 12 日)*
+
+- **xAI 發布 Grok 4.6，主打長時間運行代理任務：** SpaceXAI 推出 Grok 4.6，這是一款針對複雜多步驟代理任務、程式設計及互動式視覺工作優化的多模態推理模型，支援 50 萬 Token 上下文視窗，並在 Cursor 平台提供上線優惠。*(來源：MarkTechPost，8 月 12 日)*
+
+- **瑞安航空與 Google Cloud 簽署五年 AI 合作協議：** 歐洲最大航空公司宣布與 Google Cloud 達成五年合作，為 3.5 萬名員工部署 Gemini Enterprise 及 Google Workspace，用於自動化航班調度、機組排班等決策，並整合 DeepMind 的 AlphaEvolve 和 WeatherNext 模型。*(來源：Google Cloud Press Corner，8 月 12 日)*
+
+- **OpenAI 的 Astra 以約 2,000 美元解決十道數學難題：** OpenAI 尚未公開發布的旗艦模型 Astra，以 Lean 4 形式提供機器可驗證的數學證明，解決了數學與理論計算機科學領域的十個未解問題，包括首次明確構造「非 sofic 群」，並在 GitHub 上發布 249 頁論文及完整證明。*(來源：Quartz，8 月 3 日；本週分析熱點，Medium/Akpovi，8 月 10–16 日)*
+
+- **歐盟《人工智慧法》透明度條款自 8 月 2 日起正式生效：** 歐盟委員會 AI 辦公室開始執行《人工智慧法》第 50 條，要求聊天機器人向用戶揭示 AI 身份、對深偽內容加註標籤，並在 AI 生成內容中嵌入機器可讀標記，違規最高可罰款 1,500 萬歐元或全球年營業額的 3%。*(來源：Cooley / 歐盟委員會，8 月 3 日)*
+
+- **週度 AI 總覽：Claude 浮水印、自主代理崛起與數據隱私議題：** 產業分析師 David Akpovi 發布的 8 月 10–16 日週報，點出 Claude 浮水印政策、AI 代理自主操作工具的浪潮、數位習慣的演變以及企業加速採用 AI 為本週最重要趨勢。*(來源：Medium/David Akpovi，8 月 16 日)*
+
+---
+
+### 分析
+
+2026 年 8 月 10 日至 16 日這一週，AI 產業呈現兩股力量的交匯：一是法規合規正在重塑各大 AI 公司的產品交付方式，二是激烈的模型發布競賽正將前沿能力的成本推向接近於零。Anthropic 在所有 Claude 產品中全面推行隱形浮水印，是法規直接改變產品設計的最典型案例——其背後完全由歐盟《人工智慧法》第 50 條驅動。這項規定於 8 月 2 日正式生效，已在全球範圍內產生實質影響：Anthropic 的浮水印政策適用於全球，而非僅限於歐洲，實際上確立了一項由歐洲監管催生的全球性標準，顯示歐洲法規已不再只是合規核選框，而是美國 AI 企業在產品設計上必須正視的真實約束。
+
+與此同時，模型發布的節奏持續以令人眩暈的速度加快。DeepSeek V4 Pro 0813 與 xAI Grok 4.6 在 8 月 12 日的數小時內相繼亮相，在前沿領域引發激烈的價格競爭。DeepSeek 每百萬輸入 Token 僅 0.44 美元，遠低於 Claude Opus 4.8 的定價，迫使西方各大實驗室不得不選擇降低成本或展示更具差異化的核心價值。相比之下，OpenAI 發布 Astra 的可驗證數學證明，則代表另一種策略取向：在產品正式上線前，透過公開可驗證的能力突破，向研究人員、政策制定者及企業客戶建立公信力。
+
+企業對 AI 的採用也正在意想不到的行業中加速落地。瑞安航空與 Google Cloud 簽署的五年、涵蓋 3.5 萬名員工的協議——整合 Gemini Enterprise、AlphaEvolve 和 WeatherNext——標誌著航空等傳統行業已從試點階段邁入全面 AI 基礎建設部署。綜合來看，2026 年中期的 AI 格局正受到三股力量的同步塑造：監管收緊（歐盟 AI 法案）、前沿能力商品化（DeepSeek 定價策略）、以及企業深度整合（瑞安航空-Google 合作）。這三股力量的相互博弈，很可能將主導今年餘下時間的競爭態勢。
+
+---
+
+### 來源
+
+- TechCrunch: https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models (published 2026-08-11)
+- Forbes: https://www.forbes.com/sites/anishasircar/2026/08/13/claude-will-now-leave-a-watermark-on-everything-it-writes-what-does-that-mean (published 2026-08-13)
+- Axios: https://www.axios.com/2026/08/12/anthropic-claude-watermarks-ai-detection (published 2026-08-12)
+- GMI Cloud: https://www.gmicloud.ai/en/blog/deepseek-v4-pro-steps-out-of-preview-the-0813-build-is-live (published 2026-08-12)
+- MarkTechPost: https://www.marktechpost.com/2026/08/12/spacexai-releases-grok-4-6 (published 2026-08-12)
+- Google Cloud Press Corner: https://www.googlecloudpresscorner.com/2026-08-12-Ryanair-and-Google-Cloud-Announce-Five-Year-Data-and-AI-Partnership (published 2026-08-12)
+- Computer Weekly: https://www.computerweekly.com/news/366649262/Ryanair-signs-five-year-Google-Cloud-AI-partnership (published 2026-08-13)
+- Quartz: https://qz.com/openai-astra-model-math-problems-lean-proofs-080326 (published 2026-08-03)
+- Medium (David Akpovi): https://medium.com/@davidakpovi/ai-news-week-of-august-10-16-2026-af52646d84d2 (published 2026-08-16)
+- Cooley: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
