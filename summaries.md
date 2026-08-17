@@ -5565,3 +5565,103 @@ Enterprise AI adoption is also accelerating in unexpected sectors. Ryanair's fiv
 - Quartz: https://qz.com/openai-astra-model-math-problems-lean-proofs-080326 (published 2026-08-03)
 - Medium (David Akpovi): https://medium.com/@davidakpovi/ai-news-week-of-august-10-16-2026-af52646d84d2 (published 2026-08-16)
 - Cooley: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
+
+## 2026-08-17 00:58
+
+<!-- EN -->
+### Headlines
+
+- **Stripe acquires OpenRouter for $7B+ to dominate AI billing infrastructure:** Bloomberg and TechCrunch reported that Stripe has finalized a deal to buy AI model-routing marketplace OpenRouter, positioning Stripe as the central billing rail for the multi-model AI economy. *(Source: TechCrunch, August 16)*
+
+- **Google deprecates Imagen 4.0 image-generation models effective today:** Google's Gemini API officially shut down `imagen-4.0-generate-001`, `imagen-4.0-ultra-generate-001`, and `imagen-4.0-fast-generate-001` on August 17, redirecting developers to `gemini-3.1-flash-image` as the recommended replacement. *(Source: Google AI for Developers, August 17)*
+
+- **Anthropic retires legacy Claude Developer Platform Workbench:** Access to the legacy Workbench at platform.claude.com/workbench and associated experimental prompt tools APIs ended today, August 17, as Anthropic completes its transition to the updated developer console. *(Source: Anthropic Claude Platform Docs, August 17)*
+
+- **Gemini app surpasses 1 billion monthly active users:** Google CEO Sundar Pichai announced that the Gemini app has crossed 1 billion monthly active users — becoming the 14th Google product at that scale — with 63% of users engaging via voice and over 150 million images generated daily, trailing ChatGPT's milestone by roughly two months. *(Source: TechCrunch, August 11)*
+
+- **Google ships Gemini 3.7 Flash with major coding benchmark jumps:** Released on August 13 and widely covered this week, Gemini 3.7 Flash pushed FrontierCode 1.1 from 34.4% to 43.6% and DeepSWE v1.1 from 49% to 65.3%, with introductory pricing of $0.75/$3.75 per million tokens through December 31, 2026. *(Source: VentureBeat, August 13)*
+
+- **Apple expands OpenAI trade-secrets lawsuit, names 11 more ex-employees:** Apple identified 11 additional former staff as potential witnesses and is seeking a preliminary injunction to bar OpenAI from developing AI products based on alleged stolen technology, with a hearing set for October 1, 2026. *(Source: TechCrunch, August 4)*
+
+- **Manus to re-emerge as independent company as Meta acquisition unwinds:** Following a Beijing regulatory order, Manus confirmed it will "soon return to operating as an independent company," with user data from the Meta acquisition period to be deleted August 23–24, 2026. *(Source: CNBC, August 11)*
+
+- **xAI releases Grok 4.6 as its new flagship model:** xAI's Grok 4.6, released August 12, replaced Grok 4.5 as the company's top model and shipped simultaneously inside the Cursor code editor and Grok Build tool, scoring competitively on major benchmarks at $2/$6 per million tokens. *(Source: xAI, August 12)*
+
+- **JumpCloud Q3 report: Enterprise AI confidence drops 17 points in six months:** A survey of 800 IT leaders in the U.S. and U.K. found AI deployment confidence falling sharply as organizations move agents from pilots into production, citing identity governance gaps and measurement shortfalls. *(Source: VentureBeat, August 17)*
+
+- **Intuit rebuilt its AI agent architecture twice in four months:** At VB Transform 2026, Intuit VP of AI Nhung Ho detailed how the company scrapped a central orchestration layer after compounding errors in multi-agent chains, rebuilding a skills-and-tools system in 60 days. *(Source: VentureBeat, August 17)*
+
+---
+
+### Analysis
+
+The most consequential business story of the day is Stripe's $7B+ acquisition of OpenRouter, which signals a strategic consolidation of the AI infrastructure stack. As enterprises increasingly run multi-model workflows — routing tasks between GPT-5.6, Gemini, Claude, and open-weight models — whoever owns the billing and routing layer gains enormous leverage. Stripe's move mirrors how payment rails became central to e-commerce; the company is betting that AI consumption will be similarly monetized at the infrastructure level rather than the application layer. This also underscores how the AI economy is maturing: the competitive frontier is no longer just about which model scores highest on benchmarks, but about who controls distribution, pricing, and developer workflows.
+
+On the model side, the week's releases confirm that the AI market has entered a phase of rapid, incremental iteration rather than dramatic generational leaps. Google's Gemini 3.7 Flash, xAI's Grok 4.6, and the ongoing deprecation of older Imagen and Claude APIs all reflect an industry normalizing model turnover as a routine operational reality. Developers are now expected to continuously update integrations on tighter cycles. Meanwhile, the simultaneous milestone of Gemini crossing 1 billion monthly active users — with voice as the dominant engagement mode — points to AI assistants transitioning from novelty tools to embedded daily utilities, a shift that raises the competitive stakes for every player in the consumer AI space.
+
+Regulatory and governance pressures continue to intensify in the background. The Anthropic text watermarking rollout (driven by the EU AI Act's August 2 transparency obligations) and ongoing policy enforcement are creating new compliance burdens that disproportionately affect smaller developers. At the same time, enterprise adoption reality is catching up with hype: the JumpCloud survey showing a 17-point drop in AI confidence, and Intuit's candid account of rebuilding its agent architecture twice, suggest that the industry is entering a more sober and operationally demanding phase — one where governance, identity management, and system reliability matter as much as raw model capability.
+
+---
+
+### Sources
+
+- TechCrunch (Stripe/OpenRouter): https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b (published 2026-08-16)
+- Google AI for Developers (Imagen deprecation): https://ai.google.dev/gemini-api/docs/deprecations (published 2026-08-17)
+- Anthropic Claude Platform Docs (Legacy Workbench sunset): https://platform.claude.com/docs/en/release-notes/overview (published 2026-08-17)
+- TechCrunch (Gemini 1B users): https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users (published 2026-08-11)
+- VentureBeat (Gemini 3.7 Flash): https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut (published 2026-08-13)
+- TechCrunch (Apple/OpenAI lawsuit): https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai (published 2026-08-04)
+- CNBC (Manus/Meta unwind): https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html (published 2026-08-11)
+- xAI (Grok 4.6): https://x.ai/news (published 2026-08-12)
+- VentureBeat (AI confidence report): https://venturebeat.com/security/ai-confidence-just-dropped-17-points-in-six-months-thats-actually-great-news (published 2026-08-17)
+- VentureBeat (Intuit agent architecture): https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path (published 2026-08-17)
+
+---
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Stripe 以逾 70 億美元收購 OpenRouter，掌控 AI 計費基礎設施：** 據 Bloomberg 及 TechCrunch 報導，Stripe 已完成收購 AI 模型路由市場 OpenRouter 的交易，意圖成為多模型 AI 經濟的核心計費樞紐。*(來源：TechCrunch，8 月 16 日)*
+
+- **Google 今日起正式關閉 Imagen 4.0 圖像生成模型：** Google Gemini API 於 8 月 17 日正式停用 `imagen-4.0-generate-001`、`imagen-4.0-ultra-generate-001` 及 `imagen-4.0-fast-generate-001`，建議開發者改用 `gemini-3.1-flash-image`。*(來源：Google AI for Developers，8 月 17 日)*
+
+- **Anthropic 終止舊版 Claude 開發者平台 Workbench：** 舊版 Workbench 及實驗性提示工具 API 的存取權限於今日（8 月 17 日）正式終止，Anthropic 完成向全新開發者主控台的過渡。*(來源：Anthropic Claude 平台文件，8 月 17 日)*
+
+- **Gemini 應用程式月活躍用戶突破 10 億：** Google 執行長 Sundar Pichai 宣布 Gemini 應用程式月活躍用戶超過 10 億，成為 Google 旗下第 14 個達此規模的產品，其中 63% 的用戶透過語音互動，每日生成逾 1.5 億張圖片，較 ChatGPT 達到同一里程碑晚約兩個月。*(來源：TechCrunch，8 月 11 日)*
+
+- **Google 發布 Gemini 3.7 Flash，程式碼基準測試大幅躍升：** Gemini 3.7 Flash 於 8 月 13 日發布，FrontierCode 1.1 從 34.4% 提升至 43.6%，DeepSWE v1.1 從 49% 跳升至 65.3%，優惠定價至 2026 年 12 月 31 日止為每百萬 token 輸入 0.75 美元、輸出 3.75 美元。*(來源：VentureBeat，8 月 13 日)*
+
+- **Apple 擴大對 OpenAI 的商業秘密訴訟，新增 11 名前員工：** Apple 新增 11 名前員工為潛在證人，並尋求法院頒布初步禁令，禁止 OpenAI 開發涉嫌基於竊取技術的 AI 產品，聽證會訂於 2026 年 10 月 1 日舉行。*(來源：TechCrunch，8 月 4 日)*
+
+- **Manus 宣布將重新成為獨立公司，Meta 收購案解除：** 在北京監管命令下，Manus 確認將「近期恢復獨立運營」，Meta 收購期間的用戶資料將於 8 月 23 至 24 日刪除。*(來源：CNBC，8 月 11 日)*
+
+- **xAI 發布 Grok 4.6 作為最新旗艦模型：** xAI 的 Grok 4.6 於 8 月 12 日發布，取代 Grok 4.5 成為公司頂級模型，同步上線於 Cursor 程式碼編輯器及 Grok Build 工具，在主要基準測試中表現具競爭力，定價為每百萬 token 輸入 2 美元、輸出 6 美元。*(來源：xAI，8 月 12 日)*
+
+- **JumpCloud Q3 報告：企業 AI 信心六個月內下滑 17 個百分點：** 針對美英兩國 800 名 IT 主管的調查顯示，隨著 AI 代理從試驗進入實際部署，企業信心大幅下滑，身份治理缺口與成效衡量不足是主因。*(來源：VentureBeat，8 月 17 日)*
+
+- **Intuit 四個月內兩度重建 AI 代理架構：** Intuit AI 副總裁何甯（Nhung Ho）於 VB Transform 2026 大會上坦言，公司因多代理鏈中誤差累積而放棄中央協調層，在 60 天內重建以技能與工具為核心的新架構。*(來源：VentureBeat，8 月 17 日)*
+
+---
+
+### 分析
+
+今日最具市場意義的商業新聞，是 Stripe 以逾 70 億美元收購 OpenRouter。此舉標誌著 AI 基礎設施堆疊的策略性整合正在加速。隨著企業越來越多地在 GPT-5.6、Gemini、Claude 及開源模型之間動態路由工作任務，掌控計費與路由層的公司將獲得巨大的市場槓桿。Stripe 的佈局與電商時代支付軌道的演變如出一轍——其賭注在於，AI 消耗的貨幣化將發生在基礎設施層面，而非應用層面。這也進一步印證了 AI 經濟的成熟：競爭前沿不再僅僅是哪個模型的基準分最高，而是誰能掌控發行、定價與開發者工作流程。
+
+在模型層面，本週的多項發布確認了 AI 市場已進入快速漸進迭代的階段，而非戲劇性的代際飛躍。Google Gemini 3.7 Flash、xAI Grok 4.6 的相繼推出，以及舊版 Imagen 和 Claude API 的持續下線，均反映出行業已將模型更替視為常態化的運營現實。與此同時，Gemini 月活躍用戶突破 10 億、語音成為主要互動方式，顯示 AI 助理正從新奇工具演變為日常必需品，這一轉變使消費者 AI 領域的競爭格局愈發緊張。
+
+監管與治理壓力在背景中持續升溫。Anthropic 依據歐盟《AI 法案》8 月 2 日透明度義務在模型輸出中嵌入機器可讀水印的舉措，以及各類政策執法動態，正為開發者帶來新的合規負擔，對中小型開發者的衝擊尤為明顯。與此同時，企業採用的現實正在趕上炒作：JumpCloud 調查顯示 AI 信心下滑 17 個百分點，Intuit 坦承兩度重建代理架構，均表明行業正進入一個更為務實、對運營要求更高的階段——在這一階段，治理能力、身份管理與系統可靠性的重要性，已不亞於模型的原始性能。
+
+---
+
+### 來源
+
+- TechCrunch（Stripe 收購 OpenRouter）: https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b (published 2026-08-16)
+- Google AI for Developers（Imagen 停用）: https://ai.google.dev/gemini-api/docs/deprecations (published 2026-08-17)
+- Anthropic Claude 平台文件（舊版 Workbench 下線）: https://platform.claude.com/docs/en/release-notes/overview (published 2026-08-17)
+- TechCrunch（Gemini 10 億用戶）: https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users (published 2026-08-11)
+- VentureBeat（Gemini 3.7 Flash）: https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut (published 2026-08-13)
+- TechCrunch（Apple 訴 OpenAI）: https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai (published 2026-08-04)
+- CNBC（Manus 獨立）: https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html (published 2026-08-11)
+- xAI（Grok 4.6）: https://x.ai/news (published 2026-08-12)
+- VentureBeat（企業 AI 信心報告）: https://venturebeat.com/security/ai-confidence-just-dropped-17-points-in-six-months-thats-actually-great-news (published 2026-08-17)
+- VentureBeat（Intuit 代理架構重建）: https://venturebeat.com/orchestration/intuit-scrapped-its-own-ai-agent-architecture-twice-in-four-months-at-vb-transform-2026-its-ai-vp-called-that-the-fast-path (published 2026-08-17)
