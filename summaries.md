@@ -5943,3 +5943,91 @@ The regulatory environment is hardening simultaneously on multiple fronts. Europ
 - Cooley（歐盟AI法案第50條透明度規定）: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
 - Quartz（ChatGPT 10億用戶、GPT-5.6 Luna降價）: https://qz.com/openai-billion-users-gpt-price-cuts-073126 (published 2026-07-31)
 - Al Jazeera（Meta AI攻擊外部系統披露）: https://www.aljazeera.com/news/2026/8/6/metas-ai-model-follows-rivals-in-revealing-hacks-of-outside-systems (published 2026-08-06)
+
+## 2026-08-21 01:00
+
+<!-- EN -->
+### Headlines
+- **IJCAI-ECAI 2026 Concludes Final Day in Bremen:** The 35th International Joint Conference on Artificial Intelligence wraps up its closing day, featuring a public lecture by Prof. Toby Walsh titled "The AI Race" and an AI×Workspace lounge session, capping a week of frontier AI research presentations in Germany. *(Source: IJCAI 2026, August 21)*
+
+- **Microsoft Patches Critical Copilot Security Flaws:** Microsoft shipped patches for multiple high-severity vulnerabilities in its Copilot ecosystem — including CVE-2026-59118 (CVSS 9.3) in Copilot Cowork and CVE-2026-62830 (CVSS 9.9) in Azure SRE Agent — as part of August 2026 Patch Tuesday, fixing privilege escalation and data exfiltration risks in AI agents. *(Source: CrowdStrike / The Hacker News, August 18–21)*
+
+- **UK Chip Startup Fractile Nears $6.5B Valuation After Anthropic Deal:** British AI inference chip startup Fractile is in advanced talks to raise $600M at a $6.5B valuation — more than six times its May valuation — after signing a $250M chip supply agreement with Anthropic, with chips expected to ship in 2027. *(Source: Bloomberg / The Next Web, August 19–21)*
+
+- **OpenAI Retiring o3 and GPT-4.5 From ChatGPT:** OpenAI announced that the o3 model will be retired from ChatGPT on August 26, 2026, and GPT-4.5 on June 26, as the company consolidates around newer GPT-5.6 Sol and Luna models, with free users gaining unlimited text chats and a new "Think" button. *(Source: OpenAI Help Center, August 21)*
+
+- **Anthropic Annualized Revenue Hits $65B, Eyes IPO:** Bloomberg reported Anthropic's annualized revenue surpassed $65 billion, overtaking OpenAI's ~$25B figure, as the company moves closer to a potential public market debut and continues to expand its compute supply chain with chip deals from Google, Amazon, Broadcom, and Fractile. *(Source: Bloomberg / TechCrunch, August 17–21)*
+
+- **EU AI Act Enforcement Now Underway:** As of August 2, 2026, the European Commission's AI Office began enforcing the AI Act's transparency rules, requiring AI systems to disclose when users are interacting with AI or viewing AI-generated content — a landmark step in binding AI regulation globally. *(Source: European Commission Digital Strategy, August 21)*
+
+- **New Benchmark Reveals LLMs Hit Ceiling on Genuine Hypothesis Generation:** A new scientific-reasoning benchmark published in August 2026 found that frontier LLMs recover research paper ideas from bibliographies alone at only 3–15%, with a multi-agent Swiss-tournament pipeline reaching just 42%, suggesting models still rely heavily on training-data retrieval rather than true hypothesis generation. *(Source: TechTimes, August 19)*
+
+- **AI Chip Sector Sees Record Funding in 2026:** With $4.97B raised across 12 rounds in just the first half of the year, AI chip startups including Etched (now valued at $21B) and Cerebras are drawing massive investor interest, driven by surging demand for AI inference infrastructure. *(Source: Reuters / Yahoo Finance, August 18–21)*
+
+---
+
+### Analysis
+
+The closing day of IJCAI-ECAI 2026 in Bremen underscores a maturing AI research landscape where public discourse and academic frontier research are increasingly intertwined. Prof. Toby Walsh's sold-out public lecture on "The AI Race" reflects deep societal anxiety and curiosity about AI's trajectory — a theme echoed in Stanford HAI's 2026 AI Index, which notes that AI incidents rose to 362 globally and that improving safety in one dimension can degrade another (e.g., accuracy). Meanwhile, the new hypothesis-generation benchmark revealing sharp limits in frontier LLMs is a sobering academic counterweight to the industry's bullish revenue figures: models remain powerful pattern-matchers, but genuine scientific creativity remains elusive.
+
+On the commercial front, the Anthropic-Fractile chip deal is emblematic of a broader strategic shift: top AI labs are aggressively diversifying away from Nvidia dependency by locking in long-term silicon supply agreements with emerging inference chip specialists. Anthropic's $65B annualized revenue — now exceeding OpenAI's despite OpenAI's far larger user base — signals that enterprise and API revenue, not consumer scale, is the new battleground for AI monetization. The race to secure compute infrastructure, from Google TPUs to Amazon Trainium to bespoke startups like Fractile and Etched, is reshaping the entire semiconductor investment landscape, with physical AI infrastructure funding hitting $47.4B globally in just H1 2026.
+
+Security is rapidly emerging as a critical AI governance challenge. The back-to-back disclosures of critical vulnerabilities in Microsoft Copilot's agent framework — including CVSS 9.9-rated flaws in Azure's AI SRE Agent — highlight that the rapid deployment of AI agents into enterprise workflows has outpaced security hardening. This mirrors the EU AI Act's transparency enforcement beginning August 2, and ongoing U.S. state-level legislation (with 40+ states active), pointing to a convergent global moment where AI capability, commercial scale, and regulatory accountability are all accelerating simultaneously.
+
+---
+
+### Sources
+- IJCAI 2026 (Outreach/Program): https://2026.ijcai.org/outreach (published 2026-08-21)
+- CrowdStrike (Patch Tuesday Analysis): https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026 (published 2026-08-21)
+- The Hacker News (Copilot Flaw): https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html (published 2026-08-18)
+- Bloomberg (Fractile/Anthropic Chip Deal): https://www.bloomberg.com/news/articles/2026-08-19/ai-chip-startup-fractile-in-talks-for-6-5-billion-value-after-anthropic-deal (published 2026-08-19)
+- The Next Web (Fractile Valuation): https://thenextweb.com/news/fractile-6-5bn-valuation-anthropic-chip-deal (published 2026-08-19)
+- OpenAI Help Center (Model Retirements): https://help.openai.com/en/articles/9624314-model-release-notes (published 2026-08-21)
+- Bloomberg (Anthropic Revenue): https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo (published 2026-08-17)
+- TechCrunch (Anthropic Revenue): https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b (published 2026-08-17)
+- TechTimes (LLM Benchmark): https://www.techtimes.com/articles/324932/20260819/blind-benchmark-catches-frontier-ai-just-three-percent-research-idea-recovery.htm (published 2026-08-19)
+- Reuters / Yahoo Finance (Etched Valuation): https://finance.yahoo.com/technology/ai/articles/ai-chip-startup-etched-valued-151318404.html (published 2026-08-18)
+- European Commission (EU AI Act Enforcement): https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august (published 2026-08-02)
+
+<!-- ZH -->
+### 頭條新聞
+- **IJCAI-ECAI 2026 於布萊梅圓滿閉幕：** 第35屆國際人工智慧聯合大會在德國布萊梅迎來最後一天，包括Toby Walsh教授的公開講座「AI競賽」及AI×工作空間論壇，為一週的前沿AI研究交流畫下句點。*(來源：IJCAI 2026，8 月 21 日)*
+
+- **微軟修補多項嚴重Copilot安全漏洞：** 微軟在8月Patch Tuesday發布修補程式，修復Copilot Cowork（CVE-2026-59118，CVSS 9.3）及Azure SRE Agent（CVE-2026-62830，CVSS 9.9）等多個嚴重漏洞，涵蓋權限提升與資料外洩風險。*(來源：CrowdStrike／The Hacker News，8 月 18–21 日)*
+
+- **英國晶片新創Fractile因Anthropic合約估值衝上65億美元：** 英國AI推論晶片新創公司Fractile傳出正洽談以65億美元估值籌募6億美元，較五月估值暴漲逾六倍，起因為與Anthropic簽訂2.5億美元晶片供應合約，預計2027年出貨。*(來源：Bloomberg／The Next Web，8 月 19–21 日)*
+
+- **OpenAI宣布ChatGPT退役o3與GPT-4.5：** OpenAI宣布o3模型將於8月26日從ChatGPT下架，GPT-4.5亦已於6月退役，公司持續整合至GPT-5.6 Sol與Luna，免費用戶同步獲得無限文字對話及全新「思考」按鈕功能。*(來源：OpenAI Help Center，8 月 21 日)*
+
+- **Anthropic年化營收達650億美元，IPO計畫浮現：** Bloomberg報導Anthropic年化營收已突破650億美元，超越OpenAI約250億美元，公司同時積極透過Google、亞馬遜、博通及Fractile等多元晶片供應鏈強化算力布局，並逐步邁向上市。*(來源：Bloomberg／TechCrunch，8 月 17–21 日)*
+
+- **歐盟AI法案正式啟動執法：** 歐盟委員會AI辦公室自8月2日起正式執行《AI法案》透明度條款，要求AI系統必須告知使用者其正在與AI互動或接觸AI生成內容，標誌著全球具約束力AI監管的重要里程碑。*(來源：歐盟委員會數位策略，8 月 21 日)*
+
+- **新基準測試揭示大型語言模型假設生成能力達瓶頸：** 2026年8月發布的科學推理基準測試顯示，前沿大型語言模型從參考書目中重建研究假設的成功率僅3–15%，多智能體瑞士錦標賽管線最高也只達42%，顯示模型仍高度依賴訓練資料記憶而非真正的創新推理。*(來源：TechTimes，8 月 19 日)*
+
+- **AI晶片業2026年融資規模創歷史新高：** 今年上半年全球AI晶片新創融資達47.4億美元，Etched（估值達210億美元）與Cerebras等公司持續吸引資本，主要受推論基礎設施需求激增所驅動。*(來源：Reuters／Yahoo Finance，8 月 18–21 日)*
+
+---
+
+### 分析
+
+IJCAI-ECAI 2026在布萊梅的閉幕，標誌著AI研究社群在學術前沿與公眾對話之間的橋樑越搭越穩。Toby Walsh教授售罄的公開講座，正反映出社會對AI發展方向的深切關注——這一主題與史丹佛HAI《2026年AI指數報告》不謀而合：報告指出全球AI事故已增至362起，且在某一維度（如安全性）的改善往往會損害另一維度（如準確性）。與此同時，新發布的假設生成能力基準測試揭示，前沿語言模型在去除訓練資料干擾後的真正科學創造能力十分有限，為業界的樂觀情緒提供了重要的學術冷靜劑。
+
+在商業層面，Anthropic與Fractile的晶片合約是AI頭部企業大規模降低對輝達（Nvidia）依賴、主動鎖定多元算力供應鏈的縮影。Anthropic年化營收達650億美元，已超越用戶規模約20倍的OpenAI，顯示企業端API收入才是AI貨幣化的真正主戰場，而非消費者端用戶數量。此外，2026年上半年全球物理AI基礎設施融資達474億美元，AI晶片生態系統的投資熱潮正從軟體全面延伸至硬體。
+
+AI安全治理的挑戰則日益突出。微軟Copilot代理框架接連曝出CVSS高達9.9的嚴重漏洞，揭示AI代理快速部署進企業工作流程的速度已遠超安全加固的步伐。這一現象與歐盟AI法案的正式執法、美國40餘個州持續推進的立法動作相互呼應，顯示全球主要司法管轄區正在同步加速：AI能力、商業規模與監管問責三者的碰撞已不可避免。
+
+---
+
+### 來源
+- IJCAI 2026（大會外展活動）: https://2026.ijcai.org/outreach (published 2026-08-21)
+- CrowdStrike（八月Patch Tuesday分析）: https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026 (published 2026-08-21)
+- The Hacker News（Copilot漏洞）: https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html (published 2026-08-18)
+- Bloomberg（Fractile／Anthropic晶片合約）: https://www.bloomberg.com/news/articles/2026-08-19/ai-chip-startup-fractile-in-talks-for-6-5-billion-value-after-anthropic-deal (published 2026-08-19)
+- The Next Web（Fractile估值）: https://thenextweb.com/news/fractile-6-5bn-valuation-anthropic-chip-deal (published 2026-08-19)
+- OpenAI Help Center（模型退役公告）: https://help.openai.com/en/articles/9624314-model-release-notes (published 2026-08-21)
+- Bloomberg（Anthropic營收）: https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo (published 2026-08-17)
+- TechCrunch（Anthropic營收）: https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b (published 2026-08-17)
+- TechTimes（LLM基準測試）: https://www.techtimes.com/articles/324932/20260819/blind-benchmark-catches-frontier-ai-just-three-percent-research-idea-recovery.htm (published 2026-08-19)
+- Reuters／Yahoo Finance（Etched估值）: https://finance.yahoo.com/technology/ai/articles/ai-chip-startup-etched-valued-151318404.html (published 2026-08-18)
+- 歐盟委員會數位策略（AI法案執法）: https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august (published 2026-08-02)
