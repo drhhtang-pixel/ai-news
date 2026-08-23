@@ -6119,3 +6119,79 @@ The competitive landscape in AI models is also fragmenting in significant ways. 
 - Z.ai（GLM-5.3）: https://z.ai/blog/glm-5.3 (published 2026-08-14)
 - TechCrunch（XCENA 晶片）: https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck (published 2026-05-29)
 - STAT News（Moderna/Merck AI 疫苗）: https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna (published 2026-08-19)
+
+## 2026-08-23 01:01
+
+<!-- EN -->
+### Headlines
+
+- **Mystery Model "OX Alpha" Claims to Beat GPT-5.6 Sol and Claude Fable 5 at Coding:** An unidentified AI model appeared anonymously on OpenRouter and OpenCode on August 20, with a 1M-token context window, multimodal inputs, and free access during preview; early user tests showed over 80% on DeepSWE software engineering benchmarks, though results are unaudited and speculation points to Z.ai's GLM family as the likely source. *(Source: Build Fast With AI, August 22–23)*
+
+- **OpenAI Cuts GPT-5.6 Sol Pricing to $4/$20 Per Million Tokens:** OpenAI reduced the price of its flagship GPT-5.6 Sol model by more than 20% (from $5/$30 to $4/$20 per million input/output tokens), continuing an aggressive price war across the frontier model market. *(Source: Reuters, August 21)*
+
+- **Alibaba Ships Qwen3.8-Max Open Weights — 2.4 Trillion Parameters, Free to Download:** The first-ever Max-class open-weight Qwen model (Qwen3.8-2.4T-A95B), a sparse mixture-of-experts architecture with ~95B active parameters, became available on Hugging Face and ModelScope, marking a significant open-source milestone for Chinese AI. *(Source: Build Fast With AI, August 22–23)*
+
+- **Stripe Acquires OpenRouter for Over $7 Billion:** Payments giant Stripe finalized a deal to acquire OpenRouter, the leading AI model-routing marketplace, for more than $7 billion ($7.5B per NYT), with CEO Patrick Collison stating it will help businesses "maximize profitability by routing their requests intelligently." *(Source: CNBC, August 19)*
+
+- **Google's Claude 3 Haiku Deprecated on Vertex AI as of August 23:** Google officially shut down Anthropic's Claude 3 Haiku on its Vertex AI platform today, following its deprecation announcement in February 2026, pushing enterprise customers to migrate to newer model tiers. *(Source: Google Cloud Vertex AI Release Notes, August 23)*
+
+- **GLM-5.3 by Z.ai Leads CyberGym Benchmark at 84.5%:** Zhipu AI's GLM-5.3 topped the CyberGym cybersecurity benchmark, outperforming both Claude Fable 5 and GPT-5.6 Sol, as Chinese AI labs continue to challenge Western frontier models on specialized tasks. *(Source: Build Fast With AI, August 22–23)*
+
+- **AI-Driven Consumer Price Inflation Expected Through 2027:** CBS MoneyWatch reported that AI infrastructure demand is reversing 40 years of tech deflation, with elevated prices for hardware and compute expected to persist through at least the end of 2027. *(Source: CBS News, August 15)*
+
+---
+
+### Analysis
+
+The week of August 22–23, 2026 crystallizes three interlocking forces reshaping the AI landscape. First, the "stealth model" phenomenon — exemplified by OX Alpha — signals that the competitive pressure to ship has become so intense that labs are now seeding anonymous previews on open routing platforms to gather real-world benchmark data before formal announcements. Whether OX Alpha turns out to be a GLM Flash variant or something else entirely, the episode underscores how leaderboard dynamics are now driven as much by viral social media claims as by audited evaluations, blurring the line between marketing and science. OpenAI's simultaneous price cut on GPT-5.6 Sol is a direct response to this pressure: as strong open-weight models (like Qwen3.8-Max at 2.4 trillion parameters) become freely downloadable, proprietary API providers must compete aggressively on price.
+
+Second, the Stripe–OpenRouter acquisition at $7+ billion is arguably the most structurally significant deal of the AI infrastructure era so far. By purchasing the dominant model-routing marketplace, Stripe is positioning itself as the financial and technical toll-road for all AI commerce — a bet that the future of AI is not one model, but a fluid, multi-provider market where intelligent routing and payments rails are the real moat. This also raises serious questions about concentration: with Chinese-origin models capturing ~46% of US enterprise token usage on OpenRouter, Stripe now finds itself at the center of a geopolitically sensitive infrastructure choke-point.
+
+Third, the EU AI Act's transparency deadline (August 2, 2026) combined with Google's deprecation of Claude 3 Haiku on Vertex AI signals that the era of indefinitely long model lifespans is over. Cloud platforms are tightening upgrade cycles, and enterprises that built on older models are being pushed toward rapid migration. Together, these trends point to an AI market accelerating toward commoditization of models, consolidation of infrastructure, and sharply rising regulatory compliance costs — a combination that will disproportionately benefit well-capitalized incumbents and open-source communities while squeezing mid-tier proprietary players.
+
+---
+
+### Sources
+
+- Build Fast With AI: https://www.buildfastwithai.com/blogs/ai-news-today-august-22-23-2026 (published 2026-08-22)
+- Reuters: https://www.reuters.com/technology/openai-cuts-developer-pricing-frontier-gpt-56-sol-model-by-more-than-20-2026-08-21 (published 2026-08-21)
+- CNBC: https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html (published 2026-08-19)
+- Google Cloud Vertex AI Release Notes: https://docs.cloud.google.com/vertex-ai/docs/release-notes (published 2026-08-23)
+- CBS News: https://www.cbsnews.com/news/ai-investment-is-driving-up-consumer-prices-computers-inflation (published 2026-08-14)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **神秘模型「OX Alpha」聲稱在程式編寫測試中擊敗 GPT-5.6 Sol 與 Claude Fable 5：** 一個身份不明的 AI 模型於 8 月 20 日匿名出現在 OpenRouter 與 OpenCode 平台，具備 100 萬 token 上下文窗口、多模態輸入及免費預覽期；早期用戶測試顯示其在 DeepSWE 軟體工程基準測試中得分超過 80%，但結果尚未經過正式審核，外界推測該模型可能來自 Z.ai 的 GLM 系列。*(來源：Build Fast With AI，8 月 22-23 日)*
+
+- **OpenAI 將 GPT-5.6 Sol 定價下調至每百萬 token $4/$20：** OpenAI 將其旗艦模型 GPT-5.6 Sol 的定價降低逾 20%（從 $5/$30 降至每百萬輸入/輸出 token $4/$20），持續在前沿模型市場掀起激烈的價格戰。*(來源：Reuters，8 月 21 日)*
+
+- **阿里巴巴開放 Qwen3.8-Max 權重——2.4 兆參數可免費下載：** 史上首個 Max 等級開放權重千問模型（Qwen3.8-2.4T-A95B）以稀疏混合專家架構（~95B 主動參數）上架 Hugging Face 與 ModelScope，成為中國 AI 開源領域的重要里程碑。*(來源：Build Fast With AI，8 月 22-23 日)*
+
+- **Stripe 以逾 70 億美元收購 OpenRouter：** 支付巨頭 Stripe 宣布以逾 70 億美元（據紐約時報報導約 75 億美元）完成對 AI 模型路由市場 OpenRouter 的收購，執行長 Patrick Collison 表示此舉將幫助企業「智慧地路由請求、高效使用 token 以實現最大獲利」。*(來源：CNBC，8 月 19 日)*
+
+- **Google 於 8 月 23 日正式在 Vertex AI 下線 Claude 3 Haiku：** Google 今日正式關閉其 Vertex AI 平台上 Anthropic 的 Claude 3 Haiku 模型，此前已於 2026 年 2 月公告棄用，促使企業客戶加速遷移至新一代模型。*(來源：Google Cloud Vertex AI 更新說明，8 月 23 日)*
+
+- **Z.ai 的 GLM-5.3 在 CyberGym 網路安全基準測試中以 84.5% 奪冠：** 智譜 AI 的 GLM-5.3 在 CyberGym 測試中超越 Claude Fable 5 與 GPT-5.6 Sol，中國 AI 實驗室持續在專業任務上挑戰西方前沿模型。*(來源：Build Fast With AI，8 月 22-23 日)*
+
+- **AI 驅動的消費價格通膨預計延續至 2027 年：** CBS MoneyWatch 報導指出，AI 基礎設施需求正在逆轉 40 年來科技產品持續降價的趨勢，硬體與算力的高價格預計至少持續至 2027 年底。*(來源：CBS News，8 月 15 日)*
+
+---
+
+### 分析
+
+2026 年 8 月 22 至 23 日這個週末，三股相互交織的力量清楚地呈現了 AI 格局的演變方向。首先，以 OX Alpha 為代表的「匿名模型」現象，顯示出競爭壓力已激烈到各家實驗室在正式發布前，紛紛以匿名方式將模型預覽版投放於開放路由平台，藉此收集真實世界的基準數據。無論 OX Alpha 最終是否為 GLM Flash 的變體，此事件都凸顯出排行榜的走向，如今已同樣受到社群媒體病毒式傳播的左右，而非僅憑經過審核的科學評估，使行銷與科研之間的界線愈發模糊。OpenAI 同步下調 GPT-5.6 Sol 定價，正是對這一壓力的直接回應：隨著 Qwen3.8-Max 等 2.4 兆參數的強力開放模型可免費下載，專有 API 服務商不得不在定價上展開激烈競爭。
+
+其次，Stripe 以逾 70 億美元收購 OpenRouter，堪稱迄今為止 AI 基礎設施領域最具結構性意義的交易。透過收購主流模型路由市場，Stripe 正將自身定位為所有 AI 商業活動的金融與技術樞紐——此舉押注於未來的 AI 市場不會由單一模型主導，而是一個多提供商並存、智慧路由與支付基礎設施才是真正護城河的流動市場。與此同時，此案也引發嚴肅的地緣政治疑慮：中國來源模型在 OpenRouter 上佔據美國企業 token 使用量約 46%，Stripe 的收購使其成為一個地緣政治敏感基礎設施的核心把關者。
+
+第三，歐盟《AI 法案》透明度截止日（2026 年 8 月 2 日）加上 Google 在 Vertex AI 下線 Claude 3 Haiku，共同宣告了模型無限期使用時代的終結。雲端平台正在縮短升級週期，建立在舊版模型上的企業被迫快速遷移。這些趨勢共同指向一個加速演變的 AI 市場——模型日益商品化、基礎設施整合加劇、法規遵循成本大幅攀升，此一組合將不成比例地有利於資本雄厚的大型企業與開源社群，同時對中小型專有模型業者形成強大壓力。
+
+---
+
+### 來源
+
+- Build Fast With AI: https://www.buildfastwithai.com/blogs/ai-news-today-august-22-23-2026 (published 2026-08-22)
+- Reuters: https://www.reuters.com/technology/openai-cuts-developer-pricing-frontier-gpt-56-sol-model-by-more-than-20-2026-08-21 (published 2026-08-21)
+- CNBC: https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html (published 2026-08-19)
+- Google Cloud Vertex AI Release Notes: https://docs.cloud.google.com/vertex-ai/docs/release-notes (published 2026-08-23)
+- CBS News: https://www.cbsnews.com/news/ai-investment-is-driving-up-consumer-prices-computers-inflation (published 2026-08-14)
