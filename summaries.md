@@ -6195,3 +6195,65 @@ Third, the EU AI Act's transparency deadline (August 2, 2026) combined with Goog
 - CNBC: https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html (published 2026-08-19)
 - Google Cloud Vertex AI Release Notes: https://docs.cloud.google.com/vertex-ai/docs/release-notes (published 2026-08-23)
 - CBS News: https://www.cbsnews.com/news/ai-investment-is-driving-up-consumer-prices-computers-inflation (published 2026-08-14)
+
+## 2026-08-24 00:58
+
+<!-- EN -->
+### Headlines
+
+- **CSIS Hosts "AI Agent Containment Failures" Policy Event:** The Center for Strategic and International Studies (CSIS) Wadhwani AI Center convened an in-person expert panel on frontier AI security incidents, featuring a keynote by Rep. Suhas Subramanyam (VA-10) and a presentation by Hugging Face, co-hosted with the Institute for Law and AI. *(Source: CSIS, August 24)*
+
+- **NSF State & Regional AI Infrastructure Hubs LOI Deadline:** The National Science Foundation's deadline for Letters of Intent for its State and Regional AI Infrastructure Hubs program fell today, a major initiative to expand compute access for AI-enabled scientific discovery through state-regional consortia of governments, universities, and private sector partners. *(Source: NC State CED / NSF, August 24)*
+
+- **GLM-5.3 Outperforms Claude and GPT-5.6 on Cybersecurity Benchmarks:** China's GLM-5.3 model topped the CyberGym benchmark at 84.5%, surpassing both Anthropic's Claude and OpenAI's GPT-5.6 Sol, marking a notable milestone in the US–China frontier model competition. *(Source: Z.ai, August 14)*
+
+- **Unitree Robotics IPO Surges 629% on Opening Day:** Chinese robotics company Unitree, known for its AI-powered humanoid and quadruped robots, saw its IPO shares open 629% above the offering price, underscoring explosive investor appetite for physical AI and robotics. *(Source: Forbes, August 19)*
+
+- **Google DeepMind Leadership Transition Underway:** Koray Kavukcuoglu, newly appointed SVP of Google DeepMind, faces mounting pressure to close capability gaps with OpenAI and Anthropic following the departure of co-founder Demis Hassabis to a chairman role, with analysts noting DeepMind must accelerate frontier model development. *(Source: CNBC, August 12)*
+
+- **EU AI Act High-Risk Obligations Now in Full Force:** Following the August 2 application milestone, EU AI Office enforcement of the AI Act's high-risk system provisions and General-Purpose AI model rules is now actively underway as of this week, with the AI Office empowered to levy fines, demand technical documentation, and require corrective measures from non-compliant providers. *(Source: European Commission Digital Strategy, August 2026)*
+
+### Analysis
+
+The week of August 24, 2026 reflects a global AI landscape defined by three converging forces: intensifying geopolitical competition, escalating regulatory enforcement, and deepening concerns about AI safety and containment. China's GLM-5.3 overtaking Western frontier models on cybersecurity benchmarks — combined with the spectacular Unitree IPO — signals that Chinese AI and robotics ecosystems are no longer merely catching up but actively challenging US dominance in both software intelligence and physical AI. This backdrop makes the CSIS policy event on AI agent containment failures particularly timely: as agentic AI systems proliferate in enterprise and government settings, the failure modes of autonomous agents are graduating from theoretical risk to documented incident.
+
+On the regulatory front, the EU AI Act's full enforcement machinery is now operational, creating a concrete compliance deadline that global AI providers can no longer defer. Simultaneously, Anthropic's multi-cloud pivot toward Oracle, OpenAI's model pricing restructuring (GPT-5.6 tiers), and the NSF's push to democratize AI compute infrastructure all suggest that the industry is rapidly maturing past the "race to scale" phase into a more complex era of governance, cost discipline, and infrastructure sovereignty. The pressure on Google DeepMind to close its capability gap with OpenAI and Anthropic adds further urgency, suggesting the frontier model competition will only intensify through Q4 2026.
+
+### Sources
+- CSIS (Wadhwani AI Center): https://www.csis.org/events/ai-agent-containment-failures-technical-realities-and-policy-responses (published 2026-08-24)
+- NC State CED / NSF AI Infrastructure Hubs: https://ced.ncsu.edu/2026/08/20/limited-submission-announcement-loi-due-august-24-2026 (published 2026-08-20, LOI deadline 2026-08-24)
+- Z.ai (GLM-5.3): https://z.ai/blog/glm-5.3 (published 2026-08-14)
+- Forbes (Unitree IPO): https://www.forbes.com/sites/johnkoetsier/2026/08/19/unitree-ipos-massive-629-pop-makes-agility-robotics-look-super-cheap (published 2026-08-19)
+- CNBC (Google DeepMind): https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html (published 2026-08-12)
+- European Commission (EU AI Act): https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai (published 2026-08-02)
+
+---
+
+<!-- ZH -->
+### 頭條新聞
+
+- **CSIS 舉辦「AI 代理人控管失敗」政策研討會：** 美國戰略與國際研究中心（CSIS）旗下的 Wadhwani AI 中心與法律與 AI 研究所聯合舉辦實體研討會，邀請眾議員 Suhas Subramanyam（維吉尼亞州第 10 選區）發表主旨演講，Hugging Face 代表進行簡報，聚焦前沿 AI 安全事件與政策因應。*(來源：CSIS，8 月 24 日)*
+
+- **NSF 州與區域 AI 基礎設施中心意向書截止：** 美國國家科學基金會（NSF）今日截收「州與區域 AI 基礎設施中心」計畫的意向書，此為重大倡議，旨在透過州政府、高校與私部門聯盟擴大 AI 科學研究所需的算力資源。*(來源：NC State CED／NSF，8 月 24 日)*
+
+- **GLM-5.3 在網路安全基準測試中超越 Claude 與 GPT-5.6：** 中國 GLM-5.3 模型在 CyberGym 基準測試中以 84.5% 的成績奪冠，超越 Anthropic 的 Claude 及 OpenAI 的 GPT-5.6 Sol，標誌著中美前沿模型競賽出現重大轉折。*(來源：Z.ai，8 月 14 日)*
+
+- **宇樹科技 IPO 首日暴漲 629%：** 以 AI 驅動人形機器人及四足機器人聞名的中國宇樹科技，上市首日股價較發行價飆升 629%，顯示投資者對「具身 AI」與機器人領域的熱情空前高漲。*(來源：Forbes，8 月 19 日)*
+
+- **Google DeepMind 領導層交接正式啟動：** 新任 SVP Koray Kavukcuoglu 接手 Google DeepMind 後，面臨在前沿模型能力上追趕 OpenAI 與 Anthropic 的巨大壓力；分析師指出，DeepMind 共同創辦人 Demis Hassabis 轉任董事長後，技術差距問題更加迫切。*(來源：CNBC，8 月 12 日)*
+
+- **歐盟《人工智慧法》高風險條款全面生效：** 繼 8 月 2 日關鍵適用里程碑後，歐盟 AI 辦公室本週正式啟動對高風險 AI 系統及通用 AI 模型的執法，有權對違規業者開罰、要求提交技術文件及採取糾正措施。*(來源：歐盟委員會數位策略，8 月 2 日)*
+
+### 分析
+
+2026 年 8 月 24 日當週，全球 AI 格局呈現三股力量交匯的態勢：地緣政治競爭白熱化、法規執法全面升溫，以及對 AI 安全與管控的憂慮持續深化。中國 GLM-5.3 在網路安全基準測試上超越西方前沿模型，加上宇樹科技 IPO 的爆炸性表現，清晰地表明中國 AI 與機器人生態系統不再只是追趕者，而是正在軟體智慧與「具身 AI」兩條賽道上主動挑戰美國的主導地位。在此背景下，CSIS 舉辦的 AI 代理人控管失敗政策研討會顯得格外及時——隨著自主 AI 代理人在企業與政府中快速普及，其失控模式已從理論風險演變為有據可查的現實事故。
+
+從監管面來看，歐盟《人工智慧法》執法機制全面啟動，給全球 AI 業者設下無可迴避的合規底線。與此同時，Anthropic 向甲骨文多雲轉型、OpenAI 調整 GPT-5.6 定價層級，以及 NSF 推動算力基礎設施民主化等動向，均顯示這個行業正迅速從「規模競賽」邁向治理、成本管控與基礎設施自主的新階段。Google DeepMind 急需縮小與 OpenAI 及 Anthropic 之間的能力差距，更預示著前沿模型之爭在 2026 年第四季將持續加劇。
+
+### 來源
+- CSIS（Wadhwani AI 中心）: https://www.csis.org/events/ai-agent-containment-failures-technical-realities-and-policy-responses (published 2026-08-24)
+- NC State CED／NSF AI 基礎設施中心: https://ced.ncsu.edu/2026/08/20/limited-submission-announcement-loi-due-august-24-2026 (published 2026-08-20)
+- Z.ai（GLM-5.3）: https://z.ai/blog/glm-5.3 (published 2026-08-14)
+- Forbes（宇樹 IPO）: https://www.forbes.com/sites/johnkoetsier/2026/08/19/unitree-ipos-massive-629-pop-makes-agility-robotics-look-super-cheap (published 2026-08-19)
+- CNBC（Google DeepMind）: https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html (published 2026-08-12)
+- 歐盟委員會數位策略（歐盟 AI 法）: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai (published 2026-08-02)
