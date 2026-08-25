@@ -6257,3 +6257,85 @@ On the regulatory front, the EU AI Act's full enforcement machinery is now opera
 - Forbes（宇樹 IPO）: https://www.forbes.com/sites/johnkoetsier/2026/08/19/unitree-ipos-massive-629-pop-makes-agility-robotics-look-super-cheap (published 2026-08-19)
 - CNBC（Google DeepMind）: https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html (published 2026-08-12)
 - 歐盟委員會數位策略（歐盟 AI 法）: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai (published 2026-08-02)
+
+## 2026-08-25 00:58
+
+<!-- EN -->
+### Headlines
+- **@Scale Networking 2026 Conference Opens in Santa Clara:** Meta and OpenAI engineers gathered at the Santa Clara Convention Center to share cutting-edge research on AI networking, including Meta's exploration of AI agents for network operations and OpenAI's use of MRC and SRv6 technologies to support frontier model training at scale. *(Source: @Scale Conference / Meta, August 25)*
+
+- **OpenAI Prepares to Retire Legacy Models o3 and GPT-4.5 from ChatGPT:** OpenAI confirmed that the o3 model will be retired from ChatGPT on August 26, 2026, following a 90-day sunset period, while GPT-4.5 was retired in June — moves aimed at streamlining the platform around its newest and most capable models; API access remains unaffected. *(Source: OpenAI Help Center, August 25)*
+
+- **OpenAI Assistants API Beta Sunsets on August 26:** OpenAI's Assistants API beta is being deprecated imminently, with the company explicitly stating it will not provide automated migration tools for converting Threads to Conversations, placing the burden of data migration on developers. *(Source: OpenAI Community / Help Center, August 25)*
+
+- **ORISE AI Symposium Kicks Off with Focus on "Exploring AI Horizons in STEM":** The 2026 ORISE Symposium (August 25–28) brings together speakers from academia and federal agencies to discuss AI applications across STEM fields, workforce development, and research, reflecting growing government interest in embedding AI into scientific practice. *(Source: National Postdoctoral Association / ORISE, August 25)*
+
+- **Meta Showcases AI-Native Network Operations at @Scale:** Meta's YuLing Chen presented production trial results of AI agents autonomously managing network operations for billions of users, while Fabrice Ouandji and Sebastian Gault previewed fiber network innovations required to meet rising AI infrastructure demands. *(Source: @Scale Conference / Meta Facebook, August 25)*
+
+- **Michigan Legislature Returns Amid Active AI Bill Docket:** Michigan lawmakers returned from recess on August 25 with several pending AI bills, as part of a broader national wave of state-level AI legislation with nearly 100 chatbot-specific bills introduced across 34 states in 2026. *(Source: Transparency Coalition AI Legislative Update, August 25)*
+
+- **AI Agent Robustness and Metamorphic Testing Spotlighted in New Research:** A peer-reviewed study at ESM 2026, highlighted in the "AI in Testing Daily" series, found that explanation-guided metamorphic testing discovers more than twice as many real failure-inducing bugs compared to basic mutation strategies, with GitLab publishing a production case study confirming the findings. *(Source: AI in Testing Daily / YouTube, August 25)*
+
+- **August 2026 AI Model Race Intensifies with Speed and Pricing Wars:** Trackers confirm a dense release cadence in August 2026, with notable models including GPT-5.6 Luna, DeepSeek-V4-Pro-0813, Grok 4.6, Gemini 3.7 Flash, Meta Muse Spark 1.2, and GLM-5.2 Turbo all shipping this month, reflecting a market that has entered an era of permanent model turnover. *(Source: LLM Gateway / AI Release Tracker, August 25)*
+
+---
+
+### Analysis
+
+The dominant theme of August 25, 2026 is the industrialization of AI infrastructure. The @Scale Networking conference in Santa Clara crystallized how AI is no longer just a software challenge — it is fundamentally reshaping physical and logical network architecture. Meta's live demos of AI agents autonomously managing production networks for billions of users, combined with OpenAI's real-world deployment of advanced routing technologies like MRC and SRv6 for frontier model training, signal that "AI-native networking" is transitioning from research aspiration to operational reality. The sheer scale of capital investment — Meta alone is targeting $145 billion in capex in 2026 — underscores that the infrastructure layer has become the defining competitive battleground.
+
+On the model and platform side, the rapid deprecation of OpenAI's o3 and GPT-4.5 from ChatGPT, alongside the shutdown of the Assistants API beta, illustrates a market consolidating around a smaller number of highly capable, cost-efficient frontier models. The August 2026 model tracker data paints a picture of a "tiered release" strategy adopted by all major labs — shipping model families optimized for different cost and capability points, rather than single blockbuster launches. This has created a pricing war that is dramatically lowering the cost of AI inference and pushing model capabilities into everyday enterprise and consumer tools.
+
+Finally, the legislative and governance landscape is keeping pace with the technology's rapid advance. Michigan's legislature returning specifically with AI bills on its docket, the recently activated EU AI Act enforcement regime (from August 2), and the ORISE Symposium's focus on AI in STEM and workforce development all reflect a global reckoning with how to govern AI responsibly. The challenge for policymakers remains the same as it is for developers: keeping pace with a technology that is, as the trackers note, now "shipping like software" — in a continuous, accelerating stream.
+
+---
+
+### Sources
+- @Scale Conference (Networking 2026 Event Page): https://atscaleconference.com/events/networking-2026 (published 2026-08-25)
+- Meta / @Scale Facebook Event Updates: https://www.facebook.com/atscaleevents/videos/register-today-scale/993371960386246 (published 2026-08-25)
+- OpenAI Help Center (ChatGPT Release Notes): https://help.openai.com/en/articles/6825453-chatgpt-release-notes (published 2026-08-25)
+- OpenAI Community (Assistants API Deprecation): https://community.openai.com/t/assistants-api-beta-deprecation-august-26-2026-sunset/1354666 (published 2026-08-25)
+- National Postdoctoral Association / ORISE Symposium: https://www.nationalpostdoc.org/events/EventDetails.aspx?id=2081395 (published 2026-08-25)
+- Transparency Coalition (AI Legislative Update): https://www.transparencycoalition.ai/news/ai-legislative-update-august21-2026 (published 2026-08-25)
+- AI in Testing Daily / YouTube: https://www.youtube.com/watch?v=tlnpRs90Hc8 (published 2026-08-25)
+- LLM Gateway (August 2026 Model Timeline): https://llmgateway.io/timeline (published 2026-08-25)
+
+<!-- ZH -->
+### 頭條新聞
+- **@Scale 網路大會於聖塔克拉拉揭幕：** Meta 與 OpenAI 工程師齊聚聖塔克拉拉會議中心，分享 AI 網路最新研究，包括 Meta 探索以 AI 代理管理網路操作，以及 OpenAI 在生產環境中使用 MRC 與 SRv6 技術支援前沿模型訓練。*(來源：@Scale Conference / Meta，8 月 25 日)*
+
+- **OpenAI 宣布停用 ChatGPT 中的舊版模型 o3 與 GPT-4.5：** OpenAI 確認 o3 模型將於 2026 年 8 月 26 日從 ChatGPT 退役（經過 90 天落日期），GPT-4.5 則已於 6 月退役，此舉旨在集中資源支援最新、最強大的模型；API 存取不受影響。*(來源：OpenAI 說明中心，8 月 25 日)*
+
+- **OpenAI Assistants API 測試版即將於 8 月 26 日正式關閉：** OpenAI 宣告 Assistants API 測試版即將停用，並明確表示不會提供自動化遷移工具，將 Threads 轉換至 Conversations 的資料遷移工作將由開發者自行負責。*(來源：OpenAI 社群 / 說明中心，8 月 25 日)*
+
+- **ORISE AI 研討會以「探索 STEM 的 AI 視野」為主題正式開幕：** 2026 年 ORISE 研討會（8 月 25 日至 28 日）匯聚學術界與聯邦機構的專家，共同探討 AI 在 STEM 領域的應用、勞動力發展及研究創新，彰顯政府對將 AI 融入科學實踐的高度重視。*(來源：全國博士後協會 / ORISE，8 月 25 日)*
+
+- **Meta 在 @Scale 大會展示 AI 原生網路操作成果：** Meta 的 YuLing Chen 發表了 AI 代理在生產環境中自主管理數十億用戶網路的試驗結果，Fabrice Ouandji 與 Sebastian Gault 則預告了應對 AI 基礎設施需求所需的光纖網路創新方向。*(來源：@Scale 大會 / Meta Facebook，8 月 25 日)*
+
+- **密西根州議會復會，AI 法案議程待審：** 密西根州議員於 8 月 25 日結束休會返回，帶回數項待審 AI 法案，反映 2026 年全美各州立法的廣泛浪潮——已有超過 34 個州提出近 100 項聊天機器人相關法案。*(來源：Transparency Coalition AI 立法更新，8 月 25 日)*
+
+- **AI 代理健壯性與變質測試研究受到矚目：** ESM 2026 的一項同儕審查研究（收錄於「AI in Testing Daily」系列）發現，解釋引導的變質測試所發現的真實缺陷數量，比基本突變策略多出一倍以上，GitLab 亦發表了生產環境案例研究加以佐證。*(來源：AI in Testing Daily / YouTube，8 月 25 日)*
+
+- **2026 年 8 月 AI 模型競賽在速度與定價戰中持續升溫：** 追蹤器確認 8 月份模型發布節奏密集，包括 GPT-5.6 Luna、DeepSeek-V4-Pro-0813、Grok 4.6、Gemini 3.7 Flash、Meta Muse Spark 1.2 及 GLM-5.2 Turbo 等重要模型相繼推出，顯示市場已進入「永久模型更迭」的時代。*(來源：LLM Gateway / AI Release Tracker，8 月 25 日)*
+
+---
+
+### 分析
+
+2026 年 8 月 25 日最核心的主題，是 AI 基礎設施的工業化。聖塔克拉拉的 @Scale 網路大會清楚呈現出，AI 已不僅是軟體層面的挑戰，而是從根本上重塑實體與邏輯網路架構。Meta 現場示範 AI 代理自主管理數十億用戶的生產網路，以及 OpenAI 在前沿模型訓練中實際部署 MRC 和 SRv6 等進階路由技術，均顯示「AI 原生網路」正從研究願景轉化為實際運維。龐大的資本投入——Meta 單一公司 2026 年資本支出目標高達 1,450 億美元——充分說明基礎設施層已成為關鍵競爭戰場。
+
+在模型與平台層面，OpenAI 迅速淘汰 ChatGPT 中的 o3 與 GPT-4.5，並關閉 Assistants API 測試版，顯示市場正向少數高能效、低成本的前沿模型集中靠攏。8 月份的模型追蹤資料呈現出各大實驗室普遍採用「分層發布」策略——針對不同成本與能力需求推出多款模型系列，而非單一旗艦大型發布。這已引發定價戰，大幅壓低 AI 推理成本，並將模型能力推進至日常企業與消費者工具中。
+
+最後，立法與治理層面的進展也與技術的快速發展相互呼應。密西根州議會帶著 AI 法案議程復會、歐盟 AI 法案強制執行機制於 8 月 2 日正式啟動，以及 ORISE 研討會聚焦 AI 在 STEM 與勞動力發展中的角色，均反映出全球社會對如何負責任地治理 AI 的深刻思考。對政策制定者而言，挑戰與開發者相同：如何跟上這項如今「像軟體一樣持續出貨」、節奏不斷加速的技術。
+
+---
+
+### 來源
+- @Scale Conference（網路 2026 活動頁面）: https://atscaleconference.com/events/networking-2026 (published 2026-08-25)
+- Meta / @Scale Facebook 活動更新: https://www.facebook.com/atscaleevents/videos/register-today-scale/993371960386246 (published 2026-08-25)
+- OpenAI 說明中心（ChatGPT 版本說明）: https://help.openai.com/en/articles/6825453-chatgpt-release-notes (published 2026-08-25)
+- OpenAI 社群（Assistants API 停用）: https://community.openai.com/t/assistants-api-beta-deprecation-august-26-2026-sunset/1354666 (published 2026-08-25)
+- 全國博士後協會 / ORISE 研討會: https://www.nationalpostdoc.org/events/EventDetails.aspx?id=2081395 (published 2026-08-25)
+- Transparency Coalition（AI 立法更新）: https://www.transparencycoalition.ai/news/ai-legislative-update-august21-2026 (published 2026-08-25)
+- AI in Testing Daily / YouTube: https://www.youtube.com/watch?v=tlnpRs90Hc8 (published 2026-08-25)
+- LLM Gateway（2026 年 8 月模型時間軸）: https://llmgateway.io/timeline (published 2026-08-25)
