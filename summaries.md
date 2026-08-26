@@ -6339,3 +6339,83 @@ Finally, the legislative and governance landscape is keeping pace with the techn
 - Transparency Coalition（AI 立法更新）: https://www.transparencycoalition.ai/news/ai-legislative-update-august21-2026 (published 2026-08-25)
 - AI in Testing Daily / YouTube: https://www.youtube.com/watch?v=tlnpRs90Hc8 (published 2026-08-25)
 - LLM Gateway（2026 年 8 月模型時間軸）: https://llmgateway.io/timeline (published 2026-08-25)
+
+## 2026-08-26 00:59
+
+<!-- EN -->
+### Headlines
+
+- **OpenAI o3 Officially Retired from ChatGPT:** OpenAI's o3 reasoning model was permanently removed from the ChatGPT model selector today, August 26, following a 90-day sunset period announced in May 2026, with GPT-5.6 Sol recommended as its replacement. *(Source: OpenAI Help Center, August 26)*
+
+- **Global IoT + AI Expo Opens in Shenzhen:** The 25th International IoT Exhibition (IOTE 2026) kicked off today in Shenzhen, China, spanning 80,000 sq meters with 1,000+ global exhibitors showcasing LLMs, embodied intelligence, humanoid robotics, and edge computing across a three-day event. *(Source: IOTE Expo China, August 26)*
+
+- **SoftBank Plans Record ¥1 Trillion Bond Offering for AI Investment:** SoftBank Group announced plans to issue a record 1 trillion yen (~$6.3 billion) in unsecured retail bonds to fund ongoing AI-related investments, including its OpenAI backing and data center infrastructure buildout. *(Source: Japan Times, August 24)*
+
+- **AI Weekly Alerts: Abbott Says AI Data Center Firms "Dug Their Own Grave":** Texas Governor Greg Abbott publicly criticized AI data center companies over energy and environmental concerns, adding political pressure to hyperscale AI infrastructure expansion. *(Source: New York Post, August 24)*
+
+- **AI Weekly: SoftBank Plans $6.3B Retail Bond to Fund AI Push:** SoftBank's unprecedented retail bond issuance is seen as a signal of how aggressively the Japanese conglomerate is leveraging debt to maintain its position as AI's largest non-US backer. *(Source: Japan Times / Bloomberg, August 24)*
+
+- **OpenAI o3 Retirement Signals Accelerating Model Consolidation:** With o3 gone from ChatGPT and GPT-4.5 already retired in June, OpenAI's model lineup is now tightly focused on the GPT-5 and o-series successors, marking a new phase of platform simplification. *(Source: OpenAI Help Center, August 26)*
+
+- **IOTE 2026 Highlights Physical AI and Humanoid Robotics as Next Industrial Frontier:** Exhibitors at the Shenzhen expo are spotlighting humanoid robots, AI-powered IoT edge devices, and multimodal AI integration as the defining convergence trend for smart manufacturing and logistics in 2026. *(Source: IOTE Expo China, August 26)*
+
+- **EU AI Act Transparency Rules Now in Full Force:** As of August 2 and continuing into enforcement this week, the EU's Article 50 transparency obligations — requiring chatbot disclosure and labeling of AI-generated content — are actively enforced, with fines of up to €15 million or 3% of global turnover applicable to violators. *(Source: Cooley / European Commission, August 3)*
+
+---
+
+### Analysis
+
+Today's news reflects a market undergoing rapid consolidation and maturation on multiple fronts simultaneously. OpenAI's retirement of o3 from ChatGPT is the clearest symbol of this: the company that launched o3 as its "smartest model" just 16 months ago is already moving users to GPT-5.6 Sol, illustrating how compressed the AI model lifecycle has become. For enterprise users and developers who have built workflows around specific models, this pace of deprecation is creating real operational friction — a dynamic that will only intensify as labs race to push newer architectures. The broader implication is that the frontier is now a moving target that no single deployment can safely assume will remain stable.
+
+On the investment and infrastructure side, SoftBank's record bond issuance underscores that the AI capital arms race is being financed increasingly through debt, not just equity. With over $60 billion already committed to OpenAI and related projects, SoftBank is using retail bond markets to maintain its position — a strategy that raises questions about sustainability if AI revenue growth doesn't accelerate to match leverage. Meanwhile, the opening of the IOTE 2026 expo in Shenzhen signals that the hardware layer of the AI economy — IoT sensors, edge AI chips, humanoid robotics platforms — is maturing into a self-sustaining industrial ecosystem, with Chinese manufacturers playing a central role in commoditizing the physical infrastructure that AI models ultimately depend on.
+
+Regulatory pressure is also crystallizing into enforceable reality. The EU's AI Act transparency obligations are now actively in force, and with California's AI Transparency Act also operative, the compliance window for AI developers has closed. Together with political friction in the US — exemplified by Governor Abbott's criticism of AI data center environmental impacts — the industry faces a dual squeeze: accelerating technical capability demands from above, and tightening regulatory and environmental constraints from below. The companies best positioned for the next phase will be those that can demonstrate not just model performance, but governance, transparency, and infrastructure accountability.
+
+---
+
+### Sources
+
+- OpenAI Help Center (Model Release Notes): https://help.openai.com/en/articles/9624314-model-release-notes (published 2026-08-26)
+- IOTE Expo China (Official Site): https://eng.iotexpo.com.cn (published 2026-08-26)
+- Japan Times (SoftBank bond): https://www.japantimes.co.jp/business/2026/08/24/companies/softbank-plan-bond-sale (published 2026-08-24)
+- New York Post (Abbott data centers): https://nypost.com/2026/08/24/business/texas-gov-greg-abbott-says-data-center-builders-dug-their-own-grave-with-public-opinion (published 2026-08-24)
+- Cooley (EU AI Act Article 50): https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **OpenAI o3 正式從 ChatGPT 退役：** OpenAI 的 o3 推理模型今日（8 月 26 日）正式從 ChatGPT 模型選擇器中移除，結束長達 90 天的過渡期，官方建議用戶改用 GPT-5.6 Sol 作為替代。*(來源：OpenAI 說明中心，8 月 26 日)*
+
+- **全球 IoT + AI 博覽會於深圳盛大開幕：** 第 25 屆國際物聯網展覽會（IOTE 2026）今日在深圳正式開幕，展覽面積達 8 萬平方米，匯聚全球逾 1,000 家參展商，展示大型語言模型、具身智能、人形機器人及邊緣計算等前沿技術。*(來源：IOTE Expo China，8 月 26 日)*
+
+- **軟銀計劃發行創紀錄的 1 兆日圓債券以支持 AI 投資：** 軟銀集團宣布計劃發行 1 兆日圓（約 63 億美元）的無擔保零售債券，為持續進行的 AI 相關投資及數據中心基礎建設提供資金。*(來源：日本時報，8 月 24 日)*
+
+- **AI Weekly 快訊：德克薩斯州長批評 AI 資料中心業者「自掘墳墓」：** 德克薩斯州長 Greg Abbott 公開批評 AI 資料中心企業在能源與環境問題上的失職，為超大規模 AI 基礎設施擴張帶來政治壓力。*(來源：紐約郵報，8 月 24 日)*
+
+- **軟銀計劃發行 63 億美元零售債券以推動 AI 佈局：** 軟銀創紀錄的零售債券發行被視為該日本集團積極借助債務融資、鞏固其全球最大非美 AI 投資者地位的明確信號。*(來源：日本時報 / 彭博社，8 月 24 日)*
+
+- **OpenAI 模型整合加速，o3 退役標誌新紀元：** 繼 GPT-4.5 於 6 月退役後，o3 的正式下架顯示 OpenAI 正大力精簡其模型陣容，全力聚焦於 GPT-5 及新一代 o 系列模型。*(來源：OpenAI 說明中心，8 月 26 日)*
+
+- **IOTE 2026 聚焦人形機器人與物理 AI 融合趨勢：** 深圳博覽會參展商重點展示人形機器人、AI 驅動的 IoT 邊緣設備及多模態 AI 整合方案，這一融合趨勢正成為智能製造與物流領域的核心發展方向。*(來源：IOTE Expo China，8 月 26 日)*
+
+- **歐盟《AI 法案》透明度條款全面生效執行：** 自 8 月 2 日起，歐盟《AI 法案》第 50 條透明度義務正式實施，要求聊天機器人向用戶披露 AI 身份並為 AI 生成內容加標籤，違規者最高可被處以 1,500 萬歐元或全球營業額 3% 的罰款。*(來源：Cooley / 歐盟委員會，8 月 3 日)*
+
+---
+
+### 分析
+
+今日新聞折射出 AI 產業在多個層面同步快速整合與成熟的全貌。OpenAI 將 o3 從 ChatGPT 下架是最具代表性的縮影：這款僅在 16 個月前被稱為「最智能模型」的系統，如今已被新一代模型取而代之，深刻揭示了 AI 模型生命周期壓縮的現實。對於已在業務流程中深度整合特定模型的企業用戶與開發者而言，如此高頻的模型退役不僅帶來操作摩擦，更要求組織具備快速遷移的技術能力。隨著各大實驗室持續加速推出更新架構，這一挑戰將只增不減。
+
+在投資與基礎設施層面，軟銀創紀錄的債券發行說明，AI 資本競賽正越來越多地依賴債務融資而非股權融資。軟銀已向 OpenAI 及相關項目承諾逾 600 億美元，如今更借助零售債券市場維持其全球最大非美 AI 投資者的地位——若 AI 收入增長無法跟上槓桿規模，這一策略的可持續性將受到嚴峻考驗。與此同時，深圳 IOTE 2026 博覽會的盛大開幕表明，AI 經濟的硬件底層——物聯網傳感器、邊緣 AI 晶片、人形機器人平台——正在中國製造商的主導下迅速走向成熟與商品化。
+
+監管壓力方面，歐盟《AI 法案》透明度條款的正式執行，加之加州《AI 透明度法》的生效，標誌著開發者的合規窗口期已然關閉。與此同時，美國政界對 AI 資料中心環境影響的批評聲浪漸起，進一步加劇行業的外部壓力。在技術能力需求持續攀升、監管與環境雙重約束不斷收緊的夾擊之下，能夠同時展示模型性能、治理水平、透明度與基礎設施責任的企業，才有望在下一階段的競爭中脫穎而出。
+
+---
+
+### 來源
+
+- OpenAI 說明中心（模型發布說明）: https://help.openai.com/en/articles/9624314-model-release-notes (published 2026-08-26)
+- IOTE Expo China（官方網站）: https://eng.iotexpo.com.cn (published 2026-08-26)
+- 日本時報（軟銀債券）: https://www.japantimes.co.jp/business/2026/08/24/companies/softbank-plan-bond-sale (published 2026-08-24)
+- 紐約郵報（Abbott 資料中心）: https://nypost.com/2026/08/24/business/texas-gov-greg-abbott-says-data-center-builders-dug-their-own-grave-with-public-opinion (published 2026-08-24)
+- Cooley（歐盟《AI 法案》第 50 條）: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
