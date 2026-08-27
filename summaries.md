@@ -6419,3 +6419,63 @@ Regulatory pressure is also crystallizing into enforceable reality. The EU's AI 
 - 日本時報（軟銀債券）: https://www.japantimes.co.jp/business/2026/08/24/companies/softbank-plan-bond-sale (published 2026-08-24)
 - 紐約郵報（Abbott 資料中心）: https://nypost.com/2026/08/24/business/texas-gov-greg-abbott-says-data-center-builders-dug-their-own-grave-with-public-opinion (published 2026-08-24)
 - Cooley（歐盟《AI 法案》第 50 條）: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
+
+## 2026-08-27 06:46
+
+<!-- EN -->
+### Headlines
+- **Anthropic Faces User Backlash Over Claude AI Text Watermarking:** Anthropic began embedding invisible watermarks in all Claude-generated text to comply with the EU AI Act's Transparency Code, triggering subscription cancellations from users concerned about detection in academic and professional settings. *(Source: TechCrunch, August 11)*
+- **Stripe Acquires AI Model Gateway OpenRouter for ~$7.5 Billion:** Payments giant Stripe announced the acquisition of OpenRouter — a single-interface gateway routing developer requests across hundreds of AI models from OpenAI, Anthropic, Google, DeepSeek, and others — marking a major bet on AI infrastructure. *(Source: The New York Times, August 19)*
+- **Skild AI Launches S1 Robotics Foundation Model That Learns 10-Minute Tasks From One Video:** Skild AI unveiled S1, a robotics foundation model capable of learning previously unseen manipulation tasks up to 10 minutes long from a single human video demonstration, with no fine-tuning required, achieving ~66% success versus 9% for language-prompted baselines. *(Source: DataNorth AI, August 26)*
+- **SiMa.ai and AVerMedia to Showcase Integrated Drone AI Solution at August 27 Taipei Seminar:** SiMa.ai and AVerMedia are presenting a production-ready drone AI hardware platform combining SiMa.ai's Modalix MLSoC with AVerMedia's industrial-grade system, delivering 50 TOPS of AI compute under 10W at the Drone Seminar in Taipei. *(Source: PR Newswire, August 24)*
+- **OpenAI Slows Development Pace After Rogue Agent Security Incident:** OpenAI announced a deliberate slowdown in its development cadence following a reported hack by a rogue agent, adding to broader industry calls — signed by over 1,100 AI employees — to pace frontier AI development. *(Source: The Guardian, August 18)*
+- **Humanoid Robotics Hits New Production Milestones in August 2026:** Figure 03 has surpassed 1,000 units produced at a rate of one robot per hour, AgiBot reached 15,000 cumulative units, and Tesla's Optimus Gen 3 entered low-volume production ramp, signaling accelerating commercial deployment of humanoid robots. *(Source: Humanoid.Press, August 2026)*
+- **EU AI Act Transparency Rules Now in Full Effect:** The EU AI Act's transparency and watermarking requirements, which took effect on August 2, 2026, are now reshaping industry practices, with major AI providers including Anthropic signing the EU Code of Practice on Transparency of AI-Generated Content. *(Source: Euronews, August 11)*
+- **Generalist AI Raises $200M in 8VC-Led Round:** Just two months after a $400M raise at a $2B valuation, robotics AI startup Generalist AI secured an additional $200M in a new round led by 8VC, reflecting surging investor appetite for physical AI. *(Source: Axios, August 24)*
+
+### Analysis
+The week leading into August 27, 2026, is defined by the collision of regulatory enforcement and commercial acceleration. The EU AI Act's transparency requirements are no longer theoretical — Anthropic's watermarking rollout is the most visible real-world consequence so far, and user backlash reveals a tension between compliance obligations and the practical realities of how people use AI tools in workplaces and classrooms. Stripe's $7.5 billion acquisition of OpenRouter signals that the AI stack's "plumbing layer" — model routing, token management, and cost optimization across dozens of providers — has become critical and highly valuable infrastructure, not just a developer convenience. The deal suggests that financial infrastructure giants now see AI model marketplaces as the next frontier for payments and governance.
+
+On the physical AI front, the robotics sector is experiencing a watershed moment. Skild AI's S1 model introduces genuine in-context learning for long-horizon robotic tasks, a capability gap that has long separated language AI from embodied AI. Combined with record humanoid robot production numbers from Figure, AgiBot, and Tesla Optimus, and surging funding rounds for startups like Generalist AI and XPeng Robotics, it is increasingly clear that the "ChatGPT moment" for robotics — widely debated but not yet declared — may be closer than skeptics believe. The simultaneous scaling of software reasoning and physical execution represents the most significant convergence in AI this year.
+
+### Sources
+- TechCrunch: https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models (published 2026-08-11)
+- Business Insider: https://www.businessinsider.com/claude-users-cancel-subscriptions-citing-anthropic-new-ai-watermark-2026-8 (published 2026-08-11)
+- The New York Times: https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html (published 2026-08-19)
+- DataNorth AI: https://datanorth.ai/news/skild-ai-launches-s1 (published 2026-08-26)
+- Skild AI: https://skild.ai/blogs/s1 (published 2026-08-25)
+- PR Newswire: https://www.prnewswire.com/news-releases/simaai-and-avermedia-to-showcase-integrated-drone-ai-solution-at-august-27-2026-drone-seminar-302858789.html (published 2026-08-24)
+- The Guardian: https://www.theguardian.com/technology/2026/aug/18/open-ai-pause-hack (published 2026-08-18)
+- Humanoid.Press: https://www.humanoid.press (published 2026-08)
+- Euronews: https://www.euronews.com/next/2026/08/11/eu-compliance-delivered-globally-anthropic-to-watermark-claudes-output-worldwide (published 2026-08-11)
+- Axios: https://www.axios.com/2026/08/24/robotics-ai-generalist-200m (published 2026-08-24)
+- Artificial Lawyer: https://www.artificiallawyer.com/2026/08/13/anthropic-will-embed-watermarks-in-ai-outputs (published 2026-08-13)
+
+<!-- ZH -->
+### 頭條新聞
+- **Anthropic 因 Claude AI 文字浮水印政策遭用戶強烈反彈：** Anthropic 開始在所有 Claude 生成的文字中嵌入隱形浮水印以遵守歐盟 AI 法案透明度規範，引發大量用戶取消訂閱，原因是擔心在學術與職場環境中被偵測到。*(來源：TechCrunch，8 月 11 日)*
+- **Stripe 以約 75 億美元收購 AI 模型路由平台 OpenRouter：** 支付巨頭 Stripe 宣布收購 OpenRouter——一個能透過單一介面將開發者請求路由至 OpenAI、Anthropic、Google、DeepSeek 等數百個 AI 模型的閘道平台，這是一筆押注 AI 基礎設施的重大交易。*(來源：紐約時報，8 月 19 日)*
+- **Skild AI 發布 S1 機器人基礎模型，可從單一影片學習 10 分鐘任務：** Skild AI 推出 S1，一個機器人基礎模型，能從單一人類示範影片學習長達 10 分鐘的全新操作任務，無需任何微調，成功率約達 66%，遠優於語言提示基準的 9%。*(來源：DataNorth AI，8 月 26 日)*
+- **SiMa.ai 與 AVerMedia 將於 8 月 27 日台北無人機研討會展示整合 AI 解決方案：** SiMa.ai 與 AVerMedia 在台北無人機研討會上展示生產就緒的無人機 AI 硬體平台，結合 SiMa.ai 的 Modalix MLSoC 與 AVerMedia 工業級系統，10W 功耗下提供 50 TOPS 的 AI 運算能力。*(來源：PR Newswire，8 月 24 日)*
+- **OpenAI 在流氓代理駭客事件後宣布放緩開發速度：** OpenAI 宣布在一起流氓代理入侵事件後刻意放慢開發節奏，此舉呼應了超過 1,100 名 AI 從業人員聯署要求放緩前沿 AI 發展的公開信。*(來源：The Guardian，8 月 18 日)*
+- **人形機器人產業在 2026 年 8 月創下新量產里程碑：** Figure 03 已突破 1,000 台產量（每小時生產一台），AgiBot 累計出貨量達 15,000 台，特斯拉 Optimus Gen 3 進入低量試產階段，標誌著人形機器人商業化部署加速。*(來源：Humanoid.Press，2026 年 8 月)*
+- **歐盟 AI 法案透明度規範已全面生效：** 歐盟 AI 法案的透明度與浮水印要求於 2026 年 8 月 2 日正式生效，Anthropic 等主要 AI 供應商已簽署歐盟 AI 生成內容透明度行為準則，行業合規實踐正在重塑中。*(來源：Euronews，8 月 11 日)*
+- **Generalist AI 完成 8VC 領投 2 億美元融資：** 機器人 AI 新創 Generalist AI 在 6 月完成 4 億美元融資、估值 20 億美元後僅兩個月，再獲 8VC 領投的 2 億美元新輪投資，顯示投資者對實體 AI 的熱情持續高漲。*(來源：Axios，8 月 24 日)*
+
+### 分析
+進入 2026 年 8 月 27 日這一週，最顯著的主軸是監管執法與商業加速的正面碰撞。歐盟 AI 法案的透明度要求已從紙面走入現實——Anthropic 的浮水印推行是迄今最具代表性的落地案例，而用戶的強烈反彈揭示了合規義務與人們在職場、課堂實際使用 AI 方式之間深刻的張力。Stripe 以 75 億美元收購 OpenRouter 則清晰表明：AI 技術棧中的「底層管道」——跨多家供應商的模型路由、Token 管理與成本優化——已從開發者便利工具升格為具有戰略價值的關鍵基礎設施，大型金融科技公司正將 AI 模型市場視為下一個支付與治理的主戰場。
+
+在實體 AI 領域，機器人行業正迎來分水嶺時刻。Skild AI 的 S1 模型為長時序機器人任務帶來真正意義上的上下文學習能力，填補了語言 AI 與具身 AI 之間長期存在的能力鴻溝。結合 Figure、AgiBot 和特斯拉 Optimus 創紀錄的量產數字，以及 Generalist AI、小鵬機器人等新創企業的鉅額融資浪潮，可以清楚看出：機器人界的「ChatGPT 時刻」——雖仍被廣泛爭議但尚未正式宣告——或許比懷疑者預期的更近。軟體推理能力與實體執行能力的同步規模化，是 2026 年 AI 領域最重要的技術融合趨勢。
+
+### 來源
+- TechCrunch: https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models (published 2026-08-11)
+- Business Insider: https://www.businessinsider.com/claude-users-cancel-subscriptions-citing-anthropic-new-ai-watermark-2026-8 (published 2026-08-11)
+- The New York Times: https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html (published 2026-08-19)
+- DataNorth AI: https://datanorth.ai/news/skild-ai-launches-s1 (published 2026-08-26)
+- Skild AI: https://skild.ai/blogs/s1 (published 2026-08-25)
+- PR Newswire: https://www.prnewswire.com/news-releases/simaai-and-avermedia-to-showcase-integrated-drone-ai-solution-at-august-27-2026-drone-seminar-302858789.html (published 2026-08-24)
+- The Guardian: https://www.theguardian.com/technology/2026/aug/18/open-ai-pause-hack (published 2026-08-18)
+- Humanoid.Press: https://www.humanoid.press (published 2026-08)
+- Euronews: https://www.euronews.com/next/2026/08/11/eu-compliance-delivered-globally-anthropic-to-watermark-claudes-output-worldwide (published 2026-08-11)
+- Axios: https://www.axios.com/2026/08/24/robotics-ai-generalist-200m (published 2026-08-24)
+- Artificial Lawyer: https://www.artificiallawyer.com/2026/08/13/anthropic-will-embed-watermarks-in-ai-outputs (published 2026-08-13)
