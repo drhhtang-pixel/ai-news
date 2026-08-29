@@ -6569,3 +6569,79 @@ The cybersecurity dimension adds a layer of urgency — and irony — to this we
 - Asian Hospitality: https://www.asianhospitality.com/google-ai-mode-travel-planner (published 2026-08-28)
 - Transparency Coalition: https://www.transparencycoalition.ai/news/ai-legislative-update-august28-2026 (published 2026-08-28)
 - TechCrunch Anthropic 營收: https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b (published 2026-08-17)
+
+## 2026-08-29 05:15
+
+<!-- EN -->
+### Headlines
+
+- **Anthropic Wins Federal Lawsuit Against Pentagon:** A federal judge ruled that the U.S. Department of Defense acted unlawfully when it designated Anthropic a "supply chain risk" — the first time such a designation was applied to an American company — overturning the Pentagon's de facto ban on government contractors doing business with the Claude maker. *(Source: AP News, August 28)*
+
+- **AI Agents Increasingly Weaponized in Cyberattacks:** New analyses highlight how China-linked threat groups are using AI models — including Claude Code and DeepSeek-V4-Pro — to automate cyberespionage operations, covering stages from infrastructure reconnaissance and exploit development to data extraction and phishing, raising urgent concerns about AI agent governance. *(Source: Cybersecurity News, August 28)*
+
+- **NEURA Robotics Raises up to €1.2B Series C for Physical AI:** German humanoid robotics startup NEURA Robotics announced a landmark Series C financing round of up to €1.2 billion (approximately $1.4B), backed by Tether, Qualcomm, Amazon, Nvidia, Bosch, Schaeffler, and the European Investment Bank, to scale its Physical AI platform and cognitive robotics systems globally. *(Source: CNBC, June 10)*
+
+- **Clementine Raises €1.7M to Deploy AI Agents in Audiology Clinics:** Dutch startup Clementine secured a €1.7 million seed round to build an AI platform for audiology clinics, featuring an agent called "Matthew" that autonomously communicates with potential patients, answers questions, and converts conversations into appointments. *(Source: Dealroom, August 24)*
+
+- **China Accelerates Open-Source AI and Infrastructure Push:** According to today's AI roundups, China continues to aggressively expand its open-source AI model ecosystem and domestic AI infrastructure, with Chinese labs maintaining competitive pressure on Western frontier models through rapid releases and cost-efficient deployments. *(Source: AIdapted, August 29)*
+
+- **Anthropic's MHS Enables Claude to Control Lab Robots and Factory Machines:** Anthropic's new Model Hardware Standard (MHS) integration allows Claude to directly interface with laboratory robots and industrial factory equipment, marking a significant step toward AI-controlled physical systems in scientific and manufacturing settings. *(Source: The Next Web, August 27)*
+
+- **Qwen4 Architecture Previewed as Alibaba Accelerates AI Model Cadence:** Alibaba previewed the underlying architecture of its upcoming Qwen4 model family via the release of Qwen3.8-Flash-Next, continuing its aggressive model release cadence and putting additional competitive pressure on OpenAI and Anthropic. *(Source: The New Stack, August 28)*
+
+---
+
+### Analysis
+
+The most consequential story of August 29 is Anthropic's federal court victory against the Pentagon. What began in February 2026 — when the Defense Department uniquely designated an American company as a "supply chain risk" in what Anthropic called an "unlawful campaign of retaliation" for its refusal to permit unrestricted military use of its technology — has ended with a federal judge siding firmly with the AI company. The ruling has broad implications for how the U.S. government can and cannot coerce AI companies on matters of ethics and military application, and sets a legal precedent that may embolden other AI firms to push back against government overreach.
+
+The convergence of AI and cybersecurity continues to accelerate in alarming ways. The documented use of Claude Code and DeepSeek-V4-Pro by suspected China-linked actors to automate full cyberespionage kill-chains — from reconnaissance to exploit generation to phishing — represents a qualitative shift in the threat landscape. AI coding agents, originally built for developer productivity, are now operating as autonomous attack infrastructure at nation-state scale. This underscores an urgent need for AI providers to develop robust agentic governance frameworks, and for governments and security agencies to update their threat models accordingly.
+
+On the investment and physical AI front, NEURA Robotics' massive Series C round — bringing in Nvidia, Amazon, Qualcomm, Bosch, and the European Investment Bank — is emblematic of a broader 2026 surge: robotics companies have raised a record $55.8 billion globally so far this year. The simultaneous emergence of nimble, specialized AI startups like Clementine (targeting audiology clinics) and giants like NEURA pushing humanoid robotics into manufacturing illustrates that AI deployment is rapidly bifurcating into two complementary tracks: hyper-specialized vertical agents and broad-purpose physical AI systems.
+
+---
+
+### Sources
+
+- AIdapted: https://www.aidapted.ro/en/articles/ai-news-of-the-day-august-29-2026 (published 2026-08-29)
+- BBC News: https://www.bbc.com/news/articles/cm2q7z5mlrmo (published 2026-08-29)
+- Financial Times (via Facebook): https://www.facebook.com/financialtimes/posts/anthropic-wins-legal-battle-with-pentagon-in-california/1479710064202366 (published 2026-08-29)
+- AP News: https://apnews.com/article/anthropic-pentagon-lawsuit-supply-chain-risk-f15e3c30186385e73e72bee82d85b05c (published 2026-08-27, closest verifiable source for the ruling story)
+- Unrot (Aug 28 coverage carried into Aug 29): https://unrot.co/ai-news (published 2026-08-28)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Anthropic 聯邦訴訟勝訴，對抗五角大廈：** 聯邦法官裁定美國國防部將 Anthropic 列為「供應鏈風險」的行為違法，推翻了這一史無前例的指定，使 Claude 製造商得以恢復與政府承包商的業務往來。*(來源：AP News，8 月 28 日)*
+
+- **AI 代理愈來愈多被用於網路攻擊：** 最新分析顯示，與中國有關聯的威脅組織正利用 Claude Code 和 DeepSeek-V4-Pro 等 AI 模型，自動化執行從基礎設施偵察、漏洞利用開發到資料提取與網路釣魚的完整間諜攻擊鏈，引發 AI 代理治理的緊迫警示。*(來源：Cybersecurity News，8 月 28 日)*
+
+- **NEURA Robotics 完成高達 12 億歐元 C 輪融資：** 德國人形機器人新創 NEURA Robotics 宣布完成高達 12 億歐元（約 14 億美元）的 C 輪融資，投資方包括 Tether、Qualcomm、Amazon、Nvidia、博世、舍弗勒及歐洲投資銀行，資金將用於擴展其實體 AI 平台與認知機器人系統。*(來源：CNBC，6 月 10 日)*
+
+- **Clementine 募得 170 萬歐元，將 AI 代理部署於聽力診所：** 荷蘭新創 Clementine 完成 170 萬歐元種子輪，旗下 AI 代理「Matthew」可自動與潛在患者溝通、回答問題並將對話轉化為預約，為聽力診所帶來即時商業價值。*(來源：Dealroom，8 月 24 日)*
+
+- **中國加速推動開源 AI 與基礎設施建設：** 中國各大 AI 實驗室持續以高速發布開源模型及低成本部署方案，對西方前沿模型構成持續競爭壓力，並大規模擴展國內 AI 基礎設施。*(來源：AIdapted，8 月 29 日)*
+
+- **Anthropic MHS 讓 Claude 得以控制實驗室機器人與工廠設備：** Anthropic 新推出的模型硬體標準（MHS）使 Claude 能夠直接操控實驗室機器人及工業工廠設備，標誌著 AI 控制實體系統邁出重要一步。*(來源：The Next Web，8 月 27 日)*
+
+- **Alibaba 預覽 Qwen4 架構，持續加速模型發布節奏：** 阿里巴巴透過發布 Qwen3.8-Flash-Next 預覽了即將推出的 Qwen4 模型家族底層架構，對 OpenAI 和 Anthropic 形成更大競爭壓力。*(來源：The New Stack，8 月 28 日)*
+
+---
+
+### 分析
+
+8 月 29 日最重要的新聞，無疑是 Anthropic 在聯邦法院贏得對五角大廈訴訟的勝利。今年 2 月，美國國防部史無前例地將一家美國企業列為「供應鏈風險」，被 Anthropic 形容為「非法報復行動」——源於其拒絕允許軍方無限制使用其技術。法院最終站在 Anthropic 一方，為 AI 公司在軍事倫理與應用邊界上的抗爭確立了重要法律先例，也可能鼓勵更多 AI 企業在面臨政府壓力時積極維權。
+
+AI 與網路安全的交匯正以令人憂慮的速度加速。經文件證實，疑似與中國有關聯的攻擊者將 Claude Code 和 DeepSeek-V4-Pro 結合，自動化執行完整的網路間諜攻擊鏈——從偵察、漏洞利用到資料竊取——代表威脅情勢的質變。原本為提升開發者生產力而設計的 AI 程式設計代理，如今正以國家級規模充當自主攻擊基礎設施。這迫切要求 AI 提供商建立強健的代理治理框架，各國政府與安全機構也需更新威脅模型。
+
+在投資與實體 AI 領域，NEURA Robotics 的巨額 C 輪融資——匯集了 Nvidia、Amazon、Qualcomm、博世及歐洲投資銀行——折射出 2026 年機器人產業的整體熱潮：全球機器人公司今年迄今已籌資創紀錄的 558 億美元。聽力診所 AI 新創 Clementine 與人形機器人巨頭 NEURA 的同步崛起，清晰呈現出 AI 部署的兩條互補路徑：高度專業化的垂直領域代理，以及面向製造業與物理世界的廣義實體 AI 系統。
+
+---
+
+### 來源
+
+- AIdapted: https://www.aidapted.ro/en/articles/ai-news-of-the-day-august-29-2026 (published 2026-08-29)
+- BBC News: https://www.bbc.com/news/articles/cm2q7z5mlrmo (published 2026-08-29)
+- Financial Times (via Facebook): https://www.facebook.com/financialtimes/posts/anthropic-wins-legal-battle-with-pentagon-in-california/1479710064202366 (published 2026-08-29)
+- AP News: https://apnews.com/article/anthropic-pentagon-lawsuit-supply-chain-risk-f15e3c30186385e73e72bee82d85b05c (published 2026-08-27)
+- Unrot: https://unrot.co/ai-news (published 2026-08-28)
