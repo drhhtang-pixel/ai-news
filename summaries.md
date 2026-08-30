@@ -6645,3 +6645,83 @@ AI 與網路安全的交匯正以令人憂慮的速度加速。經文件證實�
 - Financial Times (via Facebook): https://www.facebook.com/financialtimes/posts/anthropic-wins-legal-battle-with-pentagon-in-california/1479710064202366 (published 2026-08-29)
 - AP News: https://apnews.com/article/anthropic-pentagon-lawsuit-supply-chain-risk-f15e3c30186385e73e72bee82d85b05c (published 2026-08-27)
 - Unrot: https://unrot.co/ai-news (published 2026-08-28)
+
+## 2026-08-30 03:07
+
+<!-- EN -->
+### Headlines
+
+- **GLM-5.3 Weights Ship With a Hyperscaler Catch:** Z.ai released the full 743B-parameter GLM-5.3 model weights, but replaced the previously expected MIT licence with a restrictive licence requiring companies valued above $10 billion to pass a security review — a significant policy shift triggered after the lab logged 2,436 security findings during evaluation. *(Source: The New Stack, August 28)*
+
+- **OpenAI Retires DALL-E GPT From ChatGPT:** Following the retirement of o3 on August 26, OpenAI shut down the official DALL-E GPT on August 30, continuing a wave of three major model deprecations in six days; Google's gemini-robotics-er-1.6-preview is next on August 31. *(Source: Tom's Guide, August 30)*
+
+- **OpenAI, Anthropic & Google Sign 100-Company Open Letter on AI Cybersecurity:** Over 100 tech companies co-signed an open letter urging coordinated public-private action to defend against AI-enabled cyber threats, as frontier labs including OpenAI (Daybreak programme) and Anthropic (Mythos) simultaneously offer AI tools for defensive cybersecurity. *(Source: TechCrunch, August 27)*
+
+- **Anthropic Targets $2 Trillion Valuation in October IPO:** Investors are reportedly targeting a $2 trillion valuation for Anthropic's anticipated October public debut, which would make it one of the largest IPOs in tech history and place it above most of the world's most valuable companies. *(Source: Quartz, August 13)*
+
+- **EU AI Act Enforcement Fully Activated as of August 2, 2026:** The EU AI Office and Member State authorities gained full enforcement powers over general-purpose AI models — including the ability to investigate providers and issue fines of up to €15 million or 3% of worldwide turnover — with transparency obligations under Article 50 now enforceable. *(Source: Cooley, August 3)*
+
+- **NVIDIA Jetson Orin Nano 2 Brings Physical AI to Drones and Robots:** NVIDIA released the Jetson Orin Nano 2, a compact AI compute module aimed at enabling physical AI capabilities in drones, robots, and edge devices — further expanding its hardware ecosystem beyond data centres. *(Source: Artificial Intelligence News, August 26)*
+
+- **MIT AI System Forecasts Extreme Weather Without Historical Data:** MIT researchers unveiled an AI model capable of predicting extreme weather events without relying on historical climate datasets, a significant breakthrough for climate resilience in data-sparse regions. *(Source: Artificial Intelligence News, August 25)*
+
+---
+
+### Analysis
+
+The most significant story on August 30 is Z.ai's release of GLM-5.3's 743B weights under a restrictive new licence — a sharp departure from the open-source ethos that Chinese frontier labs like Zhipu had previously promoted. The decision to require large corporations to pass a security review before accessing the weights is a direct response to the lab logging over 2,400 internal security findings, signalling that even open-weight advocates are now reckoning with the dual-use dangers of truly frontier-class models. This move mirrors OpenAI's own recent pause on reinforcement learning training for deployment-ready models and suggests a wider industry reckoning: the open vs. closed debate is no longer purely about capability access, but increasingly about liability and safety governance.
+
+Simultaneously, the broader AI market is being shaped by two countervailing forces: rapid commoditisation and rising safety concerns. Model pricing has collapsed across the board — GPT-5.6 Luna, Gemini Flash tiers, and Claude Sonnet 5 have all seen sharp cost reductions — even as the most powerful frontier models (GPT-5.6 Sol, Claude Opus 5, Kimi K3) remain expensive and restricted. Meanwhile, Anthropic's reported $2 trillion IPO target and OpenAI's own $1 trillion IPO plans underscore that investors remain extraordinarily bullish on frontier AI labs despite — or perhaps because of — the growing complexity of the regulatory and security landscape.
+
+The regulatory picture is also crystallising fast. The EU AI Act's enforcement apparatus is now fully live, California's AI Transparency Act has been signed, and the US White House has finalized voluntary cybersecurity testing frameworks for frontier models. The pace of policy action is accelerating in parallel with model capabilities, though — as the Stanford HAI 2026 AI Index notes — responsible AI and safety benchmarks continue to lag behind raw capability improvements, and incident rates are rising sharply. For businesses and developers, the next quarter will demand simultaneous attention to rapidly shifting model economics, tightening licence terms, and an increasingly fragmented global regulatory environment.
+
+---
+
+### Sources
+
+- The New Stack: https://thenewstack.io/zai-glm-weights-license (published 2026-08-28)
+- Tom's Guide: https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever (published 2026-08-30)
+- TechCrunch: https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai (published 2026-08-27)
+- Quartz: https://qz.com/anthropic-ipo-2-trillion-valuation-october-081326 (published 2026-08-13)
+- Cooley: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
+- Artificial Intelligence News: https://www.artificialintelligence-news.com/news/nvidia-jetson-orin-nano-2-physical-ai-to-drones-and-robots/ (published 2026-08-26)
+- Artificial Intelligence News: https://www.artificialintelligence-news.com/news/mit-ai-forecasts-extreme-weather-without-historical-data (published 2026-08-25)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **GLM-5.3 權重發布，但附帶超大規模企業限制條款：** Z.ai 發布了擁有 7430 億參數的 GLM-5.3 完整模型權重，但放棄原本預期的 MIT 授權，改採限制性授權——市值超過 100 億美元的企業必須通過安全審查才能使用，起因是該實驗室在評估過程中記錄到 2,436 項安全問題。*(來源：The New Stack，8 月 28 日)*
+
+- **OpenAI 下架 ChatGPT 中的 DALL-E GPT：** 繼 8 月 26 日停用 o3 後，OpenAI 於 8 月 30 日正式關閉官方 DALL-E GPT，六天內已完成三項重大模型退場；Google 的 gemini-robotics-er-1.6-preview 預計於 8 月 31 日緊隨其後。*(來源：Tom's Guide，8 月 30 日)*
+
+- **OpenAI、Anthropic、Google 等逾百家科技公司聯署 AI 網路安全公開信：** 超過 100 家科技公司共同簽署公開信，呼籲公私部門協力防範 AI 驅動的網路威脅，各大前沿實驗室也同步推出 AI 防禦工具，包括 OpenAI 的 Daybreak 計畫與 Anthropic 的 Mythos。*(來源：TechCrunch，8 月 27 日)*
+
+- **Anthropic 計劃以 2 兆美元估值於 10 月 IPO：** 據報導，投資者正為 Anthropic 預計 10 月的上市計畫設定 2 兆美元估值目標，若成真將成為科技史上規模最大的 IPO 之一。*(來源：Quartz，8 月 13 日)*
+
+- **歐盟 AI 法案執法機制自 2026 年 8 月 2 日全面生效：** 歐盟 AI 辦公室與各成員國主管機關已獲得對通用 AI 模型的完整執法權，可對違規業者開罰最高 1500 萬歐元或全球營收 3% 的罰款，《AI 法案》第 50 條透明度義務亦同步強制執行。*(來源：Cooley，8 月 3 日)*
+
+- **NVIDIA Jetson Orin Nano 2 賦能無人機與機器人的實體 AI：** NVIDIA 發布 Jetson Orin Nano 2 小型 AI 運算模組，旨在為無人機、機器人及邊緣設備帶來實體 AI 能力，持續拓展其數據中心以外的硬體生態系。*(來源：Artificial Intelligence News，8 月 26 日)*
+
+- **MIT AI 系統無需歷史數據即可預測極端天氣：** MIT 研究人員推出一款 AI 模型，無需依賴歷史氣候數據即可預測極端天氣事件，對數據匱乏地區的氣候應對能力而言是重大突破。*(來源：Artificial Intelligence News，8 月 25 日)*
+
+---
+
+### 分析
+
+8 月 30 日最受矚目的事件，是 Z.ai 以限制性授權發布 GLM-5.3 的 7430 億參數權重——與此前中國前沿實驗室積極倡導的開源精神大相逕庭。要求大型企業通過安全審查才能取得模型權重，直接回應了實驗室內部記錄的逾 2400 項安全問題，顯示即使是開源陣營的推動者也開始正視前沿模型的雙重用途風險。這與 OpenAI 近期暫停部署就緒模型的強化學習訓練異曲同工，預示著整個產業正在迎來一個轉折點：開源與封閉的辯論已不再只是能力取用的問題，而是逐漸演變為責任歸屬與安全治理的根本議題。
+
+與此同時，AI 市場正受到兩股相互拮抗的力量塑造：模型快速商品化，以及安全疑慮持續升高。GPT-5.6 Luna、Gemini Flash 各層級、Claude Sonnet 5 等模型的定價均大幅下滑，但最強大的前沿模型（GPT-5.6 Sol、Claude Opus 5、Kimi K3）仍維持高價且使用受限。另一方面，Anthropic 報導中 2 兆美元的 IPO 目標和 OpenAI 的 1 兆美元上市計畫，再次證明投資者對前沿 AI 實驗室依然保持異常強烈的樂觀情緒——儘管監管與安全環境日趨複雜。
+
+在法規層面，歐盟 AI 法案執法體系已全面啟動，加州 AI 透明度法案完成簽署，美國白宮也針對前沿模型敲定了自願性網路安全測試框架。政策行動的速度正在加快，但史丹佛 HAI《2026 年 AI 指數報告》指出，負責任 AI 與安全基準的進展仍持續落後於模型能力的提升，事故數量更呈急遽上升趨勢。對企業與開發者而言，下一季將需要同時應對迅速變化的模型經濟、日趨收緊的授權條款，以及日益碎片化的全球監管環境。
+
+---
+
+### 來源
+
+- The New Stack: https://thenewstack.io/zai-glm-weights-license (published 2026-08-28)
+- Tom's Guide: https://www.tomsguide.com/ai/chatgpt/you-have-until-august-30-to-save-your-chatgpt-dall-e-images-heres-how-to-avoid-losing-them-forever (published 2026-08-30)
+- TechCrunch: https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai (published 2026-08-27)
+- Quartz: https://qz.com/anthropic-ipo-2-trillion-valuation-october-081326 (published 2026-08-13)
+- Cooley: https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026 (published 2026-08-03)
+- Artificial Intelligence News: https://www.artificialintelligence-news.com/news/nvidia-jetson-orin-nano-2-physical-ai-to-drones-and-robots/ (published 2026-08-26)
+- Artificial Intelligence News: https://www.artificialintelligence-news.com/news/mit-ai-forecasts-extreme-weather-without-historical-data (published 2026-08-25)
