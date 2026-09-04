@@ -6987,3 +6987,87 @@ The competitive model release dynamic is also intensifying, with Anthropic's Cla
 - WIRED（OpenAI Astra）: https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities (published 2026-09-03)
 - Anthropic 官方部落格: https://www.anthropic.com/claude-fable-and-mythos-5-1 (published 2026-09-01)
 - Meta AI 研究部落格: https://research.meta.ai/blog/introducing-muse-voice-transcribe (published 2026-09-01)
+
+## 2026-09-04 02:31
+
+<!-- EN -->
+### Headlines
+
+- **Google Assistant Officially Shuts Down on Android, Replaced by Gemini:** Google began pulling Google Assistant from Android phones, tablets, Wear OS watches, headphones, and Android Auto devices on September 4, marking a full transition to its Gemini AI assistant, with the rollout expected to take several weeks. *(Source: How-To Geek, September 4)*
+
+- **Nvidia Confirms $12.9 Billion Acquisition of Hugging Face:** Nvidia officially agreed to acquire the open-source AI platform Hugging Face for nearly $13 billion, with CEO Jensen Huang committing to preserve the open ecosystem; the deal, Nvidia's second largest ever, is pending regulatory approval and expected to close in the first half of 2027. *(Source: Reuters, September 3)*
+
+- **Google, Anthropic, and OpenAI Unveil Coordinated Cybersecurity AI Programs:** Google announced Gemini 3.8 Flash Cyber — its most capable cybersecurity model — available to trusted defenders via a new "Fairwind Program," while Anthropic launched Claude Fable 5.1 and Claude Mythos 5.1, and OpenAI disclosed its forthcoming Astra model meets the critical cybersecurity capability threshold under its Preparedness Framework. *(Source: The Hacker News, September 4)*
+
+- **Google Starts September with AI Momentum After Losing Streak:** Alphabet began September with a series of investor-friendly moves, including pay-as-you-go pricing and token discounts of up to 20% for Gemini Enterprise, directly targeting Microsoft and Anthropic on pricing and flexibility, following a difficult summer of talent departures and a DeepMind restructuring. *(Source: CNBC, September 2)*
+
+- **Anthropic's Claude Code Writes Majority of New Claude Model Code, CEO Confirms:** Anthropic CEO Dario Amodei confirmed that the vast majority of code for new Claude models is now written by Claude itself, with human engineers guiding but not writing the bulk of the process — a landmark moment in AI self-development. *(Source: VentureBeat, September 3)*
+
+- **Nvidia's Hugging Face Deal Signals Major Shift Toward Open-Source AI Infrastructure:** Analysts and industry observers noted the acquisition signals Nvidia's strategic push "up the AI stack" beyond chip hardware, as the company already contributes hundreds of open models and datasets to Hugging Face and offers its own open-weight Nemotron model family. *(Source: Wired, September 3)*
+
+- **Trump Administration Sides with OpenAI in Lawsuit Against New York Times:** The Trump administration filed a legal brief supporting OpenAI in its ongoing copyright lawsuit brought by The New York Times, a move that drew immediate scrutiny from press freedom and media groups. *(Source: Wired, September 2)*
+
+- **London Launches First Commercial Self-Driving Taxis:** London's first self-driving taxis for hire began operating on city streets, marking a milestone for autonomous mobility in the UK and adding to a growing list of cities worldwide with commercial robotaxi services. *(Source: AP, September 1)*
+
+---
+
+### Analysis
+
+The single biggest story in AI as of September 4, 2026 is Nvidia's $12.9 billion acquisition of Hugging Face — a deal that reshapes the competitive landscape far beyond chips. By owning the world's most widely used open-source model hub, Nvidia gains enormous influence over how AI models are discovered, evaluated, deployed, and monetized across the entire developer ecosystem. While Jensen Huang has pledged to preserve the open ethos of the platform, antitrust regulators and open-source advocates are already raising questions about whether a dominant hardware vendor can credibly remain a neutral custodian of a community platform. The deal also underscores a broader trend: leading AI companies are no longer competing solely on model quality, but on who controls the infrastructure layer — data, compute, and now distribution.
+
+The coordinated cybersecurity AI announcements from Google, Anthropic, and OpenAI on the same day reflect how rapidly frontier AI capabilities have become both a security asset and a national security concern. Google's Fairwind Program, Anthropic's tiered Mythos/Fable release structure, and OpenAI's Daybreak Blue initiative all represent new governance mechanisms — essentially "trusted defender" frameworks — that gate the most powerful AI capabilities behind vetted access programs. This emerging architecture of controlled, tiered AI access is likely to become the new standard for dual-use AI deployment, replacing the previous model of general public availability. At the same time, Google's forced retirement of Assistant in favor of Gemini on September 4 is a landmark consumer moment: for the first time, hundreds of millions of Android users will interact with a fully probabilistic, large-language-model-based assistant as their default voice AI — a real-world test at unprecedented scale of whether generative AI can match the reliability of rule-based systems for everyday tasks.
+
+---
+
+### Sources
+
+- How-To Geek: https://www.howtogeek.com/google-assistant-shuts-down-on-android-in-september (published 2026-09-04)
+- Reuters (Nvidia/Hugging Face): https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03 (published 2026-09-03)
+- The Hacker News: https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html (published 2026-09-04)
+- CNBC (Google momentum): https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html (published 2026-09-02)
+- VentureBeat (Claude code): https://venturebeat.com/technology/anthropic-says-80-of-its-new-production-code-is-now-authored-by-claude-how-your-enterprise-can-keep-up (published 2026-09-03)
+- Wired (Hugging Face): https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai (published 2026-09-03)
+- Wired (Trump/OpenAI): https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit (published 2026-09-02)
+- AP (London robotaxi): https://www.greenwichtime.com/news/world/article/robotaxi-service-debuts-on-london-s-busy-streets-22415458.php (published 2026-09-01)
+
+---
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Google Assistant 正式於 Android 停用，由 Gemini 取代：** Google 於 9 月 4 日開始將 Google Assistant 從 Android 手機、平板、Wear OS 手錶、耳機及 Android Auto 下架，全面切換至 Gemini AI 助理，預計此部署過程需數週時間完成。*(來源：How-To Geek，9 月 4 日)*
+
+- **Nvidia 確認以 129 億美元收購 Hugging Face：** Nvidia 正式宣布以近 130 億美元收購開源 AI 平台 Hugging Face，執行長黃仁勳承諾保持平台開放生態；此交易為 Nvidia 史上第二大收購案，預計在 2027 年上半年完成監管審批後正式收官。*(來源：Reuters，9 月 3 日)*
+
+- **Google、Anthropic 與 OpenAI 聯合推出網路安全 AI 計畫：** Google 發布旗下最強網路安全模型 Gemini 3.8 Flash Cyber，並通過新「Fairwind 計畫」向受信任的防禦者開放；Anthropic 同步推出 Claude Fable 5.1 與 Claude Mythos 5.1；OpenAI 則披露其即將推出的 Astra 模型已符合其《整備框架》中的關鍵網路安全能力門檻。*(來源：The Hacker News，9 月 4 日)*
+
+- **Google 以新定價策略重燃 AI 市場信心：** Alphabet 在歷經一個艱困夏季——包括人才流失與 DeepMind 重組——之後，以 Gemini Enterprise 新推出的按需計費方案及最高 20% 的 Token 折扣，正面挑戰 Microsoft 與 Anthropic 的定價模式，為投資人重新帶來信心。*(來源：CNBC，9 月 2 日)*
+
+- **Anthropic CEO 確認 Claude 自行撰寫絕大多數新版本程式碼：** Anthropic 執行長 Dario Amodei 公開表示，新版 Claude 模型的絕大部分程式碼現已由 Claude 自行撰寫，人類工程師僅負責引導，此舉被視為 AI 自我迭代的重要里程碑。*(來源：VentureBeat，9 月 3 日)*
+
+- **Nvidia 收購案標誌 AI 開源基礎設施版圖重組：** 分析師指出，此收購代表 Nvidia 正積極向 AI「軟體堆疊」上層延伸，超越單純晶片業務，藉由掌控全球最大開源模型平台，在開發者生態中建立全新的戰略制高點。*(來源：Wired，9 月 3 日)*
+
+- **川普政府在 OpenAI 對紐約時報訴訟中站台 OpenAI：** 川普政府提交法律意見書，支持 OpenAI 對抗《紐約時報》發起的版權訴訟，此舉立即遭到新聞自由及媒體組織的強烈批評。*(來源：Wired，9 月 2 日)*
+
+- **倫敦首批商業自駕計程車正式上路：** 倫敦街頭迎來首批商業自駕計程車服務，為英國自動駕駛商用化發展樹立重要里程碑，也使倫敦加入全球商業 Robotaxi 服務城市的行列。*(來源：AP，9 月 1 日)*
+
+---
+
+### 分析
+
+截至 2026 年 9 月 4 日，AI 領域最受矚目的事件無疑是 Nvidia 以 129 億美元收購 Hugging Face。此交易深刻重塑了競爭格局，意義遠超晶片本身。透過掌控全球最廣泛使用的開源模型平台，Nvidia 對整個開發者生態系統中 AI 模型的發現、評估、部署與商業化都將握有巨大影響力。儘管黃仁勳承諾維持平台的開放精神，反壟斷監管機構與開源社群已開始質疑：一家主導 AI 晶片市場的廠商，是否真能成為中立的社群平台守護者？此案也印證了一個更廣泛的趨勢——AI 競爭的核心已不再僅限於模型性能，更在於誰能掌控基礎設施層，包括資料、算力，乃至分發渠道。
+
+Google、Anthropic 與 OpenAI 在同一天協調推出網路安全 AI 計畫，清楚反映前沿 AI 能力已同時成為安全資產與國家安全隱患。Google 的 Fairwind 計畫、Anthropic 的 Mythos/Fable 分層發布結構，以及 OpenAI 的 Daybreak Blue 計畫，均代表一種新的治理機制——即透過「受信任防禦者」框架，對最強 AI 能力實施管控存取。這種分層管控的 AI 部署架構，未來很可能成為雙重用途 AI 的新標準，取代過去向公眾全面開放的模式。與此同時，Google 於 9 月 4 日強制將 Assistant 切換為 Gemini，也是一個重要的消費端轉折點：數億 Android 用戶將首次以完全基於大型語言模型的生成式 AI 作為預設語音助理，這是對生成式 AI 能否在日常場景中媲美傳統規則型系統可靠性的一場前所未有的規模化考驗。
+
+---
+
+### 來源
+
+- How-To Geek: https://www.howtogeek.com/google-assistant-shuts-down-on-android-in-september (published 2026-09-04)
+- Reuters（Nvidia 收購案）: https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03 (published 2026-09-03)
+- The Hacker News: https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html (published 2026-09-04)
+- CNBC（Google 動能）: https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html (published 2026-09-02)
+- VentureBeat（Claude 程式碼）: https://venturebeat.com/technology/anthropic-says-80-of-its-new-production-code-is-now-authored-by-claude-how-your-enterprise-can-keep-up (published 2026-09-03)
+- Wired（Hugging Face）: https://www.wired.com/story/nvidias-hugging-face-acquisition-is-a-dollar129-billion-bet-on-open-source-ai (published 2026-09-03)
+- Wired（川普/OpenAI）: https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit (published 2026-09-02)
+- AP（倫敦自駕計程車）: https://www.greenwichtime.com/news/world/article/robotaxi-service-debuts-on-london-s-busy-streets-22415458.php (published 2026-09-01)
