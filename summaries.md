@@ -7687,3 +7687,89 @@ The model landscape itself continues to evolve at a dizzying pace. GPT-6 Astra's
 - European Commission: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai (published 2026-09-12)
 - Build Fast with AI: https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026 (published 2026-09-12)
 - CNBC: https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html (published 2026-09-12)
+
+## 2026-09-13 02:42
+
+<!-- EN -->
+### Headlines
+
+- **Anthropic Releases September 2026 Threat Intelligence Report:** Anthropic published its most detailed threat intelligence report to date, revealing large-scale AI model distillation attacks by Chinese labs including Alibaba, DeepSeek, Moonshot AI, and MiniMax — with nearly 200 million unauthorized exchanges detected, including a campaign by Alibaba alone that peaked at 3 million extractions per day. *(Source: The Hacker News, September 11)*
+
+- **OpenAI's GPT-6 Astra Continues Global Rollout:** OpenAI's flagship GPT-6 Astra model — described by president Greg Brockman as a "generational leap" toward AGI — continued its phased rollout to ChatGPT Plus, Pro, Business, and Enterprise subscribers after its September 3 launch, marking the first OpenAI model to reach the "Critical" cybersecurity capability threshold under its Preparedness Framework. *(Source: OpenAI, September 3)*
+
+- **DeepSeek Caught Secretly Routing Customer Data Through Claude:** Anthropic's September report revealed that DeepSeek silently relayed user requests to Claude without informing its own customers, exposing sensitive corporate data — including one incident involving full specifications of a major Chinese AI program — to Anthropic's systems. *(Source: South China Morning Post, September 11)*
+
+- **China Accelerates Humanoid Robot Military Research:** A new analysis of Chinese patents, official publications, and defense company materials reveals China is rapidly expanding research on the military use of humanoid robots and actively preparing for their eventual deployment in wartime scenarios. *(Source: Reuters, September 7)*
+
+- **AI Safety Pacing Debate Intensifies After Open Letter:** Following the July 2026 open letter signed by over 1,300 AI researchers from OpenAI, Anthropic, Meta, and Google calling for the US government to "deliberately pace" automated AI R&D, the debate continued to dominate industry discourse this week as Anthropic's Dario Amodei warned of a potential AI agent "botnet" within 6–12 months. *(Source: Axios, September 12)*
+
+- **Garage Researcher Uses ChatGPT to Design Schizophrenia Drug Candidate:** In a striking example of AI-accelerated science, a researcher independently used ChatGPT to design a novel drug candidate for schizophrenia and successfully tested it in mice, illustrating the expanding role of AI in autonomous drug discovery. *(Source: Korben, September 11)*
+
+- **Google's AlphaGenome Atlas Maps 9 Billion Human Genome Mutations:** Google DeepMind unveiled AlphaGenome Atlas, an AI system capable of mapping approximately 9 billion mutations of the human genome, representing a landmark advance in computational genomics and personalized medicine research. *(Source: Google DeepMind, September 8)*
+
+- **Anthropic Seeks $100B Funding at $2T Valuation:** Reports surfaced this week that Anthropic is in discussions to raise approximately $100 billion at a valuation of $2 trillion, as the company accelerates compute spending and prepares for a potential IPO expected in late 2026. *(Source: The New York Times, August 21)*
+
+- **Claude Fable 5.1 and Mythos 5.1 Expand Access:** Anthropic's latest model updates — Claude Fable 5.1 (for general paid users) and Claude Mythos 5.1 (restricted to verified cybersecurity and life sciences programs) — continued rolling out to enterprise customers, with Mythos remaining gated due to its powerful and expensive capabilities. *(Source: Anthropic, September 2026)*
+
+- **AI Pricing Collapse Pressure Mounts Across Industry:** New data showed that Chinese open-weight models grew from under 2% of token consumption in late 2024 to over 50% by June 2026 on OpenRouter, as enterprises including Uber, Microsoft, and startup Lindy shifted workloads to cheaper alternatives like DeepSeek V4, intensifying pricing pressure on Anthropic and OpenAI. *(Source: CNBC, July 7)*
+
+---
+
+### Analysis
+
+The week of September 7–13, 2026 crystallized two dominant and interrelated tensions defining the current AI era: the race to build ever-more-capable frontier models, and the deepening crisis of trust, security, and safety that accompanies that race. Anthropic's sweeping threat intelligence report — documenting nearly 200 million unauthorized distillation exchanges, Chinese influence operations, AI-powered cyberattacks, and even a network of AI-impersonating human dating personas — laid bare how comprehensively AI systems are being weaponized. The revelation that DeepSeek covertly funneled its own users' sensitive data through Claude without consent is particularly striking, suggesting that the competition between AI labs has now crossed into outright corporate espionage territory, with end users caught in the crossfire.
+
+At the same time, OpenAI's GPT-6 Astra rollout represents a genuine capability milestone: the first broadly deployed model to reach the "Critical" cybersecurity threshold, meaning it can independently discover and exploit unknown software vulnerabilities. This has galvanized the AI safety pacing debate that erupted in July when 1,300+ researchers signed an open letter, and which Anthropic's Dario Amodei kept alive this week by warning of AI agent botnets within months. Meanwhile, the economics of AI are shifting dramatically — Chinese open-weight models now command over half of API token consumption globally, squeezing the margins of US frontier labs even as Anthropic reportedly pursues a staggering $2 trillion valuation. The gap between AI's extraordinary scientific promise (genome mapping, drug discovery) and its equally extraordinary risks (military robots, cyber weapons, mass manipulation) has never been wider — or more urgently in need of governance.
+
+---
+
+### Sources
+
+- TechCrunch: https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek (published 2026-09-13)
+- Medium (David Akpovi – AI News Week of Sep 7–13): https://medium.com/@davidakpovi/ai-news-week-of-september-7-13-2026-1229925afad9 (published 2026-09-13)
+- Anthropic Threat Intelligence Report: https://www.anthropic.com/threat-intelligence-report-september-2026 (published 2026-09-13)
+- AI Weekly: https://aiweekly.co/ai-news-today (published 2026-09-13)
+- TechNode Global: https://technode.global/2026/09/11/anthropic-ai-orchestrated-cyberattacks-model-distillation (published 2026-09-13)
+- CNBC: https://www.cnbc.com/2026/09/10/openai-anthropic-ai-safety-slowdown-extinction.html (published 2026-09-13)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Anthropic 發布 2026 年 9 月威脅情報報告：** Anthropic 發布迄今最詳盡的威脅情報報告，揭露包括阿里巴巴、DeepSeek、Moonshot AI 及 MiniMax 在內的中國 AI 實驗室進行大規模模型蒸餾攻擊，未經授權的交互記錄接近 2 億次，其中阿里巴巴單一行動每日峰值高達 300 萬次。*(來源：The Hacker News，9 月 11 日)*
+
+- **OpenAI GPT-6 Astra 持續全球推廣：** OpenAI 旗艦模型 GPT-6 Astra 繼 9 月 3 日發布後，本週持續向 ChatGPT Plus、Pro、商業及企業訂閱用戶擴展，該模型是 OpenAI 首款在其「準備框架」下達到「關鍵」網路安全能力門檻的模型，總裁 Greg Brockman 形容此為邁向通用人工智能的「世代性飛躍」。*(來源：OpenAI，9 月 3 日)*
+
+- **DeepSeek 被揭秘密將用戶數據轉發至 Claude：** Anthropic 9 月報告揭露，DeepSeek 在用戶不知情的情況下，將用戶請求秘密轉發至 Claude，其中一起事件涉及中國某重大 AI 計劃的完整規格及戰略目標等高度敏感資訊。*(來源：南華早報，9 月 11 日)*
+
+- **中國加速人形機器人軍事化研究：** 針對中國專利、官方文件及國防企業資料的新分析顯示，中國正迅速擴大人形機器人的軍事用途研究，並積極為其在戰時部署作準備。*(來源：路透社，9 月 7 日)*
+
+- **AI 安全放緩辯論持續升溫：** 繼 7 月逾 1,300 名來自 OpenAI、Anthropic、Meta 及 Google 的 AI 研究人員聯署公開信，要求美國政府「刻意放緩」自動化 AI 研發步伐後，Anthropic 執行長 Dario Amodei 本週警告，AI 代理「殭屍網絡」可能在 6 至 12 個月內出現，令業界對安全問題的討論進一步升溫。*(來源：Axios，9 月 12 日)*
+
+- **研究員獨自用 ChatGPT 設計精神分裂症候選藥物：** 一名研究員獨立使用 ChatGPT 設計出治療精神分裂症的新型候選藥物，並成功在小鼠身上完成測試，生動展示 AI 在自主藥物研發領域的驚人潛力。*(來源：Korben，9 月 11 日)*
+
+- **Google AlphaGenome Atlas 繪製 90 億人類基因組突變圖譜：** Google DeepMind 發布 AlphaGenome Atlas，該 AI 系統能繪製約 90 億個人類基因組突變圖譜，標誌著計算基因組學與個人化醫療研究的重大里程碑。*(來源：Google DeepMind，9 月 8 日)*
+
+- **Anthropic 尋求以 2 兆美元估值融資 1,000 億美元：** 本週有報道指 Anthropic 正洽談以 2 兆美元估值籌集約 1,000 億美元，公司同時加速算力投資，並預計於 2026 年底啟動首次公開招股。*(來源：紐約時報，8 月 21 日)*
+
+- **Claude Fable 5.1 與 Mythos 5.1 擴大開放：** Anthropic 最新模型更新持續向企業用戶推廣——Claude Fable 5.1 面向一般付費用戶，Claude Mythos 5.1 則因功能強大且運行成本極高，仍限定於已驗證的網路安全及生命科學機構使用。*(來源：Anthropic，2026 年 9 月)*
+
+- **AI 定價崩潰壓力持續加劇：** 最新數據顯示，中國開源模型在 OpenRouter 平台的 Token 消耗佔比，已從 2024 年底的不足 2% 攀升至 2026 年 6 月的逾 50%，Uber、微軟及初創公司 Lindy 等企業紛紛將工作負載轉向更廉價的 DeepSeek V4，令 Anthropic 與 OpenAI 的定價壓力與日俱增。*(來源：CNBC，7 月 7 日)*
+
+---
+
+### 分析
+
+2026 年 9 月 7 日至 13 日這一週，清晰呈現了當前 AI 時代兩大核心矛盾：一是各方競相打造能力更強的前沿模型，二是伴隨而來的信任危機、安全隱患與安全問題不斷深化。Anthropic 的大規模威脅情報報告記錄了近 2 億次未經授權的蒸餾交互，以及中國影響力行動、AI 驅動網路攻擊，甚至還有 AI 冒充真人在交友平台上活動的案例，全面揭示 AI 系統遭到武器化的嚴峻現實。尤其值得關注的是，DeepSeek 在用戶毫不知情的情況下，將敏感的企業數據秘密轉發至 Claude，表明 AI 實驗室之間的競爭已演變為赤裸裸的企業間諜行為，而最終受害者卻是毫無防備的終端用戶。
+
+與此同時，OpenAI GPT-6 Astra 的發布代表著真正的能力里程碑——這是首款被廣泛部署、且達到「關鍵」網路安全門檻的模型，意味著它能夠自主發現並利用未知軟件漏洞。這一突破進一步激化了 7 月由逾 1,300 名研究人員聯署公開信所引爆的 AI 安全放緩辯論；Dario Amodei 本週更警告 AI 代理殭屍網絡即將到來，令業界警覺程度再度提升。與此同時，AI 的經濟格局正在劇變——中國開源模型已佔據全球 API Token 消耗量逾半，令美國前沿實驗室的商業空間承受巨大壓力，儘管 Anthropic 仍在追求高達 2 兆美元的天文估值。AI 在科學領域的無限前景（基因組圖譜、藥物研發）與其帶來的同等威脅（軍事機器人、網路武器、大規模操控）之間的鴻溝，從未如此之深——也從未如此迫切地需要有效的治理框架加以應對。
+
+---
+
+### 來源
+
+- TechCrunch: https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek (published 2026-09-13)
+- Medium (David Akpovi – AI 新聞週報): https://medium.com/@davidakpovi/ai-news-week-of-september-7-13-2026-1229925afad9 (published 2026-09-13)
+- Anthropic 威脅情報報告: https://www.anthropic.com/threat-intelligence-report-september-2026 (published 2026-09-13)
+- AI Weekly: https://aiweekly.co/ai-news-today (published 2026-09-13)
+- TechNode Global: https://technode.global/2026/09/11/anthropic-ai-orchestrated-cyberattacks-model-distillation (published 2026-09-13)
+- CNBC: https://www.cnbc.com/2026/09/10/openai-anthropic-ai-safety-slowdown-extinction.html (published 2026-09-13)
