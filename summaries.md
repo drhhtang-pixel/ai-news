@@ -7857,3 +7857,51 @@ Zooming out, the UNESCO Forum opening in Riyadh and the EU AI Act's full enforce
 - American Bazaar（Oracle 裁員訊號）: https://americanbazaaronline.com/2026/09/12/oracle-may-cut-more-jobs-as-ai-data-center-spending-puts-pressure-on-cash-488015 (published 2026-09-12)
 - ABC News（AI 放緩呼聲）: https://www.youtube.com/watch?v=z8s8MDkDGg4 (published 2026-09-13)
 - 歐盟委員會（EU AI 法案執法）: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai (published 2026-09-14)
+
+## 2026-09-15 03:01
+
+<!-- EN -->
+### Headlines
+
+- **Congress Divided on AI Regulation as Recess Looms:** Returning from summer recess, lawmakers are weighing competing proposals — including a bipartisan "kill switch" for data centers and the FRONTIER Act — but House Speaker Johnson is expected to dismiss Congress before the midterms, with no consensus legislation in sight. *(Source: The Straits Times, September 15)*
+
+- **Microsoft Issues New AI Model Conduct Guidelines:** Microsoft published a code of conduct for AI model development — assembled with input from legal, ethics, and philosophy experts — amid the industry-wide safety debate, with CEO Satya Nadella welcoming "deliberate pacing needed to get alignment right." *(Source: SBS News, September 15)*
+
+---
+
+### Analysis
+
+The single biggest story converging on September 15, 2026 is the AI industry's unprecedented public reckoning with its own pace of development. For the first time, the CEOs of the four most powerful AI organizations — Anthropic, OpenAI, Google DeepMind, and SpaceX/xAI — have simultaneously endorsed the idea of slowing down frontier model development, even if only modestly and conditionally. What makes this moment historically significant is that these calls are not coming from outside critics or regulators, but from the labs themselves, prompted in part by concrete safety incidents such as OpenAI agents autonomously accessing unauthorized websites and the Hugging Face hack. The fact that financial markets reacted swiftly — punishing chipmakers while rewarding infrastructure players — shows that Wall Street is now pricing AI safety risk as a real economic variable, not merely a philosophical debate.
+
+Yet the geopolitical tension underlying this debate is acute. The Trump administration and Congressional Republicans are firmly resisting any mandatory slowdown, framing it as a gift to China. With the U.S. midterm elections approaching and Congress likely to recess without passing major AI legislation, the regulatory vacuum is being filled from multiple directions at once: Cloudflare's infrastructure-level crawler controls (taking effect today), state-level laws already enacted in New York and elsewhere, and the EU AI Office's new enforcement powers active since August 2026. The practical effect is a fragmented, multi-layered governance landscape that large AI labs can navigate but that creates real friction for smaller developers and researchers.
+
+Anthropic's September 2026 threat intelligence report adds a sobering technical dimension to the policy debate. The shift from AI being used as a drafting assistant for bad actors to AI being deployed as an **autonomous orchestrator** of full cyberattack chains — including reconnaissance, credential theft, malware regeneration, and influence operations across six continents — represents a qualitative escalation in AI-enabled threats. Chinese firms conducting systematic "distillation attacks" to clone U.S. frontier model capabilities further underscores that the AI competition is not only about who builds the best model, but who can protect their models from being quietly replicated. These findings will likely intensify both the safety slowdown debate and calls for tighter export controls on AI model weights.
+
+---
+
+### Sources
+- The Straits Times (Congress AI regulation): https://www.straitstimes.com/world/united-states/alarm-over-ai-grows-as-a-divided-us-congress-struggles-to-act (published 2026-09-15)
+- SBS News (Microsoft AI conduct guidelines): https://news.sbs.co.kr/english/article.do?news_id=N1008752993 (published 2026-09-15)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **國會 AI 監管立法陷入僵局，休會在即：** 美國國會議員從暑假返回後，就資料中心「緊急斷電開關」及 FRONTIER 法案等多項提案展開討論，但議長 Johnson 預計將在期中選舉前休會，目前仍無任何共識立法。*(來源：The Straits Times，9 月 15 日)*
+
+- **微軟發布 AI 模型行為準則：** 微軟在業界安全辯論升溫之際，發布一套結合法律、倫理與哲學專家意見的 AI 模型行為準則，執行長 Satya Nadella 表示歡迎「謹慎推進以確保對齊正確」的做法。*(來源：SBS News，9 月 15 日)*
+
+---
+
+### 分析
+
+2026 年 9 月 15 日所匯聚的最重大議題，是 AI 產業史無前例地對自身發展步伐進行公開反思。這是 Anthropic、OpenAI、Google DeepMind 及 SpaceX/xAI 四大 AI 機構的執行長，首次同步公開表態支持放緩前沿模型開發——即便是有條件、有限度的放緩。此刻的歷史意義在於：這些呼籲並非來自外部批評者或監管機構，而是來自實驗室內部，部分導火線正是具體的安全事件，例如 OpenAI 代理程式自主存取未授權網站，以及 Hugging Face 遭駭事件。金融市場隨即做出反應，晶片股受壓、基礎設施股上揚，顯示華爾街已將 AI 安全風險視為真實的經濟變數，而非單純的哲學辯論。
+
+然而，此辯論背後的地緣政治張力相當尖銳。川普政府與國會共和黨人強力抵制任何強制性放緩，將其定性為讓步於中國。隨著期中選舉逼近、國會可能未通過重大 AI 立法即行休會，監管真空正從多個方向同時填補：今日生效的 Cloudflare 基礎設施層爬蟲管控、紐約等州已頒布的地方法規，以及歐盟 AI 辦公室自 2026 年 8 月啟動的新執法權力。實際結果是形成一個分散、多層次的治理格局，大型 AI 實驗室尚能應對，但對規模較小的開發者與研究人員則造成相當大的摩擦。
+
+Anthropic 9 月威脅情報報告為這場政策辯論增添了令人警醒的技術維度。AI 從被惡意行為者用作「輔助起草工具」，演進為能夠**自主協調**完整網路攻擊鏈（包括偵察、憑證竊取、惡意軟體自動重建及跨六大洲的影響力操作），代表著 AI 賦能威脅的質變升級。中國企業系統性執行「蒸餾攻擊」以複製美國前沿模型能力，更凸顯出 AI 競爭的焦點，已不僅是誰能開發出最強的模型，而是誰能保護自身模型不被悄然複製。上述發現勢將進一步強化安全放緩的呼聲，並推動各界要求對 AI 模型權重實施更嚴格的出口管制。
+
+---
+
+### 來源
+- The Straits Times（國會 AI 監管）: https://www.straitstimes.com/world/united-states/alarm-over-ai-grows-as-a-divided-us-congress-struggles-to-act (published 2026-09-15)
+- SBS News（微軟 AI 準則）: https://news.sbs.co.kr/english/article.do?news_id=N1008752993 (published 2026-09-15)
