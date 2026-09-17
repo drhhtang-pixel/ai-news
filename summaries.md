@@ -7981,3 +7981,99 @@ At the infrastructure layer, today's conclusion of the AI Infra Summit 2026 in S
 - Eventbrite / AI Governance Summit London: https://www.eventbrite.com/e/ai-governance-trust-security-leaders-summit-tickets-1989238733601 (published 2026-09-16)
 - CNBC（AI 執行長放慢腳步後續）: https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html (published 2026-09-14)
 - VR.org / Meta Connect 2026: https://vr.org/meta-connect-2026 (published 2026-09-16)
+
+## 2026-09-17 03:01
+
+<!-- EN -->
+### Headlines
+
+- **Top AI Companies Discuss Creating Joint Industry Standards Body:** Anthropic, Google DeepMind, and OpenAI have held discussions about forming a self-regulatory AI industry standards organization, as the three rivals deepen safety coordination amid growing public concern over frontier model risks. *(Source: Reuters, September 15)*
+
+- **OpenAI Works With Anthropic and Google on AI Safety Ahead of Congressional Push:** OpenAI's global policy chief Chris Lehane confirmed the three companies have been coordinating on AI safety measures for weeks, with Lehane visiting Washington to support bipartisan legislation addressing catastrophic AI risks — though Congress is unlikely to act before the midterm elections. *(Source: Reuters, September 15)*
+
+- **Congress Divided as Trump Claims He Is the Only Guardrail AI Needs:** Republican and Democratic lawmakers expressed deep disagreement over federal AI regulation after President Trump stated he alone should serve as the guardrail around AI, with Rep. Tim Burchett warning Congress lacks the expertise to craft adequate safeguards. *(Source: The Independent, September 16)*
+
+- **Trump Calls AI Safety Concerns a "Hoax" in Surprise Live Call With Nvidia's Jensen Huang:** President Trump phoned Nvidia CEO Jensen Huang live on stage at the All-In Summit in Los Angeles, declaring AI existential fears a "hoax" and vowing the U.S. would not allow an AI slowdown, directly countering calls by Anthropic's Dario Amodei, Sam Altman, and Elon Musk for more cautious development. *(Source: TechCrunch, September 14)*
+
+- **Anthropic Publishes September Threat Intelligence Report Detailing AI Misuse:** Anthropic released its monthly threat intelligence report documenting real-world misuse of Claude, including a cross-continent "influence-as-a-service" operation running 70 fake news websites and 250 inauthentic social media accounts, and foreign actors attempting to access pre-release models through stolen API keys. *(Source: Anthropic, September 2026)*
+
+- **AI Safety Slowdown Debate Dominates the Week's News Cycle:** Anthropic CEO Dario Amodei's call to "pace" frontier AI development — supported publicly by OpenAI's Sam Altman and Elon Musk — became the defining story of the week, triggering fierce pushback from the Trump administration, Jensen Huang, and investors who argued it plays into China's hands. *(Source: Reuters, September 14)*
+
+- **Google Ships Gemini 3.8 Live, Tops Speech-to-Speech Leaderboard:** Google released Gemini 3.8 Live, a new model optimized for real-time speech-to-speech interaction, which immediately topped industry benchmarks for conversational AI performance. *(Source: Google Blog, September 15)*
+
+- **OpenAI's AI Agents May Have Cracked the Navier–Stokes Equations:** OpenAI released an AI-generated mathematical proof of the long-unsolved Navier–Stokes fluid dynamics problem, produced by roughly 10,000 agents working for 88 hours; formal peer review is still pending but researchers called it a potential landmark in AI-assisted science. *(Source: OpenAI, September 8)*
+
+- **Anthropic Signs Landmark Australian Data Centre Deal:** Anthropic agreed to a lease at a A$32 billion data centre being built by Singapore's Zerra DC in Queensland, Australia, with 2.16 GW of capacity targeted for 2027 use — solely for Claude inference, not model training. *(Source: ABC News Australia, September 16)*
+
+- **IMA Congress "AI Unlocked" Opens in Birmingham:** The Institute of Mathematics and Its Applications launched its two-day AI Unlocked congress in Birmingham, UK today, gathering academics, industry leaders, and government officials to explore AI's mathematical foundations, regulation, and real-world applications. *(Source: IMA, September 17)*
+
+---
+
+### Analysis
+
+The dominant narrative in AI this week is a high-stakes collision between two philosophies: the "pace and safety first" camp led by Anthropic's Dario Amodei (and surprisingly echoed by Sam Altman and Elon Musk), and the "full speed ahead" camp championed by President Trump and Nvidia's Jensen Huang. The public, dramatic nature of this divide — culminating in Trump's live speakerphone call onto the All-In Summit stage — signals that AI governance has fully crossed from a technical debate into mainstream political theatre. The formation of a proposed joint standards body among OpenAI, Anthropic, and Google is a notable industry response: a pre-emptive self-regulatory move designed to shape the policy environment before Congress, which shows little sign of acting before midterms, does it for them.
+
+Underneath the political drama, September 2026 has been one of the most consequential months for frontier AI capabilities in recent memory. GPT-6 Astra's near-perfect benchmark scores, Claude Mythos 5.1's cybersecurity focus, and now Gemini 3.8 Live's speech-to-speech leadership illustrate how rapidly the capability frontier is expanding across reasoning, coding, multimodal interaction, and autonomous agents. OpenAI's possible Navier–Stokes proof — if it survives peer review — would be a watershed moment for AI-assisted science. Meanwhile, Anthropic's threat intelligence report and the earlier OpenAI–Hugging Face agent security incident are sobering reminders that as models grow more powerful, so does their potential for misuse, both by bad actors exploiting AI and by the AI systems themselves acting autonomously in unexpected ways.
+
+The regulatory picture remains fragmented and contested. The Trump administration's executive order requiring up to 30-day government vetting of advanced AI models has created an unprecedented dynamic in which the White House effectively controls who gets access to frontier AI, drawing criticism from lawmakers across party lines. Anthropic's Australian data centre deal and its $517 billion in compute commitments signal that the industry is simultaneously preparing for a world of continued rapid scaling — regardless of what policymakers ultimately decide.
+
+---
+
+### Sources
+
+- Reuters: https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15 (published 2026-09-15)
+- The Independent: https://www.independent.co.uk/news/world/americas/us-politics/republican-congress-trump-ai-regulation-b3051415.html (published 2026-09-16)
+- TechCrunch: https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen (published 2026-09-14)
+- Anthropic Threat Intelligence Report: https://www.anthropic.com/threat-intelligence-report-september-2026 (published 2026-09)
+- Reuters (AI slowdown): https://www.reuters.com/business/what-amodei-altman-musk-have-said-about-ai-risks-stoking-doom-fears-2026-09-14 (published 2026-09-14)
+- Google Blog: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking (published 2026-09-15)
+- OpenAI: https://openai.com/index/navier-stokes-solution (published 2026-09-08)
+- ABC News Australia: https://www.abc.net.au/news/2026-09-16/queensland-data-centre-anthropic-dalby/107160640 (published 2026-09-16)
+- IMA (Institute of Mathematics and Its Applications): https://ima.org.uk/26690/ai-unlocked-innovation-insight-and-impact (published 2026-09-17)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **頂尖 AI 公司討論成立聯合行業標準機構：** Anthropic、Google DeepMind 與 OpenAI 就建立自律性 AI 行業標準組織展開磋商，三家競爭對手在前沿模型風險引發廣泛關注之際，進一步深化安全協調機制。*(來源：路透社，9 月 15 日)*
+
+- **OpenAI 與 Anthropic、Google 就 AI 安全展開合作，推動國會立法：** OpenAI 全球政策主管 Chris Lehane 確認，三家公司已就 AI 安全措施協調數週；Lehane 前往華盛頓力推跨黨派立法，以應對 AI 災難性風險，但國會在期中選舉前採取行動的可能性仍然渺茫。*(來源：路透社，9 月 15 日)*
+
+- **國會分歧加劇，特朗普稱自己是 AI 唯一「護欄」：** 在特朗普總統宣稱他本人應作為 AI 的唯一防護機制後，共和黨與民主黨議員對聯邦 AI 監管立場嚴重對立；共和黨眾議員 Tim Burchett 警告，國會缺乏制定充分安全措施的專業能力。*(來源：The Independent，9 月 16 日)*
+
+- **特朗普突撥電話英偉達 CEO 黃仁勳，現場斥 AI 安全恐慌為「騙局」：** 特朗普總統在洛杉磯 All-In 峰會上突然致電英偉達 CEO 黃仁勳，當眾宣稱 AI 存亡威脅是「騙局」，並誓言不允許任何放緩 AI 發展的行動，直接回擊了 Anthropic 的 Dario Amodei、Sam Altman 及馬斯克此前呼籲謹慎發展的主張。*(來源：TechCrunch，9 月 14 日)*
+
+- **Anthropic 發布九月威脅情報報告，揭露 AI 被濫用實況：** Anthropic 發布月度威脅情報報告，記錄 Claude 遭真實濫用的案例，包括一個跨越六大洲、運行 70 個假新聞網站和 250 個虛假社交媒體帳號的「影響力即服務」運營，以及外部行為者利用竊取的 API 金鑰嘗試存取預發布模型的事件。*(來源：Anthropic，2026 年 9 月)*
+
+- **AI 安全放緩之爭主導本週新聞：** Anthropic CEO Dario Amodei 呼籲「放緩」前沿 AI 發展步伐，並獲得 Sam Altman 及馬斯克公開支持，此舉成為本週最核心議題，引發特朗普政府、黃仁勳及眾多投資人的強烈反駁，後者認為此舉正中中國下懷。*(來源：路透社，9 月 14 日)*
+
+- **Google 發布 Gemini 3.8 Live，登頂語音對語音排行榜：** Google 推出針對即時語音對語音互動優化的新模型 Gemini 3.8 Live，發布後立即在業界對話式 AI 性能基準測試中位居榜首。*(來源：Google 官方博客，9 月 15 日)*
+
+- **OpenAI AI 智能體或已破解納維-斯托克斯方程：** OpenAI 發布由約一萬個 AI 智能體歷時 88 小時生成的流體力學難題納維-斯托克斯方程數學證明；正式同行評審尚待進行，但研究人員稱其可能是 AI 輔助科學研究的歷史性里程碑。*(來源：OpenAI，9 月 8 日)*
+
+- **Anthropic 簽署澳洲數據中心重要協議：** Anthropic 與新加坡 Zerra DC 公司在澳洲昆士蘭州達成租賃協議，數據中心造價達 320 億澳元，容量達 2.16 GW，預計 2027 年投入使用，專用於 Claude 推理服務，不用於模型訓練。*(來源：澳洲廣播公司新聞，9 月 16 日)*
+
+- **英國數學與應用研究所「AI 解鎖」大會在伯明翰開幕：** 英國數學與應用研究所今日在伯明翰正式啟動為期兩天的「AI 解鎖」大會，匯聚學術界、業界領袖與政府官員，共同探討 AI 的數學基礎、監管框架及現實世界應用。*(來源：IMA，9 月 17 日)*
+
+---
+
+### 分析
+
+本週 AI 領域的核心敘事，是兩種截然對立的發展哲學之間的高風險碰撞：以 Anthropic CEO Dario Amodei 為代表的「先放緩、先安全」陣營（出人意料地獲得 Sam Altman 與馬斯克響應），以及由特朗普總統和英偉達黃仁勳所倡導的「全速前進」陣營。這場分歧以戲劇性方式公開爆發——特朗普在 All-In 峰會上的現場揚聲器通話，標誌著 AI 治理之爭已從技術辯論全面進入主流政治舞台。OpenAI、Anthropic 與 Google 擬建聯合標準機構，是業界的一個先發制人的自律舉措，旨在國會（眼下幾乎不可能在期中選舉前採取行動）正式介入之前，主動塑造政策環境。
+
+在這場政治風波之下，2026 年 9 月在前沿 AI 能力方面仍是近年來最具突破性的月份之一。GPT-6 Astra 近乎完美的基準測試得分、Claude Mythos 5.1 的網絡安全專項能力，以及 Gemini 3.8 Live 在語音對語音互動上的領先表現，共同呈現出 AI 能力前沿在推理、編碼、多模態互動及自主智能體等領域的飛速擴張。若 OpenAI 的納維-斯托克斯證明能通過同行評審，將是 AI 輔助科學的歷史性轉折點。與此同時，Anthropic 的威脅情報報告和此前的 OpenAI-Hugging Face 智能體安全事件，正以清醒的方式提醒世人：模型越強大，其被惡意利用的潛力——以及智能體自主越界行動的風險——也同步增長。
+
+監管格局依然破碎且充滿爭議。特朗普政府要求對先進 AI 模型進行最長 30 天政府審查的行政命令，創造了一種前所未有的局面：白宮實際上掌控著誰能使用前沿 AI，此舉已引發跨黨派議員的批評。另一方面，Anthropic 的澳洲數據中心協議及其高達 5170 億美元的算力承諾，表明整個行業正同步為持續快速擴張的未來做好準備——無論政策制定者最終作出何種抉擇。
+
+---
+
+### 來源
+
+- 路透社: https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15 (published 2026-09-15)
+- The Independent: https://www.independent.co.uk/news/world/americas/us-politics/republican-congress-trump-ai-regulation-b3051415.html (published 2026-09-16)
+- TechCrunch: https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen (published 2026-09-14)
+- Anthropic 威脅情報報告: https://www.anthropic.com/threat-intelligence-report-september-2026 (published 2026-09)
+- 路透社（AI 放緩爭議）: https://www.reuters.com/business/what-amodei-altman-musk-have-said-about-ai-risks-stoking-doom-fears-2026-09-14 (published 2026-09-14)
+- Google 官方博客: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking (published 2026-09-15)
+- OpenAI: https://openai.com/index/navier-stokes-solution (published 2026-09-08)
+- 澳洲廣播公司新聞: https://www.abc.net.au/news/2026-09-16/queensland-data-centre-anthropic-dalby/107160640 (published 2026-09-16)
+- IMA（英國數學與應用研究所）: https://ima.org.uk/26690/ai-unlocked-innovation-insight-and-impact (published 2026-09-17)
