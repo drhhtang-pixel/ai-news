@@ -8296,3 +8296,101 @@ Meanwhile, the healthcare sector is experiencing its own quiet revolution. Vites
 - Reuters（OpenAI 模型錯位報告框架）: https://www.reuters.com/technology/openai-releases-framework-track-model-misalignment-2026-09-16 (published 2026-09-16)
 - AP / ABC News（Anthropic Claude 協助開發下一代模型）: https://abcnews.com/US/wireStory/anthropic-model-claude-helping-build-version-136547096 (published 2026-09-17)
 - AI Release Tracker – 2026 年 9 月模型發布紀錄: https://aireleasetracker.com/releases/september-2026 (published 2026-09-20)
+
+## 2026-09-21 02:56
+
+<!-- EN -->
+### Headlines
+
+- **Trump announces "AI Force" and new AI Czar:** President Donald Trump declared he will create an "AI Force" modeled on Space Force and appoint a new AI czar to oversee the industry, while dismissing AI safety fears as a "hoax" and vowing not to "hinder or stifle" development. *(Source: CNN, September 19)*
+
+- **Claude Opus 5 used to breach OpenAI staff accounts in bug bounty:** Security researchers leveraging Anthropic's Claude Opus 5 successfully took over OpenAI employee accounts and accessed its internal code repository in a sanctioned bounty exercise, raising fresh alarm about AI-assisted cyberattacks. *(Source: TechCrunch, September 18)*
+
+- **Antitrust lawsuit filed against Anthropic, OpenAI, Google, and SpaceXAI over alleged AI slowdown pact:** A federal civil lawsuit filed in the U.S. District Court for the Northern District of California alleges the four leading AI companies colluded to slow AI development in violation of antitrust laws, with plaintiffs seeking class-action status on behalf of paid AI subscribers. *(Source: AP News, September 19–21)*
+
+- **Anthropic surpasses $100 billion annual run rate:** Anthropic crossed the $100 billion annual revenue run rate milestone, underscoring the company's explosive commercial growth ahead of its anticipated IPO expected in mid-to-late October 2026. *(Source: Axios, September 18)*
+
+- **UN holds AI governance event at UNGA sidelines:** On the sidelines of the United Nations General Assembly's high-level week, the UN's SDG Media Zone hosted a major event focused on AI and human agency, with Secretary-General Guterres calling AI "a major topic" in world leader discussions and pushing for a Global Fund for AI Capacity-Building. *(Source: UN News, September 21)*
+
+- **California Gov. Newsom orders AI "kill switch" mandate:** Governor Gavin Newsom signed an executive order requiring AI companies developing frontier models to build emergency "kill switch" mechanisms, while blaming Congress and the Trump White House for federal inaction on AI safety. *(Source: Politico, September 18)*
+
+- **OpenAI, Anthropic, and Google DeepMind confirmed to be in ongoing AI safety talks:** OpenAI's global policy chief Chris Lehane publicly confirmed that the three frontier AI labs have been coordinating on AI safety frameworks for several weeks, fueling both praise and the antitrust lawsuit filed against them. *(Source: TechCrunch, September 15)*
+
+- **Anthropic publishes September threat intelligence report on AI misuse:** Anthropic released its monthly threat intelligence report detailing the disruption of unauthorized model-distillation campaigns by PRC-based labs including Alibaba's Qwen/Tongyi Lab, and described a covert voter-targeting operation in Malaysia that used Claude to manage roughly 1,000 fake social media accounts. *(Source: Anthropic, September 10)*
+
+- **GPT-6 Astra and DeepSeek-V4.1-Flash among major new model releases in September 2026:** Multiple frontier model releases this month — including OpenAI's GPT-6 Astra and DeepSeek's V4.1-Flash — continued to accelerate the AI model arms race, with new releases arriving every few weeks across labs. *(Source: ThursdAI / local-ai-zone, September 21)*
+
+- **Dartmouth hosts AI and Indigenous Innovations Symposium on AI's 70th anniversary:** A two-day symposium at Dartmouth College (September 21–22) brought together leading scholars to examine intersections of AI, Indigenous data creation, and environmental futures, as part of a year of events marking 70 years since the word "artificial intelligence" was coined. *(Source: Dartmouth AI at 70, September 21)*
+
+---
+
+### Analysis
+
+The week of September 21, 2026 marks a pivotal moment in the global AI governance debate, with technical, legal, and political forces colliding simultaneously. The antitrust lawsuit against Anthropic, OpenAI, Google, and SpaceXAI is the most legally consequential development: it transforms what the labs framed as a responsible safety conversation into a potential Sherman Act violation, threatening the fragile consensus that major frontier labs were trying to build. At the same time, the confirmation that all three major Western labs were already holding private coordination meetings only adds credibility to the plaintiffs' core allegation — that competitive slowdown was being orchestrated behind closed doors. The lawsuit's class-action ambitions, on behalf of paid AI subscribers who allegedly received less value due to the slowdown pact, could open an entirely new front of consumer-facing litigation against Big AI.
+
+The political picture is equally fractured. Trump's announcement of an "AI Force" and an incoming AI czar is rhetorically aggressive but institutionally vague — it is deliberately framed as an accelerationist counterpoint to the safety-focused calls coming from Amodei, Altman, and Hassabis. Meanwhile, Governor Newsom's kill-switch executive order and the UN's UNGA-week push for a Global Fund for AI Capacity-Building show that the regulatory vacuum at the federal level is being filled from both sub-national and supranational directions. The Claude Opus 5 breach of OpenAI's internal systems, even in a sanctioned bug-bounty context, adds a vivid real-world data point to safety advocates' warnings: the same frontier models being debated in courtrooms and UN chambers are already capable of autonomous, high-impact cyberoperations.
+
+Underneath the governance drama, the commercial and technical momentum of AI shows no sign of slowing. Anthropic crossing a $100 billion annual run rate, GPT-6 Astra shipping, and DeepSeek releasing yet another flash model all point to an industry that is accelerating regardless of the legal and political headwinds. The convergence of Anthropic's threat intelligence report — detailing state-linked distillation attacks and AI-driven influence operations — with its own simultaneous antitrust exposure captures the central paradox of this moment: the same companies warning loudest about AI risk are also the most commercially and technically dominant actors in the ecosystem they say needs restraint.
+
+---
+
+### Sources
+
+- CNN (Trump AI Force): https://www.cnn.com/2026/09/19/politics/trump-ai-task-force-czar (published 2026-09-19)
+- TechCrunch (Claude Opus 5 / OpenAI breach): https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai (published 2026-09-18)
+- AP News (antitrust lawsuit): https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b (published 2026-09-19)
+- Axios (Anthropic $100B revenue): https://www.axios.com/2026/09/18/anthropic-100-billion-revenue (published 2026-09-18)
+- UN News: https://news.un.org/en/story/2026/09/1168353 (published 2026-09-21)
+- Politico (Newsom kill switch): https://www.politico.com/news/2026/09/18/newsom-california-executive-order-ai-01083826 (published 2026-09-18)
+- TechCrunch (OpenAI/Anthropic/DeepMind safety talks): https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks (published 2026-09-15)
+- Anthropic Threat Intelligence Report: https://www.anthropic.com/threat-intelligence-report-september-2026 (published 2026-09-10)
+- ThursdAI (September 2026 model releases): https://thursdai.news/releases/2026-09 (published 2026-09-21)
+- Dartmouth AI at 70: https://ai.dartmouth.edu/70th-anniversary (published 2026-09-21)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **川普宣布成立「AI Force」並任命AI沙皇：** 美國總統川普宣布將仿照太空軍模式成立「AI Force」，並即將任命新任AI沙皇，同時駁斥AI安全疑慮為「騙局」，誓言不阻礙行業發展。*(來源：CNN，9 月 19 日)*
+
+- **Claude Opus 5 被用於入侵OpenAI員工帳號：** 安全研究人員借助Anthropic的Claude Opus 5，在一項獲授權的漏洞賞金計畫中成功接管OpenAI員工帳號並進入其內部程式碼庫，引發外界對AI輔助網路攻擊的高度警惕。*(來源：TechCrunch，9 月 18 日)*
+
+- **Anthropic、OpenAI、Google與SpaceXAI遭反壟斷訴訟：** 一項聯邦民事訴訟在加州北區聯邦法院提起，指控四家頂尖AI公司共謀放緩AI開發，違反反壟斷法，原告尋求代表付費AI訂閱用戶取得集體訴訟資格。*(來源：美聯社，9 月 19–21 日)*
+
+- **Anthropic年化營收突破1000億美元：** Anthropic跨越年化營收1000億美元里程碑，展現出其驚人的商業增長，並為預計於10月中旬進行的IPO奠定基礎。*(來源：Axios，9 月 18 日)*
+
+- **聯合國在聯合國大會高層週期間舉辦AI治理活動：** 在聯合國大會高層周的場邊，聯合國SDG媒體區於9月21日舉辦重要活動，聚焦AI與人類主體性的關係，秘書長古特瑞斯強調AI將是與各國領袖討論的「重大議題」，並呼籲建立「全球AI能力建設基金」。*(來源：UN News，9 月 21 日)*
+
+- **加州州長紐森下令AI公司建立「緊急關閉開關」：** 加州州長葛文·紐森簽署行政命令，要求開發前沿模型的AI公司建立緊急「關閉開關」機制，並批評國會和川普政府在AI安全問題上怠於行動。*(來源：Politico，9 月 18 日)*
+
+- **OpenAI、Anthropic與Google DeepMind確認正進行AI安全協調會談：** OpenAI全球政策主管Chris Lehane公開確認，三大前沿AI實驗室已就AI安全框架協調溝通數週，此舉既獲得讚揚，也成為上述反壟斷訴訟的重要依據。*(來源：TechCrunch，9 月 15 日)*
+
+- **Anthropic發布9月AI濫用威脅情報報告：** Anthropic發布月度威脅情報報告，詳述已中斷的多起中國AI實驗室（包括阿里巴巴通義千問）未經授權的模型蒸餾行動，並揭露一起利用Claude管理約1000個假帳號、針對馬來西亞選民進行定向影響的行動。*(來源：Anthropic，9 月 10 日)*
+
+- **GPT-6 Astra與DeepSeek-V4.1-Flash等多款新模型於本月發布：** 包括OpenAI的GPT-6 Astra與DeepSeek的V4.1-Flash在內，9月份多款前沿模型相繼問世，各大實驗室每隔數週便有新模型推出，AI軍備競賽持續加速。*(來源：ThursdAI／local-ai-zone，9 月 21 日)*
+
+- **達特茅斯舉辦「AI與原住民創新」研討會，紀念AI命名70週年：** 達特茅斯學院（9月21–22日）舉辦兩天研討會，匯聚頂尖學者探討AI、原住民數據創建與環境未來的交匯議題，為紀念「人工智慧」一詞誕生70週年的系列活動之一。*(來源：Dartmouth AI at 70，9 月 21 日)*
+
+---
+
+### 分析
+
+2026年9月21日這一週，全球AI治理辯論迎來關鍵轉折，技術、法律與政治力量同時交匯碰撞。針對Anthropic、OpenAI、Google與SpaceXAI的反壟斷訴訟是目前法律影響最深遠的發展：它將各實驗室原本框架為「負責任安全對話」的行為，轉化為潛在的《謝爾曼法》違規指控，威脅著這些頂尖實驗室費力建立的脆弱共識。與此同時，三大西方主要實驗室已在私下進行協調會議的確認，更為原告的核心指控——即競爭放緩是在幕後精心安排——增添了可信度。訴訟以付費AI訂閱用戶因放緩協議而受損為由尋求集體訴訟資格，可能為大型AI公司開啟全新的消費者訴訟戰線。
+
+政治格局同樣四分五裂。川普宣布成立「AI Force」並任命AI沙皇，姿態強硬但制度框架模糊，刻意定位為對Amodei、Altman與Hassabis等人安全訴求的「加速主義」反制。與此同時，紐森的「關閉開關」行政命令與聯合國在聯合國大會期間推動「全球AI能力建設基金」的努力，均顯示聯邦層面的監管真空正由地方政府與超國家機構從兩個方向填補。Claude Opus 5即便在授權的漏洞賞金框架內入侵OpenAI內部系統一事，為安全倡導者的警告提供了生動的現實佐證：正在法庭與聯合國會議廳中被辯論的前沿模型，已具備自主執行高影響力網路行動的能力。
+
+在治理風波之下，AI的商業與技術動能毫無放緩跡象。Anthropic年化營收突破1000億美元、GPT-6 Astra發布、DeepSeek再推Flash新模型，均表明這個行業正在法律與政治逆風中加速前行。Anthropic的威脅情報報告——揭示國家級模型蒸餾攻擊與AI驅動的輿論操控行動——與其自身同時面臨的反壟斷訴訟共同呈現了這一時刻的核心矛盾：對AI風險呼聲最高的公司，恰恰也是其所呼籲需要克制的生態系統中，商業和技術上最具統治力的行動者。
+
+---
+
+### 來源
+
+- CNN（川普AI Force）: https://www.cnn.com/2026/09/19/politics/trump-ai-task-force-czar (published 2026-09-19)
+- TechCrunch（Claude Opus 5入侵OpenAI）: https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai (published 2026-09-18)
+- AP News（反壟斷訴訟）: https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b (published 2026-09-19)
+- Axios（Anthropic年化營收1000億）: https://www.axios.com/2026/09/18/anthropic-100-billion-revenue (published 2026-09-18)
+- UN News: https://news.un.org/en/story/2026/09/1168353 (published 2026-09-21)
+- Politico（紐森關閉開關）: https://www.politico.com/news/2026/09/18/newsom-california-executive-order-ai-01083826 (published 2026-09-18)
+- TechCrunch（OpenAI／Anthropic／DeepMind安全會談）: https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks (published 2026-09-15)
+- Anthropic Threat Intelligence Report: https://www.anthropic.com/threat-intelligence-report-september-2026 (published 2026-09-10)
+- ThursdAI（9月模型發布）: https://thursdai.news/releases/2026-09 (published 2026-09-21)
+- Dartmouth AI at 70: https://ai.dartmouth.edu/70th-anniversary (published 2026-09-21)
