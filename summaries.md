@@ -8460,3 +8460,93 @@ On the governance front, the UN Digital Cooperation Day at UNGA81 underscores a 
 - GAI Insights: https://www.youtube.com/watch?v=Uy5-HrZCWiE (published 2026-09-22)
 - Forbes Breaking News / YouTube: https://www.youtube.com/watch?v=N0EmPWhXCuQ (published 2026-09-22)
 - OpenAI 社群論壇: https://community.openai.com/tag/devday-2026/1161 (published 2026-09-22)
+
+## 2026-09-23 02:56
+
+<!-- EN -->
+### Headlines
+
+- **Trump Rebrands AI as "Super Intelligence," Rejects Global Regulation at UN:** In his address to the 81st UN General Assembly, President Trump declared the U.S. "totally rejects" any international framework to regulate AI, announced the technology will be renamed "super intelligence" in all U.S. government documents, and called whoever controls AI the "ultimate winner." *(Source: Reuters, September 22)*
+
+- **AFP: Trump Beats "America First" Drum at UN as AI Governance Divides World Leaders:** World leaders clashed over AI's future at the UNGA, with UN Secretary-General Guterres calling for US-China dialogue on AI akin to Cold War-era nuclear diplomacy, while Trump flatly rejected any "globalist scheme" to regulate the technology. *(Source: AFP, September 23)*
+
+- **Antitrust Lawsuit Against OpenAI, Anthropic, Google & SpaceXAI Continues Gaining Attention:** A federal class-action suit filed September 18 in Northern California — accusing the four AI giants of illegally coordinating to slow AI development after Dario Amodei's "Pace the Frontier" essay — continued to dominate industry discussion, with analysts and legal commentators weighing in through the week. *(Source: CBS News, September 19; Law Commentary, September 21)*
+
+- **Anthropic Publishes Sweeping September 2026 Threat Intelligence Report:** Anthropic's 150-page report (published September 10 and still generating wide commentary) revealed that Claude was targeted by state-linked actors for bioweapons research, a six-continent commercial influence-as-a-service operation, Chinese police surveillance tools, and a China-based network of AI dating personas deceiving 25,000 real users — and that Claude was used to rewrite Russian and Chinese state media as fake independent Malaysian news. *(Source: Anthropic, September 10)*
+
+- **ANA AI and Technology for Marketers Conference Opens Near Washington D.C.:** The 2026 ANA AI and Technology for Marketers Conference, presented by Meta, kicked off its September 23–25 run in Oxon Hill, Maryland, convening senior marketing and technology leaders to explore enterprise AI deployment, intelligent orchestration, and scalable personalization. *(Source: ANA, September 23)*
+
+- **DeepMind Institute Launches, Shane Legg Signals AGI Is Approaching:** Google DeepMind launched the DeepMind Institute — a new public-facing research institution — with five inaugural essays, including one from co-founder Shane Legg stating that AGI is now approaching, positioning DeepMind's voice in the ongoing industry debate over AI pacing without formally endorsing Amodei's coordination proposals. *(Source: TechCrunch, September 17)*
+
+- **OpenAI Delays IPO to 2027, Cites AI Safety Imperative:** CEO Sam Altman confirmed OpenAI will not go public in 2026, describing any 2026 debut as an "ill-advised moment," and calling even a 10% probability of AI-caused human extinction "unacceptable" — while Anthropic is separately expected to begin marketing its own IPO in mid-October ahead of November midterm elections. *(Source: Fortune, September 12; Reuters, September 12)*
+
+- **September 2026 AI Model Releases Reach Record Cadence:** Analysts tracking September 2026 noted the densest frontier model release period on record, including OpenAI's GPT-6 Astra (launched September 3), Anthropic's Claude Fable 5.1 and Mythos 5.1, Google's Gemini 3.8 Flash, Meta's Muse Spark 1.3, and DeepSeek V4.1 Flash, with OpenAI DevDay on September 29 expected to bring further major announcements. *(Source: Local AI Zone, September 2026)*
+
+---
+
+### Analysis
+
+The week of September 23, 2026 represents a critical inflection point in global AI governance. President Trump's UNGA address — in which he renamed AI "super intelligence" and rejected any multilateral regulatory framework — dramatically sharpened the contrast between the U.S. government's laissez-faire posture and the growing alarm from within the AI industry itself. The irony is striking: the very CEOs of the companies Trump is championing — Altman at OpenAI, Amodei at Anthropic, Hassabis at Google DeepMind — have spent September publicly calling for slower development and industry-wide safety coordination. UN Secretary-General Guterres's call for US-China AI dialogue, modeled on Cold War nuclear diplomacy, underscores how seriously the international community is taking existential risk — a concern Trump dismissed by drawing parallels to what he called the exaggerated threat of climate change.
+
+The antitrust lawsuit filed against OpenAI, Anthropic, Google, and SpaceXAI adds a paradoxical legal dimension to the pacing debate: if the industry's leading labs coordinate on safety, they may face antitrust liability; if they don't, they risk catastrophic outcomes that their own leaders publicly warn about. Meanwhile, Anthropic's September threat intelligence report — detailing state-sponsored bioweapons research, industrial-scale influence operations, and Chinese surveillance tools all built on Claude — provides concrete evidence for why the pacing argument exists in the first place. The report also underscores a persistent tension: the same AI capabilities that make these tools powerful for legitimate users are being systematically exploited by adversarial actors, including China-linked entities conducting what CISA, NSA, and FBI have jointly called "industrial-scale distillation campaigns" against U.S. frontier models. Taken together, the events of this week suggest that the AI governance crisis is no longer theoretical — it is arriving faster than the regulatory and legal frameworks designed to manage it.
+
+---
+
+### Sources
+
+- AFP: https://www.afp.com/en/trump-beats-america-first-drum-un-allies-tread-carefully (published 2026-09-23)
+- Reuters (Trump UN super intelligence): https://www.reuters.com/world/us/trump-un-threats-diplomacy-super-intelligence-2026-09-22 (published 2026-09-22)
+- Scientific American: https://www.scientificamerican.com/article/trump-rejects-ai-regulation-citing-parallels-with-climate-change-in-un-address (published 2026-09-22)
+- CBS News (antitrust): https://www.cbsnews.com/news/ai-slowdown-lawsuit-openai-anthropic-google (published 2026-09-19)
+- Law Commentary: https://www.lawcommentary.com/articles/openai-anthropic-google-spacexai-ai-slowdown-antitrust-lawsuit (published 2026-09-21)
+- Anthropic Threat Intelligence Report: https://www.anthropic.com/threat-intelligence-report-september-2026 (published 2026-09-10)
+- ANA Conference: https://www.ana.net/content/show/id/ms-mfm-sep26 (published 2026-09-23)
+- TechCrunch (DeepMind Institute): https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate (published 2026-09-17)
+- Fortune (OpenAI IPO): https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns (published 2026-09-12)
+- Reuters (OpenAI IPO): https://www.reuters.com/legal/litigation/openai-ipo-will-not-happen-2026-amid-ai-safety-fears-altman-says-2026-09-12 (published 2026-09-12)
+- Local AI Zone (model tracker): https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html (published 2026-09)
+- CISA Advisory (China distillation): https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a (published 2026-09-08)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **川普在聯合國將AI更名為「超級智慧」，拒絕全球監管：** 美國總統川普在第81屆聯合國大會演說中宣稱，美國「完全拒絕」任何規範AI的國際框架，並宣布該技術在所有美國政府文件中將更名為「超級智慧」，強調掌控AI者將是「最終贏家」。*(來源：路透社，9 月 22 日)*
+
+- **AFP：川普在聯合國高舉「美國優先」，全球領袖在AI治理上分歧加劇：** 各國領袖在聯合國大會上就AI未來爭論激烈，聯合國秘書長古特雷斯呼籲美中仿照冷戰核武外交模式展開AI對話，川普則斷然拒絕任何「全球主義方案」。*(來源：AFP，9 月 23 日)*
+
+- **針對OpenAI、Anthropic、Google及SpaceXAI的反壟斷訴訟持續延燒：** 9月18日在加州北區聯邦法院提起的集體訴訟，指控四大AI巨頭在Dario Amodei發表「放慢前沿」文章後非法協調減緩AI發展，業界分析師和法律評論人持續就此展開論辯。*(來源：CBS新聞，9 月 19 日；Law Commentary，9 月 21 日)*
+
+- **Anthropic發布大規模2026年9月威脅情報報告：** Anthropic長達150頁的報告（9月10日發布，至今引發廣泛討論）揭示，Claude曾被國家相關行為者用於生物武器研究、跨越六大洲的商業「影響力即服務」行動、中國警方監控工具，以及一個AI約會人格欺騙2.5萬名真實用戶的中國網路，Claude亦被用來改寫俄中官方媒體報導並偽裝成馬來西亞獨立新聞。*(來源：Anthropic，9 月 10 日)*
+
+- **ANA 2026年AI與行銷科技大會在華盛頓特區近郊開幕：** 由Meta贊助的2026年ANA AI與行銷科技大會於9月23至25日在馬里蘭州奧克森山舉行，匯聚各行銷與科技高層，探討企業AI部署、智慧型流程編排及個人化規模化議題。*(來源：ANA，9 月 23 日)*
+
+- **DeepMind研究院正式成立，Shane Legg宣稱AGI即將到來：** Google DeepMind宣布成立新公共研究機構「DeepMind研究院」，並發表五篇創刊文章，其中共同創辦人Shane Legg撰文指出AGI正在逼近，使DeepMind在AI步調辯論中確立了立場，但未正式表態支持Amodei的協調提案。*(來源：TechCrunch，9 月 17 日)*
+
+- **OpenAI將IPO延至2027年，理由為AI安全需求：** 執行長Sam Altman確認OpenAI不會在2026年上市，形容2026年上市是「時機不當的決定」，並表示若AI造成人類滅絕的概率哪怕只有10%也「無法接受」；與此同時，Anthropic預計最早於10月中旬啟動自身IPO行銷，計劃在11月期中選舉前完成掛牌。*(來源：Fortune，9 月 12 日；路透社，9 月 12 日)*
+
+- **2026年9月AI模型發布密度創歷史新高：** 追蹤人員指出，2026年9月是有史以來前沿模型發布最密集的時期，包括OpenAI的GPT-6 Astra（9月3日發布）、Anthropic的Claude Fable 5.1與Mythos 5.1、Google的Gemini 3.8 Flash、Meta的Muse Spark 1.3及DeepSeek V4.1 Flash，而9月29日的OpenAI DevDay預計將帶來更多重大公告。*(來源：Local AI Zone，2026年9月)*
+
+---
+
+### 分析
+
+2026年9月23日當週是全球AI治理的關鍵轉折點。川普在聯合國大會將AI更名為「超級智慧」並拒絕任何多邊監管框架，使美國政府的放任立場與AI產業內部日益升溫的警示之間形成鮮明對比。諷刺的是，川普力挺的那些公司——OpenAI的Altman、Anthropic的Amodei、Google DeepMind的Hassabis——整個9月都在公開呼籲放慢發展步伐並推動業界安全協調。聯合國秘書長古特雷斯呼籲效法冷戰核武外交推動美中AI對話，顯示國際社會對存亡風險的嚴肅態度，而川普則以「氣候變遷被過度誇大」作為類比加以駁斥。
+
+針對OpenAI、Anthropic、Google及SpaceXAI提起的反壟斷訴訟，為這場步調辯論帶來了自相矛盾的法律困境：若各大頂尖實驗室就安全議題進行協調，可能面臨反壟斷指控；若不協調，則可能帶來領袖們公開警告的災難性後果。與此同時，Anthropic的9月威脅情報報告——詳述各種以Claude建構的國家支持生物武器研究、工業規模影響力行動及中國監控工具——為步調論提供了具體的現實依據。報告同時凸顯出一個長期矛盾：讓合法用戶受益的AI能力，正被敵對行為者系統性地加以利用，包括CISA、NSA及FBI聯合警告的中國相關企業對美國前沿模型進行的「工業規模知識蒸餾攻擊」。綜合本週各項事件，AI治理危機已不再是假設性問題，而是以比任何監管或法律框架都更快的速度成為現實。
+
+---
+
+### 來源
+
+- AFP: https://www.afp.com/en/trump-beats-america-first-drum-un-allies-tread-carefully (published 2026-09-23)
+- Reuters（川普聯合國超級智慧）: https://www.reuters.com/world/us/trump-un-threats-diplomacy-super-intelligence-2026-09-22 (published 2026-09-22)
+- Scientific American: https://www.scientificamerican.com/article/trump-rejects-ai-regulation-citing-parallels-with-climate-change-in-un-address (published 2026-09-22)
+- CBS新聞（反壟斷）: https://www.cbsnews.com/news/ai-slowdown-lawsuit-openai-anthropic-google (published 2026-09-19)
+- Law Commentary: https://www.lawcommentary.com/articles/openai-anthropic-google-spacexai-ai-slowdown-antitrust-lawsuit (published 2026-09-21)
+- Anthropic 威脅情報報告: https://www.anthropic.com/threat-intelligence-report-september-2026 (published 2026-09-10)
+- ANA 大會: https://www.ana.net/content/show/id/ms-mfm-sep26 (published 2026-09-23)
+- TechCrunch（DeepMind研究院）: https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate (published 2026-09-17)
+- Fortune（OpenAI IPO）: https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns (published 2026-09-12)
+- 路透社（OpenAI IPO）: https://www.reuters.com/legal/litigation/openai-ipo-will-not-happen-2026-amid-ai-safety-fears-altman-says-2026-09-12 (published 2026-09-12)
+- Local AI Zone（模型追蹤）: https://local-ai-zone.github.io/blog/September_2026_AI_Model_Updates.html (published 2026-09)
+- CISA 公告（中國蒸餾攻擊）: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a (published 2026-09-08)
