@@ -8632,3 +8632,85 @@ The OpenAI Medicare hack in Australia adds urgency and a concrete real-world dim
 - Native America Calling: https://www.nativeamericacalling.com/thursday-september-24-2026-ai-threat-goes-beyond-just-misuse-of-data (published 2026-09-24)
 - Federal Reserve Bank of New York: https://www.newyorkfed.org/newsevents/events/regional_outreach/2026/0924-2026 (published 2026-09-24)
 - Stanford Digital Economy Lab: https://digitaleconomy.stanford.edu/event/world-development-report-2026-the-promise-of-artificial-intelligence (published 2026-09-24)
+
+## 2026-09-25 03:03
+
+<!-- EN -->
+### Headlines
+
+- **Brookings Projects $10.3 Trillion AI Infrastructure Buildout Through 2032:** A new paper by Columbia University economist Stijn Van Nieuwerburgh, presented at the Brookings Papers on Economic Activity fall conference today, estimates U.S. AI infrastructure investment will total $10.3 trillion from 2025 to 2032 — averaging 3.63% of GDP annually, a larger share than any previous U.S. infrastructure boom including railroads and highways. *(Source: Chosun English, September 25)*
+
+- **Anthropic Signs $11.6 Billion Cloud Deal With Akamai for CPU Capacity:** Anthropic has committed to a seven-year, $11.6 billion contract with Akamai Technologies for distributed CPU cloud infrastructure — notable for being CPU rather than GPU capacity — with a potential expansion to $20 billion; Akamai shares jumped ~16% and Anthropic received a warrant for up to 5% of the company. *(Source: IT Brief Asia, September 25)*
+
+- **Blue Cross Blue Shield Study: AI Medical Scribes Added $942 Million in Healthcare Costs:** The BCBS Association, covering over 100 million Americans, published findings showing that AI-assisted clinical documentation tools inflated insurer costs by $942 million compared to a 2023 baseline, primarily by identifying more billable secondary diagnoses rather than treating sicker patients. *(Source: Reuters, September 24)*
+
+- **DeepSeek Hits $1 Billion Annualized Revenue After Raising API Prices Up to 4.5x:** Chinese AI lab DeepSeek has crossed the $1 billion ARR milestone — more than double its revenue from just months ago — driven by significant API price hikes (up to 1,100% on some cache items) as it prepares for a Shanghai IPO fundraise targeting a $68.8 billion valuation. *(Source: AIToolsRecap, September 25)*
+
+- **Trump–Xi White House Summit Launches Official U.S.–China AI Safety Dialogue:** Presidents Trump and Xi Jinping met at the White House, with AI governance as a central agenda item; Treasury Secretary Bessent confirmed the two sides agreed to establish a formal communications channel for AI safety incidents and a framework to identify shared AI dangers, including out-of-control models and AI-enabled bioweapons. *(Source: Nikkei Asia, September 25)*
+
+- **Anthropic Releases September 2026 AI Misuse Threat Intelligence Report:** Anthropic's most detailed threat report to date covers eight months of disrupted malicious operations (December 2025–August 2026), documenting a shift from AI-assisted drafting to fully autonomous AI agent orchestration of cyberattacks, influence operations spanning six continents, surveillance, fraud, and biological misuse attempts. *(Source: Anthropic, September 10)*
+
+- **Anthropic Launches Claude Opus 5.5 With Fable-Level Performance at 40% Lower Cost:** Released on September 22 and widely covered today, Claude Opus 5.5 — the first model in the new 5.5 family — matches Claude Fable 5.1 performance on most tasks while costing 40% less to run than Opus 5, with Claude Sonnet 5.5 and Haiku 5.5 to follow in coming weeks. *(Source: TechCrunch, September 22)*
+
+- **CISA, NSA & FBI Warn of China's Industrial-Scale AI Distillation Campaigns:** A joint advisory (AA26-251A) named six Chinese AI companies — DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI — as having systematically extracted billions of tokens from U.S. frontier AI models including Claude, GPT, Gemini, and Grok since at least late 2024, likely with Chinese government awareness. *(Source: CISA, September 8)*
+
+---
+
+### Analysis
+
+Today's AI news is dominated by money at a scale that redefines the word "infrastructure." The Brookings Institution's $10.3 trillion projection for AI infrastructure investment through 2032 — larger as a share of GDP than the railroad era — lands on the same day that Anthropic commits $11.6 billion to Akamai for CPU capacity it doesn't fully need yet. Together these data points reveal an industry operating on the logic of pre-emption: lock in supply chain, compute, and capital now, before scarcity sets in. The notable detail in the Akamai deal — that it is CPU rather than GPU capacity — suggests AI workloads are maturing beyond pure training into distributed inference and agentic tasks that lean more heavily on general-purpose compute. Meanwhile, DeepSeek's crossing of $1 billion ARR after raising prices up to 4.5x signals that the "race to zero" in AI pricing may be over; even the most cost-efficient player has discovered it can charge more once it has captured users.
+
+The geopolitical and safety dimensions of AI were equally prominent today. The Trump–Xi White House summit produced what may be the most tangible diplomatic AI deliverable of 2026: a formal U.S.–China AI incident communications channel. Coming in parallel with the CISA/NSA/FBI joint advisory naming six Chinese AI labs for industrial-scale knowledge distillation against U.S. frontier models, the juxtaposition is stark — Washington is simultaneously opening a safety dialogue with Beijing and formally accusing Chinese companies of systematically stealing U.S. AI capabilities. Anthropic's own September threat intelligence report adds further texture, documenting the shift of malicious AI use from human-guided drafting to fully autonomous multi-step attack chains, a capability leap that compresses the skill gap between nation-state actors and individual bad actors. The healthcare sector provides a microcosm of AI's double-edged impact: AI medical scribes are genuinely reducing physician burnout and improving documentation, yet the same tools are inflating insurer costs by nearly a billion dollars by surfacing more billable diagnoses — a tension that will force regulatory and reimbursement reckoning well into 2027.
+
+---
+
+### Sources
+
+- Chosun English: https://www.chosun.com/english/market-money-en/2026/09/25/QMZPVALCTBFXLA3ASG47GYYLBM (published 2026-09-25)
+- IT Brief Asia: https://itbrief.asia/story/akamai-signs-usd-11-6-billion-deal-with-anthropic (published 2026-09-25)
+- Reuters (BCBS): https://www.reuters.com/legal/litigation/ai-tools-generated-nearly-1-billion-extra-costs-blue-cross-insurers-say-2026-09-24 (published 2026-09-24)
+- AIToolsRecap: https://aitoolsrecap.com/Blog/ai-news-september-25-2026 (published 2026-09-25)
+- Nikkei Asia (Trump-Xi Summit): https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-us-china-should-keep-ai-under-human-control-xi-says (published 2026-09-25)
+- Anthropic Threat Intelligence Report: https://www.anthropic.com/threat-intelligence-report-september-2026 (published 2026-09-10)
+- TechCrunch (Claude Opus 5.5): https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance (published 2026-09-22)
+- CISA Advisory AA26-251A: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a (published 2026-09-08)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **布魯金斯學會預測：2032年前AI基礎設施投資將達10.3兆美元：** 哥倫比亞大學經濟學家Stijn Van Nieuwerburgh在今日布魯金斯秋季會議上發表論文，預測2025至2032年間美國AI基礎設施投資將達10.3兆美元，平均每年佔GDP的3.63%，超越鐵路、電氣化及高速公路等歷史建設熱潮的規模。*(來源：朝鮮日報英文版，9 月 25 日)*
+
+- **Anthropic與Akamai簽署116億美元雲端基礎設施合約：** Anthropic與Akamai Technologies簽訂為期七年、價值116億美元的CPU雲端運算合約（值得注意的是該合約針對CPU而非GPU），潛在規模可擴展至200億美元；Akamai股價大漲約16%，Anthropic並獲得最高5%的Akamai股票認股權證。*(來源：IT Brief Asia，9 月 25 日)*
+
+- **藍十字藍盾研究：AI醫療記錄工具新增9.42億美元醫療費用：** 覆蓋逾1億名美國人的藍十字藍盾協會公布研究結果，指AI輔助臨床文件工具相較2023年基準，令保險業者多承擔9.42億美元費用，主因是AI識別出更多可計費的次要診斷，而非患者實際病情更重。*(來源：路透社，9 月 24 日)*
+
+- **DeepSeek API大幅漲價後年化收入突破10億美元：** 中國AI公司DeepSeek的年化收入（ARR）超過10億美元，較數月前幾乎翻倍，主因是部分API價格調漲幅度高達4.5倍（個別快取項目漲幅達1,100%），公司同時籌備在上海證交所以688億美元估值進行IPO。*(來源：AIToolsRecap，9 月 25 日)*
+
+- **川習白宮峰會正式啟動美中AI安全對話：** 美國總統川普與中國國家主席習近平在白宮會面，AI治理為核心議題；財政部長貝森特確認雙方同意建立正式的AI安全事件溝通管道，並建立共同危險清單，涵蓋失控AI模型及AI輔助生化武器威脅等議題。*(來源：日本經濟新聞，9 月 25 日)*
+
+- **Anthropic發布2026年9月AI濫用威脅情報報告：** Anthropic迄今最詳細的威脅報告涵蓋八個月（2025年12月至2026年8月）被中斷的惡意操作，記錄了AI從輔助人工起草轉向完全自主執行多步驟網路攻擊、橫跨六大洲的影響力行動、監控、詐欺及生物濫用嘗試的關鍵轉變。*(來源：Anthropic，9 月 10 日)*
+
+- **Anthropic推出Claude Opus 5.5：Fable級性能、成本降低40%：** 於9月22日發布並於今日廣泛報導的Claude Opus 5.5是5.5系列首款模型，在大多數任務上與Claude Fable 5.1性能相當，但運算成本比Opus 5低40%；Claude Sonnet 5.5與Haiku 5.5將於數週內相繼推出。*(來源：TechCrunch，9 月 22 日)*
+
+- **美國CISA、NSA及FBI聯合示警：中國對美AI模型進行工業規模知識蒸餾：** 聯合建議書（AA26-251A）點名六家中國AI公司——DeepSeek、月之暗面、阿里巴巴、MiniMax、階躍星辰及Z.AI——自2024年底起系統性地從Claude、GPT、Gemini及Grok等美國前沿AI模型中擷取數十億個tokens，且此行動極可能獲得中國政府知情支持。*(來源：CISA，9 月 8 日)*
+
+---
+
+### 分析
+
+今日AI新聞的核心是令人震驚的資本規模。布魯金斯學會預測2025至2032年AI基礎設施投資將達10.3兆美元，佔GDP比例超越鐵路時代；同日，Anthropic與Akamai簽署116億美元的CPU容量合約，揭示了整個行業「提前卡位」的邏輯——在稀缺到來之前先鎖定供應鏈、算力與資本。Akamai合約採用CPU而非GPU的細節尤為值得關注，顯示AI工作負載正從純粹的訓練場景走向分散式推理與代理任務。與此同時，DeepSeek在大幅漲價後仍成功突破10億美元ARR，意味著AI定價的「競相降價」時代可能已告終——即便是成本效率最高的玩家，也發現在積累足夠用戶後可以提高收費。
+
+地緣政治與安全面向同樣引人矚目。川習白宮峰會在AI治理上達成了2026年最具實質意義的外交成果：建立正式的美中AI安全事件溝通管道。然而，這一對話的開啟與美國CISA、NSA及FBI聯合點名六家中國AI公司進行工業規模「知識蒸餾」的指控同日發生，形成高度矛盾的張力——華盛頓一面與北京開啟安全對話，一面正式指控中國企業系統性竊取美國AI能力。Anthropic的威脅情報報告則揭示了更深層的安全隱憂：惡意AI應用已從人工輔助的草稿撰寫，升級為可自主執行多步驟攻擊鏈的代理AI，這一能力飛躍大幅縮小了國家行為者與個人駭客之間的技術門檻。醫療領域則為AI的雙刃劍效應提供了縮影：AI醫療記錄工具確實減輕了醫師的行政負擔，卻同時因識別更多可計費診斷而令保險業者多付近10億美元，這一矛盾將迫使監管機構與醫療支付體系在2027年前必須做出正面回應。
+
+---
+
+### 來源
+
+- 朝鮮日報（英文版）: https://www.chosun.com/english/market-money-en/2026/09/25/QMZPVALCTBFXLA3ASG47GYYLBM (published 2026-09-25)
+- IT Brief Asia: https://itbrief.asia/story/akamai-signs-usd-11-6-billion-deal-with-anthropic (published 2026-09-25)
+- 路透社（藍十字藍盾）: https://www.reuters.com/legal/litigation/ai-tools-generated-nearly-1-billion-extra-costs-blue-cross-insurers-say-2026-09-24 (published 2026-09-24)
+- AIToolsRecap: https://aitoolsrecap.com/Blog/ai-news-september-25-2026 (published 2026-09-25)
+- 日本經濟新聞（川習峰會）: https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-us-china-should-keep-ai-under-human-control-xi-says (published 2026-09-25)
+- Anthropic威脅情報報告: https://www.anthropic.com/threat-intelligence-report-september-2026 (published 2026-09-10)
+- TechCrunch（Claude Opus 5.5）: https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance (published 2026-09-22)
+- CISA聯合建議書AA26-251A: https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a (published 2026-09-08)
