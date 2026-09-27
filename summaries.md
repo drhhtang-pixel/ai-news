@@ -8772,3 +8772,89 @@ Yet even as safety concerns dominate the narrative, the financial and strategic 
 - WIRED（Anthropic 辭職）: https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity (published 2026-09)
 - Axios（AI 減速）: https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing (published 2026-09-12)
 - TechCrunch（Disrupt 安全預告）: https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026 (published 2026-09-24)
+
+## 2026-09-27 03:12
+
+<!-- EN -->
+### Headlines
+
+- **OpenAI DevDay 2026 Countdown — Agentic AI Takes Center Stage:** With OpenAI's flagship developer conference set for September 29 at Fort Mason in San Francisco, the AI community is anticipating major announcements around agentic AI, the Agents API (launched in public beta on September 10), GPT-6 platform updates, and expanded developer tooling. *(Source: Digital Applied, September 25)*
+
+- **Sam Altman and Dario Amodei Address UN Security Council on AI Risks:** OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei, alongside Hugging Face's Clément Delangue and AI researcher Yoshua Bengio, briefed the UN Security Council on September 23, calling for international AI safety standards, capability benchmarks, and coordination mechanisms to prevent AI from slipping beyond human control. *(Source: Reuters, September 23)*
+
+- **GPT-6 Sol & Luna and Claude Opus 5.5 Ignite New AI Price War:** OpenAI launched GPT-6 Sol ($2/M input tokens) and the ultra-cheap GPT-6 Luna ($0.10/M input tokens), while Anthropic released Claude Opus 5.5 with 40% lower running costs than its predecessor — setting off a competitive pricing battle at the frontier model level. *(Source: The Neuron Daily, September 23)*
+
+- **UK Parliament Invites Big Four AI Labs to Safety Hearing:** The UK House of Commons Business, Innovation, Science and Trade Committee formally invited Meta, Google, OpenAI, and Anthropic to testify on AI security on October 13, as part of its inquiry into the UK's economic strategy for AI. *(Source: UK Parliament, September 22)*
+
+- **AI Industry Remains Divided Over Coordinated Slowdown Calls:** Following Anthropic CEO Dario Amodei's high-profile essay urging a paced approach to frontier AI development, divisions persist across the tech industry, with Google DeepMind's Demis Hassabis broadly agreeing while others push back, and U.S. Congress proposing new legislation to ban artificial superintelligence. *(Source: AP / ABC News, September 16)*
+
+- **OpenAI's Agents API Reshapes Enterprise AI Workflows:** Since its September 10 public beta launch, OpenAI's Agents API — built on the open-source Codex harness — has drawn significant developer interest for enabling long-running, multi-agent, tool-using workflows, with DevDay expected to bring further announcements. *(Source: OpenAI, September 10)*
+
+- **Huawei Accelerates AI Chip Roadmap, Targets Q1 2027 for Ascend 960DT:** At Huawei Connect 2026 in Shanghai, the company announced its Ascend 960DT chip is now running three quarters ahead of schedule, intensifying the US-China AI chip competition. *(Source: TechCrunch, September 17)*
+
+- **AI Week of September 21–27 — Special Reader Edition Published:** The widely-read "AI NEWS" newsletter for the week of September 21–27 took a special format, skipping its usual model/product roundup to engage readers directly on which AI topics — agents, robotics, regulation, medicine — matter most to them. *(Source: Medium / David Akpovi, September 27)*
+
+### Analysis
+
+The final week of September 2026 crystallized two defining tensions in the AI landscape: the race to deploy ever-more-powerful and cheaper models versus mounting calls for governance and restraint. OpenAI and Anthropic's near-simultaneous release of GPT-6 Sol/Luna and Claude Opus 5.5 — with dramatically slashed API pricing — signals that the frontier model competition has shifted from raw capability benchmarks toward cost efficiency and enterprise accessibility. The upcoming OpenAI DevDay on September 29 is expected to deepen this agentic pivot, with the Agents API already reshaping how knowledge work is structured, as internal OpenAI data shows Codex usage rising up to 56× among research staff since late 2025.
+
+At the same time, the UN Security Council briefing on September 23 marked a historic moment: for the first time, the Council convened specifically around the risk of AI exceeding human control, with the heads of two of the world's most powerful AI labs present. Proposals ranged from embedding independent evaluators in frontier labs to international notification systems for AI security incidents and bans on AI-assisted bioweapons development. The UK Parliament's move to summon all four major AI labs simultaneously for testimony further reflects how regulatory pressure is globalizing rapidly, even as the US and EU diverge sharply on regulatory philosophy — Washington favoring industry-led standards, Brussels enforcing its landmark AI Act's new high-risk provisions that came into full force in August 2026.
+
+The week also highlighted that AI governance debates are no longer abstract: from New York City banning generative AI for students below ninth grade to the US Congress proposing an outright ban on artificial superintelligence, policy actors across the spectrum are scrambling to catch up with a technology that, by industry insiders' own admission, is advancing faster than the frameworks meant to govern it. As OpenAI DevDay approaches — expected to showcase fully managed agentic workflows — the gap between AI's operational deployment and its regulatory scaffolding may be about to widen further.
+
+### Sources
+
+- Digital Applied (DevDay preparation guide): https://www.digitalapplied.com/blog/openai-devday-2026-what-to-prepare (published 2026-09-25)
+- Reuters (UN Security Council AI briefing): https://www.reuters.com/business/ai-leaders-brief-un-amid-warnings-technology-could-slip-beyond-human-control-2026-09-23 (published 2026-09-23)
+- CNN Business (Altman & Amodei at UN): https://www.cnn.com/2026/09/23/tech/altman-amodei-ai-safety-un-security-council (published 2026-09-23)
+- OpenAI (Sam Altman UN remarks): https://openai.com/index/sam-altman-un-security-council-remarks (published 2026-09-23)
+- The Neuron Daily (GPT-6 Sol vs Claude Opus 5.5): https://www.theneurondaily.com/p/gpt-6-sol-vs-claude-opus-5-5 (published 2026-09-23)
+- AI Business (Claude Opus 5.5 launch): https://aibusiness.com/generative-ai/anthropic-unveils-opus-5-5 (published 2026-09-23)
+- UK Parliament (Committee invitation to AI labs): https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/217956/meta-google-openai-and-anthropic-invited-to-appear-before-business-committee-amid-growing-ai-safety-concerns (published 2026-09-22)
+- AM Data Lakehouse / Substack (AI Weekly — Opus 5.5, GPT-6, Huawei chips): https://amdatalakehouse.substack.com/p/ai-weekly-opus-55-gpt-6-sol-and-luna (published 2026-09-22)
+- ABC News / AP (AI slowdown divisions): https://abcnews.com/US/wireStory/divisions-emerge-tech-industry-calls-coordinated-ai-slowdown-136509729 (published 2026-09-16)
+- OpenAI (Agents API launch): https://openai.com/index/introducing-the-agents-api (published 2026-09-10)
+- TechCrunch (Huawei Ascend 960DT Q1 2027): https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia (published 2026-09-17)
+- Medium / David Akpovi (AI NEWS Week of Sep 21–27 Special Edition): https://medium.com/@davidakpovi/ai-news-week-of-september-21-27-2026-special-edition-7963ae2f219d (published 2026-09-27)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **OpenAI DevDay 2026 倒數計時——代理式 AI 成焦點：** OpenAI 年度開發者大會將於 9 月 29 日在舊金山 Fort Mason 舉行，外界預期將有關於代理式 AI、Agents API、GPT-6 平台更新及開發者工具的重大公告。*(來源：Digital Applied，9 月 25 日)*
+
+- **Altman、Amodei 在聯合國安理會就 AI 風險發言：** OpenAI 執行長 Sam Altman、Anthropic 執行長 Dario Amodei、Hugging Face 的 Clément Delangue 及 AI 研究員 Yoshua Bengio 於 9 月 23 日出席聯合國安全理事會，呼籲建立國際 AI 安全標準、能力基準及協調機制，以防止 AI 系統失控。*(來源：Reuters，9 月 23 日)*
+
+- **GPT-6 Sol & Luna 與 Claude Opus 5.5 引發新一輪 AI 價格戰：** OpenAI 推出 GPT-6 Sol（每百萬輸入 token 僅 2 美元）及超低價 GPT-6 Luna（每百萬輸入 token 0.10 美元），Anthropic 亦發布運行成本較前代降低 40% 的 Claude Opus 5.5，前沿模型市場掀起激烈價格競爭。*(來源：The Neuron Daily，9 月 23 日)*
+
+- **英國國會邀請四大 AI 巨頭出席安全聽證：** 英國下議院商業、創新、科學與貿易委員會正式邀請 Meta、Google、OpenAI 及 Anthropic 於 10 月 13 日就 AI 安全問題作證，作為審查英國 AI 經濟戰略工作的一部分。*(來源：英國國會，9 月 22 日)*
+
+- **AI 業界對協調放緩呼聲仍存分歧：** Anthropic 執行長 Amodei 發表呼籲放緩前沿 AI 開發速度的文章後，業界反應不一——Google DeepMind 的 Demis Hassabis 表示大體贊同，但其他方仍持異議；與此同時，美國國會亦提出立法草案，擬禁止人工超級智能的開發。*(來源：AP / ABC News，9 月 16 日)*
+
+- **OpenAI Agents API 重塑企業 AI 工作流程：** OpenAI 於 9 月 10 日正式推出 Agents API 公開測試版，基於開源 Codex 框架，支援長時間運行、多代理及工具調用的工作流，並預計在 DevDay 帶來進一步公告。*(來源：OpenAI，9 月 10 日)*
+
+- **華為加快 AI 晶片路線圖，Ascend 960DT 提前三季度量產：** 華為在上海 2026 年華為全聯接大會上宣布，Ascend 960DT 晶片研發進度超前三個季度，預計 2027 年第一季度推出，進一步加劇中美 AI 晶片競爭。*(來源：TechCrunch，9 月 17 日)*
+
+- **AI NEWS 9 月 21–27 日特別讀者互動版發布：** 廣受關注的《AI NEWS》週刊於本週以特別形式呈現，跳過常規模型與產品資訊整理，直接向讀者徵詢最感興趣的 AI 議題，包括代理、機器人、法規、醫療等。*(來源：Medium / David Akpovi，9 月 27 日)*
+
+### 分析
+
+2026 年 9 月最後一週，AI 領域兩大核心矛盾愈發清晰：一方面是各大科技公司爭相部署更強大、更廉價的模型；另一方面則是全球範圍內日益高漲的治理與監管呼聲。OpenAI 與 Anthropic 幾乎同步發布 GPT-6 Sol/Luna 及 Claude Opus 5.5，並大幅削減 API 定價，標誌著前沿模型的競爭重心已從純粹的能力比拼轉向成本效益與企業可及性。即將舉行的 OpenAI DevDay 預計將進一步深化這一代理式轉型——OpenAI 內部數據顯示，自 2025 年底以來，研究部門的 Codex 使用量已激增逾 56 倍。
+
+與此同時，9 月 23 日的聯合國安理會聽證標誌著一個歷史性時刻：這是安理會首次專門就 AI 超越人類控制的風險召開會議，兩家全球最具影響力 AI 實驗室的負責人親身出席。與會者提出的建議涵蓋在前沿實驗室嵌入獨立評估員、建立國際 AI 安全事件通報機制，以及禁止 AI 輔助生化武器研發等。英國國會同步邀請四大 AI 企業出席聽證，進一步印證監管壓力正在全球化擴散——儘管美國與歐盟在監管哲學上仍存在根本分歧：華盛頓傾向行業自律標準，布魯塞爾則強力推行於 2026 年 8 月全面生效的《AI 法案》。
+
+本週亦清楚表明，AI 治理辯論已不再停留於抽象層面：從紐約市禁止九年級以下學生使用生成式 AI，到美國國會提議立法禁止人工超級智能，各層面政策制定者都在奮力追趕這項技術發展的步伐——而按照業界人士自己的承認，AI 的進步速度早已超越現有監管框架所能應對的範疇。隨著 OpenAI DevDay 即將揭幕，預計將展示全托管的代理式工作流程，AI 實際部署與其監管架構之間的鴻溝，或將進一步擴大。
+
+### 來源
+
+- Digital Applied（DevDay 準備指南）: https://www.digitalapplied.com/blog/openai-devday-2026-what-to-prepare (published 2026-09-25)
+- Reuters（聯合國安理會 AI 聽證）: https://www.reuters.com/business/ai-leaders-brief-un-amid-warnings-technology-could-slip-beyond-human-control-2026-09-23 (published 2026-09-23)
+- CNN Business（Altman 與 Amodei 出席聯合國）: https://www.cnn.com/2026/09/23/tech/altman-amodei-ai-safety-un-security-council (published 2026-09-23)
+- OpenAI（Sam Altman 聯合國發言全文）: https://openai.com/index/sam-altman-un-security-council-remarks (published 2026-09-23)
+- The Neuron Daily（GPT-6 Sol vs Claude Opus 5.5）: https://www.theneurondaily.com/p/gpt-6-sol-vs-claude-opus-5-5 (published 2026-09-23)
+- AI Business（Claude Opus 5.5 發布）: https://aibusiness.com/generative-ai/anthropic-unveils-opus-5-5 (published 2026-09-23)
+- 英國國會（委員會邀請函）: https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/217956/meta-google-openai-and-anthropic-invited-to-appear-before-business-committee-amid-growing-ai-safety-concerns (published 2026-09-22)
+- AM Data Lakehouse / Substack（AI Weekly 週報）: https://amdatalakehouse.substack.com/p/ai-weekly-opus-55-gpt-6-sol-and-luna (published 2026-09-22)
+- ABC News / AP（AI 放緩分歧）: https://abcnews.com/US/wireStory/divisions-emerge-tech-industry-calls-coordinated-ai-slowdown-136509729 (published 2026-09-16)
+- OpenAI（Agents API 發布）: https://openai.com/index/introducing-the-agents-api (published 2026-09-10)
+- TechCrunch（華為 Ascend 960DT Q1 2027）: https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia (published 2026-09-17)
+- Medium / David Akpovi（AI NEWS 9 月 21–27 日特別版）: https://medium.com/@davidakpovi/ai-news-week-of-september-21-27-2026-special-edition-7963ae2f219d (published 2026-09-27)
