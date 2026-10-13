@@ -9949,3 +9949,79 @@ Beyond the financial spectacle, the AI engineering community is grappling with h
 - TechCrunch (Data Center NDAs): https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas (published 2026-10-11)
 - TechCrunch (Nadella Emergency Brake): https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake (published 2026-10-10)
 - TechCrunch (Voice AI): https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet (published 2026-10-11)
+
+## 2026-10-13 05:04
+
+<!-- EN -->
+### Headlines
+
+- **Meta launches its first frontier AI model, Muse Wonder:** Meta's Superintelligence Labs released Muse Wonder and Muse Wonder Full — its first state-of-the-art frontier models — priced at $4/million input tokens and $20/million output tokens, with Meta shares jumping nearly 5% on the news. *(Source: Yahoo Finance, October 13)*
+
+- **UK Parliament holds urgent AI safety hearing with Big Tech:** Representatives from OpenAI, Anthropic, Google DeepMind, and Meta appeared before the UK's Business, Innovation, Science and Trade Committee to answer MPs' questions on mandatory pre-release safety testing, incident reporting, and whether AI development should slow down. *(Source: City AM, October 13)*
+
+- **UK government confirms AI Security Institute has access to test latest frontier models:** AI Minister Kanishka Narayan told Parliament that Britain's AI Security Institute is now working with the US government and major developers including Google to assess safety of the newest advanced models, ahead of the October 13 parliamentary hearing. *(Source: Reuters, October 13)*
+
+- **Former Plaud exec raises $26M for passive AI listening app:** A new startup founded by a former Plaud executive closed a $26 million funding round for an AI app designed to run continuously in the background, listening to and summarizing the user's daily conversations and meetings. *(Source: TechCrunch, October 13)*
+
+---
+
+### Analysis
+
+The most consequential story of October 13 is Meta's launch of Muse Wonder — a pivotal moment for the social media giant's AI ambitions. After more than a year of restructuring under Scale AI founder Alexandr Wang, Meta has finally crossed into frontier territory, matching the capability tier of OpenAI's GPT-6 Sol and Anthropic's Opus 5.5. The pricing parity ($4/$20 per million tokens vs. competitors' comparable tiers) signals that Meta intends to compete head-on for enterprise API customers, not just consumer users via its Muse agent. The fact that Muse Wonder Full is gated behind Muse Code subscriptions is a strategic move to drive recurring revenue and deepen user lock-in — a page directly from OpenAI's ChatGPT Plus playbook. Meta's stock surge of nearly 5% confirms that investors view this as a credible step toward frontier competitiveness.
+
+The day's regulatory and governance storylines are equally significant. The UK parliamentary hearing — with executives from all four major AI labs simultaneously in front of MPs — represents one of the most direct confrontations between democratic oversight and the AI industry to date. MPs zeroed in on whether voluntary safety testing is sufficient, or whether legally mandatory pre-release evaluation is needed. This hearing arrives at a moment when Anthropic released a recent model without submitting it to the UK's AI Security Institute for testing, making the question acutely relevant. Meanwhile in Washington, the Trump administration's "Super Intelligence Force" is framing AI governance in almost entirely competitive terms — prioritizing US dominance over regulation — creating a stark transatlantic divergence in approach that will shape the global AI policy landscape for years to come.
+
+Underneath the headline model launches and policy drama, the WindBorne Air Force contract and the $26M passive-listening AI startup both illustrate how broadly AI infrastructure is now penetrating defense, intelligence, and everyday personal computing. The Air Force's sole-source award to WindBorne — specifically because no competitor could match its global balloon constellation's data — shows that proprietary real-world data pipelines are becoming as strategically valuable as model weights themselves. The TechCrunch Disrupt conference opening in San Francisco today further underscores the ecosystem momentum: the event's themes around multi-model strategies, physical AI, and agentic systems reflect an industry rapidly moving from demonstration to deployment.
+
+---
+
+### Sources
+
+- TechCrunch (Meta Muse Wonder): https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder (published 2026-10-13)
+- The Business Times: https://www.businesstimes.com.sg/companies-markets/meta-says-new-muse-model-reaches-ai-frontier-after-aggressive-push (published 2026-10-13)
+- The Decoder: https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier (published 2026-10-13)
+- WSJ (Meta Muse): https://www.wsj.com/tech/ai/meta-says-new-ai-model-is-state-of-the-art-will-make-muse-agent-smarter-1304cdf4 (published 2026-10-13)
+- City AM (UK Parliament hearing): https://www.cityam.com/openai-and-anthropic-summoned-to-parliament-on-fears-uk-ai-rules-not-fit-for-future (published 2026-10-13)
+- UK Parliament (committee summary): https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee (published 2026-10-13)
+- Reuters (UK AI Security Institute): https://www.reuters.com/legal/litigation/uk-given-access-safety-test-latest-ai-models-minister-says-2026-10-12 (published 2026-10-13)
+- TechCrunch (WindBorne): https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data (published 2026-10-13)
+- WSJ (AI Czar / Super Intelligence Force): https://www.wsj.com/tech/ai/new-ai-task-force-to-report-on-risks-of-technology-after-public-and-industry-concerns-b6308bef (published 2026-10-13)
+- TechCrunch (Disrupt 2026 opens): https://techcrunch.com/events/techcrunch-disrupt (published 2026-10-13)
+- TechCrunch (Passive AI listening app): https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background (published 2026-10-13)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Meta 發布首個前沿 AI 模型 Muse Wonder：** Meta 超級智能實驗室推出 Muse Wonder 與 Muse Wonder Full，這是該公司首批達到業界頂尖水準的模型，API 定價為每百萬輸入 token 4 美元、每百萬輸出 token 20 美元，消息公布後 Meta 股價一度飆升近 5%。*(來源：Yahoo Finance，10 月 13 日)*
+
+- **英國議會召開緊急 AI 安全聽證會：** OpenAI、Anthropic、Google DeepMind 和 Meta 的代表出席英國商業、創新、科學與貿易委員會，就強制上市前安全測試、事故通報義務，以及是否應放緩 AI 發展等問題接受議員質詢。*(來源：City AM，10 月 13 日)*
+
+- **英國政府確認 AI 安全研究院已取得最新前沿模型測試權限：** AI 部長卡尼什卡·納拉揚在議會表示，英國 AI 安全研究院正與美國政府及 Google 等主要開發商合作，對最新 AI 模型進行安全評估。*(來源：路透社，10 月 13 日)*
+
+- **前 Plaud 高管為背景聆聽 AI 應用募得 2,600 萬美元：** 一家由前 Plaud 高管創立的新創公司完成 2,600 萬美元融資，其 AI 應用可在背景持續運行，自動聆聽並摘要用戶的日常對話與會議內容。*(來源：TechCrunch，10 月 13 日)*
+
+---
+
+### 分析
+
+10 月 13 日最具里程碑意義的事件，是 Meta 正式推出 Muse Wonder。在 Scale AI 創辦人王曉晨主導重組超過一年後，Meta 終於跨入前沿模型的行列，在能力層級上與 OpenAI GPT-6 Sol 及 Anthropic Opus 5.5 並駕齊驅。API 定價與競爭對手相當，顯示 Meta 有意正面爭奪企業 API 客戶，而非僅仰賴 Muse 代理的消費者市場。將 Muse Wonder Full 限定於 Muse Code 訂閱用戶，則是效仿 OpenAI ChatGPT Plus 的策略，旨在建立穩定的訂閱收入與用戶黏著度。近 5% 的股價漲幅，反映出投資人對 Meta 進入前沿競爭的信心。
+
+在監管與治理層面，英國議會聽證會同樣意義深遠。四大 AI 實驗室高層同時出現在議員面前，是民主監督機制與 AI 產業之間迄今最直接的正面交鋒之一。議員重點追問：自願性安全測試是否足夠，還是應立法強制要求上市前獨立評估？這場聽證恰逢 Anthropic 近期未提交模型供英國 AI 安全研究院測試便逕行發布，使問題更加尖銳。與此同時，大西洋彼岸的川普政府則以「競爭優先」框架主導 AI 治理，將超越中國定為核心目標，與歐洲的監管取向形成鮮明落差，這種跨大西洋的政策分歧將深刻影響全球 AI 治理格局。
+
+WindBorne 獲得美國空軍獨家合約，以及被動聆聽 AI 新創獲 2,600 萬美元融資，顯示 AI 基礎設施正全面滲透國防與日常個人運算領域。空軍以「唯一能提供此能力的公司」為由，不經競標直接授予 WindBorne 合約，說明專有的現實世界數據管道，其戰略價值已不亞於模型權重本身。TechCrunch Disrupt 的開幕，則進一步彰顯整個生態系統的動能——多模型策略、實體 AI 與代理系統的主題，折射出一個正從「展示」加速邁向「落地部署」的產業。
+
+---
+
+### 來源
+
+- TechCrunch（Meta Muse Wonder）: https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder (published 2026-10-13)
+- The Business Times: https://www.businesstimes.com.sg/companies-markets/meta-says-new-muse-model-reaches-ai-frontier-after-aggressive-push (published 2026-10-13)
+- The Decoder: https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier (published 2026-10-13)
+- 華爾街日報（Meta Muse）: https://www.wsj.com/tech/ai/meta-says-new-ai-model-is-state-of-the-art-will-make-muse-agent-smarter-1304cdf4 (published 2026-10-13)
+- City AM（英國議會聽證）: https://www.cityam.com/openai-and-anthropic-summoned-to-parliament-on-fears-uk-ai-rules-not-fit-for-future (published 2026-10-13)
+- 英國議會（委員會摘要）: https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee (published 2026-10-13)
+- 路透社（英國 AI 安全研究院）: https://www.reuters.com/legal/litigation/uk-given-access-safety-test-latest-ai-models-minister-says-2026-10-12 (published 2026-10-13)
+- TechCrunch（WindBorne）: https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data (published 2026-10-13)
+- 華爾街日報（AI 沙皇／超級智能部隊）: https://www.wsj.com/tech/ai/new-ai-task-force-to-report-on-risks-of-technology-after-public-and-industry-concerns-b6308bef (published 2026-10-13)
+- TechCrunch（Disrupt 2026 開幕）: https://techcrunch.com/events/techcrunch-disrupt (published 2026-10-13)
+- TechCrunch（背景聆聽 AI 融資）: https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background (published 2026-10-13)
