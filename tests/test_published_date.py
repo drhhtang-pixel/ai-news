@@ -34,6 +34,16 @@ class DateFromContentTest(unittest.TestCase):
         self.assertEqual(_date_from_content(text), "2024-01-01")
         self.assertIsNone(_date_from_content("Navigation: Latest news 2026-10-15\nOld report body"))
 
+    def test_updated_date_after_label_is_not_taken(self):
+        # Codex review round 2 #1: the date must follow the label directly.
+        self.assertIsNone(_date_from_content("Published by Staff\nUpdated 2026-10-15\nOld report"))
+        self.assertIsNone(_date_from_content("Published in 2024. Updated 2026-10-15"))
+        self.assertEqual(
+            _date_from_content("Originally published: 2024-01-01\nUpdated 2026-10-15"), "2024-01-01"
+        )
+        self.assertEqual(_date_from_content("**Published:** _Oct. 14, 2026_"), "2026-10-14")
+        self.assertEqual(_date_from_content("| Posted | 2026-10-14 |"), "2026-10-14")
+
     def test_only_scans_first_15000_chars(self):
         self.assertIsNone(_date_from_content("x" * 15000 + " Published 2026-10-14"))
 

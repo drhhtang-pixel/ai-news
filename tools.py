@@ -25,6 +25,10 @@ _PUBLISHED_LABEL_RE = re.compile(
     r"\b(?:published(?: on)?|posted(?: on)?|publication date|date published)\b\s*:?",
     re.IGNORECASE,
 )
+# Separators allowed between a publication label and its date: whitespace, colon,
+# Markdown emphasis/table marks and dashes. Anything else (author names, "Updated")
+# breaks the association.
+_LABEL_GAP_RE = re.compile(r"[\s:*_|\-\u2013\u2014]*")
 
 
 def _format_date(year: int, month: int, day: int) -> str | None:
@@ -42,21 +46,25 @@ def _date_from_url(url: str) -> str | None:
 
 
 def _date_from_content(content: str) -> str | None:
-    # Only trust a content date that sits right after an explicit publication label
-    # ("Published", "Posted", ...). Bare dates in navigation, sidebars or "Updated"
-    # lines are ignored; without a label we return None so the caller reports
+    # Only trust a content date that immediately follows an explicit publication label
+    # ("Published", "Posted", ...), separated by nothing but punctuation. Bare dates in
+    # navigation, sidebars or "Updated" lines are ignored, as is "Published by <author>"
+    # followed by another field; in those cases we return None so the caller reports
     # "unknown" and the verifier looks for a better-dated source.
     window = (content or "")[:15000]
     if not window:
         return None
     for label in _PUBLISHED_LABEL_RE.finditer(window):
-        d = _first_date(window[label.end():label.end() + 60])
+        start = _LABEL_GAP_RE.match(window, label.end()).end()
+        d = _date_at_start(window[start:start + 40])
         if d:
             return d
     return None
 
 
-def _first_date(text: str) -> str | None:
+def _date_at_start(text: str) -> str | None:
+    """Return the date that begins exactly at the start of `text`, if any."""
+    text = text.replace("_", " ")  # Markdown italics would defeat the trailing \b of the date regexes
     candidates = []
     for m in _ISO_DATE_RE.finditer(text):
         d = _format_date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
@@ -70,7 +78,7 @@ def _first_date(text: str) -> str | None:
         d = _format_date(int(m.group(3)), _MONTHS[m.group(2).lower()], int(m.group(1)))
         if d:
             candidates.append((m.start(), d))
-    return min(candidates)[1] if candidates else None
+    return next((d for pos, d in candidates if pos == 0), None)
 
 
 def _normalize_date(value) -> str | None:
@@ -106,7 +114,7 @@ def _resolve_published_date(tavily_field, url: str, raw_content: str) -> str:
 
 
 def allowed_dates(today_date: str) -> tuple[str, str]:
-    """Return (yesterday, today): the 24-hour freshness window, in UTC dates."""
+    """Return (yesterday, today): the freshness window of two UTC calendar days."""
     today = datetime.strptime(today_date, "%Y-%m-%d")
     return (today - timedelta(days=1)).strftime("%Y-%m-%d"), today_date
 
