@@ -28,7 +28,7 @@ A list of all sources with their direct article URLs (NOT homepage URLs). Each e
 - [Publication Name]: https://specific-article-url (published YYYY-MM-DD)
 
 STRICT RULES for Sources:
-- Only include articles published within the last 24 hours (the dates given below). Do NOT list background articles, primary documents, or older coverage.
+- Only include articles published on UTC yesterday or today (the dates given below). Do NOT list background articles, primary documents, or older coverage.
 - If the only source you found for a story is older than that, find a recent article that covers the same story instead.
 - The (published YYYY-MM-DD) date MUST be copied from the "Published:" line of the tool result for that URL. Never guess or infer a date. Do not use an article whose Published date is "unknown" or outside the allowed dates.
 - URLs must point to specific articles, not homepages.
@@ -51,7 +51,7 @@ Example:
 列出所有來源的直接文章網址（非首頁網址）。每條格式：
 - [媒體名稱]: https://specific-article-url (published YYYY-MM-DD)
 
-來源嚴格規定：只列過去 24 小時內（下方指定日期）發布的文章。不得列出背景資料、原始文件或更早的報導。發布日期必須照抄工具結果的「Published:」值，不可推測。
+來源嚴格規定：只列 UTC 昨天或今天（下方指定日期）發布的文章。不得列出背景資料、原始文件或更早的報導。發布日期必須照抄工具結果的「Published:」值，不可推測。
 
 IMPORTANT: You MUST include both <!-- EN --> and <!-- ZH --> blocks in your response, in that order. Do not omit either block. Every headline MUST include an inline source citation."""
 
@@ -82,7 +82,7 @@ def run_agent(search_topic: str, today_date: str) -> str:
     dated_system_prompt = (
         SYSTEM_PROMPT
         + f"\n\nToday's date is {today_date} (UTC). Only report news published on {yesterday} or {today_date} "
-        "(the last 24 hours). Exclude year-in-review articles, historical summaries, and any content "
+        "(UTC yesterday or today). Exclude year-in-review articles, historical summaries, and any content "
         "published outside these dates."
     )
 
@@ -160,6 +160,21 @@ EN_MARKER = "<!-- EN -->"
 ZH_MARKER = "<!-- ZH -->"
 
 
+def _count_headlines(block: str, heading: str) -> int | None:
+    """Count '- **' bullets between `heading` and the next '### ' heading; None if no heading."""
+    lines = block.splitlines()
+    starts = [i for i, line in enumerate(lines) if line.strip() == heading]
+    if not starts:
+        return None
+    count = 0
+    for line in lines[starts[0] + 1:]:
+        if line.lstrip().startswith("### "):
+            break
+        if line.lstrip().startswith("- **"):
+            count += 1
+    return count
+
+
 def validate_summary(summary: str) -> list[str]:
     """Return a list of integrity errors. Empty list means the summary is well-formed."""
     errors: list[str] = []
@@ -181,10 +196,12 @@ def validate_summary(summary: str) -> list[str]:
     if en_idx != -1 and zh_idx != -1 and en_idx < zh_idx:
         en_block = summary[en_idx:zh_idx]
         zh_block = summary[zh_idx:]
-        if not any(line.lstrip().startswith("- **") for line in en_block.splitlines()):
-            errors.append("EN block has no headlines (no '- **' bullets)")
-        if not any(line.lstrip().startswith("- **") for line in zh_block.splitlines()):
-            errors.append("ZH block has no headlines (no '- **' bullets)")
+        for lang, block, heading in (("EN", en_block, "### Headlines"), ("ZH", zh_block, "### 頭條新聞")):
+            count = _count_headlines(block, heading)
+            if count is None:
+                errors.append(f"{lang} block has no '{heading}' section")
+            elif count == 0:
+                errors.append(f"{lang} block has no headlines (no '- **' bullets under '{heading}')")
 
     return errors
 

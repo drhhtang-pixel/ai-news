@@ -34,7 +34,24 @@ class ValidateSummaryTest(unittest.TestCase):
 
     def test_block_without_headlines(self):
         no_zh = VALID.split("<!-- ZH -->")[0] + "<!-- ZH -->\n### 頭條新聞\n（無）\n"
-        self.assertEqual(validate_summary(no_zh), ["ZH block has no headlines (no '- **' bullets)"])
+        self.assertEqual(
+            validate_summary(no_zh), ["ZH block has no headlines (no '- **' bullets under '### 頭條新聞')"]
+        )
+
+    def test_bold_bullets_outside_headlines_do_not_count(self):
+        # Codex review #2: empty headline sections must fail even if Analysis has bold bullets.
+        text = (
+            "<!-- EN -->\n### Headlines\n*(none verified)*\n\n### Analysis\n- **Trend:** x\n"
+            "<!-- ZH -->\n### 頭條新聞\n（無）\n\n### 分析\n- **趨勢：** x\n"
+        )
+        self.assertEqual(validate_summary(text), [
+            "EN block has no headlines (no '- **' bullets under '### Headlines')",
+            "ZH block has no headlines (no '- **' bullets under '### 頭條新聞')",
+        ])
+
+    def test_missing_headline_heading(self):
+        text = VALID.replace("### 頭條新聞", "### 新聞")
+        self.assertEqual(validate_summary(text), ["ZH block has no '### 頭條新聞' section"])
 
     def test_latest_real_summary_passes(self):
         # Guard against the check rejecting the format the agent actually produces.

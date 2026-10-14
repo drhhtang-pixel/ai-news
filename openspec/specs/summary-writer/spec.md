@@ -104,7 +104,7 @@ The system prompt passed to Claude SHALL include the execution date (UTC) and th
 
 - **GIVEN** the agent runs on 2026-06-08
 - **WHEN** the system prompt is assembled
-- **THEN** the prompt SHALL contain `"2026-06-07"` and `"2026-06-08"` and a directive such as `"Only report news published on 2026-06-07 or 2026-06-08 (the last 24 hours)."`
+- **THEN** the prompt SHALL contain `"2026-06-07"` and `"2026-06-08"` and a directive such as `"Only report news published on 2026-06-07 or 2026-06-08 (UTC yesterday or today)."`
 
 ## Implementation Notes
 

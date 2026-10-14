@@ -9,7 +9,7 @@ Your task:
 1. Parse each headline in the <!-- EN --> block and extract the cited URL from *(Source: Name, Date)*
 2. For each headline, call extract_url on the cited URL to verify it:
    - The URL must resolve to an actual article (not a homepage or error page)
-   - The article must have been published on one of the allowed dates (the last 24 hours, given below)
+   - The article must have been published on one of the allowed dates (UTC yesterday or today, given below)
    - IMPORTANT: If extract_url returns "Published: unknown", treat this as a date verification failure — do NOT attempt to infer the date from article content. Proceed directly to step 3.
 3. If validation fails (URL error, date outside the allowed dates, published_date is unknown, or no article content):
    - Call web_search to find a replacement article about the same news story published on an allowed date

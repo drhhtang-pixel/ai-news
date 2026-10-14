@@ -27,8 +27,16 @@ class NormalizeDateTest(unittest.TestCase):
     def test_formats(self):
         self.assertEqual(_normalize_date("Tue, 14 Oct 2026 12:34:56 GMT"), "2026-10-14")
         self.assertEqual(_normalize_date("2026-10-14T03:00:00Z"), "2026-10-14")
+        self.assertEqual(_normalize_date("2026-10-14"), "2026-10-14")
         self.assertIsNone(_normalize_date("not a date"))
         self.assertIsNone(_normalize_date(None))
+
+
+    def test_converts_to_utc(self):
+        # Codex review #3: dates near midnight in other time zones must use the UTC day.
+        self.assertEqual(_normalize_date("Wed, 14 Oct 2026 23:30:00 -0700"), "2026-10-15")
+        self.assertEqual(_normalize_date("Thu, 15 Oct 2026 00:30:00 +0800"), "2026-10-14")
+        self.assertEqual(_normalize_date("2026-10-15T00:30:00+08:00"), "2026-10-14")
 
 
 class WebSearchTest(unittest.TestCase):

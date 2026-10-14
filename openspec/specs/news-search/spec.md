@@ -118,6 +118,6 @@ The `web_search` tool SHALL call Tavily with `topic="news"` and `days=2` (Tavily
 ## Implementation Notes
 
 - `TOOLS` list and `execute_tool(name, input) -> str` dispatcher are defined in `tools.py`
-- The loop in `agent.py` tracks `tool_call_count`; when it reaches `MAX_TOOL_CALLS = 10`, a follow-up API call is issued with `tools=TOOLS` and `tool_choice={"type": "none"}` to force a text answer (the tools must still be declared because the history contains `tool_use` blocks)
+- The loop in `agent.py` tracks `tool_call_count`; when it reaches `MAX_TOOL_CALLS = 10`, a follow-up API call is issued with `tools=TOOLS` and `tool_choice={"type": "none"}` to force a text answer (tools stay declared to match the `tool_use` blocks in the history; `none` forbids further calls)
 - Each Tavily result item is formatted as `**{title}**\n{content}\nPublished: {date}\nURL: {url}`; items are joined with double newlines
 - Unknown tool names return `"Error: Unknown tool '{name}'"` — treated as a non-fatal error by the loop

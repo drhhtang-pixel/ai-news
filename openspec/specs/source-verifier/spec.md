@@ -29,7 +29,7 @@ For each headline in the `<!-- EN -->` block that contains an inline citation, t
 | Empty content | Attempt web_search for replacement |
 
 ---
-### Requirement: Verifier checks that source was published within the last 24 hours
+### Requirement: Verifier checks that source was published on UTC yesterday or today
 
 For each headline's cited URL that resolves successfully, the verifier SHALL verify that the article's published date is one of the allowed dates returned by `allowed_dates(today_date)`: UTC yesterday or UTC today. (The daily run starts around 00:00–05:00 UTC, so requiring "UTC today" alone left only a few hours of eligible articles.) If `extract_url` returns `published_date` as `"unknown"`, the verifier SHALL treat this as a date verification failure and attempt to find a replacement source via `web_search`.
 
@@ -85,9 +85,9 @@ When a headline's source fails validation (URL error or wrong date), the verifie
 
 | Validation result | web_search result | Final action |
 |---|---|---|
-| Homepage URL (no article content) | Found article published within 24h | Replace citation URL and source name |
-| Date mismatch (2025 article) | No article within 24h found | Remove headline |
-| extract_url error | Found article published within 24h | Replace citation URL and source name |
+| Homepage URL (no article content) | Found article published on UTC yesterday/today | Replace citation URL and source name |
+| Date mismatch (2025 article) | No article on UTC yesterday/today found | Remove headline |
+| extract_url error | Found article published on UTC yesterday/today | Replace citation URL and source name |
 
 ---
 ### Requirement: Verifier tool call loop is bounded
@@ -98,7 +98,7 @@ The verifier's tool-use loop SHALL terminate after at most 30 tool calls.
 
 - **WHEN** the number of tool calls reaches 30
 - **THEN** the loop SHALL exit and return the verified/repaired state accumulated so far
-- **THEN** the final API call SHALL pass `tools=TOOLS` and `tool_choice={"type": "none"}`, because the message history contains `tool_use` blocks
+- **THEN** the final API call SHALL pass `tools=TOOLS` and `tool_choice={"type": "none"}` (keeps the tool definitions consistent with the `tool_use` blocks in the history while forbidding further tool calls)
 
 ##### Example: guard boundary
 

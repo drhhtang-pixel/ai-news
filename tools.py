@@ -1,7 +1,7 @@
 import os
 import re
 from email.utils import parsedate_to_datetime
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from tavily import TavilyClient
 
 _MONTHS = {
@@ -21,6 +21,10 @@ _DMY_RE = re.compile(
     r"\b(\d{1,2})\s+(" + "|".join(_MONTHS.keys()) + r")\.?\s+(\d{4})\b",
     re.IGNORECASE,
 )
+_PUBLISHED_LABEL_RE = re.compile(
+    r"\b(?:published(?: on)?|posted(?: on)?|publication date|date published)\b\s*:?",
+    re.IGNORECASE,
+)
 
 
 def _format_date(year: int, month: int, day: int) -> str | None:
@@ -38,43 +42,53 @@ def _date_from_url(url: str) -> str | None:
 
 
 def _date_from_content(content: str) -> str | None:
-    # Tavily extract strips raw HTML to ~20-30k chars of markdown-ish text; the article
-    # byline/date often sits 3k-13k chars in, past navigation menus and share buttons.
-    # Scan a wide window and return the EARLIEST date — first match is almost always
-    # the publication date; later matches tend to be sidebar links or in-body references.
+    # Only trust a content date that sits right after an explicit publication label
+    # ("Published", "Posted", ...). Bare dates in navigation, sidebars or "Updated"
+    # lines are ignored; without a label we return None so the caller reports
+    # "unknown" and the verifier looks for a better-dated source.
     window = (content or "")[:15000]
     if not window:
         return None
+    for label in _PUBLISHED_LABEL_RE.finditer(window):
+        d = _first_date(window[label.end():label.end() + 60])
+        if d:
+            return d
+    return None
+
+
+def _first_date(text: str) -> str | None:
     candidates = []
-    for m in _ISO_DATE_RE.finditer(window):
+    for m in _ISO_DATE_RE.finditer(text):
         d = _format_date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
         if d:
             candidates.append((m.start(), d))
-    for m in _MDY_RE.finditer(window):
+    for m in _MDY_RE.finditer(text):
         d = _format_date(int(m.group(3)), _MONTHS[m.group(1).lower()], int(m.group(2)))
         if d:
             candidates.append((m.start(), d))
-    for m in _DMY_RE.finditer(window):
+    for m in _DMY_RE.finditer(text):
         d = _format_date(int(m.group(3)), _MONTHS[m.group(2).lower()], int(m.group(1)))
         if d:
             candidates.append((m.start(), d))
-    if not candidates:
-        return None
-    candidates.sort()
-    return candidates[0][1]
+    return min(candidates)[1] if candidates else None
 
 
 def _normalize_date(value) -> str | None:
-    """Tavily returns ISO dates or RFC 2822 strings (news topic); normalize to YYYY-MM-DD."""
+    """Normalize Tavily's ISO or RFC 2822 (news topic) dates to a UTC YYYY-MM-DD."""
     if not value:
         return None
-    m = _ISO_DATE_RE.match(value.strip())
-    if m:
-        return _format_date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    value = value.strip()
     try:
-        return parsedate_to_datetime(value).strftime("%Y-%m-%d")
-    except (TypeError, ValueError):
-        return None
+        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        try:
+            dt = parsedate_to_datetime(value)
+        except (TypeError, ValueError):
+            m = _ISO_DATE_RE.match(value)
+            return _format_date(int(m.group(1)), int(m.group(2)), int(m.group(3))) if m else None
+    if dt.tzinfo is not None:
+        dt = dt.astimezone(timezone.utc)
+    return dt.strftime("%Y-%m-%d")
 
 
 def _resolve_published_date(tavily_field, url: str, raw_content: str) -> str:
