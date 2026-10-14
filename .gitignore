@@ -14,3 +14,7 @@ openspec/.vector-search.db*
 
 # Local launchd/cron output (no longer used after migrating to GitHub Actions)
 cron.log
+
+# Claude Code per-user settings and local virtualenv
+.claude/settings.local.json
+.venv/
