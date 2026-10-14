@@ -151,6 +151,39 @@ def run_agent(search_topic: str, today_date: str) -> str:
             return ""
 
 
+EN_MARKER = "<!-- EN -->"
+ZH_MARKER = "<!-- ZH -->"
+
+
+def validate_summary(summary: str) -> list[str]:
+    """Return a list of integrity errors. Empty list means the summary is well-formed."""
+    errors: list[str] = []
+
+    if not summary or not summary.strip():
+        errors.append("summary is empty")
+        return errors
+
+    en_idx = summary.find(EN_MARKER)
+    zh_idx = summary.find(ZH_MARKER)
+
+    if en_idx == -1:
+        errors.append(f"missing {EN_MARKER} marker")
+    if zh_idx == -1:
+        errors.append(f"missing {ZH_MARKER} marker")
+    if en_idx != -1 and zh_idx != -1 and zh_idx < en_idx:
+        errors.append(f"{ZH_MARKER} appears before {EN_MARKER}")
+
+    if en_idx != -1 and zh_idx != -1 and en_idx < zh_idx:
+        en_block = summary[en_idx:zh_idx]
+        zh_block = summary[zh_idx:]
+        if not any(line.lstrip().startswith("- **") for line in en_block.splitlines()):
+            errors.append("EN block has no headlines (no '- **' bullets)")
+        if not any(line.lstrip().startswith("- **") for line in zh_block.splitlines()):
+            errors.append("ZH block has no headlines (no '- **' bullets)")
+
+    return errors
+
+
 def main() -> None:
     _, _, search_topic, output_file = validate_env()
     today_date = datetime.now().strftime("%Y-%m-%d")
@@ -158,6 +191,16 @@ def main() -> None:
     print(f"Searching for: {search_topic}")
     summary = run_agent(search_topic, today_date)
     summary = verify_summary(summary, today_date)
+
+    errors = validate_summary(summary)
+    if errors:
+        print("Error: summary failed integrity check:", file=sys.stderr)
+        for err in errors:
+            print(f"  - {err}", file=sys.stderr)
+        print("--- summary content ---", file=sys.stderr)
+        print(summary or "(empty)", file=sys.stderr)
+        sys.exit(1)
+
     append_summary(summary, output_file)
 
 
