@@ -95,27 +95,29 @@ The `tools.py` module SHALL define an `extract_url` tool that fetches the conten
   ```
 
 ---
-### Requirement: Search results are filtered to the past 24 hours
+### Requirement: Search uses Tavily news mode and returns publication dates
 
-The `web_search` tool SHALL pass `days=1` to the Tavily API on every call, restricting results to articles published or indexed within the past 24 hours.
+The `web_search` tool SHALL call Tavily with `topic="news"` and `days=2` (Tavily applies `days` only in news mode), so results cover the 24-hour freshness window (UTC yesterday and today) regardless of when the run starts. Each result SHALL include a `Published:` line with a `YYYY-MM-DD` date resolved by the same layered logic as `extract_url` (Tavily field → URL path → content scan → `"unknown"`).
 
-#### Scenario: Recency filter is applied on every search
+#### Scenario: Recency filter and dates on every search
 
 - **WHEN** `execute_tool("web_search", {"query": "..."})` is called
-- **THEN** the Tavily client SHALL be invoked with `days=1` alongside `search_depth="basic"`
-- **THEN** articles older than 24 hours SHALL NOT appear in the returned results
+- **THEN** the Tavily client SHALL be invoked with `search_depth="basic"`, `topic="news"`, `days=2`
+- **THEN** each result SHALL be formatted as `**{title}**\n{content}\nPublished: {date}\nURL: {url}`
 
-##### Example: parameter presence
+##### Example: date resolution in search results
 
-| Call | Expected Tavily parameters |
-|---|---|
-| `execute_tool("web_search", {"query": "AI news 2026-06-08"})` | `query="AI news 2026-06-08"`, `search_depth="basic"`, `days=1` |
+| Tavily `published_date` | URL | `Published:` |
+|---|---|---|
+| `"Tue, 14 Oct 2026 12:00:00 GMT"` | any | `2026-10-14` |
+| missing | `https://b.com/2026/10/13/story` | `2026-10-13` |
+| missing | `https://c.com/story` (no date in content) | `unknown` |
 
 ---
 
 ## Implementation Notes
 
 - `TOOLS` list and `execute_tool(name, input) -> str` dispatcher are defined in `tools.py`
-- The loop in `agent.py` tracks `tool_call_count`; when it reaches `MAX_TOOL_CALLS = 10`, a follow-up API call with no tools is issued to force `end_turn`
-- Each Tavily result item is formatted as `**{title}**\n{content}\nURL: {url}`; items are joined with double newlines
+- The loop in `agent.py` tracks `tool_call_count`; when it reaches `MAX_TOOL_CALLS = 10`, a follow-up API call is issued with `tools=TOOLS` and `tool_choice={"type": "none"}` to force a text answer (the tools must still be declared because the history contains `tool_use` blocks)
+- Each Tavily result item is formatted as `**{title}**\n{content}\nPublished: {date}\nURL: {url}`; items are joined with double newlines
 - Unknown tool names return `"Error: Unknown tool '{name}'"` — treated as a non-fatal error by the loop

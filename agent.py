@@ -1,8 +1,8 @@
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 import anthropic
-from tools import TOOLS, execute_tool
+from tools import TOOLS, allowed_dates, execute_tool
 from writer import append_summary
 from verifier import verify_summary
 
@@ -28,8 +28,9 @@ A list of all sources with their direct article URLs (NOT homepage URLs). Each e
 - [Publication Name]: https://specific-article-url (published YYYY-MM-DD)
 
 STRICT RULES for Sources:
-- Only include articles published on TODAY'S DATE. Do NOT list background articles, primary documents, or prior coverage from earlier dates.
-- If the only source you found for a story is older than today, find a today's article that covers the same story instead.
+- Only include articles published within the last 24 hours (the dates given below). Do NOT list background articles, primary documents, or older coverage.
+- If the only source you found for a story is older than that, find a recent article that covers the same story instead.
+- The (published YYYY-MM-DD) date MUST be copied from the "Published:" line of the tool result for that URL. Never guess or infer a date. Do not use an article whose Published date is "unknown" or outside the allowed dates.
 - URLs must point to specific articles, not homepages.
 
 Example:
@@ -50,7 +51,7 @@ Example:
 列出所有來源的直接文章網址（非首頁網址）。每條格式：
 - [媒體名稱]: https://specific-article-url (published YYYY-MM-DD)
 
-來源嚴格規定：只列今天發布的文章。不得列出背景資料、原始文件或早於今天的報導。
+來源嚴格規定：只列過去 24 小時內（下方指定日期）發布的文章。不得列出背景資料、原始文件或更早的報導。發布日期必須照抄工具結果的「Published:」值，不可推測。
 
 IMPORTANT: You MUST include both <!-- EN --> and <!-- ZH --> blocks in your response, in that order. Do not omit either block. Every headline MUST include an inline source citation."""
 
@@ -76,11 +77,13 @@ def validate_env() -> tuple[str, str, str, str]:
 
 def run_agent(search_topic: str, today_date: str) -> str:
     client = anthropic.Anthropic()
+    yesterday, _ = allowed_dates(today_date)
 
     dated_system_prompt = (
         SYSTEM_PROMPT
-        + f"\n\nToday's date is {today_date}. Only report news published on {today_date}. "
-        "Exclude year-in-review articles, historical summaries, and any content not published on this date."
+        + f"\n\nToday's date is {today_date} (UTC). Only report news published on {yesterday} or {today_date} "
+        "(the last 24 hours). Exclude year-in-review articles, historical summaries, and any content "
+        "published outside these dates."
     )
 
     messages = [
@@ -143,6 +146,8 @@ def run_agent(search_topic: str, today_date: str) -> str:
                 model="claude-sonnet-4-6",
                 max_tokens=8192,
                 system=dated_system_prompt,
+                tools=TOOLS,
+                tool_choice={"type": "none"},
                 messages=messages,
             )
             for block in final.content:
@@ -186,7 +191,7 @@ def validate_summary(summary: str) -> list[str]:
 
 def main() -> None:
     _, _, search_topic, output_file = validate_env()
-    today_date = datetime.now().strftime("%Y-%m-%d")
+    today_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     search_topic = os.environ.get("SEARCH_TOPIC", f"AI news {today_date}")
     print(f"Searching for: {search_topic}")
     summary = run_agent(search_topic, today_date)

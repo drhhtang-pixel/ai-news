@@ -1,6 +1,7 @@
 import os
 import re
-from datetime import datetime
+from email.utils import parsedate_to_datetime
+from datetime import datetime, timedelta
 from tavily import TavilyClient
 
 _MONTHS = {
@@ -63,10 +64,24 @@ def _date_from_content(content: str) -> str | None:
     return candidates[0][1]
 
 
+def _normalize_date(value) -> str | None:
+    """Tavily returns ISO dates or RFC 2822 strings (news topic); normalize to YYYY-MM-DD."""
+    if not value:
+        return None
+    m = _ISO_DATE_RE.match(value.strip())
+    if m:
+        return _format_date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    try:
+        return parsedate_to_datetime(value).strftime("%Y-%m-%d")
+    except (TypeError, ValueError):
+        return None
+
+
 def _resolve_published_date(tavily_field, url: str, raw_content: str) -> str:
     """Layered date resolution: Tavily field → URL path → content scan → 'unknown'."""
-    if tavily_field:
-        return tavily_field
+    d = _normalize_date(tavily_field)
+    if d:
+        return d
     d = _date_from_url(url)
     if d:
         return d
@@ -74,6 +89,12 @@ def _resolve_published_date(tavily_field, url: str, raw_content: str) -> str:
     if d:
         return d
     return "unknown"
+
+
+def allowed_dates(today_date: str) -> tuple[str, str]:
+    """Return (yesterday, today): the 24-hour freshness window, in UTC dates."""
+    today = datetime.strptime(today_date, "%Y-%m-%d")
+    return (today - timedelta(days=1)).strftime("%Y-%m-%d"), today_date
 
 
 TOOLS = [
@@ -118,13 +139,14 @@ def execute_tool(name: str, input: dict) -> str:
     if name == "web_search":
         try:
             client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
-            result = client.search(query=input["query"], search_depth="basic", days=1)
+            result = client.search(query=input["query"], search_depth="basic", topic="news", days=2)
             parts = []
             for item in result.get("results", []):
                 title = item.get("title", "No title")
-                content = item.get("content", "")
+                content = item.get("content", "") or ""
                 url = item.get("url", "")
-                parts.append(f"**{title}**\n{content}\nURL: {url}")
+                date = _resolve_published_date(item.get("published_date"), url, content)
+                parts.append(f"**{title}**\n{content}\nPublished: {date}\nURL: {url}")
             return "\n\n".join(parts) if parts else "No results found."
         except Exception as e:
             return f"Error: {e}"
