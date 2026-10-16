@@ -32,6 +32,25 @@ The entry point SHALL exit with code `0` on success and a non-zero code on failu
 | TAVILY_API_KEY | `Error: TAVILY_API_KEY is not set` | 1 |
 
 ---
+### Requirement: Malformed or headline-less summaries are not published
+
+After verification, the entry point SHALL run `validate_summary()` and, if it reports any error, SHALL print the errors and the summary to stderr and exit with code `1` without writing to the output file. The workflow then fails and the site is not redeployed that day.
+
+#### Scenario: Verifier removed every headline
+
+- **WHEN** the verified summary has no `- **` headline bullets in the EN or ZH block
+- **THEN** the process SHALL exit with code `1` and `summaries.md` SHALL be unchanged
+
+##### Example: integrity errors
+
+| Summary state | Error |
+|---|---|
+| Empty | `summary is empty` |
+| No `<!-- ZH -->` marker | `missing <!-- ZH --> marker` |
+| ZH before EN | `<!-- ZH --> appears before <!-- EN -->` |
+| EN block without bullets | `EN block has no headlines (no '- **' bullets)` |
+
+---
 ### Requirement: Configuration is read from environment variables
 
 The agent SHALL read all configuration from environment variables, with documented defaults, so that it can be invoked by launchd without modification.

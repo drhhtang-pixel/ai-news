@@ -84,14 +84,14 @@ The `### Sources` and `### 來源` sections SHALL list the direct URL to each in
 ```
 
 ---
-### Requirement: System prompt includes today's date and excludes non-current articles
+### Requirement: System prompt includes the 24-hour window and excludes non-current articles
 
-The system prompt passed to Claude SHALL include the execution date in `YYYY-MM-DD` format and SHALL explicitly instruct Claude to report only news from that date, rejecting year-in-review articles, historical summaries, and content published on prior dates.
+The system prompt passed to Claude SHALL include the execution date (UTC) and the day before in `YYYY-MM-DD` format and SHALL instruct Claude to report only news published on those two dates, rejecting year-in-review articles, historical summaries, and older content. Claude SHALL copy each source's `(published YYYY-MM-DD)` from the `Published:` line of the tool result and SHALL NOT use articles whose date is `"unknown"` or outside the window.
 
 #### Scenario: System prompt contains today's date
 
 - **WHEN** `run_agent()` is called
-- **THEN** the system prompt SHALL contain the current date as a `YYYY-MM-DD` string
+- **THEN** the system prompt SHALL contain the current UTC date and the previous date as `YYYY-MM-DD` strings
 - **THEN** the system prompt SHALL instruct Claude to exclude retrospective or year-in-review articles
 
 #### Scenario: Summary reflects current-day news only
@@ -104,7 +104,7 @@ The system prompt passed to Claude SHALL include the execution date in `YYYY-MM-
 
 - **GIVEN** the agent runs on 2026-06-08
 - **WHEN** the system prompt is assembled
-- **THEN** the prompt SHALL contain the string `"2026-06-08"` and a directive such as `"Only report news published on 2026-06-08. Exclude year-in-review articles, historical summaries, and any content not published on this date."`
+- **THEN** the prompt SHALL contain `"2026-06-07"` and `"2026-06-08"` and a directive such as `"Only report news published on 2026-06-07 or 2026-06-08 (UTC yesterday or today)."`
 
 ## Implementation Notes
 

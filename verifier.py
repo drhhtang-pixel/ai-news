@@ -1,7 +1,7 @@
 import os
 import sys
 import anthropic
-from tools import TOOLS, execute_tool
+from tools import TOOLS, allowed_dates, execute_tool
 
 VERIFIER_SYSTEM_PROMPT = """You are a news source verifier. You receive a bilingual AI news summary (English and Chinese) and must verify that each headline's inline source citation is accurate.
 
@@ -9,10 +9,10 @@ Your task:
 1. Parse each headline in the <!-- EN --> block and extract the cited URL from *(Source: Name, Date)*
 2. For each headline, call extract_url on the cited URL to verify it:
    - The URL must resolve to an actual article (not a homepage or error page)
-   - The article must have been published on today's date
+   - The article must have been published on one of the allowed dates (UTC yesterday or today, given below)
    - IMPORTANT: If extract_url returns "Published: unknown", treat this as a date verification failure — do NOT attempt to infer the date from article content. Proceed directly to step 3.
-3. If validation fails (URL error, wrong date, published_date is unknown, or no article content):
-   - Call web_search to find a replacement article about the same news story published today
+3. If validation fails (URL error, date outside the allowed dates, published_date is unknown, or no article content):
+   - Call web_search to find a replacement article about the same news story published on an allowed date
    - If found: update the headline's source citation with the new URL and source name
    - If not found: remove the headline from the summary entirely
 4. Apply the same updates (replacements and removals) to the corresponding <!-- ZH --> block by position (1st EN headline ↔ 1st ZH headline, etc.)
@@ -26,7 +26,7 @@ CRITICAL OUTPUT RULES:
 - Keep the exact same <!-- EN --> and <!-- ZH --> block structure
 - If a headline has no inline citation, skip it (do not remove it)"""
 
-MAX_VERIFIER_TOOL_CALLS = 20
+MAX_VERIFIER_TOOL_CALLS = 30
 
 
 def _extract_bilingual_summary(text: str) -> str:
@@ -41,7 +41,11 @@ def _extract_bilingual_summary(text: str) -> str:
 def run_verifier(summary: str, today_date: str) -> str:
     client = anthropic.Anthropic()
 
-    system = VERIFIER_SYSTEM_PROMPT + f"\n\nToday's date is {today_date}."
+    yesterday, _ = allowed_dates(today_date)
+    system = (
+        VERIFIER_SYSTEM_PROMPT
+        + f"\n\nToday's date is {today_date} (UTC). Allowed published dates: {yesterday} or {today_date}."
+    )
 
     messages = [
         {
@@ -103,6 +107,8 @@ def run_verifier(summary: str, today_date: str) -> str:
                 model="claude-sonnet-4-6",
                 max_tokens=8192,
                 system=system,
+                tools=TOOLS,
+                tool_choice={"type": "none"},
                 messages=messages,
             )
             for block in final.content:

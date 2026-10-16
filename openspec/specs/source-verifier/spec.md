@@ -29,18 +29,18 @@ For each headline in the `<!-- EN -->` block that contains an inline citation, t
 | Empty content | Attempt web_search for replacement |
 
 ---
-### Requirement: Verifier checks that source was published on today's date
+### Requirement: Verifier checks that source was published on UTC yesterday or today
 
-For each headline's cited URL that resolves successfully, the verifier SHALL verify that the article's published date matches `today_date`. If `extract_url` returns `published_date` as `"unknown"`, the verifier SHALL treat this as a date verification failure and attempt to find a replacement source via `web_search`.
+For each headline's cited URL that resolves successfully, the verifier SHALL verify that the article's published date is one of the allowed dates returned by `allowed_dates(today_date)`: UTC yesterday or UTC today. (The daily run starts around 00:00–05:00 UTC, so requiring "UTC today" alone left only a few hours of eligible articles.) If `extract_url` returns `published_date` as `"unknown"`, the verifier SHALL treat this as a date verification failure and attempt to find a replacement source via `web_search`.
 
 #### Scenario: Article published on correct date
 
-- **WHEN** `extract_url` returns content and the publication date matches `today_date`
+- **WHEN** `extract_url` returns content and the publication date is `today_date` or the day before
 - **THEN** the verifier SHALL retain the headline
 
 #### Scenario: Article published on wrong date
 
-- **WHEN** `extract_url` returns content but the publication date does not match `today_date`
+- **WHEN** `extract_url` returns content but the publication date is outside the allowed dates
 - **THEN** the verifier SHALL attempt to find a replacement via `web_search`
 
 #### Scenario: Publication date is unknown
@@ -53,8 +53,9 @@ For each headline's cited URL that resolves successfully, the verifier SHALL ver
 
 | published_date returned | Action |
 |---|---|
-| `"2026-06-09"` (matches today) | Retain headline |
-| `"2026-06-07"` (wrong date) | Search for replacement |
+| `"2026-06-09"` (today) | Retain headline |
+| `"2026-06-08"` (yesterday) | Retain headline |
+| `"2026-06-07"` (outside window) | Search for replacement |
 | `"unknown"` | Search for replacement |
 
 
@@ -72,38 +73,39 @@ When a headline's source fails validation (URL error or wrong date), the verifie
 
 #### Scenario: Replacement found
 
-- **WHEN** `web_search` returns a result with a valid article URL published on `today_date`
+- **WHEN** `web_search` returns a result with a valid article URL published on an allowed date
 - **THEN** the verifier SHALL update the headline's inline citation URL and source name
 
 #### Scenario: No replacement found
 
-- **WHEN** `web_search` returns no results matching `today_date`
+- **WHEN** `web_search` returns no results published on an allowed date
 - **THEN** the verifier SHALL remove the headline from the summary entirely
 
 ##### Example: repair flow
 
 | Validation result | web_search result | Final action |
 |---|---|---|
-| Homepage URL (no article content) | Found article published today | Replace citation URL and source name |
-| Date mismatch (2025 article) | No today's article found | Remove headline |
-| extract_url error | Found article published today | Replace citation URL and source name |
+| Homepage URL (no article content) | Found article published on UTC yesterday/today | Replace citation URL and source name |
+| Date mismatch (2025 article) | No article on UTC yesterday/today found | Remove headline |
+| extract_url error | Found article published on UTC yesterday/today | Replace citation URL and source name |
 
 ---
 ### Requirement: Verifier tool call loop is bounded
 
-The verifier's tool-use loop SHALL terminate after at most 20 tool calls.
+The verifier's tool-use loop SHALL terminate after at most 30 tool calls.
 
 #### Scenario: Guard triggers
 
-- **WHEN** the number of tool calls reaches 20
+- **WHEN** the number of tool calls reaches 30
 - **THEN** the loop SHALL exit and return the verified/repaired state accumulated so far
+- **THEN** the final API call SHALL pass `tools=TOOLS` and `tool_choice={"type": "none"}` (keeps the tool definitions consistent with the `tool_use` blocks in the history while forbidding further tool calls)
 
 ##### Example: guard boundary
 
 | Tool calls made | Action |
 |---|---|
 | 12 | Continue verifying |
-| 20 | Exit loop, return current state |
+| 30 | Exit loop, return current state |
 
 ---
 ### Requirement: Verifier failure is non-fatal
