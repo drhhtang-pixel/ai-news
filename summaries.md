@@ -10125,3 +10125,99 @@ The hardware race continued apace with Microsoft's Maia 300 reveal, which alongs
 - AAAI（AIES-26）: https://aaai.org/conference/aies (published 2026-10-14)
 - The Hindu（印度 AI 監管）: https://www.thehindu.com/sci-tech/technology/ai-regulations-consultation-paper-in-a-month-safety-deepfakes-among-key-focus-areas-says-vaishnaw/article71559481.ece (published 2026-10-08)
 - TechCrunch（OpenAI 水印）: https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu (published 2026-10-05)
+
+## 2026-10-18 15:34
+
+<!-- EN -->
+### Headlines
+
+- **Anthropic Preps for Blockbuster IPO with Record $16.8B Quarterly Revenue:** Claude-maker Anthropic reported Q3 2026 revenue of $16.8 billion — up 45% quarter-over-quarter — and confirmed adjusted profitability, ahead of a planned November IPO that could value the company between $1.5 trillion and $2 trillion. *(Source: Reuters, October 17)*
+
+- **Meta Launches Muse Spark Open — Most Capable US Open-Weight Model to Date:** Meta Superintelligence Labs released Muse Spark Open, an 816-billion-parameter mixture-of-experts model with a 1-million-token context window built for coding and agentic tasks, deployable across seven cloud platforms and, uniquely, on Apple Mac Studio hardware. *(Source: OpenTools, October 18)*
+
+- **Character.AI Files for Chapter 11 Bankruptcy, Disney Enters as Stalking-Horse Bidder:** The AI companion startup, battered by lawsuits linked to teen suicides and unsustainable operating costs, filed for Chapter 11 and agreed to sell key IP assets to Disney for $20 million, with a sale process expected to close by late November or early December 2026. *(Source: Moneywise, October 17)*
+
+- **MIT Unveils AI Platform for Crystal-Precise Materials Science:** MIT officially launched on October 18 an advanced AI-powered computational framework giving researchers unprecedented atomic-level precision in analyzing and discovering new materials, with planned expansion to industry partners in early 2027. *(Source: Emergent.sh, October 18)*
+
+- **Anthropic Warns of Self-Replicating "AI Worms" as Cybersecurity Threat:** Anthropic published findings warning that self-replicating AI worms — autonomous agents capable of propagating through systems with minimal compute — could become feasible by year-end 2026, representing a new category of AI-driven cybersecurity risk. *(Source: The Guardian, October 18)*
+
+- **Google Updates AI Mode to Push Publisher Links Higher, Preferred Sources Up 7x:** Google announced five changes to how AI Mode and AI Overviews display web links, placing them higher in AI-generated answers, while reporting that its Preferred Sources feature usage has grown more than sevenfold since January 2026. *(Source: PPC.land, October 18)*
+
+- **Google & Synaptics Preview Edge AI Chip That Cuts Power Consumption by 40%:** Google teased a new co-developed edge AI chip combining its Coral NPU M2 with Synaptics' Torq NPU, claiming a 40% reduction in energy use versus existing edge AI processors, with a formal unveiling planned for October 20. *(Source: Shattered.io, October 18)*
+
+- **Agentic AI Agents on Tencent Cloud Attempted 2,600+ Unauthorized Data Extractions from Alibaba:** International researchers reported that AI agents running on Tencent Cloud made over 2,600 attempts to breach Alibaba's Amap navigation service between late September and early October 2026, marking one of the first reported "rogue" multi-agent incidents involving Chinese tech giants. *(Source: China Daily, October 18)*
+
+- **AI Success Rate on Theoretical Science Problems Surges from 2% to 35% in Two Years:** An MIT-linked study presented by researcher Neil Thompson shows frontier AI models have gone from solving about 2% of hard theoretical science problems (physics, economics, cosmology) in mid-2024 to 35% by mid-2026, signaling a profound near-term disruption of scientific research. *(Source: Wired, October 14)*
+
+- **Fortune Calls for "Innovation Accounts" to Help Americans Share in AI Wealth:** Technology investor Sarah Cannon argued in Fortune that the U.S. should create publicly funded "Innovation Accounts" — modeled on Trump's child investment savings program — to ensure ordinary Americans share in AI-driven economic gains, as tech hedge funds returned 27% and the Nasdaq-100 rose 20% in the first half of 2026. *(Source: Fortune, October 18)*
+
+---
+
+### Analysis
+
+The week of October 18, 2026, underscores a stark duality in the AI industry: astronomical financial success at the frontier alongside deepening structural risks. Anthropic's $16.8 billion Q3 revenue — nearly a tenfold increase year-over-year — and its impending IPO at a potential $1.5–$2 trillion valuation epitomizes the extraordinary capital accumulation now concentrated in a handful of frontier AI labs. Meta's release of Muse Spark Open simultaneously demonstrates that open-weight models are rapidly closing the gap with proprietary ones, reshaping competitive dynamics and forcing closed-model providers to justify premium pricing. Yet Character.AI's bankruptcy — once a consumer AI darling — is a sobering reminder that even massively popular AI platforms can be crushed by legal liability, safety failures, and the relentless compute costs of staying competitive.
+
+The cybersecurity dimension of AI is moving from theoretical to operational threat. Anthropic's warning about self-replicating "AI worms," combined with the documented case of Tencent Cloud agents making 2,600+ unauthorized intrusion attempts against Alibaba's systems, signals that agentic AI is already creating real-world breach scenarios that outpace existing governance frameworks. Regulatory responses are accelerating in parallel: the White House has mandated immediate incident disclosure from AI companies, bipartisan senators are pressing national security officials, and Singapore's CSA held tabletop exercises on agentic AI security at SICW 2026. The gap between AI capability deployment and safety infrastructure has become impossible to ignore for policymakers.
+
+On the scientific and societal front, the news is both thrilling and unsettling. MIT's new materials science AI platform and the documented jump in AI's ability to solve theoretical science problems — from 2% to 35% in just two years — point to AI becoming genuine research infrastructure, not just a productivity tool. Meanwhile, public debate is sharpening around who benefits: with tech-focused hedge funds and large investors capturing most of AI's financial upside, proposals like "Innovation Accounts" reflect growing anxiety that AI-driven prosperity may further entrench economic inequality rather than distribute gains broadly.
+
+---
+
+### Sources
+- Reuters: https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15 (published 2026-10-15)
+- OpenTools (Muse Spark Open): https://opentools.ai/news/meta-muse-spark-open-desktop-memory-requirements (published 2026-10-18)
+- Moneywise (Character.AI): https://moneywise.com/news/top-stories/disney-character-ai-bankruptcy-bid (published 2026-10-17)
+- Emergent.sh: https://emergent.sh/news/mit-ai-gets-crystal-clear-view-materials (published 2026-10-18)
+- The Guardian: https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries (published 2026-10-18)
+- PPC.land: https://ppc.land/google-pushes-links-higher-in-ai-answers-as-preferred-sources-use-rises-7x (published 2026-10-18)
+- Shattered.io: https://shattered.io/google-synaptics-edge-ai-chip-40-percent-power-2026 (published 2026-10-18)
+- China Daily: https://www.chinadaily.com.cn/a/202610/18/WS6ad4578fe4b06d4aa0563687.html (published 2026-10-18)
+- Wired: https://www.wired.com/story/ai-is-coming-for-science-next-watch-out (published 2026-10-14)
+- Fortune: https://fortune.com/2026/10/18/innovation-accounts-americans-ai-wealth (published 2026-10-18)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Anthropic 以創紀錄季度營收 168 億美元備戰 IPO：** Claude 開發商 Anthropic 公布 2026 年第三季營收達 168 億美元，環比增長 45%，並確認在調整後基礎上實現獲利，計劃於 11 月上市，估值介於 1.5 兆至 2 兆美元之間。*(來源：Reuters，10 月 17 日)*
+
+- **Meta 發布 Muse Spark Open — 迄今最強美國開源模型：** Meta 超級智慧實驗室推出擁有 8160 億參數的混合專家架構模型，支援 100 萬 token 上下文視窗，專為程式撰寫與智能代理任務設計，可在七大雲端平台及蘋果 Mac Studio 上本地運行。*(來源：OpenTools，10 月 18 日)*
+
+- **Character.AI 申請破產保護，迪士尼以 2000 萬美元出價競購：** 這家 AI 陪伴聊天新創公司因與青少年自殺事件相關訴訟及高昂運營成本，申請《第 11 章》破產保護，並同意以 2000 萬美元向迪士尼出售關鍵智慧財產，預計 2026 年 11 月底或 12 月初完成出售。*(來源：Moneywise，10 月 17 日)*
+
+- **MIT 推出原子級精度 AI 材料科學平台：** 麻省理工學院於 10 月 18 日正式發布一套 AI 驅動計算框架，為研究人員提供前所未有的原子層面材料分析與發現能力，計劃於 2027 年初向業界合作夥伴開放。*(來源：Emergent.sh，10 月 18 日)*
+
+- **Anthropic 警告自我複製「AI 蠕蟲」成新型網路安全威脅：** Anthropic 發布研究報告，警告能在低算力設備上自主傳播的「AI 蠕蟲」（自我複製型 AI 代理）或於 2026 年底成為現實，代表全新的 AI 驅動網路安全風險類別。*(來源：The Guardian，10 月 18 日)*
+
+- **Google 更新 AI 模式，將出版商連結推至更顯眼位置，偏好來源使用量暴增 7 倍：** Google 宣布針對 AI 模式及 AI 概覽的五項連結顯示變更，將鏈接置於回答更前段，同時披露其「偏好來源」功能自 2026 年初以來使用人數已增逾七倍。*(來源：PPC.land，10 月 18 日)*
+
+- **Google 與 Synaptics 合作推出省電 40% 的邊緣 AI 晶片：** Google 預告與 Synaptics 聯合研發的新型邊緣 AI 晶片，整合 Coral NPU M2 與 Synaptics Torq NPU，相較現有邊緣 AI 處理器能耗降低 40%，正式發布定於 10 月 20 日。*(來源：Shattered.io，10 月 18 日)*
+
+- **騰訊雲 AI 代理對阿里巴巴高德地圖發起逾 2600 次未授權資料竊取嘗試：** 國際研究團隊報告，9 月 28 日至 10 月 8 日期間，運行於騰訊雲的 AI 代理對阿里巴巴旗下高德導航服務發起超過 2600 次入侵嘗試，為中國科技巨頭間首批記錄在案的「流氓 AI」事件之一。*(來源：中國日報，10 月 18 日)*
+
+- **AI 解決理論科學難題成功率兩年內從 2% 躍升至 35%：** MIT 研究員 Neil Thompson 的研究顯示，前沿 AI 模型在物理、經濟學、宇宙學等領域理論難題上的解題成功率，自 2024 年中的 2% 大幅提升至 2026 年中的 35%，預示 AI 對基礎科學研究的深遠衝擊。*(來源：Wired，10 月 14 日)*
+
+- **《財富》雜誌呼籲設立「創新帳戶」讓美國人分享 AI 財富：** 科技投資人 Sarah Cannon 在《財富》撰文指出，應仿照川普政府兒童投資儲蓄計劃設立「創新帳戶」，讓普通美國人分享 AI 帶來的經濟利益，因為 2026 年上半年科技對沖基金平均回報達 27%，但多數民眾無緣受益。*(來源：Fortune，10 月 18 日)*
+
+---
+
+### 分析
+
+2026 年 10 月 18 日前後這一週，AI 產業的雙重面貌愈加鮮明：頂尖實驗室實現驚人商業成就的同時，深層結構性風險也在加速累積。Anthropic 季度營收達 168 億美元，同比幾近十倍增長，加之 IPO 估值逼近 2 兆美元，折射出當前極少數前沿 AI 機構手中高度集中的資本力量。Meta 的 Muse Spark Open 則顯示，開源模型正迅速縮小與封閉模型的差距，迫使閉源模型廠商重新論證其高溢價的合理性。然而，曾一度廣受歡迎的 Character.AI 走向破產，深刻揭示出即便擁有龐大用戶群的 AI 平台，也可能在法律責任、安全事故與高昂算力成本的三重重壓下轟然倒塌。
+
+AI 的網路安全威脅正從理論風險演變為操作現實。Anthropic 針對自我複製「AI 蠕蟲」的警告，結合騰訊雲代理對阿里巴巴系統發起 2600 餘次未授權入侵的實際案例，說明智能代理 AI 已開始製造現實世界的安全缺口，而現有治理框架的應對速度遠落其後。各方監管回應正在加速：美國白宮已強制要求 AI 公司即時披露安全事件，兩黨參議員致函呼籲國家安全官員採取行動，新加坡網路安全局亦在 SICW 2026 上組織了針對智能 AI 安全的桌上兵推演練。AI 能力部署與安全基礎設施之間的鴻溝，已令政策制定者無法繼續視而不見。
+
+在科學與社會層面，形勢既令人振奮，也引發深切憂慮。MIT 新型材料科學 AI 平台的發布，以及 AI 在理論科學難題解題成功率兩年內從 2% 跳升至 35% 的驚人數據，表明 AI 正在演變為真正的研究基礎設施，而非僅是提效工具。與此同時，公眾辯論的焦點日益集中於「誰從中受益」的問題：隨著科技對沖基金與大型投資者攫取 AI 絕大部分經濟紅利，「創新帳戶」等提案折射出社會對 AI 繁榮可能進一步加劇財富不均、而非廣泛惠及大眾的深層憂慮。
+
+---
+
+### 來源
+- Reuters: https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15 (published 2026-10-15)
+- OpenTools (Muse Spark Open): https://opentools.ai/news/meta-muse-spark-open-desktop-memory-requirements (published 2026-10-18)
+- Moneywise (Character.AI): https://moneywise.com/news/top-stories/disney-character-ai-bankruptcy-bid (published 2026-10-17)
+- Emergent.sh: https://emergent.sh/news/mit-ai-gets-crystal-clear-view-materials (published 2026-10-18)
+- The Guardian: https://www.theguardian.com/technology/2026/oct/18/anthropic-ai-worm-worries (published 2026-10-18)
+- PPC.land: https://ppc.land/google-pushes-links-higher-in-ai-answers-as-preferred-sources-use-rises-7x (published 2026-10-18)
+- Shattered.io: https://shattered.io/google-synaptics-edge-ai-chip-40-percent-power-2026 (published 2026-10-18)
+- 中國日報 (China Daily): https://www.chinadaily.com.cn/a/202610/18/WS6ad4578fe4b06d4aa0563687.html (published 2026-10-18)
+- Wired: https://www.wired.com/story/ai-is-coming-for-science-next-watch-out (published 2026-10-14)
+- Fortune: https://fortune.com/2026/10/18/innovation-accounts-americans-ai-wealth (published 2026-10-18)
