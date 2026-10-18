@@ -1,4 +1,5 @@
 import os
+import re
 import sys
 from datetime import datetime, timezone
 import anthropic
@@ -10,7 +11,8 @@ from knowledge import (
     known_headlines,
     known_stories_prompt,
 )
-from tools import TOOLS, execute_tool
+import tools
+from tools import TOOLS, execute_tool, log_tool_call
 from writer import append_summary
 from verifier import verify_summary
 
@@ -132,6 +134,7 @@ def run_agent(search_topic: str, today_date: str, known: list[str] | None = None
             if block.type == "tool_use":
                 tool_call_count += 1
                 result = execute_tool(block.name, block.input)
+                log_tool_call("writer", block.name, block.input, result)
                 tool_results.append({
                     "type": "tool_result",
                     "tool_use_id": block.id,
@@ -194,6 +197,15 @@ def _headline_total(summary: str) -> int:
     return _count_headlines(en, "### Headlines") or 0
 
 
+_URL_RE = re.compile(r"https?://[^\s)>\]]+")
+
+
+def unseen_source_urls(summary: str, seen: set[str]) -> list[str]:
+    """URLs in the summary that no tool returned during this run (i.e. made up)."""
+    urls = dict.fromkeys(m.group(0).rstrip(".,;") for m in _URL_RE.finditer(summary))
+    return [url for url in urls if tools.normalize_url(url) not in seen]
+
+
 def validate_summary(summary: str) -> list[str]:
     """Return a list of integrity errors. Empty list means the summary is well-formed."""
     errors: list[str] = []
@@ -246,6 +258,8 @@ def main() -> None:
     print(f"Headlines to publish: {_headline_total(summary)}")
 
     errors = validate_summary(summary)
+    errors += [f"source URL was never returned by a tool (made up?): {url}"
+               for url in unseen_source_urls(summary, tools.SEEN_URLS)]
     if errors:
         print("Error: summary failed integrity check:", file=sys.stderr)
         for err in errors:

@@ -2,7 +2,7 @@ import os
 import sys
 import anthropic
 from knowledge import known_stories_prompt
-from tools import TOOLS, execute_tool
+from tools import TOOLS, execute_tool, log_tool_call
 
 VERIFIER_SYSTEM_PROMPT = """You are a news source verifier. You receive a bilingual AI news summary (English and Chinese). Your job is to check that each headline is supported by the CONTENT of the sources it cites. Publication dates are NOT a reason to keep or remove anything: one story may be reported by several sources on different dates, and that is fine.
 
@@ -92,6 +92,7 @@ def run_verifier(summary: str, today_date: str, known: list[str] | None = None) 
             if block.type == "tool_use":
                 tool_call_count += 1
                 result = execute_tool(block.name, block.input)
+                log_tool_call("verifier", block.name, block.input, result)
                 tool_results.append({
                     "type": "tool_result",
                     "tool_use_id": block.id,

@@ -51,6 +51,18 @@ After verification, the entry point SHALL run `validate_summary()` and, if it re
 | EN block without bullets | `EN block has no headlines (no '- **' bullets)` |
 
 ---
+### Requirement: Summaries citing URLs no tool returned are not published
+
+`execute_tool` SHALL record (in `tools.SEEN_URLS`, compared via `normalize_url`) every URL returned by a `web_search` result or a successful `extract_url`. Before writing, `main()` SHALL treat every URL in the summary that is not in that set as an integrity error ("source URL was never returned by a tool (made up?)") and exit with code `1` without writing. Every tool call SHALL be logged as one line `  [writer|verifier] <tool> ok|ERROR: <query or url>`.
+
+#### Scenario: Writer invents a source
+
+- **WHEN** the summary cites `https://techcrunch.com/2026/10/16/xai-grok-4-release/` and no tool returned that URL
+- **THEN** the process SHALL exit with code `1` and the output file SHALL be unchanged
+
+Background: on 2026-10-18 a test run produced five invented stories with invented URLs (one checked URL returned HTTP 404) while Tavily was working. The run was only blocked because its format was also wrong.
+
+---
 ### Requirement: Configuration is read from environment variables
 
 The agent SHALL read all configuration from environment variables, with documented defaults, so that it can be invoked by launchd without modification.
