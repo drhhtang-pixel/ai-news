@@ -72,18 +72,33 @@ When a headline has no supporting source left, the verifier SHALL search for an 
 - **WHEN** no article reporting the story is found
 - **THEN** the verifier SHALL remove the headline from the summary entirely
 
-#### Scenario: Sources section is rebuilt
+---
+### Requirement: Verifier returns decisions; the program rebuilds the summary
 
-- **WHEN** verification finishes
-- **THEN** the Sources / 來源 sections SHALL list exactly the sources still cited by headlines, each as `- Name: URL (published YYYY-MM-DD)` or `(published date unknown)`
-- **THEN** the Analysis / 分析 sections SHALL be unchanged
+The verifier SHALL NOT rewrite the summary text. When done, it SHALL call the `submit_verification` tool once with one decision per EN headline: `{index (1-based), action: keep|remove, reason, sources: [{name, url, date}]}`. `knowledge.apply_verification()` SHALL then:
 
-#### Scenario: Verifier output is cut off
+- drop removed headlines, and kept headlines left with no valid source, in both EN and ZH (same position)
+- rebuild kept headlines' citations from the decision's sources (max 3; invalid URLs dropped; non-`YYYY-MM-DD` dates shown as "date unknown" / 「日期不明」)
+- leave headlines without a decision unchanged, keeping their original Sources entries (matched by name, preferring the cited date)
+- rebuild both Sources / 來源 sections from the remaining citations, as `- Name: URL (published YYYY-MM-DD)` or `(published date unknown)`
+- leave Analysis / 分析 unchanged
 
-- **WHEN** the verifier's response stops with `stop_reason == "max_tokens"` (limit `VERIFIER_MAX_TOKENS = 16000`)
-- **THEN** the verifier SHALL treat the output as empty, so `verify_summary` falls back to the writer's draft with a warning
-- **WHEN** the response contains several `<!-- EN -->` drafts
-- **THEN** only the text from the last `<!-- EN -->` marker SHALL be used
+Every decision SHALL be logged as `  [verifier] #<index> <action>: <reason>`.
+
+#### Scenario: Verifier stops or runs out of budget without submitting
+
+- **WHEN** the verifier ends its turn, or reaches the tool-call limit, without calling `submit_verification`
+- **THEN** one more request SHALL be sent with `tool_choice={"type": "tool", "name": "submit_verification"}`
+- **THEN** if it still does not submit, `run_verifier` SHALL return "" and `verify_summary` SHALL fall back to the writer's draft with a warning
+
+#### Scenario: Safety net for long replies
+
+- **WHEN** a verifier request is sent
+- **THEN** it SHALL be streamed with `max_tokens = VERIFIER_MAX_TOKENS` (32000)
+- **WHEN** a response stops at `max_tokens` without a submission
+- **THEN** the first 300 characters of its text SHALL be logged and `run_verifier` SHALL return ""
+
+Background: on 2026-10-18 the full-text verifier hit its 8192- and then 16000-token limits twice, which left one run unpublished and one run unverified.
 
 ---
 ### Requirement: Verifier tool call loop is bounded
@@ -94,7 +109,7 @@ The verifier's tool-use loop SHALL terminate after at most 40 tool calls.
 
 - **WHEN** the number of tool calls reaches 40
 - **THEN** the loop SHALL exit and return the verified/repaired state accumulated so far
-- **THEN** the final API call SHALL pass `tools=TOOLS` and `tool_choice={"type": "none"}` (keeps the tool definitions consistent with the `tool_use` blocks in the history while forbidding further tool calls)
+- **THEN** a final request SHALL force `submit_verification` (see above)
 
 ##### Example: guard boundary
 

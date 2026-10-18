@@ -1,91 +1,104 @@
-import os
 import sys
 import anthropic
-from knowledge import known_stories_prompt
+from knowledge import apply_verification, known_stories_prompt
 from tools import TOOLS, execute_tool, log_tool_call
 
-VERIFIER_SYSTEM_PROMPT = """You are a news source verifier. You receive a bilingual AI news summary (English and Chinese). Your job is to check that each headline is supported by the CONTENT of the sources it cites. Publication dates are NOT a reason to keep or remove anything: one story may be reported by several sources on different dates, and that is fine.
+VERIFIER_SYSTEM_PROMPT = """You are a news source verifier. You receive a bilingual AI news summary (English and Chinese). Your job is to check that each EN headline is supported by the CONTENT of the sources it cites. Publication dates are NOT a reason to keep or remove anything: one story may be reported by several sources on different dates, and that is fine.
 
 Your task:
-1. For each headline in the <!-- EN --> block, read its inline citation *(Sources: Name, Date; ...)* and find each cited source's URL in the Sources section.
+1. Number the headlines under "### Headlines" in the <!-- EN --> block 1, 2, 3, ... in order. For each one, read its inline citation *(Sources: Name, Date; ...)* and find each cited source's URL in the Sources section.
 2. Call extract_url on each cited URL and check:
    - The URL resolves to an actual article (not a homepage, index page, video page, or error page)
    - The article content actually reports the facts stated in the headline and its description
-3. For each cited source (keep at most 3 per headline — the ones that best support it):
-   - If it supports the headline: keep it, and set its date to the "Published:" value returned by extract_url (write "date unknown" / "published date unknown" when the tool says unknown). Never guess a date.
-   - If it does not support the headline, or the URL fails: drop that source from the headline's citation.
-4. If a headline has no supporting source left:
-   - Call web_search to find an article that reports the same story, and confirm it with extract_url
-   - If found: cite it, with its name and the date from the tool result
-   - If not found: remove the headline entirely
-5. If a headline reports a story that is in the ALREADY PUBLISHED list below (same event, even if worded differently), remove it.
-6. If a headline's description states something no source supports, correct the description to match the sources rather than removing the headline.
-7. Rebuild the Sources / 來源 sections so they list exactly the sources still cited by headlines, each as "- Name: URL (published YYYY-MM-DD)" or "(published date unknown)".
-8. Apply the same changes to the corresponding <!-- ZH --> block by position (1st EN headline ↔ 1st ZH headline, etc.).
-9. Output the complete corrected bilingual summary in EXACTLY the same format as the input, preserving all sections (Headlines, Analysis, Sources, 頭條新聞, 分析, 來源).
+3. Keep a source only if it supports the headline. Keep at most 3 sources per headline — the ones that best support it. Use the "Published:" value returned by the tool as its date ("unknown" if the tool says unknown). Never guess a date.
+4. If a headline has no supporting source left, call web_search to find an article that reports the same story and confirm it with extract_url. If none is found, remove the headline.
+5. Remove a headline if its story is in the ALREADY PUBLISHED list below (same event, even if worded differently), or if its description states something important that no source supports.
+6. When you have checked every headline, call submit_verification exactly ONCE with one decision per headline. Do not write the summary yourself — the program rebuilds it from your decisions."""
 
-CRITICAL OUTPUT RULES:
-- Write the corrected summary exactly ONCE, in your final message, after all tool calls are finished. Never write drafts or partial summaries in earlier messages.
-- Your ENTIRE response must be ONLY the corrected summary — start directly with <!-- EN --> and end after the last 來源 entry
-- Do NOT include any preamble, explanation, reasoning, log, verification report, or commentary
-- Do NOT write anything before <!-- EN --> or after the last 來源 section
-- Modify only headlines, their citations, and the Sources / 來源 sections — do NOT change Analysis / 分析
-- Keep the exact same <!-- EN --> and <!-- ZH --> block structure
-- If a headline has no inline citation, skip it (do not remove it)"""
+SUBMIT_TOOL = {
+    "name": "submit_verification",
+    "description": (
+        "Submit the final verification result: one decision per EN headline, numbered from 1 in the "
+        "order they appear. Call this once, after all checks are done."
+    ),
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "headlines": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "index": {"type": "integer", "description": "1-based position of the EN headline"},
+                        "action": {"type": "string", "enum": ["keep", "remove"]},
+                        "reason": {"type": "string", "description": "One short sentence"},
+                        "sources": {
+                            "type": "array",
+                            "description": "Supporting sources to cite (max 3); empty when removing",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {"type": "string", "description": "Publication name"},
+                                    "url": {"type": "string"},
+                                    "date": {"type": "string", "description": "YYYY-MM-DD from the tool, or 'unknown'"},
+                                },
+                                "required": ["name", "url", "date"],
+                            },
+                        },
+                    },
+                    "required": ["index", "action", "reason", "sources"],
+                },
+            }
+        },
+        "required": ["headlines"],
+    },
+}
 
+VERIFIER_TOOLS = TOOLS + [SUBMIT_TOOL]
 MAX_VERIFIER_TOOL_CALLS = 40
-VERIFIER_MAX_TOKENS = 16000
+# Decisions are small, but stream with a generous limit as a safety net against long replies.
+VERIFIER_MAX_TOKENS = 32000
 
 
-def _final_text(response) -> str:
-    """Return the response's summary text, or "" if the output was cut off by max_tokens."""
-    if response.stop_reason == "max_tokens":
-        print("Warning: verifier output hit max_tokens and was truncated", file=sys.stderr)
-        return ""
-    text = "".join(block.text for block in response.content if hasattr(block, "text"))
-    return _extract_bilingual_summary(text) if text else ""
+def _call(client, **kwargs):
+    with client.messages.stream(**kwargs) as stream:
+        return stream.get_final_message()
 
 
-def _extract_bilingual_summary(text: str) -> str:
-    """Strip any preamble/postamble — return only the <!-- EN --> ... block."""
-    # Use the LAST marker: if the model wrote drafts before its final answer, keep the final one.
-    marker = "<!-- EN -->"
-    idx = text.rfind(marker)
-    if idx == -1:
-        return text
-    return text[idx:].strip()
+def _submitted(response) -> list[dict] | None:
+    for block in response.content:
+        if block.type == "tool_use" and block.name == SUBMIT_TOOL["name"]:
+            return block.input.get("headlines") or []
+    return None
+
+
+def _log_decisions(decisions: list[dict]) -> None:
+    for d in decisions:
+        print(f"  [verifier] #{d.get('index')} {d.get('action')}: {str(d.get('reason', ''))[:120]}")
 
 
 def run_verifier(summary: str, today_date: str, known: list[str] | None = None) -> str:
+    """Return the summary with the verifier's decisions applied, or "" if it never submitted any."""
     client = anthropic.Anthropic()
-
     system = VERIFIER_SYSTEM_PROMPT + f"\n\nToday's date is {today_date} (UTC)." + known_stories_prompt(known)
-
-    messages = [
-        {
-            "role": "user",
-            "content": (
-                f"Please verify and correct the following news summary. "
-                f"Today's date is {today_date}.\n\n{summary}"
-            )
-        }
-    ]
-
+    messages = [{"role": "user", "content": f"Please verify the following news summary.\n\n{summary}"}]
+    request = dict(model="claude-sonnet-4-6", max_tokens=VERIFIER_MAX_TOKENS, system=system,
+                   tools=VERIFIER_TOOLS)
     tool_call_count = 0
 
     while True:
-        response = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=VERIFIER_MAX_TOKENS,
-            system=system,
-            tools=TOOLS,
-            messages=messages,
-        )
-
+        response = _call(client, messages=messages, **request)
         messages.append({"role": "assistant", "content": response.content})
 
-        if response.stop_reason in ("end_turn", "max_tokens"):
-            return _final_text(response)
+        decisions = _submitted(response)
+        if decisions is not None:
+            _log_decisions(decisions)
+            return apply_verification(summary, decisions)
+
+        if response.stop_reason == "max_tokens":
+            text = "".join(b.text for b in response.content if hasattr(b, "text"))
+            print(f"Warning: verifier hit max_tokens without submitting; it wrote: {text[:300]!r}", file=sys.stderr)
+            return ""
 
         tool_results = []
         for block in response.content:
@@ -93,34 +106,23 @@ def run_verifier(summary: str, today_date: str, known: list[str] | None = None) 
                 tool_call_count += 1
                 result = execute_tool(block.name, block.input)
                 log_tool_call("verifier", block.name, block.input, result)
-                tool_results.append({
-                    "type": "tool_result",
-                    "tool_use_id": block.id,
-                    "content": result,
-                })
+                tool_results.append({"type": "tool_result", "tool_use_id": block.id, "content": result})
 
-        if not tool_results:
-            return _final_text(response)
-
-        messages.append({"role": "user", "content": tool_results})
-
-        if tool_call_count >= MAX_VERIFIER_TOOL_CALLS:
-            messages.append({
-                "role": "user",
-                "content": (
-                    "You have reached the maximum number of tool calls. "
-                    "Output the corrected summary now based on verifications completed so far."
-                )
-            })
-            final = client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=VERIFIER_MAX_TOKENS,
-                system=system,
-                tools=TOOLS,
-                tool_choice={"type": "none"},
-                messages=messages,
-            )
-            return _final_text(final)
+        if tool_results:
+            messages.append({"role": "user", "content": tool_results})
+        if not tool_results or tool_call_count >= MAX_VERIFIER_TOOL_CALLS:
+            # Stopped without submitting, or out of budget: force the decisions now.
+            note = ("You have reached the maximum number of tool calls. " if tool_results else "") + \
+                "Call submit_verification now with your decisions so far."
+            messages.append({"role": "user", "content": note})
+            final = _call(client, messages=messages, **request,
+                          tool_choice={"type": "tool", "name": SUBMIT_TOOL["name"]})
+            decisions = _submitted(final)
+            if decisions is None:
+                print("Warning: verifier did not submit decisions", file=sys.stderr)
+                return ""
+            _log_decisions(decisions)
+            return apply_verification(summary, decisions)
 
 
 def verify_summary(summary: str, today_date: str, known: list[str] | None = None) -> str:

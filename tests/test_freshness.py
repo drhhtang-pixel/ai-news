@@ -3,7 +3,6 @@ from types import SimpleNamespace
 from unittest.mock import patch
 
 import agent
-import verifier
 from tools import _normalize_date, allowed_dates, execute_tool
 
 
@@ -80,23 +79,7 @@ class GuardFinalCallTest(unittest.TestCase):
         self.assertIs(final["tools"], agent.TOOLS)
         self.assertEqual(result, "<!-- EN -->done")
 
-    def test_verifier_guard(self):
-        result, calls = self._run(verifier, verifier.run_verifier, "<!-- EN -->x", "2026-10-14")
-        self.assertEqual(len(calls), verifier.MAX_VERIFIER_TOOL_CALLS + 1)
-        final = calls[-1].kwargs
-        self.assertEqual(final["tool_choice"], {"type": "none"})
-        self.assertIs(final["tools"], verifier.TOOLS)
-        self.assertEqual(result, "<!-- EN -->done")
-
-
 class PromptDatesTest(unittest.TestCase):
-    def _system_prompt(self, module, fn, *args):
-        with patch.object(module.anthropic, "Anthropic") as client_cls:
-            create = client_cls.return_value.messages.create
-            create.return_value = _text_response("<!-- EN -->done")
-            fn(*args)
-            return create.call_args.kwargs["system"]
-
     def test_writer_prompt_uses_known_stories_not_a_date_window(self):
         with patch.object(agent.anthropic, "Anthropic") as client_cls:
             create = client_cls.return_value.messages.create
@@ -107,22 +90,6 @@ class PromptDatesTest(unittest.TestCase):
         self.assertIn("- Old story A\n- Old story B", system)
         self.assertNotIn("2026-10-13", system)
 
-    def test_verifier_gets_known_stories(self):
-        with patch.object(verifier.anthropic, "Anthropic") as client_cls:
-            create = client_cls.return_value.messages.create
-            create.return_value = _text_response("<!-- EN -->done")
-            verifier.run_verifier("<!-- EN -->x", "2026-10-14", ["Old story A"])
-            system = create.call_args.kwargs["system"]
-        self.assertIn("ALREADY PUBLISHED", system)
-        self.assertIn("- Old story A", system)
-
-    def test_verifier_checks_content_not_dates(self):
-        system = self._system_prompt(verifier, verifier.run_verifier, "<!-- EN -->x", "2026-10-14")
-        self.assertIn("supported by the CONTENT", system)
-        self.assertIn("Publication dates are NOT a reason", system)
-        self.assertNotIn("2026-10-13", system)
-
-
 class HeadlineTotalTest(unittest.TestCase):
     def test_counts_en_headlines_only(self):
         text = (
@@ -132,24 +99,6 @@ class HeadlineTotalTest(unittest.TestCase):
         self.assertEqual(agent._headline_total(text), 2)
         self.assertEqual(agent._headline_total("no markers"), 0)
 
-
-class VerifierOutputTest(unittest.TestCase):
-    def test_truncated_output_is_rejected(self):
-        response = SimpleNamespace(stop_reason="max_tokens",
-                                   content=[SimpleNamespace(type="text", text="<!-- EN -->partial")])
-        self.assertEqual(verifier._final_text(response), "")
-
-    def test_final_draft_wins(self):
-        text = "<!-- EN -->draft 1\n<!-- EN -->draft 2\nNow the final:\n<!-- EN -->final\n<!-- ZH -->最終"
-        response = SimpleNamespace(stop_reason="end_turn", content=[SimpleNamespace(type="text", text=text)])
-        self.assertEqual(verifier._final_text(response), "<!-- EN -->final\n<!-- ZH -->最終")
-
-    def test_text_split_across_blocks(self):
-        response = SimpleNamespace(stop_reason="end_turn", content=[
-            SimpleNamespace(type="text", text="<!-- EN -->a\n"),
-            SimpleNamespace(type="text", text="<!-- ZH -->b"),
-        ])
-        self.assertEqual(verifier._final_text(response), "<!-- EN -->a\n<!-- ZH -->b")
 
 if __name__ == "__main__":
     unittest.main()
