@@ -10,6 +10,13 @@ class DateFromUrlTest(unittest.TestCase):
         self.assertEqual(_date_from_url("https://example.com/2026/1/7"), "2026-01-07")
         self.assertEqual(_date_from_url("https://example.com/2026/10/05?ref=x"), "2026-10-05")
 
+    def test_iso_path_segment(self):
+        url = "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls"
+        self.assertEqual(_date_from_url(url), "2026-10-16")
+        self.assertEqual(_date_from_url("https://example.com/2026-10-16-story-title"), "2026-10-16")
+        # Not a path segment start, so not trusted:
+        self.assertIsNone(_date_from_url("https://example.com/story?id=x2026-10-16"))
+
     def test_no_or_invalid_date(self):
         self.assertIsNone(_date_from_url("https://apnews.com/article/ai-fbi-7f512b"))
         self.assertIsNone(_date_from_url("https://example.com/2026/13/40/x"))

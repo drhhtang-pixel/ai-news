@@ -12,6 +12,8 @@ _MONTHS = {
 }
 
 _URL_DATE_RE = re.compile(r"/(\d{4})/(\d{1,2})/(\d{1,2})(?:/|$|[?#])")
+# A whole path segment that starts with YYYY-MM-DD, e.g. bloomberg.com/news/articles/2026-10-16/...
+_URL_ISO_SEGMENT_RE = re.compile(r"/(\d{4})-(\d{2})-(\d{2})(?=[/?#]|$|-)")
 _ISO_DATE_RE = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})(?!\d)")
 _MDY_RE = re.compile(
     r"\b(" + "|".join(_MONTHS.keys()) + r")\.?\s+(\d{1,2}),?\s+(\d{4})\b",
@@ -39,7 +41,7 @@ def _format_date(year: int, month: int, day: int) -> str | None:
 
 
 def _date_from_url(url: str) -> str | None:
-    m = _URL_DATE_RE.search(url or "")
+    m = _URL_DATE_RE.search(url or "") or _URL_ISO_SEGMENT_RE.search(url or "")
     if not m:
         return None
     return _format_date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
