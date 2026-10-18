@@ -83,6 +83,8 @@ The verifier SHALL NOT rewrite the summary text. When done, it SHALL call the `s
 - rebuild both Sources / 來源 sections from the remaining citations, as `- Name: URL (published YYYY-MM-DD)` or `(published date unknown)`
 - leave Analysis / 分析 unchanged
 
+Before applying, a source whose date is not `YYYY-MM-DD` SHALL get the date any tool returned for the same URL during the run (`tools.URL_DATES`), since `extract_url` often has no date for a page `web_search` already dated.
+
 Every decision SHALL be logged as `  [verifier] #<index> <action>: <reason>`.
 
 #### Scenario: Verifier stops or runs out of budget without submitting

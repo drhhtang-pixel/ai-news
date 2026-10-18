@@ -86,6 +86,19 @@ class VerifierRunTest(unittest.TestCase):
             self.assertEqual(verifier.verify_summary(SUMMARY, "2026-10-18"), SUMMARY)
 
 
+class FillKnownDatesTest(unittest.TestCase):
+    def test_unknown_date_filled_from_any_tool_result(self):
+        import tools
+        tools.URL_DATES.clear()
+        tools.URL_DATES["wire.example/new"] = "2026-10-17"
+        decisions = verifier._fill_known_dates([{"index": 1, "action": "keep", "sources": [
+            {"name": "Wire", "url": "https://www.wire.example/new/", "date": "unknown"},
+            {"name": "Blog", "url": "https://blog.example/x", "date": "unknown"},
+            {"name": "Daily", "url": "https://wire.example/new", "date": "2026-10-15"},
+        ]}])
+        self.assertEqual([s["date"] for s in decisions[0]["sources"]], ["2026-10-17", "unknown", "2026-10-15"])
+
+
 class ApplyVerificationTest(unittest.TestCase):
     def test_rebuilds_both_languages_and_sources(self):
         from knowledge import apply_verification

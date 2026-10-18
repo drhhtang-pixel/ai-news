@@ -1,6 +1,7 @@
 import sys
 import anthropic
 from knowledge import apply_verification, known_stories_prompt
+import tools
 from tools import TOOLS, execute_tool, log_tool_call
 
 VERIFIER_SYSTEM_PROMPT = """You are a news source verifier. You receive a bilingual AI news summary (English and Chinese). Your job is to check that each EN headline is supported by the CONTENT of the sources it cites. Publication dates are NOT a reason to keep or remove anything: one story may be reported by several sources on different dates, and that is fine.
@@ -72,6 +73,17 @@ def _submitted(response) -> list[dict] | None:
     return None
 
 
+def _fill_known_dates(decisions: list[dict]) -> list[dict]:
+    """Replace 'unknown' source dates with a date any tool returned for the same URL."""
+    for d in decisions:
+        for src in d.get("sources") or []:
+            if isinstance(src, dict) and not tools.ISO_DAY_RE.fullmatch(str(src.get("date") or "")):
+                known = tools.URL_DATES.get(tools.normalize_url(str(src.get("url") or "")))
+                if known:
+                    src["date"] = known
+    return decisions
+
+
 def _log_decisions(decisions: list[dict]) -> None:
     for d in decisions:
         print(f"  [verifier] #{d.get('index')} {d.get('action')}: {str(d.get('reason', ''))[:120]}")
@@ -92,6 +104,7 @@ def run_verifier(summary: str, today_date: str, known: list[str] | None = None) 
 
         decisions = _submitted(response)
         if decisions is not None:
+            decisions = _fill_known_dates(decisions)
             _log_decisions(decisions)
             return apply_verification(summary, decisions)
 
@@ -121,6 +134,7 @@ def run_verifier(summary: str, today_date: str, known: list[str] | None = None) 
             if decisions is None:
                 print("Warning: verifier did not submit decisions", file=sys.stderr)
                 return ""
+            decisions = _fill_known_dates(decisions)
             _log_decisions(decisions)
             return apply_verification(summary, decisions)
 

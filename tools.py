@@ -14,6 +14,7 @@ _MONTHS = {
 _URL_DATE_RE = re.compile(r"/(\d{4})/(\d{1,2})/(\d{1,2})(?:/|$|[?#])")
 # A whole path segment that starts with YYYY-MM-DD, e.g. bloomberg.com/news/articles/2026-10-16/...
 _URL_ISO_SEGMENT_RE = re.compile(r"/(\d{4})-(\d{2})-(\d{2})(?=[/?#]|$|-)")
+ISO_DAY_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
 _ISO_DATE_RE = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})(?!\d)")
 _MDY_RE = re.compile(
     r"\b(" + "|".join(_MONTHS.keys()) + r")\.?\s+(\d{1,2}),?\s+(\d{4})\b",
@@ -162,6 +163,16 @@ TOOLS = [
 # Every URL a tool actually returned during this run. A source URL in the final summary
 # that is not in this set was never seen by the agents, i.e. it was made up.
 SEEN_URLS: set[str] = set()
+# Best known published date per URL (normalized), from any tool result that had one.
+# extract_url often has no date for a page that web_search already dated.
+URL_DATES: dict[str, str] = {}
+
+
+def _remember(url: str, date: str) -> None:
+    key = normalize_url(url)
+    SEEN_URLS.add(key)
+    if date != "unknown":
+        URL_DATES.setdefault(key, date)
 
 
 def normalize_url(url: str) -> str:
@@ -189,7 +200,7 @@ def execute_tool(name: str, input: dict) -> str:
                 url = item.get("url", "")
                 date = _resolve_published_date(item.get("published_date"), url, content)
                 if url:
-                    SEEN_URLS.add(normalize_url(url))
+                    _remember(url, date)
                 parts.append(f"**{title}**\n{content}\nPublished: {date}\nURL: {url}")
             return "\n\n".join(parts) if parts else "No results found."
         except Exception as e:
@@ -207,7 +218,8 @@ def execute_tool(name: str, input: dict) -> str:
             content = raw_content[:1000]
             url = item.get("url", input["url"])
             date = _resolve_published_date(item.get("published_date"), url, raw_content)
-            SEEN_URLS.update({normalize_url(url), normalize_url(input["url"])})
+            _remember(url, date)
+            _remember(input["url"], date)
             return f"**{title}**\n{content}\nPublished: {date}\nURL: {url}"
         except Exception as e:
             return f"Error: {e}"

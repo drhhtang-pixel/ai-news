@@ -30,6 +30,18 @@ class SeenUrlsTest(unittest.TestCase):
 
     @patch.dict("os.environ", {"TAVILY_API_KEY": "test"})
     @patch("tools.TavilyClient")
+    def test_search_date_is_remembered_for_later_extract(self, client_cls):
+        tools.URL_DATES.clear()
+        client = client_cls.return_value
+        client.search.return_value = {"results": [
+            {"title": "A", "content": "x", "url": "https://a.com/1", "published_date": "Fri, 16 Oct 2026 10:00:00 GMT"}]}
+        client.extract.return_value = {"results": [{"title": "A", "raw_content": "no date", "url": "https://a.com/1"}]}
+        execute_tool("web_search", {"query": "q"})
+        execute_tool("extract_url", {"url": "https://a.com/1"})
+        self.assertEqual(tools.URL_DATES, {"a.com/1": "2026-10-16"})
+
+    @patch.dict("os.environ", {"TAVILY_API_KEY": "test"})
+    @patch("tools.TavilyClient")
     def test_failed_extract_records_nothing(self, client_cls):
         client_cls.return_value.extract.return_value = {"results": []}
         execute_tool("extract_url", {"url": "https://made.up/404"})
