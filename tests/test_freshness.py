@@ -71,6 +71,19 @@ class GuardFinalCallTest(unittest.TestCase):
             result = fn(*args)
             return result, create.call_args_list
 
+    def test_agent_guard_asks_again_when_final_answer_is_not_a_summary(self):
+        replies = iter(["Now let me verify key article URLs.", "<!-- EN -->real"])
+        with patch.object(agent, "execute_tool", return_value="ok"), \
+             patch.object(agent.anthropic, "Anthropic") as client_cls:
+            create = client_cls.return_value.messages.create
+            create.side_effect = lambda **kw: (
+                _text_response(next(replies)) if kw.get("tool_choice") else _tool_use_response()
+            )
+            result = agent.run_agent("AI news", "2026-10-14")
+        self.assertEqual(result, "<!-- EN -->real")
+        self.assertEqual(create.call_count, agent.MAX_TOOL_CALLS + 2)
+        self.assertIn("That is not the summary", create.call_args.kwargs["messages"][-1]["content"])
+
     def test_agent_guard(self):
         result, calls = self._run(agent, agent.run_agent, "AI news", "2026-10-14")
         self.assertEqual(len(calls), agent.MAX_TOOL_CALLS + 1)

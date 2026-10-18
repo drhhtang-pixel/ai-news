@@ -69,7 +69,7 @@ Example:
 
 IMPORTANT: You MUST include both <!-- EN --> and <!-- ZH --> blocks in your response, in that order. Do not omit either block. Every headline MUST include an inline citation listing its sources and their dates."""
 
-MAX_TOOL_CALLS = 10
+MAX_TOOL_CALLS = 15
 
 
 def validate_env() -> tuple[str, str, str, str]:
@@ -159,18 +159,31 @@ def run_agent(search_topic: str, today_date: str, known: list[str] | None = None
                     "Please write your final structured summary now based on what you have found."
                 )
             })
-            final = client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=8192,
-                system=dated_system_prompt,
-                tools=TOOLS,
-                tool_choice={"type": "none"},
-                messages=messages,
-            )
-            for block in final.content:
-                if hasattr(block, "text"):
-                    return block.text
-            return ""
+            text = ""
+            for attempt in range(2):
+                final = client.messages.create(
+                    model="claude-sonnet-4-6",
+                    max_tokens=8192,
+                    system=dated_system_prompt,
+                    tools=TOOLS,
+                    tool_choice={"type": "none"},
+                    messages=messages,
+                )
+                text = "".join(block.text for block in final.content if hasattr(block, "text"))
+                if "<!-- EN -->" in text:
+                    return text
+                # The model sometimes answers with a plan ("Now let me verify...") instead of the
+                # summary; it cannot call tools any more, so ask once more for the summary itself.
+                print(f"Warning: writer gave no summary after the search limit: {text[:150]!r}", file=sys.stderr)
+                messages.append({"role": "assistant", "content": text or "(no text)"})
+                messages.append({
+                    "role": "user",
+                    "content": (
+                        "That is not the summary. No more research is possible. Write the complete "
+                        "bilingual summary now, starting with <!-- EN -->, using only what you have found."
+                    )
+                })
+            return text
 
 
 EN_MARKER = "<!-- EN -->"
