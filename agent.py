@@ -17,7 +17,7 @@ When you have gathered enough information, write your final answer using EXACTLY
 A bullet list of the most important news items. Each item MUST follow this exact format:
 - **[Headline]:** [One-sentence description]. *(Sources: [Publication A], YYYY-MM-DD; [Publication B], YYYY-MM-DD)*
 
-List every source you used for that story, each with its own published date. One source is enough; several sources with different dates are welcome when they cover the same story.
+List up to 3 sources for that story (the most authoritative ones), each with its own published date. One source is enough; sources with different dates are fine when they cover the same story.
 
 Example:
 - **OpenAI releases new model:** The company launched GPT-5 with improved reasoning capabilities. *(Sources: TechCrunch, 2026-06-08; Reuters, 2026-06-07)*
@@ -43,7 +43,7 @@ Example:
 以繁體中文列出最重要的新聞。每條必須遵循以下格式：
 - **[標題]：** [一句話說明]。*(來源：[媒體 A]，YYYY-MM-DD；[媒體 B]，YYYY-MM-DD)*
 
-列出該則新聞用到的所有來源，每個來源各自標明發布日期。一個來源即可；同一則新聞有多個不同日期的來源時，全部列出。
+每則新聞最多列 3 個來源（選最具代表性的），每個來源各自標明發布日期。一個來源即可；不同日期的來源報導同一則新聞也沒有問題。
 
 範例：
 - **OpenAI 發布新模型：** 該公司推出具備更強推理能力的 GPT-5。*(來源：TechCrunch，2026-06-08；Reuters，2026-06-07)*

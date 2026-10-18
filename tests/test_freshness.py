@@ -118,5 +118,24 @@ class HeadlineTotalTest(unittest.TestCase):
         self.assertEqual(agent._headline_total(text), 2)
         self.assertEqual(agent._headline_total("no markers"), 0)
 
+
+class VerifierOutputTest(unittest.TestCase):
+    def test_truncated_output_is_rejected(self):
+        response = SimpleNamespace(stop_reason="max_tokens",
+                                   content=[SimpleNamespace(type="text", text="<!-- EN -->partial")])
+        self.assertEqual(verifier._final_text(response), "")
+
+    def test_final_draft_wins(self):
+        text = "<!-- EN -->draft 1\n<!-- EN -->draft 2\nNow the final:\n<!-- EN -->final\n<!-- ZH -->最終"
+        response = SimpleNamespace(stop_reason="end_turn", content=[SimpleNamespace(type="text", text=text)])
+        self.assertEqual(verifier._final_text(response), "<!-- EN -->final\n<!-- ZH -->最終")
+
+    def test_text_split_across_blocks(self):
+        response = SimpleNamespace(stop_reason="end_turn", content=[
+            SimpleNamespace(type="text", text="<!-- EN -->a\n"),
+            SimpleNamespace(type="text", text="<!-- ZH -->b"),
+        ])
+        self.assertEqual(verifier._final_text(response), "<!-- EN -->a\n<!-- ZH -->b")
+
 if __name__ == "__main__":
     unittest.main()

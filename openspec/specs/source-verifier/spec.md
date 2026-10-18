@@ -31,7 +31,7 @@ For each headline in the `<!-- EN -->` block that contains an inline citation, t
 ---
 ### Requirement: Verifier checks that each cited source supports the headline
 
-For each headline, the verifier SHALL check every cited source by content: the article must exist and must report the facts stated in the headline and its description. Publication dates SHALL NOT be a reason to keep or remove a source or headline; one story MAY be supported by several sources published on different dates. Each kept source's date SHALL be the `Published:` value returned by `extract_url`, or "date unknown" when the tool reports `unknown`.
+For each headline, the verifier SHALL check every cited source (at most 3 kept per headline) by content: the article must exist and must report the facts stated in the headline and its description. Publication dates SHALL NOT be a reason to keep or remove a source or headline; one story MAY be supported by several sources published on different dates. Each kept source's date SHALL be the `Published:` value returned by `extract_url`, or "date unknown" when the tool reports `unknown`.
 
 #### Scenario: Source supports the headline
 
@@ -77,6 +77,13 @@ When a headline has no supporting source left, the verifier SHALL search for an 
 - **WHEN** verification finishes
 - **THEN** the Sources / 來源 sections SHALL list exactly the sources still cited by headlines, each as `- Name: URL (published YYYY-MM-DD)` or `(published date unknown)`
 - **THEN** the Analysis / 分析 sections SHALL be unchanged
+
+#### Scenario: Verifier output is cut off
+
+- **WHEN** the verifier's response stops with `stop_reason == "max_tokens"` (limit `VERIFIER_MAX_TOKENS = 16000`)
+- **THEN** the verifier SHALL treat the output as empty, so `verify_summary` falls back to the writer's draft with a warning
+- **WHEN** the response contains several `<!-- EN -->` drafts
+- **THEN** only the text from the last `<!-- EN -->` marker SHALL be used
 
 ---
 ### Requirement: Verifier tool call loop is bounded

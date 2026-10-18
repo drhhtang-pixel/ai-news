@@ -10,7 +10,7 @@ Your task:
 2. Call extract_url on each cited URL and check:
    - The URL resolves to an actual article (not a homepage, index page, video page, or error page)
    - The article content actually reports the facts stated in the headline and its description
-3. For each cited source:
+3. For each cited source (keep at most 3 per headline — the ones that best support it):
    - If it supports the headline: keep it, and set its date to the "Published:" value returned by extract_url (write "date unknown" / "published date unknown" when the tool says unknown). Never guess a date.
    - If it does not support the headline, or the URL fails: drop that source from the headline's citation.
 4. If a headline has no supporting source left:
@@ -23,6 +23,7 @@ Your task:
 8. Output the complete corrected bilingual summary in EXACTLY the same format as the input, preserving all sections (Headlines, Analysis, Sources, 頭條新聞, 分析, 來源).
 
 CRITICAL OUTPUT RULES:
+- Write the corrected summary exactly ONCE, in your final message, after all tool calls are finished. Never write drafts or partial summaries in earlier messages.
 - Your ENTIRE response must be ONLY the corrected summary — start directly with <!-- EN --> and end after the last 來源 entry
 - Do NOT include any preamble, explanation, reasoning, log, verification report, or commentary
 - Do NOT write anything before <!-- EN --> or after the last 來源 section
@@ -31,12 +32,23 @@ CRITICAL OUTPUT RULES:
 - If a headline has no inline citation, skip it (do not remove it)"""
 
 MAX_VERIFIER_TOOL_CALLS = 40
+VERIFIER_MAX_TOKENS = 16000
+
+
+def _final_text(response) -> str:
+    """Return the response's summary text, or "" if the output was cut off by max_tokens."""
+    if response.stop_reason == "max_tokens":
+        print("Warning: verifier output hit max_tokens and was truncated", file=sys.stderr)
+        return ""
+    text = "".join(block.text for block in response.content if hasattr(block, "text"))
+    return _extract_bilingual_summary(text) if text else ""
 
 
 def _extract_bilingual_summary(text: str) -> str:
     """Strip any preamble/postamble — return only the <!-- EN --> ... block."""
+    # Use the LAST marker: if the model wrote drafts before its final answer, keep the final one.
     marker = "<!-- EN -->"
-    idx = text.find(marker)
+    idx = text.rfind(marker)
     if idx == -1:
         return text
     return text[idx:].strip()
@@ -62,7 +74,7 @@ def run_verifier(summary: str, today_date: str) -> str:
     while True:
         response = client.messages.create(
             model="claude-sonnet-4-6",
-            max_tokens=8192,
+            max_tokens=VERIFIER_MAX_TOKENS,
             system=system,
             tools=TOOLS,
             messages=messages,
@@ -70,11 +82,8 @@ def run_verifier(summary: str, today_date: str) -> str:
 
         messages.append({"role": "assistant", "content": response.content})
 
-        if response.stop_reason == "end_turn":
-            for block in response.content:
-                if hasattr(block, "text"):
-                    return _extract_bilingual_summary(block.text)
-            return ""
+        if response.stop_reason in ("end_turn", "max_tokens"):
+            return _final_text(response)
 
         tool_results = []
         for block in response.content:
@@ -88,10 +97,7 @@ def run_verifier(summary: str, today_date: str) -> str:
                 })
 
         if not tool_results:
-            for block in response.content:
-                if hasattr(block, "text"):
-                    return _extract_bilingual_summary(block.text)
-            return ""
+            return _final_text(response)
 
         messages.append({"role": "user", "content": tool_results})
 
@@ -105,16 +111,13 @@ def run_verifier(summary: str, today_date: str) -> str:
             })
             final = client.messages.create(
                 model="claude-sonnet-4-6",
-                max_tokens=8192,
+                max_tokens=VERIFIER_MAX_TOKENS,
                 system=system,
                 tools=TOOLS,
                 tool_choice={"type": "none"},
                 messages=messages,
             )
-            for block in final.content:
-                if hasattr(block, "text"):
-                    return _extract_bilingual_summary(block.text)
-            return ""
+            return _final_text(final)
 
 
 def verify_summary(summary: str, today_date: str) -> str:
