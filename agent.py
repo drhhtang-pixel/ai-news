@@ -2,7 +2,15 @@ import os
 import sys
 from datetime import datetime, timezone
 import anthropic
-from tools import TOOLS, allowed_dates, execute_tool
+from knowledge import (
+    KNOWN_HISTORY_DAYS,
+    MAX_STORY_AGE_DAYS,
+    format_held,
+    hold_old_stories,
+    known_headlines,
+    known_stories_prompt,
+)
+from tools import TOOLS, execute_tool
 from writer import append_summary
 from verifier import verify_summary
 
@@ -79,16 +87,17 @@ def validate_env() -> tuple[str, str, str, str]:
     return anthropic_key, tavily_key, search_topic, output_file
 
 
-def run_agent(search_topic: str, today_date: str) -> str:
+def run_agent(search_topic: str, today_date: str, known: list[str] | None = None) -> str:
     client = anthropic.Anthropic()
-    yesterday, _ = allowed_dates(today_date)
 
     dated_system_prompt = (
         SYSTEM_PROMPT
-        + f"\n\nToday's date is {today_date} (UTC). Focus on AI news stories that broke or developed on "
-        f"{yesterday} or {today_date} (UTC yesterday or today). A story's supporting sources may have been "
-        "published on different dates; cite each one with its own date. Exclude year-in-review articles "
-        "and historical summaries."
+        + f"\n\nToday's date is {today_date} (UTC). Report AI news that is NEW TO THIS MONITOR: stories "
+        "that are not in the already-published list below. Most will be from the last day or two, but a "
+        "story from up to about a month ago is fine if this monitor has not reported it yet. A story's "
+        "sources may have been published on different dates; cite each one with its own date. Exclude "
+        "year-in-review articles and historical summaries."
+        + known_stories_prompt(known)
     )
 
     messages = [
@@ -221,10 +230,20 @@ def main() -> None:
     today_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     search_topic = os.environ.get("SEARCH_TOPIC", f"AI news {today_date}")
     print(f"Searching for: {search_topic}")
-    summary = run_agent(search_topic, today_date)
+    known = known_headlines(output_file, today_date)
+    print(f"Known stories from the last {KNOWN_HISTORY_DAYS} days: {len(known)}")
+    summary = run_agent(search_topic, today_date, known)
     print(f"Writer headlines: {_headline_total(summary)}")
-    summary = verify_summary(summary, today_date)
+    summary = verify_summary(summary, today_date, known)
     print(f"Headlines after verification: {_headline_total(summary)}")
+
+    summary, held = hold_old_stories(summary, today_date)
+    if held:
+        held_file = os.environ.get("HELD_FILE", "held_stories.md")
+        with open(held_file, "w", encoding="utf-8") as f:
+            f.write(format_held(held, today_date))
+        print(f"Held for manager review (older than {MAX_STORY_AGE_DAYS} days): {len(held)} -> {held_file}")
+    print(f"Headlines to publish: {_headline_total(summary)}")
 
     errors = validate_summary(summary)
     if errors:

@@ -97,10 +97,24 @@ class PromptDatesTest(unittest.TestCase):
             fn(*args)
             return create.call_args.kwargs["system"]
 
-    def test_writer_prompt_names_the_news_window(self):
-        system = self._system_prompt(agent, agent.run_agent, "AI news", "2026-10-14")
-        self.assertIn("2026-10-13", system)
-        self.assertIn("2026-10-14", system)
+    def test_writer_prompt_uses_known_stories_not_a_date_window(self):
+        with patch.object(agent.anthropic, "Anthropic") as client_cls:
+            create = client_cls.return_value.messages.create
+            create.return_value = _text_response("<!-- EN -->done")
+            agent.run_agent("AI news", "2026-10-14", ["Old story A", "Old story B"])
+            system = create.call_args.kwargs["system"]
+        self.assertIn("NEW TO THIS MONITOR", system)
+        self.assertIn("- Old story A\n- Old story B", system)
+        self.assertNotIn("2026-10-13", system)
+
+    def test_verifier_gets_known_stories(self):
+        with patch.object(verifier.anthropic, "Anthropic") as client_cls:
+            create = client_cls.return_value.messages.create
+            create.return_value = _text_response("<!-- EN -->done")
+            verifier.run_verifier("<!-- EN -->x", "2026-10-14", ["Old story A"])
+            system = create.call_args.kwargs["system"]
+        self.assertIn("ALREADY PUBLISHED", system)
+        self.assertIn("- Old story A", system)
 
     def test_verifier_checks_content_not_dates(self):
         system = self._system_prompt(verifier, verifier.run_verifier, "<!-- EN -->x", "2026-10-14")

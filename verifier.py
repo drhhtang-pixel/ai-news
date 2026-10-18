@@ -1,6 +1,7 @@
 import os
 import sys
 import anthropic
+from knowledge import known_stories_prompt
 from tools import TOOLS, execute_tool
 
 VERIFIER_SYSTEM_PROMPT = """You are a news source verifier. You receive a bilingual AI news summary (English and Chinese). Your job is to check that each headline is supported by the CONTENT of the sources it cites. Publication dates are NOT a reason to keep or remove anything: one story may be reported by several sources on different dates, and that is fine.
@@ -17,10 +18,11 @@ Your task:
    - Call web_search to find an article that reports the same story, and confirm it with extract_url
    - If found: cite it, with its name and the date from the tool result
    - If not found: remove the headline entirely
-5. If a headline's description states something no source supports, correct the description to match the sources rather than removing the headline.
-6. Rebuild the Sources / 來源 sections so they list exactly the sources still cited by headlines, each as "- Name: URL (published YYYY-MM-DD)" or "(published date unknown)".
-7. Apply the same changes to the corresponding <!-- ZH --> block by position (1st EN headline ↔ 1st ZH headline, etc.).
-8. Output the complete corrected bilingual summary in EXACTLY the same format as the input, preserving all sections (Headlines, Analysis, Sources, 頭條新聞, 分析, 來源).
+5. If a headline reports a story that is in the ALREADY PUBLISHED list below (same event, even if worded differently), remove it.
+6. If a headline's description states something no source supports, correct the description to match the sources rather than removing the headline.
+7. Rebuild the Sources / 來源 sections so they list exactly the sources still cited by headlines, each as "- Name: URL (published YYYY-MM-DD)" or "(published date unknown)".
+8. Apply the same changes to the corresponding <!-- ZH --> block by position (1st EN headline ↔ 1st ZH headline, etc.).
+9. Output the complete corrected bilingual summary in EXACTLY the same format as the input, preserving all sections (Headlines, Analysis, Sources, 頭條新聞, 分析, 來源).
 
 CRITICAL OUTPUT RULES:
 - Write the corrected summary exactly ONCE, in your final message, after all tool calls are finished. Never write drafts or partial summaries in earlier messages.
@@ -54,10 +56,10 @@ def _extract_bilingual_summary(text: str) -> str:
     return text[idx:].strip()
 
 
-def run_verifier(summary: str, today_date: str) -> str:
+def run_verifier(summary: str, today_date: str, known: list[str] | None = None) -> str:
     client = anthropic.Anthropic()
 
-    system = VERIFIER_SYSTEM_PROMPT + f"\n\nToday's date is {today_date} (UTC)."
+    system = VERIFIER_SYSTEM_PROMPT + f"\n\nToday's date is {today_date} (UTC)." + known_stories_prompt(known)
 
     messages = [
         {
@@ -120,9 +122,9 @@ def run_verifier(summary: str, today_date: str) -> str:
             return _final_text(final)
 
 
-def verify_summary(summary: str, today_date: str) -> str:
+def verify_summary(summary: str, today_date: str, known: list[str] | None = None) -> str:
     try:
-        result = run_verifier(summary, today_date)
+        result = run_verifier(summary, today_date, known)
         if not result:
             print("Warning: verifier returned empty output, using original summary", file=sys.stderr)
             return summary

@@ -84,27 +84,17 @@ The `### Sources` and `### 來源` sections SHALL list the direct URL to each in
 ```
 
 ---
-### Requirement: System prompt includes the 24-hour window and excludes non-current articles
+### Requirement: Stories are new to the monitor, not necessarily new in time
 
-The system prompt passed to Claude SHALL include the execution date (UTC) and the day before in `YYYY-MM-DD` format and SHALL instruct Claude to report only news published on those two dates, rejecting year-in-review articles, historical summaries, and older content. Claude SHALL copy each source's `(published YYYY-MM-DD)` from the `Published:` line of the tool result and SHALL NOT use articles whose date is `"unknown"` or outside the window.
+"New" SHALL mean not yet published by this monitor. The system prompt SHALL include today's UTC date and the list of EN headline titles published in the last 45 days (`known_headlines()`, see the story-novelty spec), and SHALL instruct Claude not to report those stories again. A story from up to about a month ago MAY be reported if it is not in that list. Year-in-review articles and historical summaries SHALL be excluded. Claude SHALL copy each source's date from the `Published:` line of the tool result, writing "date unknown" when the tool reports `unknown`.
 
-#### Scenario: System prompt contains today's date
+#### Scenario: Known stories are listed in the prompt
 
-- **WHEN** `run_agent()` is called
-- **THEN** the system prompt SHALL contain the current UTC date and the previous date as `YYYY-MM-DD` strings
-- **THEN** the system prompt SHALL instruct Claude to exclude retrospective or year-in-review articles
+- **WHEN** `run_agent(topic, today, known)` is called with known titles
+- **THEN** the system prompt SHALL contain `NEW TO THIS MONITOR` and each known title as a `- ` line under `ALREADY PUBLISHED`
+- **THEN** the system prompt SHALL NOT restrict sources to a date window
 
-#### Scenario: Summary reflects current-day news only
-
-- **WHEN** the agent completes a run on date D
-- **THEN** the sources listed in the summary SHALL be articles published on date D or at most one calendar day prior
-- **THEN** the summary SHALL NOT cite year-in-review or retrospective articles unless they were published on date D
-
-##### Example: date injection
-
-- **GIVEN** the agent runs on 2026-06-08
-- **WHEN** the system prompt is assembled
-- **THEN** the prompt SHALL contain `"2026-06-07"` and `"2026-06-08"` and a directive such as `"Only report news published on 2026-06-07 or 2026-06-08 (UTC yesterday or today)."`
+---
 
 ## Implementation Notes
 
