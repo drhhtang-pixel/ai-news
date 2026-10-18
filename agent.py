@@ -15,10 +15,12 @@ When you have gathered enough information, write your final answer using EXACTLY
 <!-- EN -->
 ### Headlines
 A bullet list of the most important news items. Each item MUST follow this exact format:
-- **[Headline]:** [One-sentence description]. *(Source: [Publication Name], [Month Day])*
+- **[Headline]:** [One-sentence description]. *(Sources: [Publication A], YYYY-MM-DD; [Publication B], YYYY-MM-DD)*
+
+List every source you used for that story, each with its own published date. One source is enough; several sources with different dates are welcome when they cover the same story.
 
 Example:
-- **OpenAI releases new model:** The company launched GPT-5 with improved reasoning capabilities. *(Source: TechCrunch, June 8)*
+- **OpenAI releases new model:** The company launched GPT-5 with improved reasoning capabilities. *(Sources: TechCrunch, 2026-06-08; Reuters, 2026-06-07)*
 
 ### Analysis
 2-3 paragraphs analyzing key trends and implications.
@@ -28,9 +30,9 @@ A list of all sources with their direct article URLs (NOT homepage URLs). Each e
 - [Publication Name]: https://specific-article-url (published YYYY-MM-DD)
 
 STRICT RULES for Sources:
-- Only include articles published on UTC yesterday or today (the dates given below). Do NOT list background articles, primary documents, or older coverage.
-- If the only source you found for a story is older than that, find a recent article that covers the same story instead.
-- The (published YYYY-MM-DD) date MUST be copied from the "Published:" line of the tool result for that URL. Never guess or infer a date. Do not use an article whose Published date is "unknown" or outside the allowed dates.
+- Every source cited in a headline MUST appear here, and every entry here MUST be cited by at least one headline.
+- Each source must actually report the story it is cited for. Do not cite background articles that do not cover the story.
+- The (published YYYY-MM-DD) date MUST be copied from the "Published:" line of the tool result for that URL. Never guess or infer a date. If the tool reported "unknown", write "(published date unknown)" and "date unknown" in the headline citation.
 - URLs must point to specific articles, not homepages.
 
 Example:
@@ -39,10 +41,12 @@ Example:
 <!-- ZH -->
 ### 頭條新聞
 以繁體中文列出最重要的新聞。每條必須遵循以下格式：
-- **[標題]：** [一句話說明]。*(來源：[媒體名稱]，[月 日])*
+- **[標題]：** [一句話說明]。*(來源：[媒體 A]，YYYY-MM-DD；[媒體 B]，YYYY-MM-DD)*
+
+列出該則新聞用到的所有來源，每個來源各自標明發布日期。一個來源即可；同一則新聞有多個不同日期的來源時，全部列出。
 
 範例：
-- **OpenAI 發布新模型：** 該公司推出具備更強推理能力的 GPT-5。*(來源：TechCrunch，6 月 8 日)*
+- **OpenAI 發布新模型：** 該公司推出具備更強推理能力的 GPT-5。*(來源：TechCrunch，2026-06-08；Reuters，2026-06-07)*
 
 ### 分析
 2-3段繁體中文分析，說明主要趨勢與影響。
@@ -51,9 +55,9 @@ Example:
 列出所有來源的直接文章網址（非首頁網址）。每條格式：
 - [媒體名稱]: https://specific-article-url (published YYYY-MM-DD)
 
-來源嚴格規定：只列 UTC 昨天或今天（下方指定日期）發布的文章。不得列出背景資料、原始文件或更早的報導。發布日期必須照抄工具結果的「Published:」值，不可推測。
+來源嚴格規定：頭條引用的每個來源都要列在這裡，這裡的每個來源也都要被至少一則頭條引用。來源必須確實報導了該則新聞。發布日期必須照抄工具結果的「Published:」值，不可推測；工具回報 unknown 時寫「(published date unknown)」，頭條引用寫「日期不明」。
 
-IMPORTANT: You MUST include both <!-- EN --> and <!-- ZH --> blocks in your response, in that order. Do not omit either block. Every headline MUST include an inline source citation."""
+IMPORTANT: You MUST include both <!-- EN --> and <!-- ZH --> blocks in your response, in that order. Do not omit either block. Every headline MUST include an inline citation listing its sources and their dates."""
 
 MAX_TOOL_CALLS = 10
 
@@ -81,9 +85,10 @@ def run_agent(search_topic: str, today_date: str) -> str:
 
     dated_system_prompt = (
         SYSTEM_PROMPT
-        + f"\n\nToday's date is {today_date} (UTC). Only report news published on {yesterday} or {today_date} "
-        "(UTC yesterday or today). Exclude year-in-review articles, historical summaries, and any content "
-        "published outside these dates."
+        + f"\n\nToday's date is {today_date} (UTC). Focus on AI news stories that broke or developed on "
+        f"{yesterday} or {today_date} (UTC yesterday or today). A story's supporting sources may have been "
+        "published on different dates; cite each one with its own date. Exclude year-in-review articles "
+        "and historical summaries."
     )
 
     messages = [
@@ -175,6 +180,11 @@ def _count_headlines(block: str, heading: str) -> int | None:
     return count
 
 
+def _headline_total(summary: str) -> int:
+    en = summary.split(ZH_MARKER)[0]
+    return _count_headlines(en, "### Headlines") or 0
+
+
 def validate_summary(summary: str) -> list[str]:
     """Return a list of integrity errors. Empty list means the summary is well-formed."""
     errors: list[str] = []
@@ -212,7 +222,9 @@ def main() -> None:
     search_topic = os.environ.get("SEARCH_TOPIC", f"AI news {today_date}")
     print(f"Searching for: {search_topic}")
     summary = run_agent(search_topic, today_date)
+    print(f"Writer headlines: {_headline_total(summary)}")
     summary = verify_summary(summary, today_date)
+    print(f"Headlines after verification: {_headline_total(summary)}")
 
     errors = validate_summary(summary)
     if errors:

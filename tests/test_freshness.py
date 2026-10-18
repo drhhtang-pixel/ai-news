@@ -97,15 +97,26 @@ class PromptDatesTest(unittest.TestCase):
             fn(*args)
             return create.call_args.kwargs["system"]
 
-    def test_both_prompts_name_the_24h_window(self):
-        for module, fn, args in [
-            (agent, agent.run_agent, ("AI news", "2026-10-14")),
-            (verifier, verifier.run_verifier, ("<!-- EN -->x", "2026-10-14")),
-        ]:
-            system = self._system_prompt(module, fn, *args)
-            self.assertIn("2026-10-13", system, module.__name__)
-            self.assertIn("2026-10-14", system, module.__name__)
+    def test_writer_prompt_names_the_news_window(self):
+        system = self._system_prompt(agent, agent.run_agent, "AI news", "2026-10-14")
+        self.assertIn("2026-10-13", system)
+        self.assertIn("2026-10-14", system)
 
+    def test_verifier_checks_content_not_dates(self):
+        system = self._system_prompt(verifier, verifier.run_verifier, "<!-- EN -->x", "2026-10-14")
+        self.assertIn("supported by the CONTENT", system)
+        self.assertIn("Publication dates are NOT a reason", system)
+        self.assertNotIn("2026-10-13", system)
+
+
+class HeadlineTotalTest(unittest.TestCase):
+    def test_counts_en_headlines_only(self):
+        text = (
+            "<!-- EN -->\n### Headlines\n- **A:** x\n- **B:** y\n### Analysis\n- **T:** z\n"
+            "<!-- ZH -->\n### 頭條新聞\n- **甲：** x\n"
+        )
+        self.assertEqual(agent._headline_total(text), 2)
+        self.assertEqual(agent._headline_total("no markers"), 0)
 
 if __name__ == "__main__":
     unittest.main()

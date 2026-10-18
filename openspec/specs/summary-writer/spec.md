@@ -33,24 +33,24 @@ The writer SHALL prepend a `## YYYY-MM-DD HH:MM` header to each summary and appe
 ---
 ### Requirement: Summary is structured Markdown
 
-The summary text produced by Claude SHALL be structured Markdown containing both an English block and a Chinese block. Each headline in the Headlines section SHALL include an inline source citation.
+The summary text produced by Claude SHALL be structured Markdown containing both an English block and a Chinese block. Each headline in the Headlines section SHALL include an inline citation listing every source used for that story, each with its own published date. Sources for one story MAY have different dates.
 
 #### Scenario: Each EN headline includes inline citation
 
 - **WHEN** the agent completes a run
-- **THEN** every bullet item under `### Headlines` SHALL end with `*(Source: [Publication Name], [Month Day])*`
-- **THEN** every bullet item under `### 頭條新聞` SHALL end with `*(來源：[媒體名稱]，[月 日])*`
+- **THEN** every bullet item under `### Headlines` SHALL end with `*(Sources: [Publication A], YYYY-MM-DD; [Publication B], YYYY-MM-DD)*` (one or more sources; `date unknown` when the tool reports no date)
+- **THEN** every bullet item under `### 頭條新聞` SHALL end with `*(來源：[媒體 A]，YYYY-MM-DD；[媒體 B]，YYYY-MM-DD)*`（日期不明時寫「日期不明」）
 
 ##### Example: headline with inline citation
 
-- **GIVEN** the agent has found an article about OpenAI from TechCrunch published June 8
+- **GIVEN** the agent has found articles about OpenAI from TechCrunch (2026-06-08) and Reuters (2026-06-07)
 - **THEN** the EN headline SHALL be formatted as:
   ```
-  - **OpenAI announces new model:** Brief description. *(Source: TechCrunch, June 8)*
+  - **OpenAI announces new model:** Brief description. *(Sources: TechCrunch, 2026-06-08; Reuters, 2026-06-07)*
   ```
 - **THEN** the ZH headline SHALL be formatted as:
   ```
-  - **OpenAI 宣布新模型：** 簡短說明。*(來源：TechCrunch，6 月 8 日)*
+  - **OpenAI 宣布新模型：** 簡短說明。*(來源：TechCrunch，2026-06-08；Reuters，2026-06-07)*
   ```
 
 ---

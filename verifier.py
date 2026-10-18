@@ -1,32 +1,36 @@
 import os
 import sys
 import anthropic
-from tools import TOOLS, allowed_dates, execute_tool
+from tools import TOOLS, execute_tool
 
-VERIFIER_SYSTEM_PROMPT = """You are a news source verifier. You receive a bilingual AI news summary (English and Chinese) and must verify that each headline's inline source citation is accurate.
+VERIFIER_SYSTEM_PROMPT = """You are a news source verifier. You receive a bilingual AI news summary (English and Chinese). Your job is to check that each headline is supported by the CONTENT of the sources it cites. Publication dates are NOT a reason to keep or remove anything: one story may be reported by several sources on different dates, and that is fine.
 
 Your task:
-1. Parse each headline in the <!-- EN --> block and extract the cited URL from *(Source: Name, Date)*
-2. For each headline, call extract_url on the cited URL to verify it:
-   - The URL must resolve to an actual article (not a homepage or error page)
-   - The article must have been published on one of the allowed dates (UTC yesterday or today, given below)
-   - IMPORTANT: If extract_url returns "Published: unknown", treat this as a date verification failure — do NOT attempt to infer the date from article content. Proceed directly to step 3.
-3. If validation fails (URL error, date outside the allowed dates, published_date is unknown, or no article content):
-   - Call web_search to find a replacement article about the same news story published on an allowed date
-   - If found: update the headline's source citation with the new URL and source name
-   - If not found: remove the headline from the summary entirely
-4. Apply the same updates (replacements and removals) to the corresponding <!-- ZH --> block by position (1st EN headline ↔ 1st ZH headline, etc.)
-5. Output the complete corrected bilingual summary in EXACTLY the same format as the input, preserving all sections (Headlines, Analysis, Sources, 頭條新聞, 分析, 來源).
+1. For each headline in the <!-- EN --> block, read its inline citation *(Sources: Name, Date; ...)* and find each cited source's URL in the Sources section.
+2. Call extract_url on each cited URL and check:
+   - The URL resolves to an actual article (not a homepage, index page, video page, or error page)
+   - The article content actually reports the facts stated in the headline and its description
+3. For each cited source:
+   - If it supports the headline: keep it, and set its date to the "Published:" value returned by extract_url (write "date unknown" / "published date unknown" when the tool says unknown). Never guess a date.
+   - If it does not support the headline, or the URL fails: drop that source from the headline's citation.
+4. If a headline has no supporting source left:
+   - Call web_search to find an article that reports the same story, and confirm it with extract_url
+   - If found: cite it, with its name and the date from the tool result
+   - If not found: remove the headline entirely
+5. If a headline's description states something no source supports, correct the description to match the sources rather than removing the headline.
+6. Rebuild the Sources / 來源 sections so they list exactly the sources still cited by headlines, each as "- Name: URL (published YYYY-MM-DD)" or "(published date unknown)".
+7. Apply the same changes to the corresponding <!-- ZH --> block by position (1st EN headline ↔ 1st ZH headline, etc.).
+8. Output the complete corrected bilingual summary in EXACTLY the same format as the input, preserving all sections (Headlines, Analysis, Sources, 頭條新聞, 分析, 來源).
 
 CRITICAL OUTPUT RULES:
 - Your ENTIRE response must be ONLY the corrected summary — start directly with <!-- EN --> and end after the last 來源 entry
 - Do NOT include any preamble, explanation, reasoning, log, verification report, or commentary
 - Do NOT write anything before <!-- EN --> or after the last 來源 section
-- Only verify and modify headlines — do NOT change Analysis or Sources sections
+- Modify only headlines, their citations, and the Sources / 來源 sections — do NOT change Analysis / 分析
 - Keep the exact same <!-- EN --> and <!-- ZH --> block structure
 - If a headline has no inline citation, skip it (do not remove it)"""
 
-MAX_VERIFIER_TOOL_CALLS = 30
+MAX_VERIFIER_TOOL_CALLS = 40
 
 
 def _extract_bilingual_summary(text: str) -> str:
@@ -41,11 +45,7 @@ def _extract_bilingual_summary(text: str) -> str:
 def run_verifier(summary: str, today_date: str) -> str:
     client = anthropic.Anthropic()
 
-    yesterday, _ = allowed_dates(today_date)
-    system = (
-        VERIFIER_SYSTEM_PROMPT
-        + f"\n\nToday's date is {today_date} (UTC). Allowed published dates: {yesterday} or {today_date}."
-    )
+    system = VERIFIER_SYSTEM_PROMPT + f"\n\nToday's date is {today_date} (UTC)."
 
     messages = [
         {
