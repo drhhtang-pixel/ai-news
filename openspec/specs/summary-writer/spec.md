@@ -33,7 +33,7 @@ The writer SHALL prepend a `## YYYY-MM-DD HH:MM` header to each summary and appe
 ---
 ### Requirement: Summary is structured Markdown
 
-The summary text produced by Claude SHALL be structured Markdown containing both an English block and a Chinese block. Each headline in the Headlines section SHALL include an inline citation listing up to 3 sources used for that story, each with its own published date. Sources for one story MAY have different dates.
+The summary text produced by Claude SHALL be structured Markdown containing both an English block and a Chinese block. Each headline in the Headlines section SHALL include an inline citation listing up to 3 sources used for that story, each with its own published date. Sources for one story MAY have different dates. After verification, citations are rewritten as links (`[Name](url)`) by the program (see source-verifier).
 
 #### Scenario: Each EN headline includes inline citation
 

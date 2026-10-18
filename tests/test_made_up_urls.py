@@ -11,6 +11,7 @@ from tools import execute_tool, log_tool_call, normalize_url
 class NormalizeUrlTest(unittest.TestCase):
     def test_loose_comparison(self):
         self.assertEqual(normalize_url("https://www.TechCrunch.com/2026/10/17/x/"), "techcrunch.com/2026/10/17/x")
+        self.assertEqual(normalize_url("https://News.Example/Story?id=AbC"), "news.example/Story?id=AbC")
         self.assertEqual(normalize_url("http://techcrunch.com/2026/10/17/x"), "techcrunch.com/2026/10/17/x")
 
 
@@ -58,6 +59,19 @@ class UnseenSourceUrlsTest(unittest.TestCase):
         seen = {"techcrunch.com/2026/10/17/real"}
         self.assertEqual(unseen_source_urls(summary, seen),
                          ["https://techcrunch.com/2026/10/16/xai-grok-4-release/"])
+
+
+class UrlExtractionTest(unittest.TestCase):
+    def test_parentheses_and_links(self):
+        summary = ("*(Sources: [Wire](https://news.example/Story_(AI)), 2026-10-17)*\n"
+                   "- Wire: https://news.example/Story_(AI) (published 2026-10-17)\n")
+        self.assertEqual(unseen_source_urls(summary, {"news.example/Story_(AI)"}), [])
+
+    def test_path_case_is_significant(self):
+        # Codex review #4: a URL differing only in path/query case was never returned by a tool.
+        summary = "- X: https://news.example/story?id=abc"
+        self.assertEqual(unseen_source_urls(summary, {"news.example/Story?id=AbC"}),
+                         ["https://news.example/story?id=abc"])
 
 
 class LogToolCallTest(unittest.TestCase):

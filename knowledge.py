@@ -4,6 +4,10 @@ the verifier's per-headline decisions are applied to a summary.
 "New" means new to this monitor, not new in time: a story that has not been published
 before may be reported even if it happened weeks ago. Stories whose earliest dated source
 is older than MAX_STORY_AGE_DAYS are held back for the manager instead of published.
+
+Verified headlines carry their sources as links, e.g.
+*(Sources: [Wire](https://wire.example/a), 2026-10-17; [Daily](https://daily.example/b), date unknown)*,
+so every source stays tied to its own story without guessing from publication names.
 """
 import re
 from datetime import datetime, timedelta
@@ -17,12 +21,18 @@ ZH_SOURCES = "### 來源"
 
 KNOWN_HISTORY_DAYS = 45
 MAX_STORY_AGE_DAYS = 30
+MAX_SOURCES_PER_HEADLINE = 3
 
 _ENTRY_HEADER_RE = re.compile(r"^## (\d{4}-\d{2}-\d{2})", re.MULTILINE)
 _TITLE_RE = re.compile(r"^- \*\*(.+?)\*\*")
 _CITATION_RE = re.compile(r"\*\((?:Sources?|來源)\s*[:：]\s*(.*?)\)\*\s*$")
+_LINKED_SOURCE_RE = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)\s*[,，]\s*([^;；]*)")
 _ISO_DATE_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\b")
 _SOURCE_ENTRY_RE = re.compile(r"^- (.+?):\s*(https?://\S+)")
+
+
+class InvalidDecisions(ValueError):
+    """The verifier's decisions cannot be applied safely to this summary."""
 
 
 def known_headlines(path: str, today_date: str, days: int = KNOWN_HISTORY_DAYS) -> list[str]:
@@ -47,53 +57,148 @@ def known_headlines(path: str, today_date: str, days: int = KNOWN_HISTORY_DAYS) 
     return titles
 
 
+def known_stories_prompt(known: list[str] | None) -> str:
+    """The 'already published' list shared by the writer and the verifier."""
+    listed = "\n".join(f"- {title}" for title in known) if known else "(none)"
+    return (
+        "\n\nALREADY PUBLISHED by this monitor (do NOT report these stories again, even from new "
+        f"sources or with new wording):\n{listed}"
+    )
+
+
+def headline_items(summary: str) -> tuple[list[str], list[str]]:
+    """(EN headline lines, ZH headline lines) in order."""
+    if EN_MARKER not in summary or ZH_MARKER not in summary:
+        return [], []
+    lines = summary.splitlines()
+    zh_start = _zh_start(lines)
+    en = [lines[i] for i in _headline_indexes(lines, 0, zh_start, EN_HEADLINES)]
+    zh = [lines[i] for i in _headline_indexes(lines, zh_start, len(lines), ZH_HEADLINES)]
+    return en, zh
+
+
+def check_decisions(decisions, headline_count: int) -> list[str]:
+    """Problems that make the decisions unsafe to apply; empty list means they are complete."""
+    if not isinstance(decisions, list):
+        return ["decisions must be a list"]
+    problems = []
+    indexes = []
+    for d in decisions:
+        if not isinstance(d, dict):
+            problems.append(f"decision is not an object: {d!r}")
+            continue
+        index, action = d.get("index"), d.get("action")
+        if not isinstance(index, int) or isinstance(index, bool):
+            problems.append(f"index must be an integer: {index!r}")
+            continue
+        indexes.append(index)
+        if action not in ("keep", "remove"):
+            problems.append(f"#{index}: action must be keep or remove, got {action!r}")
+        if not isinstance(d.get("sources", []), list):
+            problems.append(f"#{index}: sources must be a list")
+    duplicates = sorted({i for i in indexes if indexes.count(i) > 1})
+    if duplicates:
+        problems.append(f"duplicate indexes: {duplicates}")
+    expected = set(range(1, headline_count + 1))
+    missing, extra = sorted(expected - set(indexes)), sorted(set(indexes) - expected)
+    if missing:
+        problems.append(f"missing decisions for headlines {missing} (there are {headline_count})")
+    if extra:
+        problems.append(f"indexes out of range: {extra} (there are {headline_count})")
+    return problems
+
+
+def apply_verification(summary: str, decisions: list[dict]) -> str:
+    """Apply the verifier's per-headline decisions to the summary.
+
+    Raises InvalidDecisions unless the EN and ZH headline counts match and there is exactly one
+    valid decision per headline (see check_decisions). Kept headlines get EN and ZH citations
+    rebuilt as links from the decision's sources (at most 3; invalid URLs dropped; dates must
+    be real YYYY-MM-DD dates, otherwise "date unknown"). Removed headlines, and kept ones left
+    with no valid source, are dropped in both languages. Both Sources sections are rebuilt from
+    the remaining citations, even if they were empty. Analysis is untouched.
+    """
+    if EN_MARKER not in summary or ZH_MARKER not in summary:
+        raise InvalidDecisions("summary has no <!-- EN --> / <!-- ZH --> blocks")
+    lines = summary.splitlines()
+    zh_start = _zh_start(lines)
+    en_items = _headline_indexes(lines, 0, zh_start, EN_HEADLINES)
+    zh_items = _headline_indexes(lines, zh_start, len(lines), ZH_HEADLINES)
+    if len(en_items) != len(zh_items):
+        raise InvalidDecisions(f"EN has {len(en_items)} headlines but ZH has {len(zh_items)}")
+    problems = check_decisions(decisions, len(en_items))
+    if problems:
+        raise InvalidDecisions("; ".join(problems))
+
+    by_index = {d["index"]: d for d in decisions}
+    drop: set[int] = set()
+    entries: dict[str, tuple[str, str | None]] = {}  # url -> (name, date), in citation order
+    for pos, (idx, zh_idx) in enumerate(zip(en_items, zh_items), 1):
+        decision = by_index[pos]
+        sources = [_clean_source(src) for src in decision.get("sources") or []]
+        sources = [src for src in sources if src][:MAX_SOURCES_PER_HEADLINE]
+        if decision["action"] != "keep" or not sources:
+            drop.update((idx, zh_idx))
+            continue
+        lines[idx] = _with_citation(lines[idx], "*(Sources: " + "; ".join(
+            f"[{name}]({url}), {date or 'date unknown'}" for name, url, date in sources) + ")*")
+        lines[zh_idx] = _with_citation(lines[zh_idx], "*(來源：" + "；".join(
+            f"[{name}]({url})，{date or '日期不明'}" for name, url, date in sources) + ")*")
+        for name, url, date in sources:
+            entries.setdefault(url, (name, date))
+
+    rebuilt = [f"- {name}: {url} (published {date or 'date unknown'})" for url, (name, date) in entries.items()]
+    lines = [line for i, line in enumerate(lines) if i not in drop]
+    lines = _replace_sources(lines, EN_SOURCES, rebuilt, before=ZH_MARKER)
+    lines = _replace_sources(lines, ZH_SOURCES, rebuilt, before=None)
+    return _collapse_blank_lines("\n".join(lines))
+
+
 def hold_old_stories(summary: str, today_date: str,
                      max_age_days: int = MAX_STORY_AGE_DAYS) -> tuple[str, list[dict]]:
     """Remove headlines whose earliest dated source is older than `max_age_days`.
 
-    Returns the remaining summary and the held stories. A headline with no dated source
-    is kept. The matching ZH headline (same position) and Sources entries cited only by
-    held headlines are removed too.
+    Returns the remaining summary and the held stories. A headline with no dated source is
+    kept. The ZH headline at the same position, and Sources entries whose URL is cited only
+    by held headlines, are removed too. Sources are taken from linked citations; plain
+    citations (an unverified draft) fall back to matching the Sources section by name.
     """
     if EN_MARKER not in summary or ZH_MARKER not in summary:
         return summary, []
     cutoff = _parse_date(today_date) - timedelta(days=max_age_days)
     lines = summary.splitlines()
-    zh_start = next(i for i, line in enumerate(lines) if line.strip() == ZH_MARKER)
-
-    en_items = [i for i in _section_indexes(lines, 0, zh_start, EN_HEADLINES) if lines[i].lstrip().startswith("- **")]
-    zh_items = [i for i in _section_indexes(lines, zh_start, len(lines), ZH_HEADLINES)
-                if lines[i].lstrip().startswith("- **")]
-    source_urls = _source_urls(lines, 0, zh_start)
+    zh_start = _zh_start(lines)
+    en_items = _headline_indexes(lines, 0, zh_start, EN_HEADLINES)
+    zh_items = _headline_indexes(lines, zh_start, len(lines), ZH_HEADLINES)
+    by_name = _source_entries(lines, 0, zh_start)
 
     held: list[dict] = []
     drop: set[int] = set()
-    kept_names: set[str] = set()
-    held_names: set[str] = set()
+    kept_urls: set[str] = set()
+    held_urls: set[str] = set()
     for pos, idx in enumerate(en_items):
-        sources = _citation_sources(lines[idx])
-        dates = [d for _, d in sources if d]
+        sources = [(name, url or _lookup(by_name, name, date), date)
+                   for name, url, date in citation_sources(lines[idx])]
+        dates = [date for _, _, date in sources if date]
         earliest = min(dates) if dates else None
         if earliest and _parse_date(earliest) < cutoff:
             drop.add(idx)
             if pos < len(zh_items):
                 drop.add(zh_items[pos])
-            held_names.update(name for name, _ in sources)
+            held_urls.update(url for _, url, _ in sources if url)
             held.append({
                 "title": _TITLE_RE.match(lines[idx].lstrip()).group(1).rstrip(":："),
                 "headline": lines[idx].strip(),
                 "earliest": earliest,
-                "sources": [(name, date, _lookup(source_urls, name)) for name, date in sources],
+                "sources": sources,
             })
         else:
-            kept_names.update(name for name, _ in sources)
+            kept_urls.update(url for _, url, _ in sources if url)
 
     if not held:
         return summary, []
 
-    # Match Sources entries by URL: ZH entries often use translated publication names.
-    held_urls = {url for name, url in source_urls.items()
-                 if _matches(name, held_names) and not _matches(name, kept_names)}
+    held_urls -= kept_urls
     for start, end, heading in ((0, zh_start, EN_SOURCES), (zh_start, len(lines), ZH_SOURCES)):
         for i in _section_indexes(lines, start, end, heading):
             m = _SOURCE_ENTRY_RE.match(lines[i].strip())
@@ -104,83 +209,73 @@ def hold_old_stories(summary: str, today_date: str,
     return _collapse_blank_lines("\n".join(kept)), held
 
 
-def known_stories_prompt(known: list[str] | None) -> str:
-    """The 'already published' list shared by the writer and the verifier."""
-    listed = "\n".join(f"- {title}" for title in known) if known else "(none)"
-    return (
-        "\n\nALREADY PUBLISHED by this monitor (do NOT report these stories again, even from new "
-        f"sources or with new wording):\n{listed}"
-    )
+def format_held(held: list[dict], today_date: str, verified: bool = True,
+                max_age_days: int = MAX_STORY_AGE_DAYS) -> str:
+    """Markdown body for the manager's review issue."""
+    one = len(held) == 1
+    status = (f"{'It' if one else 'They'} passed source verification"
+              if verified else
+              f"**Source verification did not complete in this run**, so {'it was' if one else 'they were'} "
+              "not checked against their sources")
+    out = [
+        f"The {today_date} run held back {len(held)} {'story' if one else 'stories'} whose earliest "
+        f"cited source is more than {max_age_days} days old. {status}, and "
+        f"{'it was' if one else 'they were'} **not published**.",
+        "",
+        "Please decide whether each one is worth publishing. To publish one, add its headline "
+        "and sources to `summaries.md` by hand.",
+    ]
+    for n, story in enumerate(held, 1):
+        out += ["", f"### {n}. {story['title']}", f"- Earliest cited source date: {story['earliest']}", "- Sources:"]
+        for name, url, date in story["sources"]:
+            out.append(f"  - {name}, {date or 'date unknown'}" + (f": {url}" if url else " (URL not found)"))
+        out += ["", "```", story["headline"], "```"]
+    return "\n".join(out) + "\n"
 
 
-MAX_SOURCES_PER_HEADLINE = 3
+def citation_sources(line: str) -> list[tuple[str, str | None, str | None]]:
+    """[(name, url or None, YYYY-MM-DD or None)] from a headline's *(Sources: ...)* citation.
 
-
-def apply_verification(summary: str, decisions: list[dict]) -> str:
-    """Apply the verifier's per-headline decisions to the summary.
-
-    Each decision is {"index": 1-based EN headline position, "action": "keep"|"remove",
-    "sources": [{"name", "url", "date"}]}. Kept headlines get their EN and ZH citations
-    rebuilt from the decision's sources; removed ones (or ones left with no source) are
-    dropped in both languages. Headlines without a decision are left unchanged. Both
-    Sources sections are rebuilt from the citations that remain. Analysis is untouched.
+    Linked sources ([Name](url), date) carry their URL; plain ones (Name, date) do not.
     """
-    if EN_MARKER not in summary or ZH_MARKER not in summary:
-        return summary
-    lines = summary.splitlines()
-    zh_start = next(i for i, line in enumerate(lines) if line.strip() == ZH_MARKER)
-    en_items = [i for i in _section_indexes(lines, 0, zh_start, EN_HEADLINES) if lines[i].lstrip().startswith("- **")]
-    zh_items = [i for i in _section_indexes(lines, zh_start, len(lines), ZH_HEADLINES)
-                if lines[i].lstrip().startswith("- **")]
-    original = _source_entries(lines, 0, zh_start)
-    by_index = {d.get("index"): d for d in decisions if isinstance(d, dict)}
+    m = _CITATION_RE.search(line)
+    if not m:
+        return []
+    body = m.group(1)
+    linked = list(_LINKED_SOURCE_RE.finditer(body))
+    if linked:
+        return [(lm.group(1).strip(), lm.group(2), _valid_date(_first_iso(lm.group(3)))) for lm in linked]
+    sources = []
+    for part in re.split(r"[;；]", body):
+        part = part.strip()
+        if part:
+            sources.append((re.split(r"[,，]", part)[0].strip(), None, _valid_date(_first_iso(part))))
+    return sources
 
-    drop: set[int] = set()
-    entries: dict[str, tuple[str, str | None]] = {}  # url -> (name, date), in citation order
-    for pos, idx in enumerate(en_items):
-        zh_idx = zh_items[pos] if pos < len(zh_items) else None
-        decision = by_index.get(pos + 1)
-        if decision is None:
-            for name, date in _citation_sources(lines[idx]):
-                # Same-named publications can appear twice; prefer the entry with the cited date.
-                candidates = [(u, d) for n, u, d in original if _matches(n, {name})]
-                url = next((u for u, d in candidates if d == date), candidates[0][0] if candidates else None)
-                if url:
-                    entries.setdefault(url, (name, date))
-            continue
-        sources = [_clean_source(src) for src in decision.get("sources") or []]
-        sources = [src for src in sources if src][:MAX_SOURCES_PER_HEADLINE]
-        if decision.get("action") != "keep" or not sources:
-            drop.add(idx)
-            if zh_idx is not None:
-                drop.add(zh_idx)
-            continue
-        lines[idx] = _with_citation(lines[idx], "*(Sources: " + "; ".join(
-            f"{name}, {date or 'date unknown'}" for name, _, date in sources) + ")*")
-        if zh_idx is not None:
-            lines[zh_idx] = _with_citation(lines[zh_idx], "*(來源：" + "；".join(
-                f"{name}，{date or '日期不明'}" for name, _, date in sources) + ")*")
-        for name, url, date in sources:
-            entries.setdefault(url, (name, date))
 
-    rebuilt = [f"- {name}: {url} (published {date or 'date unknown'})" for url, (name, date) in entries.items()]
-    for start, end, heading in ((0, zh_start, EN_SOURCES), (zh_start, len(lines), ZH_SOURCES)):
-        old = [i for i in _section_indexes(lines, start, end, heading) if _SOURCE_ENTRY_RE.match(lines[i].strip())]
-        if old:
-            lines[old[0]] = "\n".join(rebuilt)
-            drop.update(old[1:])
-    kept = [line for i, line in enumerate(lines) if i not in drop]
-    return _collapse_blank_lines("\n".join(kept))
+def _first_iso(text: str) -> str | None:
+    m = _ISO_DATE_RE.search(text)
+    return m.group(1) if m else None
+
+
+def _valid_date(value: str | None) -> str | None:
+    """The value if it is a real calendar date (YYYY-MM-DD), otherwise None."""
+    if not value or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+        return None
+    try:
+        _parse_date(value)
+    except ValueError:
+        return None
+    return value
 
 
 def _clean_source(src) -> tuple[str, str, str | None] | None:
     if not isinstance(src, dict):
         return None
     name, url = str(src.get("name") or "").strip(), str(src.get("url") or "").strip()
-    if not name or not url.startswith("http"):
+    if not name or not re.match(r"https?://\S+$", url) or any(c in name for c in "[]"):
         return None
-    date = str(src.get("date") or "")
-    return name, url, date if re.fullmatch(r"\d{4}-\d{2}-\d{2}", date) else None
+    return name, url, _valid_date(str(src.get("date") or ""))
 
 
 def _with_citation(line: str, citation: str) -> str:
@@ -189,27 +284,32 @@ def _with_citation(line: str, citation: str) -> str:
     return f"{line.rstrip()} {citation}"
 
 
-def format_held(held: list[dict], today_date: str, max_age_days: int = MAX_STORY_AGE_DAYS) -> str:
-    """Markdown body for the manager's review issue."""
-    out = [
-        f"The {today_date} run held back {len(held)} "
-        f"{'story' if len(held) == 1 else 'stories'} whose earliest dated source is more than "
-        f"{max_age_days} days old. {'It' if len(held) == 1 else 'They'} passed source verification but "
-        f"{'was' if len(held) == 1 else 'were'} **not published**.",
-        "",
-        "Please decide whether each one is worth publishing. To publish one, add its headline "
-        "and sources to `summaries.md` by hand.",
-    ]
-    for n, story in enumerate(held, 1):
-        out += ["", f"### {n}. {story['title']}", f"- Earliest source date: {story['earliest']}", "- Sources:"]
-        for name, date, url in story["sources"]:
-            out.append(f"  - {name}, {date or 'date unknown'}" + (f": {url}" if url else ""))
-        out += ["", "```", story["headline"], "```"]
-    return "\n".join(out) + "\n"
+def _replace_sources(lines: list[str], heading: str, entries: list[str], before: str | None) -> list[str]:
+    """Replace the entries under `heading` with `entries`; add the section if it is missing."""
+    start = next((i for i, line in enumerate(lines) if line.strip() == heading), None)
+    if start is None:
+        at = next((i for i, line in enumerate(lines) if before and line.strip() == before), len(lines))
+        return lines[:at] + ["", heading] + entries + [""] + lines[at:]
+    end = start + 1
+    while end < len(lines):
+        stripped = lines[end].strip()
+        if stripped.startswith("### ") or stripped in (EN_MARKER, ZH_MARKER):
+            break
+        end += 1
+    keep = [line for line in lines[start + 1:end] if line.strip() and not _SOURCE_ENTRY_RE.match(line.strip())]
+    return lines[:start + 1] + entries + keep + [""] + lines[end:]
 
 
 def _parse_date(value: str) -> datetime:
     return datetime.strptime(value, "%Y-%m-%d")
+
+
+def _zh_start(lines: list[str]) -> int:
+    return next(i for i, line in enumerate(lines) if line.strip() == ZH_MARKER)
+
+
+def _headline_indexes(lines: list[str], start: int, end: int, heading: str) -> list[int]:
+    return [i for i in _section_indexes(lines, start, end, heading) if lines[i].lstrip().startswith("- **")]
 
 
 def _section_indexes(lines: list[str], start: int, end: int, heading: str) -> list[int]:
@@ -231,22 +331,6 @@ def _section_lines(block: str, heading: str) -> list[str]:
     return [lines[i].lstrip() for i in _section_indexes(lines, 0, len(lines), heading)]
 
 
-def _citation_sources(line: str) -> list[tuple[str, str | None]]:
-    """[(source name, YYYY-MM-DD or None)] from a headline's *(Sources: A, date; B, date)*."""
-    m = _CITATION_RE.search(line)
-    if not m:
-        return []
-    sources = []
-    for part in re.split(r"[;；]", m.group(1)):
-        part = part.strip()
-        if not part:
-            continue
-        date = _ISO_DATE_RE.search(part)
-        name = re.split(r"[,，]", part)[0].strip()
-        sources.append((name, date.group(1) if date else None))
-    return sources
-
-
 def _source_entries(lines: list[str], start: int, end: int) -> list[tuple[str, str, str | None]]:
     """[(name, url, YYYY-MM-DD or None)] from the EN Sources section."""
     out = []
@@ -254,27 +338,27 @@ def _source_entries(lines: list[str], start: int, end: int) -> list[tuple[str, s
         line = lines[i].strip()
         m = _SOURCE_ENTRY_RE.match(line)
         if m:
-            date = _ISO_DATE_RE.search(line[m.end():])
-            out.append((m.group(1), m.group(2), date.group(1) if date else None))
+            out.append((m.group(1), m.group(2), _valid_date(_first_iso(line[m.end():]))))
     return out
 
 
-def _source_urls(lines: list[str], start: int, end: int) -> dict[str, str]:
-    urls = {}
-    for i in _section_indexes(lines, start, end, EN_SOURCES):
-        m = _SOURCE_ENTRY_RE.match(lines[i].strip())
-        if m:
-            urls[m.group(1)] = m.group(2)
-    return urls
+def _lookup(entries: list[tuple[str, str, str | None]], name: str, date: str | None) -> str | None:
+    """URL for a plain (unlinked) citation: exact name match, preferring the cited date.
+
+    Returns None when several entries match equally well, rather than guessing.
+    """
+    candidates = [(url, d) for n, url, d in entries if _same_name(n, name)]
+    if date:
+        dated = [url for url, d in candidates if d == date]
+        if len(dated) == 1:
+            return dated[0]
+    urls = {url for url, _ in candidates}
+    return urls.pop() if len(urls) == 1 else None
 
 
-def _matches(entry_name: str, names: set[str]) -> bool:
-    """Sources entries may add a note, e.g. 'AP News (North Korea torpedo)' for citation 'AP News'."""
-    return any(entry_name.startswith(name) or name.startswith(entry_name) for name in names if name)
-
-
-def _lookup(urls: dict[str, str], name: str) -> str | None:
-    return next((url for entry, url in urls.items() if _matches(entry, {name})), None)
+def _same_name(entry_name: str, name: str) -> bool:
+    """'AP News (North Korea torpedo)' matches citation 'AP News'; 'Wire Extra' does not match 'Wire'."""
+    return entry_name == name or re.match(re.escape(name) + r"\s*[(（]", entry_name) is not None
 
 
 def _collapse_blank_lines(text: str) -> str:

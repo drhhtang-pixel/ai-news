@@ -7,11 +7,13 @@ on:
 
 permissions:
   contents: write
-  issues: write   # open a review issue for stories held back as too old
 
 jobs:
   summarize:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write   # open a review issue for stories held back as too old
     timeout-minutes: 30
 
     steps:
@@ -37,9 +39,9 @@ jobs:
         run: python3 agent.py
 
       # Runs even if the agent failed afterwards (e.g. every headline was held), so the
-      # manager still hears about the held stories.
+      # manager still hears about the held stories; skipped when the run is cancelled.
       - name: Ask the manager to review stories older than a month
-        if: always()
+        if: ${{ !cancelled() }}
         env:
           GH_TOKEN: ${{ github.token }}
           HELD_FILE: ${{ runner.temp }}/held_stories.md

@@ -51,7 +51,7 @@ class HoldOldStoriesTest(unittest.TestCase):
         kept, held = hold_old_stories(SUMMARY, "2026-10-18")
         self.assertEqual([h["title"] for h in held], ["Old story"])
         self.assertEqual(held[0]["earliest"], "2026-09-01")
-        self.assertEqual(held[0]["sources"][0], ("Archive", "2026-09-01", "https://archive.example/old"))
+        self.assertEqual(held[0]["sources"][0], ("Archive", "https://archive.example/old", "2026-09-01"))
         self.assertNotIn("- **Old story", kept)
         self.assertNotIn("- **舊消息", kept)
         self.assertIn("New story", kept)
@@ -60,10 +60,10 @@ class HoldOldStoriesTest(unittest.TestCase):
     def test_sources_removed_by_url_in_both_languages(self):
         kept, _ = hold_old_stories(SUMMARY, "2026-10-18")
         self.assertNotIn("archive.example/old", kept)
-        # 'Wire' is also cited by a kept story, so its entries stay -- including the held story's
-        # Wire URL, which can't be told apart by name (a harmless leftover Sources line).
+        # Two "Wire" entries: the cited date picks the right one, so only the held story's
+        # Wire article is removed (Codex review #3).
         self.assertIn("wire.example/new", kept)
-        self.assertIn("wire.example/old", kept)
+        self.assertNotIn("wire.example/old", kept)
         self.assertEqual(kept.count("https://blog.example/x"), 2)
 
     def test_boundary_and_undated(self):
@@ -81,9 +81,32 @@ class HoldOldStoriesTest(unittest.TestCase):
         _, held = hold_old_stories(SUMMARY, "2026-10-18")
         body = format_held(held, "2026-10-18")
         self.assertIn("held back 1 story", body)
-        self.assertIn("It passed source verification but was **not published**", body)
+        self.assertIn("It passed source verification, and it was **not published**", body)
         self.assertIn("### 1. Old story", body)
         self.assertIn("  - Archive, 2026-09-01: https://archive.example/old", body)
+        unverified = format_held(held, "2026-10-18", verified=False)
+        self.assertIn("Source verification did not complete in this run", unverified)
+
+    def test_linked_citations_carry_their_own_urls(self):
+        summary = SUMMARY.replace(
+            "*(Sources: Archive, 2026-09-01; Wire, 2026-10-16)*",
+            "*(Sources: [Archive](https://archive.example/old), 2026-09-01; [Wire](https://wire.example/old), 2026-10-16)*")
+        _, held = hold_old_stories(summary, "2026-10-18")
+        self.assertEqual(held[0]["sources"], [("Archive", "https://archive.example/old", "2026-09-01"),
+                                              ("Wire", "https://wire.example/old", "2026-10-16")])
+
+    def test_invalid_calendar_date_is_ignored(self):
+        summary = SUMMARY.replace("Archive, 2026-09-01; Wire, 2026-10-16", "Archive, 2026-02-30")
+        _, held = hold_old_stories(summary, "2026-10-18")  # must not raise
+        self.assertEqual(held, [])
+
+    def test_ambiguous_name_is_not_guessed(self):
+        from knowledge import _lookup
+        entries = [("Wire", "https://wire.example/a", "2026-10-17"), ("Wire", "https://wire.example/b", "2026-10-17")]
+        self.assertIsNone(_lookup(entries, "Wire", "2026-10-17"))
+        self.assertIsNone(_lookup([("Wire Extra", "https://x.example", None)], "Wire", None))
+        self.assertEqual(_lookup([("AP News (torpedo)", "https://ap.example", None)], "AP News", None),
+                         "https://ap.example")
 
 
 class KnownHeadlinesTest(unittest.TestCase):

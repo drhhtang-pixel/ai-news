@@ -12,6 +12,9 @@ VALID = """<!-- EN -->
 <!-- ZH -->
 ### 頭條新聞
 - **模型發布：** 某實驗室發布了新模型。*(來源：TechCrunch，10 月 14 日)*
+
+### 來源
+- TechCrunch: https://techcrunch.com/2026/10/14/model (published 2026-10-14)
 """
 
 
@@ -33,7 +36,8 @@ class ValidateSummaryTest(unittest.TestCase):
         self.assertEqual(validate_summary(swapped), ["<!-- ZH --> appears before <!-- EN -->"])
 
     def test_block_without_headlines(self):
-        no_zh = VALID.split("<!-- ZH -->")[0] + "<!-- ZH -->\n### 頭條新聞\n（無）\n"
+        no_zh = (VALID.split("<!-- ZH -->")[0] + "<!-- ZH -->\n### 頭條新聞\n（無）\n"
+                 "### 來源\n- TechCrunch: https://techcrunch.com/2026/10/14/model\n")
         self.assertEqual(
             validate_summary(no_zh), ["ZH block has no headlines (no '- **' bullets under '### 頭條新聞')"]
         )
@@ -47,6 +51,19 @@ class ValidateSummaryTest(unittest.TestCase):
         self.assertEqual(validate_summary(text), [
             "EN block has no headlines (no '- **' bullets under '### Headlines')",
             "ZH block has no headlines (no '- **' bullets under '### 頭條新聞')",
+        ])
+
+    def test_en_zh_headline_counts_must_match(self):
+        # Codex review (content-verification) #2: mismatched languages must not be published.
+        text = VALID.replace("### 來源", "- **另一則：** 多出來的。\n\n### 來源")
+        self.assertEqual(validate_summary(text), ["EN has 1 headlines but ZH has 2"])
+
+    def test_sources_sections_need_urls(self):
+        # Codex review #6: headlines without any source link must not be published.
+        text = VALID.replace("- TechCrunch: https://techcrunch.com/2026/10/14/model (published 2026-10-14)\n", "")
+        self.assertEqual(validate_summary(text), [
+            "EN block has no source URLs under '### Sources'",
+            "ZH block has no source URLs under '### 來源'",
         ])
 
     def test_missing_headline_heading(self):

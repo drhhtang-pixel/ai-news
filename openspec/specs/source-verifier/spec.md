@@ -45,8 +45,8 @@ For each headline, the verifier SHALL check every cited source (at most 3 kept p
 
 #### Scenario: Description overstates the sources
 
-- **WHEN** the headline's description states something no kept source supports
-- **THEN** the verifier SHALL correct the description to match the sources instead of removing the headline
+- **WHEN** the headline's description states something important that no kept source supports
+- **THEN** the verifier SHALL remove the headline (it only returns keep/remove decisions and never rewrites text)
 
 ##### Example: content check decision table
 
@@ -77,13 +77,15 @@ When a headline has no supporting source left, the verifier SHALL search for an 
 
 The verifier SHALL NOT rewrite the summary text. When done, it SHALL call the `submit_verification` tool once with one decision per EN headline: `{index (1-based), action: keep|remove, reason, sources: [{name, url, date}]}`. `knowledge.apply_verification()` SHALL then:
 
+- refuse (`InvalidDecisions`) unless the EN and ZH headline counts match and `check_decisions()` finds exactly one decision per headline: integer indexes covering `1..N` with no duplicates or out-of-range values, `action` in keep/remove, `sources` a list
 - drop removed headlines, and kept headlines left with no valid source, in both EN and ZH (same position)
-- rebuild kept headlines' citations from the decision's sources (max 3; invalid URLs dropped; non-`YYYY-MM-DD` dates shown as "date unknown" / 「日期不明」)
-- leave headlines without a decision unchanged, keeping their original Sources entries (matched by name, preferring the cited date)
-- rebuild both Sources / 來源 sections from the remaining citations, as `- Name: URL (published YYYY-MM-DD)` or `(published date unknown)`
+- rebuild kept headlines' citations as links from the decision's sources: `*(Sources: [Name](url), YYYY-MM-DD; ...)*` and `*(來源：[Name](url)，YYYY-MM-DD；...)*` (max 3; invalid URLs dropped; anything but a real calendar date shown as "date unknown" / 「日期不明」)
+- rebuild both Sources / 來源 sections from the remaining citations, as `- Name: URL (published YYYY-MM-DD)` or `(published date unknown)`, even when the section was empty, adding the section if it is missing
 - leave Analysis / 分析 unchanged
 
-Before applying, a source whose date is not `YYYY-MM-DD` SHALL get the date any tool returned for the same URL during the run (`tools.URL_DATES`), since `extract_url` often has no date for a page `web_search` already dated.
+Dates SHALL come from tool evidence only: before applying, every source's date SHALL be replaced by the date a tool returned for that URL during the run (`tools.URL_DATES`), or "unknown" if no tool dated it. The model's own date is never used, so it cannot make an old story look recent.
+
+If the draft's EN and ZH headline counts differ, `run_verifier` SHALL return "" without calling the model. If the decisions are rejected, the verifier SHALL get one forced resubmission with the rejection reason (as an error `tool_result`); a second rejection SHALL return "".
 
 Every decision SHALL be logged as `  [verifier] #<index> <action>: <reason>`.
 

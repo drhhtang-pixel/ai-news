@@ -1,6 +1,6 @@
 import sys
 import anthropic
-from knowledge import apply_verification, known_stories_prompt
+from knowledge import InvalidDecisions, apply_verification, headline_items, known_stories_prompt
 import tools
 from tools import TOOLS, execute_tool, log_tool_call
 
@@ -66,21 +66,20 @@ def _call(client, **kwargs):
         return stream.get_final_message()
 
 
-def _submitted(response) -> list[dict] | None:
-    for block in response.content:
-        if block.type == "tool_use" and block.name == SUBMIT_TOOL["name"]:
-            return block.input.get("headlines") or []
-    return None
+def _submission(response):
+    """The submit_verification tool_use block in the response, if any."""
+    return next((b for b in response.content if b.type == "tool_use" and b.name == SUBMIT_TOOL["name"]), None)
 
 
-def _fill_known_dates(decisions: list[dict]) -> list[dict]:
-    """Replace 'unknown' source dates with a date any tool returned for the same URL."""
+def _apply_tool_dates(decisions):
+    """Dates come from tool evidence only: use the date a tool returned for each URL during this
+    run, never the model's own value. A URL no tool dated is 'unknown'."""
+    if not isinstance(decisions, list):
+        return decisions
     for d in decisions:
-        for src in d.get("sources") or []:
-            if isinstance(src, dict) and not tools.ISO_DAY_RE.fullmatch(str(src.get("date") or "")):
-                known = tools.URL_DATES.get(tools.normalize_url(str(src.get("url") or "")))
-                if known:
-                    src["date"] = known
+        for src in (d.get("sources") if isinstance(d, dict) else None) or []:
+            if isinstance(src, dict):
+                src["date"] = tools.URL_DATES.get(tools.normalize_url(str(src.get("url") or "")), "unknown")
     return decisions
 
 
@@ -90,24 +89,51 @@ def _log_decisions(decisions: list[dict]) -> None:
 
 
 def run_verifier(summary: str, today_date: str, known: list[str] | None = None) -> str:
-    """Return the summary with the verifier's decisions applied, or "" if it never submitted any."""
+    """Return the summary with the verifier's decisions applied, or "" if verification did not
+    complete (no valid submission, or EN/ZH headlines that do not line up)."""
+    en, zh = headline_items(summary)
+    if len(en) != len(zh):
+        print(f"Warning: draft has {len(en)} EN but {len(zh)} ZH headlines; cannot verify safely", file=sys.stderr)
+        return ""
     client = anthropic.Anthropic()
     system = VERIFIER_SYSTEM_PROMPT + f"\n\nToday's date is {today_date} (UTC)." + known_stories_prompt(known)
     messages = [{"role": "user", "content": f"Please verify the following news summary.\n\n{summary}"}]
     request = dict(model="claude-sonnet-4-6", max_tokens=VERIFIER_MAX_TOKENS, system=system,
                    tools=VERIFIER_TOOLS)
+    force_submit = {"tool_choice": {"type": "tool", "name": SUBMIT_TOOL["name"]}}
     tool_call_count = 0
+    resubmissions_left = 1
+    forced = False
 
+    response = _call(client, messages=messages, **request)
     while True:
-        response = _call(client, messages=messages, **request)
+        tools.record_usage("verifier", response)
         messages.append({"role": "assistant", "content": response.content})
 
-        decisions = _submitted(response)
-        if decisions is not None:
-            decisions = _fill_known_dates(decisions)
+        submission = _submission(response)
+        if submission is not None:
+            decisions = _apply_tool_dates(submission.input.get("headlines"))
+            try:
+                result = apply_verification(summary, decisions)
+            except InvalidDecisions as e:
+                print(f"Warning: verifier decisions rejected: {e}", file=sys.stderr)
+                if not resubmissions_left:
+                    return ""
+                resubmissions_left -= 1
+                messages.append({"role": "user", "content": [{
+                    "type": "tool_result", "tool_use_id": submission.id, "is_error": True,
+                    "content": (f"Rejected: {e}. Call submit_verification again with exactly one decision "
+                                f"for each headline 1..{len(en)}."),
+                }]})
+                forced = True
+                response = _call(client, messages=messages, **request, **force_submit)
+                continue
             _log_decisions(decisions)
-            return apply_verification(summary, decisions)
+            return result
 
+        if forced:
+            print("Warning: verifier did not submit decisions", file=sys.stderr)
+            return ""
         if response.stop_reason == "max_tokens":
             text = "".join(b.text for b in response.content if hasattr(b, "text"))
             print(f"Warning: verifier hit max_tokens without submitting; it wrote: {text[:300]!r}", file=sys.stderr)
@@ -120,32 +146,28 @@ def run_verifier(summary: str, today_date: str, known: list[str] | None = None) 
                 result = execute_tool(block.name, block.input)
                 log_tool_call("verifier", block.name, block.input, result)
                 tool_results.append({"type": "tool_result", "tool_use_id": block.id, "content": result})
-
         if tool_results:
             messages.append({"role": "user", "content": tool_results})
+
         if not tool_results or tool_call_count >= MAX_VERIFIER_TOOL_CALLS:
             # Stopped without submitting, or out of budget: force the decisions now.
             note = ("You have reached the maximum number of tool calls. " if tool_results else "") + \
                 "Call submit_verification now with your decisions so far."
             messages.append({"role": "user", "content": note})
-            final = _call(client, messages=messages, **request,
-                          tool_choice={"type": "tool", "name": SUBMIT_TOOL["name"]})
-            decisions = _submitted(final)
-            if decisions is None:
-                print("Warning: verifier did not submit decisions", file=sys.stderr)
-                return ""
-            decisions = _fill_known_dates(decisions)
-            _log_decisions(decisions)
-            return apply_verification(summary, decisions)
+            forced = True
+            response = _call(client, messages=messages, **request, **force_submit)
+        else:
+            response = _call(client, messages=messages, **request)
 
 
-def verify_summary(summary: str, today_date: str, known: list[str] | None = None) -> str:
+def verify_summary(summary: str, today_date: str, known: list[str] | None = None) -> tuple[str, bool]:
+    """(summary, verified). On any verifier failure, the unverified draft and False."""
     try:
         result = run_verifier(summary, today_date, known)
         if not result:
             print("Warning: verifier returned empty output, using original summary", file=sys.stderr)
-            return summary
-        return result
+            return summary, False
+        return result, True
     except Exception as e:
         print(f"Warning: verifier failed: {e}", file=sys.stderr)
-        return summary
+        return summary, False

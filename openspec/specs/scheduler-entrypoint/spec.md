@@ -49,16 +49,20 @@ After verification, the entry point SHALL run `validate_summary()` and, if it re
 | No `<!-- ZH -->` marker | `missing <!-- ZH --> marker` |
 | ZH before EN | `<!-- ZH --> appears before <!-- EN -->` |
 | EN block without bullets | `EN block has no headlines (no '- **' bullets)` |
+| EN and ZH headline counts differ | `EN has 3 headlines but ZH has 2` |
+| A Sources section has no URL | `ZH block has no source URLs under '### 來源'` |
 
 ---
 ### Requirement: Summaries citing URLs no tool returned are not published
 
-`execute_tool` SHALL record (in `tools.SEEN_URLS`, compared via `normalize_url`) every URL returned by a `web_search` result or a successful `extract_url`. Before writing, `main()` SHALL treat every URL in the summary that is not in that set as an integrity error ("source URL was never returned by a tool (made up?)") and exit with code `1` without writing. Every tool call SHALL be logged as one line `  [writer|verifier] <tool> ok|ERROR: <query or url>`.
+`execute_tool` SHALL record (in `tools.SEEN_URLS`, compared via `normalize_url`, which ignores scheme, a leading `www.`, host case and a trailing slash but keeps path and query case) every URL returned by a `web_search` result or a successful `extract_url`. Before writing, `main()` SHALL treat every URL in the summary that is not in that set as an integrity error ("source URL was never returned by a tool (made up?)") and exit with code `1` without writing. URLs are extracted with balanced parentheses kept (`…/Story_(AI)`). Every tool call SHALL be logged as one line `  [writer|verifier] <tool> ok|ERROR: <query or url>`.
 
 #### Scenario: Writer invents a source
 
 - **WHEN** the summary cites `https://techcrunch.com/2026/10/16/xai-grok-4-release/` and no tool returned that URL
 - **THEN** the process SHALL exit with code `1` and the output file SHALL be unchanged
+
+Token usage per agent (and an estimated cost at list prices) SHALL be printed before validation.
 
 Background: on 2026-10-18 a test run produced five invented stories with invented URLs (one checked URL returned HTTP 404) while Tavily was working. The run was only blocked because its format was also wrong.
 

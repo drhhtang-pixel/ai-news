@@ -176,9 +176,35 @@ def _remember(url: str, date: str) -> None:
 
 
 def normalize_url(url: str) -> str:
-    """Compare URLs loosely: ignore scheme, a leading 'www.', and a trailing slash."""
-    url = re.sub(r"^https?://(www\.)?", "", url.strip().lower())
-    return url.rstrip("/")
+    """Compare URLs loosely: ignore scheme, a leading 'www.', host case and a trailing slash."""
+    # Scheme and host are case-insensitive; path and query are not (RFC 3986 6.2.2.1).
+    m = re.match(r"^(?:https?://)?(?:www\.)?([^/?#]*)(.*)$", url.strip(), re.IGNORECASE)
+    return (m.group(1).lower() + m.group(2)).rstrip("/")
+
+
+# Token usage per agent for this run, e.g. {"writer": {"input": 1200, "output": 300, ...}}.
+USAGE: dict[str, dict[str, int]] = {}
+
+
+def record_usage(agent: str, response) -> None:
+    usage = getattr(response, "usage", None)
+    if usage is None:
+        return
+    totals = USAGE.setdefault(agent, {"input": 0, "output": 0, "cache_read": 0, "cache_write": 0})
+    totals["input"] += getattr(usage, "input_tokens", 0) or 0
+    totals["output"] += getattr(usage, "output_tokens", 0) or 0
+    totals["cache_read"] += getattr(usage, "cache_read_input_tokens", 0) or 0
+    totals["cache_write"] += getattr(usage, "cache_creation_input_tokens", 0) or 0
+
+
+def usage_report() -> str:
+    """One line per agent; cost uses Sonnet 4.6 list prices ($3 / $15 per million tokens)."""
+    lines = []
+    for agent, t in USAGE.items():
+        cost = (t["input"] * 3 + t["output"] * 15 + t["cache_read"] * 0.3 + t["cache_write"] * 3.75) / 1_000_000
+        lines.append(f"Token usage [{agent}]: input {t['input']}, output {t['output']}, "
+                     f"cache read {t['cache_read']}, cache write {t['cache_write']} (~US${cost:.2f})")
+    return "\n".join(lines)
 
 
 def log_tool_call(agent: str, name: str, input: dict, result: str) -> None:

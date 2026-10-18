@@ -120,6 +120,7 @@ def run_agent(search_topic: str, today_date: str, known: list[str] | None = None
             messages=messages,
         )
 
+        tools.record_usage("writer", response)
         messages.append({"role": "assistant", "content": response.content})
 
         if response.stop_reason == "end_turn":
@@ -169,6 +170,7 @@ def run_agent(search_topic: str, today_date: str, known: list[str] | None = None
                     tool_choice={"type": "none"},
                     messages=messages,
                 )
+                tools.record_usage("writer", final)
                 text = "".join(block.text for block in final.content if hasattr(block, "text"))
                 if "<!-- EN -->" in text:
                     return text
@@ -210,7 +212,8 @@ def _headline_total(summary: str) -> int:
     return _count_headlines(en, "### Headlines") or 0
 
 
-_URL_RE = re.compile(r"https?://[^\s)>\]]+")
+# Balanced parentheses stay inside a URL ("…/Story_(AI)"); a closing one ends it ("[Name](url)").
+_URL_RE = re.compile(r"https?://(?:[^\s()<>\]]|\([^\s()<>]*\))+")
 
 
 def unseen_source_urls(summary: str, seen: set[str]) -> list[str]:
@@ -246,6 +249,14 @@ def validate_summary(summary: str) -> list[str]:
                 errors.append(f"{lang} block has no '{heading}' section")
             elif count == 0:
                 errors.append(f"{lang} block has no headlines (no '- **' bullets under '{heading}')")
+        en_count = _count_headlines(en_block, "### Headlines") or 0
+        zh_count = _count_headlines(zh_block, "### 頭條新聞") or 0
+        if en_count and zh_count and en_count != zh_count:
+            errors.append(f"EN has {en_count} headlines but ZH has {zh_count}")
+        for lang, block, heading in (("EN", en_block, "### Sources"), ("ZH", zh_block, "### 來源")):
+            section = block.split(heading, 1)[1].split("### ", 1)[0] if heading in block else ""
+            if en_count and "http" not in section:
+                errors.append(f"{lang} block has no source URLs under '{heading}'")
 
     return errors
 
@@ -259,16 +270,19 @@ def main() -> None:
     print(f"Known stories from the last {KNOWN_HISTORY_DAYS} days: {len(known)}")
     summary = run_agent(search_topic, today_date, known)
     print(f"Writer headlines: {_headline_total(summary)}")
-    summary = verify_summary(summary, today_date, known)
-    print(f"Headlines after verification: {_headline_total(summary)}")
+    summary, verified = verify_summary(summary, today_date, known)
+    print(f"Headlines after verification: {_headline_total(summary)} "
+          f"({'verified' if verified else 'NOT verified: using the writer draft'})")
 
     summary, held = hold_old_stories(summary, today_date)
     if held:
         held_file = os.environ.get("HELD_FILE", "held_stories.md")
         with open(held_file, "w", encoding="utf-8") as f:
-            f.write(format_held(held, today_date))
+            f.write(format_held(held, today_date, verified))
         print(f"Held for manager review (older than {MAX_STORY_AGE_DAYS} days): {len(held)} -> {held_file}")
     print(f"Headlines to publish: {_headline_total(summary)}")
+
+    print(tools.usage_report())
 
     errors = validate_summary(summary)
     errors += [f"source URL was never returned by a tool (made up?): {url}"
