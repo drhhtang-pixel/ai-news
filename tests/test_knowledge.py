@@ -84,8 +84,6 @@ class HoldOldStoriesTest(unittest.TestCase):
         self.assertIn("It passed source verification, and it was **not published**", body)
         self.assertIn("### 1. Old story", body)
         self.assertIn("  - Archive, 2026-09-01: https://archive.example/old", body)
-        unverified = format_held(held, "2026-10-18", verified=False)
-        self.assertIn("Source verification did not complete in this run", unverified)
 
     def test_linked_citations_carry_their_own_urls(self):
         summary = SUMMARY.replace(

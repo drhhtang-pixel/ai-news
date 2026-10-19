@@ -161,7 +161,8 @@ def hold_old_stories(summary: str, today_date: str,
     Returns the remaining summary and the held stories. A headline with no dated source is
     kept. The ZH headline at the same position, and Sources entries whose URL is cited only
     by held headlines, are removed too. Sources are taken from linked citations; plain
-    citations (an unverified draft) fall back to matching the Sources section by name.
+    citations (a writer draft; not published in production) fall back to matching the Sources
+    section by name.
     """
     if EN_MARKER not in summary or ZH_MARKER not in summary:
         return summary, []
@@ -209,18 +210,13 @@ def hold_old_stories(summary: str, today_date: str,
     return _collapse_blank_lines("\n".join(kept)), held
 
 
-def format_held(held: list[dict], today_date: str, verified: bool = True,
-                max_age_days: int = MAX_STORY_AGE_DAYS) -> str:
-    """Markdown body for the manager's review issue."""
+def format_held(held: list[dict], today_date: str, max_age_days: int = MAX_STORY_AGE_DAYS) -> str:
+    """Markdown body for the manager's review issue (only verified summaries reach this point)."""
     one = len(held) == 1
-    status = (f"{'It' if one else 'They'} passed source verification"
-              if verified else
-              f"**Source verification did not complete in this run**, so {'it was' if one else 'they were'} "
-              "not checked against their sources")
     out = [
         f"The {today_date} run held back {len(held)} {'story' if one else 'stories'} whose earliest "
-        f"cited source is more than {max_age_days} days old. {status}, and "
-        f"{'it was' if one else 'they were'} **not published**.",
+        f"cited source is more than {max_age_days} days old. {'It' if one else 'They'} passed source "
+        f"verification, and {'it was' if one else 'they were'} **not published**.",
         "",
         "Please decide whether each one is worth publishing. To publish one, add its headline "
         "and sources to `summaries.md` by hand.",

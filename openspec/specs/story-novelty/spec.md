@@ -53,13 +53,11 @@ When any story is held, `main()` SHALL write `format_held()` Markdown to `HELD_F
 
 - **WHEN** stories are held
 - **THEN** the issue SHALL list each held story's title, earliest cited source date, sources with dates and URLs, and the full headline line, and state that the stories were not published
-- **THEN** the issue SHALL say whether source verification completed in this run (`verify_summary` returns `(summary, verified)`)
 
-Held stories' URLs SHALL come from their linked citations. Only plain citations (an unverified writer draft) fall back to the Sources section, matching the exact publication name (optionally followed by a parenthesised note) and preferring the cited date; when several entries still match, no URL is guessed.
+Held stories' URLs SHALL come from their linked citations. Plain citations (only possible if a writer draft reaches this step, e.g. in tests) fall back to the Sources section, matching the exact publication name (optionally followed by a parenthesised note) and preferring the cited date; when several entries still match, no URL is guessed.
 
 ## Known limitations
 
 - Age is approximated by the earliest dated source; the event itself may be older.
 - Age is the earliest date among the (at most 3) cited sources, not among every source found.
-- In an unverified draft, a held story's source URL may be reported as "not found" when two Sources entries share its name and date.
 - The "already published" check is semantic and done by the models; it is not enforced in code.

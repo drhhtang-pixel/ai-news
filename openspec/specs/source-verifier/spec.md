@@ -93,7 +93,7 @@ Every decision SHALL be logged as `  [verifier] #<index> <action>: <reason>`.
 
 - **WHEN** the verifier ends its turn, or reaches the tool-call limit, without calling `submit_verification`
 - **THEN** one more request SHALL be sent with `tool_choice={"type": "tool", "name": "submit_verification"}`
-- **THEN** if it still does not submit, `run_verifier` SHALL return "" and `verify_summary` SHALL fall back to the writer's draft with a warning
+- **THEN** if it still does not submit, `run_verifier` SHALL return "" and the run SHALL publish nothing (see "An unverified summary is never published")
 
 #### Scenario: Safety net for long replies
 
@@ -123,21 +123,15 @@ The verifier's tool-use loop SHALL terminate after at most 40 tool calls.
 | 40 | Exit loop, return current state |
 
 ---
-### Requirement: Verifier failure is non-fatal
+### Requirement: An unverified summary is never published
 
-If the verifier encounters an unhandled exception or produces no valid output, it SHALL return the original unmodified summary and print a warning to stderr.
+`verify_summary()` SHALL return `(summary, verified)`. If the verifier raises, produces no valid submission, or cannot verify safely, it SHALL print a warning to stderr and return `(draft, False)` without raising. `main()` SHALL then print `"Error: source verification did not complete; nothing is published today."` and exit with code `1` before holding stories or writing anything (policy chosen by 唐老師 on 2026-10-19: a missing day is better than unchecked headlines).
 
 #### Scenario: Verifier crashes
 
 - **WHEN** an unhandled exception occurs in `verify_summary()`
-- **THEN** the function SHALL catch it, print `"Warning: verifier failed: <error>"` to stderr
-- **THEN** the function SHALL return the original `summary` string unchanged
-
-##### Example: safe fallback
-
-- **GIVEN** Tavily API key is invalid
-- **WHEN** `verify_summary()` is called
-- **THEN** the original summary is returned unchanged and stderr contains `"Warning: verifier failed: ..."`
+- **THEN** it SHALL print `"Warning: verifier failed: <error>"` to stderr and return `(draft, False)`
+- **THEN** `main()` SHALL exit with code `1`, the output file SHALL be unchanged, and no held-story file SHALL be written
 
 ---
 ### Requirement: ZH headlines are updated to match EN verification results

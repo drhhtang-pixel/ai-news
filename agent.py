@@ -271,14 +271,18 @@ def main() -> None:
     summary = run_agent(search_topic, today_date, known)
     print(f"Writer headlines: {_headline_total(summary)}")
     summary, verified = verify_summary(summary, today_date, known)
-    print(f"Headlines after verification: {_headline_total(summary)} "
-          f"({'verified' if verified else 'NOT verified: using the writer draft'})")
+    if not verified:
+        # Policy (唐老師, 2026-10-19): never publish a summary whose sources were not checked.
+        print("Error: source verification did not complete; nothing is published today.", file=sys.stderr)
+        print(tools.usage_report())
+        sys.exit(1)
+    print(f"Headlines after verification: {_headline_total(summary)}")
 
     summary, held = hold_old_stories(summary, today_date)
     if held:
         held_file = os.environ.get("HELD_FILE", "held_stories.md")
         with open(held_file, "w", encoding="utf-8") as f:
-            f.write(format_held(held, today_date, verified))
+            f.write(format_held(held, today_date))
         print(f"Held for manager review (older than {MAX_STORY_AGE_DAYS} days): {len(held)} -> {held_file}")
     print(f"Headlines to publish: {_headline_total(summary)}")
 
