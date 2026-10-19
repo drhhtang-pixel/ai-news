@@ -50,7 +50,7 @@ After verification, the entry point SHALL run `validate_summary()` and, if it re
 | ZH before EN | `<!-- ZH --> appears before <!-- EN -->` |
 | EN block without bullets | `EN block has no headlines (no '- **' bullets)` |
 | EN and ZH headline counts differ | `EN has 3 headlines but ZH has 2` |
-| A Sources section has no URL | `ZH block has no source URLs under '### 來源'` |
+| A Sources section has no http(s) URL (the word "http" alone does not count) | `ZH block has no source URLs under '### 來源'` |
 
 ---
 ### Requirement: Summaries citing URLs no tool returned are not published

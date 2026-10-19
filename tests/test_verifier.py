@@ -37,18 +37,33 @@ def _text(text, stop_reason="end_turn"):
     return SimpleNamespace(stop_reason=stop_reason, content=[SimpleNamespace(type="text", text=text)])
 
 
+def _assert_every_tool_use_answered(test, messages):
+    """API rule: each assistant tool_use must be answered by a tool_result in the next user message."""
+    for i, message in enumerate(messages):
+        if message["role"] != "assistant":
+            continue
+        ids = {b.id for b in message["content"] if getattr(b, "type", None) == "tool_use"}
+        if not ids:
+            continue
+        test.assertLess(i + 1, len(messages), "tool_use left without a following user message")
+        reply = messages[i + 1]["content"]
+        answered = {r["tool_use_id"] for r in reply if isinstance(reply, list) and r.get("type") == "tool_result"}
+        test.assertEqual(ids, answered, f"unanswered tool_use ids in message {i}")
+
+
 class VerifierRunTest(unittest.TestCase):
     """Drive run_verifier with a fake streaming client; `respond(kwargs)` returns each reply."""
 
     def setUp(self):
         tools.URL_DATES.clear()
-        tools.URL_DATES["wire.example/new"] = "2026-10-17"
+        tools.URL_DATES["wire.example/new"] = {"2026-10-17"}
 
     def _run(self, respond, known=None, summary=SUMMARY):
         calls = []
 
         def stream(**kwargs):
-            calls.append(kwargs)
+            _assert_every_tool_use_answered(self, kwargs["messages"])
+            calls.append(dict(kwargs, messages=list(kwargs["messages"])))  # snapshot per request
             ctx = MagicMock()
             ctx.__enter__.return_value.get_final_message.return_value = respond(kwargs)
             return ctx
@@ -82,11 +97,24 @@ class VerifierRunTest(unittest.TestCase):
         result, calls = self._run(lambda kw: next(responses))
         self.assertEqual(len(calls), 2)
         self.assertEqual(calls[1]["tool_choice"]["name"], "submit_verification")
-        # The fake client shares one message list, so find the rejection by content.
-        rejection = next(m["content"][0] for m in calls[1]["messages"]
-                         if m["role"] == "user" and isinstance(m["content"], list) and m["content"][0].get("is_error"))
+        rejection = calls[1]["messages"][-1]["content"][0]
         self.assertTrue(rejection["is_error"])
         self.assertIn("missing decisions for headlines [3]", rejection["content"])
+        self.assertIn("[Wire](https://wire.example/new)", result)
+
+    def test_rejected_submission_with_a_research_call_answers_both(self):
+        # Codex review R2-3: a rejected submit that arrives with an extract in the same reply.
+        mixed = SimpleNamespace(stop_reason="tool_use", content=[
+            SimpleNamespace(type="tool_use", id="e1", name="extract_url", input={"url": "https://wire.example/new"}),
+            SimpleNamespace(type="tool_use", id="s1", name=verifier.SUBMIT_TOOL["name"],
+                            input={"headlines": DECISIONS[:1]}),
+        ])
+        responses = iter([mixed, _submit(_decisions())])
+        result, calls = self._run(lambda kw: next(responses))  # the fake API asserts the protocol
+        self.assertEqual(len(calls), 2)
+        results = calls[1]["messages"][-1]["content"]
+        self.assertEqual([r["tool_use_id"] for r in results], ["e1", "s1"])
+        self.assertTrue(results[1]["is_error"])
         self.assertIn("[Wire](https://wire.example/new)", result)
 
     def test_invalid_twice_returns_empty(self):

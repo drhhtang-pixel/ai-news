@@ -163,16 +163,23 @@ TOOLS = [
 # Every URL a tool actually returned during this run. A source URL in the final summary
 # that is not in this set was never seen by the agents, i.e. it was made up.
 SEEN_URLS: set[str] = set()
-# Best known published date per URL (normalized), from any tool result that had one.
-# extract_url often has no date for a page that web_search already dated.
-URL_DATES: dict[str, str] = {}
+# Every published date any tool reported for a URL (normalized). extract_url often has no
+# date for a page web_search already dated, and the two can disagree.
+URL_DATES: dict[str, set[str]] = {}
 
 
 def _remember(url: str, date: str) -> None:
     key = normalize_url(url)
     SEEN_URLS.add(key)
     if date != "unknown":
-        URL_DATES.setdefault(key, date)
+        URL_DATES.setdefault(key, set()).add(date)
+
+
+def tool_date(url: str) -> str | None:
+    """The date to cite for a URL: the EARLIEST date any tool reported, so conflicting evidence
+    can only make a story look older (and be held for review), never newer. None if undated."""
+    dates = URL_DATES.get(normalize_url(url))
+    return min(dates) if dates else None
 
 
 def normalize_url(url: str) -> str:

@@ -23,7 +23,7 @@ Before searching, `main()` SHALL read the EN headline titles published in the la
 ---
 ### Requirement: Stories older than one month are held for the manager
 
-After verification, `hold_old_stories()` SHALL compute each EN headline's age from the earliest dated source in its citation. If that date is more than `MAX_STORY_AGE_DAYS` days before today (UTC), the headline SHALL be removed from the summary, together with the ZH headline at the same position and the Sources / 來源 entries (matched by URL) cited only by held headlines. A headline with no dated source SHALL be kept.
+After verification, `hold_old_stories()` SHALL compute each EN headline's age from the earliest real date anywhere in its citation (`citation_earliest_date()`), so a source whose link could not be parsed still counts. If that date is more than `MAX_STORY_AGE_DAYS` days before today (UTC), the headline SHALL be removed from the summary, together with the ZH headline at the same position and the Sources / 來源 entries (matched by URL) cited only by held headlines. A headline with no dated source SHALL be kept.
 
 #### Scenario: Old story is held
 
@@ -47,7 +47,7 @@ After verification, `hold_old_stories()` SHALL compute each EN headline's age fr
 ---
 ### Requirement: The manager is notified of held stories
 
-When any story is held, `main()` SHALL write `format_held()` Markdown to `HELD_FILE` (default `held_stories.md`, git-ignored). In GitHub Actions, `HELD_FILE` SHALL be in the runner temp directory, and the step "Ask the manager to review stories older than a month" SHALL open a GitHub issue with that file as its body. That step SHALL run even if the agent step failed afterwards (`if: always()`), and SHALL do nothing when the file is missing or empty.
+When any story is held, `main()` SHALL write `format_held()` Markdown to `HELD_FILE` (default `held_stories.md`, git-ignored). In GitHub Actions, `HELD_FILE` SHALL be in the runner temp directory, and the step "Ask the manager to review stories older than a month" SHALL open a GitHub issue with that file as its body. That step SHALL run even if the agent step failed afterwards (`if: ${{ !cancelled() }}`; skipped when the run is cancelled), and SHALL do nothing when the file is missing or empty. The `issues: write` permission SHALL be granted to the summarize job only.
 
 #### Scenario: Issue content
 

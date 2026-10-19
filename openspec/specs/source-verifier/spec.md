@@ -83,7 +83,7 @@ The verifier SHALL NOT rewrite the summary text. When done, it SHALL call the `s
 - rebuild both Sources / 來源 sections from the remaining citations, as `- Name: URL (published YYYY-MM-DD)` or `(published date unknown)`, even when the section was empty, adding the section if it is missing
 - leave Analysis / 分析 unchanged
 
-Dates SHALL come from tool evidence only: before applying, every source's date SHALL be replaced by the date a tool returned for that URL during the run (`tools.URL_DATES`), or "unknown" if no tool dated it. The model's own date is never used, so it cannot make an old story look recent.
+Dates SHALL come from tool evidence only: before applying, every source's date SHALL be replaced by `tools.tool_date(url)`: the EARLIEST of all dates any tool returned for that URL during the run (`tools.URL_DATES` keeps every reported date), or "unknown" if no tool dated it. The model's own date is never used, and conflicting tool dates can only make a story look older, so neither can make an old story look recent. If a reply carries a rejected submission together with other tool calls, every tool_use in it SHALL get a tool_result (research calls are executed, submissions get the rejection as an error) before resubmission.
 
 If the draft's EN and ZH headline counts differ, `run_verifier` SHALL return "" without calling the model. If the decisions are rejected, the verifier SHALL get one forced resubmission with the rejection reason (as an error `tool_result`); a second rejection SHALL return "".
 

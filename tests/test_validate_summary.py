@@ -66,6 +66,15 @@ class ValidateSummaryTest(unittest.TestCase):
             "ZH block has no source URLs under '### 來源'",
         ])
 
+    def test_text_mentioning_http_is_not_a_url(self):
+        # Codex review R2-5: the Sources check must find a real URL, not the letters "http".
+        text = VALID.replace("- TechCrunch: https://techcrunch.com/2026/10/14/model (published 2026-10-14)",
+                             "Sources unavailable due to http error.")
+        self.assertEqual(validate_summary(text), [
+            "EN block has no source URLs under '### Sources'",
+            "ZH block has no source URLs under '### 來源'",
+        ])
+
     def test_missing_headline_heading(self):
         text = VALID.replace("### 頭條新聞", "### 新聞")
         self.assertEqual(validate_summary(text), ["ZH block has no '### 頭條新聞' section"])

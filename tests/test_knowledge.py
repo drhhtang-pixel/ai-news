@@ -93,6 +93,25 @@ class HoldOldStoriesTest(unittest.TestCase):
         self.assertEqual(held[0]["sources"], [("Archive", "https://archive.example/old", "2026-09-01"),
                                               ("Wire", "https://wire.example/old", "2026-10-16")])
 
+    def test_url_with_parentheses_keeps_its_date(self):
+        # Codex review R2-1: an older source whose URL contains ")" must still count for age.
+        line = ("- **Story:** x. *(Sources: [Wire](https://wire.example/Story_(AI)), 2026-09-01; "
+                "[Daily](https://daily.example/new), 2026-10-17)*")
+        from knowledge import citation_earliest_date, citation_sources
+        self.assertEqual(citation_sources(line), [
+            ("Wire", "https://wire.example/Story_(AI)", "2026-09-01"),
+            ("Daily", "https://daily.example/new", "2026-10-17"),
+        ])
+        self.assertEqual(citation_earliest_date(line), "2026-09-01")
+        summary = SUMMARY.replace("- **New story:** Fresh. *(Sources: Wire, 2026-10-17; Daily, date unknown)*", line)
+        _, held = hold_old_stories(summary, "2026-10-18")
+        self.assertIn("Story", [h["title"] for h in held])
+
+    def test_unparseable_source_date_still_counts(self):
+        line = "- **Story:** x. *(Sources: [Odd](not-a-url), 2026-09-01; [Daily](https://daily.example/new), 2026-10-17)*"
+        from knowledge import citation_earliest_date
+        self.assertEqual(citation_earliest_date(line), "2026-09-01")
+
     def test_invalid_calendar_date_is_ignored(self):
         summary = SUMMARY.replace("Archive, 2026-09-01; Wire, 2026-10-16", "Archive, 2026-02-30")
         _, held = hold_old_stories(summary, "2026-10-18")  # must not raise

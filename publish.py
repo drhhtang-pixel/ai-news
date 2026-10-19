@@ -119,8 +119,9 @@ def md_to_html(text: str) -> str:
 def _inline(text: str) -> str:
     """Process inline Markdown: bold, links."""
     # Links: [text](url)
+    # URLs may contain balanced parentheses, e.g. https://example.com/Story_(AI)
     text = re.sub(
-        r"\[([^\]]+)\]\((https?://[^\)]+)\)",
+        r"\[([^\]]+)\]\((https?://(?:[^\s()]|\([^\s()]*\))+)\)",
         r'<a href="\2" target="_blank">\1</a>',
         text,
     )

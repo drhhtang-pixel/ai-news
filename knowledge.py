@@ -26,7 +26,9 @@ MAX_SOURCES_PER_HEADLINE = 3
 _ENTRY_HEADER_RE = re.compile(r"^## (\d{4}-\d{2}-\d{2})", re.MULTILINE)
 _TITLE_RE = re.compile(r"^- \*\*(.+?)\*\*")
 _CITATION_RE = re.compile(r"\*\((?:Sources?|來源)\s*[:：]\s*(.*?)\)\*\s*$")
-_LINKED_SOURCE_RE = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)\s*[,，]\s*([^;；]*)")
+# URLs may contain balanced parentheses, e.g. https://example.com/Story_(AI)
+_URL_IN_LINK = r"https?://(?:[^\s()]|\([^\s()]*\))+"
+_LINKED_SOURCE_RE = re.compile(r"\[([^\]]+)\]\((" + _URL_IN_LINK + r")\)\s*[,，]\s*([^;；]*)")
 _ISO_DATE_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\b")
 _SOURCE_ENTRY_RE = re.compile(r"^- (.+?):\s*(https?://\S+)")
 
@@ -180,8 +182,9 @@ def hold_old_stories(summary: str, today_date: str,
     for pos, idx in enumerate(en_items):
         sources = [(name, url or _lookup(by_name, name, date), date)
                    for name, url, date in citation_sources(lines[idx])]
-        dates = [date for _, _, date in sources if date]
-        earliest = min(dates) if dates else None
+        # Age uses every date written in the citation, so a source the parser could not
+        # read still counts (a missing date must never make a story look newer).
+        earliest = citation_earliest_date(lines[idx])
         if earliest and _parse_date(earliest) < cutoff:
             drop.add(idx)
             if pos < len(zh_items):
@@ -247,6 +250,15 @@ def citation_sources(line: str) -> list[tuple[str, str | None, str | None]]:
         if part:
             sources.append((re.split(r"[,，]", part)[0].strip(), None, _valid_date(_first_iso(part))))
     return sources
+
+
+def citation_earliest_date(line: str) -> str | None:
+    """Earliest real calendar date anywhere in the headline's citation, or None."""
+    m = _CITATION_RE.search(line)
+    if not m:
+        return None
+    dates = [d for d in (_valid_date(x) for x in _ISO_DATE_RE.findall(m.group(1))) if d]
+    return min(dates) if dates else None
 
 
 def _first_iso(text: str) -> str | None:

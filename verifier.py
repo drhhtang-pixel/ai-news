@@ -72,14 +72,17 @@ def _submission(response):
 
 
 def _apply_tool_dates(decisions):
-    """Dates come from tool evidence only: use the date a tool returned for each URL during this
-    run, never the model's own value. A URL no tool dated is 'unknown'."""
+    """Dates come from tool evidence only: the earliest date a tool returned for each URL during
+    this run (tools.tool_date), never the model's own value. A URL no tool dated is 'unknown'."""
     if not isinstance(decisions, list):
         return decisions
     for d in decisions:
-        for src in (d.get("sources") if isinstance(d, dict) else None) or []:
+        sources = d.get("sources") if isinstance(d, dict) else None
+        if not isinstance(sources, list):
+            continue  # malformed; check_decisions rejects it and asks for a resubmission
+        for src in sources:
             if isinstance(src, dict):
-                src["date"] = tools.URL_DATES.get(tools.normalize_url(str(src.get("url") or "")), "unknown")
+                src["date"] = tools.tool_date(str(src.get("url") or "")) or "unknown"
     return decisions
 
 
@@ -120,11 +123,23 @@ def run_verifier(summary: str, today_date: str, known: list[str] | None = None) 
                 if not resubmissions_left:
                     return ""
                 resubmissions_left -= 1
-                messages.append({"role": "user", "content": [{
-                    "type": "tool_result", "tool_use_id": submission.id, "is_error": True,
-                    "content": (f"Rejected: {e}. Call submit_verification again with exactly one decision "
-                                f"for each headline 1..{len(en)}."),
-                }]})
+                # Every tool_use in this reply needs a result: reject each submission and run any
+                # research calls that came with it.
+                rejection = (f"Rejected: {e}. Call submit_verification again with exactly one decision "
+                             f"for each headline 1..{len(en)}.")
+                results = []
+                for block in response.content:
+                    if block.type != "tool_use":
+                        continue
+                    if block.name == SUBMIT_TOOL["name"]:
+                        results.append({"type": "tool_result", "tool_use_id": block.id,
+                                        "is_error": True, "content": rejection})
+                    else:
+                        tool_call_count += 1
+                        output = execute_tool(block.name, block.input)
+                        log_tool_call("verifier", block.name, block.input, output)
+                        results.append({"type": "tool_result", "tool_use_id": block.id, "content": output})
+                messages.append({"role": "user", "content": results})
                 forced = True
                 response = _call(client, messages=messages, **request, **force_submit)
                 continue

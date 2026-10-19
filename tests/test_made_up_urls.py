@@ -39,7 +39,23 @@ class SeenUrlsTest(unittest.TestCase):
         client.extract.return_value = {"results": [{"title": "A", "raw_content": "no date", "url": "https://a.com/1"}]}
         execute_tool("web_search", {"query": "q"})
         execute_tool("extract_url", {"url": "https://a.com/1"})
-        self.assertEqual(tools.URL_DATES, {"a.com/1": "2026-10-16"})
+        self.assertEqual(tools.URL_DATES, {"a.com/1": {"2026-10-16"}})
+
+    @patch.dict("os.environ", {"TAVILY_API_KEY": "test"})
+    @patch("tools.TavilyClient")
+    def test_conflicting_dates_use_the_earliest_in_either_order(self, client_cls):
+        # Codex review R2-4: the result must not depend on which tool ran first.
+        client = client_cls.return_value
+        client.search.return_value = {"results": [
+            {"title": "A", "content": "x", "url": "https://a.com/1", "published_date": "2026-10-17"}]}
+        client.extract.return_value = {"results": [
+            {"title": "A", "raw_content": "x", "url": "https://a.com/1", "published_date": "2026-09-01"}]}
+        for order in (("web_search", "extract_url"), ("extract_url", "web_search")):
+            tools.URL_DATES.clear()
+            for name in order:
+                execute_tool(name, {"query": "q"} if name == "web_search" else {"url": "https://a.com/1"})
+            self.assertEqual(tools.tool_date("https://a.com/1"), "2026-09-01", order)
+        self.assertIsNone(tools.tool_date("https://never.seen/x"))
 
     @patch.dict("os.environ", {"TAVILY_API_KEY": "test"})
     @patch("tools.TavilyClient")

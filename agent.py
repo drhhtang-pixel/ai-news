@@ -255,7 +255,7 @@ def validate_summary(summary: str) -> list[str]:
             errors.append(f"EN has {en_count} headlines but ZH has {zh_count}")
         for lang, block, heading in (("EN", en_block, "### Sources"), ("ZH", zh_block, "### 來源")):
             section = block.split(heading, 1)[1].split("### ", 1)[0] if heading in block else ""
-            if en_count and "http" not in section:
+            if en_count and not _URL_RE.search(section):
                 errors.append(f"{lang} block has no source URLs under '{heading}'")
 
     return errors
