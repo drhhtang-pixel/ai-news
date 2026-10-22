@@ -10523,3 +10523,123 @@ On the hardware side, Micron's HBM4 roadmap presentation underscores that memory
 - GlobeNewswire（Vocalbeats.AI）: https://www.globenewswire.com/news-release/2026/10/21/3385066/0/en/vocalbeats-ai-achieves-iso-iec-42001-certification-reinforcing-responsible-ai-governance.html (published 2026-10-21)
 - TechCrunch（Anthropic 安全法草案）: https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed (published 2026-10-20)
 - NDTV Profit（Anthropic 算力支出）: https://www.ndtvprofit.com/technology/anthropic-may-spend-750-billion-on-computing-costs-wsj-says-12213014 (published 2026-10-21)
+
+## 2026-10-22 02:59
+
+<!-- EN -->
+### Headlines
+
+- **AI Discovers Critical PHP "php2shell" Vulnerability Threatening 70% of the Web:** Security researchers at Wiz (using Google's Gemini 4 Argon and OpenAI's GPT-5.6 Sol) and OpenAI independently uncovered two critical remote-code-execution flaws (CVE-2026-109618 & CVE-2026-109619) in PHP, prompting an emergency global patch and some government websites to go offline. *(Source: Fortune, October 21)*
+
+- **OpenAI Models Land on Google Cloud, Completing the "Big 3" Hyperscaler Sweep:** OpenAI announced that GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna are rolling out in private preview on Google Cloud's Model Garden, making Google Cloud the only hyperscaler to offer Gemini, Claude, and GPT side-by-side. *(Source: CNBC, October 21)*
+
+- **Nvidia Unveils DSX Pod "AI Factory in a Box" at GTC Berlin:** CEO Jensen Huang revealed the DSX Pod — a containerized, pre-assembled Vera Rubin AI rack system the size of a shipping container — designed to cut data center deployment time from months to as few as 14 days, with deliveries beginning early 2027. *(Source: CNBC, October 21)*
+
+- **Anthropic Set to Publicly File IPO Prospectus as Soon as Friday:** Sources say Anthropic plans to file its public S-1 with the SEC on October 24, disclosing $16.3B in H1 2026 revenue against an $80.7B net loss, with Wall Street eyeing a valuation of up to $2 trillion in a potential November listing. *(Source: Yahoo Finance / Reuters, October 21)*
+
+- **AI Safety Advocates Call for Compute Caps on OpenAI and Anthropic R&D:** A coalition of AI safety groups formally urged regulators to impose limits on the amount of compute the two leading labs can dedicate to internal research and development, citing accelerating self-improvement risks. *(Source: The Information, October 21)*
+
+- **T-Mobile, Nokia & Nvidia Complete World's First Live AI-RAN Commercial Call:** The three companies completed the first AI Radio Access Network call on a live commercial 5G network in Bellevue, Washington, with BT and Deutsche Telekom also announcing AI-RAN pilots on the same day. *(Source: Light Reading, October 21)*
+
+- **China and Russia Agree to Deepen AI and Frontier-Tech Cooperation:** Chinese Premier Li Qiang and Russian President Vladimir Putin agreed to expand bilateral cooperation into AI, biotechnology, and the digital economy, as bilateral trade surpassed $185 billion in the first eight months of 2026. *(Source: Asia News Network, October 22)*
+
+- **Tesla's Full Self-Driving Delayed to Q2 2027 as Robotaxi-Only Rollout Confirmed:** Tesla confirmed that unsupervised FSD will arrive no sooner than Q2 2027 and will initially be restricted to its Cybercab Robotaxi network, with the company's AI chip spending having tripled even as profits declined. *(Source: Shattered.io, October 22)*
+
+- **Japan's Preferred Networks & Tenstorrent Win NEDO xPU Chip Research Project:** The two companies were selected for a five-year Japanese government-backed program to develop an advanced AI chiplet-and-photonics computing platform, with PFN leading AI chiplet design and Tenstorrent developing open-architecture CPU chiplets. *(Source: TechNode Global, October 22)*
+
+- **NextDC Shares Plunge 44% on AI Data Center Power Delay:** The Australian AI data center operator slashed its 2027 revenue outlook from A$615–640M to A$475–500M after power grid operator Jemena suspended electricity network works needed to expand its Melbourne M3 facility until at least 2028. *(Source: Reuters, October 21)*
+
+---
+
+### Analysis
+
+The week of October 22, 2026 underscores AI's double-edged role in cybersecurity in a dramatic fashion. The PHP "php2shell" crisis is a landmark event: for the first time, AI tools (Wiz's Atlas platform leveraging Gemini 4 Argon and GPT-5.6 Sol, and OpenAI's internal "Patch the Planet" initiative) both discovered and helped coordinate the remediation of critical internet-scale vulnerabilities. Yet the same capability is a warning — the race between AI-powered defenders and AI-powered attackers is now real, forcing national cyber agencies including the NSA, UK NCSC, and the EU AI Office to issue emergency directives. The incident will likely accelerate regulatory pressure on AI labs to work more closely with governments on coordinated disclosure frameworks.
+
+On the commercial and infrastructure front, the OpenAI–Google Cloud partnership is arguably the most strategically significant business deal of the week. That two of the fiercest AI rivals are now co-selling models on a shared platform signals that the "AI platform wars" are maturing into a more pragmatic, multi-vendor ecosystem — where distribution reach matters as much as model quality. Nvidia's DSX Pod announcement at GTC Berlin reinforces the same theme from the hardware side: the bottleneck is no longer just chip performance but speed of physical deployment. By shrinking data center build times to 14 days, Nvidia is effectively trying to compress the revenue cycle for every AI customer globally, while simultaneously courting governments with the "every country should build its own AI" narrative.
+
+The financial storylines are equally consequential. Anthropic's imminent IPO filing — revealing staggering $80.7B losses against $16.3B in H1 revenue — will serve as the sector's most transparent stress test of whether Wall Street believes AI infrastructure burn rates are justified by long-term returns. Meanwhile, calls by safety advocates to cap compute for R&D, combined with EU AI Office investigations into agent security and the Tesla FSD delay, all point to a broader reckoning: the industry is hitting friction simultaneously on the safety, regulatory, and infrastructure-delivery fronts, even as model capabilities continue to advance rapidly.
+
+---
+
+### Sources
+
+- Fortune: https://fortune.com/2026/10/21/ai-tools-discovered-the-php-vulnerability-that-could-take-down-70-of-the-internet-now-the-race-is-on-to-patch-it-before-ai-powered-hackers-attack (published 2026-10-21)
+- WIRED: https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire (published 2026-10-21)
+- The New York Times: https://www.nytimes.com/2026/10/21/us/politics/php-vulnerability-ai-openai-cybersecurity.html (published 2026-10-21)
+- Wiz Blog: https://www.wiz.io/blog/php2shell-php-rce (published 2026-10-21)
+- Cybersecurity Dive: https://www.cybersecuritydive.com/news/php-website-vulnerabilities/833580 (published 2026-10-21)
+- BBC: https://www.bbc.com/news/articles/cmly0lg3w5x2o (published 2026-10-21)
+- Reuters (PHP/websites): https://www.reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21 (published 2026-10-21)
+- UK NCSC: https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php (published 2026-10-21)
+- CNBC (OpenAI/Google Cloud): https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html (published 2026-10-21)
+- SiliconANGLE: https://siliconangle.com/2026/10/21/openai-to-make-its-most-advanced-ai-models-available-in-google-cloud (published 2026-10-22)
+- CNBC (Nvidia DSX Pod): https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html (published 2026-10-21)
+- The Asia Business Daily: https://www.asiae.co.kr/en/article/2026102208173072951 (published 2026-10-21)
+- Yahoo Finance (Anthropic IPO): https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html (published 2026-10-21)
+- Dealroom: https://dealroom.co/news/164610-anthropics-draft-s-1-reveals-16-3b-revenue-80-7b-loss-and-up-to-750b-com (published 2026-10-21)
+- The Information: https://www.theinformation.com/newsletters/ai-agenda/openai-anthropic-cap-compute-r-d-say-ai-safety-advocates (published 2026-10-21)
+- Light Reading (T-Mobile AI-RAN): https://www.lightreading.com/ai-machine-learning/t-mobile-makes-first-ai-ran-call-with-nokia-and-nvidia (published 2026-10-21)
+- Asia News Network: https://asianews.network/china-russia-eye-ties-in-ai-other-frontier-sectors (published 2026-10-22)
+- Shattered.io (Tesla FSD): https://shattered.io/tesla-fsd-delay-q2-2027-robotaxi-2026 (published 2026-10-22)
+- TechNode Global: https://technode.global/2026/10/22/pfn-tenstorrent-nedo-xpu (published 2026-10-22)
+- Reuters (NextDC): https://www.reuters.com/world/asia-pacific/australian-ai-data-centre-operator-nextdc-shares-shed-44-revenue-delay-2026-10-21 (published 2026-10-21)
+- Fortune (Anthropic IPO/safety): https://fortune.com/2026/10/21/how-to-catch-an-ai-model (published 2026-10-21)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **AI 發現影響全球 70% 網站的 PHP「php2shell」重大漏洞：** Wiz 安全研究人員（使用 Google Gemini 4 Argon 與 OpenAI GPT-5.6 Sol）及 OpenAI 各自獨立發現 PHP 的兩個嚴重遠端程式碼執行漏洞（CVE-2026-109618 及 CVE-2026-109619），引發緊急全球修補行動，部分政府網站被迫暫時下線。*(來源：Fortune，10 月 21 日)*
+
+- **OpenAI 模型登上 Google Cloud，完成「三大雲端巨頭」全覆蓋：** OpenAI 宣布 GPT-6 Astra、GPT-6.1 Sol 及 GPT-6 Luna 以私人預覽形式上架 Google Cloud 模型花園，使 Google Cloud 成為唯一同時提供 Gemini、Claude 與 GPT 的超大規模雲端業者。*(來源：CNBC，10 月 21 日)*
+
+- **Nvidia 於 GTC 柏林大會發表 DSX Pod「箱裝 AI 工廠」：** 執行長黃仁勳發表 DSX Pod，這是一套貨櫃尺寸的預組裝 Vera Rubin AI 機架系統，可將資料中心部署時間從數個月縮短至最短 14 天，預計 2027 年初開始交貨。*(來源：CNBC，10 月 21 日)*
+
+- **Anthropic 最快週五公開申報 IPO 說明書：** 消息人士透露，Anthropic 計劃於 10 月 24 日向美國證券交易委員會公開提交 S-1，揭露 2026 年上半年 163 億美元營收及 807 億美元淨虧損，華爾街預計估值最高可達 2 兆美元，目標於 11 月掛牌。*(來源：Yahoo Finance / Reuters，10 月 21 日)*
+
+- **AI 安全倡議者呼籲對 OpenAI 與 Anthropic 的研發算力設上限：** 一群 AI 安全組織正式向監管機構呼籲，限制兩大頂尖 AI 實驗室可用於內部研發的算力規模，理由是 AI 自我改進風險正在加速升高。*(來源：The Information，10 月 21 日)*
+
+- **T-Mobile、Nokia 與 Nvidia 完成全球首次商用 AI-RAN 通話：** 三家公司在華盛頓州貝爾維尤市的商用 5G 獨立組網上，完成全球首次 AI 無線接取網路通話，英國電信及德國電信亦同日宣布各自的 AI-RAN 試驗計畫。*(來源：Light Reading，10 月 21 日)*
+
+- **中俄同意深化 AI 及前沿科技合作：** 中國國務院總理李強與俄羅斯總統普丁同意在人工智慧、生物技術及數位經濟等前沿領域擴大合作，2026 年前八個月雙邊貿易額已突破 1,850 億美元，年增 28.4%。*(來源：Asia News Network，10 月 22 日)*
+
+- **特斯拉完全自動駕駛延至 2027 年第二季，確認先限定 Robotaxi 使用：** 特斯拉確認無監督版 FSD 最早於 2027 年第二季推出，且初期僅限於自家 Cybercab Robotaxi 車隊，公司 AI 晶片支出已三倍增長但獲利下滑。*(來源：Shattered.io，10 月 22 日)*
+
+- **日本 Preferred Networks 與 Tenstorrent 獲選 NEDO xPU 晶片研究計畫：** 兩家公司獲選參與為期五年、由日本政府資助的先進 AI 晶片小晶片與光子整合運算平台研發計畫，PFN 主導 AI 晶片小晶片設計，Tenstorrent 負責開放架構 CPU 晶片小晶片。*(來源：TechNode Global，10 月 22 日)*
+
+- **NextDC 股價因 AI 資料中心電力延誤暴跌 44%：** 澳洲 AI 資料中心營運商大幅下調 2027 年營收展望，原因是電力網絡業者 Jemena 暫停其墨爾本 M3 設施所需的供電工程，最快需等到 2028 年才能恢復。*(來源：Reuters，10 月 21 日)*
+
+---
+
+### 分析
+
+2026 年 10 月 22 日當週，AI 在網路安全領域的雙面刃角色以極為戲劇化的方式呈現。PHP「php2shell」危機是一個具有里程碑意義的事件：這是 AI 工具首次在真正的網際網路規模上，既扮演發現者（Wiz 使用 Gemini 4 Argon 與 GPT-5.6 Sol），也扮演協調修補的推動者（OpenAI 的「Patch the Planet」行動）。然而，相同的能力同時也是一項嚴重警示——AI 驅動的防禦者與 AI 驅動的攻擊者之間的競賽已成真實，迫使美國 NSA、英國 NCSC 及歐盟 AI 辦公室相繼發出緊急指令。此次事件很可能加速監管機構推動 AI 實驗室與政府建立更緊密的協調揭露機制。
+
+在商業與基礎設施面，OpenAI 與 Google Cloud 的合作夥伴協議堪稱本週戰略意義最重大的商業交易。兩大最強競爭對手竟在同一平台上共同銷售模型，清楚表明「AI 平台大戰」正走向更務實的多廠商生態系——模型發行觸達率的重要性，已不亞於模型本身的性能優劣。Nvidia 在 GTC 柏林大會上發表的 DSX Pod，從硬體端呼應了同樣的主題：瓶頸不再只是晶片效能，而是實體部署的速度。透過將資料中心建置時間壓縮至 14 天，Nvidia 實際上是在試圖為全球每一位 AI 客戶壓縮投資回收週期，同時以「各國應建立自有 AI」的論述積極拉攏各國政府。
+
+在財務面，Anthropic 即將公開的 IPO 申報文件——揭示 2026 年上半年 807 億美元虧損、對比 163 億美元營收——將成為業界最透明的壓力測試，考驗華爾街是否相信 AI 基礎設施的巨額燒錢最終能獲得回報。與此同時，安全倡議者呼籲對研發算力設限、歐盟 AI 辦公室針對 AI 代理安全展開調查，以及特斯拉 FSD 的延遲，共同指向一個更宏觀的現實：即便模型能力持續快速提升，這個產業正同時在安全、監管及基礎設施交付三條戰線上遭遇阻力。
+
+---
+
+### 來源
+
+- Fortune: https://fortune.com/2026/10/21/ai-tools-discovered-the-php-vulnerability-that-could-take-down-70-of-the-internet-now-the-race-is-on-to-patch-it-before-ai-powered-hackers-attack (published 2026-10-21)
+- WIRED: https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire (published 2026-10-21)
+- The New York Times: https://www.nytimes.com/2026/10/21/us/politics/php-vulnerability-ai-openai-cybersecurity.html (published 2026-10-21)
+- Wiz Blog: https://www.wiz.io/blog/php2shell-php-rce (published 2026-10-21)
+- Cybersecurity Dive: https://www.cybersecuritydive.com/news/php-website-vulnerabilities/833580 (published 2026-10-21)
+- BBC: https://www.bbc.com/news/articles/cmly0lg3w5x2o (published 2026-10-21)
+- Reuters (PHP): https://www.reuters.com/world/asia-pacific/eu-agency-warns-websites-may-need-be-taken-offline-php-prepares-patches-2026-10-21 (published 2026-10-21)
+- UK NCSC: https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php (published 2026-10-21)
+- CNBC (OpenAI/Google Cloud): https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html (published 2026-10-21)
+- SiliconANGLE: https://siliconangle.com/2026/10/21/openai-to-make-its-most-advanced-ai-models-available-in-google-cloud (published 2026-10-22)
+- CNBC (Nvidia DSX Pod): https://www.cnbc.com/2026/10/21/nvidia-announces-vera-rubin-racks-that-can-be-shipped-on-a-truck-.html (published 2026-10-21)
+- The Asia Business Daily: https://www.asiae.co.kr/en/article/2026102208173072951 (published 2026-10-21)
+- Yahoo Finance (Anthropic IPO): https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html (published 2026-10-21)
+- Dealroom: https://dealroom.co/news/164610-anthropics-draft-s-1-reveals-16-3b-revenue-80-7b-loss-and-up-to-750b-com (published 2026-10-21)
+- The Information: https://www.theinformation.com/newsletters/ai-agenda/openai-anthropic-cap-compute-r-d-say-ai-safety-advocates (published 2026-10-21)
+- Light Reading (T-Mobile AI-RAN): https://www.lightreading.com/ai-machine-learning/t-mobile-makes-first-ai-ran-call-with-nokia-and-nvidia (published 2026-10-21)
+- Asia News Network: https://asianews.network/china-russia-eye-ties-in-ai-other-frontier-sectors (published 2026-10-22)
+- Shattered.io (Tesla FSD): https://shattered.io/tesla-fsd-delay-q2-2027-robotaxi-2026 (published 2026-10-22)
+- TechNode Global: https://technode.global/2026/10/22/pfn-tenstorrent-nedo-xpu (published 2026-10-22)
+- Reuters (NextDC): https://www.reuters.com/world/asia-pacific/australian-ai-data-centre-operator-nextdc-shares-shed-44-revenue-delay-2026-10-21 (published 2026-10-21)
+- Fortune (AI safety): https://fortune.com/2026/10/21/how-to-catch-an-ai-model (published 2026-10-21)
