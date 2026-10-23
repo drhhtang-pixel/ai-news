@@ -10643,3 +10643,99 @@ The financial storylines are equally consequential. Anthropic's imminent IPO fil
 - TechNode Global: https://technode.global/2026/10/22/pfn-tenstorrent-nedo-xpu (published 2026-10-22)
 - Reuters (NextDC): https://www.reuters.com/world/asia-pacific/australian-ai-data-centre-operator-nextdc-shares-shed-44-revenue-delay-2026-10-21 (published 2026-10-21)
 - Fortune (AI safety): https://fortune.com/2026/10/21/how-to-catch-an-ai-model (published 2026-10-21)
+
+## 2026-10-23 03:02
+
+<!-- EN -->
+### Headlines
+
+- **Meta Q3 2026 Earnings: AI Fuels Record Revenue Despite Soaring Costs:** Meta reported Q3 revenue of $64.6 billion (up 26% YoY), beating analyst forecasts, as AI-driven ad improvements and engagement gains powered growth — though a $9.9 billion legal charge and $135–$145 billion full-year capex guidance weighed on profit margins. *(Source: Fortune, October 22)*
+
+- **Hugging Face Launches Carbon-X — A "ChatGPT for DNA":** The open-source AI platform unveiled Carbon-X, a 14-billion-parameter model trained on human, mammal, plant, and fungal DNA that lets scientists interact with genetic code in natural language, with applications in mutation analysis, drug discovery, and gene therapy design. *(Source: Wired, October 22)*
+
+- **Agentic AI Foundation Surpasses 300 Members; Anthropic Donates Agent Skills Standard:** The Linux Foundation's Agentic AI Foundation (AAIF) hit 305 member organizations in under a year, welcoming Ant Group, Gates Foundation, MongoDB, Royal Bank of Canada, and others as Gold Members — while Anthropic simultaneously donated its Agent Skills open standard (nearly 280 million installs) to the foundation. *(Source: PR Newswire, October 22)*
+
+- **Rivian Acquires World-Model AI Startup Third Dimension AI:** Rivian snapped up the 15-person autonomous-vehicle simulation startup Third Dimension AI, which uses generative AI and game-engine technology to build synthetic training environments for self-driving systems, accelerating Rivian's autonomy roadmap. *(Source: TechCrunch, October 22)*
+
+- **Google Cloud Unveils "Project Chrysalis" — Self-Evolving AI Agents with Built-In Guardrails:** Google published a research reference architecture describing self-evolving AI agents built on the Gemini platform and its Agent Development Kit (ADK), featuring a three-timescale governance model and five security guardrails to keep autonomous agents within safe boundaries. *(Source: Google Developers Blog, October 22)*
+
+- **Pharma Industry Doubles Down on AI to Cut Drug Development Costs and Timelines:** Major pharmaceutical companies are increasingly betting on AI-powered molecular modeling and data analysis to compress drug R&D cycles, with the AI-in-medicine market projected to grow from $29.27 billion in 2026 to $3.36 trillion by 2040. *(Source: Reuters, October 22)*
+
+- **ABC/Washington Post/Ipsos Poll: Most Americans Say AI Is Bad for Society:** A new national poll found that majorities of U.S. adults view AI as harmful to society and oppose the construction of more data centers in their communities, reflecting growing public anxiety over AI's social and environmental footprint. *(Source: ABC News, October 22)*
+
+- **Perimeter Institute Launches Physics-Driven AI Initiative (PhysDAI):** The renowned Perimeter Institute for Theoretical Physics announced the PhysDAI initiative to develop AI methods grounded in physics principles, aiming to produce more reliable, interpretable, and scientifically rigorous AI models. *(Source: HPCwire, October 22)*
+
+- **Arc Browser to Shut Down December 22 as The Browser Company Goes All-In on AI-First Dia:** The Browser Company announced it will sunset its popular Arc browser on December 22, 2026, directing all users to Dia — its AI-native browser — citing the escalating security demands of the AI era as making dual development unsustainable. *(Source: TechCrunch, October 22)*
+
+- **Meta's Muse Superintelligence Platform Takes Center Stage in Revenue Strategy:** Beyond earnings figures, Meta CEO Mark Zuckerberg highlighted the Muse personal superintelligence platform — along with a planned 2-for-1 stock split effective January 2027 — as the cornerstone of the company's next phase of monetization and user engagement. *(Source: The Globe and Mail, October 22)*
+
+---
+
+### Analysis
+
+The dominant theme of October 22–23, 2026 is **AI's collision with financial reality**. Meta's Q3 results crystallize the central tension facing Big Tech: AI investment is generating measurable returns in advertising efficiency and user engagement, yet the capital expenditures required are staggering — Meta alone projects $135–145 billion in capex for the full year, and analysts forecast Big Tech collectively spending up to $790 billion on AI infrastructure in 2026. The public is noticing: the ABC/Post/Ipsos poll showing majority American opposition to AI and data centers signals that a social and political backlash is building that companies and policymakers can no longer ignore. Meanwhile, the pharmaceutical sector's aggressive AI pivot — combined with the projected growth of AI in medicine from ~$29 billion to over $3 trillion by 2040 — shows that AI's transformative impact on high-stakes industries is still accelerating, not plateauing.
+
+On the **infrastructure and standards** front, the Agentic AI Foundation crossing 300 members — including major financial institutions like Royal Bank of Canada and Gates Foundation, alongside tech giants — marks a maturation moment for the agentic AI ecosystem. Anthropic's decision to donate its Agent Skills standard (with nearly 280 million installs) to an open governance body signals a strategic bet that open interoperability, rather than proprietary lock-in, will define the next wave of AI agent deployment. Google's Project Chrysalis adds another dimension: as AI agents become self-modifying and capable of acting autonomously in production environments, embedding governance guardrails at the architectural level — not as an afterthought — is becoming an engineering imperative. Rivian's acquisition of Third Dimension AI and the broader momentum in AI-powered simulation underscore how generative AI is reshaping hardware-dependent industries like autonomous vehicles, where synthetic data generation is becoming as important as real-world testing.
+
+---
+
+### Sources
+
+- Fortune: https://fortune.com/2026/10/21/meta-q3-earnings-mark-zuckerberg-capex-muse (published 2026-10-22)
+- The Globe and Mail: https://www.theglobeandmail.com/investing/markets/markets-news/motley/8298895/meta-meta-q3-2026-earnings-call-transcript (published 2026-10-22)
+- Wired: https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna (published 2026-10-22)
+- PR Newswire: https://www.prnewswire.com/news-releases/agentic-ai-foundation-surpasses-300-members-in-less-than-one-year-302916687.html (published 2026-10-22)
+- TechCrunch: https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions (published 2026-10-22)
+- Google Developers Blog: https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/ (published 2026-10-22)
+- Reuters: https://www.reuters.com/business/healthcare-pharmaceuticals/pharma-sector-doubles-down-ai-amid-hopes-slashing-costs-timelines-2026-10-22 (published 2026-10-22)
+- ABC News: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 (published 2026-10-22)
+- HPCwire: https://www.hpcwire.com/off-the-wire/perimeter-institute-launches-new-physics-driven-ai-initiative (published 2026-10-22)
+- TechCrunch: https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia (published 2026-10-22)
+- MediaPost: https://www.mediapost.com/publications/article/418930/meta-q3-boosts-ai-spend-ad-biz-users.html (published 2026-10-22)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Meta 2026 年第三季財報：AI 驅動創紀錄營收，但成本急劇攀升：** Meta 第三季營收達 646 億美元（年增 26%），超越分析師預期，AI 廣告優化與用戶互動提升是主要動力，但 99 億美元法律和解費用及全年 1,350–1,450 億美元資本支出指引令利潤承壓。*(來源：Fortune，10 月 22 日)*
+
+- **Hugging Face 推出 Carbon-X——「DNA 版 ChatGPT」：** 這家開源 AI 平台發布了擁有 140 億參數的 Carbon-X 模型，訓練資料涵蓋人類、哺乳動物、植物和真菌 DNA，讓科學家能以自然語言與遺傳密碼「對話」，可應用於突變分析、藥物研發和基因療法設計。*(來源：Wired，10 月 22 日)*
+
+- **智能體 AI 基金會成員突破 300 家；Anthropic 捐贈 Agent Skills 開放標準：** Linux 基金會旗下的智能體 AI 基金會（AAIF）成立不足一年即達到 305 個成員機構，螞蟻集團、蓋茨基金會、MongoDB、加拿大皇家銀行等加入為黃金會員；同日 Anthropic 將其 Agent Skills 開放標準（近 2.8 億次安裝）捐贈給該基金會。*(來源：PR Newswire，10 月 22 日)*
+
+- **Rivian 收購世界模型 AI 新創公司 Third Dimension AI：** Rivian 收購了擁有 15 名員工的自動駕駛模擬新創公司 Third Dimension AI，該公司利用生成式 AI 和遊戲引擎技術構建自動駕駛系統的合成訓練環境，進一步加速 Rivian 的自動駕駛路線圖。*(來源：TechCrunch，10 月 22 日)*
+
+- **Google Cloud 發布「Project Chrysalis」——具備內建護欄的自進化 AI 智能體架構：** Google 公布了一套基於 Gemini 平台和智能體開發套件（ADK）的研究參考架構，展示具三層時間尺度治理模型和五重安全護欄的自進化 AI 智能體，確保自主智能體在安全邊界內運作。*(來源：Google Developers Blog，10 月 22 日)*
+
+- **製藥業加碼押注 AI 以削減研發成本和周期：** 主要製藥公司正大力採用 AI 驅動的分子建模和數據分析，縮短藥物研發周期；AI 醫療市場預計將從 2026 年的 292.7 億美元增長至 2040 年的 3.36 兆美元。*(來源：Reuters，10 月 22 日)*
+
+- **ABC/華盛頓郵報/Ipsos 民調：多數美國人認為 AI 對社會有害：** 一項全國性民調顯示，多數美國成年人認為 AI 對社會有負面影響，並反對在其社區建設更多數據中心，反映出公眾對 AI 社會與環境影響的憂慮持續升溫。*(來源：ABC News，10 月 22 日)*
+
+- **Perimeter 理論物理研究所啟動物理驅動 AI 計劃（PhysDAI）：** 知名的 Perimeter 理論物理研究所宣布啟動 PhysDAI 計劃，旨在開發以物理原理為基礎的 AI 方法，以構建更可靠、可解釋且科學嚴謹的 AI 模型。*(來源：HPCwire，10 月 22 日)*
+
+- **Arc 瀏覽器將於 12 月 22 日停服，The Browser Company 全面押注 AI 原生瀏覽器 Dia：** The Browser Company 宣布將於 2026 年 12 月 22 日停止運營廣受歡迎的 Arc 瀏覽器，引導所有用戶轉向其 AI 原生瀏覽器 Dia，理由是 AI 時代的安全需求使雙線開發難以為繼。*(來源：TechCrunch，10 月 22 日)*
+
+- **Meta Muse 超級智能平台成為營收策略核心：** Meta 執行長馬克·祖克柏在財報電話會議上將 Muse 個人超級智能平台定位為公司下一階段變現和用戶互動的核心，並宣布計劃於 2027 年 1 月實施 2 股換 1 股的股票分拆。*(來源：The Globe and Mail，10 月 22 日)*
+
+---
+
+### 分析
+
+2026 年 10 月 22 至 23 日的核心主題，是 **AI 與商業現實的正面交鋒**。Meta 的第三季財報清晰呈現了科技巨頭面臨的核心矛盾：AI 投資在廣告效率和用戶互動方面已產生可量化的回報，但所需的資本支出規模極為驚人——Meta 單家公司全年資本支出預計高達 1,350–1,450 億美元，而分析師預測大型科技公司 2026 年整體 AI 基礎設施支出將達 7,900 億美元。公眾已對此有所警覺：ABC/華郵/Ipsos 民調顯示多數美國人反對 AI 及數據中心擴張，意味著社會和政治層面的反彈情緒已不可忽視。與此同時，製藥業的大規模 AI 押注——加之 AI 醫療市場預計從約 293 億美元增至 2040 年逾 3 兆美元的巨大空間——表明 AI 對高風險行業的變革影響仍在加速，尚未觸及天花板。
+
+在**基礎設施與開放標準**層面，智能體 AI 基金會成員突破 300 家——涵蓋加拿大皇家銀行等金融機構、蓋茨基金會，以及眾多科技龍頭——標誌著智能體 AI 生態系統進入成熟階段。Anthropic 選擇將擁有近 2.8 億次安裝量的 Agent Skills 標準捐贈給開放治理機構，是一個戰略性信號：開放互通而非私有鎖定，將決定下一波 AI 智能體部署的格局。Google Project Chrysalis 的發布則揭示了另一層緊迫性：隨著 AI 智能體具備自我修改和在生產環境中自主行動的能力，在架構層面嵌入治理護欄——而非事後補救——已成為工程設計的必要前提。Rivian 收購 Third Dimension AI，以及生成式 AI 驅動的合成仿真技術的廣泛應用，進一步印證了 AI 正在深度重塑自動駕駛等硬體密集型行業的底層邏輯——合成數據生成的重要性已不亞於真實路測數據。
+
+---
+
+### 來源
+
+- Fortune: https://fortune.com/2026/10/21/meta-q3-earnings-mark-zuckerberg-capex-muse (published 2026-10-22)
+- The Globe and Mail: https://www.theglobeandmail.com/investing/markets/markets-news/motley/8298895/meta-meta-q3-2026-earnings-call-transcript (published 2026-10-22)
+- Wired: https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna (published 2026-10-22)
+- PR Newswire: https://www.prnewswire.com/news-releases/agentic-ai-foundation-surpasses-300-members-in-less-than-one-year-302916687.html (published 2026-10-22)
+- TechCrunch: https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions (published 2026-10-22)
+- Google Developers Blog: https://developers.googleblog.com/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/ (published 2026-10-22)
+- Reuters: https://www.reuters.com/business/healthcare-pharmaceuticals/pharma-sector-doubles-down-ai-amid-hopes-slashing-costs-timelines-2026-10-22 (published 2026-10-22)
+- ABC News: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 (published 2026-10-22)
+- HPCwire: https://www.hpcwire.com/off-the-wire/perimeter-institute-launches-new-physics-driven-ai-initiative (published 2026-10-22)
+- TechCrunch: https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia (published 2026-10-22)
+- MediaPost: https://www.mediapost.com/publications/article/418930/meta-q3-boosts-ai-spend-ad-biz-users.html (published 2026-10-22)
