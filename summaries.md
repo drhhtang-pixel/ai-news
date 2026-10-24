@@ -10739,3 +10739,91 @@ On the **infrastructure and standards** front, the Agentic AI Foundation crossin
 - HPCwire: https://www.hpcwire.com/off-the-wire/perimeter-institute-launches-new-physics-driven-ai-initiative (published 2026-10-22)
 - TechCrunch: https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia (published 2026-10-22)
 - MediaPost: https://www.mediapost.com/publications/article/418930/meta-q3-boosts-ai-spend-ad-biz-users.html (published 2026-10-22)
+
+## 2026-10-24 02:58
+
+<!-- EN -->
+### Headlines
+
+- **UK Commits £100 Million to AI Biosecurity Lab with OpenAI, Anthropic & DeepMind:** The UK government announced £100M in funding for a new AI Biosecurity Lab, backed by up to £200M in AI model credits from OpenAI and Anthropic, and partnered with Google DeepMind and Basecamp Research to detect and respond to biological threats. *(Source: Bloomberg, October 23)*
+
+- **AI-Powered Hacking Wave Overwhelms Internet Users and Developers:** A surge of AI-assisted cyberattacks is draining API credits and hijacking developer accounts at scale, with one startup founder waking up to $449 in fraudulent charges across Anthropic and OpenAI services in a single night. *(Source: The Wall Street Journal, October 24)*
+
+- **China's First Fully AI-Generated Feature Film Opens to Weak Ticket Sales:** The sci-fi thriller *Sanxingdui: Future Past*, made by nearly 100 people over two years at a cost of $1.5 million, launched across 10,000+ Chinese cinemas but generated only $11,980 in advance sales, with audiences skeptical about paying to watch AI-generated cinema. *(Source: Hong Kong Free Press, October 23)*
+
+- **Canva Launches "Craft," Its First In-House Image Generation Model:** Built from scratch by Canva Research, Craft debuted at #4 on the DesignArena benchmark leaderboard at launch, competing directly against models from Google, Microsoft, xAI, and ByteDance. *(Source: Tech Insider, October 23)*
+
+- **SAP Integrates AI Into Its Professional Certification Renewal Process:** SAP's new "Stay Certified" program now offers an optional AI-driven annual recertification pathway, deepening the company's autonomous AI agenda across its enterprise software ecosystem. *(Source: CIO, October 23)*
+
+- **Walmart Opens Agent Gateway for AI Shopping Assistants:** Walmart launched its Agent Gateway — an MCP-based server connecting AI assistants like ChatGPT, Google Gemini, and Meta's Muse directly to Walmart and Sam's Club systems — enabling approved agents to search and purchase on behalf of customers, in stark contrast to Amazon's move to block such agents. *(Source: The AI Insider, October 23)*
+
+- **New AI Brain Imaging Method OSCAR Uncovers Hidden Neural Reorganization:** Researchers unveiled OSCAR, an AI technique using one-class SVM on fMRI data, which reveals previously undetectable brain network reorganization patterns in task performance and early psychosis — a potential breakthrough for neurological diagnostics. *(Source: Bioengineer.org, October 24)*
+
+---
+
+### Analysis
+
+The most consequential development this week is the UK government's £100 million AI Biosecurity Lab announcement, representing a significant escalation in state-level AI governance. By directly partnering with frontier AI labs — OpenAI, Anthropic, and Google DeepMind — rather than regulating them at arm's length, the UK is signaling a co-development model for AI safety infrastructure. This mirrors a broader global trend in which governments are embedding AI companies into national security architectures, blurring the line between commercial and sovereign AI capabilities. The accompanying £65 million for pathogen countermeasures and Nvidia's separate $250M compute pledge suggest that biosecurity is rapidly becoming a flagship domain for applied AI policy.
+
+The AI cybersecurity threat landscape is simultaneously reaching an inflection point. The WSJ's reporting on wave-style AI-powered hacking — combined with the earlier OpenCode API key breach and Railway's security disclosure — illustrates how agentic AI systems have massively expanded the attack surface for both consumers and developers. Stolen API credentials now enable attackers to operate at low cost and high speed, running up charges on AI inference providers and exfiltrating sensitive data. The same agentic capabilities that make tools like Walmart's Agent Gateway commercially compelling are creating new vectors for abuse, raising urgent questions about identity, authorization, and trust in the emerging agentic economy.
+
+On the cultural and commercial front, two parallel stories capture the public's ambivalence toward AI-generated content. China's *Sanxingdui: Future Past* — the first fully AI-generated feature film — struggled to sell tickets despite massive screen rollout, reflecting audience resistance to paying premium prices for AI content. Meanwhile, Canva's launch of its proprietary Craft image model signals that AI content generation is increasingly a competitive infrastructure play among tech platforms. Together, these developments suggest a two-speed AI adoption curve: enterprises and platforms are racing to embed AI, while consumers are still deciding whether AI-generated creative work carries cultural value worth paying for.
+
+---
+
+### Sources
+
+- Bloomberg: https://www.bloomberg.com/news/articles/2026-10-23/uk-vows-100-million-for-biosecurity-lab-with-openai-anthropic (published 2026-10-23)
+- Unite.AI: https://www.unite.ai/uk-establishes-ai-biosecurity-lab-backed-by-openai-and-anthropic (published 2026-10-24)
+- Global Banking & Finance Review: https://www.globalbankingandfinance.com/uk-government-sets-out-800-million-ai-security-funding (published 2026-10-23)
+- The Wall Street Journal: https://www.wsj.com/tech/ai/ai-hacks-are-coming-thick-and-fast-and-overwhelming-the-internet-4529c26c (published 2026-10-24)
+- Channel News Asia: https://www.channelnewsasia.com/east-asia/china-first-ai-film-cinemas-ticket-sales-6485401 (published 2026-10-23)
+- Hong Kong Free Press: https://hongkongfp.com/2026/10/23/chinas-first-ai-film-hits-cinemas-but-ticket-sales-lag (published 2026-10-23)
+- Taipei Times: https://www.taipeitimes.com/News/world/archives/2026/10/24/2003866546 (published 2026-10-23)
+- Tech Insider (Canva Craft): https://tech-insider.org/au/canva-craft-image-model-designarena-2026 (published 2026-10-23)
+- CIO (SAP): https://www.cio.com/article/4239657/sap-lets-ai-play-key-role-in-its-certification-renewal-process.html (published 2026-10-23)
+- The AI Insider (Walmart): https://theaiinsider.tech/2026/10/23/walmart-opens-its-doors-to-ai-shopping-agents-with-new-agent-gateway (published 2026-10-23)
+- Bioengineer.org: https://bioengineer.org/new-ai-method-oscar-reveals-hidden-brain-network-reorganization-in-tasks-and-psychosis (published 2026-10-24)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **英國投入 1 億英鎊成立 AI 生物安全實驗室，獲 OpenAI、Anthropic 及 DeepMind 支持：** 英國政府宣布撥款 1 億英鎊成立 AI 生物安全實驗室，OpenAI 與 Anthropic 另承諾提供高達 2 億英鎊的 AI 模型算力，Google DeepMind 及 Basecamp Research 亦加入合作，目標是利用 AI 偵測並應對生物威脅。*(來源：Bloomberg，10 月 23 日)*
+
+- **AI 驅動駭客攻擊浪潮席捲網路，開發者損失慘重：** 一波波 AI 輔助網路攻擊大規模竊取 API 憑證並盜刷費用，一名新創創辦人一夜之間在 Anthropic 與 OpenAI 服務上被盜刷 449 美元，反映出 AI 代理時代的全新資安危機。*(來源：華爾街日報，10 月 24 日)*
+
+- **中國首部全 AI 生成劇情長片上映，票房慘淡：** 科幻驚悚片《三星堆：未來記憶》由近百人歷時逾兩年、斥資 150 萬美元製作，在全國超過一萬場次放映，但預售票房僅約 1.2 萬美元，觀眾對「付費看 AI 電影」態度保留。*(來源：香港自由新聞，10 月 23 日)*
+
+- **Canva 發布自研首個圖像生成模型「Craft」：** Canva 研究院從零開發的 Craft 模型正式公開，在 DesignArena 基準排行榜上以第四名成績登場，直接與 Google、微軟、xAI 及字節跳動的模型競爭，標誌 Canva 從租用 AI 轉向自研基礎模型。*(來源：Tech Insider，10 月 23 日)*
+
+- **SAP 將 AI 納入專業認證更新流程：** SAP 推出「Stay Certified」計畫，為年度重新認證提供可選的 AI 驅動方式，進一步深化其在企業軟體生態中的自主 AI 佈局。*(來源：CIO，10 月 23 日)*
+
+- **Walmart 開放 AI 購物代理閘道，與 Amazon 形成鮮明對比：** Walmart 推出基於 MCP 協定的 Agent Gateway，讓 ChatGPT、Google Gemini、Meta Muse 等 AI 助理直接接入 Walmart 與 Sam's Club 系統代為購物，與 Amazon 封鎖 AI 代理的策略方向截然相反。*(來源：The AI Insider，10 月 23 日)*
+
+- **AI 腦部影像新方法 OSCAR 揭示隱藏神經重組模式：** 研究人員發布 OSCAR——一種結合單類別 SVM 與 fMRI 數據的 AI 技術，能偵測任務執行與早期精神病中原本難以察覺的腦網絡重組，有望成為神經疾病診斷的重大突破。*(來源：Bioengineer.org，10 月 24 日)*
+
+---
+
+### 分析
+
+本週最具戰略意義的發展，是英國政府宣布成立 AI 生物安全實驗室。此舉代表政府不再以單純監管者的角色面對前沿 AI 公司，而是選擇與 OpenAI、Anthropic、Google DeepMind 共同「共建」國家安全基礎設施，反映出全球各國政府正將頂尖 AI 企業嵌入主權安全體系的趨勢。總額逾 8 億英鎊的 AI 安全投資組合，以及 Nvidia 另行承諾的 2.5 億美元算力，顯示生物安全正快速成為 AI 政策最核心的應用場域之一。
+
+與此同時，AI 資安威脅正加速惡化。《華爾街日報》有關 AI 駭客攻擊浪潮的報導，與早前 OpenCode API 金鑰洩露及 Railway 平台安全事件共同說明：代理型 AI 系統大幅擴大了攻擊面，竊得的 API 憑證讓攻擊者得以低成本、高速度地在 AI 推理服務上累積巨額費用，或竊取敏感資料。這一困境的弔詭之處在於，正是 Walmart Agent Gateway 所代表的代理購物能力，同樣為惡意利用開啟了大門，對整個代理經濟時代的身份驗證、授權與信任機制提出了緊迫考驗。
+
+在文化與商業層面，兩則並行的故事折射出公眾對 AI 生成內容的矛盾心理。中國《三星堆：未來記憶》票房冷淡，表明消費者尚未準備好為 AI 生成的院線電影支付票價；而 Canva 自研 Craft 模型，則顯示 AI 生成能力正成為科技平台的核心基礎設施競爭。兩相對比，AI 採用呈現出「雙速曲線」：企業與平台正加速將 AI 深度整合，消費者卻仍在衡量 AI 創作內容究竟是否值得買單。
+
+---
+
+### 來源
+
+- Bloomberg: https://www.bloomberg.com/news/articles/2026-10-23/uk-vows-100-million-for-biosecurity-lab-with-openai-anthropic (published 2026-10-23)
+- Unite.AI: https://www.unite.ai/uk-establishes-ai-biosecurity-lab-backed-by-openai-and-anthropic (published 2026-10-24)
+- Global Banking & Finance Review: https://www.globalbankingandfinance.com/uk-government-sets-out-800-million-ai-security-funding (published 2026-10-23)
+- 華爾街日報: https://www.wsj.com/tech/ai/ai-hacks-are-coming-thick-and-fast-and-overwhelming-the-internet-4529c26c (published 2026-10-24)
+- Channel News Asia: https://www.channelnewsasia.com/east-asia/china-first-ai-film-cinemas-ticket-sales-6485401 (published 2026-10-23)
+- Hong Kong Free Press: https://hongkongfp.com/2026/10/23/chinas-first-ai-film-hits-cinemas-but-ticket-sales-lag (published 2026-10-23)
+- Taipei Times: https://www.taipeitimes.com/News/world/archives/2026/10/24/2003866546 (published 2026-10-23)
+- Tech Insider（Canva Craft）: https://tech-insider.org/au/canva-craft-image-model-designarena-2026 (published 2026-10-23)
+- CIO（SAP）: https://www.cio.com/article/4239657/sap-lets-ai-play-key-role-in-its-certification-renewal-process.html (published 2026-10-23)
+- The AI Insider（Walmart）: https://theaiinsider.tech/2026/10/23/walmart-opens-its-doors-to-ai-shopping-agents-with-new-agent-gateway (published 2026-10-23)
+- Bioengineer.org: https://bioengineer.org/new-ai-method-oscar-reveals-hidden-brain-network-reorganization-in-tasks-and-psychosis (published 2026-10-24)
