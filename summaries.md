@@ -10827,3 +10827,87 @@ On the cultural and commercial front, two parallel stories capture the public's 
 - CIO（SAP）: https://www.cio.com/article/4239657/sap-lets-ai-play-key-role-in-its-certification-renewal-process.html (published 2026-10-23)
 - The AI Insider（Walmart）: https://theaiinsider.tech/2026/10/23/walmart-opens-its-doors-to-ai-shopping-agents-with-new-agent-gateway (published 2026-10-23)
 - Bioengineer.org: https://bioengineer.org/new-ai-method-oscar-reveals-hidden-brain-network-reorganization-in-tasks-and-psychosis (published 2026-10-24)
+
+## 2026-10-25 02:51
+
+<!-- EN -->
+### Headlines
+
+- **UK Launches £100M AI Biosecurity Lab Backed by OpenAI, Anthropic & Google DeepMind:** The UK government announced £100 million in public funding for the world's first dedicated AI Biosecurity Lab (AIBL), with OpenAI and Anthropic pledging up to £200 million combined in model credits and compute, and Google DeepMind joining as a research partner to detect biological threats and accelerate vaccine development. *(Source: BBC News, October 24)*
+
+- **Fired OpenAI Safety Researchers Say They Were Never Told What They Leaked:** Three dismissed OpenAI safety researchers — Jasmine Wang, Tomek Korbak, and Mikita Balesni — publicly stated they were never informed of specific policy violations, and suspect their firings were linked to using encrypted Signal chats with disappearing messages while collaborating with external AI safety auditors. *(Source: The Decoder, October 24)*
+
+- **OpenAI Publishes Report on Securing Its Frontier Model Training Environment:** OpenAI released a security publication detailing how it has strengthened containment protocols for internal frontier-model training and evaluation, using its most capable models to red-team its own boundaries — a move seen as a response to a series of AI containment incidents over recent months. *(Source: TechCrunch, October 23)*
+
+- **Moonshot AI Curbs Hacking Capabilities in New Kimi Model:** Chinese AI startup Moonshot AI announced it has deliberately reduced the cyber-offensive capabilities of its newest Kimi model amid growing global fears over AI-powered cyberattacks, making it one of the first major AI developers to proactively limit a model's hacking potential before release. *(Source: Reuters, October 24)*
+
+- **Nvidia's Role as AI Financier Faces First Major Test as Neoclouds Feel Market Pressure:** A new CNBC analysis reveals Nvidia has accumulated over $153 billion in net present value of off-balance-sheet liabilities in fiscal 2026 — up more than $100 billion year-over-year — as neocloud customers face market headwinds and ratings agencies like Moody's raise alarms about AI-related financing risks. *(Source: CNBC, October 24)*
+
+- **AI-Powered Hacking Wave Overwhelms Businesses and Individuals:** The Wall Street Journal reported a sharp surge in AI-driven cyberattacks, with autonomous AI agents draining API credits from developers, breaching company websites, and targeting financial accounts, following a broader wave of incidents involving agentic AI tools used by malicious actors. *(Source: Wall Street Journal, October 24)*
+
+- **Hugging Face CEO at Miami AI Summit: Every Company Will Become an AI Builder:** Hugging Face CEO Clem Delangue, speaking at the Miami AI Summit, predicted that all companies will eventually become AI builders, as enterprise token consumption on open-weight models surged from near zero to 30% of total traffic in just six months, signaling a dramatic shift toward open-architecture AI deployments. *(Source: Refresh Miami, October 24)*
+
+---
+
+### Analysis
+
+The dominant story of October 24–25, 2026 is the escalating tension between AI capability and AI safety, playing out on multiple fronts simultaneously. The UK government's £100 million AI Biosecurity Lab announcement — backed by OpenAI, Anthropic, and Google DeepMind — represents a landmark moment in which frontier AI companies are being enlisted not merely as commercial actors but as quasi-public infrastructure providers for national security. The fact that the companies' contributions come in the form of model credits rather than cash raises important questions about accountability and the long-term sustainability of such public-private arrangements. Meanwhile, OpenAI's publication on securing its frontier model training environment signals a company acutely aware that its internal processes are under scrutiny, coming just weeks after a string of high-profile security incidents and researcher firings.
+
+The ongoing saga of the three dismissed OpenAI safety researchers — and their public insistence that they were never told what they actually leaked — cuts to the heart of one of the industry's deepest fault lines: who gets to oversee AI development, and on whose terms. Their case illustrates the structural conflict between a company's commercial imperative to protect proprietary model designs and the legitimate need for independent safety auditing. Alongside this, the decision by Moonshot AI to voluntarily neuter its Kimi model's hacking capabilities reflects a growing — if still uneven — industry recognition that proactive self-regulation on dangerous capabilities may be preferable to waiting for regulatory mandates. The surge of AI-powered cyberattacks reported by the WSJ and Reuters underscores just how urgent this moment is: agentic AI is no longer a theoretical risk but an active, real-world threat vector being exploited at scale.
+
+The financial undercurrents of this week's news are equally significant. Nvidia's ballooning off-balance-sheet liabilities — exceeding $153 billion — and the market pressures facing neocloud operators suggest that the AI infrastructure boom is entering a more turbulent phase of financial reckoning. As CFOs demand strict token budget management and open-weight models capture a rapidly growing share of enterprise workloads (per the Miami AI Summit data), the economics of AI are shifting in ways that could reshape the competitive landscape among model providers, cloud operators, and hardware manufacturers alike. Together, this week's headlines paint a picture of an industry simultaneously at its most powerful and its most vulnerable.
+
+---
+
+### Sources
+- BBC News (UK AI Biosecurity Lab): https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo (published 2026-10-24)
+- The Decoder: https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked (published 2026-10-24)
+- TechCrunch (OpenAI frontier training): https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks (published 2026-10-23)
+- SF Standard: https://sfstandard.com/2026/10/24/openai-firings-safety-signal-chats (published 2026-10-24)
+- Winbuzzer: https://winbuzzer.com/2026/10/24/openai-probed-safety-researchers-signal-messaging-before-firings-xcxwbn (published 2026-10-24)
+- OpenAI: https://openai.com/index/securing-our-frontier-model-training-environment (published 2026-10-23, updated 2026-10-24)
+- Reuters (Moonshot AI): https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24 (published 2026-10-24)
+- CNBC: https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html (published 2026-10-24)
+- Wall Street Journal: https://www.wsj.com/tech/ai/ai-hacks-are-coming-thick-and-fast-and-overwhelming-the-internet-4529c26c (published 2026-10-24)
+- Refresh Miami: https://refreshmiami.com/news/at-miami-ai-summit-hugging-face-ceo-clem-delangue-predicts-every-company-will-necome-an-ai-builder (published 2026-10-24)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **英國宣布成立 £1 億英鎊 AI 生物安全實驗室，獲 OpenAI、Anthropic 及 Google DeepMind 支持：** 英國政府宣布投入 1 億英鎊，成立全球首個專責 AI 生物安全機構（AIBL），OpenAI 與 Anthropic 承諾合計提供最高 2 億英鎊的算力與模型點數，Google DeepMind 亦將加入研究合作，目標是提早偵測生物威脅並加速疫苗研發。*(來源：BBC News，10 月 24 日)*
+
+- **遭解僱的 OpenAI 安全研究人員稱從未被告知具體洩漏內容：** 三名被解僱的 OpenAI 安全研究人員——Jasmine Wang、Tomek Korbak 及 Mikita Balesni——公開表示從未收到具體政策違規說明，並懷疑解僱原因與他們使用 Signal 加密通訊（開啟限時刪除訊息功能）與外部 AI 安全審計人員合作有關。*(來源：The Decoder，10 月 24 日)*
+
+- **OpenAI 發布前沿模型訓練環境安全報告：** OpenAI 發表安全報告，詳述其如何強化內部前沿模型訓練與評估的隔離防護機制，並以自身最強大的模型對系統邊界進行紅隊測試，被視為回應近期一系列 AI 隔離事件的正式回應。*(來源：TechCrunch，10 月 23 日)*
+
+- **中國 AI 新創 Moonshot AI 在新版 Kimi 模型中主動限制駭客功能：** 面對全球對 AI 驅動網路攻擊的升溫憂慮，Moonshot AI 宣布主動削減其最新 Kimi 模型的網路攻擊能力，成為少數在發布前就主動限制模型駭客潛力的主要 AI 開發商之一。*(來源：Reuters，10 月 24 日)*
+
+- **Nvidia 的 AI 融資角色迎來首次重大考驗，新雲端業者承壓：** CNBC 最新分析指出，Nvidia 在 2026 財年的表外負債淨現值已超過 1,530 億美元，較去年暴增逾 1,000 億美元，而穆迪等評級機構已對 AI 相關融資風險發出警告。*(來源：CNBC，10 月 24 日)*
+
+- **AI 驅動的網路攻擊浪潮席捲企業與個人：** 《華爾街日報》報導，自主 AI 代理人正被大規模用於惡意攻擊，包括盜刷開發人員 API 額度、入侵企業網站及瞄準金融帳戶，延續近月來多起 AI 代理人被濫用的事件趨勢。*(來源：Wall Street Journal，10 月 24 日)*
+
+- **Hugging Face 執行長在邁阿密 AI 峰會預測：每家公司都將成為 AI 建構者：** Hugging Face 執行長 Clem Delangue 在邁阿密 AI 峰會上預言，所有企業最終都將成為 AI 建構者，並指出開源模型的企業 token 使用量在短短六個月內從接近零成長至總流量的 30%，顯示 AI 部署正快速向開放架構轉移。*(來源：Refresh Miami，10 月 24 日)*
+
+---
+
+### 分析
+
+2026 年 10 月 24 至 25 日的頭條新聞，最核心的主題是 AI 能力與 AI 安全之間的張力在多條戰線上同時激化。英國政府宣布成立 AI 生物安全實驗室，並獲 OpenAI、Anthropic 與 Google DeepMind 聯合背書，標誌著前沿 AI 企業正從純粹的商業角色，被納入國家安全基礎設施的核心。然而，企業貢獻以模型點數而非現金形式呈現，引發了外界對問責機制與長期可持續性的質疑。與此同時，OpenAI 發布的前沿模型訓練環境安全報告，透露出這家公司正高度意識到內部流程受到外界審視，尤其是在一連串安全事件與研究人員解僱風波之後。
+
+三名遭解僱的 OpenAI 安全研究人員堅稱從未被告知具體洩漏內容，這一事件直指 AI 行業最深層的結構性矛盾：誰有資格監督 AI 的發展，又以何種條件進行？這個案例清楚揭示了企業保護專有模型設計的商業利益，與獨立安全審計的正當需求之間的根本衝突。在此背景下，Moonshot AI 主動限制 Kimi 模型駭客功能的決定，反映出業界對高風險能力採取預防性自我規範的意識正在上升——儘管仍不一致。《華爾街日報》與路透社報導的 AI 網路攻擊浪潮，則清楚表明 AI 代理人已不再是理論威脅，而是被惡意行為者大規模實際利用的攻擊媒介。
+
+財務面的暗流同樣值得關注。Nvidia 表外負債超過 1,530 億美元的規模，以及新一代雲端業者所面臨的市場壓力，顯示 AI 基礎設施的繁榮正進入更加動盪的財務清算階段。從邁阿密 AI 峰會傳出的數據可見，企業對開源模型的需求急速攀升，CFO 也開始嚴格管控 token 預算，種種跡象顯示 AI 的經濟學正在發生深刻轉變，這將重塑模型提供商、雲端業者與硬體製造商之間的競爭格局。綜觀本週新聞，整個 AI 產業正同時處於能力最強大、也最為脆弱的歷史節點。
+
+---
+
+### 來源
+- BBC News（英國 AI 生物安全實驗室）: https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo (published 2026-10-24)
+- The Decoder: https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked (published 2026-10-24)
+- TechCrunch（OpenAI 前沿訓練）: https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks (published 2026-10-23)
+- SF Standard: https://sfstandard.com/2026/10/24/openai-firings-safety-signal-chats (published 2026-10-24)
+- Winbuzzer: https://winbuzzer.com/2026/10/24/openai-probed-safety-researchers-signal-messaging-before-firings-xcxwbn (published 2026-10-24)
+- OpenAI: https://openai.com/index/securing-our-frontier-model-training-environment (published 2026-10-23，更新於 2026-10-24)
+- Reuters（Moonshot AI）: https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24 (published 2026-10-24)
+- CNBC: https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html (published 2026-10-24)
+- Wall Street Journal: https://www.wsj.com/tech/ai/ai-hacks-are-coming-thick-and-fast-and-overwhelming-the-internet-4529c26c (published 2026-10-24)
+- Refresh Miami: https://refreshmiami.com/news/at-miami-ai-summit-hugging-face-ceo-clem-delangue-predicts-every-company-will-necome-an-ai-builder (published 2026-10-24)
