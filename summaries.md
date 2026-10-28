@@ -11101,3 +11101,112 @@ Cutting across all these developments is a growing awareness of security and gov
 - Times of India: https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/ben-affleck-opens-up-about-selling-ai-filmmaking-company-interpositive-to-netflix-in-a-587-million-deal-explains-why-hollywood-should-not-panic-over-job-losses-says-ai-will-not-replace-filmmakers/articleshow/135219528.cms (published 2026-10-26)
 - PR Newswire: https://www.prnewswire.com/news-releases/akto-is-hosting-aktonomy-fall-2026-the-agentic-ai-security-summit-on-october-27-302919214.html (published 2026-10-26)
 - BW Businessworld: https://www.businessworld.in/article/anthropic-ipo-prospectus-reveals-42-bn-loss-518-bn-infra-commitment-630542 (published 2026-10-26)
+
+## 2026-10-28 03:40
+
+<!-- EN -->
+### Headlines
+
+- **Anthropic Files Landmark S-1 for Nasdaq IPO Under Ticker "ANT":** The Claude-maker officially filed its S-1 with the SEC on October 26, planning a Nasdaq listing that could value it between $1.5–$2 trillion, making it potentially the biggest AI IPO ever, even as it disclosed a staggering $80.7 billion net loss in the first half of 2026 alongside $16.3 billion in revenue. *(Source: Fortune, October 27)*
+
+- **OpenAI Launches GPT-6.1 Terra — 3× Faster Agents at Half the Price:** OpenAI released GPT-6.1 Terra, a mid-tier model combining visual reasoning, computer use, and natural-language writing, priced 50% below GPT-5.6 Terra at $1/million input tokens, and available in ChatGPT Work, Codex, and GitHub Copilot. *(Source: SiliconAngle, October 26)*
+
+- **Google DeepMind Unveils Genie 4 World Simulation Model With Native Audio:** DeepMind launched Genie 4 in a limited research preview, the company's most realistic interactive world model yet, generating photorealistic 720p/24fps scenes steered in real time via text prompts, and — for the first time — natively producing ambient audio, music, and character dialogue. *(Source: TechCrunch, October 27)*
+
+- **Apple Announces 14-Inch MacBook Pro With M6, Touting 25% Faster On-Device AI:** Apple unveiled the new 14-inch MacBook Pro with its M6 chip, featuring a dual 16-core Neural Engine delivering up to 25% faster AI workloads than M5, up to 24 hours of battery life, and a starting price of $1,999, with pre-orders opening October 28. *(Source: TechCrunch, October 27)*
+
+- **SpaceX Closes $40 Billion GPU Financing Deal With Apollo Global Management:** SpaceX signed a binding ~$40 billion equipment-finance lease with an Apollo-managed entity to purchase AI chips and server hardware, described as the "largest committed GPU financing" ever, with leases starting in the first half of 2027. *(Source: TechCrunch, October 26)*
+
+- **Anthropic Publishes Early Drug Discovery Results, Acquires Rare-Disease Startup:** Anthropic detailed six active pharmaceutical research partnerships using Claude, including generating 35,000 antibody designs in a month for a food-allergy treatment, and disclosed the acquisition of Mithril Medicine, a rare muscular dystrophy drug startup that could begin human trials as early as late 2028. *(Source: Anthropic, October 27)*
+
+- **AI Agents Spawning a New Layer of Cybersecurity Spending:** A 2026 Palo Alto Networks survey found 109 machine identities per human employee — 79 of them AI agents — driving a wave of AI-agent security product launches and acquisitions from Akamai, Cisco, CrowdStrike, Okta, and Zscaler. *(Source: Decrypt, October 27)*
+
+- **Military AI Market Projected to Reach $45 Billion by 2036:** A new Visiongain study forecasts the global military AI systems market will grow from $14.49 billion in 2026 to $45.18 billion in 2036, at a 12% CAGR, driven by autonomous systems and AI-enabled logistics. *(Source: Military Embedded Systems, October 27)*
+
+---
+
+### Analysis
+
+The week ending October 28, 2026 marks a defining moment for AI's financial coming-of-age. Anthropic's S-1 filing — revealing $16.3 billion in first-half revenue growing at 1,368% year-over-year alongside an $80.7 billion net loss — lays bare the core paradox of the frontier AI era: explosive commercial demand co-existing with equally explosive infrastructure costs. The filing's candid safety warnings, including the risk that AI could progress "beyond our ability to evaluate and safeguard new models," set a sobering tone for the IPO roadshow, yet markets reacted positively, with Nvidia jumping 2.4% on the news. Meanwhile, SpaceX's historic $40 billion GPU lease deal with Apollo signals that AI hardware financing has become its own mega-asset class, even as Elon Musk warned that debt markets are shutting out companies without independent revenue streams — a stark reminder that not all AI infrastructure bets will pay off.
+
+On the product and research front, the day's announcements reveal AI rapidly expanding its footprint from the desktop to the laboratory. OpenAI's GPT-6.1 Terra and Google DeepMind's Genie 4 represent two very different but complementary visions of near-future AI: Terra makes agentic, computer-using AI dramatically cheaper and faster for everyday work, while Genie 4 pushes into world simulation — a capability seen as a critical stepping stone toward AGI-level reasoning and a platform for training embodied agents. Apple's M6 MacBook Pro, with its neural engine pitched as a first-class feature rather than a footnote, signals that on-device AI is now a primary consumer selling point. Anthropic's pharmaceutical partnerships and Mithril Medicine acquisition mark an even bolder expansion: the company is no longer just an AI lab selling API access, but is actively pursuing drug development as a core business line.
+
+Underlying all these developments is a sharpening set of tensions that will define the next phase of AI's trajectory. The EU AI Act is beginning to bite in concrete ways, forcing OpenAI's textGrain watermarking rollout. The military AI market's projected tripling over a decade reflects governments accelerating adoption even as public opinion polls show majorities of Americans view AI negatively and oppose data center expansion. And Anthropic's own IPO prospectus — simultaneously the most bullish fundraising document in AI history and a somber catalogue of existential risks — captures the industry's central contradiction: racing toward a technology that its own builders warn could pose civilisational dangers.
+
+---
+
+### Sources
+
+- Fortune: https://fortune.com/2026/10/27/anthropic-s1-ipo-filing-financials-profits (published 2026-10-27)
+- NPR: https://www.npr.org/2026/10/26/nx-s1-6014772/anthropic-ai-ipo-could-break-records (published 2026-10-26)
+- SiliconAngle (Anthropic S-1): https://siliconangle.com/2026/10/26/anthropic-files-s-1-paperwork-for-blockbuster-ai-ipo (published 2026-10-26)
+- PBS NewsHour: https://www.pbs.org/newshour/science/anthropic-says-risks-for-investors-include-blowback-from-runaway-ai (published 2026-10-27)
+- OpenAI (GPT-6.1 Terra official): https://openai.com/index/introducing-gpt-6-1-terra (published 2026-10-27)
+- SiliconAngle (GPT-6.1 Terra): https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price (published 2026-10-27)
+- AI Magazine: https://aimagazine.com/news/how-openais-gpt-6-1-terra-is-much-faster-and-50-cheaper (published 2026-10-27)
+- GitHub Changelog: https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot (published 2026-10-27)
+- TechCrunch (Genie 4): https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering (published 2026-10-27)
+- Google DeepMind (Genie 4 official): https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation (published 2026-10-27)
+- Gizmodo: https://gizmodo.com/googles-new-ai-world-model-can-generate-human-voices-not-just-video-2000831335 (published 2026-10-27)
+- The Decoder: https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms (published 2026-10-27)
+- TechCrunch (Apple M6): https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip (published 2026-10-27)
+- Apple Newsroom: https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6 (published 2026-10-27)
+- TechCrunch (SpaceX Apollo): https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo (published 2026-10-26)
+- Reuters: https://www.reuters.com/business/media-telecom/spacex-enters-40-billion-deal-with-apollo-ai-chip-financing-2026-10-26 (published 2026-10-27)
+- Anthropic (drug development): https://www.anthropic.com/research/early-progress-drug-development (published 2026-10-27)
+- Decrypt (cybersecurity): https://decrypt.co/381987/ai-agents-creating-new-layer-cybersecurity-spending (published 2026-10-27)
+- Military Embedded Systems: https://militaryembedded.com/ai/machine-learning/military-ai-market-to-grow-to-45-billion-in-a-decade-study-predicts (published 2026-10-27)
+- Center for Democracy and Technology: https://cdt.org/insights/cdt-europes-ai-bulletin-october-2026 (published 2026-10-27)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Anthropic 向 SEC 提交 S-1，計劃在納斯達克以「ANT」代碼上市：** Claude 開發商於 10 月 26 日正式提交 IPO 申請，潛在估值介於 1.5 至 2 兆美元，可能成為史上最大 AI 公司上市案，但同時揭露 2026 年上半年淨虧損高達 807 億美元、營收 163 億美元。*(來源：Fortune，10 月 27 日)*
+
+- **OpenAI 推出 GPT-6.1 Terra：速度提升 3 倍、售價減半：** OpenAI 發布中端新模型 GPT-6.1 Terra，融合視覺推理、電腦操作與自然語言寫作能力，API 定價較 GPT-5.6 Terra 低 50%（每百萬輸入 token 僅 1 美元），已整合至 ChatGPT Work、Codex 及 GitHub Copilot。*(來源：SiliconAngle，10 月 26 日)*
+
+- **Google DeepMind 發布 Genie 4 世界模擬模型，首次原生生成音訊：** DeepMind 推出有限研究預覽版 Genie 4，能以 720p/24fps 即時生成逼真互動場景，使用者可透過文字提示實時操控，並首次原生產生環境音效、音樂及角色對話。*(來源：TechCrunch，10 月 27 日)*
+
+- **Apple 發布搭載 M6 晶片的 14 吋 MacBook Pro，AI 工作負載速度提升 25%：** Apple 發布新款 14 吋 MacBook Pro，M6 晶片內建雙 16 核神經引擎，AI 運算效能較 M5 提升最多 25%，電池續航長達 24 小時，起售價 1,999 美元，10 月 28 日開放預購。*(來源：TechCrunch，10 月 27 日)*
+
+- **SpaceX 與 Apollo 簽署 400 億美元 GPU 融資協議：** SpaceX 與 Apollo Global Management 旗下實體簽訂約 400 億美元設備租賃協議，用於購買 AI 晶片及伺服器硬體，被稱為史上「最大規模 GPU 融資」，租賃預計於 2027 年上半年啟動。*(來源：TechCrunch，10 月 26 日)*
+
+- **Anthropic 公布早期藥物研發成果，收購罕見疾病新創公司：** Anthropic 揭露六項使用 Claude 的製藥研究合作，包括一個月內生成 3.5 萬個抗體設計，並宣布收購罕見肌肉萎縮症新創 Mithril Medicine，最快可於 2028 年底進入人體臨床試驗。*(來源：Anthropic，10 月 27 日)*
+
+- **AI 代理人驅動新一波網路安全支出浪潮：** Palo Alto Networks 2026 年調查顯示，每位人類員工對應 109 個機器身份，其中 79 個為 AI 代理人，促使 Akamai、Cisco、CrowdStrike 等主要廠商紛紛推出或收購 AI 代理人安全產品。*(來源：Decrypt，10 月 27 日)*
+
+- **全球軍事 AI 市場預計 10 年內增至 450 億美元：** Visiongain 最新研究預測，全球軍事 AI 系統市場將從 2026 年的 144.9 億美元增長至 2036 年的 451.8 億美元，年複合增長率達 12%。*(來源：Military Embedded Systems，10 月 27 日)*
+
+---
+
+### 分析
+
+2026 年 10 月 28 日這一週，堪稱 AI 產業財務成熟的歷史性時刻。Anthropic 的 S-1 文件揭示了前沿 AI 時代的核心矛盾：上半年營收年增 1,368% 的驚人商業需求，與同樣驚人的基礎設施成本並存。招股書罕見地直言 AI 模型可能「發展速度超越我們評估與保障新模型的能力」，為 IPO 路演奠定了令人深省的基調，但市場反應依然樂觀——輝達股價隨即上漲 2.4%。SpaceX 與 Apollo 簽訂的 400 億美元 GPU 租賃協議，進一步說明 AI 硬體融資已演變為獨立的巨型資產類別。然而，馬斯克也警告，缺乏獨立收入來源的公司正面臨債市關門，意味著並非所有 AI 基礎設施押注都能獲得回報。
+
+在產品與研究層面，當日的多項發布顯示 AI 正從桌面快速延伸至實驗室。OpenAI 的 GPT-6.1 Terra 與 Google DeepMind 的 Genie 4 代表了兩種不同卻互補的近未來 AI 願景：Terra 讓具代理能力的電腦操作 AI 更快、更便宜，適合日常工作；Genie 4 則向世界模擬邁進，被視為通往 AGI 級推理及訓練具身代理的關鍵跳板。Apple M6 MacBook Pro 將神經引擎列為首要賣點，標誌著端側 AI 已成為消費級產品的核心競爭力。而 Anthropic 的製藥合作與收購 Mithril Medicine 更具深意：這家公司已不再只是出售 API 的 AI 實驗室，而是將藥物研發納入核心業務版圖。
+
+這些發展背後，隱藏著一組日益尖銳的張力，將定義 AI 下一階段的走向。《歐盟 AI 法》開始產生具體效果，強制推動 OpenAI 的浮水印部署；軍事 AI 市場十年翻三倍的預測，反映出各國政府在加速採用的同時，美國民調卻顯示多數民眾對 AI 持負面態度。而 Anthropic 的 IPO 招股書——既是 AI 史上最大膽的融資文件，也是一份關於存在性風險的清醒備忘錄——精準捕捉了這個行業最根本的矛盾：正在競相開發的，是一項連創造者自己都警告可能帶來文明威脅的技術。
+
+---
+
+### 來源
+
+- Fortune: https://fortune.com/2026/10/27/anthropic-s1-ipo-filing-financials-profits (published 2026-10-27)
+- NPR: https://www.npr.org/2026/10/26/nx-s1-6014772/anthropic-ai-ipo-could-break-records (published 2026-10-26)
+- SiliconAngle（Anthropic S-1）: https://siliconangle.com/2026/10/26/anthropic-files-s-1-paperwork-for-blockbuster-ai-ipo (published 2026-10-26)
+- PBS NewsHour: https://www.pbs.org/newshour/science/anthropic-says-risks-for-investors-include-blowback-from-runaway-ai (published 2026-10-27)
+- OpenAI（GPT-6.1 Terra 官方公告）: https://openai.com/index/introducing-gpt-6-1-terra (published 2026-10-27)
+- SiliconAngle（GPT-6.1 Terra）: https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price (published 2026-10-27)
+- AI Magazine: https://aimagazine.com/news/how-openais-gpt-6-1-terra-is-much-faster-and-50-cheaper (published 2026-10-27)
+- GitHub Changelog: https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot (published 2026-10-27)
+- TechCrunch（Genie 4）: https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering (published 2026-10-27)
+- Google DeepMind（Genie 4 官方）: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation (published 2026-10-27)
+- Gizmodo: https://gizmodo.com/googles-new-ai-world-model-can-generate-human-voices-not-just-video-2000831335 (published 2026-10-27)
+- TechCrunch（Apple M6）: https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip (published 2026-10-27)
+- Apple Newsroom: https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6 (published 2026-10-27)
+- TechCrunch（SpaceX Apollo）: https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo (published 2026-10-26)
+- Reuters: https://www.reuters.com/business/media-telecom/spacex-enters-40-billion-deal-with-apollo-ai-chip-financing-2026-10-26 (published 2026-10-27)
+- Anthropic（藥物研發）: https://www.anthropic.com/research/early-progress-drug-development (published 2026-10-27)
+- Decrypt（網路安全）: https://decrypt.co/381987/ai-agents-creating-new-layer-cybersecurity-spending (published 2026-10-27)
+- Military Embedded Systems: https://militaryembedded.com/ai/machine-learning/military-ai-market-to-grow-to-45-billion-in-a-decade-study-predicts (published 2026-10-27)
+- 歐洲民主與科技中心（CDT Europe）: https://cdt.org/insights/cdt-europes-ai-bulletin-october-2026 (published 2026-10-27)
