@@ -29,6 +29,8 @@ _CITATION_RE = re.compile(r"\*\((?:Sources?|來源)\s*[:：]\s*(.*?)\)\*\s*$")
 # URLs may contain balanced parentheses, e.g. https://example.com/Story_(AI)
 _URL_IN_LINK = r"https?://(?:[^\s()]|\([^\s()]*\))+"
 _LINKED_SOURCE_RE = re.compile(r"\[([^\]]+)\]\((" + _URL_IN_LINK + r")\)\s*[,，]\s*([^;；]*)")
+# Any [name](target) markup, even when the target is not a valid URL; removed before reading dates.
+_ANY_LINK_RE = re.compile(r"\[[^\]]*\]\((?:[^\s()]|\([^\s()]*\))*\)")
 _ISO_DATE_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\b")
 _SOURCE_ENTRY_RE = re.compile(r"^- (.+?):\s*(https?://\S+)")
 
@@ -248,17 +250,30 @@ def citation_sources(line: str) -> list[tuple[str, str | None, str | None]]:
     for part in re.split(r"[;；]", body):
         part = part.strip()
         if part:
-            sources.append((re.split(r"[,，]", part)[0].strip(), None, _valid_date(_first_iso(part))))
+            sources.append((re.split(r"[,，]", part)[0].strip(), None, _valid_date(_date_field(part))))
     return sources
 
 
 def citation_earliest_date(line: str) -> str | None:
-    """Earliest real calendar date anywhere in the headline's citation, or None."""
+    """Earliest real date among the citation's DATE FIELDS (the part after each source's comma).
+
+    Link markup is removed first, whether or not the link parses, so dates inside source
+    names or URLs (e.g. https://example.com/2020-01-01-retrospective) never count, while a
+    source whose link could not be parsed still contributes its date field.
+    """
     m = _CITATION_RE.search(line)
     if not m:
         return None
-    dates = [d for d in (_valid_date(x) for x in _ISO_DATE_RE.findall(m.group(1))) if d]
+    body = _ANY_LINK_RE.sub("", m.group(1))
+    dates = [_valid_date(_date_field(part)) for part in re.split(r"[;；]", body)]
+    dates = [d for d in dates if d]
     return min(dates) if dates else None
+
+
+def _date_field(part: str) -> str | None:
+    """The ISO date in a citation part's date field, i.e. after its first comma."""
+    pieces = re.split(r"[,，]", part, maxsplit=1)
+    return _first_iso(pieces[1]) if len(pieces) == 2 else None
 
 
 def _first_iso(text: str) -> str | None:

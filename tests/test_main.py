@@ -39,8 +39,9 @@ class UnverifiedSummaryIsNotPublishedTest(unittest.TestCase):
 
 class MismatchedDraftIsNeverPublishedTest(unittest.TestCase):
     def test_en_zh_mismatch_stops_before_holding(self):
-        # Codex review R2-2: EN A,B,C / ZH 甲,丙 with C too old. Holding C must not "even out"
-        # the counts; the real verify_summary refuses the draft and main() stops before hold.
+        # Codex review R2-2: any EN/ZH count mismatch must stop the run before holding, so a
+        # held story can never "even out" the counts. Here ZH lacks its 2nd headline (EN has 3,
+        # ZH 2); the real verify_summary refuses the draft and main() stops before hold.
         draft = SUMMARY.replace("- **舊消息：** 舊。*(來源：Archive，2026-09-01；Wire，2026-10-16)*\n", "")
         with tempfile.TemporaryDirectory() as d:
             env = {"ANTHROPIC_API_KEY": "x", "TAVILY_API_KEY": "x",

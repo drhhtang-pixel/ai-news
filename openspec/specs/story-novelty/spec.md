@@ -23,7 +23,7 @@ Before searching, `main()` SHALL read the EN headline titles published in the la
 ---
 ### Requirement: Stories older than one month are held for the manager
 
-After verification, `hold_old_stories()` SHALL compute each EN headline's age from the earliest real date anywhere in its citation (`citation_earliest_date()`), so a source whose link could not be parsed still counts. If that date is more than `MAX_STORY_AGE_DAYS` days before today (UTC), the headline SHALL be removed from the summary, together with the ZH headline at the same position and the Sources / 來源 entries (matched by URL) cited only by held headlines. A headline with no dated source SHALL be kept.
+After verification, `hold_old_stories()` SHALL compute each EN headline's age from the earliest real date among its citation's date fields (`citation_earliest_date()`: the text after each source's comma, with all `[name](target)` link markup removed first). Dates inside source names or URLs never count, and a source whose link could not be parsed still contributes its date field. If that date is more than `MAX_STORY_AGE_DAYS` days before today (UTC), the headline SHALL be removed from the summary, together with the ZH headline at the same position and the Sources / 來源 entries (matched by URL) cited only by held headlines. A headline with no dated source SHALL be kept.
 
 #### Scenario: Old story is held
 

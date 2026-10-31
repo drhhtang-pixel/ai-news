@@ -107,6 +107,24 @@ class HoldOldStoriesTest(unittest.TestCase):
         _, held = hold_old_stories(summary, "2026-10-18")
         self.assertIn("Story", [h["title"] for h in held])
 
+    def test_dates_in_urls_and_names_do_not_count(self):
+        # Codex review R3-1: only each source's date field decides a story's age.
+        from knowledge import citation_earliest_date
+        recent_url = ("- **Fresh:** x. *(Sources: [Wire](https://wire.example/2020-01-01-retrospective), "
+                      "2026-10-17)*")
+        self.assertEqual(citation_earliest_date(recent_url), "2026-10-17")
+        unknown_query = "- **Fresh:** x. *(Sources: [Wire](https://wire.example/a?event=2020-01-01), date unknown)*"
+        self.assertIsNone(citation_earliest_date(unknown_query))
+        dated_name = "- **Fresh:** x. *(Sources: [Archive 2020-01-01 edition](https://a.example/x), 2026-10-17)*"
+        self.assertEqual(citation_earliest_date(dated_name), "2026-10-17")
+        plain_dated_name = "- **Fresh:** x. *(Sources: Archive 2020-01-01 edition, 2026-10-17)*"
+        self.assertEqual(citation_earliest_date(plain_dated_name), "2026-10-17")
+        summary = SUMMARY.replace("- **New story:** Fresh. *(Sources: Wire, 2026-10-17; Daily, date unknown)*",
+                                  recent_url).replace(
+            "- **Undated story:** No dates. *(Sources: Blog, date unknown)*", unknown_query)
+        _, held = hold_old_stories(summary, "2026-10-18")
+        self.assertEqual([h["title"] for h in held], ["Old story"])  # only the genuinely old one
+
     def test_unparseable_source_date_still_counts(self):
         line = "- **Story:** x. *(Sources: [Odd](not-a-url), 2026-09-01; [Daily](https://daily.example/new), 2026-10-17)*"
         from knowledge import citation_earliest_date
