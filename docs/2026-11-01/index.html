@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI News 2026-11-01</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+           line-height: 1.7; color: #222; background: #fafafa; }
+    .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+    header { display: flex; justify-content: space-between; align-items: center;
+             border-bottom: 1px solid #e0e0e0; padding-bottom: 1rem; margin-bottom: 2rem; }
+    header h1 { font-size: 1.2rem; font-weight: 600; }
+    nav a { color: #555; text-decoration: none; margin-right: 1rem; font-size: 0.9rem; }
+    nav a:hover { color: #000; }
+    .lang-toggle { display: flex; gap: 0.3rem; }
+    .lang-btn { padding: 0.25rem 0.6rem; border: 1px solid #ccc; background: #fff;
+                border-radius: 4px; cursor: pointer; font-size: 0.85rem; color: #555; }
+    .lang-btn.active { background: #222; color: #fff; border-color: #222; }
+    h2 { font-size: 1.6rem; margin: 1.5rem 0 0.5rem; }
+    h3 { font-size: 1.1rem; font-weight: 600; margin: 1.5rem 0 0.5rem; color: #333; }
+    p { margin: 0.6rem 0; }
+    ul { padding-left: 1.4rem; margin: 0.5rem 0; }
+    li { margin: 0.3rem 0; }
+    a { color: #0066cc; }
+    hr { border: none; border-top: 1px solid #e0e0e0; margin: 1.5rem 0; }
+    strong { font-weight: 600; }
+    .date-list { list-style: none; padding: 0; }
+    .date-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+    .date-list a { font-size: 1rem; font-weight: 500; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e0e0e0;
+             font-size: 0.8rem; color: #999; }
+  </style>
+
+
+  <script>
+    (function () {
+      var lang = localStorage.getItem('lang') || 'en';
+      document.documentElement.setAttribute('data-lang', lang);
+      function applyLang(l) {
+        document.querySelectorAll('.lang-en').forEach(function(el) {
+          el.style.display = l === 'en' ? '' : 'none';
+        });
+        document.querySelectorAll('.lang-zh').forEach(function(el) {
+          el.style.display = l === 'zh' ? '' : 'none';
+        });
+        document.querySelectorAll('.lang-btn').forEach(function(btn) {
+          btn.classList.toggle('active', btn.dataset.lang === l);
+        });
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        applyLang(lang);
+        document.querySelectorAll('.lang-btn').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            lang = btn.dataset.lang;
+            localStorage.setItem('lang', lang);
+            applyLang(lang);
+          });
+        });
+      });
+    })();
+  </script>
+
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1><a href="../" style="text-decoration:none;color:inherit;">AI News Monitor<br><span style="display:block;font-size:1.2rem;font-weight:400;color:#888;line-height:1;">An Agentic AI Practice</span></a></h1>
+    <nav>
+      <a href="../index.html">← Back</a>
+      <a href="../archive.html">Archive</a>
+      <a href="../about.html">About</a>
+    </nav>
+    <div class="lang-toggle">
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="zh">ZH</button>
+    </div>
+  </header>
+  
+    <div class="lang-en">
+      <h2>2026-11-01 — AI News Summary</h2>
+      <h3>Headlines</h3>
+
+<ul>
+<li><strong>OpenAI slashes funding target by $10 billion:</strong> The ChatGPT maker has cut its latest funding round target from $30 billion to $20 billion at a reduced valuation of $1.25 trillion (down from $1.4 trillion), with the Wall Street Journal reporting only ~$11 billion secured so far amid tepid investor appetite and a broader tech stock selloff. *(Source: TechCrunch, October 31)*</li>
+</ul>
+
+<ul>
+<li><strong>UK's CMA opens formal investigation into Meta over AI content terms:</strong> Britain's Competition and Markets Authority launched a probe under the Competition Act 1998 into whether Meta's planned commercial terms — which could allow it to harvest publisher and advertiser website content for its AI products without consent — constitute an abuse of its dominant market position; Meta has since paused the planned November 20 rollout. *(Source: UK Government / CMA, October 30)*</li>
+</ul>
+
+<ul>
+<li><strong>DeepSeek raises ~$16 billion and introduces API fees:</strong> The Chinese AI lab, backed by Tencent, CATL, and state funds, closed a massive financing round and simultaneously began charging $0.75 per 1,000 requests for calls to its Search and Fetch tools via API, effective November 1, 2026. *(Source: Shattered.io, October 31)*</li>
+</ul>
+
+<ul>
+<li><strong>Google, OpenAI, Microsoft & Anthropic back unified AI training opt-out standard:</strong> The four tech giants announced support for a shared IETF-drafted robots.txt signal that lets any website block its content from generative AI training with a single rule, replacing the need for separate crawler directives for each company. *(Source: The Next Web, October 31)*</li>
+</ul>
+
+<ul>
+<li><strong>Mistral releases open weights for "Le Chonk" (Mistral Large 4):</strong> The French AI lab published the full weights of its 1.05-trillion-parameter mixture-of-experts model under a modified MIT license, claiming top open-weight status for agentic coding and cybersecurity benchmarks, with availability via Hugging Face, Mistral API, OpenRouter, and Microsoft Foundry. *(Source: Shattered.io, October 31)*</li>
+</ul>
+
+<ul>
+<li><strong>India's MeitY launches DEPA handbook for secure AI training data sharing:</strong> India's Ministry of Electronics and Information Technology unveiled a techno-legal framework — the Data Empowerment and Protection Architecture (DEPA) handbook — enabling institutions to collaborate on AI training datasets while retaining full control of their data, with built-in privacy safeguards and data provenance tracking. *(Source: Press Information Bureau, October 31)*</li>
+</ul>
+
+<ul>
+<li><strong>Anthropic expands AI for Science programme to 20+ institutions:</strong> Anthropic broadened its programme to include collaborations with 20 scientific foundations, institutions, and research groups — providing free Claude credits to researchers in biology, medicine, physics, mathematics, and climate science — alongside ongoing drug-development partnerships with six life sciences organizations. *(Source: Shattered.io, October 31)*</li>
+</ul>
+
+<ul>
+<li><strong>AI spending fears batter tech stocks; Nasdaq logs third straight weekly drop:</strong> Investor anxiety over the pace and return on AI infrastructure buildout weighed heavily on markets, with the Nasdaq Composite falling approximately 2% on the week, dragging down AI-linked stocks including Alphabet, Meta, and Intel. *(Source: The New York Times, October 30)*</li>
+</ul>
+
+<hr>
+
+<h3>Analysis</h3>
+
+<p>The most consequential theme emerging from this news cycle is a clear cooling of investor enthusiasm for frontier AI companies, even as those companies continue to spend aggressively. OpenAI's dramatic reduction of its fundraising target — from $30 billion to potentially under $20 billion — is the clearest signal yet that markets have limits on how much AI paper they will absorb at sky-high valuations. This coincides with a Nasdaq selloff driven by concerns that the industry's massive capital expenditures (Amazon alone has raised its 2026 capex outlook to $220 billion) are outpacing near-term returns. The juxtaposition is striking: DeepSeek is simultaneously closing a $16 billion state-backed round while beginning to monetize its API, suggesting that state-supported AI labs operate under entirely different financial pressures than their Western, market-dependent counterparts.</p>
+
+<p>On the regulatory and governance front, the UK's CMA investigation into Meta marks a significant escalation in how authorities are treating AI content acquisition. By invoking the Competition Act 1998 rather than waiting for slower digital-market designation processes, the CMA is sending a clear message that existing competition law is available — and will be used — to police AI data practices right now. This dovetails with the landmark move by Google, OpenAI, Microsoft, and Anthropic to back a unified robots.txt opt-out standard, which, while voluntary, represents the industry's attempt at self-regulation ahead of harder legislative mandates. India's DEPA framework adds a third dimension: a government-designed architecture that enables AI data collaboration without requiring data to leave its custodian's control — a model likely to influence other emerging economies seeking to participate in global AI development on their own terms.</p>
+
+<p>The open-source AI race also took a notable step, with Mistral's "Le Chonk" (Mistral Large 4) demonstrating that European labs can release competitive trillion-parameter models under permissive licenses. This puts further pressure on the narrative that only closed, proprietary frontier labs can deliver state-of-the-art performance — a narrative that is increasingly difficult to sustain as open weights for capable models become freely downloadable worldwide.</p>
+
+<hr>
+
+<h3>Sources</h3>
+
+<ul>
+<li>TechCrunch: <a href="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round" target="_blank">https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round</a> (published 2026-10-31)</li>
+<li>Wall Street Journal: <a href="https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5" target="_blank">https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5</a> (published 2026-10-31)</li>
+<li>UK Government / CMA: <a href="https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms--2" target="_blank">https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms--2</a> (published 2026-10-30)</li>
+<li>Shattered.io (DeepSeek/OpenAI): <a href="https://shattered.io/openai-cuts-funding-target-10-billion-20-billion-1-25-trillion-valuation-2026" target="_blank">https://shattered.io/openai-cuts-funding-target-10-billion-20-billion-1-25-trillion-valuation-2026</a> (published 2026-10-31)</li>
+<li>The Next Web: <a href="https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic" target="_blank">https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic</a> (published 2026-10-31)</li>
+<li>Shattered.io (Mistral): <a href="https://shattered.io/mistral-le-chonk-coding-agent-index-48-gpt-6-1-terra-2026" target="_blank">https://shattered.io/mistral-le-chonk-coding-agent-index-48-gpt-6-1-terra-2026</a> (published 2026-10-31)</li>
+<li>Press Information Bureau: <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330756" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330756</a> (published 2026-10-31)</li>
+<li>Business Standard: <a href="https://www.business-standard.com/amp/industry/news/meity-launches-depa-handbook-to-enable-secure-data-sharing-for-ai-training-126103100585_1.html" target="_blank">https://www.business-standard.com/amp/industry/news/meity-launches-depa-handbook-to-enable-secure-data-sharing-for-ai-training-126103100585_1.html</a> (published 2026-10-31)</li>
+<li>The New York Times: <a href="https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html" target="_blank">https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html</a> (published 2026-10-30)</li>
+<li>Singularity Hub: <a href="https://singularityhub.com/2026/10/31/this-weeks-awesome-tech-stories-from-around-the-web-through-october-31-2" target="_blank">https://singularityhub.com/2026/10/31/this-weeks-awesome-tech-stories-from-around-the-web-through-october-31-2</a> (published 2026-10-31)</li>
+</ul>
+    </div>
+    <div class="lang-zh">
+      <h2>2026-11-01 — AI 新聞摘要</h2>
+      <h3>頭條新聞</h3>
+
+<ul>
+<li><strong>OpenAI 融資目標大砍 100 億美元：</strong> ChatGPT 開發商將最新一輪融資目標從 300 億美元削減至 200 億美元，估值亦從 1.4 兆降至 1.25 兆美元，《華爾街日報》報導目前僅獲約 110 億美元承諾，投資人興趣冷淡。*(來源：TechCrunch，10 月 31 日)*</li>
+</ul>
+
+<ul>
+<li><strong>英國 CMA 就 AI 內容條款正式調查 Meta：</strong> 英國競爭與市場管理局依據《1998 年競爭法》啟動調查，審視 Meta 擬議的商業條款是否允許其在未經同意的情況下將出版商與廣告商的網站內容用於 AI 產品開發，Meta 已暫停原訂 11 月 20 日的條款生效計畫。*(來源：英國政府／CMA，10 月 30 日)*</li>
+</ul>
+
+<ul>
+<li><strong>DeepSeek 完成約 160 億美元融資並開始收取 API 費用：</strong> 這家獲騰訊、寧德時代及國家資金支持的中國 AI 實驗室完成鉅額融資，同時自 2026 年 11 月 1 日起，透過 API 呼叫其 Search 及 Fetch 工具每千次收費 0.75 美元。*(來源：Shattered.io，10 月 31 日)*</li>
+</ul>
+
+<ul>
+<li><strong>Google、OpenAI、Microsoft 與 Anthropic 支持統一 AI 訓練退出標準：</strong> 四大科技巨頭宣布支持一項 IETF 草案制定的 robots.txt 共用信號，讓網站只需一條規則即可阻止其內容被用於生成式 AI 訓練，無需再為各公司爬蟲分別設置指令。*(來源：The Next Web，10 月 31 日)*</li>
+</ul>
+
+<ul>
+<li><strong>Mistral 發布開源「Le Chonk」（Mistral Large 4）模型權重：</strong> 這家法國 AI 實驗室以修改版 MIT 授權公開了擁有 1.05 兆參數的混合專家模型完整權重，宣稱在自主編程及網路安全基準測試中奪得開源模型最佳成績，可透過 Hugging Face、Mistral API、OpenRouter 及 Microsoft Foundry 取得。*(來源：Shattered.io，10 月 31 日)*</li>
+</ul>
+
+<ul>
+<li><strong>印度 MeitY 發布 DEPA 手冊，推動 AI 訓練數據安全共享：</strong> 印度電子與資訊技術部推出《數據賦權與保護架構》（DEPA）手冊，提供一套結合契約許可、受控運算環境與隱私保護措施的技術法律框架，允許機構在保留數據控制權的前提下協作開展 AI 訓練。*(來源：印度新聞局，10 月 31 日)*</li>
+</ul>
+
+<ul>
+<li><strong>Anthropic 將 AI for Science 計畫擴展至 20 餘家機構：</strong> Anthropic 宣布將其科學計畫擴大至 20 個科學基金會、機構及研究團體，為生物、醫學、物理、數學及氣候研究領域的科學家提供免費 Claude 額度，同時持續與六家生命科學機構推進藥物研發合作。*(來源：Shattered.io，10 月 31 日)*</li>
+</ul>
+
+<ul>
+<li><strong>AI 支出憂慮衝擊科技股，那斯達克連續第三週下跌：</strong> 市場對 AI 基礎設施龐大投入能否帶來回報的疑慮持續升溫，那斯達克綜合指數單週下跌約 2%，Alphabet、Meta 及英特爾等 AI 概念股首當其衝。*(來源：《紐約時報》，10 月 30 日)*</li>
+</ul>
+
+<hr>
+
+<h3>分析</h3>
+
+<p>本輪新聞周期最關鍵的主題，是市場對前沿 AI 公司的投資熱情出現明顯降溫，儘管相關企業的資本支出仍在大舉擴張。OpenAI 將融資目標從 300 億美元大幅下調——最終到手金額甚至可能不足 200 億——是迄今為止最清晰的信號，表明市場對以天價估值消化 AI 融資的能力已至極限。這一現象與那斯達克因 AI 基礎設施回報擔憂引發的拋售潮同步發生，形成鮮明對比的是：DeepSeek 同期完成了 160 億美元的國家資本支持融資，並開始將 API 商業化——說明獲得國家背書的 AI 實驗室，在財務壓力結構上與其西方市場驅動的同行截然不同。</p>
+
+<p>在監管與治理層面，英國 CMA 對 Meta 展開調查，標誌著各國當局對待 AI 數據採集行為的態度出現重要升級。CMA 選擇援引現行《1998 年競爭法》，而非等待更漫長的數字市場指定程序，清晰表明現有競爭法已可直接用於規範 AI 數據實踐。與此同時，Google、OpenAI、Microsoft 與 Anthropic 聯合支持統一的 robots.txt 退出標準，代表業界在更嚴格立法到來之前的自我規範嘗試。印度的 DEPA 框架則提供了第三種路徑：一套由政府設計的架構，讓 AI 數據協作得以在數據不離開持有者控制範圍的前提下進行，此模式有望對其他希望以自身條件參與全球 AI 發展的新興經濟體產生深遠影響。</p>
+
+<p>開源 AI 的競賽亦邁出重要一步。Mistral 的「Le Chonk」（Mistral Large 4）證明，歐洲 AI 實驗室有能力以寬鬆授權發布具競爭力的兆級參數模型，進一步動搖了「只有封閉式專有前沿實驗室才能實現頂尖性能」的固有敘事——隨著有能力模型的開放權重可在全球自由下載，這一敘事已愈發難以站穩腳跟。</p>
+
+<hr>
+
+<h3>來源</h3>
+
+<ul>
+<li>TechCrunch: <a href="https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round" target="_blank">https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round</a> (published 2026-10-31)</li>
+<li>Wall Street Journal: <a href="https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5" target="_blank">https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5</a> (published 2026-10-31)</li>
+<li>UK Government / CMA: <a href="https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms--2" target="_blank">https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms--2</a> (published 2026-10-30)</li>
+<li>Shattered.io (DeepSeek/OpenAI): <a href="https://shattered.io/openai-cuts-funding-target-10-billion-20-billion-1-25-trillion-valuation-2026" target="_blank">https://shattered.io/openai-cuts-funding-target-10-billion-20-billion-1-25-trillion-valuation-2026</a> (published 2026-10-31)</li>
+<li>The Next Web: <a href="https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic" target="_blank">https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic</a> (published 2026-10-31)</li>
+<li>Shattered.io (Mistral): <a href="https://shattered.io/mistral-le-chonk-coding-agent-index-48-gpt-6-1-terra-2026" target="_blank">https://shattered.io/mistral-le-chonk-coding-agent-index-48-gpt-6-1-terra-2026</a> (published 2026-10-31)</li>
+<li>Press Information Bureau: <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330756" target="_blank">https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330756</a> (published 2026-10-31)</li>
+<li>Business Standard: <a href="https://www.business-standard.com/amp/industry/news/meity-launches-depa-handbook-to-enable-secure-data-sharing-for-ai-training-126103100585_1.html" target="_blank">https://www.business-standard.com/amp/industry/news/meity-launches-depa-handbook-to-enable-secure-data-sharing-for-ai-training-126103100585_1.html</a> (published 2026-10-31)</li>
+<li>The New York Times: <a href="https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html" target="_blank">https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html</a> (published 2026-10-30)</li>
+<li>Singularity Hub: <a href="https://singularityhub.com/2026/10/31/this-weeks-awesome-tech-stories-from-around-the-web-through-october-31-2" target="_blank">https://singularityhub.com/2026/10/31/this-weeks-awesome-tech-stories-from-around-the-web-through-october-31-2</a> (published 2026-10-31)</li>
+</ul>
+    </div>
+    
+  <footer>Generated by AI News Monitor &middot; Designed by Drhhtang</footer>
+</div>
+</body>
+</html>
