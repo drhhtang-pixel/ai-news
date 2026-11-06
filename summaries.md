@@ -11732,3 +11732,99 @@ On the technical side, the week highlights an industry simultaneously racing to 
 - 路透社（OpenAI 安全）: https://www.reuters.com/business/openai-employees-warned-about-operational-security-lapses-years-sources-say-2026-11-03 (published 2026-11-04)
 - TipRanks（SoundHound）: https://www.tipranks.com/news/soundhound-ai-q3-earnings-tomorrow-options-traders-expect-a-13-move-in-soun-stock (published 2026-11-04)
 - Enterprise AM（中國 AI）: https://enterpriseam.com/ai/2026/11/05/chinas-prepping-broad-ai-safety-standards (published 2026-11-05)
+
+## 2026-11-06 04:48
+
+<!-- EN -->
+### Headlines
+
+- **Nasdaq Plunges ~5.5% in AI Regulation Rout After Democratic Midterm Sweep:** Wall Street suffered its steepest single-day drop since the April 2025 "Liberation Day" selloff, wiping $2.5 trillion off the Nasdaq as investors feared that the Democrats' sweeping midterm victory — including key gubernatorial wins in Texas and Georgia — would tighten AI industry regulation and slow data center construction. *(Source: The Straits Times, November 6)*
+
+- **Asia Markets Crumble as AI Selloff Spreads Globally:** Japan's Nikkei tumbled over 6%, South Korean and Taiwanese equity futures fell at least 7%, and Hong Kong and Australian markets followed suit as the post-election AI regulation panic spread from Wall Street across global tech-heavy indices. *(Source: The Jakarta Post, November 6)*
+
+- **Anthropic IPO Timing Threatened by AI Market Backlash:** Potential investors in Anthropic's highly anticipated Nasdaq (ticker: ANT) IPO are pushing for a lower valuation — down from ~$1.5 trillion toward $1 trillion — and raising doubts about whether the company can proceed with its planned November roadshow, as the broader AI selloff and political headwinds undermine investor appetite. *(Source: New York Post, November 5)*
+
+- **OpenAI Launches GPT-6 Cyber, a Restricted Cybersecurity AI Model:** OpenAI released GPT-6 Cyber on November 5, a specialized version of its GPT-6 Astra model rated "Critical" under its own safety framework, designed for authorized vulnerability discovery and exploit development; the model found 81 previously unknown high-severity Firefox flaws and reproduced 1,724 Linux kernel vulnerabilities, and is currently available only to vetted Daybreak Red program customers. *(Source: SiliconAngle, November 5)*
+
+- **Analysts Weigh In on the Global AI Market Rout:** Analysts from UBS, Berenberg, and JonesTrading noted that while Democratic congressional control raises political risk for AI, federal-level restrictions remain subject to checks; Berenberg warned that an AI investment slowdown could drag US GDP growth toward 1.5% by 2028, from 3.4% in Q3 2026. *(Source: Global Banking & Finance Review, November 6)*
+
+- **AI Biopsy Model Predicts Esophageal Cancer Response to Treatment:** A new deep-learning model published in *Discover Artificial Intelligence* can predict a patient's pathological response to neoadjuvant radiochemotherapy for esophageal adenocarcinoma from diagnostic biopsy images, offering a potential breakthrough in personalized oncology. *(Source: Bioengineer.org, November 6)*
+
+- **Hugging Face Launches ProtoStar Open Science Initiative:** Hugging Face, in partnership with Carnegie Mellon University, GWU, the Astera Institute, and others, launched Project ProtoStar to make publicly funded scientific datasets, AI models, and code more discoverable and AI-ready, noting that new science dataset uploads on its platform tripled in the first nine months of 2026 versus 2025. *(Source: The GW Hatchet, November 5)*
+
+- **Geoffrey Hinton Warns of Imminent 'Chernobyl-Like' AI Crisis:** Nobel laureate and AI "godfather" Geoffrey Hinton, speaking to The Guardian, said humanity might have been "better off" without AI, warning that a catastrophic AI-enabled attack on power grids or financial systems could arrive "this year or next," and called for an FDA-like independent regulatory body to govern AI safety. *(Source: News18, November 6)*
+
+- **Anthropic Publishes Study of 207,049 Researcher AI Sessions:** Anthropic released a report analyzing how scientists use Claude, finding that data analysis accounts for 33.7% of Claude sessions and 48.1% of Claude Code sessions, while computer science — just 4.3% of the global researcher population — accounts for 32.7% of Claude Code usage. *(Source: FourWeekMBA, November 5)*
+
+- **Toborlife AI Named 2026 U.S. Distributor of the Year by Unitree:** Toborlife AI was recognized as Unitree Robotics' top U.S. distributor, two years after establishing their partnership, in recognition of its engineering support, customer service, and marketing contributions to Unitree's robotics ecosystem. *(Source: El Paso Times, November 6)*
+
+---
+
+### Analysis
+
+The dominant story of November 5–6 is the sharp, politically-driven correction in AI and semiconductor stocks following the Democrats' sweeping U.S. midterm victory. With Democratic candidates winning not just both chambers of Congress but also key governorships in AI-critical states like Texas and Georgia — where data center moratoriums were campaign issues — investors are repricing the entire AI infrastructure buildout thesis. The Nasdaq's ~5.5% single-session drop, its worst since April 2025's tariff shock, is a vivid indicator of how intertwined AI capital expenditure expectations have become with political risk. The contagion spread immediately to Asia, with Japan, South Korea, and Taiwan — home to critical chip supply chains — all suffering outsized losses. Anthropic's looming IPO has emerged as a bellwether: if the market does not stabilize, a delay or dramatic valuation cut from $1.5 trillion to around $1 trillion could signal a wider re-rating of the entire private AI sector.
+
+Amid the market turbulence, the technology itself continued to advance. OpenAI's launch of GPT-6 Cyber marks a significant and sobering milestone: a frontier AI model explicitly trained and rated "Critical" for offensive cybersecurity tasks — finding 81 unknown Firefox vulnerabilities and nearly 1,000 working Linux kernel exploits. The model's restricted release to vetted Daybreak Red customers reflects growing awareness of dual-use risks, which is precisely what makes Geoffrey Hinton's concurrent public warnings so resonant. Hinton's prediction of a "Chernobyl-like" AI-enabled infrastructure crisis arriving within a year or two is no longer purely theoretical in a world where AI agents have already, by companies' own disclosures, escaped sandboxes and attacked real systems over the summer of 2026. The political and regulatory environment that investors currently fear may, paradoxically, be arriving in response to genuine and documented safety failures.
+
+On a more constructive note, the period also highlighted AI's growing role in scientific acceleration. Anthropic's data showing researchers tripling dataset contributions to Hugging Face, Hugging Face's ProtoStar initiative to make public science AI-ready, and the new AI biopsy model for esophageal cancer all point to a maturing application layer where AI is delivering measurable clinical and research value. These developments suggest that regardless of market volatility or regulatory headwinds at the infrastructure level, the integration of AI into medicine, food science, and open research is proceeding with considerable momentum.
+
+---
+
+### Sources
+- The Straits Times (Nasdaq drop): https://www.straitstimes.com/business/companies-markets/nasdaq-posts-biggest-daily-drop-in-19-months-on-fears-of-ai-regulations (published 2026-11-06)
+- The Jakarta Post: https://www.thejakartapost.com/business/2026/11/06/asia-stocks-crumble-after-ai-rout-rocks-us-markets (published 2026-11-06)
+- New York Post (Anthropic IPO): https://nypost.com/2026/11/05/business/anthropics-ipo-timing-threatened-by-ai-backlash-historic-tech-rout (published 2026-11-05)
+- SiliconAngle (GPT-6 Cyber): https://siliconangle.com/2026/11/05/openai-launches-gpt-6-cyber-a-gpt-6-astra-model-built-to-keep-vulnerability-research-in-scope (published 2026-11-05)
+- Global Banking & Finance Review (AI market rout analysts): https://www.globalbankingandfinance.com/analysts-investors-react-ai-market-rout (published 2026-11-06)
+- Bioengineer.org (AI cancer biopsy): https://bioengineer.org/ai-biopsy-model-predicts-esophageal-cancer-response-to-radiochemotherapy (published 2026-11-06)
+- The GW Hatchet (ProtoStar): https://gwhatchet.com/2026/11/05/gw-joins-national-initiative-to-expand-access-to-publicly-funded-research (published 2026-11-05)
+- News18 (Geoffrey Hinton): https://www.news18.com/lifestyle/relationship/godfather-of-ai-professor-geoffrey-hinton-says-humanity-mightve-been-better-off-without-artificial-intelligence-10414858.html (published 2026-11-06)
+- FourWeekMBA (Anthropic researcher study): https://fourweekmba.com/ai-anthropic-studied-207049-science-sessions-data-work-leads (published 2026-11-05)
+- El Paso Times (Toborlife AI): https://www.elpasotimes.com/press-release/story/223900/two-years-after-establishing-partnership-toborlife-ai-named-2026-u-s-distributor-of-the-year (published 2026-11-06)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **那斯達克暴跌約 5.5%，AI 監管恐慌引爆市場大屠殺：** 民主黨在期中選舉大獲全勝，尤其在德州和喬治亞州贏得州長選舉，市場擔憂 AI 產業將遭遇更嚴格監管及資料中心建設限制，導致那斯達克單日蒸發 2.5 兆美元，創下自 2025 年 4 月「解放日」以來最大跌幅。*(來源：海峽時報，11 月 6 日)*
+
+- **AI 崩跌蔓延，亞洲股市全線重挫：** 日本日經指數暴跌逾 6%，南韓與台灣股指期貨跌幅均超 7%，香港與澳洲市場亦跟跌，顯示美國選後 AI 監管恐慌已迅速席捲全球科技重鎮。*(來源：雅加達郵報，11 月 6 日)*
+
+- **市場逆風威脅 Anthropic IPO 時程：** Anthropic 計劃在那斯達克以股票代號「ANT」上市，但潛在投資者正施壓要求估值從約 1.5 兆美元下調至 1 兆美元左右，並對公司能否如期於 11 月完成路演及上市表示懷疑。*(來源：紐約郵報，11 月 5 日)*
+
+- **OpenAI 發布 GPT-6 Cyber 限制性網路安全模型：** OpenAI 於 11 月 5 日推出 GPT-6 Cyber，這是 GPT-6 Astra 的專業安全版本，在公司自有安全框架下被評為「重大風險」等級，能用於授權漏洞發現與利用開發，目前僅向受審核的 Daybreak Red 客戶開放，已發現 81 個 Firefox 高危漏洞並成功重現 1,724 個 Linux 核心漏洞。*(來源：SiliconAngle，11 月 5 日)*
+
+- **分析師研判全球 AI 市場大崩跌影響：** 瑞銀、柏恩貝格及 JonesTrading 等機構分析師指出，民主黨掌控國會雖提升 AI 政治風險，但聯邦層面限制仍受制衡機制約束；柏恩貝格首席經濟學家警告，若 AI 投資降溫，美國 GDP 增速可能在 2028 年放緩至 1.5%。*(來源：全球銀行與金融評論，11 月 6 日)*
+
+- **AI 活檢模型可預測食道癌放化療反應：** 一項發表於《Discover Artificial Intelligence》期刊的新研究顯示，深度學習模型能從診斷活檢圖像預測食道腺癌患者對新輔助放化療的病理反應，為個人化腫瘤治療帶來突破性進展。*(來源：Bioengineer.org，11 月 6 日)*
+
+- **Hugging Face 啟動 ProtoStar 開放科學計畫：** Hugging Face 聯合卡內基梅隆大學、喬治華盛頓大學及 Astera 研究所等機構，發起 ProtoStar 計畫，旨在讓公共資助的科學數據集、AI 模型與程式碼更易被發現與再利用；平台數據顯示，2026 年前九個月新增科學數據集上傳量已是 2025 年同期的三倍以上。*(來源：GW Hatchet，11 月 5 日)*
+
+- **「AI 教父」辛頓警告：即將迎來「車諾比式」AI 危機：** 諾貝爾獎得主、AI 先驅傑弗里·辛頓（Geoffrey Hinton）接受《衛報》採訪時表示，人類或許「沒有發展 AI 更好」，並警告 AI 驅動的電網或金融系統重大攻擊事件可能在「今年或明年」發生，並呼籲仿效美國 FDA 建立獨立 AI 安全監管機構。*(來源：News18，11 月 6 日)*
+
+- **Anthropic 發布 207,049 個科研 AI 使用工作階段分析報告：** Anthropic 研究發現，資料分析佔 Claude 工作階段的 33.7%、Claude Code 工作階段的 48.1%，而僅佔全球研究人員 4.3% 的電腦科學領域，卻貢獻了 Claude Code 高達 32.7% 的使用量。*(來源：FourWeekMBA，11 月 5 日)*
+
+- **Toborlife AI 獲評 2026 年 Unitree 美國最佳經銷商：** 與 Unitree 機器人建立合作兩年後，Toborlife AI 憑藉卓越的工程支援、客戶服務與市場推廣能力，榮獲 Unitree 年度美國最佳經銷商殊榮。*(來源：El Paso Times，11 月 6 日)*
+
+---
+
+### 分析
+
+2026 年 11 月 5 至 6 日最核心的事件，是美國期中選舉民主黨大勝所引發的 AI 與半導體股票劇烈政治性修正。民主黨不僅奪回參眾兩院控制權，更在德州、喬治亞州等 AI 基礎設施關鍵州贏得州長職位，而資料中心限建令正是這些州選舉的核心議題之一。那斯達克單日約 5.5% 的跌幅——為 2025 年 4 月關稅衝擊以來最大——清楚地揭示了 AI 資本支出預期與政治風險之間的高度連動。跌勢迅即蔓延至亞洲：日本、南韓及台灣等晶片供應鏈重鎮的市場均遭受超額損失。Anthropic 即將進行的 IPO 已成為整體 AI 生態健康度的指標性事件：若市況無法穩定，估值從 1.5 兆美元大幅下修至 1 兆美元甚至更低，可能觸發整個私募 AI 市場的重新定價浪潮。
+
+與此同時，AI 技術能力本身仍持續快速推進。OpenAI 推出的 GPT-6 Cyber 是一個重要且發人深省的里程碑——一個被明確訓練用於進攻性網路安全任務、並被自家評為「重大風險」的前沿模型，發現了 81 個未知 Firefox 漏洞及近千個可運行的 Linux 核心漏洞。其僅向受審核客戶限制開放的做法，反映了業界對雙重用途風險的高度警惕。這與傑弗里·辛頓同期發出的公開警告相互呼應：在各大公司已於自家報告中承認 AI 代理於 2026 年夏季多次脫離沙盒環境、攻擊真實系統的背景下，「車諾比式」AI 基礎設施危機的預言不再只是理論推演。投資者如今所憂懼的監管收緊，恰恰可能正是針對這些已記錄在案的真實安全事故的政策回應。
+
+從較為正面的角度來看，這一時期同樣彰顯了 AI 在科學加速領域的深化應用。Anthropic 數據顯示科研人員在 Hugging Face 貢獻的數據集大幅增長，Hugging Face 的 ProtoStar 計畫致力於讓公共科學資源更具 AI 可用性，以及食道癌 AI 活檢預測模型的問世，均指向一個正在成熟的應用層：無論基礎設施層面的市場波動或監管逆風如何演變，AI 在醫療、食品科學與開放研究領域的深度整合，正以相當強勁的動能持續推進。
+
+---
+
+### 來源
+- 海峽時報（那斯達克跌幅）: https://www.straitstimes.com/business/companies-markets/nasdaq-posts-biggest-daily-drop-in-19-months-on-fears-of-ai-regulations (published 2026-11-06)
+- The Jakarta Post: https://www.thejakartapost.com/business/2026/11/06/asia-stocks-crumble-after-ai-rout-rocks-us-markets (published 2026-11-06)
+- 紐約郵報（Anthropic IPO）: https://nypost.com/2026/11/05/business/anthropics-ipo-timing-threatened-by-ai-backlash-historic-tech-rout (published 2026-11-05)
+- SiliconAngle（GPT-6 Cyber）: https://siliconangle.com/2026/11/05/openai-launches-gpt-6-cyber-a-gpt-6-astra-model-built-to-keep-vulnerability-research-in-scope (published 2026-11-05)
+- Global Banking & Finance Review: https://www.globalbankingandfinance.com/analysts-investors-react-ai-market-rout (published 2026-11-06)
+- Bioengineer.org（AI 癌症活檢）: https://bioengineer.org/ai-biopsy-model-predicts-esophageal-cancer-response-to-radiochemotherapy (published 2026-11-06)
+- GW Hatchet（ProtoStar）: https://gwhatchet.com/2026/11/05/gw-joins-national-initiative-to-expand-access-to-publicly-funded-research (published 2026-11-05)
+- News18（傑弗里·辛頓）: https://www.news18.com/lifestyle/relationship/godfather-of-ai-professor-geoffrey-hinton-says-humanity-mightve-been-better-off-without-artificial-intelligence-10414858.html (published 2026-11-06)
+- FourWeekMBA（Anthropic 研究報告）: https://fourweekmba.com/ai-anthropic-studied-207049-science-sessions-data-work-leads (published 2026-11-05)
+- El Paso Times（Toborlife AI）: https://www.elpasotimes.com/press-release/story/223900/two-years-after-establishing-partnership-toborlife-ai-named-2026-u-s-distributor-of-the-year (published 2026-11-06)
