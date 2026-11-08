@@ -174,6 +174,22 @@ class HoldOldStoriesTest(unittest.TestCase):
         self.assertIsNotNone(_clean_source({"name": "W", "url": "https://wire.example/a;b", "date": ""}))
         self.assertEqual(_clean_source({"name": "A; B", "url": "https://x.example", "date": ""})[0], "A, B")
 
+    def test_whitespace_in_source_names_keeps_citations_on_one_line(self):
+        # Codex review R6-1: a name with leading/trailing newlines must not split the citation,
+        # or the real old date is lost and the story is published instead of held.
+        from knowledge import _clean_source, apply_verification, hold_old_stories
+        for name in ("\nWire\n", "\tWire\t", "\u3000Wire\u3000", "Wi\nre", "Wire\u2028", "\x85Wire"):
+            decisions = [{"index": 1, "action": "keep", "sources": [
+                {"name": name, "url": "https://wire.example/old", "date": "2026-09-01"}]},
+                {"index": 2, "action": "remove", "sources": []}, {"index": 3, "action": "remove", "sources": []}]
+            summary = apply_verification(SUMMARY, decisions)
+            _, held = hold_old_stories(summary, "2026-10-18")
+            self.assertEqual([h["title"] for h in held], ["New story"], repr(name))
+        for blank in ("\n", "\t", "\u3000", " ; ", "\n;\n"):
+            self.assertIsNone(_clean_source({"name": blank, "url": "https://x.example", "date": ""}), repr(blank))
+        self.assertEqual(_clean_source({"name": "\nWire\n", "url": "https://x.example", "date": ""})[0], "Wire")
+        self.assertEqual(_clean_source({"name": "Wi\nre", "url": "https://x.example", "date": ""})[0], "Wi re")
+
     def test_unparseable_source_date_still_counts(self):
         line = "- **Story:** x. *(Sources: [Odd](not-a-url), 2026-09-01; [Daily](https://daily.example/new), 2026-10-17)*"
         from knowledge import citation_earliest_date

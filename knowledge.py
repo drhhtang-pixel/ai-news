@@ -304,13 +304,19 @@ def _clean_source(src) -> tuple[str, str, str | None] | None:
     Citations separate sources with "; " / "；" (see _SOURCE_SEPARATOR_RE), so neither may
     appear inside a source: semicolons in a name become ", " and a URL with whitespace or a
     full-width "；" is rejected. This keeps a name or URL from faking a source boundary whose
-    text then ends in a date (Codex review R5-1).
+    text then ends in a date (Codex review R5-1). Names are also collapsed to one line, so a
+    citation can never be split across lines (R6-1).
     """
     if not isinstance(src, dict):
         return None
-    name = re.sub(r"\s*[;；]\s*", ", ", str(src.get("name") or "")).strip(" ,，")
+    # Collapse all whitespace (newlines, tabs, full-width spaces, Unicode line separators) so
+    # the citation stays on one line; hold_old_stories reads citations line by line (R6-1).
+    name = re.sub(r"\s+", " ", str(src.get("name") or ""))
+    name = re.sub(r"\s*[;；]\s*", ", ", name).strip(" ,，")
     url = str(src.get("url") or "").strip()
-    if not name or not re.match(r"https?://\S+$", url) or "；" in url or any(c in name for c in "[]"):
+    if not name or len(name.splitlines()) != 1 or any(c in name for c in "[]"):
+        return None
+    if not re.match(r"https?://\S+$", url) or "；" in url:
         return None
     return name, url, _valid_date(str(src.get("date") or ""))
 
