@@ -11920,3 +11920,103 @@ The U.S. political landscape adds a third layer of pressure. Democrats retaking 
 - TechRepublic（Perplexity Teammates）: https://www.techrepublic.com/article/news-perplexity-teammates-ai-agents-pricing-features (published 2026-11-06)
 - Stephanie's Weekly AI Bites（LinkedIn）: https://www.linkedin.com/pulse/stephanies-weekly-ai-bites-november-6-2026-stephanie-goutos-ymj4e (published 2026-11-06)
 - WION News（先進晶片封裝）: https://www.wionews.com/technology/the-next-big-ai-chip-battle-may-not-be-about-processors-but-how-they-are-packaged-1793948151782/amp (published 2026-11-07)
+
+## 2026-11-08 03:58
+
+<!-- EN -->
+### Headlines
+
+- **Anthropic IPO Presses Ahead as Valuation Slips to $1.2T:** Anthropic is pushing forward with its planned November Nasdaq debut even as a post-election tech selloff has dragged investor valuation discussions down from $1.5T to a range of $1.1T–$1.3T, with Bloomberg reporting no final decisions have been made. *(Source: The Economic Times, November 7)*
+
+- **New AI Model (MolMMP) Predicts Molecular Toxicity Using 3D Geometry:** Researchers published a study in BMC Bioinformatics introducing MolMMP, a structure-aware cross-modal AI model that uses 3D geometric data to improve molecular toxicity prediction for drug discovery and chemical safety. *(Source: Bioengineer.org, November 8)*
+
+- **AI Scans Global News for Chemical Threats, But Radiological Signals Too Rare to Test:** A GPT-4o-powered surveillance system using the Bing News API was evaluated for detecting chemical and radiological threats in open-source intelligence, finding strong results for chemical incidents but insufficient radiological data to benchmark. *(Source: Bioengineer.org, November 8)*
+
+- **Nova Scotia Sees Province-Wide AI Data Centre Protests Across 7 Cities:** Nearly 1,000 people marched in Halifax and hundreds more in six other Nova Scotia communities on November 7, demanding a moratorium on large-scale AI data centre proposals, with demonstrations targeting EverWind Fuels' Anthropic-linked campus at Point Tupper, Cape Breton. *(Source: The Canadian Press / Toronto Star, November 7)*
+
+- **Democrats Planning Flood of AI Bills as They Prepare to Take Congress:** Following midterm victories, Democratic leaders including Rep. Ted Lieu confirmed plans for wide-ranging AI legislation in January covering consumer electricity-cost protections from data centres, mandatory independent safety testing of frontier AI models, and clearer corporate liability rules. *(Source: ABC News, November 7)*
+
+- **AI Safety Advocates Win Big After $110 Million Midterm Investment:** A Bloomberg report confirmed that pro-AI-safety candidates swept key congressional races, aided by Public First — a political group backed by Anthropic co-founder Dario Amodei — which poured over $63 million into the midterms to elect candidates favouring stricter AI oversight. *(Source: Bloomberg, November 7)*
+
+- **Data Centers "Took a Beating" in Midterms; Reckoning Looms for Tech Giants:** A post-election analysis found that 32 of 34 newly elected governors support stronger data centre regulation or restrictions, with Morgan Stanley warning the results carry "greater expectations for data center restrictions" that could split the country into permissive and restrictive zones. *(Source: Al Jazeera, November 7)*
+
+- **Goldman Sachs Pledges $500 Million to Launch Small Business AI Institute:** Goldman Sachs announced a $500 million commitment to extend its 10,000 Small Businesses program into a dedicated AI Institute, partnering with leading AI companies to give entrepreneurs the training and tools to integrate AI into their operations. *(Source: Bank Policy Institute, November 7)*
+
+- **Anthropic Engineer Warns Against "Cognitive Surrender" to AI:** A widely-circulated warning from an Anthropic engineer urged developers and users to maintain four key practices to avoid over-relying on AI agents, arguing that skills left unexercised due to AI delegation will atrophy irreversibly. *(Source: Tech Insider, November 8)*
+
+- **AI-Driven Coronary Plaque Analysis Outperforms Standard Care in PARAMOUNT Trial:** Results presented at AHA Scientific Sessions 2026 in Chicago showed that Cleerly's AI-based CT plaque quantification system (AI-QCT) met its primary endpoint, outperforming standard care for patients with suspected coronary artery disease in the first randomised trial of its kind. *(Source: MyCarrollCountyNews / Cleerly Press Release, November 7)*
+
+- **Flawed AI Detectors Penalising Genuine Human Writers:** A letter published in Dawn highlighted how commercially deployed AI-writing detectors frequently flag careful, sophisticated human prose as AI-generated, raising serious academic integrity concerns and disproportionately harming strong human writers. *(Source: Dawn, November 8)*
+
+---
+
+### Analysis
+
+The dominant story of the 48-hour window is the collision of AI ambition with democratic backlash. The 2026 US midterms delivered a clear verdict: voters, by a margin of 76% in exit polls, oppose new data centres in their communities, and they elected governors and legislators pledging to slow or halt AI infrastructure expansion. This has immediate financial consequences — Anthropic's IPO valuation has slid from a hoped-for $2 trillion in early October to a reported range of $1.1T–$1.3T, reflecting not just market volatility but a changed regulatory landscape. With Democrats set to control Congress in January and already telegraphing bills on independent AI safety testing, liability, and energy cost protections, the era of near-zero federal AI oversight in the US appears to be ending.
+
+At the same time, the science of AI continues to advance rapidly and on multiple fronts. The MolMMP molecular toxicity model and the successful PARAMOUNT cardiac imaging trial both illustrate AI's deepening penetration into life sciences — areas where accuracy and interpretability carry life-or-death stakes. Meanwhile, the grassroots resistance seen across Nova Scotia and in dozens of US ballot measures signals that public unease with AI is no longer confined to regulators and academics, but is now a live political force capable of reshaping infrastructure investment at scale. The challenge for the industry in the coming months will be reconciling the speed of AI capability development with the legitimate concerns of communities bearing its environmental and economic costs.
+
+---
+
+### Sources
+
+- The Economic Times (Anthropic IPO): https://m.economictimes.com/news/international/us/should-anthropic-delay-its-ipo-stock-market-turmoil-raises-questions-over-1-5-trillion-valuation-as-ai-spending-slows/articleshow/135614642.cms (published 2026-11-07)
+- Bioengineer.org (MolMMP toxicity model): https://bioengineer.org/new-ai-model-predicts-molecular-toxicity-using-3d-geometry (published 2026-11-08)
+- Bioengineer.org (AI chemical threat scanning): https://bioengineer.org/ai-scans-global-news-for-chemical-threats-but-radiological-signals-prove-too-rare-to-test (published 2026-11-08)
+- The Toronto Star / Canadian Press (Nova Scotia protests): https://www.thestar.com/news/canada/nova-scotia/province-wide-protests-call-for-moratorium-on-ai-data-centre-proposals-in-n-s/article_93587ac9-beab-5676-af73-2d46284ff821.html (published 2026-11-07)
+- ABC News (Democrats AI bills): https://abcnews.com/Politics/wireStory/house-democrats-start-majority-focused-boosting-healthcare-ending-137938473 (published 2026-11-07)
+- Bloomberg (AI safety midterm wins): https://www.bloomberg.com/news/articles/2026-11-07/ai-safety-advocates-make-gains-after-110-million-midterm-fight (published 2026-11-07)
+- Al Jazeera (data centre reckoning): https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres (published 2026-11-07)
+- Bank Policy Institute (Goldman Sachs AI Institute): https://bpi.com/bpinsights-november-7-2026 (published 2026-11-07)
+- Tech Insider (Anthropic engineer cognitive surrender): https://tech-insider.org/anthropic-engineer-osmani-cognitive-surrender-four-rules-2026 (published 2026-11-08)
+- MyCarrollCountyNews / Cleerly Press Release (PARAMOUNT AI cardiology trial): https://www.mycarrollcountynews.com/online_features/press_releases/article_4cad4997-3c88-570e-9294-d38a53b1d600.html (published 2026-11-07)
+- Dawn (AI detection flaws): https://www.dawn.com/news/2043000/flawed-detectors-punishing-non-ai-writers (published 2026-11-08)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Anthropic IPO 推進，估值滑落至 1.2 兆美元：** Anthropic 堅持推進其計劃中的 11 月那斯達克上市，但受選後科技股拋售潮衝擊，投資人討論的估值已從 1.5 兆美元降至 1.1 兆至 1.3 兆美元區間，彭博報導指出目前尚未做出最終決定。*(來源：經濟時報，11 月 7 日)*
+
+- **新 AI 模型 MolMMP 利用 3D 幾何結構預測分子毒性：** 研究人員在《BMC Bioinformatics》發表論文，介紹 MolMMP——一種結構感知跨模態 AI 模型，透過 3D 幾何資料提升藥物研發與化學安全領域的分子毒性預測精準度。*(來源：Bioengineer.org，11 月 8 日)*
+
+- **AI 掃描全球新聞以偵測化學威脅，但放射性信號過於稀少難以測試：** 一套以 GPT-4o 驅動、透過 Bing 新聞 API 進行開源情報監控的系統，被評估用於偵測化學與放射性威脅，化學事件偵測表現優異，但放射性相關資料不足以進行基準測試。*(來源：Bioengineer.org，11 月 8 日)*
+
+- **新斯科細亞省七座城市爆發省級 AI 資料中心抗議：** 11 月 7 日，近千名民眾在哈利法克斯遊行，另有數百人在新斯科細亞省另外六座城市集會，要求對大型 AI 資料中心提案實施暫停令，抗議矛頭指向 EverWind Fuels 與 Anthropic 相關的開普布列頓島園區計畫。*(來源：加拿大通訊社／多倫多星報，11 月 7 日)*
+
+- **民主黨籌備大量 AI 法案，備戰掌控國會：** 中期選舉勝選後，眾議員 Ted Lieu 等民主黨領袖確認將於明年 1 月推動廣泛的 AI 立法，涵蓋保護消費者免受資料中心引發的電費上漲衝擊、強制對前沿 AI 模型進行獨立安全測試，以及釐清企業責任認定等面向。*(來源：美國廣播公司新聞，11 月 7 日)*
+
+- **AI 安全倡導者在中期選舉砸下 1.1 億美元後大獲全勝：** 彭博報導確認，支持 AI 安全的候選人橫掃關鍵國會席次，背後功臣是 Anthropic 共同創辦人 Dario Amodei 支持的政治倡議組織 Public First，該組織在中期選舉中投入逾 6,300 萬美元，助選主張強化 AI 監管的候選人。*(來源：彭博，11 月 7 日)*
+
+- **資料中心在中期選舉慘敗，科技巨頭或面臨清算時刻：** 選後分析顯示，34 位新當選州長中有 32 位支持更嚴格的資料中心監管或限制措施，摩根士丹利警告此結果帶來「對資料中心限制的更高預期」，可能將全美分裂為開放與封閉兩種政策區域。*(來源：半島電視台，11 月 7 日)*
+
+- **高盛承諾 5 億美元設立小型企業 AI 研究所：** 高盛宣布斥資 5 億美元，將旗下「萬家小企業」計劃擴展為專屬 AI 研究所，與頂尖 AI 公司合作，為創業者提供培訓與工具，協助其將 AI 整合進日常營運。*(來源：美國銀行政策研究所，11 月 7 日)*
+
+- **Anthropic 工程師警告勿對 AI 產生「認知投降」：** 一名 Anthropic 工程師的警告廣泛流傳，呼籲開發者與用戶維持四項關鍵習慣，以避免過度依賴 AI 代理人，並強調因委託 AI 而荒廢的技能將不可逆地退化。*(來源：Tech Insider，11 月 8 日)*
+
+- **AI 心臟斑塊分析在 PARAMOUNT 試驗中優於標準療護：** 在芝加哥舉行的美國心臟協會 2026 年科學會議上，Cleerly 的 AI 冠狀動脈 CT 斑塊量化系統達到主要終點，在首個此類隨機對照試驗中，表現優於針對疑似冠心病患者的標準療護。*(來源：MyCarrollCountyNews／Cleerly 新聞稿，11 月 7 日)*
+
+- **有缺陷的 AI 偵測工具懲罰了真正的人類作者：** Dawn 刊登的一封讀者來函指出，市售 AI 寫作偵測工具頻繁將精心撰寫的人類文章誤判為 AI 生成，引發嚴重的學術誠信隱憂，且不成比例地傷害了文筆精良的人類寫作者。*(來源：Dawn，11 月 8 日)*
+
+---
+
+### 分析
+
+在這 48 小時的報導窗口中，最主要的主題是 AI 雄心與民主反彈之間的正面衝突。2026 年美國中期選舉傳遞了清晰訊號：出口民調顯示 76% 的選民反對在社區附近新建資料中心，他們選出了承諾減緩或阻止 AI 基礎建設擴張的州長與議員。這帶來了立竿見影的財務後果——Anthropic 的 IPO 估值已從 10 月初預期的 2 兆美元滑落至 1.1 兆至 1.3 兆美元區間，反映的不僅是市場波動，更是整個監管環境的根本轉變。隨著民主黨即將於 1 月掌控國會，並已明確表示將推動針對 AI 安全測試、企業責任及能源成本保護的法案，美國 AI 幾乎零聯邦監管的時代顯然正走向終結。
+
+與此同時，AI 科學本身仍在多個領域快速推進。MolMMP 分子毒性模型與 PARAMOUNT 心臟影像試驗的成功，均顯示 AI 正深入滲透生命科學領域——而這些領域對準確性與可解釋性的要求攸關人命。另一方面，新斯科細亞省七城市的示威遊行，以及美國數十項選票公投，均表明公眾對 AI 的不安已不再侷限於監管機構與學術界，而已成為能夠在基礎建設投資層面重塑格局的現實政治力量。未來數月，AI 產業面臨的核心挑戰，將是如何在能力快速躍升的同時，回應那些承受其環境與經濟代價的社區之正當訴求。
+
+---
+
+### 來源
+
+- 經濟時報（Anthropic IPO）: https://m.economictimes.com/news/international/us/should-anthropic-delay-its-ipo-stock-market-turmoil-raises-questions-over-1-5-trillion-valuation-as-ai-spending-slows/articleshow/135614642.cms (published 2026-11-07)
+- Bioengineer.org（MolMMP 毒性模型）: https://bioengineer.org/new-ai-model-predicts-molecular-toxicity-using-3d-geometry (published 2026-11-08)
+- Bioengineer.org（AI 化學威脅偵測）: https://bioengineer.org/ai-scans-global-news-for-chemical-threats-but-radiological-signals-prove-too-rare-to-test (published 2026-11-08)
+- 多倫多星報／加拿大通訊社（新斯科細亞抗議）: https://www.thestar.com/news/canada/nova-scotia/province-wide-protests-call-for-moratorium-on-ai-data-centre-proposals-in-n-s/article_93587ac9-beab-5676-af73-2d46284ff821.html (published 2026-11-07)
+- 美國廣播公司新聞（民主黨 AI 法案）: https://abcnews.com/Politics/wireStory/house-democrats-start-majority-focused-boosting-healthcare-ending-137938473 (published 2026-11-07)
+- 彭博（AI 安全倡導者選舉勝利）: https://www.bloomberg.com/news/articles/2026-11-07/ai-safety-advocates-make-gains-after-110-million-midterm-fight (published 2026-11-07)
+- 半島電視台（資料中心清算）: https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres (published 2026-11-07)
+- 美國銀行政策研究所（高盛 AI 研究所）: https://bpi.com/bpinsights-november-7-2026 (published 2026-11-07)
+- Tech Insider（認知投降警告）: https://tech-insider.org/anthropic-engineer-osmani-cognitive-surrender-four-rules-2026 (published 2026-11-08)
+- MyCarrollCountyNews／Cleerly 新聞稿（PARAMOUNT 心臟 AI 試驗）: https://www.mycarrollcountynews.com/online_features/press_releases/article_4cad4997-3c88-570e-9294-d38a53b1d600.html (published 2026-11-07)
+- Dawn（AI 偵測工具缺陷）: https://www.dawn.com/news/2043000/flawed-detectors-punishing-non-ai-writers (published 2026-11-08)
