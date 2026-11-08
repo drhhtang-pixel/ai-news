@@ -147,6 +147,33 @@ class HoldOldStoriesTest(unittest.TestCase):
                  "[Daily](https://daily.example/new), 2026-10-17)*")
         self.assertEqual(citation_earliest_date(mixed), "2026-09-01")
 
+    def test_semicolons_in_source_names_cannot_fake_a_date_field(self):
+        # Codex review R5-1: a name like "Archive, 2020-01-01; News" must not split into a
+        # fake source that ends in a date. Built through the real apply_verification path.
+        from knowledge import _clean_source, apply_verification, citation_earliest_date, headline_items
+        for name in ("Archive, 2020-01-01; News", "Archive，2020-01-01；News"):
+            for date, expected in (("2026-10-17", "2026-10-17"), ("unknown", None)):
+                decisions = [
+                    {"index": 1, "action": "keep", "sources": [
+                        {"name": name, "url": "https://wire.example/x", "date": date}]},
+                    {"index": 2, "action": "remove", "sources": []},
+                    {"index": 3, "action": "remove", "sources": []},
+                ]
+                en, _ = headline_items(apply_verification(SUMMARY, decisions))
+                self.assertEqual(citation_earliest_date(en[0]), expected, (name, date, en[0]))
+                self.assertNotIn(";", en[0].split("](")[0])
+        # A genuinely old date in the date field still wins.
+        decisions = [{"index": 1, "action": "keep", "sources": [
+            {"name": "Archive, 2020-01-01; News", "url": "https://wire.example/x", "date": "2026-09-01"},
+            {"name": "Daily", "url": "https://daily.example/new", "date": "2026-10-17"}]},
+            {"index": 2, "action": "remove", "sources": []}, {"index": 3, "action": "remove", "sources": []}]
+        en, _ = headline_items(apply_verification(SUMMARY, decisions))
+        self.assertEqual(citation_earliest_date(en[0]), "2026-09-01")
+        # URLs may not carry a full-width separator; an ASCII ";" without a space is fine.
+        self.assertIsNone(_clean_source({"name": "W", "url": "https://wire.example/x,2020-01-01；tail", "date": ""}))
+        self.assertIsNotNone(_clean_source({"name": "W", "url": "https://wire.example/a;b", "date": ""}))
+        self.assertEqual(_clean_source({"name": "A; B", "url": "https://x.example", "date": ""})[0], "A, B")
+
     def test_unparseable_source_date_still_counts(self):
         line = "- **Story:** x. *(Sources: [Odd](not-a-url), 2026-09-01; [Daily](https://daily.example/new), 2026-10-17)*"
         from knowledge import citation_earliest_date

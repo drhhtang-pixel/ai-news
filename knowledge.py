@@ -33,7 +33,9 @@ _LINKED_SOURCE_RE = re.compile(r"\[([^\]]+)\]\((" + _URL_IN_LINK + r")\)\s*[,，
 # program writes it ("[name](url), 2026-10-17" / "name, 2026-10-17"). Dates inside names or
 # URLs are never at the end, so they can't match however the URL is shaped.
 _TRAILING_DATE_RE = re.compile(r"[,，]\s*(\d{4}-\d{2}-\d{2})\s*$")
-# Sources are separated by "; " (EN) or "；" (ZH); a URL can contain ";" but never "; ".
+# Sources are separated by "; " (EN) or "；" (ZH). _clean_source guarantees neither occurs
+# inside a published source: names have semicolons replaced, and URLs contain no whitespace
+# or "；" (an ASCII ";" without a following space inside a URL is fine).
 _SOURCE_SEPARATOR_RE = re.compile(r";\s+|；")
 _ISO_DATE_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\b")
 _SOURCE_ENTRY_RE = re.compile(r"^- (.+?):\s*(https?://\S+)")
@@ -297,10 +299,18 @@ def _valid_date(value: str | None) -> str | None:
 
 
 def _clean_source(src) -> tuple[str, str, str | None] | None:
+    """Validate one verifier source; the single entry point for every published citation.
+
+    Citations separate sources with "; " / "；" (see _SOURCE_SEPARATOR_RE), so neither may
+    appear inside a source: semicolons in a name become ", " and a URL with whitespace or a
+    full-width "；" is rejected. This keeps a name or URL from faking a source boundary whose
+    text then ends in a date (Codex review R5-1).
+    """
     if not isinstance(src, dict):
         return None
-    name, url = str(src.get("name") or "").strip(), str(src.get("url") or "").strip()
-    if not name or not re.match(r"https?://\S+$", url) or any(c in name for c in "[]"):
+    name = re.sub(r"\s*[;；]\s*", ", ", str(src.get("name") or "")).strip(" ,，")
+    url = str(src.get("url") or "").strip()
+    if not name or not re.match(r"https?://\S+$", url) or "；" in url or any(c in name for c in "[]"):
         return None
     return name, url, _valid_date(str(src.get("date") or ""))
 
