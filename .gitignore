@@ -18,3 +18,6 @@ cron.log
 # Claude Code per-user settings and local virtualenv
 .claude/settings.local.json
 .venv/
+
+# Stories held for manager review by a local run (CI writes to the runner temp dir)
+held_stories.md

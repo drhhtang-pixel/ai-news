@@ -3,7 +3,6 @@ from types import SimpleNamespace
 from unittest.mock import patch
 
 import agent
-import verifier
 from tools import _normalize_date, allowed_dates, execute_tool
 
 
@@ -72,6 +71,19 @@ class GuardFinalCallTest(unittest.TestCase):
             result = fn(*args)
             return result, create.call_args_list
 
+    def test_agent_guard_asks_again_when_final_answer_is_not_a_summary(self):
+        replies = iter(["Now let me verify key article URLs.", "<!-- EN -->real"])
+        with patch.object(agent, "execute_tool", return_value="ok"), \
+             patch.object(agent.anthropic, "Anthropic") as client_cls:
+            create = client_cls.return_value.messages.create
+            create.side_effect = lambda **kw: (
+                _text_response(next(replies)) if kw.get("tool_choice") else _tool_use_response()
+            )
+            result = agent.run_agent("AI news", "2026-10-14")
+        self.assertEqual(result, "<!-- EN -->real")
+        self.assertEqual(create.call_count, agent.MAX_TOOL_CALLS + 2)
+        self.assertIn("That is not the summary", create.call_args.kwargs["messages"][-1]["content"])
+
     def test_agent_guard(self):
         result, calls = self._run(agent, agent.run_agent, "AI news", "2026-10-14")
         self.assertEqual(len(calls), agent.MAX_TOOL_CALLS + 1)
@@ -80,31 +92,25 @@ class GuardFinalCallTest(unittest.TestCase):
         self.assertIs(final["tools"], agent.TOOLS)
         self.assertEqual(result, "<!-- EN -->done")
 
-    def test_verifier_guard(self):
-        result, calls = self._run(verifier, verifier.run_verifier, "<!-- EN -->x", "2026-10-14")
-        self.assertEqual(len(calls), verifier.MAX_VERIFIER_TOOL_CALLS + 1)
-        final = calls[-1].kwargs
-        self.assertEqual(final["tool_choice"], {"type": "none"})
-        self.assertIs(final["tools"], verifier.TOOLS)
-        self.assertEqual(result, "<!-- EN -->done")
-
-
 class PromptDatesTest(unittest.TestCase):
-    def _system_prompt(self, module, fn, *args):
-        with patch.object(module.anthropic, "Anthropic") as client_cls:
+    def test_writer_prompt_uses_known_stories_not_a_date_window(self):
+        with patch.object(agent.anthropic, "Anthropic") as client_cls:
             create = client_cls.return_value.messages.create
             create.return_value = _text_response("<!-- EN -->done")
-            fn(*args)
-            return create.call_args.kwargs["system"]
+            agent.run_agent("AI news", "2026-10-14", ["Old story A", "Old story B"])
+            system = create.call_args.kwargs["system"]
+        self.assertIn("NEW TO THIS MONITOR", system)
+        self.assertIn("- Old story A\n- Old story B", system)
+        self.assertNotIn("2026-10-13", system)
 
-    def test_both_prompts_name_the_24h_window(self):
-        for module, fn, args in [
-            (agent, agent.run_agent, ("AI news", "2026-10-14")),
-            (verifier, verifier.run_verifier, ("<!-- EN -->x", "2026-10-14")),
-        ]:
-            system = self._system_prompt(module, fn, *args)
-            self.assertIn("2026-10-13", system, module.__name__)
-            self.assertIn("2026-10-14", system, module.__name__)
+class HeadlineTotalTest(unittest.TestCase):
+    def test_counts_en_headlines_only(self):
+        text = (
+            "<!-- EN -->\n### Headlines\n- **A:** x\n- **B:** y\n### Analysis\n- **T:** z\n"
+            "<!-- ZH -->\n### 頭條新聞\n- **甲：** x\n"
+        )
+        self.assertEqual(agent._headline_total(text), 2)
+        self.assertEqual(agent._headline_total("no markers"), 0)
 
 
 if __name__ == "__main__":

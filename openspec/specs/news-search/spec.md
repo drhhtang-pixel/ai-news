@@ -18,7 +18,7 @@ The agent SHALL determine which search queries to execute without human input, b
 #### Scenario: Agent performs multiple searches
 
 - **WHEN** the agent is invoked with a search topic
-- **THEN** it SHALL call the `web_search` tool at least once and up to 10 times before producing a final answer
+- **THEN** it SHALL call the `web_search` tool at least once and up to 15 times before producing a final answer
 
 ##### Example: typical run
 
@@ -30,11 +30,11 @@ The agent SHALL determine which search queries to execute without human input, b
 ---
 ### Requirement: Search loop terminates with a guard
 
-The agent SHALL stop the tool-use loop after 10 tool calls even if Claude has not yet reached `end_turn`, to prevent runaway API usage.
+The agent SHALL stop the tool-use loop after 15 tool calls even if Claude has not yet reached `end_turn`, to prevent runaway API usage.
 
 #### Scenario: Guard triggers on excessive tool calls
 
-- **WHEN** the number of tool calls in a single run reaches 10
+- **WHEN** the number of tool calls in a single run reaches 15
 - **THEN** the loop SHALL exit and the agent SHALL use whatever results have been collected to generate the summary
 
 ##### Example: guard boundary
@@ -42,7 +42,7 @@ The agent SHALL stop the tool-use loop after 10 tool calls even if Claude has no
 | Tool calls made | stop_reason | Action |
 |---|---|---|
 | 5 | tool_use | Continue loop |
-| 10 | tool_use | Exit loop, proceed to summary |
+| 15 | tool_use | Exit loop, proceed to summary |
 | 3 | end_turn | Exit loop normally |
 
 ---
@@ -118,6 +118,6 @@ The `web_search` tool SHALL call Tavily with `topic="news"` and `days=2` (Tavily
 ## Implementation Notes
 
 - `TOOLS` list and `execute_tool(name, input) -> str` dispatcher are defined in `tools.py`
-- The loop in `agent.py` tracks `tool_call_count`; when it reaches `MAX_TOOL_CALLS = 10`, a follow-up API call is issued with `tools=TOOLS` and `tool_choice={"type": "none"}` to force a text answer (tools stay declared to match the `tool_use` blocks in the history; `none` forbids further calls)
+- The loop in `agent.py` tracks `tool_call_count`; when it reaches `MAX_TOOL_CALLS = 15`, a follow-up API call is issued with `tools=TOOLS` and `tool_choice={"type": "none"}` to force a text answer (tools stay declared to match the `tool_use` blocks in the history; `none` forbids further calls). If that answer contains no `<!-- EN -->` summary, the writer SHALL be asked once more, explicitly, for the summary
 - Each Tavily result item is formatted as `**{title}**\n{content}\nPublished: {date}\nURL: {url}`; items are joined with double newlines
 - Unknown tool names return `"Error: Unknown tool '{name}'"` — treated as a non-fatal error by the loop

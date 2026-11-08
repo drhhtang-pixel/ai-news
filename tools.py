@@ -12,6 +12,9 @@ _MONTHS = {
 }
 
 _URL_DATE_RE = re.compile(r"/(\d{4})/(\d{1,2})/(\d{1,2})(?:/|$|[?#])")
+# A whole path segment that starts with YYYY-MM-DD, e.g. bloomberg.com/news/articles/2026-10-16/...
+_URL_ISO_SEGMENT_RE = re.compile(r"/(\d{4})-(\d{2})-(\d{2})(?=[/?#]|$|-)")
+ISO_DAY_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
 _ISO_DATE_RE = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})(?!\d)")
 _MDY_RE = re.compile(
     r"\b(" + "|".join(_MONTHS.keys()) + r")\.?\s+(\d{1,2}),?\s+(\d{4})\b",
@@ -39,7 +42,7 @@ def _format_date(year: int, month: int, day: int) -> str | None:
 
 
 def _date_from_url(url: str) -> str | None:
-    m = _URL_DATE_RE.search(url or "")
+    m = _URL_DATE_RE.search(url or "") or _URL_ISO_SEGMENT_RE.search(url or "")
     if not m:
         return None
     return _format_date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
@@ -157,6 +160,67 @@ TOOLS = [
 ]
 
 
+# Every URL a tool actually returned during this run. A source URL in the final summary
+# that is not in this set was never seen by the agents, i.e. it was made up.
+SEEN_URLS: set[str] = set()
+# Every published date any tool reported for a URL (normalized). extract_url often has no
+# date for a page web_search already dated, and the two can disagree.
+URL_DATES: dict[str, set[str]] = {}
+
+
+def _remember(url: str, date: str) -> None:
+    key = normalize_url(url)
+    SEEN_URLS.add(key)
+    if date != "unknown":
+        URL_DATES.setdefault(key, set()).add(date)
+
+
+def tool_date(url: str) -> str | None:
+    """The date to cite for a URL: the EARLIEST date any tool reported, so conflicting evidence
+    can only make a story look older (and be held for review), never newer. None if undated."""
+    dates = URL_DATES.get(normalize_url(url))
+    return min(dates) if dates else None
+
+
+def normalize_url(url: str) -> str:
+    """Compare URLs loosely: ignore scheme, a leading 'www.', host case and a trailing slash."""
+    # Scheme and host are case-insensitive; path and query are not (RFC 3986 6.2.2.1).
+    m = re.match(r"^(?:https?://)?(?:www\.)?([^/?#]*)(.*)$", url.strip(), re.IGNORECASE)
+    return (m.group(1).lower() + m.group(2)).rstrip("/")
+
+
+# Token usage per agent for this run, e.g. {"writer": {"input": 1200, "output": 300, ...}}.
+USAGE: dict[str, dict[str, int]] = {}
+
+
+def record_usage(agent: str, response) -> None:
+    usage = getattr(response, "usage", None)
+    if usage is None:
+        return
+    totals = USAGE.setdefault(agent, {"input": 0, "output": 0, "cache_read": 0, "cache_write": 0})
+    totals["input"] += getattr(usage, "input_tokens", 0) or 0
+    totals["output"] += getattr(usage, "output_tokens", 0) or 0
+    totals["cache_read"] += getattr(usage, "cache_read_input_tokens", 0) or 0
+    totals["cache_write"] += getattr(usage, "cache_creation_input_tokens", 0) or 0
+
+
+def usage_report() -> str:
+    """One line per agent; cost uses Sonnet 4.6 list prices ($3 / $15 per million tokens)."""
+    lines = []
+    for agent, t in USAGE.items():
+        cost = (t["input"] * 3 + t["output"] * 15 + t["cache_read"] * 0.3 + t["cache_write"] * 3.75) / 1_000_000
+        lines.append(f"Token usage [{agent}]: input {t['input']}, output {t['output']}, "
+                     f"cache read {t['cache_read']}, cache write {t['cache_write']} (~US${cost:.2f})")
+    return "\n".join(lines)
+
+
+def log_tool_call(agent: str, name: str, input: dict, result: str) -> None:
+    """One line per tool call in the run log, so we can see what each agent actually did."""
+    arg = input.get("query") or input.get("url") or ""
+    status = "ERROR" if result.startswith("Error") else "ok"
+    print(f"  [{agent}] {name} {status}: {arg[:100]}")
+
+
 def execute_tool(name: str, input: dict) -> str:
     if name == "web_search":
         try:
@@ -168,6 +232,8 @@ def execute_tool(name: str, input: dict) -> str:
                 content = item.get("content", "") or ""
                 url = item.get("url", "")
                 date = _resolve_published_date(item.get("published_date"), url, content)
+                if url:
+                    _remember(url, date)
                 parts.append(f"**{title}**\n{content}\nPublished: {date}\nURL: {url}")
             return "\n\n".join(parts) if parts else "No results found."
         except Exception as e:
@@ -185,6 +251,8 @@ def execute_tool(name: str, input: dict) -> str:
             content = raw_content[:1000]
             url = item.get("url", input["url"])
             date = _resolve_published_date(item.get("published_date"), url, raw_content)
+            _remember(url, date)
+            _remember(input["url"], date)
             return f"**{title}**\n{content}\nPublished: {date}\nURL: {url}"
         except Exception as e:
             return f"Error: {e}"

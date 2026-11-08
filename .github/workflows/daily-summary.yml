@@ -11,6 +11,9 @@ permissions:
 jobs:
   summarize:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write   # open a review issue for stories held back as too old
     timeout-minutes: 30
 
     steps:
@@ -32,7 +35,24 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          HELD_FILE: ${{ runner.temp }}/held_stories.md
         run: python3 agent.py
+
+      # Runs even if the agent failed afterwards (e.g. every headline was held), so the
+      # manager still hears about the held stories; skipped when the run is cancelled.
+      - name: Ask the manager to review stories older than a month
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HELD_FILE: ${{ runner.temp }}/held_stories.md
+        run: |
+          if [ -s "$HELD_FILE" ]; then
+            gh issue create \
+              --title "Review older AI news stories held on $(date -u +%Y-%m-%d)" \
+              --body-file "$HELD_FILE"
+          else
+            echo "No stories held for review."
+          fi
 
       - name: Regenerate static HTML
         run: python3 publish.py
