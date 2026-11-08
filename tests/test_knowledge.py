@@ -125,6 +125,28 @@ class HoldOldStoriesTest(unittest.TestCase):
         _, held = hold_old_stories(summary, "2026-10-18")
         self.assertEqual([h["title"] for h in held], ["Old story"])  # only the genuinely old one
 
+    def test_unparseable_links_with_commas_do_not_leak_url_dates(self):
+        # Codex review R4-1: nested parentheses defeat link parsing; commas in the name or URL
+        # must still not make a URL date count. Only the trailing date field may.
+        from knowledge import _clean_source, citation_earliest_date
+        nested = "https://wire.example/Story_(AI_(history))/2020-01-01"
+        self.assertIsNotNone(_clean_source({"name": "Smith, Jones & Co", "url": nested, "date": "2026-10-17"}))
+        cases = {
+            f"[Smith, Jones & Co]({nested}), 2026-10-17": "2026-10-17",
+            f"[Smith, Jones & Co]({nested}), date unknown": None,
+            "[Wire](https://wire.example/Story_(AI_(history))?event=x,2020-01-01), 2026-10-17": "2026-10-17",
+            "[Wire](https://wire.example/Story_(AI_(history))?event=x,2020-01-01), date unknown": None,
+            "Smith, Archive 2020-01-01 edition, 2026-10-17": "2026-10-17",
+            "[Wire](https://wire.example/x), , 2026-10-17": "2026-10-17",
+        }
+        for citation, expected in cases.items():
+            line = f"- **Fresh:** x. *(Sources: {citation})*"
+            self.assertEqual(citation_earliest_date(line), expected, citation)
+        # A genuinely old source next to a recent one still decides the age (R2-1).
+        mixed = (f"- **Old:** x. *(Sources: [Smith, Jones & Co]({nested}), 2026-09-01; "
+                 "[Daily](https://daily.example/new), 2026-10-17)*")
+        self.assertEqual(citation_earliest_date(mixed), "2026-09-01")
+
     def test_unparseable_source_date_still_counts(self):
         line = "- **Story:** x. *(Sources: [Odd](not-a-url), 2026-09-01; [Daily](https://daily.example/new), 2026-10-17)*"
         from knowledge import citation_earliest_date

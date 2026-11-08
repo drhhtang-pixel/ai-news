@@ -29,8 +29,12 @@ _CITATION_RE = re.compile(r"\*\((?:Sources?|來源)\s*[:：]\s*(.*?)\)\*\s*$")
 # URLs may contain balanced parentheses, e.g. https://example.com/Story_(AI)
 _URL_IN_LINK = r"https?://(?:[^\s()]|\([^\s()]*\))+"
 _LINKED_SOURCE_RE = re.compile(r"\[([^\]]+)\]\((" + _URL_IN_LINK + r")\)\s*[,，]\s*([^;；]*)")
-# Any [name](target) markup, even when the target is not a valid URL; removed before reading dates.
-_ANY_LINK_RE = re.compile(r"\[[^\]]*\]\((?:[^\s()]|\([^\s()]*\))*\)")
+# A source's date field: the date that ENDS the source, right after its last comma, as the
+# program writes it ("[name](url), 2026-10-17" / "name, 2026-10-17"). Dates inside names or
+# URLs are never at the end, so they can't match however the URL is shaped.
+_TRAILING_DATE_RE = re.compile(r"[,，]\s*(\d{4}-\d{2}-\d{2})\s*$")
+# Sources are separated by "; " (EN) or "；" (ZH); a URL can contain ";" but never "; ".
+_SOURCE_SEPARATOR_RE = re.compile(r";\s+|；")
 _ISO_DATE_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\b")
 _SOURCE_ENTRY_RE = re.compile(r"^- (.+?):\s*(https?://\S+)")
 
@@ -184,8 +188,8 @@ def hold_old_stories(summary: str, today_date: str,
     for pos, idx in enumerate(en_items):
         sources = [(name, url or _lookup(by_name, name, date), date)
                    for name, url, date in citation_sources(lines[idx])]
-        # Age uses every date written in the citation, so a source the parser could not
-        # read still counts (a missing date must never make a story look newer).
+        # Age uses every source's date field, including sources the link parser could not
+        # read, so a missing date can never make a story look newer.
         earliest = citation_earliest_date(lines[idx])
         if earliest and _parse_date(earliest) < cutoff:
             drop.add(idx)
@@ -255,25 +259,25 @@ def citation_sources(line: str) -> list[tuple[str, str | None, str | None]]:
 
 
 def citation_earliest_date(line: str) -> str | None:
-    """Earliest real date among the citation's DATE FIELDS (the part after each source's comma).
+    """Earliest real date among the citation's DATE FIELDS: the date that ends each source.
 
-    Link markup is removed first, whether or not the link parses, so dates inside source
-    names or URLs (e.g. https://example.com/2020-01-01-retrospective) never count, while a
-    source whose link could not be parsed still contributes its date field.
+    Dates inside source names or URLs (e.g. https://example.com/2020-01-01-retrospective or
+    a URL with nested parentheses and commas) never count, because only a date at the very end
+    of a source, after its last comma, is read. A source whose link could not be parsed still
+    contributes its trailing date field.
     """
     m = _CITATION_RE.search(line)
     if not m:
         return None
-    body = _ANY_LINK_RE.sub("", m.group(1))
-    dates = [_valid_date(_date_field(part)) for part in re.split(r"[;；]", body)]
+    dates = [_valid_date(_date_field(part)) for part in _SOURCE_SEPARATOR_RE.split(m.group(1))]
     dates = [d for d in dates if d]
     return min(dates) if dates else None
 
 
 def _date_field(part: str) -> str | None:
-    """The ISO date in a citation part's date field, i.e. after its first comma."""
-    pieces = re.split(r"[,，]", part, maxsplit=1)
-    return _first_iso(pieces[1]) if len(pieces) == 2 else None
+    """The date that ends a citation part, after its last comma; None for 'date unknown' etc."""
+    m = _TRAILING_DATE_RE.search(part.strip())
+    return m.group(1) if m else None
 
 
 def _first_iso(text: str) -> str | None:
