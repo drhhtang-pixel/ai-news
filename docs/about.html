@@ -119,7 +119,7 @@ Every day at 08:00 (Taiwan time)
       <ul>
         <li><strong>GitHub Actions</strong>: Triggers the pipeline daily at 08:00 Taiwan time (00:00 UTC) via a scheduled cron workflow. Runs entirely in the cloud — no local machine required. Also pushes the generated HTML back to the repo so GitHub Pages deploys automatically.</li>
         <li><strong>Claude (claude-sonnet-4-6) — writer agent</strong>: The "brain" of the agent. It autonomously decides which queries to run, calls the search tool multiple times, then synthesises all results into a structured bilingual summary with inline source citations.</li>
-        <li><strong>Claude (claude-sonnet-4-6) — verifier agent</strong>: A second independent Claude agent that runs after the writer. It checks every headline's cited URL using Tavily Extract — verifying the article exists and was published today. Bad sources are replaced via web search; unverifiable headlines are removed entirely.</li>
+        <li><strong>Claude (claude-sonnet-4-6) — verifier agent</strong>: A second independent Claude agent that runs after the writer. It reads every source a headline cites using Tavily Extract and checks that the article actually reports the story. Sources may come from different dates; each is listed with its own published date. Unsupported sources are dropped, a replacement is searched for when none are left, and headlines with no supporting source are removed. "New" means new to this monitor: stories already published in the last 45 days are skipped, and stories whose earliest source is more than a month old are held back for the manager to review.</li>
         <li><strong>Tavily Search API</strong>: An AI-optimised search API that returns clean, structured results suitable for LLM consumption — no HTML scraping needed.</li>
         <li><strong>publish.py</strong>: Converts the append-only <code>summaries.md</code> into a static website. Parses dates, splits bilingual content, renders HTML with EN/ZH toggle.</li>
         <li><strong>GitHub Pages</strong>: Serves the static site for free. Each daily page gets a permanent URL (<code>/YYYY-MM-DD/</code>).</li>
@@ -340,7 +340,7 @@ GitHub Pages  →  ainews.ditldesign.com
       <ul>
         <li><strong>GitHub Actions</strong>：每天台灣時間早上 08:00（UTC 00:00）透過排程 cron workflow 觸發流程，完全在雲端執行——就算本機關機也照常運作。流程跑完後也負責將生成的 HTML push 回 repo，自動觸發 GitHub Pages 部署。</li>
         <li><strong>Claude（claude-sonnet-4-6）——撰寫 Agent</strong>：Agent 的「大腦」。自主決定要搜尋什麼、多次呼叫搜尋工具，最後將所有結果整合為帶有 inline 來源引用的結構化中英雙語摘要。</li>
-        <li><strong>Claude（claude-sonnet-4-6）——驗證 Agent</strong>：撰寫後執行的第二個獨立 Claude Agent。使用 Tavily Extract 驗證每條頭條引用的來源 URL——確認文章存在且為今日發布。無效來源透過網路搜尋替換，無法驗證的頭條直接移除。</li>
+        <li><strong>Claude（claude-sonnet-4-6）——驗證 Agent</strong>：撰寫後執行的第二個獨立 Claude Agent。使用 Tavily Extract 讀取每條頭條引用的來源，確認文章內容確實報導了這則新聞。同一則新聞可以有不同日期的來源，每個來源都標明各自的發布日期。不支持內容的來源會被移除；沒有來源時會搜尋替代報導，仍找不到才移除該頭條。「新」指的是本站還沒報導過：過去 45 天已刊登的新聞不會重複刊登；最早來源超過一個月的新聞會先保留，交由管理者判斷。</li>
         <li><strong>Tavily Search API</strong>：專為 AI 應用優化的搜尋 API，回傳乾淨的結構化結果，不需要解析 HTML。</li>
         <li><strong>publish.py</strong>：將只增不改的 <code>summaries.md</code> 轉換為靜態網站。解析日期、拆分雙語內容、生成含語言切換功能的 HTML 頁面。</li>
         <li><strong>GitHub Pages</strong>：免費提供靜態網站服務。每個每日頁面都有永久的 URL（<code>/YYYY-MM-DD/</code>）。</li>

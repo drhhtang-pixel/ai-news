@@ -12020,3 +12020,94 @@ At the same time, the science of AI continues to advance rapidly and on multiple
 - Tech Insider（認知投降警告）: https://tech-insider.org/anthropic-engineer-osmani-cognitive-surrender-four-rules-2026 (published 2026-11-08)
 - MyCarrollCountyNews／Cleerly 新聞稿（PARAMOUNT 心臟 AI 試驗）: https://www.mycarrollcountynews.com/online_features/press_releases/article_4cad4997-3c88-570e-9294-d38a53b1d600.html (published 2026-11-07)
 - Dawn（AI 偵測工具缺陷）: https://www.dawn.com/news/2043000/flawed-detectors-punishing-non-ai-writers (published 2026-11-08)
+
+## 2026-11-09 04:11
+
+<!-- EN -->
+### Headlines
+
+- **Nvidia Board Opens Independent Investigation Into CEO Jensen Huang Over Chinese Spy Affair:** Nvidia's board launched a formal independent probe after CEO Jensen Huang admitted to an extramarital affair with Alice Huang, a Singapore-based chip executive whom U.S. intelligence suspects was recruited by China's Ministry of State Security; the board stated it has "no reason to believe" national security or company secrets were compromised, and Huang said he is fully cooperating. *(Sources: [TechCrunch](https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy), 2026-11-08; [CNBC](https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html), 2026-11-08; [NPR](https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy), 2026-11-08)*
+
+- **COP31 Opens in Antalya as Surging AI Power Demand Clouds Climate Talks:** Nearly 200 nations gathered in Turkey for the UN's annual climate summit, with AI data-center electricity consumption — up 50% in 2025 alone — joining war-driven energy insecurity and U.S. disengagement as headline threats to climate progress; host Turkey launched an "Antalya AI Pledge" calling on governments and industry to commit to sustainable AI deployment. *(Sources: [Reuters/U.S. News](https://www.usnews.com/news/world/articles/2026-11-08/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai), 2026-11-08; [CNBC TV18](https://www.cnbctv18.com/world/cop31-climate-summit-faces-test-of-turning-pledges-into-action-amid-energy-finance-tensions-20029992.htm), 2026-11-09; [BusinessWorld Online](https://bworldonline.com/world/2026/11/09/792320/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai), 2026-11-09)*
+
+- **Enterprise AI Spending Hits $177 Billion in 2026 — Up 5.4× in One Year — as Agents Eclipse Human Usage:** Menlo Ventures' annual State of Enterprise AI report finds that U.S. enterprise AI deployment spending surged from $33 billion to $176.8 billion in a single year, with AI agents now generating 80% of all tokens (~7× human-driven usage); Anthropic leads with 55% of enterprise LLM API spend (up from 40%), while Google's share collapsed from 21% to 9%, and Chinese open-source models — led by Kimi at 61% — capture 89% of U.S. enterprise open-source model spending. *(Sources: [Menlo Ventures](https://menlovc.com/perspective/2026-the-state-of-enterprise-ai), 2026-11-03; [FourWeekMBA](https://fourweekmba.com/ai-anthropics-enterprise-api-share-is-now-6x-googles-at-55), 2026-11-03)*
+
+- **AI Transforms Bioprospecting for Natural Product Drug Discovery:** A new study highlighted by Bioengineer.org reports that AI platforms are now being applied to bioprospecting — systematically scanning microbial, marine, and plant sources for novel bioactive compounds — dramatically accelerating the pipeline for natural product-derived pharmaceuticals. *(Sources: [Bioengineer.org](https://bioengineer.org/ai-transforms-bioprospecting-for-natural-product-drug-discovery), 2026-11-09)*
+
+- **Nature Publishes AI-Native Autonomous Biology Lab (AutoDNA) That Runs Full Molecular Experiments:** A Shanghai Jiao Tong University team published in Nature details of AutoDNA, a fully AI-native laboratory that uses robotic arms and AI agents to orchestrate more than 20 instruments for autonomous DNA sequencing and molecular biology workflows with minimal human oversight, marking a milestone in self-driving laboratory science. *(Sources: [Nature](https://www.nature.com/articles/s41586-026-11228-6), 2026-11-04)*
+
+- **India's NPCI Launches AI and Blockchain Subsidiary NTSL, Names Vishal Kanvaty CEO:** India's National Payments Corporation of India formally established NPCI Tech Solutions Limited (NTSL) as a wholly owned subsidiary to build capabilities in AI, blockchain, digital financial infrastructure, and Global Capability Centre services beyond its core payments mandate, appointing NPCI's former CTO Vishal Kanvaty as MD & CEO. *(Sources: [TechNode Global](https://technode.global/2026/11/09/npci-launches-tech-solutions-subsidiary), 2026-11-09; [Business Standard](https://www.business-standard.com/companies/news/npci-launches-tech-arm-for-ai-blockchain-names-vishal-kanvaty-as-ceo-126110401642_1.html), 2026-11-04)*
+
+- **HEALWELL AI Releases Q3 2026 Financial Results:** Canadian healthcare AI firm HEALWELL AI (TSX: AIDX) released its fiscal third-quarter 2026 results after market close, with a full investor conference call and webcast scheduled for the morning of November 10, hosted by CEO James Lee and President Dr. Alexander Dobranowski. *(Sources: [TradingView/Newsfile](https://www.tradingview.com/news/tmx_newsfile:b50b29989094b:0-healwell-ai-announces-conference-call-for-third-quarter-2026-financial-results-on-november-10-2026), 2026-11-02)*
+
+---
+
+### Analysis
+
+The Nvidia CEO espionage story is the most market-moving AI development of the day. Jensen Huang's admission of an affair with a person suspected by U.S. intelligence of being a Chinese asset strikes at the intersection of AI chip security and U.S.-China technology rivalry. The incident is particularly sensitive because Nvidia's GPUs remain the backbone of global AI training infrastructure, and any suggestion of compromised leadership — even without confirmed data leaks — rattles investor confidence and feeds ongoing debates in Washington about export controls and supply-chain security. The board's swift announcement of an independent probe, combined with Huang's public apology, signals that governance standards for AI hardware titans are under acute scrutiny, especially in the post-midterm Democratic Congress environment.
+
+The COP31 opening in Antalya brings AI's environmental footprint squarely into international climate diplomacy. For the first time, AI power demand appears as a named agenda item at the highest level of climate negotiations, alongside fossil fuel transitions and climate finance. Turkey's "Antalya AI Pledge" — a voluntary commitment for sustainable AI deployment — echoes the pattern of non-binding industry accords seen elsewhere in AI governance, and critics are already noting that it lacks enforceable targets or disclosure requirements. The IEA's projection that global data centers will consume ~945 TWh of electricity annually by 2030 (double current levels, equivalent to Japan's entire electricity consumption) underscores why AI and climate can no longer be treated as separate policy domains.
+
+Menlo Ventures' $177 billion enterprise AI spending report delivers several structural signals: the agent economy has definitively outpaced human-led AI usage, the frontier lab concentration (Anthropic + OpenAI at 86% of LLM API spend) is accelerating rather than fragmenting, and Chinese open-source models have captured a commanding share of U.S. enterprise open-source spending at 89% — a data point that will likely intensify Congressional debate about technology dependency and national security. The simultaneous advances in autonomous biology labs (AutoDNA in Nature) and AI-accelerated bioprospecting point to life sciences as the next major domain where AI agents are moving from productivity tools to primary research drivers.
+
+---
+
+### Sources
+- TechCrunch: https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy (published 2026-11-08)
+- CNBC: https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html (published 2026-11-08)
+- NPR: https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy (published 2026-11-08)
+- Reuters/U.S. News: https://www.usnews.com/news/world/articles/2026-11-08/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai (published 2026-11-08)
+- CNBC TV18: https://www.cnbctv18.com/world/cop31-climate-summit-faces-test-of-turning-pledges-into-action-amid-energy-finance-tensions-20029992.htm (published 2026-11-09)
+- BusinessWorld Online: https://bworldonline.com/world/2026/11/09/792320/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai (published 2026-11-09)
+- Menlo Ventures: https://menlovc.com/perspective/2026-the-state-of-enterprise-ai (published 2026-11-03)
+- FourWeekMBA: https://fourweekmba.com/ai-anthropics-enterprise-api-share-is-now-6x-googles-at-55 (published 2026-11-03)
+- Bioengineer.org: https://bioengineer.org/ai-transforms-bioprospecting-for-natural-product-drug-discovery (published 2026-11-09)
+- Nature: https://www.nature.com/articles/s41586-026-11228-6 (published 2026-11-04)
+- TechNode Global: https://technode.global/2026/11/09/npci-launches-tech-solutions-subsidiary (published 2026-11-09)
+- Business Standard: https://www.business-standard.com/companies/news/npci-launches-tech-arm-for-ai-blockchain-names-vishal-kanvaty-as-ceo-126110401642_1.html (published 2026-11-04)
+- TradingView/Newsfile: https://www.tradingview.com/news/tmx_newsfile:b50b29989094b:0-healwell-ai-announces-conference-call-for-third-quarter-2026-financial-results-on-november-10-2026 (published 2026-11-02)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **輝達董事會就黃仁勳涉嫌中國間諜情事展開獨立調查：** 輝達（Nvidia）董事會宣布啟動正式獨立調查，起因是執行長黃仁勳（Jensen Huang）承認曾與新加坡晶片公司高管 Alice Huang 發生婚外情，而美國情報機構懷疑後者遭中國國家安全部策反；董事會表示「沒有理由相信」國家安全或公司機密遭到洩露，黃仁勳表示將全力配合調查。*(來源：[TechCrunch](https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy)，2026-11-08；[CNBC](https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html)，2026-11-08；[NPR](https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy)，2026-11-08)*
+
+- **COP31 在安塔利亞揭幕，AI 耗電激增為氣候談判蒙上陰影：** 近200個國家代表齊聚土耳其，出席聯合國年度氣候峰會；AI 資料中心電力消耗（2025年已暴增50%）與戰爭引發的能源安全危機、美國退出氣候合作，並列為威脅氣候目標的三大主要風險；主辦國土耳其推出「安塔利亞 AI 誓約」，呼籲各國政府與企業承諾永續部署 AI。*(來源：[Reuters/U.S. News](https://www.usnews.com/news/world/articles/2026-11-08/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai)，2026-11-08；[CNBC TV18](https://www.cnbctv18.com/world/cop31-climate-summit-faces-test-of-turning-pledges-into-action-amid-energy-finance-tensions-20029992.htm)，2026-11-09；[BusinessWorld Online](https://bworldonline.com/world/2026/11/09/792320/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai)，2026-11-09)*
+
+- **企業 AI 支出 2026 年達 1,770 億美元，年增 5.4 倍，AI 代理使用量超越人類：** 門洛創投（Menlo Ventures）年度《企業 AI 現況》報告顯示，美國企業 AI 部署支出從 330 億美元暴增至 1,768 億美元，AI 代理現已產生全部 Token 的 80%（約為人類用量的 7 倍）；Anthropic 以 55% 的企業大語言模型 API 支出占比居首（較去年的 40% 大幅提升），Google 則從 21% 崩跌至 9%；中國開源模型（以 Kimi 的 61% 居冠）合計佔據美國企業開源 AI 支出的 89%。*(來源：[Menlo Ventures](https://menlovc.com/perspective/2026-the-state-of-enterprise-ai)，2026-11-03；[FourWeekMBA](https://fourweekmba.com/ai-anthropics-enterprise-api-share-is-now-6x-googles-at-55)，2026-11-03)*
+
+- **AI 重塑天然產物藥物發現的生物勘探流程：** 生物工程資訊網站 Bioengineer.org 報導一項最新研究，指出 AI 平台正被應用於生物勘探——系統性地掃描微生物、海洋及植物來源以尋找新型活性化合物——大幅加速天然產物來源新藥的開發管線。*(來源：[Bioengineer.org](https://bioengineer.org/ai-transforms-bioprospecting-for-natural-product-drug-discovery)，2026-11-09)*
+
+- **《自然》期刊發表 AI 原生自主生物實驗室 AutoDNA，可全程執行分子實驗：** 上海交通大學團隊在《自然》期刊發表研究，詳述完全由 AI 主導的 AutoDNA 實驗室——利用機械臂與 AI 代理協調逾 20 種儀器，以極少人工介入的方式自主完成 DNA 定序與分子生物學工作流程，標誌「自動駕駛實驗室」科學研究達到新里程碑。*(來源：[Nature](https://www.nature.com/articles/s41586-026-11228-6)，2026-11-04)*
+
+- **印度 NPCI 成立 AI 與區塊鏈子公司 NTSL，任命 Vishal Kanvaty 為執行長：** 印度國家支付公司（NPCI）正式成立全資子公司 NPCI Tech Solutions Limited（NTSL），以在核心支付業務之外拓展 AI、區塊鏈、數位金融基礎設施及全球能力中心服務，並任命前技術長 Vishal Kanvaty 擔任董事總經理兼執行長。*(來源：[TechNode Global](https://technode.global/2026/11/09/npci-launches-tech-solutions-subsidiary)，2026-11-09；[Business Standard](https://www.business-standard.com/companies/news/npci-launches-tech-arm-for-ai-blockchain-names-vishal-kanvaty-as-ceo-126110401642_1.html)，2026-11-04)*
+
+- **HEALWELL AI 發布 2026 年第三季財務業績：** 加拿大醫療 AI 公司 HEALWELL AI（多倫多交易所：AIDX）在收盤後發布第三季財務業績，並安排於 11 月 10 日上午舉行投資者電話會議，由執行長 James Lee 及總裁 Alexander Dobranowski 博士主持。*(來源：[TradingView/Newsfile](https://www.tradingview.com/news/tmx_newsfile:b50b29989094b:0-healwell-ai-announces-conference-call-for-third-quarter-2026-financial-results-on-november-10-2026)，2026-11-02)*
+
+---
+
+### 分析
+
+輝達執行長涉諜事件是當日最具市場震撼力的 AI 新聞。黃仁勳承認與被美國情報機構懷疑具有中國間諜背景的人士有婚外情，使 AI 晶片安全與中美科技博弈的矛盾驟然激化。由於輝達 GPU 仍是全球 AI 訓練基礎設施的核心，任何關於領導層遭滲透的疑慮——即便尚未確認機密外洩——都足以動搖投資者信心，並為華盛頓正在進行的出口管制與供應鏈安全辯論火上澆油。董事會的迅速回應與黃仁勳的公開道歉，顯示在民主黨主導的新國會壓力下，AI 硬體巨頭的公司治理標準正面臨前所未有的嚴格審視。
+
+COP31 在安塔利亞的召開，首度將 AI 的環境代價正式納入國際氣候外交議程。土耳其推出的「安塔利亞 AI 誓約」延續了近年非約束性行業承諾的慣例，批評者已指出其缺乏可量化目標與強制披露要求。國際能源署估計，到 2030 年全球資料中心年用電量將達約 9450 億度（相當於日本全國用電量），為當前水準的兩倍，這一數字清楚說明為何 AI 政策與氣候政策不再能被視為相互獨立的領域。
+
+門洛創投的 1,770 億美元企業 AI 支出報告揭示了幾個結構性訊號：代理經濟已全面壓過人類主導的 AI 使用量；以 Anthropic 與 OpenAI 合計 86% 的 LLM API 市佔率來看，前沿實驗室的市場集中度正在加劇而非分散；而中國開源模型在美國企業開源支出中佔比高達 89%，這一數據預料將進一步激化國會對技術依賴與國家安全的辯論。與此同時，《自然》期刊發表的 AutoDNA 自主生物實驗室及 AI 加速生物勘探的進展，共同指向生命科學正迅速成為 AI 代理從生產力工具升格為主要研究驅動力的下一個主戰場。
+
+---
+
+### 來源
+- TechCrunch: https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy (published 2026-11-08)
+- CNBC: https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html (published 2026-11-08)
+- NPR: https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy (published 2026-11-08)
+- Reuters/U.S. News: https://www.usnews.com/news/world/articles/2026-11-08/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai (published 2026-11-08)
+- CNBC TV18: https://www.cnbctv18.com/world/cop31-climate-summit-faces-test-of-turning-pledges-into-action-amid-energy-finance-tensions-20029992.htm (published 2026-11-09)
+- BusinessWorld Online: https://bworldonline.com/world/2026/11/09/792320/cop31-to-open-in-turkey-with-climate-goals-under-pressure-from-war-and-ai (published 2026-11-09)
+- Menlo Ventures: https://menlovc.com/perspective/2026-the-state-of-enterprise-ai (published 2026-11-03)
+- FourWeekMBA: https://fourweekmba.com/ai-anthropics-enterprise-api-share-is-now-6x-googles-at-55 (published 2026-11-03)
+- Bioengineer.org: https://bioengineer.org/ai-transforms-bioprospecting-for-natural-product-drug-discovery (published 2026-11-09)
+- Nature: https://www.nature.com/articles/s41586-026-11228-6 (published 2026-11-04)
+- TechNode Global: https://technode.global/2026/11/09/npci-launches-tech-solutions-subsidiary (published 2026-11-09)
+- Business Standard: https://www.business-standard.com/companies/news/npci-launches-tech-arm-for-ai-blockchain-names-vishal-kanvaty-as-ceo-126110401642_1.html (published 2026-11-04)
+- TradingView/Newsfile: https://www.tradingview.com/news/tmx_newsfile:b50b29989094b:0-healwell-ai-announces-conference-call-for-third-quarter-2026-financial-results-on-november-10-2026 (published 2026-11-02)
+
