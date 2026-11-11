@@ -12222,3 +12222,98 @@ Underlying all of this week's news is a governance paradox: the same week that A
 - TechTimes UK: https://www.techtimes.co.uk/google-deepmind-workers-uk-contract-clauses-ai-risks-1809758 (published 2026-11-06)
 - IBTimes UK: https://www.ibtimes.co.uk/google-deepmind-staff-lifetime-criticism-ban-1830419 (published 2026-11-05)
 
+
+## 2026-11-11 04:17
+
+Based on my research, here is the comprehensive bilingual AI news summary for 2026-11-11:
+
+<!-- EN -->
+### Headlines
+
+- **Google Launches Gemini 4 Carbon — Its Most Powerful Model Yet:** Google DeepMind released Gemini 4 Carbon broadly on November 10, billing it as its strongest frontier model to date, designed for complex multi-step coding, long-horizon agentic tasks, and open-ended scientific reasoning; it tops CursorBench 4.0, Perplexity's WANDR, and Zapier's AutomationBench at over 2× lower cost per task than the next best external model, and is available via the Gemini API at an introductory price of $2/$10 per million input/output tokens through November 30. *(Sources: [Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available), 2026-11-10; [VentureBeat](https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price), 2026-11-10; [9to5Google](https://9to5google.com/2026/11/10/gemini-app-4-carbon), 2026-11-10)*
+
+- **Anthropic Launches IPO Roadshow Targeting $1.4 Trillion Valuation:** Anthropic kicked off its IPO roadshow on November 10, filing an amended prospectus setting a price range of $70–$78 per share for 825 million Class A shares — implying a fully diluted valuation of up to $1.4 trillion — with shares set to price on November 18 and begin trading on Nasdaq (ticker: ANT) on November 19; the offering is accompanied by a $26 billion concurrent private placement from Nvidia, Google, Microsoft, AMD, Broadcom, Micron, and TSMC. *(Sources: [Reuters](https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10), 2026-11-10; [Yahoo Finance](https://finance.yahoo.com/markets/article/anthropic-seeks-14-trillion-valuation-in-ipo-130300928.html), 2026-11-10; [Mashable](https://mashable.com/tech/anthropic-ipo-roadshow-valuation), 2026-11-10)*
+
+- **TSMC Approves Up to $1 Billion in Stakes in Anthropic and OpenAI:** Taiwan Semiconductor Manufacturing Company's board on November 10 approved up to $500 million to acquire Anthropic common shares at the IPO price, and up to $500 million to acquire OpenAI preferred stock, positioning the world's largest chipmaker to benefit not only from supplying AI infrastructure but also from direct equity stakes in the AI industry's leading developers. *(Sources: [FourWeekMBA](https://fourweekmba.com/ai-tsmc-approves-up-to-500m-each-for-anthropic-and-openai), 2026-11-10; [Economic Times](https://m.economictimes.com/tech/artificial-intelligence/tsmc-to-invest-up-to-1-billion-in-anthropic-openai/articleshow/135713178.cms), 2026-11-10; [Stocks Down Under](https://stocksdownunder.com/tsmc-stock-openai-anthropic-investment-sales), 2026-11-11)*
+
+- **New York Opens RAISE Act Registration Portal, Giving Frontier AI Labs Until January 1 to Sign Up:** New York State opened a registration portal for large frontier AI developers — including OpenAI and Anthropic — requiring them to enroll by January 1, 2027, when the RAISE Act takes full effect; covered companies (those with over $500M in annual revenue) must publish safety frameworks, report critical safety incidents within 72 hours, file quarterly catastrophic-risk assessments, and pay regulatory fees, with penalties up to $1 million for a first violation and $3 million for repeat offenses. *(Sources: [TechCrunch](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/), 2026-11-10; [MLQ.ai](https://mlq.ai/news/new-york-opens-raise-act-registration-giving-openai-anthropic-and-other-frontier-labs-until-jan-1-to-sign-up), 2026-11-11)*
+
+- **OpenAI Acquires AI Travel Startup Odessia in Commerce Push:** OpenAI acquired Odessia, the year-old AI travel-agent startup founded by Sonder co-founder Francis Davidson, with Davidson joining OpenAI to lead its travel technology efforts; the deal — terms undisclosed — is seen as an acqui-hire bringing OpenAI IATA accreditation, hotel content, and an end-to-end booking capability as the company moves to transform ChatGPT into a full-fledged consumer commerce platform, rattling shares of Expedia, Booking Holdings, and Tripadvisor. *(Sources: [TechCrunch](https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder), 2026-11-10; [Skift](https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai), 2026-11-10; [PYMNTS](https://www.pymnts.com/news/artificial-intelligence/2026/online-travel-agencies-shares-drop-following-openai-acquisition-of-travel-startup-odessia), 2026-11-10)*
+
+- **New York Clinicians' AI Tool Adoption Reached 33 Percent, Study Finds:** A new study published in BMC Primary Care found that AI tool use among New York State clinical providers rose to 33% overall — up from 18.3% in a prior survey — though adoption varied significantly by specialty and setting, highlighting both the rapid penetration of AI in healthcare and persistent gaps in training and trust. *(Sources: [Bioengineer.org](https://bioengineer.org/ai-tool-use-among-new-york-clinicians-rose-to-33-percent), 2026-11-11)*
+
+- **Researchers Defend Explainable AI as Vital for Clinical Safety:** A new study published November 11 makes the case that explainable AI (XAI) is essential for clinical decision support, arguing that black-box models pose unacceptable risks to patient safety and that algorithmic transparency must be a prerequisite for AI deployment in high-stakes medical settings. *(Sources: [Bioengineer.org](https://bioengineer.org/researchers-defend-explainable-ai-as-vital-for-clinical-safety-and-human-oversight), 2026-11-11)*
+
+---
+
+### Analysis
+
+The dominant story of November 11 is the convergence of AI frontier model competition and landmark financial events. Google's broad release of Gemini 4 Carbon — topping key industry benchmarks at an introductory price that significantly undercuts Anthropic's Claude Fable 5.2 and OpenAI's latest offerings — signals that the model price war is intensifying sharply. Simultaneously, Anthropic's IPO roadshow launch at a $1.4 trillion target valuation (down from the $2 trillion whispered just two months ago) reflects a cooling but still historically enormous investor appetite for frontier AI. TSMC's simultaneous $1 billion dual investment in both Anthropic and OpenAI underscores how the semiconductor supply chain is now deeply entangled with the commercial fortunes of AI labs — a vertical integration of financial interest that has few precedents in the technology industry.
+
+On the regulatory and enterprise fronts, New York's RAISE Act registration portal going live marks a concrete milestone in U.S. state-level AI governance, pushing the industry toward a patchwork of disclosure and incident-reporting obligations as federal legislation remains stalled. OpenAI's acquisition of travel startup Odessia, meanwhile, is a clear signal that the top AI labs are pivoting from pure model development toward consumer commerce — with ChatGPT being groomed as a transactional platform that can book flights and hotels directly, disrupting the established online travel agency industry. Taken together, these events reflect an AI sector in the midst of a critical dual transition: from research lab to regulated public company, and from language model to full-stack commerce engine.
+
+---
+
+### Sources
+- Google Blog: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available (published 2026-11-10)
+- VentureBeat: https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price (published 2026-11-10)
+- 9to5Google: https://9to5google.com/2026/11/10/gemini-app-4-carbon (published 2026-11-10)
+- Reuters: https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10 (published 2026-11-10)
+- Yahoo Finance: https://finance.yahoo.com/markets/article/anthropic-seeks-14-trillion-valuation-in-ipo-130300928.html (published 2026-11-10)
+- Mashable: https://mashable.com/tech/anthropic-ipo-roadshow-valuation (published 2026-11-10)
+- FourWeekMBA: https://fourweekmba.com/ai-tsmc-approves-up-to-500m-each-for-anthropic-and-openai (published 2026-11-10)
+- Economic Times: https://m.economictimes.com/tech/artificial-intelligence/tsmc-to-invest-up-to-1-billion-in-anthropic-openai/articleshow/135713178.cms (published 2026-11-10)
+- Stocks Down Under: https://stocksdownunder.com/tsmc-stock-openai-anthropic-investment-sales (published 2026-11-11)
+- TechCrunch: https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/ (published 2026-11-10)
+- MLQ.ai: https://mlq.ai/news/new-york-opens-raise-act-registration-giving-openai-anthropic-and-other-frontier-labs-until-jan-1-to-sign-up (published 2026-11-11)
+- TechCrunch: https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder (published 2026-11-10)
+- Skift: https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai (published 2026-11-10)
+- PYMNTS: https://www.pymnts.com/news/artificial-intelligence/2026/online-travel-agencies-shares-drop-following-openai-acquisition-of-travel-startup-odessia (published 2026-11-10)
+- Bioengineer.org: https://bioengineer.org/ai-tool-use-among-new-york-clinicians-rose-to-33-percent (published 2026-11-11)
+- Bioengineer.org: https://bioengineer.org/researchers-defend-explainable-ai-as-vital-for-clinical-safety-and-human-oversight (published 2026-11-11)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Google 發布 Gemini 4 Carbon，稱其為迄今最強大的模型：** Google DeepMind 於 11 月 10 日大範圍推出 Gemini 4 Carbon，定位為其旗艦前沿模型，專為複雜多步驟編程、長周期自主任務及開放式科學推理而打造，在 CursorBench 4.0、Perplexity WANDR 及 Zapier AutomationBench 等基準測試中位居榜首；API 推廣期定價為每百萬輸入/輸出 tokens 分別 $2/$10 美元，有效期至 11 月 30 日。*(來源：[Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available)，2026-11-10；[VentureBeat](https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price)，2026-11-10；[9to5Google](https://9to5google.com/2026/11/10/gemini-app-4-carbon)，2026-11-10)*
+
+- **Anthropic 啟動 IPO 路演，目標估值達 1.4 兆美元：** Anthropic 於 11 月 10 日正式啟動 IPO 路演，提交更新招股書，A 類股定價區間為每股 70 至 78 美元，擬出售 8.25 億股，完全稀釋估值最高達 1.4 兆美元；計劃於 11 月 18 日定價，11 月 19 日於 Nasdaq（股票代號：ANT）掛牌交易，同步進行 260 億美元私募，認購方包括 Nvidia、Google、微軟、AMD、博通、美光及台積電。*(來源：[Reuters](https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10)，2026-11-10；[Yahoo Finance](https://finance.yahoo.com/markets/article/anthropic-seeks-14-trillion-valuation-in-ipo-130300928.html)，2026-11-10；[Mashable](https://mashable.com/tech/anthropic-ipo-roadshow-valuation)，2026-11-10)*
+
+- **台積電批准最高 10 億美元分別入股 Anthropic 與 OpenAI：** 台積電董事會於 11 月 10 日批准以 IPO 價格認購最多 5 億美元 Anthropic 普通股，及最多 5 億美元 OpenAI 優先股，使全球最大晶圓代工廠在供應 AI 基礎設施之餘，亦能直接持有兩大 AI 龍頭股權。*(來源：[FourWeekMBA](https://fourweekmba.com/ai-tsmc-approves-up-to-500m-each-for-anthropic-and-openai)，2026-11-10；[Economic Times](https://m.economictimes.com/tech/artificial-intelligence/tsmc-to-invest-up-to-1-billion-in-anthropic-openai/articleshow/135713178.cms)，2026-11-10；[Stocks Down Under](https://stocksdownunder.com/tsmc-stock-openai-anthropic-investment-sales)，2026-11-11)*
+
+- **紐約州 RAISE 法案登記入口網站開放，前沿 AI 業者須於 1 月 1 日前完成登記：** 紐約州正式開放 RAISE 法案登記入口，要求 OpenAI、Anthropic 等大型前沿 AI 開發商（年收入逾 5 億美元）於 2027 年 1 月 1 日前完成登記；法案規定企業須公開安全框架、72 小時內通報重大安全事故、提交季度性災難性風險評估，首次違規罰款高達 100 萬美元，累犯最高 300 萬美元。*(來源：[TechCrunch](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/)，2026-11-10；[MLQ.ai](https://mlq.ai/news/new-york-opens-raise-act-registration-giving-openai-anthropic-and-other-frontier-labs-until-jan-1-to-sign-up)，2026-11-11)*
+
+- **OpenAI 收購 AI 旅遊新創 Odessia，積極布局消費商務：** OpenAI 收購由 Sonder 共同創辦人 Francis Davidson 創立的 AI 旅遊代理新創 Odessia，Davidson 本人亦加入 OpenAI 主導旅遊業務發展；交易金額未披露，業界視為「人才併購」，此舉可望讓 ChatGPT 具備直接訂購機票與飯店的能力，消息一出令 Expedia、Booking Holdings 及 Tripadvisor 股價齊跌。*(來源：[TechCrunch](https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder)，2026-11-10；[Skift](https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai)，2026-11-10；[PYMNTS](https://www.pymnts.com/news/artificial-intelligence/2026/online-travel-agencies-shares-drop-following-openai-acquisition-of-travel-startup-odessia)，2026-11-10)*
+
+- **研究顯示紐約州臨床醫師 AI 工具使用率升至 33%：** 發表於《BMC Primary Care》的新研究發現，紐約州臨床醫療人員中使用 AI 工具的比例已達 33%，較前次調查的 18.3% 大幅上升，但不同科別與機構之間的採用率差異懸殊，凸顯了 AI 在醫療領域快速普及的同時，培訓與信任缺口仍未彌補。*(來源：[Bioengineer.org](https://bioengineer.org/ai-tool-use-among-new-york-clinicians-rose-to-33-percent)，2026-11-11)*
+
+- **研究人員力挺可解釋 AI，稱其對臨床安全不可或缺：** 11 月 11 日發表的一項研究強調，可解釋 AI（XAI）是臨床決策支援系統的核心要素，黑盒模型對患者安全構成不可接受的風險，演算法透明度應成為 AI 應用於高風險醫療場景的前提條件。*(來源：[Bioengineer.org](https://bioengineer.org/researchers-defend-explainable-ai-as-vital-for-clinical-safety-and-human-oversight)，2026-11-11)*
+
+---
+
+### 分析
+
+11 月 11 日最核心的主題，是前沿模型競爭與重大金融事件的高度匯聚。Google 廣泛推出 Gemini 4 Carbon，以更低價格在多項主要基準測試中超越 Anthropic Claude Fable 5.2 與 OpenAI 最新模型，顯示模型價格戰已全面升溫。與此同時，Anthropic 以 1.4 兆美元目標估值正式啟動 IPO 路演（較兩個月前流傳的 2 兆美元大幅縮水），折射出投資人對前沿 AI 的熱情雖有所降溫，但規模仍屬歷史罕見。台積電同步向 Anthropic 與 OpenAI 各注資最高 5 億美元，說明半導體供應鏈與 AI 實驗室的商業命運已深度綁定，這種垂直整合式的財務關係在科技史上幾乎前所未見。
+
+在監管與企業層面，紐約州 RAISE 法案登記入口正式開放，標誌著美國州級 AI 治理邁出具體一步，推動業界在聯邦立法遲遲未能落地之際，逐步建立分散式的資訊披露與事故通報機制。OpenAI 收購旅遊新創 Odessia，則清晰表明頂級 AI 實驗室正在從純粹的模型研發轉向消費商務——ChatGPT 被打造成可直接訂購機票與飯店的交易平台，對既有線上旅遊業者構成直接威脅。綜合來看，這些事件反映出 AI 產業正處於雙重關鍵轉型之中：一方面從研究實驗室走向受監管的上市公司，另一方面從語言模型演進為全棧商務引擎。
+
+---
+
+### 來源
+- Google Blog: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available (published 2026-11-10)
+- VentureBeat: https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price (published 2026-11-10)
+- 9to5Google: https://9to5google.com/2026/11/10/gemini-app-4-carbon (published 2026-11-10)
+- Reuters: https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10 (published 2026-11-10)
+- Yahoo Finance: https://finance.yahoo.com/markets/article/anthropic-seeks-14-trillion-valuation-in-ipo-130300928.html (published 2026-11-10)
+- Mashable: https://mashable.com/tech/anthropic-ipo-roadshow-valuation (published 2026-11-10)
+- FourWeekMBA: https://fourweekmba.com/ai-tsmc-approves-up-to-500m-each-for-anthropic-and-openai (published 2026-11-10)
+- Economic Times: https://m.economictimes.com/tech/artificial-intelligence/tsmc-to-invest-up-to-1-billion-in-anthropic-openai/articleshow/135713178.cms (published 2026-11-10)
+- Stocks Down Under: https://stocksdownunder.com/tsmc-stock-openai-anthropic-investment-sales (published 2026-11-11)
+- TechCrunch: https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/ (published 2026-11-10)
+- MLQ.ai: https://mlq.ai/news/new-york-opens-raise-act-registration-giving-openai-anthropic-and-other-frontier-labs-until-jan-1-to-sign-up (published 2026-11-11)
+- TechCrunch: https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder (published 2026-11-10)
+- Skift: https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai (published 2026-11-10)
+- PYMNTS: https://www.pymnts.com/news/artificial-intelligence/2026/online-travel-agencies-shares-drop-following-openai-acquisition-of-travel-startup-odessia (published 2026-11-10)
+- Bioengineer.org: https://bioengineer.org/ai-tool-use-among-new-york-clinicians-rose-to-33-percent (published 2026-11-11)
+- Bioengineer.org: https://bioengineer.org/researchers-defend-explainable-ai-as-vital-for-clinical-safety-and-human-oversight (published 2026-11-11)
+
