@@ -12317,3 +12317,110 @@ On the regulatory and enterprise fronts, New York's RAISE Act registration porta
 - Bioengineer.org: https://bioengineer.org/ai-tool-use-among-new-york-clinicians-rose-to-33-percent (published 2026-11-11)
 - Bioengineer.org: https://bioengineer.org/researchers-defend-explainable-ai-as-vital-for-clinical-safety-and-human-oversight (published 2026-11-11)
 
+
+## 2026-11-13 04:42
+
+<!-- EN -->
+### Headlines
+
+- **Jensen Huang Resigns as Nvidia CEO; CFO Colette Kress Named Interim Chief:** Nvidia co-founder and 33-year CEO Jensen Huang resigned effective immediately following revelations of an extramarital affair with a suspected Chinese spy and a second relationship with a direct report, with CFO Colette Kress stepping up as interim CEO, Harvey C. Jones named as first-ever board chair, and Nvidia shares plunging more than 10% on the news. *(Sources: [NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition), 2026-11-12; [NPR](https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down), 2026-11-12; [Fortune](https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs), 2026-11-11)*
+
+- **Google DeepMind's AlphaProof Code Formally Verifies Signal Protocol in Four Weeks:** A five-person Google DeepMind team used a new agentic AI framework — AlphaProof Code — to mathematically prove key security properties of Signal's compiled cryptographic code in just four weeks, generating 6.5 million lines of Lean proof code, a task historically requiring years of expert effort. *(Sources: [Google DeepMind Blog](https://deepmind.google/blog/introducing-alphaproof-code), 2026-11-10; [Wired](https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol), 2026-11-10; [The Decoder](https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years), 2026-11-11)*
+
+- **Google DeepMind Launches Gemini Robotics 2.5, Hits 96% Success Rate in Mercedes-Benz Factory Pilot:** The new vision-language-action model, evaluated across 200+ tasks, achieved a 96% success rate in live automotive-parts kitting on Mercedes-Benz production lines in Germany and Hungary using Apptronik's Apollo 2 humanoid, with 30–100% higher task success and 20–30% faster completion than its predecessor. *(Sources: [Google DeepMind Blog](https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence), 2026-11-10; [Ars Technica](https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak), 2026-11-10; [The Decoder](https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot), 2026-11-10)*
+
+- **Google Downgrades AI Plus Plan, Restricting Gemini Pro to Higher Tiers Effective November 13:** Google removed Gemini Pro model access from its $4.99/month AI Plus tier, limiting those subscribers to Flash and Flash-Lite only, and reserving the Pro model exclusively for AI Pro ($19.99/month) subscribers and above — widening the gap between its cheapest and mid-tier paid plans. *(Sources: [Notebookcheck](https://www.notebookcheck.net/Google-AI-Plus-loses-Gemini-Pro-models-on-November-13.1445681.0.html), 2026-11-09; [BigGo Finance](https://finance.biggo.com/news/9ee5731c-b88f-4e9a-96c9-db3da77f77bb), 2026-11-09)*
+
+- **IMF Flags AI Equity Valuation Risk Following Nvidia CEO Shock:** The International Monetary Fund said it is closely monitoring volatility in AI equity valuations and U.S. political headwinds for data-center development, warning that AI valuations "remain exposed to a reassessment of longer-term profitability" while stopping short of declaring a broader sector reckoning underway. *(Sources: [Yahoo Finance / Reuters](https://finance.yahoo.com/technology/ai/articles/imf-monitoring-ai-developments-too-163554419.html), 2026-11-12; [Reuters](https://www.reuters.com/business/retail-consumer/imf-monitoring-ai-developments-too-early-say-if-ai-reassessment-underway-2026-11-12), 2026-11-12)*
+
+- **MIT & NYU Unveil FLEX — a Robot Learning Platform That Infers Intent From Natural Language Corrections:** Presented at the Conference on Robot Learning (CoRL 2026) in Austin, FLEX uses a three-step large-language-model pipeline (Add, Generalize, Mask) to let robots generalize user preferences from brief natural-language commands, turning a warning like "Don't spill on the laptop!" into a broad rule avoiding all electronics. *(Sources: [MIT News](https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109), 2026-11-10; [Unite.AI](https://www.unite.ai/flex-teaches-robots-to-generalize-from-human-corrections), 2026-11-09)*
+
+- **South Korea Deploys AI-Glasses Monitors at All 1,312 CSAT Exam Sites Ahead of November 19 Test:** Following the detection of four confirmed AI smart-glasses cheating incidents in middle and high schools this year, the South Korean government vowed zero tolerance, deploying dedicated inspection staff at every College Scholastic Ability Test venue and explicitly banning AI-enabled wearables for the first time in exam rules. *(Sources: [Yonhap News Agency](https://en.yna.co.kr/view/AEN20261113002800315), 2026-11-13; [Korea Times](https://www.koreatimes.co.kr/amp/southkorea/education/20261111/from-hidden-notes-to-ai-glasses-cheating-takes-new-forms), 2026-11-11; [Seoul Economic Daily](https://en.sedaily.com/society/2026/11/13/calls-grow-to-jam-wireless-signals-at-korean-exam-sites), 2026-11-13)*
+
+- **Study Finds Generative AI Boosts University Students' Academic Well-Being:** An empirical study published in *Discover Artificial Intelligence* and covered by Scienmag found that undergraduates who perceive generative AI tools as helpful and responsive report significantly higher academic well-being, mediated through the fulfillment of basic psychological needs including autonomy, competence, and relatedness. *(Sources: [Bioengineer.org / Scienmag](https://bioengineer.org/generative-ai-bolsters-academic-well-being-through-psychological-need-satisfaction-in-university-students), 2026-11-13)*
+
+---
+
+### Analysis
+
+The resignation of Jensen Huang marks the most consequential leadership upheaval in the AI industry since the sector's modern era began. Huang was not merely Nvidia's CEO — he was widely regarded as the face and engine of the global AI chip boom, and his departure triggered an immediate 10%+ Nvidia stock sell-off and rattled broader AI-exposed markets. The IMF's unusually explicit language about AI equity "reassessment" risks, issued on the same day, signals that institutions are now openly treating AI valuations as fragile. With Nvidia's Q3 fiscal 2027 earnings due November 17 — the first under interim CEO Colette Kress — and a permanent successor search just beginning, the industry faces a prolonged period of governance uncertainty at its most critical hardware supplier. The scandal also has national security dimensions: Huang's admitted relationship with an alleged Chinese intelligence asset amplifies bipartisan concern in Washington about the intersection of frontier AI, semiconductor dominance, and foreign espionage.
+
+On the technology front, Google DeepMind delivered two landmark announcements in a single week. AlphaProof Code's formal verification of Signal's cryptographic implementation is a genuine breakthrough: it moves AI-assisted security beyond bug-finding into the realm of mathematical proof, completing in four weeks what would traditionally take expert teams years. Gemini Robotics 2.5's 96% success rate on live Mercedes-Benz assembly lines, meanwhile, represents a meaningful step toward commercially deployable humanoid robots — though the absence of trial-count data and independent verification warrants caution. Together, these developments underscore Google DeepMind's broadening ambition: from language models to code verification to physical AI, all powered by the same underlying Gemini 4 model family. Google's simultaneous decision to wall off the Pro model behind a $19.99/month paywall reflects a parallel commercial reality: as AI capabilities rise, so does the pressure to monetize them through tiered access.
+
+The South Korea AI-glasses cheating crisis and the new academic well-being research represent opposite poles of AI's impact on education. Regulators in Seoul are now deploying physical inspection staff at over a thousand exam sites — a remarkable mobilization that illustrates how rapidly AI wearables have shifted from novelty to enforcement priority. Meanwhile, peer-reviewed research suggests that when AI tools are experienced as genuinely supportive rather than coercive, they can improve student psychological outcomes. These twin stories together capture the central tension shaping AI policy globally: the same technology that empowers can also undermine the integrity of institutions built on human effort and assessment.
+
+---
+
+### Sources
+- NVIDIA Newsroom: https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition (published 2026-11-12)
+- NPR: https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down (published 2026-11-12)
+- Fortune: https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs (published 2026-11-11)
+- Google DeepMind Blog: https://deepmind.google/blog/introducing-alphaproof-code (published 2026-11-10)
+- Wired: https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol (published 2026-11-10)
+- The Decoder: https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years (published 2026-11-11)
+- Google DeepMind Blog: https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence (published 2026-11-10)
+- Ars Technica: https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak (published 2026-11-10)
+- The Decoder: https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot (published 2026-11-10)
+- Notebookcheck: https://www.notebookcheck.net/Google-AI-Plus-loses-Gemini-Pro-models-on-November-13.1445681.0.html (published 2026-11-09)
+- BigGo Finance: https://finance.biggo.com/news/9ee5731c-b88f-4e9a-96c9-db3da77f77bb (published 2026-11-09)
+- Yahoo Finance / Reuters: https://finance.yahoo.com/technology/ai/articles/imf-monitoring-ai-developments-too-163554419.html (published 2026-11-12)
+- Reuters: https://www.reuters.com/business/retail-consumer/imf-monitoring-ai-developments-too-early-say-if-ai-reassessment-underway-2026-11-12 (published 2026-11-12)
+- MIT News: https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109 (published 2026-11-10)
+- Unite.AI: https://www.unite.ai/flex-teaches-robots-to-generalize-from-human-corrections (published 2026-11-09)
+- Yonhap News Agency: https://en.yna.co.kr/view/AEN20261113002800315 (published 2026-11-13)
+- Korea Times: https://www.koreatimes.co.kr/amp/southkorea/education/20261111/from-hidden-notes-to-ai-glasses-cheating-takes-new-forms (published 2026-11-11)
+- Seoul Economic Daily: https://en.sedaily.com/society/2026/11/13/calls-grow-to-jam-wireless-signals-at-korean-exam-sites (published 2026-11-13)
+- Bioengineer.org / Scienmag: https://bioengineer.org/generative-ai-bolsters-academic-well-being-through-psychological-need-satisfaction-in-university-students (published 2026-11-13)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **黃仁勳辭去輝達執行長職位，財務長柯蕾特·克雷斯出任臨時執行長：** 輝達共同創辦人、任職33年的執行長黃仁勳在承認與疑似中國間諜發生婚外情、並與直屬下屬有不當關係後，即時辭去一切職務，財務長克雷斯接任臨時執行長，哈維·C·瓊斯出任首位董事會主席，輝達股價聞訊重挫逾10%。*(來源：[NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)，2026-11-12；[NPR](https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down)，2026-11-12；[Fortune](https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs)，2026-11-11)*
+
+- **Google DeepMind 推出 AlphaProof Code，四週內完成 Signal 通訊協定的形式驗證：** Google DeepMind 五人研究團隊利用全新 AI 代理框架 AlphaProof Code，以數學方式證明 Signal 加密協定已編譯程式碼的關鍵安全特性，共生成 650 萬行 Lean 證明程式碼，完成了過去需要專家耗費多年才能完成的工作。*(來源：[Google DeepMind Blog](https://deepmind.google/blog/introducing-alphaproof-code)，2026-11-10；[Wired](https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol)，2026-11-10；[The Decoder](https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years)，2026-11-11)*
+
+- **Google DeepMind 發布 Gemini Robotics 2.5，在賓士工廠試驗中達96%成功率：** 這款新型視覺-語言-動作模型在 200 多項任務中接受評估，並在德國與匈牙利賓士生產線上使用 Apptronik Apollo 2 人形機器人進行實地零件套件作業，成功率高達96%，任務完成速度提升20至30%。*(來源：[Google DeepMind Blog](https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence)，2026-11-10；[Ars Technica](https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak)，2026-11-10；[The Decoder](https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot)，2026-11-10)*
+
+- **Google 調整訂閱方案，AI Plus 用戶自11月13日起無法使用 Gemini Pro 模型：** Google 將 Gemini Pro 模型存取權限從每月4.99美元的 AI Plus 方案中移除，AI Plus 用戶今後僅能使用 Flash 與 Flash-Lite 模型，Pro 模型專屬每月19.99美元的 AI Pro 及更高方案。*(來源：[Notebookcheck](https://www.notebookcheck.net/Google-AI-Plus-loses-Gemini-Pro-models-on-November-13.1445681.0.html)，2026-11-09；[BigGo Finance](https://finance.biggo.com/news/9ee5731c-b88f-4e9a-96c9-db3da77f77bb)，2026-11-09)*
+
+- **IMF 警告 AI 股票估值風險，黃仁勳辭職後市場震盪：** 國際貨幣基金組織表示，正密切關注 AI 股票估值波動及美國政治環境對數據中心發展的影響，並警告 AI 估值「仍面臨對長期盈利能力重新評估」的風險，但目前尚不斷言將觸發更廣泛的市場重估。*(來源：[Yahoo Finance / Reuters](https://finance.yahoo.com/technology/ai/articles/imf-monitoring-ai-developments-too-163554419.html)，2026-11-12；[Reuters](https://www.reuters.com/business/retail-consumer/imf-monitoring-ai-developments-too-early-say-if-ai-reassessment-underway-2026-11-12)，2026-11-12)*
+
+- **MIT 與紐約大學推出機器人學習平台 FLEX，可從自然語言指令中推斷用戶意圖：** FLEX 在奧斯汀舉行的機器人學習大會（CoRL 2026）上發表，透過「添加、泛化、遮蔽」三步驟大型語言模型流程，讓機器人能從一句自然語言指令（如「別把東西潑到電腦上！」）推斷更廣泛的行為準則，涵蓋所有電子設備。*(來源：[MIT News](https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109)，2026-11-10；[Unite.AI](https://www.unite.ai/flex-teaches-robots-to-generalize-from-human-corrections)，2026-11-09)*
+
+- **南韓在全國1,312個大學入學考試考場首度部署 AI 眼鏡查驗人員：** 在今年中學內部考試中確認四起 AI 智慧眼鏡作弊案後，南韓政府宣示零容忍，於11月19日大學修業能力考試（CSAT）前，首次在全部考場部署專責查驗人員，並明文禁止攜帶 AI 眼鏡入場。*(來源：[Yonhap News Agency](https://en.yna.co.kr/view/AEN20261113002800315)，2026-11-13；[Korea Times](https://www.koreatimes.co.kr/amp/southkorea/education/20261111/from-hidden-notes-to-ai-glasses-cheating-takes-new-forms)，2026-11-11；[Seoul Economic Daily](https://en.sedaily.com/society/2026/11/13/calls-grow-to-jam-wireless-signals-at-korean-exam-sites)，2026-11-13)*
+
+- **研究發現生成式 AI 顯著提升大學生學業幸福感：** 一項發表於《Discover Artificial Intelligence》期刊、由 Scienmag 報導的實證研究發現，認為生成式 AI 工具具有輔助性且易於互動的大學生，在自主性、勝任感與關係感等基本心理需求獲滿足的驅動下，學業幸福感顯著較高。*(來源：[Bioengineer.org / Scienmag](https://bioengineer.org/generative-ai-bolsters-academic-well-being-through-psychological-need-satisfaction-in-university-students)，2026-11-13)*
+
+---
+
+### 分析
+
+黃仁勳的辭職是 AI 產業近年來最具衝擊性的領導層震盪。黃仁勳不僅是輝達的執行長，更是全球 AI 晶片熱潮的象徵人物，其去職消息立即引發輝達股價暴跌逾10%，並波及更廣泛的 AI 相關市場。IMF 在同一天發出的異常明確警告——AI 估值「仍面臨長期盈利能力重新評估」風險——顯示國際機構已公開將 AI 估值視為脆弱資產。輝達定於11月17日公布第三季財報，這將是臨時執行長克雷斯首次面對投資人，而永久接班人的搜尋工作才剛開始，全球最關鍵 AI 晶片供應商將進入一段漫長的治理不確定期。此次醜聞也具有深刻的國家安全意涵：黃仁勳承認與疑似中國情報資產有染，進一步加深了華府兩黨對前沿 AI、半導體主導權與外國間諜活動交叉風險的憂慮。
+
+在技術層面，Google DeepMind 在同一週內接連發布兩項里程碑式成果。AlphaProof Code 對 Signal 加密實作的形式驗證，是名副其實的突破：它將 AI 輔助安全工作從發現漏洞提升到數學證明層次，四週完成了原本需要多年的工作。Gemini Robotics 2.5 在賓士實際生產線上取得96%成功率，則代表可商業部署的人形機器人又向前邁進了一大步——儘管試驗次數未予披露、也缺乏獨立驗證，仍需審慎解讀。這兩項成果共同彰顯 Google DeepMind 的宏大版圖：從語言模型到程式碼驗證，再到實體 AI，全部由同一 Gemini 4 模型家族驅動。而 Google 同步將 Pro 模型鎖入每月19.99美元付費牆的決定，折射出另一層現實：AI 能力愈強，透過分層定價變現的壓力也愈大。
+
+南韓 AI 眼鏡作弊危機與新發表的學業幸福感研究，呈現的是 AI 對教育體系影響的兩個極端。首爾監管機構在逾千個考場部署人工查驗人員——這一罕見的動員規模，說明 AI 穿戴裝置已從新奇事物迅速演變為執法要務。另一方面，同行評審研究卻顯示，當 AI 工具被學生感知為真正有助益而非強制性時，可以改善其心理健康結果。這兩則故事共同捕捉到當前全球 AI 政策的核心張力：同一項技術既能賦能個人，也能動搖立基於人類努力與評量的制度根基。
+
+---
+
+### 來源
+- NVIDIA Newsroom: https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition (published 2026-11-12)
+- NPR: https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down (published 2026-11-12)
+- Fortune: https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs (published 2026-11-11)
+- Google DeepMind Blog: https://deepmind.google/blog/introducing-alphaproof-code (published 2026-11-10)
+- Wired: https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol (published 2026-11-10)
+- The Decoder: https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years (published 2026-11-11)
+- Google DeepMind Blog: https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence (published 2026-11-10)
+- Ars Technica: https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak (published 2026-11-10)
+- The Decoder: https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot (published 2026-11-10)
+- Notebookcheck: https://www.notebookcheck.net/Google-AI-Plus-loses-Gemini-Pro-models-on-November-13.1445681.0.html (published 2026-11-09)
+- BigGo Finance: https://finance.biggo.com/news/9ee5731c-b88f-4e9a-96c9-db3da77f77bb (published 2026-11-09)
+- Yahoo Finance / Reuters: https://finance.yahoo.com/technology/ai/articles/imf-monitoring-ai-developments-too-163554419.html (published 2026-11-12)
+- Reuters: https://www.reuters.com/business/retail-consumer/imf-monitoring-ai-developments-too-early-say-if-ai-reassessment-underway-2026-11-12 (published 2026-11-12)
+- MIT News: https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109 (published 2026-11-10)
+- Unite.AI: https://www.unite.ai/flex-teaches-robots-to-generalize-from-human-corrections (published 2026-11-09)
+- Yonhap News Agency: https://en.yna.co.kr/view/AEN20261113002800315 (published 2026-11-13)
+- Korea Times: https://www.koreatimes.co.kr/amp/southkorea/education/20261111/from-hidden-notes-to-ai-glasses-cheating-takes-new-forms (published 2026-11-11)
+- Seoul Economic Daily: https://en.sedaily.com/society/2026/11/13/calls-grow-to-jam-wireless-signals-at-korean-exam-sites (published 2026-11-13)
+- Bioengineer.org / Scienmag: https://bioengineer.org/generative-ai-bolsters-academic-well-being-through-psychological-need-satisfaction-in-university-students (published 2026-11-13)
+
