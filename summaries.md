@@ -12424,3 +12424,132 @@ The South Korea AI-glasses cheating crisis and the new academic well-being resea
 - Seoul Economic Daily: https://en.sedaily.com/society/2026/11/13/calls-grow-to-jam-wireless-signals-at-korean-exam-sites (published 2026-11-13)
 - Bioengineer.org / Scienmag: https://bioengineer.org/generative-ai-bolsters-academic-well-being-through-psychological-need-satisfaction-in-university-students (published 2026-11-13)
 
+
+## 2026-11-14 04:38
+
+<!-- EN -->
+### Headlines
+
+- **US Nonprofits Sue OpenAI, Google, Anthropic, Meta & SpaceX to Halt Frontier AI Development:** A coalition of four nonprofits — the Alliance for Secure AI, Irreplaceable Education Fund, Public Citizen, and Heat Initiative — filed a landmark California lawsuit demanding a court-ordered freeze on the development and deployment of advanced AI models, citing public safety risks and unfair business practices under California's Unfair Competition Law. *(Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development), 2026-11-12; [Dataconomy](https://dataconomy.com/2026/11/13/nonprofits-sue-openai-google-and-meta-to-halt-advanced-ai), 2026-11-13)*
+
+- **FAA Nationwide Ground Stop Linked to AI-Powered SMART Air Traffic System:** The FAA halted all U.S. departing flights on November 13 due to a "communications issue" affecting all 22 Air Route Traffic Control Centers, coming just three days after the agency expanded its AI-driven SMART (Strategic Management of Airspace, Routes and Trajectories) system nationwide — prompting federal investigators to examine whether the $875M AI tool played a role. *(Sources: [Scientific American](https://www.scientificamerican.com/article/faa-grounds-all-u-s-flights-days-after-expanding-its-ai-air-traffic-system), 2026-11-13; [NY Post](https://nypost.com/2026/11/13/us-news/faa-launched-new-ai-smart-tool-to-all-air-route-traffic-control-centers-just-days-before-nationwide-ground-stop), 2026-11-13; [GeekWire](https://www.geekwire.com/2026/dhs-chief-sees-no-microsoft-link-to-faa-ground-stop-says-possible-ai-role-being-investigated), 2026-11-13)*
+
+- **White House AI Task Force Pushes to Ease Cyber Liability to Encourage AI Incident Disclosure:** At its second formal meeting, the Trump administration's AI task force recommended that federal agencies modernize and ease cyber liability standards to incentivize AI companies to voluntarily report critical security incidents, calling current regulatory standards "outdated" in the AI era. *(Sources: [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure), 2026-11-14; [Cybersecurity Dive](https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679), 2026-11-13)*
+
+- **Cerebras Lands Microsoft as Third Hyperscaler, Preps CS-5 Chip for 2027:** Cerebras Systems confirmed Microsoft as its third major hyperscaler customer (joining AWS and Oracle), revealed its next-generation Wafer Scale Engine 5 processor has completed system testing ahead of schedule, and said the CS-5 system — which will more than double CS-4's speed — will enter production in early summer 2027. *(Sources: [The Next Platform](https://www.nextplatform.com/compute/2026/11/14/cerebras-readies-cs-5-systems-for-2027-launch-as-it-bags-another-hyperscaler/5309932), 2026-11-14; [Data Center Dynamics](https://www.datacenterdynamics.com/en/news/cerebras-secures-microsoft-as-a-customer), 2026-11-13; [Cerebras Press Release](https://www.cerebras.ai/press-release/cerebras-systems-delivers-record-revenue-in-third-quarter-2026-raises-full-yea-3402195), 2026-11-13)*
+
+- **Anthropic Launches Claude for Manufacturing Plugin and Claude Meetings on Google Meet:** Anthropic debuted two major integrations: Claude for Manufacturing, a plugin featuring 17 skills and four connectors (Autodesk Fusion, Infor, Microsoft 365, Oracle NetSuite) for shop-floor tasks, and Claude Meetings, a beta feature that joins Google Meet calls as a visible participant to take notes and generate action items for Team and Enterprise plan users. *(Sources: [Advanced Manufacturing](https://www.advancedmanufacturing.org/news-desk/anthropic-debuts-claude-for-manufacturing/article_dfbe4d5b-cf4e-491f-86c4-90d57e818097.html), 2026-11-13; [Dataconomy](https://dataconomy.com/2026/11/13/anthropic-brings-claude-meetings-to-google-meet-in-beta), 2026-11-13)*
+
+- **SoftBank Books $3.7 Billion Writedown After Over-Ordering AI Data Center Power Turbines:** SoftBank reported a ¥597.2 billion ($3.7 billion) writedown — contributing to a $7 billion quarterly net loss — after cancelling surplus gas turbine orders placed through its Silver Bands 7 subsidiary to power planned U.S. AI data centers, having reserved more than 13 gigawatts of capacity far exceeding what its projects needed. *(Sources: [WSJ](https://www.wsj.com/business/energy-oil/masayoshi-sons-huge-bet-on-electrical-turbines-backfires-b51f160c), 2026-11-11; [Dataconomy](https://dataconomy.com/2026/11/13/softbank-takes-37-billion-hit-after-canceling-ai-power), 2026-11-13)*
+
+- **Nvidia's Off-Balance-Sheet Guarantees Surge to $530 Billion, Scrutiny Intensifies After Huang Exit:** A SemiAnalysis review of Nvidia's Form 10-Q revealed the company's off-balance-sheet commitments and guarantees nearly tripled from $184 billion to $530 billion in a single quarter, dominated by $279 billion in supply/capacity commitments and a $105 billion lease guarantee for OpenAI's Ohio data center — drawing fresh scrutiny now that CEO Jensen Huang has resigned. *(Sources: [CryptoBriefing](https://cryptobriefing.com/nvidia-off-balance-sheet-guarantees-530-billion), 2026-11-12; [Dataconomy](https://dataconomy.com/2026/11/13/nvidias-off-balance-sheet-guarantees-surge-to-530-billion), 2026-11-13)*
+
+- **Dario Amodei's Safety Warnings Have Angered OpenAI and AI Peers Amid Anthropic's IPO Surge:** A New York Times investigation reveals that as Anthropic surged to the top of AI benchmarks and prepared for a blockbuster IPO, CEO Dario Amodei's persistent public warnings about catastrophic AI risks have generated deep hostility from OpenAI and other competitors, who have complained about Anthropic's business practices and lobbied against his rhetoric. *(Sources: [The New York Times](https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html), 2026-11-13)*
+
+- **NTU Singapore and Canaan Launch S$7 Million Green Edge AI Research Initiative:** Nanyang Technological University Singapore and computing company Canaan Inc. launched the NTU-Canaan Green Intelligent Compute (GIC) Collaboration, a S$7 million joint research programme targeting energy-aware algorithms, privacy-preserving edge AI systems, cloud-edge collaborative inference, and AI curriculum development to address sustainability challenges in AI infrastructure. *(Sources: [NTU Singapore](https://www.ntu.edu.sg/news/detail/s-7-million-ntu-canaan-partnership-to-drive-advances-in-sustainable-computing-and-edge-ai), 2026-11-13; [BioEngineer.org](https://bioengineer.org/ntu-and-canaan-launch-s7-million-green-edge-ai-project), 2026-11-14)*
+
+- **Veteran Microsoft AI Scientist Quits, Says Cost-Halving Research Was Ignored:** John Langford, a founder of Microsoft Research's ~50-person AI Frontiers group, publicly resigned and declared the lab "over" after it was folded into Microsoft AI in September 2026, stating that his Full Bandwidth Transformer research — which ByteDance experiments suggest could halve AI training and inference costs — was never seriously considered by the ex-Inflection leadership whose "core philosophy is scaling, and aggressively not research." *(Sources: [Windows Latest](https://www.windowslatest.com/2026/11/14/no-path-to-real-use-a-veteran-microsoft-ai-scientist-quits-says-research-that-could-halve-ai-costs-wasnt-even-seriously-considered), 2026-11-13)*
+
+- **Google Showcases AlphaEvolve for HPC at SC26 Supercomputing Conference:** Google Cloud published a detailed preview ahead of SC26 (November 15–20 in Chicago) highlighting AlphaEvolve — a Gemini-powered evolutionary AI loop that iteratively optimizes code and 3D engineering parameters — now available via Cloud Batch for large-scale parallel HPC experimentation. *(Sources: [Google Cloud Blog](https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26), 2026-11-14)*
+
+- **FedRAMP Pushes New AI-Era Cyber Vulnerability Rules with December 7 Deadline:** FedRAMP issued a November 10 migration notice mandating cloud service providers comply with new Vulnerability Detection and Response (VDR) and Vulnerability Evaluation and Reporting (VER) rules by December 7, 2026, citing the accelerating threat landscape driven by advanced AI models as the core justification for the aggressive timeline. *(Sources: [Federal News Network](https://federalnewsnetwork.com/cybersecurity/2026/11/fedramp-pushes-new-cyber-vulnerability-rules-to-keep-pace-with-ai), 2026-11-13)*
+
+---
+
+### Analysis
+
+The most consequential story of November 14 may be the FAA nationwide ground stop — the first of its kind since 9/11 — which occurred just three days after the agency rolled out its $875 million AI-driven SMART air traffic management system to all 22 of its national air route centers. While the FAA officially cited a "telecommunications outage," federal investigators have not ruled out a connection to the new AI system, and DHS is actively examining the link through CISA. This episode crystallizes a tension that has been building throughout the AI boom: the pressure to deploy AI at national infrastructure scale before its failure modes are fully understood. Coming in the same week as the nonprofit lawsuit seeking a full freeze on frontier AI development, the FAA incident will likely become a flashpoint in Congressional and regulatory debates, particularly as the newly Democratic Congress prepares a wave of AI legislation.
+
+The financial fragility underlying the AI boom is also coming into sharp relief. SoftBank's $3.7 billion writedown — from over-ordering gas turbines for AI data centers — signals that the infrastructure buildout is hitting real-world procurement and logistics limits, not just capital constraints. Meanwhile, SemiAnalysis's disclosure that Nvidia's off-balance-sheet guarantees ballooned from $184 billion to $530 billion in a single quarter adds to the picture of a financing architecture built heavily on Jensen Huang's personal credibility and risk appetite. With Huang now gone and interim CEO Colette Kress — who had previously challenged the guarantee strategy internally — now in charge, the market is watching closely to see whether the sprawling web of AI financing commitments, including a $105 billion OpenAI lease guarantee, will be honored, renegotiated, or unwound.
+
+On the competitive and policy fronts, Anthropic continues to generate friction on multiple dimensions simultaneously: its Claude for Manufacturing and Google Meet integrations show aggressive enterprise expansion, while the New York Times' investigation into Dario Amodei's relations with peers reveals a deepening rift with OpenAI over both safety rhetoric and business practices. The White House AI task force's push to ease cyber liability for AI incident disclosure reflects the Trump administration's attempt to build a voluntary information-sharing framework before Democrats — now controlling Congress — can impose mandatory reporting requirements. Cerebras's milestone of signing all three major hyperscalers (AWS, Oracle, Microsoft) in six months signals that the AI chip market is diversifying beyond Nvidia even amid the broader turbulence.
+
+---
+
+### Sources
+- Al Jazeera: https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development (published 2026-11-12)
+- Dataconomy: https://dataconomy.com/2026/11/13/nonprofits-sue-openai-google-and-meta-to-halt-advanced-ai (published 2026-11-13)
+- Scientific American: https://www.scientificamerican.com/article/faa-grounds-all-u-s-flights-days-after-expanding-its-ai-air-traffic-system (published 2026-11-13)
+- NY Post: https://nypost.com/2026/11/13/us-news/faa-launched-new-ai-smart-tool-to-all-air-route-traffic-control-centers-just-days-before-nationwide-ground-stop (published 2026-11-13)
+- GeekWire: https://www.geekwire.com/2026/dhs-chief-sees-no-microsoft-link-to-faa-ground-stop-says-possible-ai-role-being-investigated (published 2026-11-13)
+- Bloomberg: https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure (published 2026-11-14)
+- Cybersecurity Dive: https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679 (published 2026-11-13)
+- The Next Platform: https://www.nextplatform.com/compute/2026/11/14/cerebras-readies-cs-5-systems-for-2027-launch-as-it-bags-another-hyperscaler/5309932 (published 2026-11-14)
+- Data Center Dynamics: https://www.datacenterdynamics.com/en/news/cerebras-secures-microsoft-as-a-customer (published 2026-11-13)
+- Cerebras Press Release: https://www.cerebras.ai/press-release/cerebras-systems-delivers-record-revenue-in-third-quarter-2026-raises-full-yea-3402195 (published 2026-11-13)
+- Advanced Manufacturing: https://www.advancedmanufacturing.org/news-desk/anthropic-debuts-claude-for-manufacturing/article_dfbe4d5b-cf4e-491f-86c4-90d57e818097.html (published 2026-11-13)
+- Dataconomy: https://dataconomy.com/2026/11/13/anthropic-brings-claude-meetings-to-google-meet-in-beta (published 2026-11-13)
+- WSJ: https://www.wsj.com/business/energy-oil/masayoshi-sons-huge-bet-on-electrical-turbines-backfires-b51f160c (published 2026-11-11)
+- Dataconomy: https://dataconomy.com/2026/11/13/softbank-takes-37-billion-hit-after-canceling-ai-power (published 2026-11-13)
+- CryptoBriefing: https://cryptobriefing.com/nvidia-off-balance-sheet-guarantees-530-billion (published 2026-11-12)
+- Dataconomy: https://dataconomy.com/2026/11/13/nvidias-off-balance-sheet-guarantees-surge-to-530-billion (published 2026-11-13)
+- The New York Times: https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html (published 2026-11-13)
+- NTU Singapore: https://www.ntu.edu.sg/news/detail/s-7-million-ntu-canaan-partnership-to-drive-advances-in-sustainable-computing-and-edge-ai (published 2026-11-13)
+- BioEngineer.org: https://bioengineer.org/ntu-and-canaan-launch-s7-million-green-edge-ai-project (published 2026-11-14)
+- Windows Latest: https://www.windowslatest.com/2026/11/14/no-path-to-real-use-a-veteran-microsoft-ai-scientist-quits-says-research-that-could-halve-ai-costs-wasnt-even-seriously-considered (published 2026-11-13)
+- Google Cloud Blog: https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26 (published 2026-11-14)
+- Federal News Network: https://federalnewsnetwork.com/cybersecurity/2026/11/fedramp-pushes-new-cyber-vulnerability-rules-to-keep-pace-with-ai (published 2026-11-13)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **美國非營利組織起訴 OpenAI、Google、Anthropic、Meta 及 SpaceX，要求叫停前沿 AI 開發：** 由「安全 AI 聯盟」、「不可取代教育基金」、「公民公益」及「熱浪倡議」組成的四個非營利組織聯盟，在加州提起具里程碑意義的訴訟，依據加州《不公平競爭法》要求法院凍結最先進 AI 模型的開發與部署，理由是公共安全風險。*(來源：[Al Jazeera](https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development)，2026-11-12；[Dataconomy](https://dataconomy.com/2026/11/13/nonprofits-sue-openai-google-and-meta-to-halt-advanced-ai)，2026-11-13)*
+
+- **FAA 全美停飛令與 AI 空管系統 SMART 擴展有關：** 美國聯邦航空管理局（FAA）於 11 月 13 日命令所有美國出發航班停飛，原因是「通訊問題」波及全部 22 個空中交通管制中心——事件發生時間距離 FAA 將耗資 8.75 億美元的 AI 驅動 SMART 系統全國部署僅三天，聯邦調查人員正在審查 AI 工具是否是事件誘因。*(來源：[Scientific American](https://www.scientificamerican.com/article/faa-grounds-all-u-s-flights-days-after-expanding-its-ai-air-traffic-system)，2026-11-13；[NY Post](https://nypost.com/2026/11/13/us-news/faa-launched-new-ai-smart-tool-to-all-air-route-traffic-control-centers-just-days-before-nationwide-ground-stop)，2026-11-13；[GeekWire](https://www.geekwire.com/2026/dhs-chief-sees-no-microsoft-link-to-faa-ground-stop-says-possible-ai-role-being-investigated)，2026-11-13)*
+
+- **白宮 AI 工作組力推降低網路責任以鼓勵 AI 安全事件主動披露：** 川普政府 AI 工作組在第二次正式會議上，建議聯邦機構現代化並放寬網路責任標準，以激勵 AI 企業自願通報重大安全事件，稱現有監管標準在 AI 時代「已過時」，並有礙重要資訊分享。*(來源：[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure)，2026-11-14；[Cybersecurity Dive](https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679)，2026-11-13)*
+
+- **Cerebras 簽下微軟成第三大超大規模客戶，CS-5 晶片 2027 年投產：** Cerebras Systems 確認微軟為其第三個超大規模客戶（繼 AWS 與甲骨文之後），並透露下一代晶圓級引擎 WSE-5 已提前完成系統測試；搭載 WSE-5 的 CS-5 系統速度將超越 CS-4 一倍以上，預計於 2027 年初夏量產。*(來源：[The Next Platform](https://www.nextplatform.com/compute/2026/11/14/cerebras-readies-cs-5-systems-for-2027-launch-as-it-bags-another-hyperscaler/5309932)，2026-11-14；[Data Center Dynamics](https://www.datacenterdynamics.com/en/news/cerebras-secures-microsoft-as-a-customer)，2026-11-13；[Cerebras Press Release](https://www.cerebras.ai/press-release/cerebras-systems-delivers-record-revenue-in-third-quarter-2026-raises-full-yea-3402195)，2026-11-13)*
+
+- **Anthropic 推出製造業 Claude 插件及 Google Meet 會議助理：** Anthropic 同步發布兩項重大整合：Claude for Manufacturing 插件擁有 17 項技能及四個連接器（Autodesk Fusion、Infor、Microsoft 365、Oracle NetSuite），協助工廠製作報價單及供應商請求；Claude Meetings 則以測試版形式加入 Google Meet 通話，可作為可見參與者即時記錄摘要與行動項目。*(來源：[Advanced Manufacturing](https://www.advancedmanufacturing.org/news-desk/anthropic-debuts-claude-for-manufacturing/article_dfbe4d5b-cf4e-491f-86c4-90d57e818097.html)，2026-11-13；[Dataconomy](https://dataconomy.com/2026/11/13/anthropic-brings-claude-meetings-to-google-meet-in-beta)，2026-11-13)*
+
+- **軟銀因過量訂購 AI 資料中心燃氣渦輪機損失 37 億美元：** 軟銀計提 5,972 億日元（約 37 億美元）減值，導致季度淨虧損達 70 億美元——起因是其子公司 Silver Bands 7 預訂了超過 13 吉瓦的燃氣渦輪機製造產能，遠超實際 AI 資料中心項目需求，最終被迫取消多餘訂單。*(來源：[WSJ](https://www.wsj.com/business/energy-oil/masayoshi-sons-huge-bet-on-electrical-turbines-backfires-b51f160c)，2026-11-11；[Dataconomy](https://dataconomy.com/2026/11/13/softbank-takes-37-billion-hit-after-canceling-ai-power)，2026-11-13)*
+
+- **英偉達表外承諾激增至 5,300 億美元，黃仁勳離職後備受審視：** 研究機構 SemiAnalysis 對英偉達 10-Q 文件的解讀顯示，公司表外承諾與擔保在單季內從 1,840 億美元驟增至 5,300 億美元，包括 2,790 億美元的供應與產能承諾，以及為 OpenAI 俄亥俄州資料中心提供的高達 1,050 億美元租賃擔保，在黃仁勳離職後引發高度關注。*(來源：[CryptoBriefing](https://cryptobriefing.com/nvidia-off-balance-sheet-guarantees-530-billion)，2026-11-12；[Dataconomy](https://dataconomy.com/2026/11/13/nvidias-off-balance-sheet-guarantees-surge-to-530-billion)，2026-11-13)*
+
+- **Dario Amodei 安全警告令 OpenAI 及同業深感不滿：** 《紐約時報》深度調查揭示，隨著 Anthropic 在 AI 榜單登頂並籌備規模空前的 IPO，執行長 Dario Amodei 持續發出的 AI 災難性風險公開警告，已在 OpenAI 及其他競爭對手之間引發強烈敵意，對方指責 Anthropic 在商業上打硬仗同時散布恐慌言論。*(來源：[The New York Times](https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html)，2026-11-13)*
+
+- **新加坡南洋理工大學與嘉楠科技啟動 700 萬新幣綠色邊緣 AI 研究計畫：** 南洋理工大學（NTU Singapore）與算力科技公司嘉楠科技（Canaan Inc.）宣布成立「NTU-Canaan 綠色智能計算（GIC）合作計畫」，投入 700 萬新幣，聚焦節能演算法、隱私保護邊緣 AI、雲端-邊緣協同推理及 AI 課程開發，回應全球 AI 基礎設施的永續挑戰。*(來源：[NTU Singapore](https://www.ntu.edu.sg/news/detail/s-7-million-ntu-canaan-partnership-to-drive-advances-in-sustainable-computing-and-edge-ai)，2026-11-13；[BioEngineer.org](https://bioengineer.org/ntu-and-canaan-launch-s7-million-green-edge-ai-project)，2026-11-14)*
+
+- **微軟資深 AI 科學家辭職，稱可將成本減半的研究遭到漠視：** 微軟研究院旗下約 50 人 AI Frontiers 小組的創辦人 John Langford 公開辭職，並宣告該小組「宣告終結」。他在博客中指出，其「全頻寬 Transformer」研究有望將 AI 訓練與推理成本減半，但在 AI Frontiers 被併入微軟 AI 後，以前 Inflection 管理層主導的「純擴展哲學」使得任何創新研究都無法獲得認真對待。*(來源：[Windows Latest](https://www.windowslatest.com/2026/11/14/no-path-to-real-use-a-veteran-microsoft-ai-scientist-quits-says-research-that-could-halve-ai-costs-wasnt-even-seriously-considered)，2026-11-13)*
+
+- **Google 在 SC26 超算大會亮相，展示面向 HPC 的 AlphaEvolve：** Google Cloud 在 SC26（11 月 15-20 日於芝加哥）前夕發布預告，重點介紹 AlphaEvolve——一款由 Gemini 驅動的演化式 AI 循環工具，可迭代優化程式碼及 3D 工程參數，現已透過 Cloud Batch 供大規模並行 HPC 實驗使用。*(來源：[Google Cloud Blog](https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26)，2026-11-14)*
+
+- **FedRAMP 設定 12 月 7 日 AI 時代網路漏洞新規合規截止期限：** FedRAMP 於 11 月 10 日發布遷移通知，要求所有獲認證的雲端服務商在 2026 年 12 月 7 日前遵守全新的漏洞偵測與回應（VDR）及漏洞評估與報告（VER）規則，並以 AI 驅動的快速演進威脅態勢作為推行嚴苛時間表的核心理由。*(來源：[Federal News Network](https://federalnewsnetwork.com/cybersecurity/2026/11/fedramp-pushes-new-cyber-vulnerability-rules-to-keep-pace-with-ai)，2026-11-13)*
+
+---
+
+### 分析
+
+11 月 14 日最具深遠影響的事件，或許是美國 FAA 自 911 事件以來首次下令全美停飛——而這距離其將 8.75 億美元的 AI 驅動 SMART 空管系統全國擴展至 22 個管制中心，僅僅三天。FAA 官方雖將事件歸因於「電信中斷」，但聯邦調查人員尚未排除新 AI 系統的可能關聯，DHS 正透過 CISA 積極調查。此事件清晰呈現出 AI 大潮中一個長期積累的核心矛盾：在全面了解 AI 失效模式之前，各方仍在急於將其推向國家關鍵基礎設施。事件發生的同一週，非營利組織聯盟亦提起全面凍結前沿 AI 開發的訴訟，兩者疊加將極有可能成為新一屆民主黨國會立法浪潮的重要催化劑。
+
+支撐 AI 熱潮的金融架構脆弱性也正逐漸顯形。軟銀因過度訂購 AI 資料中心燃氣渦輪機而遭受 37 億美元減值，說明 AI 基礎設施大建設正在遭遇現實世界的採購與物流瓶頸，而非僅僅是資本限制問題。SemiAnalysis 披露英偉達表外擔保在單季內從 1,840 億美元暴增至 5,300 億美元，則進一步勾勒出一個建立在黃仁勳個人信譽與風險偏好之上的龐大融資體系。如今黃仁勳已離任，對其擔保策略持有異議的 CFO Colette Kress 臨危受命，市場正密切注視那 1,050 億美元的 OpenAI 租賃擔保等龐大承諾是否會被兌現、重談或解除。
+
+在競爭與政策維度，Anthropic 繼續在多個方向同時製造摩擦：製造業插件與 Google Meet 整合彰顯其在企業市場的強勢擴張；而《紐約時報》對 Dario Amodei 與同業關係的深度調查，則揭示其與 OpenAI 之間在安全言論和商業行為上裂痕日深。白宮 AI 工作組力推降低 AI 事件披露的法律責任，折射出川普政府意圖在民主黨控制的新國會強推強制申報要求之前，搶先建立自願資訊共享框架的戰略意圖。Cerebras 在六個月內相繼簽下 AWS、甲骨文、微軟三大超大規模客戶，則預示 AI 晶片市場正在加速去英偉達化。
+
+---
+
+### 來源
+- Al Jazeera: https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development (published 2026-11-12)
+- Dataconomy: https://dataconomy.com/2026/11/13/nonprofits-sue-openai-google-and-meta-to-halt-advanced-ai (published 2026-11-13)
+- Scientific American: https://www.scientificamerican.com/article/faa-grounds-all-u-s-flights-days-after-expanding-its-ai-air-traffic-system (published 2026-11-13)
+- NY Post: https://nypost.com/2026/11/13/us-news/faa-launched-new-ai-smart-tool-to-all-air-route-traffic-control-centers-just-days-before-nationwide-ground-stop (published 2026-11-13)
+- GeekWire: https://www.geekwire.com/2026/dhs-chief-sees-no-microsoft-link-to-faa-ground-stop-says-possible-ai-role-being-investigated (published 2026-11-13)
+- Bloomberg: https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure (published 2026-11-14)
+- Cybersecurity Dive: https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679 (published 2026-11-13)
+- The Next Platform: https://www.nextplatform.com/compute/2026/11/14/cerebras-readies-cs-5-systems-for-2027-launch-as-it-bags-another-hyperscaler/5309932 (published 2026-11-14)
+- Data Center Dynamics: https://www.datacenterdynamics.com/en/news/cerebras-secures-microsoft-as-a-customer (published 2026-11-13)
+- Cerebras Press Release: https://www.cerebras.ai/press-release/cerebras-systems-delivers-record-revenue-in-third-quarter-2026-raises-full-yea-3402195 (published 2026-11-13)
+- Advanced Manufacturing: https://www.advancedmanufacturing.org/news-desk/anthropic-debuts-claude-for-manufacturing/article_dfbe4d5b-cf4e-491f-86c4-90d57e818097.html (published 2026-11-13)
+- Dataconomy: https://dataconomy.com/2026/11/13/anthropic-brings-claude-meetings-to-google-meet-in-beta (published 2026-11-13)
+- WSJ: https://www.wsj.com/business/energy-oil/masayoshi-sons-huge-bet-on-electrical-turbines-backfires-b51f160c (published 2026-11-11)
+- Dataconomy: https://dataconomy.com/2026/11/13/softbank-takes-37-billion-hit-after-canceling-ai-power (published 2026-11-13)
+- CryptoBriefing: https://cryptobriefing.com/nvidia-off-balance-sheet-guarantees-530-billion (published 2026-11-12)
+- Dataconomy: https://dataconomy.com/2026/11/13/nvidias-off-balance-sheet-guarantees-surge-to-530-billion (published 2026-11-13)
+- The New York Times: https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html (published 2026-11-13)
+- NTU Singapore: https://www.ntu.edu.sg/news/detail/s-7-million-ntu-canaan-partnership-to-drive-advances-in-sustainable-computing-and-edge-ai (published 2026-11-13)
+- BioEngineer.org: https://bioengineer.org/ntu-and-canaan-launch-s7-million-green-edge-ai-project (published 2026-11-14)
+- Windows Latest: https://www.windowslatest.com/2026/11/14/no-path-to-real-use-a-veteran-microsoft-ai-scientist-quits-says-research-that-could-halve-ai-costs-wasnt-even-seriously-considered (published 2026-11-13)
+- Google Cloud Blog: https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26 (published 2026-11-14)
+- Federal News Network: https://federalnewsnetwork.com/cybersecurity/2026/11/fedramp-pushes-new-cyber-vulnerability-rules-to-keep-pace-with-ai (published 2026-11-13)
+
