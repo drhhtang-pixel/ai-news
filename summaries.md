@@ -12553,3 +12553,114 @@ On the competitive and policy fronts, Anthropic continues to generate friction o
 - Google Cloud Blog: https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26 (published 2026-11-14)
 - Federal News Network: https://federalnewsnetwork.com/cybersecurity/2026/11/fedramp-pushes-new-cyber-vulnerability-rules-to-keep-pace-with-ai (published 2026-11-13)
 
+
+## 2026-11-15 04:25
+
+<!-- EN -->
+### Headlines
+
+- **Google Launches Gemini 4 Hydrogen — a Fast, Agentic "Flash" Successor:** Google unveiled Gemini 4 Hydrogen on November 12, a speed-focused model for everyday coding and agentic workflows that runs 2.5× faster than Gemini 3.8 Flash, features a 1-million-token context window, four thinking levels, and is rolling out free to all Gemini app users, with paid tiers gaining access in Google Antigravity and GitHub Copilot. *(Sources: [9to5Google](https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch), 2026-11-12; [VentureBeat](https://venturebeat.com/technology/google-launches-gemini-4-hydrogen-a-faster-smarter-pricier-flash-successor), 2026-11-12; [Mashable](https://mashable.com/tech/google-gemini-4-hydrogen-ai-model-launch), 2026-11-13)*
+
+- **Japan-Led Probe Identifies ~1,000 Servers Powering AI-Driven Cyberattacks:** JPCERT/CC, working with overseas cybersecurity firms, found roughly 1,000 servers operating since October that appear to use AI tools — including the penetration-testing platform Artex — to scan for vulnerabilities and steal system configuration files worldwide, with analysts warning that far more sophisticated AI attacks are imminent. *(Sources: [The Straits Times](https://www.straitstimes.com/asia/east-asia/japan-led-probe-finds-1000-servers-likely-used-for-ai-driven-cyberattacks), 2026-11-15; [The Vibes](https://www.thevibes.com/articles/lifestyles/129574/1000-servers-suspected-of-powering-ai-driven-cyberattacks-identified-worldwide), 2026-11-15; [Kyodo News](https://english.kyodonews.net/articles/-/91455), 2026-11-15)*
+
+- **IBM Acquires AuthMind to Secure AI Agent Identities in HashiCorp Vault:** IBM announced the acquisition of identity-security firm AuthMind on November 12 to extend HashiCorp Vault's governance across the full AI-agent lifecycle — from credential issuance through real-time monitoring, anomaly detection, and revocation of rogue agents. *(Sources: [IBM Newsroom](https://newsroom.ibm.com/blog-ibm-advances-agent-identity-security-with-new-vault-capabilities), 2026-11-13; [Unite.AI](https://www.unite.ai/ibm-acquires-authmind-to-monitor-ai-agent-credential-use), 2026-11-12; [GovInfoSecurity](https://www.govinfosecurity.com/ibm-purchases-authmind-to-detect-agents-operating-off-scope-a-33393), 2026-11-13)*
+
+- **Nvidia Reaffirms 260,000-GPU Supply Commitment to South Korea Despite Jensen Huang's Exit:** Following a November 13 review meeting between South Korea's science ministry and Nvidia, the company confirmed it will proceed with the 260,000-GPU national AI infrastructure plan — involving Samsung, SK Group, Hyundai, and NAVER Cloud — with the government having already secured ~21,000 of its 35,000 directly procured GPUs. *(Sources: [TNGlobal](https://technode.global/2026/11/15/nvidia-south-korea-260000-gpu-supply-plan), 2026-11-14; [Korea JoongAng Daily](https://www.koreajoongangdaily.com/business/nvidia-reaffirms-korea-gpu-deployment-plan-despite-jensen-huangs-resignation/12972494), 2026-11-13; [Korea Times](https://www.koreatimes.co.kr/business/20261113/nvidia-confirms-planned-supply-of-gpus-to-s-korea-despite-jensen-huangs-resignation-science-minister), 2026-11-13)*
+
+- **South Korea's ICT Exports Surpass $70 Billion in October, First-Ever 200%+ Monthly Growth:** Driven by the global AI boom, South Korea's ICT exports tripled year-on-year to $70.35 billion in October 2026 — the fastest growth rate ever recorded — with semiconductors and computers powering record shipments to China and the United States. *(Sources: [Biz Chosun](https://biz.chosun.com/en/en-it/2026/11/15/UMKZEU3N3RCSFEDKQ2ZG7XFHCI), 2026-11-15; [Yonhap News Agency](https://en.yna.co.kr/view/AEN20261115000800320), 2026-11-15)*
+
+- **Anthropic Launches Self-Hosted Claude Managed Agents in Private Beta:** Anthropic announced on November 12 that organizations can now run the full Claude Managed Agents stack — including the agent server, sandboxes, credential handling, and session history — inside their own cloud or on-premises infrastructure, with model requests routable to Anthropic, Amazon Bedrock, Google, or an internal gateway. *(Sources: [The New Stack](https://thenewstack.io/self-hosted-claude-managed-agents), 2026-11-13; [Blockchain.News](https://blockchain.news/news/self-hosted-claude-managed-agents-beta), 2026-11-13; [TokenPost](https://www.tokenpost.com/news/technology/56203), 2026-11-13)*
+
+- **IMD 2026 World Digital and AI Ranking: US First, Nvidia Tops Corporate Index:** The International Institute for Management Development released its 2026 World Digital and AI Ranking on November 11, placing the United States first (ahead of Singapore and the Netherlands) in national AI readiness, while a separate AI Maturity Index of the world's largest public companies ranked Nvidia first, followed by Alphabet, Microsoft, SoftBank Group, and Samsung Electronics. *(Sources: [IMD](https://www.imd.org/news/artificial-intelligence/us-and-its-big-tech-lead-imd-2026-ai-rankings), 2026-11-10; [TNGlobal](https://technode.global/2026/11/13/us-beats-singapore-and-the-netherlands-for-the-top-spot-in-national-ai-readiness-imd), 2026-11-13; [Vietnam.vn](https://www.vietnam.vn/en/top-10-nuoc-dan-dau-the-gioi-ve-nang-luc-canh-tranh-so-va-ai), 2026-11-11)*
+
+- **AI Systematic Review: Single Inertial Sensors Can Identify Functional Stroke Activities:** A systematic review published in *Artificial Intelligence Review* found that AI-powered human activity recognition using single wearable inertial sensors can reliably detect functional rehabilitation activities in stroke patients across 17 studies involving 224 individuals, pointing toward objective, continuous clinical monitoring without specialist equipment. *(Sources: [Bioengineer.org](https://bioengineer.org/review-finds-single-inertial-sensors-and-ai-recognize-functional-stroke-activities), 2026-11-15)*
+
+---
+
+### Analysis
+
+This week's AI news is dominated by two simultaneous mega-trends that are pulling in opposite directions: aggressive capability expansion and urgent security reckoning. Google's rapid deployment of the Gemini 4 family — Argon, Carbon, and now Hydrogen in quick succession — signals that the frontier model race has shifted from quarterly to near-weekly release cadences, with each new model targeting a distinct segment of the stack (frontier reasoning, cybersecurity, and high-speed agentic execution respectively). Meanwhile, Anthropic's private beta for self-hosted Managed Agents underscores that enterprise AI adoption is maturing: customers no longer want models in a vendor's cloud — they want the entire agent harness, credentials, and session history behind their own firewall.
+
+The security picture darkening in parallel is striking. JPCERT/CC's discovery of roughly 1,000 AI-augmented attack servers — using tools like Artex to autonomously scan for vulnerabilities — represents a concrete, documented escalation of AI-enabled offensive operations, not a theoretical risk. IBM's same-week acquisition of AuthMind to govern AI agent credentials inside HashiCorp Vault is a direct industry response to this threat class, reflecting growing recognition that agentic AI systems are themselves becoming a primary attack surface. Taken together, these developments suggest that the security industry is scrambling to build governance infrastructure at the same speed that offensive actors are weaponizing AI capabilities.
+
+At the macro level, South Korea's staggering ICT export figures — $70.35 billion in a single month, with more than 200% year-on-year growth — provide perhaps the clearest quantitative signal yet that AI infrastructure spending has translated into real economic throughput, at least for semiconductor exporters. The IMD rankings reinforce this geography: the US leads in national AI readiness while Nvidia tops corporate AI maturity, yet the index also reveals that national sophistication does not automatically predict corporate leadership. Nvidia's swift reaffirmation of its 260,000-GPU commitment to South Korea after Jensen Huang's departure further demonstrates how deeply AI supply chains are now institutionalized — deals of this scale outlast any individual executive.
+
+---
+
+### Sources
+- 9to5Google: https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch (published 2026-11-12)
+- VentureBeat: https://venturebeat.com/technology/google-launches-gemini-4-hydrogen-a-faster-smarter-pricier-flash-successor (published 2026-11-12)
+- Mashable: https://mashable.com/tech/google-gemini-4-hydrogen-ai-model-launch (published 2026-11-13)
+- The Straits Times: https://www.straitstimes.com/asia/east-asia/japan-led-probe-finds-1000-servers-likely-used-for-ai-driven-cyberattacks (published 2026-11-15)
+- The Vibes: https://www.thevibes.com/articles/lifestyles/129574/1000-servers-suspected-of-powering-ai-driven-cyberattacks-identified-worldwide (published 2026-11-15)
+- Kyodo News: https://english.kyodonews.net/articles/-/91455 (published 2026-11-15)
+- IBM Newsroom: https://newsroom.ibm.com/blog-ibm-advances-agent-identity-security-with-new-vault-capabilities (published 2026-11-13)
+- Unite.AI: https://www.unite.ai/ibm-acquires-authmind-to-monitor-ai-agent-credential-use (published 2026-11-12)
+- GovInfoSecurity: https://www.govinfosecurity.com/ibm-purchases-authmind-to-detect-agents-operating-off-scope-a-33393 (published 2026-11-13)
+- TNGlobal: https://technode.global/2026/11/15/nvidia-south-korea-260000-gpu-supply-plan (published 2026-11-14)
+- Korea JoongAng Daily: https://www.koreajoongangdaily.com/business/nvidia-reaffirms-korea-gpu-deployment-plan-despite-jensen-huangs-resignation/12972494 (published 2026-11-13)
+- Korea Times: https://www.koreatimes.co.kr/business/20261113/nvidia-confirms-planned-supply-of-gpus-to-s-korea-despite-jensen-huangs-resignation-science-minister (published 2026-11-13)
+- Biz Chosun: https://biz.chosun.com/en/en-it/2026/11/15/UMKZEU3N3RCSFEDKQ2ZG7XFHCI (published 2026-11-15)
+- Yonhap News Agency: https://en.yna.co.kr/view/AEN20261115000800320 (published 2026-11-15)
+- The New Stack: https://thenewstack.io/self-hosted-claude-managed-agents (published 2026-11-13)
+- Blockchain.News: https://blockchain.news/news/self-hosted-claude-managed-agents-beta (published 2026-11-13)
+- TokenPost: https://www.tokenpost.com/news/technology/56203 (published 2026-11-13)
+- IMD: https://www.imd.org/news/artificial-intelligence/us-and-its-big-tech-lead-imd-2026-ai-rankings (published 2026-11-10)
+- TNGlobal: https://technode.global/2026/11/13/us-beats-singapore-and-the-netherlands-for-the-top-spot-in-national-ai-readiness-imd (published 2026-11-13)
+- Vietnam.vn: https://www.vietnam.vn/en/top-10-nuoc-dan-dau-the-gioi-ve-nang-luc-canh-tranh-so-va-ai (published 2026-11-11)
+- Bioengineer.org: https://bioengineer.org/review-finds-single-inertial-sensors-and-ai-recognize-functional-stroke-activities (published 2026-11-15)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Google 推出 Gemini 4 Hydrogen——快速代理型「Flash」繼任者：** Google 於 11 月 12 日發布 Gemini 4 Hydrogen，這款速度導向的模型專為日常編程與代理工作流設計，速度比 Gemini 3.8 Flash 快 2.5 倍，支援 100 萬 token 上下文視窗與四級思考深度，免費向所有 Gemini 應用用戶推出，付費用戶可在 Google Antigravity 及 GitHub Copilot 中使用。*(來源：[9to5Google](https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch)，2026-11-12；[VentureBeat](https://venturebeat.com/technology/google-launches-gemini-4-hydrogen-a-faster-smarter-pricier-flash-successor)，2026-11-12；[Mashable](https://mashable.com/tech/google-gemini-4-hydrogen-ai-model-launch)，2026-11-13)*
+
+- **日本主導調查發現逾千台伺服器疑為 AI 網路攻擊基地：** JPCERT/CC 聯合海外網絡安全公司調查發現，自 10 月以來，約 1,000 台伺服器疑似使用 AI 工具（包括滲透測試平台 Artex）自動掃描全球網站漏洞並竊取系統設定檔案，分析師警告更複雜的 AI 攻擊浪潮即將來臨。*(來源：[The Straits Times](https://www.straitstimes.com/asia/east-asia/japan-led-probe-finds-1000-servers-likely-used-for-ai-driven-cyberattacks)，2026-11-15；[The Vibes](https://www.thevibes.com/articles/lifestyles/129574/1000-servers-suspected-of-powering-ai-driven-cyberattacks-identified-worldwide)，2026-11-15；[Kyodo News](https://english.kyodonews.net/articles/-/91455)，2026-11-15)*
+
+- **IBM 收購 AuthMind，強化 AI 代理身份安全管理：** IBM 於 11 月 12 日宣布收購身份安全公司 AuthMind，將其技術整合至 HashiCorp Vault，以涵蓋 AI 代理完整生命週期的憑證治理——從憑證簽發、即時監控、異常行為偵測，直至撤銷失控代理的存取權限。*(來源：[IBM Newsroom](https://newsroom.ibm.com/blog-ibm-advances-agent-identity-security-with-new-vault-capabilities)，2026-11-13；[Unite.AI](https://www.unite.ai/ibm-acquires-authmind-to-monitor-ai-agent-credential-use)，2026-11-12；[GovInfoSecurity](https://www.govinfosecurity.com/ibm-purchases-authmind-to-detect-agents-operating-off-scope-a-33393)，2026-11-13)*
+
+- **Nvidia 在黃仁勳離職後確認維持向南韓供應 26 萬顆 GPU 承諾：** 南韓科學部於 11 月 13 日與 Nvidia 舉行審查會議後宣布，Nvidia 確認將按原計畫向三星、SK 集團、現代及 NAVER Cloud 提供 26 萬顆 GPU，支撐南韓國家級 AI 基礎設施建設，目前政府已取得約 2.1 萬顆。*(來源：[TNGlobal](https://technode.global/2026/11/15/nvidia-south-korea-260000-gpu-supply-plan)，2026-11-14；[Korea JoongAng Daily](https://www.koreajoongangdaily.com/business/nvidia-reaffirms-korea-gpu-deployment-plan-despite-jensen-huangs-resignation/12972494)，2026-11-13；[Korea Times](https://www.koreatimes.co.kr/business/20261113/nvidia-confirms-planned-supply-of-gpus-to-s-korea-despite-jensen-huangs-resignation-science-minister)，2026-11-13)*
+
+- **南韓 10 月 ICT 出口突破 703 億美元，創史上首次單月逾 200% 增長：** 受全球 AI 熱潮帶動，南韓 10 月資通訊產品出口年增逾三倍至 703.5 億美元，創下有史以來最高增速，半導體與電腦出口向中國及美國的出貨量均創歷史新高。*(來源：[Biz Chosun](https://biz.chosun.com/en/en-it/2026/11/15/UMKZEU3N3RCSFEDKQ2ZG7XFHCI)，2026-11-15；[Yonhap News Agency](https://en.yna.co.kr/view/AEN20261115000800320)，2026-11-15)*
+
+- **Anthropic 推出自部署 Claude Managed Agents 私人測試版：** Anthropic 於 11 月 12 日宣布，企業客戶現可將整套 Claude Managed Agents 服務——包括代理伺服器、沙盒環境、憑證管理及對話歷史——部署於自有雲端或本地基礎設施中，模型請求可路由至 Anthropic、Amazon Bedrock、Google 或企業內部閘道。*(來源：[The New Stack](https://thenewstack.io/self-hosted-claude-managed-agents)，2026-11-13；[Blockchain.News](https://blockchain.news/news/self-hosted-claude-managed-agents-beta)，2026-11-13；[TokenPost](https://www.tokenpost.com/news/technology/56203)，2026-11-13)*
+
+- **IMD 2026 全球數位與 AI 排名：美國居首，Nvidia 領跑企業指數：** 國際管理發展學院（IMD）於 11 月 11 日發布 2026 年全球數位與 AI 排名，美國在國家 AI 就緒度方面位居第一（新加坡、荷蘭分列二三），而企業 AI 成熟度指數中，Nvidia 排名第一，依次為 Alphabet、微軟、軟銀集團及三星電子。*(來源：[IMD](https://www.imd.org/news/artificial-intelligence/us-and-its-big-tech-lead-imd-2026-ai-rankings)，2026-11-10；[TNGlobal](https://technode.global/2026/11/13/us-beats-singapore-and-the-netherlands-for-the-top-spot-in-national-ai-readiness-imd)，2026-11-13；[Vietnam.vn](https://www.vietnam.vn/en/top-10-nuoc-dan-dau-the-gioi-ve-nang-luc-canh-tranh-so-va-ai)，2026-11-11)*
+
+- **系統性回顧：單一慣性感測器結合 AI 可識別中風患者功能性活動：** 《人工智慧評論》期刊發表的系統性回顧分析了 17 項研究（共 224 名中風患者），發現單一穿戴式慣性感測器結合 AI 人體動作識別技術，可準確偵測中風復健患者的功能性活動，為客觀、持續的臨床評估提供新方案。*(來源：[Bioengineer.org](https://bioengineer.org/review-finds-single-inertial-sensors-and-ai-recognize-functional-stroke-activities)，2026-11-15)*
+
+---
+
+### 分析
+
+本週 AI 新聞的核心張力在於能力擴張與安全應對之間的快速拉鋸。Google 在短短數週內依序推出 Gemini 4 Argon、Carbon 和 Hydrogen，表明前沿模型競爭已從「季度更新」加速為「近乎每週發布」，三款模型分別針對深度推理、網絡安全及高速代理執行等不同市場需求。與此同時，Anthropic 的自部署 Managed Agents 私人測試版標誌著企業 AI 採用走向成熟——客戶不再滿足於使用供應商雲端的模型，而是要求將整套代理框架、憑證管理和會話歷史全部納入自有防火牆之內。
+
+安全形勢的惡化同樣觸目驚心。JPCERT/CC 發現約 1,000 台 AI 增強型攻擊伺服器——利用 Artex 等工具自主掃描漏洞——這已是有據可查的 AI 驅動攻擊能力升級，而非理論風險。IBM 在同一週收購 AuthMind，將 AI 代理憑證治理整合進 HashiCorp Vault，正是業界對這一威脅類別的直接回應，反映出各方日益認識到：代理型 AI 系統本身正在成為主要攻擊面，傳統的靜態身份管理已遠遠不夠。
+
+從宏觀角度看，南韓 10 月 ICT 出口單月突破 703 億美元、年增逾兩倍的數字，提供了迄今最清晰的量化信號：AI 基礎設施投資已轉化為真實的經濟產出，至少對半導體出口國而言如此。IMD 排名進一步印證這一地緣格局：美國領跑國家 AI 就緒度，Nvidia 居企業成熟度之首，但指數同時揭示國家層面的 AI 優勢並不自動轉化為企業領導力。Nvidia 在黃仁勳離職後迅速確認對南韓的 26 萬 GPU 承諾，更清晰地說明：這種規模的 AI 供應鏈已高度機制化，不因任何個別高管的更迭而動搖。
+
+---
+
+### 來源
+- 9to5Google: https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch (published 2026-11-12)
+- VentureBeat: https://venturebeat.com/technology/google-launches-gemini-4-hydrogen-a-faster-smarter-pricier-flash-successor (published 2026-11-12)
+- Mashable: https://mashable.com/tech/google-gemini-4-hydrogen-ai-model-launch (published 2026-11-13)
+- The Straits Times: https://www.straitstimes.com/asia/east-asia/japan-led-probe-finds-1000-servers-likely-used-for-ai-driven-cyberattacks (published 2026-11-15)
+- The Vibes: https://www.thevibes.com/articles/lifestyles/129574/1000-servers-suspected-of-powering-ai-driven-cyberattacks-identified-worldwide (published 2026-11-15)
+- Kyodo News: https://english.kyodonews.net/articles/-/91455 (published 2026-11-15)
+- IBM Newsroom: https://newsroom.ibm.com/blog-ibm-advances-agent-identity-security-with-new-vault-capabilities (published 2026-11-13)
+- Unite.AI: https://www.unite.ai/ibm-acquires-authmind-to-monitor-ai-agent-credential-use (published 2026-11-12)
+- GovInfoSecurity: https://www.govinfosecurity.com/ibm-purchases-authmind-to-detect-agents-operating-off-scope-a-33393 (published 2026-11-13)
+- TNGlobal: https://technode.global/2026/11/15/nvidia-south-korea-260000-gpu-supply-plan (published 2026-11-14)
+- Korea JoongAng Daily: https://www.koreajoongangdaily.com/business/nvidia-reaffirms-korea-gpu-deployment-plan-despite-jensen-huangs-resignation/12972494 (published 2026-11-13)
+- Korea Times: https://www.koreatimes.co.kr/business/20261113/nvidia-confirms-planned-supply-of-gpus-to-s-korea-despite-jensen-huangs-resignation-science-minister (published 2026-11-13)
+- Biz Chosun: https://biz.chosun.com/en/en-it/2026/11/15/UMKZEU3N3RCSFEDKQ2ZG7XFHCI (published 2026-11-15)
+- Yonhap News Agency: https://en.yna.co.kr/view/AEN20261115000800320 (published 2026-11-15)
+- The New Stack: https://thenewstack.io/self-hosted-claude-managed-agents (published 2026-11-13)
+- Blockchain.News: https://blockchain.news/news/self-hosted-claude-managed-agents-beta (published 2026-11-13)
+- TokenPost: https://www.tokenpost.com/news/technology/56203 (published 2026-11-13)
+- IMD: https://www.imd.org/news/artificial-intelligence/us-and-its-big-tech-lead-imd-2026-ai-rankings (published 2026-11-10)
+- TNGlobal: https://technode.global/2026/11/13/us-beats-singapore-and-the-netherlands-for-the-top-spot-in-national-ai-readiness-imd (published 2026-11-13)
+- Vietnam.vn: https://www.vietnam.vn/en/top-10-nuoc-dan-dau-the-gioi-ve-nang-luc-canh-tranh-so-va-ai (published 2026-11-11)
+- Bioengineer.org: https://bioengineer.org/review-finds-single-inertial-sensors-and-ai-recognize-functional-stroke-activities (published 2026-11-15)
+
