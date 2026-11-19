@@ -12971,3 +12971,86 @@ The APEC summit in Shenzhen encapsulates the fundamental tension of the AI era: 
 - DW: https://www.dw.com/en/apec-summit-trump-to-travel-to-china-for-talks-with-putin-xi/live-79964719 (published 2026-11-17)
 - Brookings: https://www.brookings.edu/articles/trump-xi-and-putin-what-to-expect-from-the-apec-summit (published 2026-11-12)
 
+
+## 2026-11-19 05:35
+
+<!-- EN -->
+### Headlines
+
+- **Google Renames "Spark" to "Tasks," Opens Free Agentic AI to Millions in Six Countries:** Google rebranded its Spark AI agent as "Tasks," powered by Gemini 4 Hydrogen, and made it free for users 18+ in the US, Canada, Japan, South Korea, Australia, and India — previously a paid AI Pro/Ultra feature — adding capabilities like business calling via Duplex, Google Pay checkout, and calendar management. *(Sources: [The Verge](https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free), 2026-11-17; [AIToolsRecap](https://aitoolsrecap.com/Blog/ai-news-november-19-2026), 2026-11-19)*
+
+- **Anthropic's Claude Fable 5.2 Solves Two Decades-Old Open Problems in Black Hole Physics:** Anthropic published a research post on November 17 stating Claude Fable 5.2 completed a black hole phase-transition calculation first set up in 2003 and proved an exact limit in 3D quantum gravity modular bootstrap — both results peer-reviewed via preprint, though Anthropic cautioned neither resolves the full theory of quantum gravity. *(Sources: [CellCog](https://cellcog.ai/blog/claude-fable-5-2-black-hole-physics), 2026-11-18)*
+
+- **OpenAI Reports AI Agents Now Complete 46% of 2–4 Hour Research Tasks Autonomously — Up From 23% in March:** In a new essay titled "Research Acceleration: The Jagged Frontier," OpenAI disclosed that internal AI agents doubled their autonomous success rate on multi-hour research tasks over seven months, with agent workdays per researcher rising 11× from 0.5 to 5.7, though success varies sharply by task type (79% for monitoring training runs vs. 25% for inference code). *(Sources: [OpenAI](https://openai.com/index/research-acceleration-jagged-frontier), 2026-11-19; [Explainx.ai](https://explainx.ai/blog/openai-research-acceleration-jagged-frontier-november-2026), 2026-11-19)*
+
+- **California Governor Newsom Proposes Sweeping AI Safety Framework With Emergency Shutdown Powers:** Governor Gavin Newsom unveiled an 85-page plan on November 18 calling for mandatory AI safety standards, independent third-party oversight embedded inside frontier AI labs, a 48-hour critical incident reporting window, and emergency authority to shut down dangerous AI models — pitching it as a national template as he eyes a 2028 presidential run. *(Sources: [Politico](https://www.politico.com/news/2026/11/18/newsom-ai-plan-01172739), 2026-11-18; [CalMatters](https://calmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch), 2026-11-19; [California Governor's Office](https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight), 2026-11-18)*
+
+- **FBI Warns AI Hacking Tool "Artex" Is Enabling Full Network Breaches in Under Three Hours:** The FBI issued a FLASH advisory on November 13 about Artex, an open-source LLM-driven autonomous penetration-testing framework weaponized by criminal and nation-state actors worldwide, capable of compressing the full attack lifecycle from initial targeting to privileged access in under three hours; Google, CrowdStrike, and Amazon separately confirmed its use in aerospace, financial, and cloud credential-theft campaigns. *(Sources: [TechCrunch](https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours), 2026-11-16; [Google Cloud Blog](https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold), 2026-11-16)*
+
+- **Trump Confirms He and Xi Discussed AI for "the Whole Evening," With Jensen Huang's Fate a Brief Aside:** President Trump publicly stated that his November 18 conversation with Chinese President Xi Jinping covered artificial intelligence extensively, with former Nvidia CEO Jensen Huang's situation coming up only briefly — turning a private diplomatic exchange into a public data point for US–China AI relations. *(Sources: [Shattered.io](https://shattered.io/trump-says-huang-brief-mention-xi-ai-talk-nov-18), 2026-11-19)*
+
+---
+
+### Analysis
+
+Today's most consequential development is the Anthropic IPO, which at $83/share and a ~$1.5 trillion valuation officially surpasses SpaceX's June 2026 offering as the largest in US history. That the stock priced above range in a week when the Dow fell 1.6% on AI spending doubts sends a powerful signal: institutional confidence in frontier AI as a category remains intact even as broader market sentiment wobbles. The IPO crystallizes a year-long narrative arc — from Anthropic's S-1 filing, through its valuation controversies, to today's debut — and sets a new benchmark against which OpenAI's own eventual public offering will be measured.
+
+The cybersecurity story around Artex represents a qualitative escalation in the AI threat landscape. What was once the domain of nation-state actors — sub-three-hour full-network compromises — is now accessible to anyone who can spin up an open-source Go framework and plug in a DeepSeek or Claude API key. The simultaneous warnings from the FBI, Google, CrowdStrike, and Amazon suggest this is not a niche incident but a structural shift: agentic offensive tooling has crossed an operational threshold that defenders, constrained by human reaction speeds, are poorly equipped to match. This directly validates the concerns raised by Newsom's emergency-shutdown proposal and underscores why the race between offensive and defensive AI capabilities is tightening faster than most policy timelines anticipated.
+
+Taken together, the OpenAI "Jagged Frontier" report and Anthropic's black-hole physics results illustrate two distinct but converging trends: AI as an accelerant of its own development (OpenAI's agents now do the equivalent of 5.7 human workdays per researcher per calendar day), and AI as a genuine scientific instrument capable of closing problems that eluded human mathematicians and physicists for over two decades. Google's move to make its Gemini Tasks agent free in six countries adds a commercial dimension — the marginal cost of a first agentic workflow is now zero for hundreds of millions of users, dramatically lowering the barrier to mainstream agent adoption and intensifying competitive pressure on paid-tier rivals.
+
+---
+
+### Sources
+- The Verge: https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free (published 2026-11-17)
+- AIToolsRecap: https://aitoolsrecap.com/Blog/ai-news-november-19-2026 (published 2026-11-19)
+- CellCog: https://cellcog.ai/blog/claude-fable-5-2-black-hole-physics (published 2026-11-18)
+- OpenAI: https://openai.com/index/research-acceleration-jagged-frontier (published 2026-11-19)
+- Explainx.ai: https://explainx.ai/blog/openai-research-acceleration-jagged-frontier-november-2026 (published 2026-11-19)
+- Politico: https://www.politico.com/news/2026/11/18/newsom-ai-plan-01172739 (published 2026-11-18)
+- CalMatters: https://calmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch (published 2026-11-19)
+- California Governor's Office: https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight (published 2026-11-18)
+- TechCrunch: https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours (published 2026-11-16)
+- Google Cloud Blog: https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold (published 2026-11-16)
+- Shattered.io: https://shattered.io/trump-says-huang-brief-mention-xi-ai-talk-nov-18 (published 2026-11-19)
+
+<!-- ZH -->
+### 頭條新聞
+
+- **Google將「Spark」更名為「Tasks」，在六個國家免費開放AI自主代理功能：** Google將Spark AI代理更名為「Tasks」，以Gemini 4 Hydrogen驅動，並對美國、加拿大、日本、韓國、澳洲及印度18歲以上用戶免費開放，原本僅限付費AI Pro/Ultra用戶使用，新增功能包括透過Duplex代為致電商家、Google Pay結帳及行事曆管理等。*(來源：[The Verge](https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free)，2026-11-17；[AIToolsRecap](https://aitoolsrecap.com/Blog/ai-news-november-19-2026)，2026-11-19)*
+
+- **Anthropic的Claude Fable 5.2解決了兩個長達數十年的黑洞物理學懸案：** Anthropic於11月17日發布研究貼文，宣稱Claude Fable 5.2完成了一項自2003年起懸而未決的黑洞相變計算，並在3D量子重力模態自舉中證明了精確極限，兩項結果均已以預印本形式接受審查，但Anthropic特別說明這並未解決完整的量子重力理論。*(來源：[CellCog](https://cellcog.ai/blog/claude-fable-5-2-black-hole-physics)，2026-11-18)*
+
+- **OpenAI報告：AI代理現可自主完成46%的2至4小時研究任務，較3月的23%翻倍：** OpenAI在新報告《研究加速：參差不齊的前沿》中揭露，內部AI代理在七個月內將長時間研究任務的自主成功率提升一倍，每位研究員的代理工作日從0.5增至5.7天，但成功率依任務類型差異顯著（監控訓練進程達79%，推理代碼僅25%）。*(來源：[OpenAI](https://openai.com/index/research-acceleration-jagged-frontier)，2026-11-19；[Explainx.ai](https://explainx.ai/blog/openai-research-acceleration-jagged-frontier-november-2026)，2026-11-19)*
+
+- **加州州長紐森提出全面AI安全框架，包含緊急關閉授權：** 加州州長紐森於11月18日公布一份85頁計畫，要求強制實施AI安全標準、在前沿AI實驗室內嵌入獨立第三方監督機構、將重大事件回報窗口縮短至48小時，並賦予政府緊急關閉危險AI模型的權力，同時將此框架定位為全美立法範本，外界普遍認為此舉也與其2028年的總統競選布局有關。*(來源：[Politico](https://www.politico.com/news/2026/11/18/newsom-ai-plan-01172739)，2026-11-18；[CalMatters](https://calmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch)，2026-11-19；[California Governor's Office](https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight)，2026-11-18)*
+
+- **FBI警告：AI駭客工具「Artex」可在三小時內完成完整網路入侵：** FBI於11月13日發布FLASH警告，指出開源大型語言模型驅動的自主滲透測試框架Artex已被犯罪及國家級行為者廣泛武器化，可在不足三小時內完成從初步鎖定目標到取得特權存取的完整攻擊鏈；Google、CrowdStrike及Amazon分別確認該工具已被用於航太業、金融業及雲端憑證竊取等攻擊行動。*(來源：[TechCrunch](https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours)，2026-11-16；[Google Cloud Blog](https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold)，2026-11-16)*
+
+- **川普確認與習近平「整個晚上」都在談AI，黃仁勳議題僅短暫提及：** 川普總統公開表示，他於11月18日與中國國家主席習近平的對話主要圍繞人工智慧，前Nvidia執行長黃仁勳的相關情況僅被簡短提及，這將一次私人外交對話轉化為追蹤美中AI關係走向的公開參考依據。*(來源：[Shattered.io](https://shattered.io/trump-says-huang-brief-mention-xi-ai-talk-nov-18)，2026-11-19)*
+
+---
+
+### 分析
+
+今日最具指標意義的事件無疑是Anthropic IPO。在市場因AI支出疑慮導致道瓊指數下跌1.6%的一週內，ANT仍以高於預期區間的每股83美元定價，並以約1.5兆美元估值刷新美國史上最大IPO紀錄，超越SpaceX。這一結果清楚傳達：即便整體市場情緒搖擺，機構對前沿AI賽道的信心依然堅實。Anthropic的上市不僅是自身的里程碑，更為OpenAI日後的IPO設定了全新的估值基準，整個AI產業的資本市場敘事進入新的篇章。
+
+Artex駭客工具的廣泛蔓延代表著AI網路安全威脅的質性升級。過去只有國家級行為者才具備的「三小時完成全網入侵」能力，如今任何人只需部署一個開源Go框架、接入DeepSeek或Claude API即可實現。FBI、Google、CrowdStrike與Amazon同時發出警報，說明這絕非孤立事件，而是攻擊性代理AI工具跨越了一個關鍵作戰門檻，防守方受限於人類反應速度，已愈來愈難以招架。這一現實也直接印證了紐森緊急關閉授權提案背後的憂慮，並凸顯出攻防AI能力之間的競賽速度，正以遠超政策制定時程的速度在加快。
+
+綜觀OpenAI「參差前沿」報告與Anthropic黑洞物理學突破，兩者揭示了當前AI發展的兩條核心軌跡：其一，AI正加速自身的進化——OpenAI代理每名研究員每天相當於5.7個工作日的產出；其二，AI已成為能夠彌補人類數十年積欠的科學工具。與此同時，Google將Gemini Tasks在六個國家免費開放，意味著進行首次代理工作流的邊際成本降至零，將為數億普通用戶大幅降低採用門檻，也對其他付費代理服務形成強烈的競爭壓力。
+
+---
+
+### 來源
+- The Verge: https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free (published 2026-11-17)
+- AIToolsRecap: https://aitoolsrecap.com/Blog/ai-news-november-19-2026 (published 2026-11-19)
+- CellCog: https://cellcog.ai/blog/claude-fable-5-2-black-hole-physics (published 2026-11-18)
+- OpenAI: https://openai.com/index/research-acceleration-jagged-frontier (published 2026-11-19)
+- Explainx.ai: https://explainx.ai/blog/openai-research-acceleration-jagged-frontier-november-2026 (published 2026-11-19)
+- Politico: https://www.politico.com/news/2026/11/18/newsom-ai-plan-01172739 (published 2026-11-18)
+- CalMatters: https://calmatters.org/economy/technology/2026/11/newsom-touts-ai-kill-switch (published 2026-11-19)
+- California Governor's Office: https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight (published 2026-11-18)
+- TechCrunch: https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours (published 2026-11-16)
+- Google Cloud Blog: https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold (published 2026-11-16)
+- Shattered.io: https://shattered.io/trump-says-huang-brief-mention-xi-ai-talk-nov-18 (published 2026-11-19)
+
